@@ -1,0 +1,49 @@
+services:
+
+  gluetun:
+    image: qmcgaw/gluetun:latest
+    container_name: xdcc-gluetun
+    restart: unless-stopped
+    cap_add:
+      - NET_ADMIN
+    devices:
+      - /dev/net/tun:/dev/net/tun
+    environment:
+      - VPN_SERVICE_PROVIDER=mullvad
+      - VPN_TYPE=wireguard
+      - WIREGUARD_PRIVATE_KEY=${MULLVAD_PRIVATE_KEY}
+      - WIREGUARD_ADDRESSES=${MULLVAD_ADDRESS}
+      - SERVER_HOSTNAMES=nl-ams-wg-103
+      - DOT=off
+      - BLOCK_MALICIOUS=off
+      - DNS_ADDRESS=1.1.1.1
+    logging:
+      driver: json-file
+      options:
+        max-size: "5m"
+        max-file: "2"
+
+  xdcc:
+    build: .
+    container_name: xdcc-downloader
+    restart: "no"
+    network_mode: "service:gluetun"
+    command: python3 /app/downloader.py --once
+    depends_on:
+      - gluetun
+    environment:
+      - WISHLIST=/app/wishlist.md
+      - DOWNLOAD_DIR=/downloads
+      - DONE_LOG=/app/downloaded.txt
+      - SEARCH_LANG=
+      - VPN_REQUIRED=true
+      - VPN_RETRY_INTERVAL=30
+    volumes:
+      - ./wishlist.md:/app/wishlist.md
+      - ./downloaded.txt:/app/downloaded.txt
+      - /mnt/jellyfin2/media:/downloads
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"

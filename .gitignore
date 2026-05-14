@@ -1,0 +1,8 @@
+.env
+downloaded.txt
+downloads/
+config/
+scripts/*.bak
+__pycache__/
+*.pyc
+wishlist.md
