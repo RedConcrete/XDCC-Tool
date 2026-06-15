@@ -13,13 +13,11 @@ import zipfile
 import time
 import math
 import logging
-import random
-import string
 import json
 import urllib.request
 import urllib.parse
 from pathlib import Path
-from xdcc_client import xdcc_download, _rate_limit  # noqa: F401
+from xdcc_client import xdcc_download, _rate_limit, make_nick  # noqa: F401
 
 NOISE_TAGS = re.compile(
     r"\b(german|deutsch|english|dl|aac|aac2|ac3|dts|"
@@ -167,7 +165,7 @@ def _irc_bot_search(server: str, port: int, channel: str,
                     download_channel: str | None = None) -> list[dict]:
     """Sucht direkt via IRC-Suchbot (z.B. databeast auf Abjects)."""
     results = []
-    nick = f"xdcc{''.join(random.choices(string.ascii_lowercase, k=6))}"
+    nick = make_nick()
 
     _rate_limit(server)
     try:
@@ -232,20 +230,35 @@ def _irc_bot_search(server: str, port: int, channel: str,
                 elif "NOTICE" in line and search_bot.lower() in line.lower():
                     notice = line.split(":", 2)[-1].strip()
                     notice = _strip_mirc_formatting(notice)
+
+                    fname = bot = pack = size = gets = None
+
+                    # databeast-Format: (4.0G) Name.mkv (1314x) /msg BOT xdcc send #1169
                     m = re.search(
                         r'\(([0-9.]+[KMGT]?B?)\)\s+(\S+)\s+\((\d+)x\)\s+/msg\s+(\S+)\s+xdcc send #(\d+)',
                         notice, re.IGNORECASE
                     )
                     if m:
+                        size, fname, gets, bot, pack = m.groups()
+                    else:
+                        # BotReign-Format: 001)   5x | 185M | Name.mkv | /msg BOT XDCC SEND 110 | Used: ...
+                        m = re.search(
+                            r'^\d+\)\s*(\d+)x\s*\|\s*([0-9.]+[KMGT]?i?B?)\s*\|\s*(.+?)\s*\|\s*/msg\s+(\S+)\s+xdcc send\s+(\d+)',
+                            notice, re.IGNORECASE
+                        )
+                        if m:
+                            gets, size, fname, bot, pack = m.groups()
+
+                    if fname:
                         results.append({
-                            "fname":   m.group(2),
-                            "bot":     m.group(4),
-                            "pack":    m.group(5),
-                            "size":    parse_size(m.group(1)),
+                            "fname":   fname,
+                            "bot":     bot,
+                            "pack":    pack,
+                            "size":    parse_size(size),
                             "server":  server,
                             "channel": download_channel or channel,
                             "network": server.split(".")[1].capitalize(),
-                            "gets":    m.group(3),
+                            "gets":    gets,
                             "source":  f"IRC ({search_bot})",
                         })
                         last_result = time.time()

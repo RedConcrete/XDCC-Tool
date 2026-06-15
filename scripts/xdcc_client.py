@@ -17,7 +17,14 @@ from pathlib import Path
 
 log = logging.getLogger(__name__)
 
-NICK_BASE = "xdcc"
+# Gamer-Tag-Nicks statt "xdcc..." als Nick-Basis, da viele XDCC-Channels
+# Nicks mit "xdcc" per +b-Bann gegen Leech-Skripte blocken.
+_NICK_NAMES = [
+    "ShadowWolf", "NightHawk", "DragonSlayer", "PhantomX", "ViperZ",
+    "GhostRider", "StormBreaker", "IronFist", "BlazeFury", "CrimsonFox",
+    "DarkPhoenix", "RogueAce", "SilentSniper", "ToxicVenom", "FrostByte",
+    "ApexPredator", "SteelTitan", "VoidWalker", "ThunderStrike", "NovaBlade",
+]
 
 # Hammering-Schutz: Mindestabstand zwischen Verbindungen zum selben Server
 _MIN_CONNECT_INTERVAL = 8  # Sekunden
@@ -72,8 +79,9 @@ def _titles_match(expected: str, actual: str) -> bool:
 
 def make_nick() -> str:
     import random, string
-    suffix = ''.join(random.choices(string.ascii_lowercase + string.digits, k=6))
-    return f"{NICK_BASE}{suffix}"
+    name = random.choice(_NICK_NAMES)
+    suffix = ''.join(random.choices(string.digits, k=3))
+    return f"{name}{suffix}"
 
 
 class XDCCDownloader:

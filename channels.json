@@ -9,6 +9,15 @@
     "lang": "German"
   },
   {
+    "server": "irc.abjects.net",
+    "port": 6667,
+    "channel": "#moviegods",
+    "search_channel": "#mg-chat",
+    "search_bot": "BotReign",
+    "search_cmd": "!s {query}",
+    "lang": "English"
+  },
+  {
     "server": "irc.abandoned-irc.net",
     "port": 6667,
     "channel": "#zombie-warez",
