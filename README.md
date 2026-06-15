@@ -1,25 +1,32 @@
 # XDCC Tool
 
-Automatischer Downloader für Serien, Anime und Filme über IRC (XDCC). Sucht Packs im BEAST-Netzwerk auf Abjects, lädt sie per DCC herunter, entpackt Archive und sortiert alles automatisch in eine Jellyfin-kompatible Ordnerstruktur.
+Automatischer Downloader für Serien und Filme über IRC (XDCC) mit Web-UI.
+Sucht Packs live über IRC-Suchbots (z. B. `databeast` im BEAST-Netzwerk auf
+Abjects), lädt sie per eigenem DCC-Client herunter, entpackt Archive und
+sortiert alles automatisch in eine Jellyfin-kompatible Ordnerstruktur.
 
 ---
 
 ## Features
 
-- Suche direkt via IRC im `#beast-xdcc` Channel
-- Eigener DCC-Client (kein HexChat nötig)
-- VPN-Pflicht via Mullvad (konfigurierbar)
+- Web-UI (Port 5005) zum Bearbeiten der Wishlist und Starten von Läufen mit Live-Log
+- Live-Suche über IRC-Suchbots (z. B. `!s <query>` an `databeast` in `#beast-chat`) statt veralteter Web-Caches
+- Fallback-Suche über xdcc.eu für Netzwerke ohne eigenen Suchbot
+- Eigener DCC-Client (kein HexChat nötig), inkl. Resume bei Verbindungsabbruch
+- Titel-Abgleich verhindert Downloads falscher Dateien
 - Automatisches Entpacken (TAR, ZIP)
-- Jellyfin-konformes Umbenennen der Dateien
-- Daemon-Modus (alle 30 Minuten prüfen)
-- Bereits heruntergeladene Titel werden übersprungen
+- Jellyfin-konformes Umbenennen/Sortieren der Dateien
+- Bereits heruntergeladene Titel werden übersprungen (und können im Web-UI wieder entfernt werden)
 
 ---
 
 ## Voraussetzungen
 
 - Docker & Docker Compose
-- Mullvad VPN Account (optional, deaktivierbar)
+
+VPN-Unterstützung via Mullvad/Gluetun ist im `docker-compose.yml` vorbereitet,
+aber standardmäßig deaktiviert (`restart: "no"`, kein `network_mode` auf
+`xdcc` gesetzt). Bei Bedarf siehe Kommentar in `docker-compose.yml`.
 
 ---
 
@@ -32,74 +39,48 @@ git clone https://github.com/RedConcrete/XDCC-Tool.git
 cd XDCC-Tool
 ```
 
-### 2. .env Datei erstellen
-
-```bash
-cp .env.example .env
-```
-
-Dann die Werte in `.env` eintragen:
-
-```env
-MULLVAD_PRIVATE_KEY=dein_wireguard_private_key
-MULLVAD_ADDRESS=deine_wireguard_adresse/32
-```
-
-> VPN deaktivieren: In `docker-compose.yml` `VPN_REQUIRED=false` setzen.
-
-### 3. Wishlist anlegen
+### 2. Wishlist anlegen
 
 ```bash
 cp wishlist.example.md wishlist.md
 ```
 
-Wishlist bearbeiten:
-
-```markdown
-# XDCC Wunschliste
-
-## Serien
-- Breaking Bad S01
-- The Office S02
-
-## Anime
-- Solo Leveling S01
-- Demon Slayer S03
-
-## Filme
-- Inception 2010
-- The Dark Knight 2008
-```
+Die Wishlist kann danach komplett über das Web-UI gepflegt werden.
 
 **Regeln:**
 - Kategorie bestimmt den Zielordner (`serien/` oder `movies/`)
-- Staffelnummer immer angeben: `S01`, `S02` usw.
-- Bei Filmen: Jahreszahl für bessere Treffer
-- Sprache wird automatisch Deutsch gesucht
+- Staffelnummer als „Staffel NN“ oder „Season NN“ angeben, wird automatisch
+  in `SNN` für die Suche umgewandelt
+- Bei Filmen: Jahreszahl für bessere Treffer angeben
+- Titel sollten möglichst der Schreibweise der Release-Namen entsprechen
+  (z. B. „Greys Anatomy“ statt „Grey's Anatomy“), da sonst der Titel-Abgleich
+  den Download als falsche Datei verwirft
+
+### 3. Channels konfigurieren (optional)
+
+`channels.json` enthält die IRC-Server/Channels inkl. Suchbot-Konfiguration.
+Ohne eigene `channels.json` wird eine Standardkonfiguration für
+`irc.abjects.net` (`#beast-xdcc` / Suchbot `databeast` in `#beast-chat`)
+verwendet.
 
 ### 4. Docker starten
 
 ```bash
-docker compose up -d
+docker compose up -d xdcc
 ```
 
 ---
 
 ## Nutzung
 
-### Einmalig ausführen
+Web-UI unter `http://<host>:5005` öffnen:
 
-```bash
-docker compose run --rm xdcc
-```
-
-### Daemon-Modus (alle 30 Min)
-
-In `docker-compose.yml` den Command anpassen:
-
-```yaml
-command: ["python3", "/app/downloader.py", "--watch"]
-```
+- **Wunschliste**: Serien/Filme/Merkliste bearbeiten und speichern
+- **Download**: „Wishlist abarbeiten“ startet einen Lauf, Live-Log und
+  Fortschrittsbalken zeigen den aktuellen Stand
+- **Bereits geladen**: Liste erfolgreich geladener Titel, filterbar; über
+  „Entfernen“ kann ein Titel wieder aus der Liste genommen werden, damit er
+  beim nächsten Lauf erneut gesucht wird
 
 ### Logs
 
@@ -111,7 +92,7 @@ docker logs xdcc-downloader -f
 
 ## Ordnerstruktur nach dem Download
 
-**Serien/Anime:**
+**Serien:**
 ```
 serien/
 └── Solo Leveling/
@@ -131,15 +112,19 @@ movies/
 
 ## Troubleshooting
 
-**„0 Treffer" für einen Eintrag**
-- Titel anders schreiben
-- Staffelnummer prüfen
+**„nichts gefunden" für einen Eintrag**
+- Titel anders schreiben (näher an der Release-Schreibweise)
+- Staffelnummer/Jahr prüfen
 - Pack ggf. noch nicht auf dem Server verfügbar
 
+**„Falscher Titel – überspringe"**
+- Der Bot hat eine Datei gesendet, deren Name nicht zum Wishlist-Titel passt
+  (Sicherheitsfeature). Meist hilft es, den Wishlist-Titel an die tatsächliche
+  Release-Schreibweise anzupassen.
+
 **Eintrag nochmal herunterladen**
-```bash
-sed -i '/Titel S01/d' downloaded.txt
-```
+- Im Web-UI unter „Bereits geladen" auf „Entfernen" klicken, dann erneut
+  „Wishlist abarbeiten" ausführen.
 
 ---
 
@@ -150,6 +135,5 @@ sed -i '/Titel S01/d' downloaded.txt
 | `WISHLIST` | `/app/wishlist.md` | Pfad zur Wishlist |
 | `DOWNLOAD_DIR` | `/downloads` | Zielverzeichnis |
 | `DONE_LOG` | `/app/downloaded.txt` | Log erledigter Einträge |
-| `SEARCH_LANG` | `German` | Sprache für die Suche |
-| `VPN_REQUIRED` | `true` | VPN-Pflicht ein/aus |
-| `CHECK_INTERVAL` | `1800` | Intervall im Watch-Modus (Sekunden) |
+| `CHANNELS_CONFIG` | `/app/channels.json` | Pfad zur Channel-/Suchbot-Konfiguration |
+| `SEARCH_LANG` | `German` | Bevorzugte Sprache für die Suche |

@@ -5,6 +5,8 @@ Verbindet sich mit dem IRC-Server, joint den Channel und
 fordert das Pack per DCC an.
 """
 
+import re
+import select
 import socket
 import time
 import struct
@@ -17,6 +19,56 @@ log = logging.getLogger(__name__)
 
 NICK_BASE = "xdcc"
 
+# Hammering-Schutz: Mindestabstand zwischen Verbindungen zum selben Server
+_MIN_CONNECT_INTERVAL = 8  # Sekunden
+_last_connect: dict[str, float] = {}
+_connect_lock = threading.Lock()
+
+
+def _rate_limit(server: str, status_cb=None) -> None:
+    with _connect_lock:
+        now = time.time()
+        wait = _MIN_CONNECT_INTERVAL - (now - _last_connect.get(server, 0))
+        if wait > 0:
+            if status_cb:
+                status_cb(f"Warte {wait:.0f}s vor erneuter Verbindung zu {server}", "info")
+            time.sleep(wait)
+        _last_connect[server] = time.time()
+
+
+_TITLE_STOP = {
+    "german", "deutsch", "english", "dl", "aac", "ac3", "dts", "eac3",
+    "1080p", "720p", "480p", "2160p", "4k", "uhd",
+    "bluray", "webrip", "web", "hdtv", "dvdrip", "bdrip",
+    "x264", "x265", "hevc", "h264", "h265", "xvid",
+    "proper", "repack", "extended", "remux", "hybrid",
+    "mkv", "mp4", "avi", "tar", "zip",
+}
+
+
+def _title_words(fname: str) -> set[str]:
+    words = []
+    for part in re.split(r'[.\-_\s]+', fname):
+        if re.fullmatch(r'\d{4}', part):
+            break
+        low = part.lower()
+        if low in _TITLE_STOP:
+            break
+        if len(part) >= 2:
+            words.append(low)
+    return set(words)
+
+
+def _titles_match(expected: str, actual: str) -> bool:
+    exp = _title_words(expected)
+    act = _title_words(actual)
+    if not exp:
+        return True
+    key = {w for w in exp if len(w) > 3}
+    if not key:
+        return bool(exp & act)
+    return key.issubset(act)
+
 
 def make_nick() -> str:
     import random, string
@@ -26,19 +78,31 @@ def make_nick() -> str:
 
 class XDCCDownloader:
     def __init__(self, server: str, port: int, channel: str, bot: str,
-                 pack: str, output_dir: Path, timeout: int = 120):
-        self.server     = server
-        self.port       = port
-        self.channel    = channel
-        self.bot        = bot.lower()
-        self.pack       = pack
-        self.output_dir = output_dir
-        self.timeout    = timeout
-        self.nick       = make_nick()
-        self.sock       = None
-        self.done       = False
-        self.success    = False
-        self.filename   = None
+                 pack: str, output_dir: Path, timeout: int = 120,
+                 extra_channels: list = None,
+                 progress_callback=None, status_callback=None, stall_callback=None,
+                 skip_names_check: bool = False, expected_fname: str = ""):
+        self.server         = server
+        self.port           = port
+        self.channel        = channel
+        self.bot            = bot.lower()
+        self.pack           = pack
+        self.output_dir     = output_dir
+        self.timeout        = timeout
+        self.extra_channels = extra_channels or []
+        self.nick           = make_nick()
+        self.sock           = None
+        self.done           = False
+        self.success        = False
+        self.filename       = None
+        self._dcc_resume    = None
+        self.progress_callback    = progress_callback
+        self.status_callback      = status_callback
+        self.stall_callback       = stall_callback
+        self.skip_names_check     = skip_names_check
+        self.expected_fname       = expected_fname
+        self.file_exists_callback = None   # wird von außen gesetzt
+        self._skip_dcc_fname      = None   # angekündigte Datei überspringen
 
     def _send(self, msg: str):
         self.sock.sendall((msg + "\r\n").encode("utf-8", errors="replace"))
@@ -58,60 +122,55 @@ class XDCCDownloader:
             except socket.timeout:
                 continue
 
-    def _handle_dcc(self, dcc_msg: str):
-        """Parst DCC SEND und startet den Datei-Transfer."""
-        # Format: DCC SEND filename ip port size
+    def _parse_dcc_send(self, dcc_msg: str):
+        """Parst DCC SEND und gibt (filename, ip, port, filesize) zurück."""
         import re
         m = re.search(r'DCC SEND "?([^"]+?)"?\s+(\d+)\s+(\d+)\s+(\d+)', dcc_msg)
         if not m:
-            log.error(f"DCC SEND Parse-Fehler: {dcc_msg}")
-            return False
+            return None
+        filename = m.group(1)
+        ip       = socket.inet_ntoa(struct.pack("!I", int(m.group(2))))
+        port     = int(m.group(3))
+        filesize = int(m.group(4))
+        return filename, ip, port, filesize
 
-        filename  = m.group(1)
-        ip_int    = int(m.group(2))
-        port      = int(m.group(3))
-        filesize  = int(m.group(4))
-
-        # IP aus Integer konvertieren
-        ip = socket.inet_ntoa(struct.pack("!I", ip_int))
-        self.filename = filename
-
-        log.info(f"DCC SEND: {filename} | {filesize//1024//1024}MB | {ip}:{port}")
-
+    def _do_transfer(self, ip: str, port: int, filename: str,
+                     filesize: int, resume_pos: int = 0) -> bool:
         self.output_dir.mkdir(parents=True, exist_ok=True)
         outpath = self.output_dir / filename
+        STALL_CHECK = 60  # Sekunden ohne Daten → User fragen
 
-        STALL_TIMEOUT = 30  # Sekunden ohne Daten = Stall
         try:
-            dcc_sock = socket.create_connection((ip, port), timeout=8)
-            dcc_sock.settimeout(STALL_TIMEOUT)
-            received = 0
-            start = time.time()
-            last_log = start
-            last_data = start
+            dcc_sock = socket.create_connection((ip, port), timeout=30)
+            dcc_sock.settimeout(None)  # vollständig blockierend – kein Timeout auf recv/sendall
+            received = resume_pos
+            start    = time.time()
 
-            with open(outpath, "wb") as f:
+            mode = "ab" if resume_pos > 0 else "wb"
+            if resume_pos > 0 and self.status_callback:
+                self.status_callback(f"Resume ab {resume_pos//1024//1024} MB", "info")
+
+            with open(outpath, mode) as f:
                 while received < filesize:
-                    try:
-                        chunk = dcc_sock.recv(65536)
-                    except socket.timeout:
-                        stall = time.time() - last_data
-                        log.warning(f"  Keine Daten seit {stall:.0f}s – Stall erkannt, breche ab")
-                        raise Exception(f"Stall nach {stall:.0f}s ohne Daten")
+                    # select() wartet bis Daten da sind – ohne Socket-Timeout zu setzen
+                    readable, _, _ = select.select([dcc_sock], [], [], STALL_CHECK)
+                    if not readable:
+                        # Keine Daten seit STALL_CHECK Sekunden → User fragen
+                        keep_going = True
+                        if self.stall_callback:
+                            keep_going = self.stall_callback(received, filesize)
+                        if not keep_going:
+                            log.info("Download vom User abgebrochen")
+                            return False
+                        continue  # weiter warten
+                    chunk = dcc_sock.recv(65536)
                     if not chunk:
                         break
                     f.write(chunk)
                     received += len(chunk)
-                    last_data = time.time()
-                    # Acknowledge
                     dcc_sock.sendall(struct.pack("!I", received & 0xFFFFFFFF))
-
-                    now = time.time()
-                    if now - last_log >= 30:
-                        pct = received / filesize * 100
-                        speed = received / (now - start) / 1024 / 1024
-                        log.info(f"  {pct:.1f}% | {received//1024//1024}MB / {filesize//1024//1024}MB | {speed:.1f} MB/s")
-                        last_log = now
+                    if self.progress_callback:
+                        self.progress_callback(received, filesize)
 
             dcc_sock.close()
             elapsed = time.time() - start
@@ -122,17 +181,60 @@ class XDCCDownloader:
 
         except Exception as e:
             log.error(f"DCC Transfer-Fehler: {e}")
-            if outpath.exists():
-                outpath.unlink()
+            if self.status_callback:
+                self.status_callback(str(e), "error")
             return False
 
+    def _handle_dcc(self, dcc_msg: str):
+        """Parst DCC SEND. Bei vorhandener Teil-Datei wird DCC RESUME gesendet."""
+        parsed = self._parse_dcc_send(dcc_msg)
+        if not parsed:
+            log.error(f"DCC SEND Parse-Fehler: {dcc_msg}")
+            return False
+
+        filename, ip, port, filesize = parsed
+        self.filename = filename
+        log.info(f"DCC SEND: {filename} | {filesize//1024//1024}MB | {ip}:{port}")
+
+        if self._skip_dcc_fname and self._skip_dcc_fname == filename:
+            log.info(f"  Datei bereits vorhanden – überspringe: {filename}")
+            self.success = True
+            self.done = True
+            return True
+
+        if self.expected_fname and not _titles_match(self.expected_fname, filename):
+            log.info(f"  Titel-Mismatch: {filename!r} (erwartet: {self.expected_fname!r})")
+            if self.status_callback:
+                self.status_callback(f"Falscher Titel – überspringe: {filename}", "warning")
+            return False
+
+        self.output_dir.mkdir(parents=True, exist_ok=True)
+        outpath    = self.output_dir / filename
+        resume_pos = outpath.stat().st_size if outpath.exists() else 0
+
+        if resume_pos > 0 and resume_pos < filesize:
+            # DCC RESUME: Info speichern, IRC-Loop sendet das RESUME-Kommando
+            log.info(f"  Teil-Datei gefunden ({resume_pos//1024//1024}MB) – DCC RESUME wird ausgehandelt")
+            self._dcc_resume = (ip, port, filename, filesize, resume_pos)
+            return None  # Signal an IRC-Loop: RESUME senden und auf ACCEPT warten
+        elif resume_pos >= filesize:
+            log.info(f"  Datei bereits vollständig vorhanden, überspringe")
+            self.success = True
+            return True
+
+        self.done = True
+        return self._do_transfer(ip, port, filename, filesize, resume_pos=0)
+
     def download(self) -> bool:
+        _rate_limit(self.server, self.status_callback)
         log.info(f"Verbinde mit {self.server}:{self.port} als {self.nick}")
         try:
             self.sock = socket.create_connection((self.server, self.port), timeout=30)
             self.sock.settimeout(5)
         except Exception as e:
             log.error(f"Verbindung fehlgeschlagen: {e}")
+            if self.status_callback:
+                self.status_callback(f"Verbindung fehlgeschlagen: {e}", "error")
             return False
 
         self._send(f"NICK {self.nick}")
@@ -140,13 +242,17 @@ class XDCCDownloader:
 
         registered    = False
         joined        = False
+        names_done    = False
         request_sent  = False
+        channel_nicks: set[str] = set()
         deadline      = time.time() + self.timeout
 
         try:
             for line in self._recv_lines():
                 if time.time() > deadline:
                     log.error("Timeout - kein Download gestartet")
+                    if self.status_callback:
+                        self.status_callback("Timeout – Bot hat nicht geantwortet", "error")
                     break
 
                 log.debug(f"<<< {line}")
@@ -155,6 +261,14 @@ class XDCCDownloader:
                 if line.startswith("PING"):
                     self._send(f"PONG {line.split(':', 1)[-1]}")
                     continue
+
+                # Server-seitige Trennung (Ban, K-Line, etc.)
+                if line.startswith("ERROR"):
+                    msg = line.split(":", 1)[-1].strip() if ":" in line else line
+                    log.error(f"IRC ERROR: {msg}")
+                    if self.status_callback:
+                        self.status_callback(f"IRC: {msg}", "error")
+                    break
 
                 parts = line.split()
                 if len(parts) < 2:
@@ -165,15 +279,48 @@ class XDCCDownloader:
                 # 001 = Registered
                 if code == "001" and not registered:
                     registered = True
-                    log.info(f"Registriert. Joine {self.channel}")
+                    for ec in self.extra_channels:
+                        self._send(f"JOIN {ec}")
                     self._send(f"JOIN {self.channel}")
 
-                # JOIN bestätigt
-                elif "JOIN" in line and self.nick.lower() in line.lower() and not joined:
+                # 353 = NAMES-Liste (Channel-Mitglieder)
+                elif code == "353" and self.channel.lower() in line.lower():
+                    nicks_part = line.split(":", 2)[-1]
+                    for n in nicks_part.strip().split():
+                        channel_nicks.add(n.lstrip("@+~&%").lower())
+
+                # 366 = End of NAMES
+                elif code == "366" and self.channel.lower() in line.lower() and not names_done:
+                    names_done = True
+                    if not self.skip_names_check:
+                        bot_found = (
+                            self.bot in channel_nicks or
+                            any(nick.endswith(self.bot) for nick in channel_nicks)
+                        )
+                        if not bot_found:
+                            if self.status_callback:
+                                self.status_callback(
+                                    f"Bot '{self.bot}' nicht im Channel", "warning"
+                                )
+                            break
+
+                # JOIN bestätigt (eigener Channel)
+                elif "JOIN" in line and self.nick.lower() in line.lower() \
+                        and self.channel.lower() in line.lower() and not joined:
                     joined = True
-                    log.info(f"Channel {self.channel} gejoint. Sende XDCC-Anfrage...")
-                    time.sleep(3)
-                    self._send(f"PRIVMSG {self.bot} :xdcc send #{self.pack}")
+                    if self.skip_names_check:
+                        # NAMES überspringen – Anfrage sofort stellen
+                        names_done = True
+                    else:
+                        self._send(f"NAMES {self.channel}")
+
+                # Anfrage senden sobald NAMES-Prüfung durch
+                elif joined and names_done and not request_sent:
+                    cmd = f"xdcc send #{self.pack}"
+                    if self.status_callback:
+                        self.status_callback(f"/msg {self.bot} {cmd}", "info")
+                    time.sleep(1)
+                    self._send(f"PRIVMSG {self.bot} :{cmd}")
                     request_sent = True
                     deadline = time.time() + self.timeout
 
@@ -182,29 +329,87 @@ class XDCCDownloader:
                     sender = line.split("!")[0].lstrip(":").lower()
                     if sender == self.bot or self.bot in line.lower():
                         dcc_part = line.split("DCC SEND", 1)[1]
-                        self.done = True
-                        return self._handle_dcc("DCC SEND" + dcc_part)
+                        result = self._handle_dcc("DCC SEND" + dcc_part)
+                        if result is None and self._dcc_resume:
+                            _, port, filename, _, resume_pos = self._dcc_resume
+                            self._send(f"PRIVMSG {self.bot} :\x01DCC RESUME {filename} {port} {resume_pos}\x01")
+                        elif result is not None:
+                            self.done = True
+                            return result
 
                 # Bot schickt oft via NOTICE
                 elif "NOTICE" in line and "DCC SEND" in line:
                     dcc_part = line.split("DCC SEND", 1)[1]
-                    self.done = True
-                    return self._handle_dcc("DCC SEND" + dcc_part)
+                    result = self._handle_dcc("DCC SEND" + dcc_part)
+                    if result is None and self._dcc_resume:
+                        _, port, filename, _, resume_pos = self._dcc_resume
+                        self._send(f"PRIVMSG {self.bot} :\x01DCC RESUME {filename} {port} {resume_pos}\x01")
+                    elif result is not None:
+                        self.done = True
+                        return result
 
                 # CTCP DCC
                 elif "\x01DCC SEND" in line:
                     dcc_part = line.split("\x01DCC SEND", 1)[1].rstrip("\x01")
-                    self.done = True
-                    return self._handle_dcc("DCC SEND" + dcc_part)
+                    result = self._handle_dcc("DCC SEND" + dcc_part)
+                    if result is None and self._dcc_resume:
+                        _, port, filename, _, resume_pos = self._dcc_resume
+                        self._send(f"PRIVMSG {self.bot} :\x01DCC RESUME {filename} {port} {resume_pos}\x01")
+                    elif result is not None:
+                        self.done = True
+                        return result
 
-                # Queue-Meldungen vom Bot
-                elif request_sent and "queue" in line.lower():
-                    log.info(f"Bot: {line.split(':', 2)[-1].strip()}")
-                    deadline = time.time() + 600  # Warteschlange = mehr Zeit
+                # DCC ACCEPT (Antwort auf DCC RESUME)
+                elif "\x01DCC ACCEPT" in line and self._dcc_resume:
+                    m = re.search(r"DCC ACCEPT\s+\S+\s+(\d+)\s+(\d+)", line)
+                    if m:
+                        confirmed_pos = int(m.group(2))
+                        ip, port, filename, filesize, _ = self._dcc_resume
+                        log.info(f"  DCC ACCEPT: Resume ab {confirmed_pos//1024//1024}MB bestätigt")
+                        self.done = True
+                        return self._do_transfer(ip, port, filename, filesize, confirmed_pos)
+
+                # NOTICE vom Bot (Queue, Wartezeit, etc.)
+                elif request_sent and "NOTICE" in line and self.bot in line.lower():
+                    notice_text = line.split(":", 2)[-1].strip()
+                    if self.status_callback:
+                        self.status_callback(notice_text, "info")
+                    if re.search(r"\bqueue\b", notice_text, re.IGNORECASE):
+                        deadline = time.time() + 600  # Warteschlange = mehr Zeit
+                    # Bot kündigt Datei an → prüfen ob schon vorhanden
+                    m = re.search(r'Sending you pack[^"]*"([^"]+)"', notice_text, re.IGNORECASE)
+                    if m:
+                        announced = m.group(1)
+                        exists_in_staging = (self.output_dir / announced).exists()
+                        exists_elsewhere  = (self.file_exists_callback and
+                                             self.file_exists_callback(announced))
+                        if exists_in_staging or exists_elsewhere:
+                            if self.status_callback:
+                                self.status_callback(
+                                    f"Datei bereits vorhanden – überspringe: {announced}", "warning"
+                                )
+                            self._skip_dcc_fname = announced
+
+                # Queue-Meldungen vom Bot (fallback)
+                elif request_sent and re.search(r"\bqueue\b", line, re.IGNORECASE):
+                    bot_msg = line.split(":", 2)[-1].strip()
+                    if self.status_callback:
+                        self.status_callback(bot_msg, "info")
+                    deadline = time.time() + 600
 
                 # Banned oder Error
-                elif code in ("474", "473", "475"):
-                    log.error(f"Channel-Fehler: {line}")
+                elif code in ("474", "473", "475", "465"):
+                    msg = line.split(":", 2)[-1].strip() if line.count(":") >= 2 else line
+                    log.error(f"Channel/Server-Fehler {code}: {msg}")
+                    if self.status_callback:
+                        self.status_callback(f"Gesperrt ({code}): {msg[:80]}", "error")
+                    break
+
+                # Ban-NOTICE vor der Registrierung (z.B. Rizon G-Line)
+                elif "NOTICE" in line and "banned" in line.lower() and not registered:
+                    msg = line.split(":", 2)[-1].strip()
+                    if self.status_callback:
+                        self.status_callback(f"Gesperrt: {msg[:80]}", "error")
                     break
 
         except Exception as e:
@@ -221,6 +426,21 @@ class XDCCDownloader:
 
 
 def xdcc_download(server: str, channel: str, bot: str, pack: str,
-                  output_dir: Path, port: int = 6667, timeout: int = 180) -> bool:
-    d = XDCCDownloader(server, port, channel, bot, pack, output_dir, timeout)
-    return d.download()
+                  output_dir: Path, port: int = 6667, timeout: int = 180,
+                  extra_channels: list = None,
+                  progress_callback=None, status_callback=None,
+                  stall_callback=None,
+                  skip_names_check: bool = False,
+                  file_exists_callback=None,
+                  expected_fname: str = "") -> tuple[bool, str | None]:
+    """Gibt (success, actual_filename) zurück."""
+    d = XDCCDownloader(server, port, channel, bot, pack, output_dir, timeout,
+                       extra_channels=extra_channels,
+                       progress_callback=progress_callback,
+                       status_callback=status_callback,
+                       stall_callback=stall_callback,
+                       skip_names_check=skip_names_check,
+                       expected_fname=expected_fname)
+    d.file_exists_callback = file_exists_callback
+    success = d.download()
+    return success, d.filename

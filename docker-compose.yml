@@ -1,9 +1,12 @@
 services:
 
+  # Aktuell ungenutzt (kein aktives Mullvad-Abo). xdcc laeuft mit normalem
+  # Docker-Netzwerk. Bei neuem VPN-Abo: restart auf "unless-stopped" setzen
+  # und bei xdcc network_mode/depends_on auf gluetun wieder aktivieren.
   gluetun:
     image: qmcgaw/gluetun:latest
     container_name: xdcc-gluetun
-    restart: unless-stopped
+    restart: "no"
     cap_add:
       - NET_ADMIN
     devices:
@@ -26,21 +29,19 @@ services:
   xdcc:
     build: .
     container_name: xdcc-downloader
-    restart: "no"
-    network_mode: "service:gluetun"
-    command: python3 /app/downloader.py --once
-    depends_on:
-      - gluetun
+    restart: unless-stopped
+    ports:
+      - "5005:5005"
     environment:
       - WISHLIST=/app/wishlist.md
       - DOWNLOAD_DIR=/downloads
       - DONE_LOG=/app/downloaded.txt
-      - SEARCH_LANG=
-      - VPN_REQUIRED=true
-      - VPN_RETRY_INTERVAL=30
+      - SEARCH_LANG=German
+      - CHANNELS_CONFIG=/app/channels.json
     volumes:
       - ./wishlist.md:/app/wishlist.md
       - ./downloaded.txt:/app/downloaded.txt
+      - ./channels.json:/app/channels.json
       - /mnt/jellyfin2/media:/downloads
     logging:
       driver: json-file

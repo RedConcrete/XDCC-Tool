@@ -1,0 +1,27 @@
+[
+  {
+    "server": "irc.abjects.net",
+    "port": 6667,
+    "channel": "#beast-xdcc",
+    "search_channel": "#beast-chat",
+    "search_bot": "databeast",
+    "search_cmd": "!s {query}",
+    "lang": "German"
+  },
+  {
+    "server": "irc.abandoned-irc.net",
+    "port": 6667,
+    "channel": "#zombie-warez",
+    "search_channel": "#ZW-CHAT",
+    "extra_channels": ["#ZW-CHAT"],
+    "lang": "German"
+  },
+  {
+    "server": "irc.rizon.net",
+    "port": 6667,
+    "channel": "#1WAREZ",
+    "search_channel": "#1WAREZ",
+    "extra_channels": ["#1WAREZ-CHAT"],
+    "lang": "German"
+  }
+]

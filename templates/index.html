@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>XDCC Downloader</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <header>
+    <h1>XDCC Downloader</h1>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Wunschliste</h2>
+      <div class="wishlist-grid">
+        <div class="field">
+          <label for="serien">Serien <span class="hint">(wird gesucht &amp; geladen)</span></label>
+          <textarea id="serien" rows="6" placeholder="Ein Titel pro Zeile"></textarea>
+        </div>
+        <div class="field">
+          <label for="film">Filme <span class="hint">(wird gesucht &amp; geladen)</span></label>
+          <textarea id="film" rows="6" placeholder="Ein Titel pro Zeile"></textarea>
+        </div>
+        <div class="field">
+          <label for="merkliste">Merkliste <span class="hint">(nur Notiz, wird nicht gesucht)</span></label>
+          <textarea id="merkliste" rows="6" placeholder="Ein Titel pro Zeile"></textarea>
+        </div>
+      </div>
+      <div class="actions">
+        <button id="save-btn">Speichern</button>
+        <span id="save-status" class="status-msg"></span>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Download</h2>
+      <div class="actions">
+        <button id="run-btn">Wishlist abarbeiten</button>
+        <span id="run-status" class="status-msg"></span>
+      </div>
+      <div id="progress-box" class="progress-box hidden">
+        <div class="progress-label"></div>
+        <div class="progress-bar"><div class="progress-bar-fill"></div></div>
+      </div>
+      <pre id="log-box" class="log-box"></pre>
+      <div id="summary-box" class="summary-box hidden"></div>
+    </section>
+
+    <section class="card">
+      <h2>Bereits geladen</h2>
+      <input id="downloaded-filter" type="text" placeholder="Filtern ...">
+      <ul id="downloaded-list" class="downloaded-list"></ul>
+    </section>
+  </main>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
