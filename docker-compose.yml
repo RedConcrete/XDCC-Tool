@@ -36,12 +36,14 @@ services:
       - WISHLIST=/app/wishlist.md
       - DOWNLOAD_DIR=/downloads
       - DONE_LOG=/app/downloaded.txt
+      - CHAT_LOG=/app/Chat.txt
       - SEARCH_LANG=German
       - CHANNELS_CONFIG=/app/channels.json
     volumes:
       - ./wishlist.md:/app/wishlist.md
       - ./downloaded.txt:/app/downloaded.txt
       - ./channels.json:/app/channels.json
+      - ./Chat.txt:/app/Chat.txt
       - /mnt/jellyfin2/media:/downloads
     logging:
       driver: json-file

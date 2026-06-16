@@ -137,7 +137,13 @@ def _make_stall_cb(status):
 
 def process_item(title: str, category: str, status_cb=None, progress_cb=None,
                  irc_callback=None) -> bool:
+    banned_servers: set[str] = set()
+    _ban_flag = False
+
     def status(msg, level="info"):
+        nonlocal _ban_flag
+        if msg.startswith("Gesperrt ("):
+            _ban_flag = True
         if status_cb:
             status_cb(title, msg, level)
 
@@ -163,49 +169,78 @@ def process_item(title: str, category: str, status_cb=None, progress_cb=None,
 
     candidates = sorted(deduped, key=lambda p: score_pack(p, category), reverse=True)
     expected = _sanitize_expected(title)
+    channel_failures: dict[tuple, int] = {}
 
     for i, pack in enumerate(candidates[:MAX_CANDIDATES]):
-        fname = pack.get("fname", "?")
-        status(f"Versuch {i + 1}/{min(len(candidates), MAX_CANDIDATES)}: "
-               f"{fname} ({pack.get('server')} {pack.get('channel')})")
+        server = pack.get("server", "")
+        ch_key = (server, pack.get("channel", ""))
 
-        try:
-            success, filename = xdcc_download(
-                server=pack["server"],
-                channel=pack["channel"],
-                bot=pack["bot"],
-                pack=pack["pack"],
-                output_dir=STAGING_DIR,
-                port=pack.get("port", 6667),
-                timeout=60,
-                extra_channels=_extra_channels_for(pack["server"], pack["channel"]),
-                progress_callback=(lambda r, t: progress_cb(title, r, t)) if progress_cb else None,
-                status_callback=status,
-                stall_callback=_make_stall_cb(status),
-                expected_fname=expected,
-                irc_callback=irc_callback,
-            )
-        except Exception as e:
-            status(f"Download-Fehler: {e}", "error")
+        if server in banned_servers:
+            status(f"Überspringe {pack.get('channel')} – auf {server} gesperrt", "warning")
+            continue
+        if channel_failures.get(ch_key, 0) >= 2:
+            status(f"Überspringe {pack.get('channel')} (zu viele Fehlversuche)", "warning")
             continue
 
-        if success and filename:
-            status(f"Download fertig: {filename}", "success")
-            try:
-                downloaded_path = STAGING_DIR / filename
-                created = postprocess(downloaded_path, category)
-                target_base = CATEGORY_DIRS.get(category, STAGING_DIR)
-                target_base.mkdir(parents=True, exist_ok=True)
-                for item in created:
-                    _merge_move(item, target_base / item.name)
-            except Exception as e:
-                status(f"Einsortieren fehlgeschlagen: {e}", "error")
-                traceback.print_exc()
-                continue  # Staging-Datei kaputt → nächsten Kandidaten probieren
+        fname = pack.get("fname", "?")
+        status(f"Versuch {i + 1}/{min(len(candidates), MAX_CANDIDATES)}: "
+               f"{fname} ({server} {pack.get('channel')})")
 
-            append_done(title)
-            status("fertig & einsortiert", "success")
-            return True
+        success, filename = False, None
+        for _dl_try in range(2):  # max 1 Retry bei Verbindungsabbruch (DCC RESUME)
+            _ban_flag = False
+            try:
+                success, filename = xdcc_download(
+                    server=server,
+                    channel=pack["channel"],
+                    bot=pack["bot"],
+                    pack=pack["pack"],
+                    output_dir=STAGING_DIR,
+                    port=pack.get("port", 6667),
+                    timeout=60,
+                    extra_channels=_extra_channels_for(server, pack["channel"]),
+                    progress_callback=(lambda r, t: progress_cb(title, r, t)) if progress_cb else None,
+                    status_callback=status,
+                    stall_callback=_make_stall_cb(status),
+                    expected_fname=expected,
+                    irc_callback=irc_callback,
+                )
+            except Exception as e:
+                status(f"Download-Fehler: {e}", "error")
+                success, filename = False, None
+
+            if _ban_flag:
+                banned_servers.add(server)
+                break
+            if success:
+                break
+            # Verbindungsabbruch während DCC-Übertragung → Resume versuchen
+            if filename and (STAGING_DIR / filename).exists() and _dl_try == 0:
+                status("Verbindung unterbrochen – versuche DCC RESUME …", "warning")
+                continue
+            break
+
+        if not success:
+            if not filename:  # Kein Transfer gestartet → Channel-Fehlzähler erhöhen
+                channel_failures[ch_key] = channel_failures.get(ch_key, 0) + 1
+            continue
+
+        status(f"Download fertig: {filename}", "success")
+        try:
+            downloaded_path = STAGING_DIR / filename
+            created = postprocess(downloaded_path, category)
+            target_base = CATEGORY_DIRS.get(category, STAGING_DIR)
+            target_base.mkdir(parents=True, exist_ok=True)
+            for item in created:
+                _merge_move(item, target_base / item.name)
+        except Exception as e:
+            status(f"Einsortieren fehlgeschlagen: {e}", "error")
+            traceback.print_exc()
+            continue
+
+        append_done(title)
+        status("fertig & einsortiert", "success")
+        return True
 
     status("fehlgeschlagen", "error")
     return False

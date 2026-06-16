@@ -1,13 +1,17 @@
 #!/usr/bin/env python3
 """Lokale Web-UI fuer den XDCC-Downloader (LAN-only, Port 5005)."""
 
+import os
 import threading
 import time
+from datetime import datetime
 from pathlib import Path
 
 from flask import Flask, jsonify, render_template, request
 
 import cli
+
+CHAT_LOG_PATH = Path(os.environ.get("CHAT_LOG", "/app/Chat.txt"))
 
 app = Flask(__name__)
 
@@ -36,6 +40,11 @@ def _progress_cb(title, received, total):
 def _irc_cb(line: str):
     with _lock:
         _state["irc_log"].append({"ts": time.time(), "line": line})
+    try:
+        with open(CHAT_LOG_PATH, "a", encoding="utf-8") as f:
+            f.write(line + "\n")
+    except Exception:
+        pass
 
 
 def _run_job():
@@ -81,6 +90,13 @@ def run():
         _state["irc_log"] = []
         _state["summary"] = None
         _state["progress"] = None
+    try:
+        with open(CHAT_LOG_PATH, "a", encoding="utf-8") as f:
+            f.write(f"\n{'='*60}\n")
+            f.write(f"=== Lauf gestartet: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} ===\n")
+            f.write(f"{'='*60}\n")
+    except Exception:
+        pass
     threading.Thread(target=_run_job, daemon=True).start()
     return jsonify({"ok": True})
 

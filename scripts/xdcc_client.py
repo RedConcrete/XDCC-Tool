@@ -425,12 +425,11 @@ class XDCCDownloader:
                         exists_elsewhere  = (self.file_exists_callback and
                                              self.file_exists_callback(announced))
 
-                        # Unvollständige Datei in Staging → löschen und neu laden
+                        # Unvollständige Datei → nicht überspringen, DCC RESUME greift
                         if exists_in_staging and announced_size:
                             local_size = local_path.stat().st_size
                             if local_size < announced_size * 0.99:
-                                log.info(f"Staging-Datei unvollständig ({local_size} < {announced_size}), lösche und lade neu")
-                                local_path.unlink(missing_ok=True)
+                                log.info(f"Staging-Datei unvollständig ({local_size} < {announced_size}), DCC RESUME wird versucht")
                                 exists_in_staging = False
 
                         if exists_in_staging or exists_elsewhere:
@@ -446,6 +445,12 @@ class XDCCDownloader:
                     if self.status_callback:
                         self.status_callback(bot_msg, "info")
                     deadline = time.time() + 600
+
+                # scenep2p: 120s Wartezeit nach Connect erzwungen
+                elif code == "531":
+                    if self.status_callback:
+                        self.status_callback("Server verweigert MSG – 120s Wartezeit nötig, überspringe", "error")
+                    break
 
                 # Banned oder Error
                 elif code in ("474", "473", "475", "465"):
