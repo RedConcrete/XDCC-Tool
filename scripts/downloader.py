@@ -306,6 +306,11 @@ def score_pack(p: dict, category: str = "") -> float:
     name = p.get("fname", "").lower()
     score = 0.0
 
+    # Live-IRC-Suche bevorzugen: verhindert dass stale xdcc.eu-Kandidaten
+    # alle MAX_CANDIDATES-Slots verbrauchen bevor echte IRC-Packs dran kommen
+    if str(p.get("source", "")).startswith("IRC"):
+        score += 300
+
     german_kw = ["german", "deutsch", ".ger.", "ger.", "dl.german", "german.dl",
                  "ger-sub", "[ger", ".de.", "multi.german", "german.multi"]
     is_german = any(kw in name for kw in german_kw)
@@ -344,7 +349,12 @@ def score_pack(p: dict, category: str = "") -> float:
             score += 200
         size_mb = p.get("size", 0) // 1024 // 1024
         if not re.search(r"s\d{1,2}e\d{1,2}|\d{1,2}x\d{1,2}", name) and size_mb > 2000:
-            score -= 800
+            # Season-Packs (z.B. S07.German.tar) nur leicht bestrafen,
+            # komplette Serien-Dumps ohne Staffelangabe stark
+            if re.search(r"\bs\d{1,2}\b", name):
+                score -= 200
+            else:
+                score -= 800
 
     elif category in ("filme", "film"):
         if re.search(r"s\d{1,2}e\d{1,2}", name):
