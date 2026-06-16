@@ -2,6 +2,7 @@ const SECTIONS = ["serien", "film", "merkliste"];
 
 let logOffset = 0;
 let ircOffset = 0;
+let chatLogSize = 0;
 let polling = false;
 
 function $(id) {
@@ -96,17 +97,35 @@ async function removeDownloaded(title) {
   }
 }
 
-function appendIrcLines(lines) {
+function appendChatLines(lines) {
   const box = $("irc-box");
-  for (const entry of lines) {
+  const atBottom = box.scrollHeight - box.scrollTop - box.clientHeight < 40;
+  for (const line of lines) {
+    if (!line) continue;
     const div = document.createElement("div");
-    div.className = "irc-line " + (entry.line.startsWith(">>") ? "sent" : "recv");
-    div.textContent = entry.line;
+    if (line.startsWith("===") || line.startsWith("===")) {
+      div.className = "irc-line sep";
+    } else if (line.startsWith(">>")) {
+      div.className = "irc-line sent";
+    } else {
+      div.className = "irc-line recv";
+    }
+    div.textContent = line;
     box.appendChild(div);
   }
-  if (lines.length > 0) {
+  if (atBottom && lines.length > 0) {
     box.scrollTop = box.scrollHeight;
   }
+}
+
+async function loadChatLog() {
+  try {
+    const res = await fetch("/api/logs?tail=300");
+    const data = await res.json();
+    $("irc-box").innerHTML = "";
+    appendChatLines(data.lines);
+    chatLogSize = data.size;
+  } catch (e) { /* ignore */ }
 }
 
 function appendLogLines(lines) {
@@ -158,16 +177,16 @@ async function pollStatus() {
   polling = true;
   try {
     while (true) {
-      const [res, ircRes] = await Promise.all([
+      const [res, chatRes] = await Promise.all([
         fetch(`/api/status?since=${logOffset}`),
-        fetch(`/api/irc?since=${ircOffset}`),
+        fetch(`/api/logs?since_byte=${chatLogSize}`),
       ]);
       const data = await res.json();
-      const ircData = await ircRes.json();
+      const chatData = await chatRes.json();
       appendLogLines(data.log);
       logOffset = data.next;
-      appendIrcLines(ircData.lines);
-      ircOffset = ircData.next;
+      appendChatLines(chatData.lines);
+      chatLogSize = chatData.size;
       updateProgress(data.progress);
 
       $("run-btn").disabled = data.running;
@@ -189,10 +208,8 @@ async function pollStatus() {
 
 async function startRun() {
   $("log-box").innerHTML = "";
-  $("irc-box").innerHTML = "";
   $("summary-box").classList.add("hidden");
   logOffset = 0;
-  ircOffset = 0;
   try {
     const res = await fetch("/api/run", { method: "POST" });
     if (!res.ok && res.status !== 409) throw new Error("HTTP " + res.status);
@@ -206,9 +223,14 @@ async function startRun() {
 document.addEventListener("DOMContentLoaded", () => {
   loadWishlist();
   loadDownloaded();
+  loadChatLog();
   pollStatus(); // falls bereits ein Lauf aktiv ist
 
   $("save-btn").addEventListener("click", saveWishlist);
   $("run-btn").addEventListener("click", startRun);
   $("downloaded-filter").addEventListener("input", applyDownloadedFilter);
+  $("log-clear-btn").addEventListener("click", () => { $("irc-box").innerHTML = ""; });
+  $("log-bottom-btn").addEventListener("click", () => {
+    const b = $("irc-box"); b.scrollTop = b.scrollHeight;
+  });
 });

@@ -48,6 +48,8 @@ services:
       - ./scripts/xdcc_client.py:/app/xdcc_client.py
       - ./scripts/cli.py:/app/cli.py
       - ./scripts/app.py:/app/app.py
+      - ./templates:/app/templates
+      - ./static:/app/static
       - /mnt/jellyfin2/media:/downloads
     logging:
       driver: json-file

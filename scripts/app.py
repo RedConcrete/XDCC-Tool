@@ -134,6 +134,25 @@ def irc_log_endpoint():
         })
 
 
+@app.route("/api/logs")
+def chat_logs():
+    tail = request.args.get("tail", default=0, type=int)
+    since_byte = request.args.get("since_byte", default=-1, type=int)
+    if not CHAT_LOG_PATH.exists():
+        return jsonify({"lines": [], "size": 0})
+    size = CHAT_LOG_PATH.stat().st_size
+    if since_byte >= 0 and since_byte < size:
+        with open(CHAT_LOG_PATH, "rb") as f:
+            f.seek(since_byte)
+            chunk = f.read().decode("utf-8", errors="replace")
+        return jsonify({"lines": chunk.splitlines(), "size": size})
+    if tail > 0:
+        text = CHAT_LOG_PATH.read_text(encoding="utf-8", errors="replace")
+        lines = text.splitlines()
+        return jsonify({"lines": lines[-tail:], "size": size})
+    return jsonify({"lines": [], "size": size})
+
+
 @app.route("/api/downloaded", methods=["DELETE"])
 def delete_downloaded():
     data = request.get_json(force=True) or {}

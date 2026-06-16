@@ -180,6 +180,28 @@ button:disabled {
 .irc-line { color: #7a808c; }
 .irc-line.sent { color: #4f8cff; }
 .irc-line.recv { color: #c4c8d0; }
+.irc-line.sep  { color: #f0c14b; font-weight: 600; }
+
+.irc-toolbar {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.4rem;
+}
+
+.small-btn {
+  background: transparent;
+  color: var(--muted);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 0.2rem 0.7rem;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.small-btn:hover {
+  color: var(--text);
+  border-color: var(--muted);
+}
 
 #downloaded-filter {
   margin-bottom: 0.7rem;
