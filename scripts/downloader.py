@@ -278,7 +278,9 @@ def _irc_bot_search(server: str, port: int, channel: str,
 def search_packs(query: str) -> list[dict]:
     """IRC-Botsuche (primär) + xdcc.eu für Netzwerke ohne Suchbot."""
     results: list[dict] = []
-    irc_servers: set[str] = set()
+    # Channel-genaues Tracking: BotReign findet #moviegods-Packs → blockiert nur
+    # xdcc.eu für #moviegods, nicht für #beast-xdcc (beide auf irc.abjects.net)
+    irc_channels: set[tuple] = set()
 
     for ch in CHANNELS:
         if "search_bot" in ch:
@@ -293,10 +295,11 @@ def search_packs(query: str) -> list[dict]:
             )
             if found:
                 results.extend(found)
-                irc_servers.add(ch["server"])  # xdcc.eu nur blocken wenn IRC etwas fand
+                irc_channels.add((ch["server"], ch["channel"].lower()))
 
     for p in search_xdcc_eu(query):
-        if p["server"] not in irc_servers:
+        key = (p["server"], p.get("channel", "").lower())
+        if key not in irc_channels:
             results.append(p)
 
     return results
