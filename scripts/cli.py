@@ -135,7 +135,8 @@ def _make_stall_cb(status):
     return stall_cb
 
 
-def process_item(title: str, category: str, status_cb=None, progress_cb=None) -> bool:
+def process_item(title: str, category: str, status_cb=None, progress_cb=None,
+                 irc_callback=None) -> bool:
     def status(msg, level="info"):
         if status_cb:
             status_cb(title, msg, level)
@@ -143,7 +144,7 @@ def process_item(title: str, category: str, status_cb=None, progress_cb=None) ->
     query = _search_query(title)
     status(f"Suche: {query}" if query != title else f"Suche: {title}")
     try:
-        results = search_packs(query)
+        results = search_packs(query, irc_callback=irc_callback)
     except Exception as e:
         status(f"Suche fehlgeschlagen: {e}", "error")
         return False
@@ -182,6 +183,7 @@ def process_item(title: str, category: str, status_cb=None, progress_cb=None) ->
                 status_callback=status,
                 stall_callback=_make_stall_cb(status),
                 expected_fname=expected,
+                irc_callback=irc_callback,
             )
         except Exception as e:
             status(f"Download-Fehler: {e}", "error")
@@ -209,7 +211,7 @@ def process_item(title: str, category: str, status_cb=None, progress_cb=None) ->
     return False
 
 
-def run_once(status_cb=None, progress_cb=None) -> dict:
+def run_once(status_cb=None, progress_cb=None, irc_callback=None) -> dict:
     wishlist = load_wishlist()
     done = load_done()
 
@@ -223,7 +225,7 @@ def run_once(status_cb=None, progress_cb=None) -> dict:
 
             counts["total"] += 1
             try:
-                ok = process_item(title, category, status_cb, progress_cb)
+                ok = process_item(title, category, status_cb, progress_cb, irc_callback)
             except Exception as e:
                 ok = False
                 if status_cb:

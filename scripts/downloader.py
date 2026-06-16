@@ -162,7 +162,8 @@ def _strip_mirc_formatting(s: str) -> str:
 def _irc_bot_search(server: str, port: int, channel: str,
                     search_bot: str, search_cmd: str,
                     query: str, timeout: int = 30,
-                    download_channel: str | None = None) -> list[dict]:
+                    download_channel: str | None = None,
+                    irc_callback=None) -> list[dict]:
     """Sucht direkt via IRC-Suchbot (z.B. databeast auf Abjects)."""
     results = []
     nick = make_nick()
@@ -175,8 +176,14 @@ def _irc_bot_search(server: str, port: int, channel: str,
         log.warning(f"IRC-Suche: Verbindung zu {server} fehlgeschlagen: {e}")
         return []
 
+    _IRC_NOISE_RE = re.compile(
+        r'^\S+\s+(?:37[256]|00[1-5]|25[0-9]|265|266|315|353|366|MODE)\s'
+    )
+
     def send(msg: str):
         sock.sendall((msg + "\r\n").encode("utf-8", errors="replace"))
+        if irc_callback and any(msg.startswith(p) for p in ("JOIN", "PRIVMSG", "QUIT")):
+            irc_callback(f">> {msg}")
 
     try:
         send(f"NICK {nick}")
@@ -208,6 +215,9 @@ def _irc_bot_search(server: str, port: int, channel: str,
                 if line.startswith("PING"):
                     send(f"PONG {line.split(':', 1)[-1]}")
                     continue
+
+                if irc_callback and not _IRC_NOISE_RE.search(line):
+                    irc_callback(f"<< {line}")
 
                 parts = line.split()
                 if len(parts) < 2:
@@ -275,7 +285,7 @@ def _irc_bot_search(server: str, port: int, channel: str,
     return results
 
 
-def search_packs(query: str) -> list[dict]:
+def search_packs(query: str, irc_callback=None) -> list[dict]:
     """IRC-Botsuche (primär) + xdcc.eu für Netzwerke ohne Suchbot."""
     results: list[dict] = []
     # Channel-genaues Tracking: BotReign findet #moviegods-Packs → blockiert nur
@@ -292,6 +302,7 @@ def search_packs(query: str) -> list[dict]:
                 search_cmd=ch.get("search_cmd", "xdcc search {query}"),
                 query=query,
                 download_channel=ch["channel"],
+                irc_callback=irc_callback,
             )
             if found:
                 results.extend(found)

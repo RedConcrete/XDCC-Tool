@@ -162,6 +162,25 @@ button:disabled {
   font-size: 0.9rem;
 }
 
+.irc-box {
+  margin-top: 0.5rem;
+  background: #0d0f14;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 0.7rem;
+  height: 220px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  font-family: "Consolas", "Courier New", monospace;
+  font-size: 0.78rem;
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+
+.irc-line { color: #7a808c; }
+.irc-line.sent { color: #4f8cff; }
+.irc-line.recv { color: #c4c8d0; }
+
 #downloaded-filter {
   margin-bottom: 0.7rem;
 }

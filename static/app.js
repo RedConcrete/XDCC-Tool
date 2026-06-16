@@ -1,6 +1,7 @@
 const SECTIONS = ["serien", "film", "merkliste"];
 
 let logOffset = 0;
+let ircOffset = 0;
 let polling = false;
 
 function $(id) {
@@ -95,6 +96,19 @@ async function removeDownloaded(title) {
   }
 }
 
+function appendIrcLines(lines) {
+  const box = $("irc-box");
+  for (const entry of lines) {
+    const div = document.createElement("div");
+    div.className = "irc-line " + (entry.line.startsWith(">>") ? "sent" : "recv");
+    div.textContent = entry.line;
+    box.appendChild(div);
+  }
+  if (lines.length > 0) {
+    box.scrollTop = box.scrollHeight;
+  }
+}
+
 function appendLogLines(lines) {
   const box = $("log-box");
   for (const entry of lines) {
@@ -144,10 +158,16 @@ async function pollStatus() {
   polling = true;
   try {
     while (true) {
-      const res = await fetch(`/api/status?since=${logOffset}`);
+      const [res, ircRes] = await Promise.all([
+        fetch(`/api/status?since=${logOffset}`),
+        fetch(`/api/irc?since=${ircOffset}`),
+      ]);
       const data = await res.json();
+      const ircData = await ircRes.json();
       appendLogLines(data.log);
       logOffset = data.next;
+      appendIrcLines(ircData.lines);
+      ircOffset = ircData.next;
       updateProgress(data.progress);
 
       $("run-btn").disabled = data.running;
@@ -169,8 +189,10 @@ async function pollStatus() {
 
 async function startRun() {
   $("log-box").innerHTML = "";
+  $("irc-box").innerHTML = "";
   $("summary-box").classList.add("hidden");
   logOffset = 0;
+  ircOffset = 0;
   try {
     const res = await fetch("/api/run", { method: "POST" });
     if (!res.ok && res.status !== 409) throw new Error("HTTP " + res.status);

@@ -84,12 +84,18 @@ def make_nick() -> str:
     return f"{name}{suffix}"
 
 
+_IRC_DL_NOISE_RE = re.compile(
+    r'^\S+\s+(?:37[256]|00[1-5]|25[0-9]|265|266|315|353|366|MODE)\s'
+)
+
+
 class XDCCDownloader:
     def __init__(self, server: str, port: int, channel: str, bot: str,
                  pack: str, output_dir: Path, timeout: int = 120,
                  extra_channels: list = None,
                  progress_callback=None, status_callback=None, stall_callback=None,
-                 skip_names_check: bool = False, expected_fname: str = ""):
+                 skip_names_check: bool = False, expected_fname: str = "",
+                 irc_callback=None):
         self.server         = server
         self.port           = port
         self.channel        = channel
@@ -109,12 +115,15 @@ class XDCCDownloader:
         self.stall_callback       = stall_callback
         self.skip_names_check     = skip_names_check
         self.expected_fname       = expected_fname
+        self.irc_callback         = irc_callback
         self.file_exists_callback = None   # wird von außen gesetzt
         self._skip_dcc_fname      = None   # angekündigte Datei überspringen
 
     def _send(self, msg: str):
         self.sock.sendall((msg + "\r\n").encode("utf-8", errors="replace"))
         log.debug(f">>> {msg}")
+        if self.irc_callback and any(msg.startswith(p) for p in ("JOIN", "PRIVMSG", "QUIT")):
+            self.irc_callback(f">> {msg}")
 
     def _recv_lines(self):
         buf = b""
@@ -264,6 +273,8 @@ class XDCCDownloader:
                     break
 
                 log.debug(f"<<< {line}")
+                if self.irc_callback and not _IRC_DL_NOISE_RE.search(line):
+                    self.irc_callback(f"<< {line}")
 
                 # PING/PONG
                 if line.startswith("PING"):
@@ -471,7 +482,8 @@ def xdcc_download(server: str, channel: str, bot: str, pack: str,
                   stall_callback=None,
                   skip_names_check: bool = False,
                   file_exists_callback=None,
-                  expected_fname: str = "") -> tuple[bool, str | None]:
+                  expected_fname: str = "",
+                  irc_callback=None) -> tuple[bool, str | None]:
     """Gibt (success, actual_filename) zurück."""
     d = XDCCDownloader(server, port, channel, bot, pack, output_dir, timeout,
                        extra_channels=extra_channels,
@@ -479,7 +491,8 @@ def xdcc_download(server: str, channel: str, bot: str, pack: str,
                        status_callback=status_callback,
                        stall_callback=stall_callback,
                        skip_names_check=skip_names_check,
-                       expected_fname=expected_fname)
+                       expected_fname=expected_fname,
+                       irc_callback=irc_callback)
     d.file_exists_callback = file_exists_callback
     success = d.download()
     return success, d.filename

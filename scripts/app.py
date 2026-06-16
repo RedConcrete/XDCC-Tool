@@ -15,6 +15,7 @@ _lock = threading.Lock()
 _state = {
     "running": False,
     "log": [],          # Liste von {"ts","title","msg","level"}
+    "irc_log": [],      # Liste von {"ts","line"} – roh IRC-Traffic
     "summary": None,     # Ergebnis von run_once() nach Abschluss
     "progress": None,    # {"title","received","total"} waehrend Download
 }
@@ -32,9 +33,14 @@ def _progress_cb(title, received, total):
         _state["progress"] = {"title": title, "received": received, "total": total}
 
 
+def _irc_cb(line: str):
+    with _lock:
+        _state["irc_log"].append({"ts": time.time(), "line": line})
+
+
 def _run_job():
     try:
-        summary = cli.run_once(_status_cb, _progress_cb)
+        summary = cli.run_once(_status_cb, _progress_cb, _irc_cb)
     except Exception as e:
         summary = {"error": str(e)}
         _status_cb("Allgemein", f"Lauf abgebrochen: {e}", "error")
@@ -72,6 +78,7 @@ def run():
             return jsonify({"ok": False, "error": "Lauf bereits aktiv"}), 409
         _state["running"] = True
         _state["log"] = []
+        _state["irc_log"] = []
         _state["summary"] = None
         _state["progress"] = None
     threading.Thread(target=_run_job, daemon=True).start()
@@ -98,6 +105,17 @@ def downloaded():
         return jsonify([])
     lines = [l.strip() for l in cli.DONE_LOG_PATH.read_text(encoding="utf-8").splitlines() if l.strip()]
     return jsonify(list(reversed(lines)))
+
+
+@app.route("/api/irc")
+def irc_log_endpoint():
+    since = request.args.get("since", default=0, type=int)
+    with _lock:
+        log_slice = _state["irc_log"][since:]
+        return jsonify({
+            "lines": log_slice,
+            "next": len(_state["irc_log"]),
+        })
 
 
 @app.route("/api/downloaded", methods=["DELETE"])
