@@ -44,6 +44,10 @@ services:
       - ./downloaded.txt:/app/downloaded.txt
       - ./channels.json:/app/channels.json
       - ./Chat.txt:/app/Chat.txt
+      - ./scripts/downloader.py:/app/downloader.py
+      - ./scripts/xdcc_client.py:/app/xdcc_client.py
+      - ./scripts/cli.py:/app/cli.py
+      - ./scripts/app.py:/app/app.py
       - /mnt/jellyfin2/media:/downloads
     logging:
       driver: json-file
