@@ -173,13 +173,13 @@ def process_item(title: str, category: str, status_cb=None, progress_cb=None,
 
     for i, pack in enumerate(candidates[:MAX_CANDIDATES]):
         server = pack.get("server", "")
-        ch_key = (server, pack.get("channel", ""))
+        bot_key = (server, pack.get("channel", ""), pack.get("bot", ""))
 
         if server in banned_servers:
             status(f"Überspringe {pack.get('channel')} – auf {server} gesperrt", "warning")
             continue
-        if channel_failures.get(ch_key, 0) >= 2:
-            status(f"Überspringe {pack.get('channel')} (zu viele Fehlversuche)", "warning")
+        if channel_failures.get(bot_key, 0) >= 2:
+            status(f"Überspringe {pack.get('bot')} (zu viele Fehlversuche)", "warning")
             continue
 
         fname = pack.get("fname", "?")
@@ -221,8 +221,8 @@ def process_item(title: str, category: str, status_cb=None, progress_cb=None,
             break
 
         if not success:
-            if not filename:  # Kein Transfer gestartet → Channel-Fehlzähler erhöhen
-                channel_failures[ch_key] = channel_failures.get(ch_key, 0) + 1
+            if not filename:  # Kein Transfer gestartet → Bot-Fehlzähler erhöhen
+                channel_failures[bot_key] = channel_failures.get(bot_key, 0) + 1
             continue
 
         status(f"Download fertig: {filename}", "success")
