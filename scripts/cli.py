@@ -199,6 +199,7 @@ def process_item(title: str, category: str, status_cb=None, progress_cb=None) ->
             except Exception as e:
                 status(f"Einsortieren fehlgeschlagen: {e}", "error")
                 traceback.print_exc()
+                continue  # Staging-Datei kaputt → nächsten Kandidaten probieren
 
             append_done(title)
             status("fertig & einsortiert", "success")

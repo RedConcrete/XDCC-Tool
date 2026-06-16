@@ -382,15 +382,46 @@ class XDCCDownloader:
                     notice_text = line.split(":", 2)[-1].strip()
                     if self.status_callback:
                         self.status_callback(notice_text, "info")
+
+                    # Ungültige Pack-Nummer → sofort abbrechen statt Timeout abwarten
+                    if re.search(r"invalid pack", notice_text, re.IGNORECASE):
+                        break
+
                     if re.search(r"\bqueue\b", notice_text, re.IGNORECASE):
                         deadline = time.time() + 600  # Warteschlange = mehr Zeit
-                    # Bot kündigt Datei an → prüfen ob schon vorhanden
-                    m = re.search(r'Sending you pack[^"]*"([^"]+)"', notice_text, re.IGNORECASE)
-                    if m:
+
+                    # Bot kündigt Datei an → nur überspringen wenn vollständig vorhanden
+                    m = re.search(r'Sending you pack[^"]*"([^"]+)"[^,]*,\s*which is\s*([\d.]+)\s*([KMGT]?B)',
+                                  notice_text, re.IGNORECASE)
+                    if not m:
+                        m2 = re.search(r'Sending you pack[^"]*"([^"]+)"', notice_text, re.IGNORECASE)
+                        if m2:
+                            announced = m2.group(1)
+                            announced_size = None
+                        else:
+                            announced = None
+                            announced_size = None
+                    else:
                         announced = m.group(1)
-                        exists_in_staging = (self.output_dir / announced).exists()
+                        val = float(m.group(2))
+                        unit = m.group(3).upper()
+                        announced_size = int(val * {"KB": 1024, "MB": 1024**2, "GB": 1024**3,
+                                                    "TB": 1024**4, "B": 1}.get(unit, 1))
+
+                    if announced:
+                        local_path = self.output_dir / announced
+                        exists_in_staging = local_path.exists()
                         exists_elsewhere  = (self.file_exists_callback and
                                              self.file_exists_callback(announced))
+
+                        # Unvollständige Datei in Staging → löschen und neu laden
+                        if exists_in_staging and announced_size:
+                            local_size = local_path.stat().st_size
+                            if local_size < announced_size * 0.99:
+                                log.info(f"Staging-Datei unvollständig ({local_size} < {announced_size}), lösche und lade neu")
+                                local_path.unlink(missing_ok=True)
+                                exists_in_staging = False
+
                         if exists_in_staging or exists_elsewhere:
                             if self.status_callback:
                                 self.status_callback(
