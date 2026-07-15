@@ -1,0 +1,313 @@
+
+============================================================
+=== Lauf gestartet: 2026-06-28 15:14:01 ===
+============================================================
+[15:14:01] [INFO] [Tower of God] Suche: Tower of God
+[15:14:02] << :sharpshooter.ny.us.abjects.net NOTICE * :*** Looking up your hostname...
+[15:14:02] << :sharpshooter.ny.us.abjects.net NOTICE * :*** Checking ident...
+[15:14:02] << :sharpshooter.ny.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[15:14:07] << :sharpshooter.ny.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[15:14:08] >> JOIN #beast-chat
+[15:14:08] << :sharpshooter.ny.us.abjects.net 396 ThunderStrike742 D81C46CB.6C525672.7F20E47C.IP :is now your displayed host
+[15:14:08] << :ThunderStrike742!~ThunderSt@D81C46CB.6C525672.7F20E47C.IP JOIN :#beast-chat
+[15:14:09] >> PRIVMSG #beast-chat :!s Tower of God
+[15:14:09] << :sharpshooter.ny.us.abjects.net 332 ThunderStrike742 #beast-chat :Welcome to #BEAST-XDCC  (Search:ONLINE) (Requests:ONLINE) ~ added !get command ~ !top or !topger to see most leeched releases, can be filtered by days ~ Please use !german for latest GERMAN releases only ~ commands; !latest !german !search !request !get !top !topger !tv !tvger !games ~ For more commands use !help ~ Have something to offer? Msg an ~ 
+[15:14:09] << :sharpshooter.ny.us.abjects.net 333 ThunderStrike742 #beast-chat devnull!~qlimax@beastmo.de 1779527540
+[15:14:10] << :databeast!~databeast@the.beast NOTICE ThunderStrike742 :04No packs found matching your search criteria.
+[15:14:16] >> QUIT :bye
+[15:14:32] << :mortal.tx.us.abjects.net NOTICE * :*** Looking up your hostname...
+[15:14:32] << :mortal.tx.us.abjects.net NOTICE * :*** Checking ident...
+[15:14:33] << :mortal.tx.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[15:14:36] << :mortal.tx.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[15:14:38] >> JOIN #mg-chat
+[15:14:38] << :mortal.tx.us.abjects.net 396 VoidWalker048 D81C46CB.6C525672.7F20E47C.IP :is now your displayed host
+[15:14:38] << :VoidWalker048!~VoidWalke@D81C46CB.6C525672.7F20E47C.IP JOIN :#mg-chat
+[15:14:39] >> PRIVMSG #mg-chat :!s Tower of God
+[15:14:39] << :mortal.tx.us.abjects.net 332 VoidWalker048 #mg-chat : Welcome to Moviegods Chat - If you are new to this type !help - Join #MG-Lounge for requests/questions/comments/tv-subs/spam free chat -//- Join #MG-Help for help - Donations earn VIP perks  - Join #MG-donations for info
+[15:14:39] << :mortal.tx.us.abjects.net 333 VoidWalker048 #mg-chat katsper!Kat@Sex.With.Leather.Clad.Women.is.Hot 1728087751
+[15:14:39] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE VoidWalker048 :15,01   )07 #MOVIEGODS - Found 0 ONLINE Packs (0 Bots) = Total GETS: 0.
+[15:14:45] >> QUIT :bye
+[15:14:45] << :killer.abandoned-irc.net NOTICE * :*** Looking up your hostname...
+[15:14:46] << :killer.abandoned-irc.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[15:14:47] >> JOIN #ZW-CHAT
+[15:14:47] << :killer.abandoned-irc.net 396 ThunderStrike905 D1D66015.35B0CB26.E30ED253.IP :is now your displayed host
+[15:14:47] << :ThunderStrike905!ThunderStr@D1D66015.35B0CB26.E30ED253.IP JOIN :#ZW-CHAT
+[15:14:48] >> PRIVMSG #ZW-CHAT :!search Tower of God
+[15:14:48] << :killer.abandoned-irc.net 332 ThunderStrike905 #ZW-CHAT :12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12=[04Searchbot]-[09ONLINE]- Triggers: !help !search !latest !subscriptions !topdl !hot !recommended !movies !music !tv !apps !games !ebook !xxx !mobile | Web: http://www.Abandoned-IRC.net/
+[15:14:48] << :killer.abandoned-irc.net 333 ThunderStrike905 #ZW-CHAT [ZOMBIE]-LATEST!Abandoned-@zombie.warez 1781827870
+[15:14:48] << :Zombie!ZW@ZoMbIe.WaReZ NOTICE ThunderStrike905 :[#ZW-CHAT] 12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12= we are looking for experienced ROOTERS/DEDi/BOXOWNERS . interested? use !joinZW
+[15:14:48] << :killer.abandoned-irc.net 404 ThunderStrike905 #ZW-CHAT :You are banned (#ZW-CHAT)
+[15:14:54] >> QUIT :bye
+[15:14:55] [INFO] [Tower of God] Versuch 1/15: Tower.of.God.S02E08.1080p.HEVC.x265-MeGusta.mkv (irc.scenep2p.net #THE.SOURCE)
+[15:15:55] << :Paranoia.SceneP2P.net NOTICE * :*** Looking up your hostname...
+[15:15:55] << :Paranoia.SceneP2P.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[15:16:04] << PING :C7DB2BF7
+[15:16:04] >> JOIN #THE.SOURCE
+[15:16:04] << :Paranoia.SceneP2P.net 396 CrimsonFox426 9D92C0A7.81E10EC4.D2285560.IP :is now your displayed host
+[15:16:04] << :Paranoia.SceneP2P.net NOTICE CrimsonFox426 :WARNING: Insecure connection. Please consider using TLS.
+[15:16:04] << :CrimsonFox426!CrimsonFox@9D92C0A7.81E10EC4.D2285560.IP JOIN :#THE.SOURCE
+[15:16:04] << :Paranoia.SceneP2P.net 332 CrimsonFox426 #THE.SOURCE :10Welcome to #THE.SOURCE. 7The only xdcc channel you will ever need. The FASTEST downloads on IRC. NEVER throttled/logged/restricted | #The.Lounge for search/chat | 4#THE.INSIDERS for auto downloads. Open to all! |11Escape the flood join #THE.SOURCE.NOSPAM | 13Happy Leeching!!!
+[15:16:04] << :Paranoia.SceneP2P.net 333 CrimsonFox426 #THE.SOURCE Reeko 1625664464
+[15:16:04] [INFO] [Tower of God] /msg ts-hdtv|es|spur xdcc send #639
+[15:16:05] >> PRIVMSG ts-hdtv|es|spur :xdcc send #639
+[15:16:05] << :TS-ARCHIVE|US|P|03799!root@The.Source.org PRIVMSG #THE.SOURCE :#479  0x [15M] 08YesLogic.Prince.v16.2.x64.Incl.Keyfilemaker-CORE.tar
+[15:16:05] << :TS-HD|CH|P|RINGMASTER!root@The.Source.org PRIVMSG #THE.SOURCE :#379  0x [306M] 15Linkedin.Learning.Cryptography-Technologies.For.Securing.Data.And.Communications.BOOKWARE-SCHOLASTiC.tar
+[15:16:05] << :TS-HD|NL|P|DEMON!root@The.Source.org PRIVMSG #THE.SOURCE :#417  2x [1.3G] 15Apocalypse.Bigfoot.2023.1080p.WEBRip.DD+.2.0.x265-iVy.mkv
+[15:16:05] << :Paranoia.SceneP2P.net 531 CrimsonFox426 TS-HDTV|ES|SPUR :You cannot send messages to users until you've been connected for 120 seconds or more
+[15:16:05] [ERROR] [Tower of God] Server verweigert MSG – 120s Wartezeit nötig, überspringe
+[15:16:05] >> QUIT :bye
+[15:16:05] [INFO] [Tower of God] Versuch 2/15: Tower.of.God.S02E01.1080p.HEVC.x265-MeGusta.mkv (irc.scenep2p.net #THE.SOURCE)
+[15:16:05] << :Neutrino.SceneP2P.net NOTICE * :*** Looking up your hostname...
+[15:16:10] << :Neutrino.SceneP2P.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[15:16:14] << PING :33FE572D
+[15:16:14] >> JOIN #THE.SOURCE
+[15:16:14] << :Neutrino.SceneP2P.net 396 DragonSlayer675 9D92C0A7.81E10EC4.D2285560.IP :is now your displayed host
+[15:16:14] << :Neutrino.SceneP2P.net NOTICE DragonSlayer675 :WARNING: Insecure connection. Please consider using TLS.
+[15:16:14] << :DragonSlayer675!DragonSlay@9D92C0A7.81E10EC4.D2285560.IP JOIN :#THE.SOURCE
+[15:16:14] << :Neutrino.SceneP2P.net 332 DragonSlayer675 #THE.SOURCE :10Welcome to #THE.SOURCE. 7The only xdcc channel you will ever need. The FASTEST downloads on IRC. NEVER throttled/logged/restricted | #The.Lounge for search/chat | 4#THE.INSIDERS for auto downloads. Open to all! |11Escape the flood join #THE.SOURCE.NOSPAM | 13Happy Leeching!!!
+[15:16:14] << :Neutrino.SceneP2P.net 333 DragonSlayer675 #THE.SOURCE Reeko 1625664464
+[15:16:14] [INFO] [Tower of God] /msg ts-hdtv|ro|p|11421 xdcc send #717
+[15:16:15] >> PRIVMSG ts-hdtv|ro|p|11421 :xdcc send #717
+[15:16:15] << :NickServ!services@Services.SceneP2P.net NOTICE DragonSlayer675 :Your nickname is not registered. To register it, use: /msg NickServ REGISTER password email
+[15:16:15] << :TheSource!root@The.Source.For.All NOTICE DragonSlayer675 :[#THE.SOURCE] 10Welcome to #THE.SOURCE | 11Not sure what to do next? Join #THE.LOUNGE for !help !search !latest !passive | 7Join #THE.INSIDERS to setup your TV subscriptions for auto downloads. | Escape the flood. Idle in #THE.SOURCE.NOSPAM instead of #THE.SOURCE to download.
+[15:16:15] << :TS-HD|RU|P|85881!root@The.Source.org PRIVMSG #THE.SOURCE :#223 0x [7.4G] 02Love.Hurts.Liebe.tut.weh.2025.German.DL.1080p.BluRay.x264-GMA.mkv
+[15:16:15] << :TS-HD|US|P|DATA!root@The.Source.org PRIVMSG #THE.SOURCE :#556 2x [18G] 13You.Me.and.Tuscany.2026.1080p.BluRay.x264-KNiVES.mkv
+[15:16:15] << :Neutrino.SceneP2P.net 531 DragonSlayer675 TS-HDTV|RO|P|11421 :You cannot send messages to users until you've been connected for 120 seconds or more
+[15:16:15] [ERROR] [Tower of God] Server verweigert MSG – 120s Wartezeit nötig, überspringe
+[15:16:15] >> QUIT :bye
+[15:16:15] [INFO] [Tower of God] Versuch 3/15: Tower.of.God.S02E07.1080p.HEVC.x265-MeGusta.mkv (irc.scenep2p.net #THE.SOURCE)
+[15:16:15] [INFO] [Tower of God] Warte 20s vor erneuter Verbindung zu irc.scenep2p.net
+[15:18:05] << :Paranoia.SceneP2P.net NOTICE * :*** Looking up your hostname...
+[15:18:05] << :Paranoia.SceneP2P.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[15:18:14] << PING :E9B9B32A
+[15:18:14] >> JOIN #THE.SOURCE
+[15:18:14] << :Paranoia.SceneP2P.net 396 ToxicVenom639 9D92C0A7.81E10EC4.D2285560.IP :is now your displayed host
+[15:18:14] << :Paranoia.SceneP2P.net NOTICE ToxicVenom639 :WARNING: Insecure connection. Please consider using TLS.
+[15:18:14] << :ToxicVenom639!ToxicVenom@9D92C0A7.81E10EC4.D2285560.IP JOIN :#THE.SOURCE
+[15:18:14] << :Paranoia.SceneP2P.net 332 ToxicVenom639 #THE.SOURCE :10Welcome to #THE.SOURCE. 7The only xdcc channel you will ever need. The FASTEST downloads on IRC. NEVER throttled/logged/restricted | #The.Lounge for search/chat | 4#THE.INSIDERS for auto downloads. Open to all! |11Escape the flood join #THE.SOURCE.NOSPAM | 13Happy Leeching!!!
+[15:18:14] << :Paranoia.SceneP2P.net 333 ToxicVenom639 #THE.SOURCE Reeko 1625664464
+[15:18:14] << :NickServ!services@Services.SceneP2P.net NOTICE ToxicVenom639 :Your nickname is not registered. To register it, use: /msg NickServ REGISTER password email
+[15:18:14] [INFO] [Tower of God] /msg ts-hdtv|ro|p|11421 xdcc send #1327
+[15:18:15] >> PRIVMSG ts-hdtv|ro|p|11421 :xdcc send #1327
+[15:18:15] << :TheSource!root@The.Source.For.All NOTICE ToxicVenom639 :[#THE.SOURCE] 10Welcome to #THE.SOURCE | 11Not sure what to do next? Join #THE.LOUNGE for !help !search !latest !passive | 7Join #THE.INSIDERS to setup your TV subscriptions for auto downloads. | Escape the flood. Idle in #THE.SOURCE.NOSPAM instead of #THE.SOURCE to download.
+[15:18:15] << :TS-HDTV|IT|CLOWN!root@The.Source.org PRIVMSG #THE.SOURCE :#139 0x [1.8G] 09The.Big.Pound.Shop.Swap.S01E03.1080p.HDTV.H264-DARKFLiX.mkv
+[15:18:15] << :TS-ARCHIVE|DE|P|65417!root@The.Source.org PRIVMSG #THE.SOURCE :#123  0x [2.9G] 09Highway.Thru.Hell.S14E01.Holy.Grail.1080p.AMZN.WEB-DL.DDP5.1.H.264-RAWR.mkv
+[15:18:15] << :TS-HD|RU|P|85881!root@The.Source.org PRIVMSG #THE.SOURCE :#243 1x [1.1G] 02SonarQube.Data.Center.Edition.v2025.3.1.109879.MultiOS.Incl.KeyMaker.and.Patch-DVT.tar
+[15:18:15] << :TS-HD|US|P|DATA!root@The.Source.org PRIVMSG #THE.SOURCE :#576 2x [2.3G] 13Underland.2025.720p.AMZN.WEB-DL.DDP5.1.H.264-MADSKY.mkv
+[15:18:15] << :Paranoia.SceneP2P.net 531 ToxicVenom639 TS-HDTV|RO|P|11421 :You cannot send messages to users until you've been connected for 120 seconds or more
+[15:18:15] [ERROR] [Tower of God] Server verweigert MSG – 120s Wartezeit nötig, überspringe
+[15:18:15] >> QUIT :bye
+[15:18:15] [INFO] [Tower of God] Versuch 4/15: Tower.of.God.S02E03.1080p.HEVC.x265-MeGusta.mkv (irc.scenep2p.net #THE.SOURCE)
+[15:18:15] << :Neutrino.SceneP2P.net NOTICE * :*** Looking up your hostname...
+[15:18:15] << :Neutrino.SceneP2P.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[15:18:24] << PING :7756F37E
+[15:18:24] >> JOIN #THE.SOURCE
+[15:18:24] << :Neutrino.SceneP2P.net 396 PhantomX387 9D92C0A7.81E10EC4.D2285560.IP :is now your displayed host
+[15:18:24] << :Neutrino.SceneP2P.net NOTICE PhantomX387 :WARNING: Insecure connection. Please consider using TLS.
+[15:18:24] << :PhantomX387!PhantomX38@9D92C0A7.81E10EC4.D2285560.IP JOIN :#THE.SOURCE
+[15:18:24] << :Neutrino.SceneP2P.net 332 PhantomX387 #THE.SOURCE :10Welcome to #THE.SOURCE. 7The only xdcc channel you will ever need. The FASTEST downloads on IRC. NEVER throttled/logged/restricted | #The.Lounge for search/chat | 4#THE.INSIDERS for auto downloads. Open to all! |11Escape the flood join #THE.SOURCE.NOSPAM | 13Happy Leeching!!!
+[15:18:24] << :Neutrino.SceneP2P.net 333 PhantomX387 #THE.SOURCE Reeko 1625664464
+[15:18:24] << :NickServ!services@Services.SceneP2P.net NOTICE PhantomX387 :Your nickname is not registered. To register it, use: /msg NickServ REGISTER password email
+[15:18:24] [INFO] [Tower of God] /msg ts-hdtv|ro|p|75943 xdcc send #689
+[15:18:25] >> PRIVMSG ts-hdtv|ro|p|75943 :xdcc send #689
+[15:18:25] << :TheSource!root@The.Source.For.All NOTICE PhantomX387 :[#THE.SOURCE] 10Welcome to #THE.SOURCE | 11Not sure what to do next? Join #THE.LOUNGE for !help !search !latest !passive | 7Join #THE.INSIDERS to setup your TV subscriptions for auto downloads. | Escape the flood. Idle in #THE.SOURCE.NOSPAM instead of #THE.SOURCE to download.
+[15:18:25] << :TS-ARCHIVE|DE|P|84870!root@The.Source.org PRIVMSG #THE.SOURCE :#341  0x [1.1G] 15Casualty.S47E10.1080p.HDTV.H264-ORGANiC.mkv
+[15:18:25] << :TS-ARCHIVE|US|P|20531!root@The.Source.org PRIVMSG #THE.SOURCE :#3910   1x [572M] 10Extended.Family.2023.S01E11.The.Consequences.of.Writing.Things.Down.1080p.PCOK.WEB-DL.DDP.5.1.x265-YELLO.mkv
+[15:18:25] << :TS-HDTV|ES|SPUR!root@The.Source.org PRIVMSG #THE.SOURCE :#1530  3x [160M] 06Plan.B.2023.S02E04.720p.WEBRip.x265-MiNX.mkv
+[15:18:25] << :TS-HDTV|CH|P|51142!root@The.Source.org PRIVMSG #THE.SOURCE :#921  1x [159M] 02Impractical.Jokers.S12E14.720p.HEVC.x265-MeGusta.mkv
+[15:18:25] << :TS-HDTV|US|WTF!root@The.Source.org PRIVMSG #THE.SOURCE :#2001  0x [761M] 15Gang.War.Bandidos.S01E03.720p.WEB.H264-AFO.mkv
+[15:18:25] << :TS-ARCHIVE|IT|P|67223!root@The.Source.org PRIVMSG #THE.SOURCE :#241 0x [1.9G] 08Dark.Winds.S04.BDRip.x264-BORDURE.tar
+[15:18:25] << :Neutrino.SceneP2P.net 531 PhantomX387 TS-HDTV|RO|P|75943 :You cannot send messages to users until you've been connected for 120 seconds or more
+[15:18:25] [ERROR] [Tower of God] Server verweigert MSG – 120s Wartezeit nötig, überspringe
+[15:18:25] >> QUIT :bye
+[15:18:25] [WARNING] [Tower of God] Überspringe TS-HDTV|RO|P|11421 (zu viele Fehlversuche)
+[15:18:25] [INFO] [Tower of God] Versuch 6/15: Tower.of.God.S02E01.1080p.HEVC.x265-MeGusta.mkv (irc.rizon.net #ELITEWAREZ)
+[15:18:25] << :irc.mufff.in NOTICE * :*** Looking up your hostname...
+[15:18:25] << :irc.mufff.in NOTICE * :*** Checking Ident
+[15:18:25] << :irc.mufff.in NOTICE * :*** Couldn't look up your hostname
+[15:18:27] << :irc.mufff.in NOTICE * :*** No Ident response
+[15:18:27] << PING :97555153
+[15:18:27] << :irc.mufff.in NOTICE ShadowWolf359 :*** Your host is masked (7EFE6E6D.9337BBCB.DDD5C2D7.IP)
+[15:18:27] >> JOIN #ELITEWAREZ
+[15:18:27] << :ShadowWolf359!~ShadowWol@7EFE6E6D.9337BBCB.DDD5C2D7.IP JOIN :#ELITEWAREZ
+[15:18:27] << :irc.mufff.in 332 ShadowWolf359 #ELITEWAREZ : :: 10#0ELiTEWAREZ :: Search: 4ONLINE 0::0 Join 10#0ELITE-CHAT for S10earch0, S10ubscriptions0, and C10hat0! 
+[15:18:27] << :irc.mufff.in 333 ShadowWolf359 #ELITEWAREZ aLp1ne!~aLp1ne@banged.your.mom.at.g00dwill.org 1765431530
+[15:18:27] [WARNING] [Tower of God] Bot '[ewg]db' nicht im Channel
+[15:18:27] >> QUIT :bye
+[15:18:27] [INFO] [Tower of God] Versuch 7/15: Tower.of.God.S02E09.1080p.HEVC.x265-MeGusta.mkv (irc.scenep2p.net #THE.SOURCE)
+[15:18:27] [INFO] [Tower of God] Warte 18s vor erneuter Verbindung zu irc.scenep2p.net
+[15:18:45] << :Paranoia.SceneP2P.net NOTICE * :*** Looking up your hostname...
+[15:18:45] << :Paranoia.SceneP2P.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[15:18:54] << PING :C05A4F16
+[15:18:54] >> JOIN #THE.SOURCE
+[15:18:54] << :Paranoia.SceneP2P.net 396 DragonSlayer741 9D92C0A7.81E10EC4.D2285560.IP :is now your displayed host
+[15:18:54] << :Paranoia.SceneP2P.net NOTICE DragonSlayer741 :WARNING: Insecure connection. Please consider using TLS.
+[15:18:54] << :DragonSlayer741!DragonSlay@9D92C0A7.81E10EC4.D2285560.IP JOIN :#THE.SOURCE
+[15:18:54] << :Paranoia.SceneP2P.net 332 DragonSlayer741 #THE.SOURCE :10Welcome to #THE.SOURCE. 7The only xdcc channel you will ever need. The FASTEST downloads on IRC. NEVER throttled/logged/restricted | #The.Lounge for search/chat | 4#THE.INSIDERS for auto downloads. Open to all! |11Escape the flood join #THE.SOURCE.NOSPAM | 13Happy Leeching!!!
+[15:18:54] << :Paranoia.SceneP2P.net 333 DragonSlayer741 #THE.SOURCE Reeko 1625664464
+[15:18:54] << :NickServ!services@Services.SceneP2P.net NOTICE DragonSlayer741 :Your nickname is not registered. To register it, use: /msg NickServ REGISTER password email
+[15:18:54] [INFO] [Tower of God] /msg ts-archive|us|p|20531 xdcc send #5882
+[15:18:55] >> PRIVMSG ts-archive|us|p|20531 :xdcc send #5882
+[15:18:55] << :TS-ARCHIVE|DE|P|84870!root@The.Source.org PRIVMSG #THE.SOURCE :#346  0x [1.7G] 15Forensics.The.Real.CSI.S06E04.Catching.the.Cash.Raiders.1080p.iP.WEB-DL.AAC2.0.H.264-RAWR.mkv
+[15:18:55] << :TS-HDTV|NL|VALHALL!root@The.Source.org PRIVMSG #THE.SOURCE :#156   1x [192M] 12Mike.Judges.Beavis.and.Butt-Head.S03E11.Too.Big.to.Fail.1080p.HEVC.x265-MeGusta.mkv
+[15:18:55] << :TheSource!root@The.Source.For.All NOTICE DragonSlayer741 :[#THE.SOURCE] 10Welcome to #THE.SOURCE | 11Not sure what to do next? Join #THE.LOUNGE for !help !search !latest !passive | 7Join #THE.INSIDERS to setup your TV subscriptions for auto downloads. | Escape the flood. Idle in #THE.SOURCE.NOSPAM instead of #THE.SOURCE to download.
+[15:18:55] << :TS-ARCHIVE|US|P|31618!root@The.Source.org PRIVMSG #THE.SOURCE :#436  0x [2.3G] 06Groundhog.Dave.2.2020.720p.WEB.H264-SHIIIT.mkv
+[15:18:55] << :TS-ARCHIVE|US|P|20531!root@The.Source.org PRIVMSG #THE.SOURCE :#3915   0x [1.0G] 10Farmer.Wants.a.Wife.US.2023.S02E06.720p.WEB.h264-BAE.mkv
+[15:18:55] << :TS-HDTV|CH|P|51142!root@The.Source.org PRIVMSG #THE.SOURCE :#926  1x [638M] 02Happys.Place.S02E10.720p.HDTV.x264-SYNCOPY.mkv
+[15:18:55] << :TS-HDTV|ES|SPUR!root@The.Source.org PRIVMSG #THE.SOURCE :#1535  4x [230M] 06Plan.B.2023.S01E06.1080p.HEVC.x265-MeGusta.mkv
+[15:18:55] << :TS-HDTV|US|WTF!root@The.Source.org PRIVMSG #THE.SOURCE :#2006  0x [6.1G] 15FIFA.World.Cup.2026.Group.H.Uruguay.Vs.Cape.Verde.1080p.HDTV.H264-DARKSPORT.mkv
+[15:18:55] << :TS-ARCHIVE|IT|P|67223!root@The.Source.org PRIVMSG #THE.SOURCE :#246 0x [1.1G] 08The.Light.in.the.Hall.Still.Waters.S02E04.1080p.HDTV.H264-DARKFLiX.mkv
+[15:18:55] << :Paranoia.SceneP2P.net 531 DragonSlayer741 TS-ARCHIVE|US|P|20531 :You cannot send messages to users until you've been connected for 120 seconds or more
+[15:18:55] [ERROR] [Tower of God] Server verweigert MSG – 120s Wartezeit nötig, überspringe
+[15:18:55] >> QUIT :bye
+[15:18:55] [INFO] [Tower of God] Versuch 8/15: Tower.of.God.S02E06.1080p.HEVC.x265-MeGusta.mkv (irc.rizon.net #ELITEWAREZ)
+[15:18:55] [INFO] [Tower of God] Warte 0s vor erneuter Verbindung zu irc.rizon.net
+[15:18:55] << :irc.mufff.in NOTICE * :*** Couldn't look up your hostname (cached)
+[15:18:55] << :irc.mufff.in NOTICE * :*** Checking Ident
+[15:18:57] << :irc.mufff.in NOTICE * :*** No Ident response
+[15:18:57] << PING :333414543
+[15:18:57] << :irc.mufff.in NOTICE NightHawk291 :*** Your host is masked (7EFE6E6D.9337BBCB.DDD5C2D7.IP)
+[15:18:57] >> JOIN #ELITEWAREZ
+[15:18:57] << :NightHawk291!~NightHawk@7EFE6E6D.9337BBCB.DDD5C2D7.IP JOIN :#ELITEWAREZ
+[15:18:57] << :irc.mufff.in 332 NightHawk291 #ELITEWAREZ : :: 10#0ELiTEWAREZ :: Search: 4ONLINE 0::0 Join 10#0ELITE-CHAT for S10earch0, S10ubscriptions0, and C10hat0! 
+[15:18:57] << :irc.mufff.in 333 NightHawk291 #ELITEWAREZ aLp1ne!~aLp1ne@banged.your.mom.at.g00dwill.org 1765431530
+[15:18:57] [WARNING] [Tower of God] Bot '[ewg]db' nicht im Channel
+[15:18:57] >> QUIT :bye
+[15:18:57] [INFO] [Tower of God] Versuch 9/15: Tower.of.God.S02E05.1080p.HEVC.x265-MeGusta.mkv (irc.scenep2p.net #THE.SOURCE)
+[15:18:57] [INFO] [Tower of God] Warte 18s vor erneuter Verbindung zu irc.scenep2p.net
+[15:19:15] << :Neutrino.SceneP2P.net NOTICE * :*** Looking up your hostname...
+[15:19:15] << :Neutrino.SceneP2P.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[15:19:24] << PING :890A09BA
+[15:19:24] >> JOIN #THE.SOURCE
+[15:19:24] << :Neutrino.SceneP2P.net 396 DragonSlayer510 9D92C0A7.81E10EC4.D2285560.IP :is now your displayed host
+[15:19:24] << :Neutrino.SceneP2P.net NOTICE DragonSlayer510 :WARNING: Insecure connection. Please consider using TLS.
+[15:19:24] << :DragonSlayer510!DragonSlay@9D92C0A7.81E10EC4.D2285560.IP JOIN :#THE.SOURCE
+[15:19:24] << :Neutrino.SceneP2P.net 332 DragonSlayer510 #THE.SOURCE :10Welcome to #THE.SOURCE. 7The only xdcc channel you will ever need. The FASTEST downloads on IRC. NEVER throttled/logged/restricted | #The.Lounge for search/chat | 4#THE.INSIDERS for auto downloads. Open to all! |11Escape the flood join #THE.SOURCE.NOSPAM | 13Happy Leeching!!!
+[15:19:24] << :Neutrino.SceneP2P.net 333 DragonSlayer510 #THE.SOURCE Reeko 1625664464
+[15:19:24] [INFO] [Tower of God] /msg ts-archive|it|p|86652 xdcc send #335
+[15:19:25] >> PRIVMSG ts-archive|it|p|86652 :xdcc send #335
+[15:19:25] << :NickServ!services@Services.SceneP2P.net NOTICE DragonSlayer510 :Your nickname is not registered. To register it, use: /msg NickServ REGISTER password email
+[15:19:25] << :TheSource!root@The.Source.For.All NOTICE DragonSlayer510 :[#THE.SOURCE] 10Welcome to #THE.SOURCE | 11Not sure what to do next? Join #THE.LOUNGE for !help !search !latest !passive | 7Join #THE.INSIDERS to setup your TV subscriptions for auto downloads. | Escape the flood. Idle in #THE.SOURCE.NOSPAM instead of #THE.SOURCE to download.
+[15:19:25] << :TS-ARCHIVE|DE|P|84870!root@The.Source.org PRIVMSG #THE.SOURCE :#351  1x [1.1G] 15One.Piece.2023.S02E08.720p.WEB.H264-SYLiX.mkv
+[15:19:25] << :TS-ARCHIVE|US|P|31618!root@The.Source.org PRIVMSG #THE.SOURCE :#441  0x [465M] 06Seinfeld.S05E22.1080p.HEVC.x265-MeGusta.mkv
+[15:19:25] << :TS-ARCHIVE|US|P|20531!root@The.Source.org PRIVMSG #THE.SOURCE :#3920   0x [601M] 10Great.British.Menu.S19E24.1080p.HEVC.x265-MeGusta.mkv
+[15:19:25] << :TS-HDTV|CH|P|51142!root@The.Source.org PRIVMSG #THE.SOURCE :#931  0x [1.2G] 02FIA.World.Rally-Raid.Championship.S03E04.1080p.WEB.H264-13.mkv
+[15:19:25] << :TS-HDTV|ES|SPUR!root@The.Source.org PRIVMSG #THE.SOURCE :#1540  6x [1.5G] 06Citadel.Diana.S01E06.1080p.WEB.H264-GloriousMongoose.mkv
+[15:19:25] << :TS-HDTV|US|WTF!root@The.Source.org PRIVMSG #THE.SOURCE :#2011  0x [2.5G] 15Modern.Marvels.WWII.S01E03.Gear.And.Gadgets.1080p.AMZN.WEB-DL.DDP2.0.H.264-RAWR.mkv
+[15:19:25] << :TS-ARCHIVE|IT|P|67223!root@The.Source.org PRIVMSG #THE.SOURCE :#251 0x [987M] 08Flight.7500.2014.1080p.WEB.x265-THESOURCE.mkv
+[15:19:25] << :TS-HDTV|CA|P|60609!root@The.Source.org PRIVMSG #THE.SOURCE :#1571 1x [5.3G] 11WEC.2026.Round01.Italy.FP3.TNT.WEB-DL.1080p.H264.English-MWR.mkv
+[15:19:25] << :Neutrino.SceneP2P.net 531 DragonSlayer510 TS-ARCHIVE|IT|P|86652 :You cannot send messages to users until you've been connected for 120 seconds or more
+[15:19:25] [ERROR] [Tower of God] Server verweigert MSG – 120s Wartezeit nötig, überspringe
+[15:19:25] >> QUIT :bye
+[15:19:25] [INFO] [Tower of God] Versuch 10/15: Tower.of.God.S02E05.1080p.HEVC.x265-MeGusta.mkv (irc.scenep2p.net #THE.SOURCE)
+[15:19:25] [INFO] [Tower of God] Warte 20s vor erneuter Verbindung zu irc.scenep2p.net
+[15:21:45] << :Paranoia.SceneP2P.net NOTICE * :*** Looking up your hostname...
+[15:21:45] << :Paranoia.SceneP2P.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[15:21:54] << PING :D44211A9
+[15:21:54] >> JOIN #THE.SOURCE
+[15:21:54] << :Paranoia.SceneP2P.net 396 SteelTitan654 9D92C0A7.81E10EC4.D2285560.IP :is now your displayed host
+[15:21:54] << :Paranoia.SceneP2P.net NOTICE SteelTitan654 :WARNING: Insecure connection. Please consider using TLS.
+[15:21:54] << :SteelTitan654!SteelTitan@9D92C0A7.81E10EC4.D2285560.IP JOIN :#THE.SOURCE
+[15:21:54] << :Paranoia.SceneP2P.net 332 SteelTitan654 #THE.SOURCE :10Welcome to #THE.SOURCE. 7The only xdcc channel you will ever need. The FASTEST downloads on IRC. NEVER throttled/logged/restricted | #The.Lounge for search/chat | 4#THE.INSIDERS for auto downloads. Open to all! |11Escape the flood join #THE.SOURCE.NOSPAM | 13Happy Leeching!!!
+[15:21:54] << :Paranoia.SceneP2P.net 333 SteelTitan654 #THE.SOURCE Reeko 1625664464
+[15:21:54] [WARNING] [Tower of God] Bot 'ts-archive|it|p|866520' nicht im Channel
+[15:21:54] >> QUIT :bye
+[15:21:54] [INFO] [Tower of God] Versuch 11/15: Tower.of.God.S02E02.1080p.HEVC.x265-MeGusta.mkv (irc.scenep2p.net #THE.SOURCE)
+[15:21:54] << :Paranoia.SceneP2P.net NOTICE * :*** Looking up your hostname...
+[15:21:54] << :Paranoia.SceneP2P.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[15:22:03] << PING :7B06C5F0
+[15:22:03] >> JOIN #THE.SOURCE
+[15:22:03] << :Paranoia.SceneP2P.net 396 ThunderStrike557 9D92C0A7.81E10EC4.D2285560.IP :is now your displayed host
+[15:22:03] << :Paranoia.SceneP2P.net NOTICE ThunderStrike557 :WARNING: Insecure connection. Please consider using TLS.
+[15:22:03] << :ThunderStrike557!ThunderStr@9D92C0A7.81E10EC4.D2285560.IP JOIN :#THE.SOURCE
+[15:22:03] << :Paranoia.SceneP2P.net 332 ThunderStrike557 #THE.SOURCE :10Welcome to #THE.SOURCE. 7The only xdcc channel you will ever need. The FASTEST downloads on IRC. NEVER throttled/logged/restricted | #The.Lounge for search/chat | 4#THE.INSIDERS for auto downloads. Open to all! |11Escape the flood join #THE.SOURCE.NOSPAM | 13Happy Leeching!!!
+[15:22:03] << :Paranoia.SceneP2P.net 333 ThunderStrike557 #THE.SOURCE Reeko 1625664464
+[15:22:03] << :NickServ!services@Services.SceneP2P.net NOTICE ThunderStrike557 :Your nickname is not registered. To register it, use: /msg NickServ REGISTER password email
+[15:22:03] [INFO] [Tower of God] /msg ts-hdtv|ro|p|75943 xdcc send #540
+[15:22:04] >> PRIVMSG ts-hdtv|ro|p|75943 :xdcc send #540
+[15:22:04] << :TheSource!root@The.Source.For.All NOTICE ThunderStrike557 :[#THE.SOURCE] 10Welcome to #THE.SOURCE | 11Not sure what to do next? Join #THE.LOUNGE for !help !search !latest !passive | 7Join #THE.INSIDERS to setup your TV subscriptions for auto downloads. | Escape the flood. Idle in #THE.SOURCE.NOSPAM instead of #THE.SOURCE to download.
+[15:22:04] << :TS-ARCHIVE|AR|P|45665!root@The.Source.org PRIVMSG #THE.SOURCE :#707  0x [290M] 06Gogglebox.S23E03.720p.HEVC.x265-MeGusta.mkv
+[15:22:04] << :TS-ARCHIVE|US|P|11666!root@The.Source.org PRIVMSG #THE.SOURCE :#712 0x [5.4G] 15Together.(2025).(1080p.BluRay.x265.SDR.DDP.5.1.English-DarQ.HONE).mkv
+[15:22:04] << :TS-HD|FR|WOOO!root@The.Source.org PRIVMSG #THE.SOURCE :#2697   1x [223M] 10Yuck.2024.1080p.WEB-DL.HC.AAC.2.0.H264-WoKE.mkv
+[15:22:04] << :Paranoia.SceneP2P.net 531 ThunderStrike557 TS-HDTV|RO|P|75943 :You cannot send messages to users until you've been connected for 120 seconds or more
+[15:22:04] [ERROR] [Tower of God] Server verweigert MSG – 120s Wartezeit nötig, überspringe
+[15:22:04] >> QUIT :bye
+[15:22:04] [INFO] [Tower of God] Versuch 12/15: Tower.of.God.S02E24.1080p.HEVC.x265-MeGusta.mkv (irc.scenep2p.net #THE.SOURCE)
+[15:22:04] [INFO] [Tower of God] Warte 20s vor erneuter Verbindung zu irc.scenep2p.net
+[15:23:24] << :Neutrino.SceneP2P.net NOTICE * :*** Looking up your hostname...
+[15:23:24] << :Neutrino.SceneP2P.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[15:23:33] << PING :94F13957
+[15:23:33] >> JOIN #THE.SOURCE
+[15:23:33] << :Neutrino.SceneP2P.net 396 NightHawk141 9D92C0A7.81E10EC4.D2285560.IP :is now your displayed host
+[15:23:33] << :Neutrino.SceneP2P.net NOTICE NightHawk141 :WARNING: Insecure connection. Please consider using TLS.
+[15:23:33] << :NightHawk141!NightHawk1@9D92C0A7.81E10EC4.D2285560.IP JOIN :#THE.SOURCE
+[15:23:33] << :Neutrino.SceneP2P.net 332 NightHawk141 #THE.SOURCE :10Welcome to #THE.SOURCE. 7The only xdcc channel you will ever need. The FASTEST downloads on IRC. NEVER throttled/logged/restricted | #The.Lounge for search/chat | 4#THE.INSIDERS for auto downloads. Open to all! |11Escape the flood join #THE.SOURCE.NOSPAM | 13Happy Leeching!!!
+[15:23:33] << :Neutrino.SceneP2P.net 333 NightHawk141 #THE.SOURCE Reeko 1625664464
+[15:23:33] << :NickServ!services@Services.SceneP2P.net NOTICE NightHawk141 :Your nickname is not registered. To register it, use: /msg NickServ REGISTER password email
+[15:23:33] [INFO] [Tower of God] /msg ts-archive|us|p|31618 xdcc send #188
+[15:23:34] >> PRIVMSG ts-archive|us|p|31618 :xdcc send #188
+[15:23:34] << :TheSource!root@The.Source.For.All NOTICE NightHawk141 :[#THE.SOURCE] 10Welcome to #THE.SOURCE | 11Not sure what to do next? Join #THE.LOUNGE for !help !search !latest !passive | 7Join #THE.INSIDERS to setup your TV subscriptions for auto downloads. | Escape the flood. Idle in #THE.SOURCE.NOSPAM instead of #THE.SOURCE to download.
+[15:23:34] << :TS-ARCHIVE|AR|P|45665!root@The.Source.org PRIVMSG #THE.SOURCE :#722  0x [375M] 06Gold.Rush.S15E00.Expansion.Mode.720p.HEVC.x265-MeGusta.mkv
+[15:23:34] << :TS-ARCHIVE|US|P|11666!root@The.Source.org PRIVMSG #THE.SOURCE :#727 0x [1.3G] 15Celebrity.Gogglebox.S08E04.1080p.HDTV.H264-DARKFLiX.mkv
+[15:23:34] << :TS-HD|FR|WOOO!root@The.Source.org PRIVMSG #THE.SOURCE :#2712  11x [4.2M] 10Parkitect.Dinos.and.Dynasties.Update.v1.12c3-I_KnoW.tar
+[15:23:34] << :Neutrino.SceneP2P.net 531 NightHawk141 TS-ARCHIVE|US|P|31618 :You cannot send messages to users until you've been connected for 120 seconds or more
+[15:23:34] [ERROR] [Tower of God] Server verweigert MSG – 120s Wartezeit nötig, überspringe
+[15:23:34] >> QUIT :bye
+[15:23:34] [INFO] [Tower of God] Versuch 13/15: Tower.of.God.S02E16.1080p.HEVC.x265-MeGusta.mkv (irc.scenep2p.net #THE.SOURCE)
+[15:23:34] << :Paranoia.SceneP2P.net NOTICE * :*** Looking up your hostname...
+[15:23:34] << :Paranoia.SceneP2P.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[15:23:43] << PING :7DB5B8E8
+[15:23:43] >> JOIN #THE.SOURCE
+[15:23:43] << :Paranoia.SceneP2P.net 396 ShadowWolf951 9D92C0A7.81E10EC4.D2285560.IP :is now your displayed host
+[15:23:43] << :Paranoia.SceneP2P.net NOTICE ShadowWolf951 :WARNING: Insecure connection. Please consider using TLS.
+[15:23:43] << :ShadowWolf951!ShadowWolf@9D92C0A7.81E10EC4.D2285560.IP JOIN :#THE.SOURCE
+[15:23:43] << :Paranoia.SceneP2P.net 332 ShadowWolf951 #THE.SOURCE :10Welcome to #THE.SOURCE. 7The only xdcc channel you will ever need. The FASTEST downloads on IRC. NEVER throttled/logged/restricted | #The.Lounge for search/chat | 4#THE.INSIDERS for auto downloads. Open to all! |11Escape the flood join #THE.SOURCE.NOSPAM | 13Happy Leeching!!!
+[15:23:43] << :Paranoia.SceneP2P.net 333 ShadowWolf951 #THE.SOURCE Reeko 1625664464
+[15:23:43] [WARNING] [Tower of God] Bot 'ts-hdtv|pt|jill' nicht im Channel
+[15:23:43] >> QUIT :bye
+[15:23:43] [INFO] [Tower of God] Versuch 14/15: Tower.of.God.S02E07.720p.HEVC.x265-MeGusta.mkv (irc.scenep2p.net #THE.SOURCE)
+[15:23:43] [INFO] [Tower of God] Warte 21s vor erneuter Verbindung zu irc.scenep2p.net
+[15:24:04] << :Paranoia.SceneP2P.net NOTICE * :*** Looking up your hostname...
+[15:24:04] << :Paranoia.SceneP2P.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[15:24:13] << PING :EF1D3314
+[15:24:13] >> JOIN #THE.SOURCE
+[15:24:13] << :Paranoia.SceneP2P.net 396 ThunderStrike168 9D92C0A7.81E10EC4.D2285560.IP :is now your displayed host
+[15:24:13] << :Paranoia.SceneP2P.net NOTICE ThunderStrike168 :WARNING: Insecure connection. Please consider using TLS.
+[15:24:13] << :ThunderStrike168!ThunderStr@9D92C0A7.81E10EC4.D2285560.IP JOIN :#THE.SOURCE
+[15:24:13] << :Paranoia.SceneP2P.net 332 ThunderStrike168 #THE.SOURCE :10Welcome to #THE.SOURCE. 7The only xdcc channel you will ever need. The FASTEST downloads on IRC. NEVER throttled/logged/restricted | #The.Lounge for search/chat | 4#THE.INSIDERS for auto downloads. Open to all! |11Escape the flood join #THE.SOURCE.NOSPAM | 13Happy Leeching!!!
+[15:24:13] << :Paranoia.SceneP2P.net 333 ThunderStrike168 #THE.SOURCE Reeko 1625664464
+[15:24:13] << :NickServ!services@Services.SceneP2P.net NOTICE ThunderStrike168 :Your nickname is not registered. To register it, use: /msg NickServ REGISTER password email
+[15:24:13] [INFO] [Tower of God] /msg ts-hdtv|es|spur xdcc send #472
+[15:24:14] >> PRIVMSG ts-hdtv|es|spur :xdcc send #472
+[15:24:14] << :TheSource!root@The.Source.For.All NOTICE ThunderStrike168 :[#THE.SOURCE] 10Welcome to #THE.SOURCE | 11Not sure what to do next? Join #THE.LOUNGE for !help !search !latest !passive | 7Join #THE.INSIDERS to setup your TV subscriptions for auto downloads. | Escape the flood. Idle in #THE.SOURCE.NOSPAM instead of #THE.SOURCE to download.
+[15:24:14] << :TS-HD|US|APPLE!root@The.Source.org PRIVMSG #THE.SOURCE :#47   2x [1.4G] 06Jurassic.Park.III.2001.Remastered.1080p.BluRay.x265-THESOURCE.mkv
+[15:24:14] << :TS-HDTV|IT|CLOWN!root@The.Source.org PRIVMSG #THE.SOURCE :#199 0x [1.2G] 09Marvel.Zombies.S01E03.1080p.DSNP.WEB-DL.DDP5.1.Atmos.H.264-STC.mkv
+[15:24:14] << :Paranoia.SceneP2P.net 531 ThunderStrike168 TS-HDTV|ES|SPUR :You cannot send messages to users until you've been connected for 120 seconds or more
+[15:24:14] [ERROR] [Tower of God] Server verweigert MSG – 120s Wartezeit nötig, überspringe
+[15:24:14] >> QUIT :bye
+[15:24:14] [INFO] [Tower of God] Versuch 15/15: Tower.of.God.S02E08.720p.HEVC.x265-MeGusta.mkv (irc.scenep2p.net #THE.SOURCE)
+[15:24:14] [INFO] [Tower of God] Warte 20s vor erneuter Verbindung zu irc.scenep2p.net
+[15:25:34] << :Neutrino.SceneP2P.net NOTICE * :*** Looking up your hostname...
+[15:25:34] << :Neutrino.SceneP2P.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[15:25:43] << PING :D1AFF09A
+[15:25:43] >> JOIN #THE.SOURCE
+[15:25:43] << :Neutrino.SceneP2P.net 396 GhostRider130 9D92C0A7.81E10EC4.D2285560.IP :is now your displayed host
+[15:25:43] << :Neutrino.SceneP2P.net NOTICE GhostRider130 :WARNING: Insecure connection. Please consider using TLS.
+[15:25:43] << :GhostRider130!GhostRider@9D92C0A7.81E10EC4.D2285560.IP JOIN :#THE.SOURCE
+[15:25:43] << :Neutrino.SceneP2P.net 332 GhostRider130 #THE.SOURCE :10Welcome to #THE.SOURCE. 7The only xdcc channel you will ever need. The FASTEST downloads on IRC. NEVER throttled/logged/restricted | #The.Lounge for search/chat | 4#THE.INSIDERS for auto downloads. Open to all! |11Escape the flood join #THE.SOURCE.NOSPAM | 13Happy Leeching!!!
+[15:25:43] << :Neutrino.SceneP2P.net 333 GhostRider130 #THE.SOURCE Reeko 1625664464
+[15:25:43] << :NickServ!services@Services.SceneP2P.net NOTICE GhostRider130 :Your nickname is not registered. To register it, use: /msg NickServ REGISTER password email
+[15:25:43] [INFO] [Tower of God] /msg ts-archive|ar|p|45665 xdcc send #193
+[15:25:44] >> PRIVMSG ts-archive|ar|p|45665 :xdcc send #193
+[15:25:44] << :TheSource!root@The.Source.For.All NOTICE GhostRider130 :[#THE.SOURCE] 10Welcome to #THE.SOURCE | 11Not sure what to do next? Join #THE.LOUNGE for !help !search !latest !passive | 7Join #THE.INSIDERS to setup your TV subscriptions for auto downloads. | Escape the flood. Idle in #THE.SOURCE.NOSPAM instead of #THE.SOURCE to download.
+[15:25:44] << :TS-HDTV|CA|P|60609!root@The.Source.org PRIVMSG #THE.SOURCE :#1634 1x [1.4G] 11DMV.S01E17.Drive-ory.Tower.1080p.AMZN.WEB-DL.DDP5.1.H.264-RAWR.mkv
+[15:25:44] << :TS-HD|US|APPLE!root@The.Source.org PRIVMSG #THE.SOURCE :#62   2x [6.0G] 06New.Fears.Eve.2025.1080p.WEB.H264-OUTPOST31.mkv
+[15:25:44] << :TS-HDTV|IT|CLOWN!root@The.Source.org PRIVMSG #THE.SOURCE :#214 0x [483M] 09Boots.S01E01.1080p.HEVC.x265-MeGusta.mkv
+[15:25:44] << :Neutrino.SceneP2P.net 531 GhostRider130 TS-ARCHIVE|AR|P|45665 :You cannot send messages to users until you've been connected for 120 seconds or more
+[15:25:44] [ERROR] [Tower of God] Server verweigert MSG – 120s Wartezeit nötig, überspringe
+[15:25:44] >> QUIT :bye
+[15:25:44] [ERROR] [Tower of God] fehlgeschlagen
+
+============================================================
+=== Lauf beendet: 2026-06-28 15:25:44 | ok: 0, fehlgeschlagen: 1 ===
+============================================================

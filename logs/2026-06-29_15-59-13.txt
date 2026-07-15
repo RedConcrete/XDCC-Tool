@@ -1,0 +1,937 @@
+
+============================================================
+=== Lauf gestartet: 2026-06-29 15:59:13 ===
+============================================================
+[15:59:13] [INFO] [Star.Wars.The.Clone.Wars.S01] Suche: Star Wars The Clone Wars S01
+[15:59:13] << :arse.nl.eu.abjects.net NOTICE * :*** Looking up your hostname...
+[15:59:13] << :arse.nl.eu.abjects.net NOTICE * :*** Checking ident...
+[15:59:13] << :arse.nl.eu.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[15:59:17] << :arse.nl.eu.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[15:59:18] >> JOIN #beast-chat
+[15:59:18] << :arse.nl.eu.abjects.net 396 FrostByte775 C3A97A5D.6C525672.7F20E47C.IP :is now your displayed host
+[15:59:18] << :FrostByte775!~FrostByte@C3A97A5D.6C525672.7F20E47C.IP JOIN :#beast-chat
+[15:59:19] >> PRIVMSG #beast-chat :!s Star Wars The Clone Wars S01
+[15:59:19] << :arse.nl.eu.abjects.net 332 FrostByte775 #beast-chat :Welcome to #BEAST-XDCC  (Search:ONLINE) (Requests:ONLINE) ~ added !get command ~ !top or !topger to see most leeched releases, can be filtered by days ~ Please use !german for latest GERMAN releases only ~ commands; !latest !german !search !request !get !top !topger !tv !tvger !games ~ For more commands use !help ~ Have something to offer? Msg an ~ 
+[15:59:19] << :arse.nl.eu.abjects.net 333 FrostByte775 #beast-chat devnull!~qlimax@beastmo.de 1779527540
+[15:59:20] << :databeast!~databeast@the.beast NOTICE FrostByte775 :04SEARCH RESULTS LIMITED TO 100 PACKS
+[15:59:20] << :databeast!~databeast@the.beast NOTICE FrostByte775 :04(146.3G04) 14Star.Wars.The.Clone.Wars.S01.German.AC3D.DL.1080p.BluRay.x265-FuN.tar04 (141914x04)14 /msg 14BEAST-X-ULTRA14 xdcc send #141682
+[15:59:23] << :laggyluke!~laggyluke@abjects-DD79D2C2.pool.telefonica.de QUIT :Ping timeout: 240 seconds
+[15:59:25] << :Hyghroller!~Hyghrolle@C0998AFF.C71B79CE.17C9479E.IP PRIVMSG #beast-chat :!s the.devil.wears.prada.2.2026.hdr.2160p.web.h265-poke.mkv
+[15:59:25] >> QUIT :bye
+[15:59:44] << :neptune.ny.us.abjects.net NOTICE * :*** Looking up your hostname...
+[15:59:44] << :neptune.ny.us.abjects.net NOTICE * :*** Checking ident...
+[15:59:44] << :neptune.ny.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[15:59:47] << :neptune.ny.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[15:59:48] >> JOIN #mg-chat
+[15:59:48] << :neptune.ny.us.abjects.net 396 ToxicVenom443 C3A97A5D.6C525672.7F20E47C.IP :is now your displayed host
+[15:59:48] << :ToxicVenom443!~ToxicVeno@C3A97A5D.6C525672.7F20E47C.IP JOIN :#mg-chat
+[15:59:49] >> PRIVMSG #mg-chat :!s Star Wars The Clone Wars S01
+[15:59:49] << :neptune.ny.us.abjects.net 332 ToxicVenom443 #mg-chat : Welcome to Moviegods Chat - If you are new to this type !help - Join #MG-Lounge for requests/questions/comments/tv-subs/spam free chat -//- Join #MG-Help for help - Donations earn VIP perks  - Join #MG-donations for info
+[15:59:49] << :neptune.ny.us.abjects.net 333 ToxicVenom443 #mg-chat katsper!Kat@Sex.With.Leather.Clad.Women.is.Hot 1728087751
+[15:59:49] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE ToxicVenom443 :00,0100115)10  29x04 |10 6.9G04 |10 Star.Wars.The.Clone.Wars.S01.German.AC3.DL.1080p.BluRay.x265-FuN.tar04 |09 /msg [MG]-FUN|EU|S|FunFiles XDCC SEND 1299 04|00 Used: 5.24% 5/15 avg: 1.07MiB/s (33s ago)04 
+[15:59:49] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE ToxicVenom443 :15,01   )07 #MOVIEGODS - Found 1 ONLINE Packs (1 Bots) = Total GETS: 29.
+[15:59:51] << :zzxsz!~zzxsz@52B78940.1F12BE5A.D4CF744B.IP QUIT :Connection closed
+[15:59:54] >> QUIT :bye
+[15:59:54] << :killer.abandoned-irc.net NOTICE * :*** Looking up your hostname...
+[15:59:54] << :killer.abandoned-irc.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[15:59:56] >> JOIN #ZW-CHAT
+[15:59:56] << :killer.abandoned-irc.net 396 ToxicVenom741 9457BFBC.35B0CB26.E30ED253.IP :is now your displayed host
+[15:59:56] << :ToxicVenom741!ToxicVenom@9457BFBC.35B0CB26.E30ED253.IP JOIN :#ZW-CHAT
+[15:59:57] >> PRIVMSG #ZW-CHAT :!search Star Wars The Clone Wars S01
+[15:59:57] << :killer.abandoned-irc.net 332 ToxicVenom741 #ZW-CHAT :12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12=[04Searchbot]-[09ONLINE]- Triggers: !help !search !latest !subscriptions !topdl !hot !recommended !movies !music !tv !apps !games !ebook !xxx !mobile | Web: http://www.Abandoned-IRC.net/
+[15:59:57] << :killer.abandoned-irc.net 333 ToxicVenom741 #ZW-CHAT [ZOMBIE]-LATEST!Abandoned-@zombie.warez 1781827870
+[15:59:57] << :Zombie!ZW@ZoMbIe.WaReZ NOTICE ToxicVenom741 :[#ZW-CHAT] 12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12= we are looking for experienced ROOTERS/DEDi/BOXOWNERS . interested? use !joinZW
+[15:59:59] << :[o_0]!Zombies@Zombie.Warez NOTICE ToxicVenom741 :
+[15:59:59] << :[o_0]!Zombies@Zombie.Warez NOTICE ToxicVenom741 : ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+[15:59:59] << :[o_0]!Zombies@Zombie.Warez NOTICE ToxicVenom741 :End of Results. Found: 0 ONLINE packs (0 Bots = 0 Gets) matching "Star*Wars*The*Clone*Wars*S01"
+[16:00:02] >> QUIT :bye
+[16:00:04] [INFO] [Star.Wars.The.Clone.Wars.S01] Versuch 1/15: Star.Wars.The.Clone.Wars.S01.German.AC3.DL.1080p.BluRay.x265-FuN.tar (irc.abjects.net #moviegods)
+[16:00:04] [INFO] [Star.Wars.The.Clone.Wars.S01] Warte 9s vor erneuter Verbindung zu irc.abjects.net
+[16:00:14] << :jagged.ca.us.abjects.net NOTICE * :*** Looking up your hostname...
+[16:00:14] << :jagged.ca.us.abjects.net NOTICE * :*** Checking ident...
+[16:00:14] << :jagged.ca.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[16:00:18] << :jagged.ca.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[16:00:18] << PING :333B2932
+[16:00:20] >> JOIN #moviegods
+[16:00:20] << :jagged.ca.us.abjects.net 396 ThunderStrike713 C3A97A5D.6C525672.7F20E47C.IP :is now your displayed host
+[16:00:20] << :ThunderStrike713!~ThunderSt@C3A97A5D.6C525672.7F20E47C.IP JOIN :#moviegods
+[16:00:20] << :jagged.ca.us.abjects.net 332 ThunderStrike713 #moviegods : Welcome to #MOVIEGODS - If you are new to this type !help -//- Join #mg-chat to download -//- Join #MG-Lounge for requests/questions/comments/tv-subs/spam free chat -//-  Join #MG-Help for help -//- Donations get VIP perks  -  Join #MG-donations for info
+[16:00:20] << :jagged.ca.us.abjects.net 333 ThunderStrike713 #moviegods katsper!Kat@Sex.With.Leather.Clad.Women.is.Hot 1728068851
+[16:00:20] << :[MG]-HDTV|EU|S|GUNNERS!~root@94E67D87.2D6D11AF.A6FD9088.IP PRIVMSG #moviegods :#129  11x [775M] My.Adventures.with.Superman.S02E08.GERMAN.DL.1080p.WEB.h264-KNOEDEL.mkv
+[16:00:20] [INFO] [Star.Wars.The.Clone.Wars.S01] /msg [mg]-fun|eu|s|funfiles xdcc send #1299
+[16:00:21] >> PRIVMSG [mg]-fun|eu|s|funfiles :xdcc send #1299
+[16:00:22] << :[MG]-FUN|EU|S|FunFiles!~root@abjects-3DFC1E70.ip-54-39-128.net PRIVMSG ThunderStrike713 :DCC SEND Star.Wars.The.Clone.Wars.S01.German.AC3.DL.1080p.BluRay.x265-FuN.tar 908558430 30004 7439288320
+[16:03:50] >> QUIT :bye
+[16:03:50] [SUCCESS] [Star.Wars.The.Clone.Wars.S01] Download fertig: Star.Wars.The.Clone.Wars.S01.German.AC3.DL.1080p.BluRay.x265-FuN.tar
+[16:05:07] [SUCCESS] [Star.Wars.The.Clone.Wars.S01] fertig & einsortiert
+[16:05:07] [INFO] [Star.Wars.The.Clone.Wars.S02] Suche: Star Wars The Clone Wars S02
+[16:05:07] << :jagged.ca.us.abjects.net NOTICE * :*** Looking up your hostname...
+[16:05:07] << :jagged.ca.us.abjects.net NOTICE * :*** Checking ident...
+[16:05:08] << :jagged.ca.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[16:05:12] << :jagged.ca.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[16:05:13] >> JOIN #beast-chat
+[16:05:13] << :jagged.ca.us.abjects.net 396 ThunderStrike982 C3A97A5D.6C525672.7F20E47C.IP :is now your displayed host
+[16:05:14] << :ThunderStrike982!~ThunderSt@C3A97A5D.6C525672.7F20E47C.IP JOIN :#beast-chat
+[16:05:15] >> PRIVMSG #beast-chat :!s Star Wars The Clone Wars S02
+[16:05:15] << :jagged.ca.us.abjects.net 332 ThunderStrike982 #beast-chat :Welcome to #BEAST-XDCC  (Search:ONLINE) (Requests:ONLINE) ~ added !get command ~ !top or !topger to see most leeched releases, can be filtered by days ~ Please use !german for latest GERMAN releases only ~ commands; !latest !german !search !request !get !top !topger !tv !tvger !games ~ For more commands use !help ~ Have something to offer? Msg an ~ 
+[16:05:15] << :jagged.ca.us.abjects.net 333 ThunderStrike982 #beast-chat devnull!~qlimax@beastmo.de 1779527540
+[16:05:15] << :databeast!~databeast@the.beast NOTICE ThunderStrike982 :04SEARCH RESULTS LIMITED TO 100 PACKS
+[16:05:15] << :databeast!~databeast@the.beast NOTICE ThunderStrike982 :04(146.0G04) 14Star.Wars.The.Clone.Wars.S02.German.AC3D.DL.1080p.BluRay.x265-FuN.tar04 (141014x04)14 /msg 14BEAST-X-RAPTURE14 xdcc send #14365
+[16:05:21] >> QUIT :bye
+[16:05:37] << :sharpshooter.ny.us.abjects.net NOTICE * :*** Looking up your hostname...
+[16:05:37] << :sharpshooter.ny.us.abjects.net NOTICE * :*** Checking ident...
+[16:05:37] << :sharpshooter.ny.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[16:05:41] << :sharpshooter.ny.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[16:05:42] >> JOIN #mg-chat
+[16:05:42] << :sharpshooter.ny.us.abjects.net 396 RogueAce982 C3A97A5D.6C525672.7F20E47C.IP :is now your displayed host
+[16:05:42] << :RogueAce982!~RogueAce9@C3A97A5D.6C525672.7F20E47C.IP JOIN :#mg-chat
+[16:05:43] >> PRIVMSG #mg-chat :!s Star Wars The Clone Wars S02
+[16:05:43] << :sharpshooter.ny.us.abjects.net 332 RogueAce982 #mg-chat : Welcome to Moviegods Chat - If you are new to this type !help - Join #MG-Lounge for requests/questions/comments/tv-subs/spam free chat -//- Join #MG-Help for help - Donations earn VIP perks  - Join #MG-donations for info
+[16:05:43] << :sharpshooter.ny.us.abjects.net 333 RogueAce982 #mg-chat katsper!Kat@Sex.With.Leather.Clad.Women.is.Hot 1728087751
+[16:05:44] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE RogueAce982 :00,0100115)10  24x04 |10 6.0G04 |10 Star.Wars.The.Clone.Wars.S02.German.AC3.DL.1080p.BluRay.x265-FuN.tar04 |09 /msg [MG]-FUN|EU|S|FunFiles XDCC SEND 2148 04|00 Used: 61.25% 7/15 avg: 8.91MiB/s (28s ago)04 
+[16:05:44] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE RogueAce982 :15,01   )07 #MOVIEGODS - Found 1 ONLINE Packs (1 Bots) = Total GETS: 24.
+[16:05:50] >> QUIT :bye
+[16:05:50] << :chaos.abandoned-irc.net NOTICE * :*** Looking up your hostname...
+[16:05:51] << :chaos.abandoned-irc.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[16:05:52] >> JOIN #ZW-CHAT
+[16:05:52] << :chaos.abandoned-irc.net 396 RogueAce559 9457BFBC.35B0CB26.E30ED253.IP :is now your displayed host
+[16:05:52] << :RogueAce559!RogueAce55@9457BFBC.35B0CB26.E30ED253.IP JOIN :#zw-chat
+[16:05:53] >> PRIVMSG #ZW-CHAT :!search Star Wars The Clone Wars S02
+[16:05:53] << :chaos.abandoned-irc.net 332 RogueAce559 #zw-chat :12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12=[04Searchbot]-[09ONLINE]- Triggers: !help !search !latest !subscriptions !topdl !hot !recommended !movies !music !tv !apps !games !ebook !xxx !mobile | Web: http://www.Abandoned-IRC.net/
+[16:05:53] << :chaos.abandoned-irc.net 333 RogueAce559 #zw-chat [ZOMBIE]-LATEST!Abandoned-@zombie.warez 1781827870
+[16:05:53] << :Zombie!ZW@ZoMbIe.WaReZ NOTICE RogueAce559 :[#ZW-CHAT] 12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12= we are looking for experienced ROOTERS/DEDi/BOXOWNERS . interested? use !joinZW
+[16:05:53] << :[o_0]!Zombies@Zombie.Warez NOTICE RogueAce559 : ________________________________________________________________________________________________________________
+[16:05:53] << :[o_0]!Zombies@Zombie.Warez NOTICE RogueAce559 : 1).                            (Zombie-Winter - Used: 0/10 Speed: 0B/s)
+[16:05:53] << :[o_0]!Zombies@Zombie.Warez NOTICE RogueAce559 :
+[16:05:53] << :[o_0]!Zombies@Zombie.Warez NOTICE RogueAce559 :        2x [ 30G] Star.Wars.The.Clone.Wars.S02.1080p.DSNP.WEB-DL.DDP5.1.H.264-Kitsune.tar -( Command: /MSG Zombie-Winter XDCC SEND #278 )
+[16:05:55] << :[o_0]!Zombies@Zombie.Warez NOTICE RogueAce559 :
+[16:05:55] << :[o_0]!Zombies@Zombie.Warez NOTICE RogueAce559 : ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+[16:05:55] << :[o_0]!Zombies@Zombie.Warez NOTICE RogueAce559 :End of Results. Found: 1 ONLINE packs (1 Bots = 2 Gets) matching "Star*Wars*The*Clone*Wars*S02"
+[16:05:58] >> QUIT :bye
+[16:06:00] [INFO] [Star.Wars.The.Clone.Wars.S02] Versuch 1/15: Star.Wars.The.Clone.Wars.S02.German.AC3.DL.1080p.BluRay.x265-FuN.tar (irc.abjects.net #moviegods)
+[16:06:00] [INFO] [Star.Wars.The.Clone.Wars.S02] Warte 7s vor erneuter Verbindung zu irc.abjects.net
+[16:06:07] << :arse.nl.eu.abjects.net NOTICE * :*** Looking up your hostname...
+[16:06:07] << :arse.nl.eu.abjects.net NOTICE * :*** Checking ident...
+[16:06:07] << :arse.nl.eu.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[16:06:11] << :arse.nl.eu.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[16:06:11] << PING :7E4B304A
+[16:06:13] >> JOIN #moviegods
+[16:06:13] << :arse.nl.eu.abjects.net 396 ToxicVenom339 C3A97A5D.6C525672.7F20E47C.IP :is now your displayed host
+[16:06:13] << :ToxicVenom339!~ToxicVeno@C3A97A5D.6C525672.7F20E47C.IP JOIN :#moviegods
+[16:06:13] << :arse.nl.eu.abjects.net 332 ToxicVenom339 #moviegods : Welcome to #MOVIEGODS - If you are new to this type !help -//- Join #mg-chat to download -//- Join #MG-Lounge for requests/questions/comments/tv-subs/spam free chat -//-  Join #MG-Help for help -//- Donations get VIP perks  -  Join #MG-donations for info
+[16:06:13] << :arse.nl.eu.abjects.net 333 ToxicVenom339 #moviegods katsper!Kat@Sex.With.Leather.Clad.Women.is.Hot 1728068851
+[16:06:13] [INFO] [Star.Wars.The.Clone.Wars.S02] /msg [mg]-fun|eu|s|funfiles xdcc send #2148
+[16:06:14] >> PRIVMSG [mg]-fun|eu|s|funfiles :xdcc send #2148
+[16:06:14] << :applejuice!~applejuic@freshly.pressed JOIN :#moviegods
+[16:06:14] << :[MG]-FUN|EU|S|FunFiles!~root@abjects-3DFC1E70.ip-54-39-128.net PRIVMSG ToxicVenom339 :DCC SEND Star.Wars.The.Clone.Wars.S02.German.AC3.DL.1080p.BluRay.x265-FuN.tar 908558430 30000 6415093760
+[16:09:18] >> QUIT :bye
+[16:09:18] [SUCCESS] [Star.Wars.The.Clone.Wars.S02] Download fertig: Star.Wars.The.Clone.Wars.S02.German.AC3.DL.1080p.BluRay.x265-FuN.tar
+[16:10:15] [SUCCESS] [Star.Wars.The.Clone.Wars.S02] fertig & einsortiert
+[16:10:15] [INFO] [Star.Wars.The.Clone.Wars.S03] Suche: Star Wars The Clone Wars S03
+[16:10:15] << :heimdall.no.eu.abjects.net NOTICE * :*** Looking up your hostname...
+[16:10:15] << :heimdall.no.eu.abjects.net NOTICE * :*** Checking ident...
+[16:10:15] << :heimdall.no.eu.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[16:10:19] << :heimdall.no.eu.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[16:10:20] >> JOIN #beast-chat
+[16:10:20] << :heimdall.no.eu.abjects.net 396 DarkPhoenix057 C3A97A5D.6C525672.7F20E47C.IP :is now your displayed host
+[16:10:20] << :DarkPhoenix057!~DarkPhoen@C3A97A5D.6C525672.7F20E47C.IP JOIN :#beast-chat
+[16:10:21] >> PRIVMSG #beast-chat :!s Star Wars The Clone Wars S03
+[16:10:21] << :heimdall.no.eu.abjects.net 332 DarkPhoenix057 #beast-chat :Welcome to #BEAST-XDCC  (Search:ONLINE) (Requests:ONLINE) ~ added !get command ~ !top or !topger to see most leeched releases, can be filtered by days ~ Please use !german for latest GERMAN releases only ~ commands; !latest !german !search !request !get !top !topger !tv !tvger !games ~ For more commands use !help ~ Have something to offer? Msg an ~ 
+[16:10:21] << :heimdall.no.eu.abjects.net 333 DarkPhoenix057 #beast-chat devnull!~qlimax@beastmo.de 1779527540
+[16:10:22] << :databeast!~databeast@the.beast NOTICE DarkPhoenix057 :04SEARCH RESULTS LIMITED TO 100 PACKS
+[16:10:22] << :databeast!~databeast@the.beast NOTICE DarkPhoenix057 :04(145.8G04) 14Star.Wars.The.Clone.Wars.S03.German.AC3D.DL.1080p.BluRay.x265-FuN.tar04 (141814x04)14 /msg 14BEAST-X-REVOLT14 xdcc send #141685
+[16:10:22] << :Hyghroller!~Hyghrolle@C0998AFF.C71B79CE.17C9479E.IP PRIVMSG #beast-chat :!s Obsession.2026
+[16:10:28] >> QUIT :bye
+[16:10:45] << :sharpshooter.ny.us.abjects.net NOTICE * :*** Looking up your hostname...
+[16:10:45] << :sharpshooter.ny.us.abjects.net NOTICE * :*** Checking ident...
+[16:10:46] << :sharpshooter.ny.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[16:10:49] << :sharpshooter.ny.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[16:10:51] >> JOIN #mg-chat
+[16:10:51] << :sharpshooter.ny.us.abjects.net 396 BlazeFury135 C3A97A5D.6C525672.7F20E47C.IP :is now your displayed host
+[16:10:51] << :BlazeFury135!~BlazeFury@C3A97A5D.6C525672.7F20E47C.IP JOIN :#mg-chat
+[16:10:52] >> PRIVMSG #mg-chat :!s Star Wars The Clone Wars S03
+[16:10:52] << :sharpshooter.ny.us.abjects.net 332 BlazeFury135 #mg-chat : Welcome to Moviegods Chat - If you are new to this type !help - Join #MG-Lounge for requests/questions/comments/tv-subs/spam free chat -//- Join #MG-Help for help - Donations earn VIP perks  - Join #MG-donations for info
+[16:10:52] << :sharpshooter.ny.us.abjects.net 333 BlazeFury135 #mg-chat katsper!Kat@Sex.With.Leather.Clad.Women.is.Hot 1728087751
+[16:10:52] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE BlazeFury135 :00,0100115)10  25x04 |10 5.8G04 |10 Star.Wars.The.Clone.Wars.S03.German.AC3.DL.1080p.BluRay.x265-FuN.tar04 |09 /msg [MG]-FUN|EU|S|FunFiles XDCC SEND 3460 04|00 Used: 85.53% 8/15 avg: 10.89MiB/s (1m36s ago)04 
+[16:10:52] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE BlazeFury135 :15,01   )07 #MOVIEGODS - Found 1 ONLINE Packs (1 Bots) = Total GETS: 25.
+[16:10:58] >> QUIT :bye
+[16:10:58] << :vuln.abandoned-irc.net NOTICE * :*** Looking up your hostname...
+[16:10:58] << :vuln.abandoned-irc.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[16:11:00] >> JOIN #ZW-CHAT
+[16:11:00] << :vuln.abandoned-irc.net 396 ToxicVenom874 9457BFBC.35B0CB26.E30ED253.IP :is now your displayed host
+[16:11:00] << :vuln.abandoned-irc.net 422 ToxicVenom874 :MOTD File is missing
+[16:11:00] << :ToxicVenom874!ToxicVenom@9457BFBC.35B0CB26.E30ED253.IP JOIN :#zw-chat
+[16:11:01] >> PRIVMSG #ZW-CHAT :!search Star Wars The Clone Wars S03
+[16:11:01] << :vuln.abandoned-irc.net 332 ToxicVenom874 #zw-chat :12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12=[04Searchbot]-[09ONLINE]- Triggers: !help !search !latest !subscriptions !topdl !hot !recommended !movies !music !tv !apps !games !ebook !xxx !mobile | Web: http://www.Abandoned-IRC.net/
+[16:11:01] << :vuln.abandoned-irc.net 333 ToxicVenom874 #zw-chat [ZOMBIE]-LATEST!Abandoned-@zombie.warez 1781827870
+[16:11:01] << :Zombie!ZW@ZoMbIe.WaReZ NOTICE ToxicVenom874 :[#ZW-CHAT] 12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12= we are looking for experienced ROOTERS/DEDi/BOXOWNERS . interested? use !joinZW
+[16:11:03] << :[o_0]!Zombies@Zombie.Warez NOTICE ToxicVenom874 :
+[16:11:03] << :[o_0]!Zombies@Zombie.Warez NOTICE ToxicVenom874 : ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+[16:11:03] << :[o_0]!Zombies@Zombie.Warez NOTICE ToxicVenom874 :End of Results. Found: 0 ONLINE packs (0 Bots = 0 Gets) matching "Star*Wars*The*Clone*Wars*S03"
+[16:11:06] >> QUIT :bye
+[16:11:07] [INFO] [Star.Wars.The.Clone.Wars.S03] Versuch 1/15: Star.Wars.The.Clone.Wars.S03.German.AC3.DL.1080p.BluRay.x265-FuN.tar (irc.abjects.net #moviegods)
+[16:11:07] [INFO] [Star.Wars.The.Clone.Wars.S03] Warte 8s vor erneuter Verbindung zu irc.abjects.net
+[16:11:15] << :spiked.ca.us.abjects.net NOTICE * :*** Looking up your hostname...
+[16:11:15] << :spiked.ca.us.abjects.net NOTICE * :*** Checking ident...
+[16:11:15] << :spiked.ca.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[16:11:19] << :spiked.ca.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[16:11:19] << PING :74F77537
+[16:11:20] >> JOIN #moviegods
+[16:11:20] << :spiked.ca.us.abjects.net 396 NightHawk779 C3A97A5D.6C525672.7F20E47C.IP :is now your displayed host
+[16:11:21] << :NightHawk779!~NightHawk@C3A97A5D.6C525672.7F20E47C.IP JOIN :#moviegods
+[16:11:21] << :spiked.ca.us.abjects.net 332 NightHawk779 #moviegods : Welcome to #MOVIEGODS - If you are new to this type !help -//- Join #mg-chat to download -//- Join #MG-Lounge for requests/questions/comments/tv-subs/spam free chat -//-  Join #MG-Help for help -//- Donations get VIP perks  -  Join #MG-donations for info
+[16:11:21] << :spiked.ca.us.abjects.net 333 NightHawk779 #moviegods katsper!Kat@Sex.With.Leather.Clad.Women.is.Hot 1728068851
+[16:11:21] [INFO] [Star.Wars.The.Clone.Wars.S03] /msg [mg]-fun|eu|s|funfiles xdcc send #3460
+[16:11:22] >> PRIVMSG [mg]-fun|eu|s|funfiles :xdcc send #3460
+[16:11:22] << :[MG]-FUN|EU|S|FunFiles!~root@abjects-3DFC1E70.ip-54-39-128.net PRIVMSG NightHawk779 :DCC SEND Star.Wars.The.Clone.Wars.S03.German.AC3.DL.1080p.BluRay.x265-FuN.tar 908558430 30004 6248929280
+[16:14:16] >> QUIT :bye
+[16:14:16] [SUCCESS] [Star.Wars.The.Clone.Wars.S03] Download fertig: Star.Wars.The.Clone.Wars.S03.German.AC3.DL.1080p.BluRay.x265-FuN.tar
+[16:15:12] [SUCCESS] [Star.Wars.The.Clone.Wars.S03] fertig & einsortiert
+[16:15:12] [INFO] [Star.Wars.The.Clone.Wars.S04] Suche: Star Wars The Clone Wars S04
+[16:15:12] << :sharpshooter.ny.us.abjects.net NOTICE * :*** Looking up your hostname...
+[16:15:12] << :sharpshooter.ny.us.abjects.net NOTICE * :*** Checking ident...
+[16:15:12] << :sharpshooter.ny.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[16:15:16] << :sharpshooter.ny.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[16:15:17] >> JOIN #beast-chat
+[16:15:17] << :sharpshooter.ny.us.abjects.net 396 FrostByte867 C3A97A5D.6C525672.7F20E47C.IP :is now your displayed host
+[16:15:17] << :FrostByte867!~FrostByte@C3A97A5D.6C525672.7F20E47C.IP JOIN :#beast-chat
+[16:15:18] >> PRIVMSG #beast-chat :!s Star Wars The Clone Wars S04
+[16:15:18] << :sharpshooter.ny.us.abjects.net 332 FrostByte867 #beast-chat :Welcome to #BEAST-XDCC  (Search:ONLINE) (Requests:ONLINE) ~ added !get command ~ !top or !topger to see most leeched releases, can be filtered by days ~ Please use !german for latest GERMAN releases only ~ commands; !latest !german !search !request !get !top !topger !tv !tvger !games ~ For more commands use !help ~ Have something to offer? Msg an ~ 
+[16:15:18] << :sharpshooter.ny.us.abjects.net 333 FrostByte867 #beast-chat devnull!~qlimax@beastmo.de 1779527540
+[16:15:19] << :databeast!~databeast@the.beast NOTICE FrostByte867 :04SEARCH RESULTS LIMITED TO 100 PACKS
+[16:15:19] << :databeast!~databeast@the.beast NOTICE FrostByte867 :04(147.6G04) 14Star.Wars.The.Clone.Wars.S04.1080p.BluRay.x265-RARBG.tar04 (141514x04)14 /msg 14BEAST-X-CHINGY14 xdcc send #14158
+[16:15:19] << :databeast!~databeast@the.beast NOTICE FrostByte867 :04(146.2G04) 14Star.Wars.The.Clone.Wars.S04.German.AC3D.DL.1080p.BluRay.x265-FuN.tar04 (141314x04)14 /msg 14BEAST-X-KURUPT14 xdcc send #14272
+[16:15:22] << :Looney!~Looney@abjects-CF7F2D34.consolidated.net JOIN :#beast-chat
+[16:15:24] << :abxy123!~nobody@abjects-5B786EEB.dip0.t-ipconnect.de PRIVMSG #beast-chat :!search house of dragon german
+[16:15:24] >> QUIT :bye
+[16:15:42] << :spiked.ca.us.abjects.net NOTICE * :*** Looking up your hostname...
+[16:15:42] << :spiked.ca.us.abjects.net NOTICE * :*** Checking ident...
+[16:15:42] << :spiked.ca.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[16:15:46] << :spiked.ca.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[16:15:48] >> JOIN #mg-chat
+[16:15:48] << :spiked.ca.us.abjects.net 396 IronFist369 C3A97A5D.6C525672.7F20E47C.IP :is now your displayed host
+[16:15:48] << :IronFist369!~IronFist3@C3A97A5D.6C525672.7F20E47C.IP JOIN :#mg-chat
+[16:15:49] >> PRIVMSG #mg-chat :!s Star Wars The Clone Wars S04
+[16:15:49] << :spiked.ca.us.abjects.net 332 IronFist369 #mg-chat : Welcome to Moviegods Chat - If you are new to this type !help - Join #MG-Lounge for requests/questions/comments/tv-subs/spam free chat -//- Join #MG-Help for help - Donations earn VIP perks  - Join #MG-donations for info
+[16:15:49] << :spiked.ca.us.abjects.net 333 IronFist369 #mg-chat katsper!Kat@Sex.With.Leather.Clad.Women.is.Hot 1728087751
+[16:15:49] << :Looney!~Looney@abjects-CF7F2D34.consolidated.net PRIVMSG #mg-chat :!s house of the dragon s03e02
+[16:15:50] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE IronFist369 :00,0100115)10  28x04 |10 6.2G04 |10 Star.Wars.The.Clone.Wars.S04.German.AC3.DL.1080p.BluRay.x265-FuN.tar04 |09 /msg [MG]-FUN|EU|S|FunFiles XDCC SEND 1993 04|00 Used: 53.89% 12/15 avg: 4.57MiB/s (34s ago)04 
+[16:15:50] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE IronFist369 :15,01   )07 #MOVIEGODS - Found 1 ONLINE Packs (1 Bots) = Total GETS: 28.
+[16:15:56] << :willy789!~789willy@AB8F2968.77AD6488.80ECBCC6.IP PRIVMSG #mg-chat :!s Backrooms.2026
+[16:15:56] >> QUIT :bye
+[16:15:56] << :horde.abandoned-irc.net NOTICE * :*** Looking up your hostname...
+[16:15:56] << :horde.abandoned-irc.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[16:15:58] >> JOIN #ZW-CHAT
+[16:15:58] << :horde.abandoned-irc.net 396 DarkPhoenix410 9457BFBC.35B0CB26.E30ED253.IP :is now your displayed host
+[16:15:58] << :DarkPhoenix410!DarkPhoeni@9457BFBC.35B0CB26.E30ED253.IP JOIN :#zw-chat
+[16:15:59] >> PRIVMSG #ZW-CHAT :!search Star Wars The Clone Wars S04
+[16:15:59] << :horde.abandoned-irc.net 332 DarkPhoenix410 #zw-chat :12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12=[04Searchbot]-[09ONLINE]- Triggers: !help !search !latest !subscriptions !topdl !hot !recommended !movies !music !tv !apps !games !ebook !xxx !mobile | Web: http://www.Abandoned-IRC.net/
+[16:15:59] << :horde.abandoned-irc.net 333 DarkPhoenix410 #zw-chat [ZOMBIE]-LATEST!Abandoned-@zombie.warez 1781827870
+[16:15:59] << :Zombie!ZW@ZoMbIe.WaReZ NOTICE DarkPhoenix410 :[#ZW-CHAT] 12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12= we are looking for experienced ROOTERS/DEDi/BOXOWNERS . interested? use !joinZW
+[16:15:59] << :[o_0]!Zombies@Zombie.Warez PRIVMSG DarkPhoenix410 :VERSION
+[16:16:01] << :[o_0]!Zombies@Zombie.Warez NOTICE DarkPhoenix410 :
+[16:16:01] << :[o_0]!Zombies@Zombie.Warez NOTICE DarkPhoenix410 : ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+[16:16:01] << :[o_0]!Zombies@Zombie.Warez NOTICE DarkPhoenix410 :End of Results. Found: 0 ONLINE packs (0 Bots = 0 Gets) matching "Star*Wars*The*Clone*Wars*S04"
+[16:16:04] >> QUIT :bye
+[16:16:06] [INFO] [Star.Wars.The.Clone.Wars.S04] Versuch 1/15: Star.Wars.The.Clone.Wars.S04.German.AC3.DL.1080p.BluRay.x265-FuN.tar (irc.abjects.net #moviegods)
+[16:16:06] [INFO] [Star.Wars.The.Clone.Wars.S04] Warte 6s vor erneuter Verbindung zu irc.abjects.net
+[16:16:12] << :neptune.ny.us.abjects.net NOTICE * :*** Looking up your hostname...
+[16:16:12] << :neptune.ny.us.abjects.net NOTICE * :*** Checking ident...
+[16:16:13] << :neptune.ny.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[16:16:17] << :neptune.ny.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[16:16:17] << PING :689AEC58
+[16:16:18] >> JOIN #moviegods
+[16:16:18] << :neptune.ny.us.abjects.net 396 FrostByte394 C3A97A5D.6C525672.7F20E47C.IP :is now your displayed host
+[16:16:18] << :FrostByte394!~FrostByte@C3A97A5D.6C525672.7F20E47C.IP JOIN :#moviegods
+[16:16:18] << :neptune.ny.us.abjects.net 332 FrostByte394 #moviegods : Welcome to #MOVIEGODS - If you are new to this type !help -//- Join #mg-chat to download -//- Join #MG-Lounge for requests/questions/comments/tv-subs/spam free chat -//-  Join #MG-Help for help -//- Donations get VIP perks  -  Join #MG-donations for info
+[16:16:18] << :neptune.ny.us.abjects.net 333 FrostByte394 #moviegods katsper!Kat@Sex.With.Leather.Clad.Women.is.Hot 1728068851
+[16:16:19] [INFO] [Star.Wars.The.Clone.Wars.S04] /msg [mg]-fun|eu|s|funfiles xdcc send #1993
+[16:16:20] >> PRIVMSG [mg]-fun|eu|s|funfiles :xdcc send #1993
+[16:16:20] << :[MG]-Request|Bot|Chachy!~root@433448F.2D6D11AF.A6FD9088.IP PRIVMSG #moviegods :#73  20x [4.4G] Teen.Wolf.Ein.Werwolf.kommt.selten.allein.1985.German.720p.BluRay.x264-SPiCY.mkv
+[16:16:20] << :[MG]-MISC|EU|S|Chaos!~root@A68CBDEF.F0C31D27.A6FD9088.IP PRIVMSG #moviegods :#59 188x [7.2G] Deep.Water.2026.2026.1080p.AMZN.WEB-DL.DDP5.1.H.264-KyoGo.mkv
+[16:16:20] << :[MG]-X265|EU|S|PixieBCake!~root@5CF07B24.2D6D11AF.A6FD9088.IP PRIVMSG #moviegods :#89   26x [223M] The.Legend.of.Vox.Machina.S04E09.The.Temple.of.Truth.1080p.HEVC.x265-MeGusta.mkv
+[16:16:20] << :[MG]-FUN|EU|S|FunFiles!~root@abjects-3DFC1E70.ip-54-39-128.net PRIVMSG FrostByte394 :DCC SEND Star.Wars.The.Clone.Wars.S04.German.AC3.DL.1080p.BluRay.x265-FuN.tar 908558430 30012 6646814720
+[16:20:22] >> QUIT :bye
+[16:20:22] [SUCCESS] [Star.Wars.The.Clone.Wars.S04] Download fertig: Star.Wars.The.Clone.Wars.S04.German.AC3.DL.1080p.BluRay.x265-FuN.tar
+[16:21:15] [SUCCESS] [Star.Wars.The.Clone.Wars.S04] fertig & einsortiert
+[16:21:15] [INFO] [Star.Wars.The.Clone.Wars.S05] Suche: Star Wars The Clone Wars S05
+[16:21:16] << :mortal.tx.us.abjects.net NOTICE * :*** Looking up your hostname...
+[16:21:16] << :mortal.tx.us.abjects.net NOTICE * :*** Checking ident...
+[16:21:17] << :mortal.tx.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[16:21:20] << :mortal.tx.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[16:21:22] >> JOIN #beast-chat
+[16:21:22] << :mortal.tx.us.abjects.net 396 SilentSniper818 C3A97A5D.6C525672.7F20E47C.IP :is now your displayed host
+[16:21:22] << :SilentSniper818!~SilentSni@C3A97A5D.6C525672.7F20E47C.IP JOIN :#beast-chat
+[16:21:23] >> PRIVMSG #beast-chat :!s Star Wars The Clone Wars S05
+[16:21:23] << :mortal.tx.us.abjects.net 332 SilentSniper818 #beast-chat :Welcome to #BEAST-XDCC  (Search:ONLINE) (Requests:ONLINE) ~ added !get command ~ !top or !topger to see most leeched releases, can be filtered by days ~ Please use !german for latest GERMAN releases only ~ commands; !latest !german !search !request !get !top !topger !tv !tvger !games ~ For more commands use !help ~ Have something to offer? Msg an ~ 
+[16:21:23] << :mortal.tx.us.abjects.net 333 SilentSniper818 #beast-chat devnull!~qlimax@beastmo.de 1779527540
+[16:21:23] << :databeast!~databeast@the.beast NOTICE SilentSniper818 :04SEARCH RESULTS LIMITED TO 100 PACKS
+[16:21:23] << :databeast!~databeast@the.beast NOTICE SilentSniper818 :04(145.7G04) 14Star.Wars.The.Clone.Wars.S05.German.AC3D.DL.1080p.BluRay.x265-FuN.tar04 (141214x04)14 /msg 14BEAST-X-COPPER14 xdcc send #14284
+[16:21:23] << :databeast!~databeast@the.beast NOTICE SilentSniper818 :04(146.8G04) 14Star.Wars.The.Clone.Wars.(2008).S05.Bluray.EAC3.5.1.1080p.x265-iVy.tar04 (141514x04)14 /msg 14BEAST-X-SLAYER14 xdcc send #14100
+[16:21:29] >> QUIT :bye
+[16:21:46] << :neptune.ny.us.abjects.net NOTICE * :*** Looking up your hostname...
+[16:21:46] << :neptune.ny.us.abjects.net NOTICE * :*** Checking ident...
+[16:21:46] << :neptune.ny.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[16:21:50] << :neptune.ny.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[16:21:51] >> JOIN #mg-chat
+[16:21:51] << :neptune.ny.us.abjects.net 396 ThunderStrike525 C3A97A5D.6C525672.7F20E47C.IP :is now your displayed host
+[16:21:51] << :ThunderStrike525!~ThunderSt@C3A97A5D.6C525672.7F20E47C.IP JOIN :#mg-chat
+[16:21:52] >> PRIVMSG #mg-chat :!s Star Wars The Clone Wars S05
+[16:21:52] << :neptune.ny.us.abjects.net 332 ThunderStrike525 #mg-chat : Welcome to Moviegods Chat - If you are new to this type !help - Join #MG-Lounge for requests/questions/comments/tv-subs/spam free chat -//- Join #MG-Help for help - Donations earn VIP perks  - Join #MG-donations for info
+[16:21:52] << :neptune.ny.us.abjects.net 333 ThunderStrike525 #mg-chat katsper!Kat@Sex.With.Leather.Clad.Women.is.Hot 1728087751
+[16:21:52] << :darthbuddhaar!~darthbudd@9EB42E41:6B4159F:AD1FDCDB:IP QUIT :Quit: Quit
+[16:21:52] << :ls!r00t@Serve.Your.Long.Time PRIVMSG #mg-chat : .: 07#MOVIEGODS :.  7The Only Existing XDCC Channel That Is Truly Different From The Rest, e.g. The Only Chan That Supports SSL DCC SENDS.
+[16:21:53] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE ThunderStrike525 :00,0100115)10  29x04 |10 5.7G04 |10 Star.Wars.The.Clone.Wars.S05.German.AC3.DL.1080p.BluRay.x265-FuN.tar04 |09 /msg [MG]-FUN|EU|S|FunFiles XDCC SEND 915 04|00 Used: 109.86% 11/15 avg: 10.17MiB/s (37s ago)04 
+[16:21:53] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE ThunderStrike525 :15,01   )07 #MOVIEGODS - Found 1 ONLINE Packs (1 Bots) = Total GETS: 29.
+[16:21:54] << :fl0pper!~ANONYMOUS@CE75D0B8:8F99BD8B:82756CD1:IP JOIN :#mg-chat
+[16:21:54] << :vertex_32!~vertex_32@7A25527B.A0267773.1BA2BCF5.IP JOIN :#mg-chat
+[16:21:55] << :XillBoy!~XillBoy@abjects-76CA12F9.um33.pools.vodafone-ip.de JOIN :#mg-chat
+[16:21:58] >> QUIT :bye
+[16:21:58] << :killer.abandoned-irc.net NOTICE * :*** Looking up your hostname...
+[16:21:58] << :killer.abandoned-irc.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[16:22:00] >> JOIN #ZW-CHAT
+[16:22:00] << :killer.abandoned-irc.net 396 CrimsonFox269 9457BFBC.35B0CB26.E30ED253.IP :is now your displayed host
+[16:22:00] << :CrimsonFox269!CrimsonFox@9457BFBC.35B0CB26.E30ED253.IP JOIN :#ZW-CHAT
+[16:22:01] >> PRIVMSG #ZW-CHAT :!search Star Wars The Clone Wars S05
+[16:22:01] << :killer.abandoned-irc.net 332 CrimsonFox269 #ZW-CHAT :12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12=[04Searchbot]-[09ONLINE]- Triggers: !help !search !latest !subscriptions !topdl !hot !recommended !movies !music !tv !apps !games !ebook !xxx !mobile | Web: http://www.Abandoned-IRC.net/
+[16:22:01] << :killer.abandoned-irc.net 333 CrimsonFox269 #ZW-CHAT [ZOMBIE]-LATEST!Abandoned-@zombie.warez 1781827870
+[16:22:01] << :Zombie!ZW@ZoMbIe.WaReZ NOTICE CrimsonFox269 :[#ZW-CHAT] 12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12= we are looking for experienced ROOTERS/DEDi/BOXOWNERS . interested? use !joinZW
+[16:22:03] << :[o_0]!Zombies@Zombie.Warez NOTICE CrimsonFox269 :
+[16:22:03] << :[o_0]!Zombies@Zombie.Warez NOTICE CrimsonFox269 : ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+[16:22:03] << :[o_0]!Zombies@Zombie.Warez NOTICE CrimsonFox269 :End of Results. Found: 0 ONLINE packs (0 Bots = 0 Gets) matching "Star*Wars*The*Clone*Wars*S05"
+[16:22:06] >> QUIT :bye
+[16:22:07] [INFO] [Star.Wars.The.Clone.Wars.S05] Versuch 1/15: Star.Wars.The.Clone.Wars.S05.German.AC3.DL.1080p.BluRay.x265-FuN.tar (irc.abjects.net #moviegods)
+[16:22:07] [INFO] [Star.Wars.The.Clone.Wars.S05] Warte 8s vor erneuter Verbindung zu irc.abjects.net
+[16:22:16] << :heimdall.no.eu.abjects.net NOTICE * :*** Looking up your hostname...
+[16:22:16] << :heimdall.no.eu.abjects.net NOTICE * :*** Checking ident...
+[16:22:16] << :heimdall.no.eu.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[16:22:20] << :heimdall.no.eu.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[16:22:20] << PING :F53BB8D1
+[16:22:22] >> JOIN #moviegods
+[16:22:22] << :heimdall.no.eu.abjects.net 396 ToxicVenom639 C3A97A5D.6C525672.7F20E47C.IP :is now your displayed host
+[16:22:22] << :ToxicVenom639!~ToxicVeno@C3A97A5D.6C525672.7F20E47C.IP JOIN :#moviegods
+[16:22:22] << :heimdall.no.eu.abjects.net 332 ToxicVenom639 #moviegods : Welcome to #MOVIEGODS - If you are new to this type !help -//- Join #mg-chat to download -//- Join #MG-Lounge for requests/questions/comments/tv-subs/spam free chat -//-  Join #MG-Help for help -//- Donations get VIP perks  -  Join #MG-donations for info
+[16:22:22] << :heimdall.no.eu.abjects.net 333 ToxicVenom639 #moviegods katsper!Kat@Sex.With.Leather.Clad.Women.is.Hot 1728068851
+[16:22:22] [INFO] [Star.Wars.The.Clone.Wars.S05] /msg [mg]-fun|eu|s|funfiles xdcc send #915
+[16:22:23] >> PRIVMSG [mg]-fun|eu|s|funfiles :xdcc send #915
+[16:22:23] << :[MG]-FUN|EU|S|FunFiles!~root@abjects-3DFC1E70.ip-54-39-128.net PRIVMSG #moviegods :#304    4x [3.1G] Bloodsport.Eine.wahre.Geschichte.1988.REMASTERED.German.AC3.DL.1080p.BluRay.x265-FuN.mkv
+[16:22:23] << :[MG]-FUN|EU|S|FunFiles!~root@abjects-3DFC1E70.ip-54-39-128.net PRIVMSG ToxicVenom639 :DCC SEND Star.Wars.The.Clone.Wars.S05.German.AC3.DL.1080p.BluRay.x265-FuN.tar 908558430 30011 6151833600
+[16:25:51] >> QUIT :bye
+[16:25:51] [SUCCESS] [Star.Wars.The.Clone.Wars.S05] Download fertig: Star.Wars.The.Clone.Wars.S05.German.AC3.DL.1080p.BluRay.x265-FuN.tar
+[16:26:44] [SUCCESS] [Star.Wars.The.Clone.Wars.S05] fertig & einsortiert
+[16:26:44] [INFO] [Star.Wars.The.Clone.Wars.S06] Suche: Star Wars The Clone Wars S06
+[16:26:44] << :stormy.fr.eu.abjects.net NOTICE * :*** Looking up your hostname...
+[16:26:44] << :stormy.fr.eu.abjects.net NOTICE * :*** Checking ident...
+[16:26:45] << :stormy.fr.eu.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[16:26:48] << :stormy.fr.eu.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[16:26:49] >> JOIN #beast-chat
+[16:26:49] << :stormy.fr.eu.abjects.net 396 RogueAce518 C3A97A5D.6C525672.7F20E47C.IP :is now your displayed host
+[16:26:50] << :RogueAce518!~RogueAce5@C3A97A5D.6C525672.7F20E47C.IP JOIN :#beast-chat
+[16:26:51] >> PRIVMSG #beast-chat :!s Star Wars The Clone Wars S06
+[16:26:51] << :stormy.fr.eu.abjects.net 332 RogueAce518 #beast-chat :Welcome to #BEAST-XDCC  (Search:ONLINE) (Requests:ONLINE) ~ added !get command ~ !top or !topger to see most leeched releases, can be filtered by days ~ Please use !german for latest GERMAN releases only ~ commands; !latest !german !search !request !get !top !topger !tv !tvger !games ~ For more commands use !help ~ Have something to offer? Msg an ~ 
+[16:26:51] << :stormy.fr.eu.abjects.net 333 RogueAce518 #beast-chat devnull!~qlimax@beastmo.de 1779527540
+[16:26:51] << :|MandRake|!~MandRake@1D6102D1.FCA195CD.94B51C67.IP QUIT :Quit: Going offline, see ya! (www.adiirc.com)
+[16:26:51] << :databeast!~databeast@the.beast NOTICE RogueAce518 :04SEARCH RESULTS LIMITED TO 100 PACKS
+[16:26:51] << :databeast!~databeast@the.beast NOTICE RogueAce518 :04(143.4G04) 14Star.Wars.The.Clone.Wars.S06.German.AC3D.DL.1080p.BluRay.x265-FuN.tar04 (141114x04)14 /msg 14BEAST-X-RAPTURE14 xdcc send #14373
+[16:26:57] >> QUIT :bye
+[16:27:15] << :neptune.ny.us.abjects.net NOTICE * :*** Looking up your hostname...
+[16:27:15] << :neptune.ny.us.abjects.net NOTICE * :*** Checking ident...
+[16:27:15] << :neptune.ny.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[16:27:18] << :neptune.ny.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[16:27:19] >> JOIN #mg-chat
+[16:27:19] << :neptune.ny.us.abjects.net 396 GhostRider189 C3A97A5D.6C525672.7F20E47C.IP :is now your displayed host
+[16:27:19] << :GhostRider189!~GhostRide@C3A97A5D.6C525672.7F20E47C.IP JOIN :#mg-chat
+[16:27:20] >> PRIVMSG #mg-chat :!s Star Wars The Clone Wars S06
+[16:27:20] << :neptune.ny.us.abjects.net 332 GhostRider189 #mg-chat : Welcome to Moviegods Chat - If you are new to this type !help - Join #MG-Lounge for requests/questions/comments/tv-subs/spam free chat -//- Join #MG-Help for help - Donations earn VIP perks  - Join #MG-donations for info
+[16:27:20] << :neptune.ny.us.abjects.net 333 GhostRider189 #mg-chat katsper!Kat@Sex.With.Leather.Clad.Women.is.Hot 1728087751
+[16:27:21] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE GhostRider189 :00,0100115)10  30x04 |10 3.4G04 |10 Star.Wars.The.Clone.Wars.S06.German.AC3.DL.1080p.BluRay.x265-FuN.tar04 |09 /msg [MG]-FUN|EU|S|FunFiles XDCC SEND 1101 04|00 Used: 54.35% 8/15 avg: 6.92MiB/s (5s ago)04 
+[16:27:21] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE GhostRider189 :15,01   )07 #MOVIEGODS - Found 1 ONLINE Packs (1 Bots) = Total GETS: 30.
+[16:27:27] >> QUIT :bye
+[16:27:27] << :vuln.abandoned-irc.net NOTICE * :*** Looking up your hostname...
+[16:27:27] << :vuln.abandoned-irc.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[16:27:29] >> JOIN #ZW-CHAT
+[16:27:29] << :vuln.abandoned-irc.net 396 CrimsonFox209 9457BFBC.35B0CB26.E30ED253.IP :is now your displayed host
+[16:27:29] << :vuln.abandoned-irc.net 422 CrimsonFox209 :MOTD File is missing
+[16:27:29] << :CrimsonFox209!CrimsonFox@9457BFBC.35B0CB26.E30ED253.IP JOIN :#zw-chat
+[16:27:30] >> PRIVMSG #ZW-CHAT :!search Star Wars The Clone Wars S06
+[16:27:30] << :vuln.abandoned-irc.net 332 CrimsonFox209 #zw-chat :12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12=[04Searchbot]-[09ONLINE]- Triggers: !help !search !latest !subscriptions !topdl !hot !recommended !movies !music !tv !apps !games !ebook !xxx !mobile | Web: http://www.Abandoned-IRC.net/
+[16:27:30] << :vuln.abandoned-irc.net 333 CrimsonFox209 #zw-chat [ZOMBIE]-LATEST!Abandoned-@zombie.warez 1781827870
+[16:27:30] << :Zombie!ZW@ZoMbIe.WaReZ NOTICE CrimsonFox209 :[#ZW-CHAT] 12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12= we are looking for experienced ROOTERS/DEDi/BOXOWNERS . interested? use !joinZW
+[16:27:32] << :[o_0]!Zombies@Zombie.Warez NOTICE CrimsonFox209 :
+[16:27:32] << :[o_0]!Zombies@Zombie.Warez NOTICE CrimsonFox209 : ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+[16:27:32] << :[o_0]!Zombies@Zombie.Warez NOTICE CrimsonFox209 :End of Results. Found: 0 ONLINE packs (0 Bots = 0 Gets) matching "Star*Wars*The*Clone*Wars*S06"
+[16:27:35] >> QUIT :bye
+[16:27:36] [INFO] [Star.Wars.The.Clone.Wars.S06] Versuch 1/15: Star.Wars.The.Clone.Wars.S06.German.AC3.DL.1080p.BluRay.x265-FuN.tar (irc.abjects.net #moviegods)
+[16:27:36] [INFO] [Star.Wars.The.Clone.Wars.S06] Warte 8s vor erneuter Verbindung zu irc.abjects.net
+[16:27:44] << :stormy.fr.eu.abjects.net NOTICE * :*** Looking up your hostname...
+[16:27:44] << :stormy.fr.eu.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[16:27:44] << :stormy.fr.eu.abjects.net NOTICE * :*** Checking ident...
+[16:27:48] << :stormy.fr.eu.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[16:27:48] << PING :85CABB6F
+[16:27:50] >> JOIN #moviegods
+[16:27:50] << :stormy.fr.eu.abjects.net 396 DarkPhoenix131 C3A97A5D.6C525672.7F20E47C.IP :is now your displayed host
+[16:27:50] << :DarkPhoenix131!~DarkPhoen@C3A97A5D.6C525672.7F20E47C.IP JOIN :#moviegods
+[16:27:50] << :stormy.fr.eu.abjects.net 332 DarkPhoenix131 #moviegods : Welcome to #MOVIEGODS - If you are new to this type !help -//- Join #mg-chat to download -//- Join #MG-Lounge for requests/questions/comments/tv-subs/spam free chat -//-  Join #MG-Help for help -//- Donations get VIP perks  -  Join #MG-donations for info
+[16:27:50] << :stormy.fr.eu.abjects.net 333 DarkPhoenix131 #moviegods katsper!Kat@Sex.With.Leather.Clad.Women.is.Hot 1728068851
+[16:27:50] [INFO] [Star.Wars.The.Clone.Wars.S06] /msg [mg]-fun|eu|s|funfiles xdcc send #1101
+[16:27:51] >> PRIVMSG [mg]-fun|eu|s|funfiles :xdcc send #1101
+[16:27:51] << :[MG]-FUN|EU|S|FunFiles!~root@abjects-3DFC1E70.ip-54-39-128.net PRIVMSG #moviegods :#625    9x [ 17G] The.Blacklist.S04.German.AC3.DL.1080p.BDRip.x265-FuN.tar
+[16:27:51] << :[MG]-HDTV|EU|S|FruityPebbles!~root@abjects-E0F9D77D.clients.your-server.de PRIVMSG #moviegods :#157   0x [2.9G] Lawmen.Bass.Reeves.S01E08.German.DL.1080p.WEB.h264-WvF.mkv
+[16:27:51] << :[MG]-FUN|EU|S|FunFiles!~root@abjects-3DFC1E70.ip-54-39-128.net PRIVMSG DarkPhoenix131 :DCC SEND Star.Wars.The.Clone.Wars.S06.German.AC3.DL.1080p.BluRay.x265-FuN.tar 908558430 30004 3669647360
+[16:30:14] >> QUIT :bye
+[16:30:14] [SUCCESS] [Star.Wars.The.Clone.Wars.S06] Download fertig: Star.Wars.The.Clone.Wars.S06.German.AC3.DL.1080p.BluRay.x265-FuN.tar
+[16:30:37] [SUCCESS] [Star.Wars.The.Clone.Wars.S06] fertig & einsortiert
+[16:30:37] [INFO] [Star.Wars.The.Clone.Wars.S07] Suche: Star Wars The Clone Wars S07
+[16:30:38] << :neptune.ny.us.abjects.net NOTICE * :*** Looking up your hostname...
+[16:30:38] << :neptune.ny.us.abjects.net NOTICE * :*** Checking ident...
+[16:30:38] << :neptune.ny.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[16:30:42] << :neptune.ny.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[16:30:44] >> JOIN #beast-chat
+[16:30:44] << :neptune.ny.us.abjects.net 396 DragonSlayer007 C3A97A5D.6C525672.7F20E47C.IP :is now your displayed host
+[16:30:44] << :DragonSlayer007!~DragonSla@C3A97A5D.6C525672.7F20E47C.IP JOIN :#beast-chat
+[16:30:45] >> PRIVMSG #beast-chat :!s Star Wars The Clone Wars S07
+[16:30:45] << :neptune.ny.us.abjects.net 332 DragonSlayer007 #beast-chat :Welcome to #BEAST-XDCC  (Search:ONLINE) (Requests:ONLINE) ~ added !get command ~ !top or !topger to see most leeched releases, can be filtered by days ~ Please use !german for latest GERMAN releases only ~ commands; !latest !german !search !request !get !top !topger !tv !tvger !games ~ For more commands use !help ~ Have something to offer? Msg an ~ 
+[16:30:45] << :neptune.ny.us.abjects.net 333 DragonSlayer007 #beast-chat devnull!~qlimax@beastmo.de 1779527540
+[16:30:45] << :databeast!~databeast@the.beast NOTICE DragonSlayer007 :04SEARCH RESULTS LIMITED TO 100 PACKS
+[16:30:46] << :databeast!~databeast@the.beast NOTICE DragonSlayer007 :04(1432G04) 14Star.Wars.The.Clone.Wars.S07.GERMAN.DL.2160p.HDR.WEB.H265-TSCC.tar04 (141114x04)14 /msg 14BEAST-X-CHINGY14 xdcc send #14159
+[16:30:46] << :databeast!~databeast@the.beast NOTICE DragonSlayer007 :04(143.8G04) 14Star.Wars.The.Clone.Wars.S07.German.AC3.DL.1080p.WebHD.x265-FuN.tar04 (141114x04)14 /msg 14BEAST-X-ENVY14 xdcc send #14111
+[16:30:46] << :databeast!~databeast@the.beast NOTICE DragonSlayer007 :04(144.3G04) 14Star.Wars.The.Clone.Wars.S07.1080p.WEBRip.x265-RARBG.tar04 (141814x04)14 /msg 14BEAST-X-REVOLT14 xdcc send #141686
+[16:30:48] << :beast!~beast@superbea.st PRIVMSG #beast-chat :4NEW ~ [ 60G] My.Lucky.Stars.1985.Theatrical.Cut.UHD.BluRay.2160p.DTS-HD.MA.5.1.HEVC.REMUX-FraMeSToR.mkv /msg BEAST-X-ZEUS XDCC SEND 75
+[16:30:49] << :M00remaker!~Fieldsoke@E4E1517D.26B933AC.D4B0448F.IP PRIVMSG #beast-chat :!topger
+[16:30:52] >> QUIT :bye
+[16:31:08] << :sharpshooter.ny.us.abjects.net NOTICE * :*** Looking up your hostname...
+[16:31:08] << :sharpshooter.ny.us.abjects.net NOTICE * :*** Checking ident...
+[16:31:08] << :sharpshooter.ny.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[16:31:12] << :sharpshooter.ny.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[16:31:14] >> JOIN #mg-chat
+[16:31:14] << :sharpshooter.ny.us.abjects.net 396 SilentSniper086 C3A97A5D.6C525672.7F20E47C.IP :is now your displayed host
+[16:31:14] << :SilentSniper086!~SilentSni@C3A97A5D.6C525672.7F20E47C.IP JOIN :#mg-chat
+[16:31:15] >> PRIVMSG #mg-chat :!s Star Wars The Clone Wars S07
+[16:31:15] << :sharpshooter.ny.us.abjects.net 332 SilentSniper086 #mg-chat : Welcome to Moviegods Chat - If you are new to this type !help - Join #MG-Lounge for requests/questions/comments/tv-subs/spam free chat -//- Join #MG-Help for help - Donations earn VIP perks  - Join #MG-donations for info
+[16:31:15] << :sharpshooter.ny.us.abjects.net 333 SilentSniper086 #mg-chat katsper!Kat@Sex.With.Leather.Clad.Women.is.Hot 1728087751
+[16:31:15] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE SilentSniper086 :00,0100115)10  31x04 |10 3.8G04 |10 Star.Wars.The.Clone.Wars.S07.German.AC3.DL.1080p.WebHD.x265-FuN.tar04 |09 /msg [MG]-FUN|EU|S|FunFiles XDCC SEND 305 04|00 Used: 104.92% 9/15 avg: 11.87MiB/s (1m59s ago)04 
+[16:31:15] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE SilentSniper086 :15,01   )07 #MOVIEGODS - Found 1 ONLINE Packs (1 Bots) = Total GETS: 31.
+[16:31:20] << :Tommy!Tommy@abjects-53D78D1F.dip0.t-ipconnect.de PRIVMSG #mg-chat :!g House.of.the.Dragon.S03E02.GERMAN.DL.1080P.WEB.H264-WAYNE
+[16:31:20] >> QUIT :bye
+[16:31:20] << :chaos.abandoned-irc.net NOTICE * :*** Looking up your hostname...
+[16:31:20] << :chaos.abandoned-irc.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[16:31:22] >> JOIN #ZW-CHAT
+[16:31:22] << :chaos.abandoned-irc.net 396 GhostRider513 9457BFBC.35B0CB26.E30ED253.IP :is now your displayed host
+[16:31:22] << :GhostRider513!GhostRider@9457BFBC.35B0CB26.E30ED253.IP JOIN :#zw-chat
+[16:31:23] >> PRIVMSG #ZW-CHAT :!search Star Wars The Clone Wars S07
+[16:31:23] << :chaos.abandoned-irc.net 332 GhostRider513 #zw-chat :12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12=[04Searchbot]-[09ONLINE]- Triggers: !help !search !latest !subscriptions !topdl !hot !recommended !movies !music !tv !apps !games !ebook !xxx !mobile | Web: http://www.Abandoned-IRC.net/
+[16:31:23] << :chaos.abandoned-irc.net 333 GhostRider513 #zw-chat [ZOMBIE]-LATEST!Abandoned-@zombie.warez 1781827870
+[16:31:23] << :Zombie!ZW@ZoMbIe.WaReZ NOTICE GhostRider513 :[#ZW-CHAT] 12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12= we are looking for experienced ROOTERS/DEDi/BOXOWNERS . interested? use !joinZW
+[16:31:25] << :[o_0]!Zombies@Zombie.Warez NOTICE GhostRider513 :
+[16:31:25] << :[o_0]!Zombies@Zombie.Warez NOTICE GhostRider513 : ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+[16:31:25] << :[o_0]!Zombies@Zombie.Warez NOTICE GhostRider513 :End of Results. Found: 0 ONLINE packs (0 Bots = 0 Gets) matching "Star*Wars*The*Clone*Wars*S07"
+[16:31:28] >> QUIT :bye
+[16:31:30] [INFO] [Star.Wars.The.Clone.Wars.S07] Versuch 1/15: Star.Wars.The.Clone.Wars.S07.German.AC3.DL.1080p.WebHD.x265-FuN.tar (irc.abjects.net #moviegods)
+[16:31:30] [INFO] [Star.Wars.The.Clone.Wars.S07] Warte 8s vor erneuter Verbindung zu irc.abjects.net
+[16:31:38] << :mortal.tx.us.abjects.net NOTICE * :*** Looking up your hostname...
+[16:31:38] << :mortal.tx.us.abjects.net NOTICE * :*** Checking ident...
+[16:31:39] << :mortal.tx.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[16:31:42] << :mortal.tx.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[16:31:42] << PING :4AF8399C
+[16:31:44] >> JOIN #moviegods
+[16:31:44] << :mortal.tx.us.abjects.net 396 NightHawk647 C3A97A5D.6C525672.7F20E47C.IP :is now your displayed host
+[16:31:44] << :NightHawk647!~NightHawk@C3A97A5D.6C525672.7F20E47C.IP JOIN :#moviegods
+[16:31:44] << :mortal.tx.us.abjects.net 332 NightHawk647 #moviegods : Welcome to #MOVIEGODS - If you are new to this type !help -//- Join #mg-chat to download -//- Join #MG-Lounge for requests/questions/comments/tv-subs/spam free chat -//-  Join #MG-Help for help -//- Donations get VIP perks  -  Join #MG-donations for info
+[16:31:44] << :mortal.tx.us.abjects.net 333 NightHawk647 #moviegods katsper!Kat@Sex.With.Leather.Clad.Women.is.Hot 1728068851
+[16:31:44] [INFO] [Star.Wars.The.Clone.Wars.S07] /msg [mg]-fun|eu|s|funfiles xdcc send #305
+[16:31:45] >> PRIVMSG [mg]-fun|eu|s|funfiles :xdcc send #305
+[16:31:45] << :[MG]-FUN|EU|S|FunFiles!~root@abjects-3DFC1E70.ip-54-39-128.net PRIVMSG #moviegods :#853    3x [3.9G] Das.Netz.1995.German.AC3.DL.1080p.BluRay.x265-FuN.mkv
+[16:31:45] << :[MG]-HDTV|EU|S|FruityPebbles!~root@abjects-E0F9D77D.clients.your-server.de PRIVMSG #moviegods :#274   5x [2.4G] Ijon.Tichy.Raumpilot.S02.German.DVDRiP.x264.iNTERNAL-CiA.tar
+[16:31:45] << :[MG]-FUN|EU|S|FunFiles!~root@abjects-3DFC1E70.ip-54-39-128.net PRIVMSG NightHawk647 :DCC SEND Star.Wars.The.Clone.Wars.S07.German.AC3.DL.1080p.WebHD.x265-FuN.tar 908558430 30005 4116070400
+[16:33:35] >> QUIT :bye
+[16:33:35] [SUCCESS] [Star.Wars.The.Clone.Wars.S07] Download fertig: Star.Wars.The.Clone.Wars.S07.German.AC3.DL.1080p.WebHD.x265-FuN.tar
+[16:34:01] [SUCCESS] [Star.Wars.The.Clone.Wars.S07] fertig & einsortiert
+[16:34:01] [INFO] [Star.Wars.Rebels.S01] Suche: Star Wars Rebels S01
+[16:34:01] << :jagged.ca.us.abjects.net NOTICE * :*** Looking up your hostname...
+[16:34:01] << :jagged.ca.us.abjects.net NOTICE * :*** Checking ident...
+[16:34:01] << :jagged.ca.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[16:34:06] << :jagged.ca.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[16:34:08] >> JOIN #beast-chat
+[16:34:08] << :jagged.ca.us.abjects.net 396 VoidWalker508 C3A97A5D.6C525672.7F20E47C.IP :is now your displayed host
+[16:34:08] << :VoidWalker508!~VoidWalke@C3A97A5D.6C525672.7F20E47C.IP JOIN :#beast-chat
+[16:34:09] >> PRIVMSG #beast-chat :!s Star Wars Rebels S01
+[16:34:09] << :jagged.ca.us.abjects.net 332 VoidWalker508 #beast-chat :Welcome to #BEAST-XDCC  (Search:ONLINE) (Requests:ONLINE) ~ added !get command ~ !top or !topger to see most leeched releases, can be filtered by days ~ Please use !german for latest GERMAN releases only ~ commands; !latest !german !search !request !get !top !topger !tv !tvger !games ~ For more commands use !help ~ Have something to offer? Msg an ~ 
+[16:34:09] << :jagged.ca.us.abjects.net 333 VoidWalker508 #beast-chat devnull!~qlimax@beastmo.de 1779527540
+[16:34:09] << :hp1111!~1@abjects-6FC1A9E9.dip0.t-ipconnect.de QUIT :Quit: Leaving
+[16:34:09] << :databeast!~databeast@the.beast NOTICE VoidWalker508 :04SEARCH RESULTS LIMITED TO 100 PACKS
+[16:34:09] << :databeast!~databeast@the.beast NOTICE VoidWalker508 :04(144.7G04) 14Star.Wars.Rebels.S01.German.AC3D.DL.1080p.BluRay.x265-FuN.tar04 (141714x04)14 /msg 14BEAST-X-CHINGY14 xdcc send #14155
+[16:34:15] >> QUIT :bye
+[16:34:31] << :mortal.tx.us.abjects.net NOTICE * :*** Looking up your hostname...
+[16:34:31] << :mortal.tx.us.abjects.net NOTICE * :*** Checking ident...
+[16:34:32] << :mortal.tx.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[16:34:35] << :mortal.tx.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[16:34:37] >> JOIN #mg-chat
+[16:34:37] << :mortal.tx.us.abjects.net 396 VoidWalker349 C3A97A5D.6C525672.7F20E47C.IP :is now your displayed host
+[16:34:37] << :VoidWalker349!~VoidWalke@C3A97A5D.6C525672.7F20E47C.IP JOIN :#mg-chat
+[16:34:38] >> PRIVMSG #mg-chat :!s Star Wars Rebels S01
+[16:34:38] << :mortal.tx.us.abjects.net 332 VoidWalker349 #mg-chat : Welcome to Moviegods Chat - If you are new to this type !help - Join #MG-Lounge for requests/questions/comments/tv-subs/spam free chat -//- Join #MG-Help for help - Donations earn VIP perks  - Join #MG-donations for info
+[16:34:38] << :mortal.tx.us.abjects.net 333 VoidWalker349 #mg-chat katsper!Kat@Sex.With.Leather.Clad.Women.is.Hot 1728087751
+[16:34:38] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE VoidWalker349 :00,0100115)10  10x04 |10 4.7G04 |10 Star.Wars.Rebels.S01.German.AC3D.DL.1080p.BluRay.x265-FuN.tar04 |09 /msg [MG]-FUN|EU|S|FunFiles XDCC SEND 3096 04|00 Used: 68.94% 9/15 avg: 7.80MiB/s (1m22s ago)04 
+[16:34:39] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE VoidWalker349 :15,01   )07 #MOVIEGODS - Found 1 ONLINE Packs (1 Bots) = Total GETS: 10.
+[16:34:42] << :elivis!~kvirc@378BE49E.392E4BB5.34E87BAF.IP JOIN :#mg-chat
+[16:34:44] << :lfjsdf!~a@63D0DAD2.DDF8C18.202D5D24.IP QUIT :Quit: Bye
+[16:34:44] >> QUIT :bye
+[16:34:45] << :chaos.abandoned-irc.net NOTICE * :*** Looking up your hostname...
+[16:34:46] << :chaos.abandoned-irc.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[16:34:47] >> JOIN #ZW-CHAT
+[16:34:47] << :chaos.abandoned-irc.net 396 CrimsonFox770 9457BFBC.35B0CB26.E30ED253.IP :is now your displayed host
+[16:34:47] << :CrimsonFox770!CrimsonFox@9457BFBC.35B0CB26.E30ED253.IP JOIN :#zw-chat
+[16:34:48] >> PRIVMSG #ZW-CHAT :!search Star Wars Rebels S01
+[16:34:48] << :chaos.abandoned-irc.net 332 CrimsonFox770 #zw-chat :12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12=[04Searchbot]-[09ONLINE]- Triggers: !help !search !latest !subscriptions !topdl !hot !recommended !movies !music !tv !apps !games !ebook !xxx !mobile | Web: http://www.Abandoned-IRC.net/
+[16:34:48] << :chaos.abandoned-irc.net 333 CrimsonFox770 #zw-chat [ZOMBIE]-LATEST!Abandoned-@zombie.warez 1781827870
+[16:34:48] << :Zombie!ZW@ZoMbIe.WaReZ NOTICE CrimsonFox770 :[#ZW-CHAT] 12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12= we are looking for experienced ROOTERS/DEDi/BOXOWNERS . interested? use !joinZW
+[16:34:48] << :chaos.abandoned-irc.net 404 CrimsonFox770 #zw-chat :You are banned (#ZW-CHAT)
+[16:34:54] >> QUIT :bye
+[16:34:55] [INFO] [Star.Wars.Rebels.S01] Versuch 1/15: Star.Wars.Rebels.S01.German.AC3D.DL.1080p.BluRay.x265-FuN.tar (irc.abjects.net #beast-xdcc)
+[16:34:55] [INFO] [Star.Wars.Rebels.S01] Warte 5s vor erneuter Verbindung zu irc.abjects.net
+[16:35:01] << :stormy.fr.eu.abjects.net NOTICE * :*** Looking up your hostname...
+[16:35:01] << :stormy.fr.eu.abjects.net NOTICE * :*** Checking ident...
+[16:35:01] << :stormy.fr.eu.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[16:35:05] << :stormy.fr.eu.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[16:35:05] << PING :1DCE8E22
+[16:35:06] >> JOIN #beast-xdcc
+[16:35:06] << :stormy.fr.eu.abjects.net 396 GhostRider166 C3A97A5D.6C525672.7F20E47C.IP :is now your displayed host
+[16:35:06] << :GhostRider166!~GhostRide@C3A97A5D.6C525672.7F20E47C.IP JOIN :#beast-xdcc
+[16:35:06] << :stormy.fr.eu.abjects.net 332 GhostRider166 #beast-xdcc :#BEAST-XDCC //   BLAZING SPEEDS ~ PROPER PACKS   //   join #BEAST-CHAT for Search and much more.
+[16:35:06] << :stormy.fr.eu.abjects.net 333 GhostRider166 #beast-xdcc dbeast 1705098478
+[16:35:06] [INFO] [Star.Wars.Rebels.S01] /msg beast-x-chingy xdcc send #155
+[16:35:07] >> PRIVMSG beast-x-chingy :xdcc send #155
+[16:35:07] << :BEAST-X-SWIFT!~beast@untamed.beast PRIVMSG #beast-xdcc :#225 11x [1.9G] The.Legend.of.Vox.Machina.S04E05.GERMAN.DL.1080P.WEB.H264-WAYNE.mkv
+[16:35:07] << :BEAST-X-DIDDY!~beast@untamed.beast PRIVMSG #beast-xdcc :#230 10x [1.7G] Alaska.State.Troopers.S09E06.On.the.Run.1080p.HULU.WEB-DL.AAC2.0.H.264-RAWR.mkv
+[16:35:07] << :BEAST-X-AFFECT!~beast@untamed.beast PRIVMSG #beast-xdcc :#513  12x [5.4G] Meteor.Moon.2020.German.DL.1080p.BluRay.x264-DRC.tar
+[16:35:07] << :BEAST-X-TUPAC!~beast@untamed.beast PRIVMSG #beast-xdcc :#224 10x [ 11G] Wicked.2024.1080p.AMZN.WEB-DL.DDP5.1.H.264-APEX.mkv
+[16:35:07] << :BEAST-X-REVOLT!~beast@untamed.beast PRIVMSG #beast-xdcc :#1679 13x [3.6G] Star.Trek.Section.31.2025.German.DL.1080p.BluRay.x264-LizardSquad.tar
+[16:35:08] << :BEAST-X-SMOKED!~beast@untamed.beast PRIVMSG #beast-xdcc :#224 10x [2.3G] Marshals.A.Yellowstone.Story.S01E07.GERMAN.DL.1080P.WEB.H264-WAYNE.mkv
+[16:35:08] << :Useralt!~glloq@abjects-87E6A134.w109-208.abo.wanadoo.fr JOIN :#beast-xdcc
+[16:35:08] << :BEAST-X-LAMAR!~beast@untamed.beast PRIVMSG #beast-xdcc :#233 10x [ 12G] Gunslingers.2025.GERMAN.DL.2160P.WEB.H265-WAYNE.tar
+[16:35:08] << :BEAST-X-EMINEM!~beast@untamed.beast PRIVMSG #beast-xdcc :#231 10x [7.9G] DTF.St.Louis.S01E07.DV.HDR.2160p.WEB.h265-ETHEL.mkv
+[16:35:08] << :BEAST-X-DELTA!~beast@untamed.beast PRIVMSG #beast-xdcc :#1841 13x [ 10G] How.To.Get.Away.With.Murder.S05.1080p.WEBRip.x265-RARBG.tar
+[16:35:09] << :BEAST-X-ABYSS!~beast@untamed.beast PRIVMSG #beast-xdcc :#498  19x [2.2G] Godzilla.vs.Kong.2021.German.AC3.DL.1080p.BluRay.x265-FuN.mkv
+[16:35:09] << :BEAST-X-JOKER!~beast@untamed.beast PRIVMSG #beast-xdcc :#1694 11x [8.6G] Vera.S04.1080p.WEBRip.x265-KONTRAST.tar
+[16:35:09] << :BEAST-X-DRAKE!~beast@untamed.beast PRIVMSG #beast-xdcc :#226 10x [943M] Das.Institut.Oase.des.Scheiterns.S01E06.Kallalabale.und.Liebe.GERMAN.1080p.WEB.h264-TMSF.tar
+[16:35:09] << :BEAST-X-SNOOP!~beast@untamed.beast PRIVMSG #beast-xdcc :#230 10x [498M] Scrubs.2026.S01E08.German.DL.720p.WEB.h264-WvF.mkv
+[16:35:09] << :BEAST-X-STYLES!~beast@untamed.beast PRIVMSG #beast-xdcc :#230  0x [6.1G] Sweet.Magnolias.S05E08.HDR.2160p.WEB.h265-GRACE.mkv
+[16:35:10] << :BEAST-X-CHINGY!~beast@untamed.beast NOTICE GhostRider166 :** Sending you pack #155 ("Star.Wars.Rebels.S01.German.AC3D.DL.1080p.BluRay.x265-FuN.tar"), which is 4.7GB. (resume supported)
+[16:35:10] [INFO] [Star.Wars.Rebels.S01] ** Sending you pack #155 ("Star.Wars.Rebels.S01.German.AC3D.DL.1080p.BluRay.x265-FuN.tar"), which is 4.7GB. (resume supported)
+[16:35:11] << :BEAST-X-LAMAR!~beast@untamed.beast PRIVMSG #beast-xdcc :#234 10x [1.1G] Hacks.S05E04.DV.HDR.2160p.WEB.h265-GRACE.mkv
+[16:35:11] << :BEAST-X-TUPAC!~beast@untamed.beast PRIVMSG #beast-xdcc :#225 10x [438M] Ultimate.Theater.Simulator.Update.v1.3.7-TENOKE.tar
+[16:35:11] << :BEAST-X-REVOLT!~beast@untamed.beast PRIVMSG #beast-xdcc :#1680 14x [ 18G] Star.Trek.The.Next.Generation.S07.1080p.BluRay.x265-RBG.tar
+[16:35:11] << :BEAST-X-AFFECT!~beast@untamed.beast PRIVMSG #beast-xdcc :#514  14x [5.9G] Methgator.2023.German.DL.1080p.BluRay.x264-GMA.tar
+[16:35:12] << :BEAST-X-DELTA!~beast@untamed.beast PRIVMSG #beast-xdcc :#1842 11x [ 10G] How.to.Get.to.Heaven.from.Belfast.S01.1080p.WEBRip.x265-KONTRAST.tar
+[16:35:12] << :BEAST-X-JOKER!~beast@untamed.beast PRIVMSG #beast-xdcc :#1695 11x [8.6G] Vera.S05.1080p.WEBRip.x265-KONTRAST.tar
+[16:35:12] << :BEAST-X-SMOKED!~beast@untamed.beast PRIVMSG #beast-xdcc :#225 10x [1.4G] Marshals.A.Yellowstone.Story.S01E11.German.DL.720p.WEB.h264-WvF.mkv
+[16:35:12] << :BEAST-X-STYLES!~beast@untamed.beast PRIVMSG #beast-xdcc :#231  0x [4.0G] Sweet.Magnolias.S05E10.2160p.WEB.h265-GRACE.mkv
+[16:35:12] << :BEAST-X-SWIFT!~beast@untamed.beast PRIVMSG #beast-xdcc :#226 11x [1.8G] The.Legend.of.Vox.Machina.S04E07.The.Ghosts.of.Whitestone.1080p.AMZN.WEB-DL.DDP5.1.H.264-Kitsune.mkv
+[16:35:12] << :BEAST-X-DIDDY!~beast@untamed.beast PRIVMSG #beast-xdcc :#231 10x [1.7G] Alaska.State.Troopers.S09E10.Shots.in.the.Snow.1080p.HULU.WEB-DL.AAC2.0.H.264-RAWR.mkv
+[16:35:12] << :BEAST-X-EMINEM!~beast@untamed.beast PRIVMSG #beast-xdcc :#232 10x [474M] Dragonball.S01E077.German.AC3.DL.1080p.BDRip.x265-FuN.mkv
+[16:35:13] << :BEAST-X-SNOOP!~beast@untamed.beast PRIVMSG #beast-xdcc :#231 10x [955M] Scrubs.2026.S01E08.My.Odds.1080p.DSNP.WEB-DL.DDP5.1.H.264-FLUX.mkv
+[16:35:14] << :BEAST-X-ABYSS!~beast@untamed.beast PRIVMSG #beast-xdcc :#499  18x [2.6G] Godzilla.x.Kong.The.New.Empire.2024.German.AC3.DL.1080p.BluRay.x265-FuN.mkv
+[16:35:14] << :BEAST-X-DRAKE!~beast@untamed.beast PRIVMSG #beast-xdcc :#227 10x [991M] Das.Institut.Oase.des.Scheiterns.S02E04.Ritt.der.Walkuere.GERMAN.1080p.WEB.h264-TMSF.tar
+[16:35:14] << :BEAST-X-LAMAR!~beast@untamed.beast PRIVMSG #beast-xdcc :#235 10x [2.2G] Hacks.S05E05.1080p.WEB.h264-GRACE.mkv
+[16:35:15] << :BEAST-X-AFFECT!~beast@untamed.beast PRIVMSG #beast-xdcc :#515  14x [1.7G] Mexicali.2026.1080p.WEBRip.x265.10bit.AAC5.1-LAMA.mp4
+[16:35:15] << :BEAST-X-CHINGY!~beast@untamed.beast PRIVMSG GhostRider166 :DCC SEND Star.Wars.Rebels.S01.German.AC3D.DL.1080p.BluRay.x265-FuN.tar 2996999663 60437 5040670720
+[16:36:26] >> QUIT :bye
+[16:36:26] [SUCCESS] [Star.Wars.Rebels.S01] Download fertig: Star.Wars.Rebels.S01.German.AC3D.DL.1080p.BluRay.x265-FuN.tar
+[16:37:18] [SUCCESS] [Star.Wars.Rebels.S01] fertig & einsortiert
+[16:37:18] [INFO] [Star.Wars.Rebels.S02] Suche: Star Wars Rebels S02
+[16:37:18] << :sharpshooter.ny.us.abjects.net NOTICE * :*** Looking up your hostname...
+[16:37:18] << :sharpshooter.ny.us.abjects.net NOTICE * :*** Checking ident...
+[16:37:19] << :sharpshooter.ny.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[16:37:22] << :sharpshooter.ny.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[16:37:24] >> JOIN #beast-chat
+[16:37:24] << :sharpshooter.ny.us.abjects.net 396 NightHawk505 C3A97A5D.6C525672.7F20E47C.IP :is now your displayed host
+[16:37:24] << :NightHawk505!~NightHawk@C3A97A5D.6C525672.7F20E47C.IP JOIN :#beast-chat
+[16:37:25] >> PRIVMSG #beast-chat :!s Star Wars Rebels S02
+[16:37:25] << :sharpshooter.ny.us.abjects.net 332 NightHawk505 #beast-chat :Welcome to #BEAST-XDCC  (Search:ONLINE) (Requests:ONLINE) ~ added !get command ~ !top or !topger to see most leeched releases, can be filtered by days ~ Please use !german for latest GERMAN releases only ~ commands; !latest !german !search !request !get !top !topger !tv !tvger !games ~ For more commands use !help ~ Have something to offer? Msg an ~ 
+[16:37:25] << :sharpshooter.ny.us.abjects.net 333 NightHawk505 #beast-chat devnull!~qlimax@beastmo.de 1779527540
+[16:37:25] << :databeast!~databeast@the.beast NOTICE NightHawk505 :04SEARCH RESULTS LIMITED TO 100 PACKS
+[16:37:25] << :databeast!~databeast@the.beast NOTICE NightHawk505 :04(146.3G04) 14Star.Wars.Rebels.S02.German.AC3.DL.1080p.BluRay.x265-FuN.tar04 (141614x04)14 /msg 14BEAST-X-CHINGY14 xdcc send #14156
+[16:37:31] >> QUIT :bye
+[16:37:49] << :jagged.ca.us.abjects.net NOTICE * :*** Looking up your hostname...
+[16:37:49] << :jagged.ca.us.abjects.net NOTICE * :*** Checking ident...
+[16:37:49] << :jagged.ca.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[16:37:52] << :jagged.ca.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[16:37:54] >> JOIN #mg-chat
+[16:37:54] << :jagged.ca.us.abjects.net 396 NovaBlade989 C3A97A5D.6C525672.7F20E47C.IP :is now your displayed host
+[16:37:54] << :NovaBlade989!~NovaBlade@C3A97A5D.6C525672.7F20E47C.IP JOIN :#mg-chat
+[16:37:55] >> PRIVMSG #mg-chat :!s Star Wars Rebels S02
+[16:37:55] << :jagged.ca.us.abjects.net 332 NovaBlade989 #mg-chat : Welcome to Moviegods Chat - If you are new to this type !help - Join #MG-Lounge for requests/questions/comments/tv-subs/spam free chat -//- Join #MG-Help for help - Donations earn VIP perks  - Join #MG-donations for info
+[16:37:55] << :jagged.ca.us.abjects.net 333 NovaBlade989 #mg-chat katsper!Kat@Sex.With.Leather.Clad.Women.is.Hot 1728087751
+[16:37:55] << :trew123!~PeterPitr@trem.the.trew QUIT :NickServ (GHOST command used by PeterPitrelli)
+[16:37:55] << :trew123!~PeterPitr@trem.the.trew JOIN :#mg-chat
+[16:37:55] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE NovaBlade989 :00,0100115)10  10x04 |10 6.3G04 |10 Star.Wars.Rebels.S02.German.AC3.DL.1080p.BluRay.x265-FuN.tar04 |09 /msg [MG]-FUN|EU|S|FunFiles XDCC SEND 1364 04|00 Used: 63.19% 10/15 avg: 6.44MiB/s (39s ago)04 
+[16:37:56] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE NovaBlade989 :15,01   )07 #MOVIEGODS - Found 1 ONLINE Packs (1 Bots) = Total GETS: 10.
+[16:38:00] << :rados!~rados@abjects-F318C9F.wlan.informatik.uni-frankfurt.de JOIN :#mg-chat
+[16:38:00] >> QUIT :bye
+[16:38:00] << :killer.abandoned-irc.net NOTICE * :*** Looking up your hostname...
+[16:38:00] << :killer.abandoned-irc.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[16:38:02] >> JOIN #ZW-CHAT
+[16:38:02] << :killer.abandoned-irc.net 396 GhostRider315 9457BFBC.35B0CB26.E30ED253.IP :is now your displayed host
+[16:38:02] << :killer.abandoned-irc.net 474 GhostRider315 #ZW-CHAT :Cannot join channel (+b)
+[16:38:32] >> QUIT :bye
+[16:38:33] [INFO] [Star.Wars.Rebels.S02] Versuch 1/15: Star.Wars.Rebels.S02.German.AC3.DL.1080p.BluRay.x265-FuN.tar (irc.abjects.net #beast-xdcc)
+[16:38:34] << :jagged.ca.us.abjects.net NOTICE * :*** Looking up your hostname...
+[16:38:34] << :jagged.ca.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[16:38:34] << :jagged.ca.us.abjects.net NOTICE * :*** Checking ident...
+[16:38:37] << :jagged.ca.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[16:38:37] << PING :E5E031D5
+[16:38:39] >> JOIN #beast-xdcc
+[16:38:39] << :jagged.ca.us.abjects.net 396 CrimsonFox958 C3A97A5D.6C525672.7F20E47C.IP :is now your displayed host
+[16:38:39] << :CrimsonFox958!~CrimsonFo@C3A97A5D.6C525672.7F20E47C.IP JOIN :#beast-xdcc
+[16:38:39] << :jagged.ca.us.abjects.net 332 CrimsonFox958 #beast-xdcc :#BEAST-XDCC //   BLAZING SPEEDS ~ PROPER PACKS   //   join #BEAST-CHAT for Search and much more.
+[16:38:39] << :jagged.ca.us.abjects.net 333 CrimsonFox958 #beast-xdcc dbeast 1705098478
+[16:38:39] << :BEAST-X-SMOKED!~beast@untamed.beast PRIVMSG #beast-xdcc :#271 11x [402M] man.on.fire.s01e07.german.webrip.x264-avtomat.mkv
+[16:38:39] [INFO] [Star.Wars.Rebels.S02] /msg beast-x-chingy xdcc send #156
+[16:38:40] >> PRIVMSG beast-x-chingy :xdcc send #156
+[16:38:40] << :BEAST-X-SNOOP!~beast@untamed.beast PRIVMSG #beast-xdcc :#280 10x [425M] Regular.Show.The.Lost.Tapes.S01E05.Boba.or.Bo-Bust.1080p.AMZN.WEB-DL.DDP5.1.H.264-RAWR.mkv
+[16:38:40] << :BEAST-X-JOKER!~beast@untamed.beast PRIVMSG #beast-xdcc :#1748 12x [1.8G] Wildcat.2025.1080p.WEBRip.x265-DH.mkv
+[16:38:40] << :BEAST-X-DIDDY!~beast@untamed.beast PRIVMSG #beast-xdcc :#284 10x [2.6G] A.Merry.Tudor.Christmas.with.Lucy.Worsley.2019.1080p.WEBRip.x264-CBFM.mkv
+[16:38:40] << :BEAST-X-TUPAC!~beast@untamed.beast PRIVMSG #beast-xdcc :#276 10x [2.9G] Tracker.2024.S03E21.1080p.WEB.h264-GRACE.mkv
+[16:38:40] << :BEAST-X-SHADY!~beast@untamed.beast PRIVMSG #beast-xdcc :#9    28x [ 57G] Der.wilde.Roboter.2024.German.US.UHDBD.2160p.DV.HDR10Plus.HEVC.TrueHD.DL.Remux-pmHD.mkv
+[16:38:41] << :BEAST-X-ABYSS!~beast@untamed.beast PRIVMSG #beast-xdcc :#550  14x [1.9G] Halloween.Ends.2022.German.AC3.DL.1080p.BluRay.x265-FuN.mkv
+[16:38:41] << :BEAST-X-SWIFT!~beast@untamed.beast PRIVMSG #beast-xdcc :#279 10x [ 18G] The.Family.Plan.2.2025.REPACK.2160p.ATVP.WEB-DL.DDP5.1.Atmos.DV.H.265-FLUX.mkv
+[16:38:41] << :BEAST-X-STYLES!~beast@untamed.beast PRIVMSG #beast-xdcc :#282 11x [ 11G] Star.City.S01E04.DV.2160p.WEB.h265-GRACE.mkv
+[16:38:41] << :BEAST-X-REVOLT!~beast@untamed.beast PRIVMSG #beast-xdcc :#1734 12x [4.0G] The.4400.S01.1080p.BluRay.x265-RARBG.tar
+[16:38:41] << :BEAST-X-PURE!~beast@untamed.beast PRIVMSG #beast-xdcc :#9  16x [6.7G] Ein.Duke.kommt.selten.allein.S01.COMPLETE.DL.German.FS.DVDRip.AAC.x264-FREAKS.tar
+[16:38:42] << :BEAST-X-DELTA!~beast@untamed.beast PRIVMSG #beast-xdcc :#1891 10x [4.0G] Iceman.Der.Krieger.aus.dem.Eis.2014.German.1080p.BluRay.x264-CONTRiBUTiON.tar
+[16:38:42] << :BEAST-X-DRAKE!~beast@untamed.beast PRIVMSG #beast-xdcc :#281 10x [2.9G] Criminal.Record.S02E05.GERMAN.DL.1080P.WEB.H264-WAYNE.mkv
+[16:38:42] << :BEAST-X-EMINEM!~beast@untamed.beast PRIVMSG #beast-xdcc :#289 10x [ 12G] Die.Todesschwester.2023.GERMAN.DL.HDR.2160P.WEB.H265-WAYNE.tar
+[16:38:42] << :BEAST-X-AFFECT!~beast@untamed.beast PRIVMSG #beast-xdcc :#563  11x [5.8G] Mission.Babybaer.Eine.tierische.Tour.2022.German.DL.1080p.BluRay.x264-PL3X.tar
+[16:38:43] << :BEAST-X-SMOKED!~beast@untamed.beast PRIVMSG #beast-xdcc :#272 10x [1.0G] margos.got.money.troubles.s01e06.720p.web.h264-sylix.mkv
+[16:38:43] << :BEAST-X-JOKER!~beast@untamed.beast PRIVMSG #beast-xdcc :#1749 10x [6.6G] Win.11.Aio.16in1.26200.7627.Eng.tar
+[16:38:43] << :BEAST-X-LAMAR!~beast@untamed.beast PRIVMSG #beast-xdcc :#285 10x [1.2G] Georgie.and.Mandys.First.Marriage.S02E21.Funky.Chili.and.Friends.Who.Take.Their.Clothes.Off.1080p.AMZN.WEB-DL.DDP5.1.H.264-Kitsune.mkv
+[16:38:43] << :BEAST-X-CHINGY!~beast@untamed.beast NOTICE CrimsonFox958 :** Sending you pack #156 ("Star.Wars.Rebels.S02.German.AC3.DL.1080p.BluRay.x265-FuN.tar"), which is 6.3GB. (resume supported)
+[16:38:43] [INFO] [Star.Wars.Rebels.S02] ** Sending you pack #156 ("Star.Wars.Rebels.S02.German.AC3.DL.1080p.BluRay.x265-FuN.tar"), which is 6.3GB. (resume supported)
+[16:38:44] << :BEAST-X-SNOOP!~beast@untamed.beast PRIVMSG #beast-xdcc :#281 10x [ 11G] Relationship.Goals.2026.GERMAN.DL.2160P.WEB.H265-WAYNE.tar
+[16:38:44] << :BEAST-X-TUPAC!~beast@untamed.beast PRIVMSG #beast-xdcc :#277 10x [2.1G] Training.Day.2001.German.AC3.BDRIP.x264-AG.mkv
+[16:38:45] << :BEAST-X-STYLES!~beast@untamed.beast PRIVMSG #beast-xdcc :#283 10x [ 21G] Star.Trek.Strange.New.Worlds.S02.German.DL.1080p.WEB.h264-WvF.tar
+[16:38:45] << :BEAST-X-DIDDY!~beast@untamed.beast PRIVMSG #beast-xdcc :#285 10x [3.6G] A.Nightmare.on.Elm.Street.4.The.Dream.Master.1988.1080p.BluRay.10Bit.X265.DD.5.1-Chivaman.mkv
+[16:38:45] << :BEAST-X-SHADY!~beast@untamed.beast PRIVMSG #beast-xdcc :#10   31x [ 51G] The.Lion.King.1994.UHD.BluRay.2160p.TrueHD.Atmos.7.1.DV.HEVC.HYBRID.REMUX-FraMeSToR.mkv
+[16:38:45] << :BEAST-X-REVOLT!~beast@untamed.beast PRIVMSG #beast-xdcc :#1735 11x [3.7G] The.Abandons.S01.1080p.10bit.WEBRip.6CH.x265.HEVC-PSA.tar
+[16:38:46] << :BEAST-X-ABYSS!~beast@untamed.beast PRIVMSG #beast-xdcc :#551  12x [1.8G] Halloween.H20.20.Jahre.spaeter.1998.OM.German.AC3D.DL.1080p.BluRay.x265-FuN.mkv
+[16:38:46] << :BEAST-X-SWIFT!~beast@untamed.beast PRIVMSG #beast-xdcc :#280 10x [ 20G] The.Fantastic.4.First.Steps.2025.German.DL.EAC3.2160p.DV.HDR.iT.WEB.H265-ZeroTwo.mkv
+[16:38:46] << :BEAST-X-SMOKED!~beast@untamed.beast PRIVMSG #beast-xdcc :#273 10x [286M] lucky.luke.2026.s01e04.german.webrip.x264-avtomat.mkv
+[16:38:46] << :BEAST-X-DELTA!~beast@untamed.beast PRIVMSG #beast-xdcc :#1892 11x [5.6G] Ich.Einfach.Unverbesserlich.4.2024.German.DL.1080p.BluRay.x264-PL3X.tar
+[16:38:46] << :BEAST-X-EMINEM!~beast@untamed.beast PRIVMSG #beast-xdcc :#290 10x [5.4G] Die.schwarze.Witwe.2025.GERMAN.DL.1080p.WEB.h264-SAUERKRAUT.mkv
+[16:38:46] << :BEAST-X-DRAKE!~beast@untamed.beast PRIVMSG #beast-xdcc :#282 10x [6.4G] Criminal.Record.S02E06.2160p.WEB.h265-GRACE.mkv
+[16:38:46] << :BEAST-X-PURE!~beast@untamed.beast PRIVMSG #beast-xdcc :#10 18x [ 13G] Ein.Duke.kommt.selten.allein.S02.COMPLETE.DL.German.FS.DVDRip.AAC.x264-FREAKS.tar
+[16:38:47] << :BEAST-X-JOKER!~beast@untamed.beast PRIVMSG #beast-xdcc :#1750 10x [5.2G] Wind.Breaker.S02.German.AC3.DL.1080p.Web.x265-FuN.tar
+[16:38:47] << :BEAST-X-LAMAR!~beast@untamed.beast PRIVMSG #beast-xdcc :#286 10x [ 14G] Ghost.Divers.2025.GERMAN.1080P.BLURAY.X264-WATCHABLE.tar
+[16:38:47] << :BEAST-X-AFFECT!~beast@untamed.beast PRIVMSG #beast-xdcc :#564  13x [1.8G] Mission.Gardener.Der.Gruene.Daumen.Der.Rache.2025.German.AC3.BDRIP.x264-AG.mkv
+[16:38:48] << :BEAST-X-SNOOP!~beast@untamed.beast PRIVMSG #beast-xdcc :#282 10x [9.4G] plattfuss.ein.cop.in.neapel.2024.s01e04.german.dl.2160p.web.h265-urand.mkv
+[16:38:48] << :BEAST-X-CHINGY!~beast@untamed.beast PRIVMSG CrimsonFox958 :DCC SEND Star.Wars.Rebels.S02.German.AC3.DL.1080p.BluRay.x265-FuN.tar 2996999663 39461 6720696320
+[16:40:21] >> QUIT :bye
+[16:40:21] [SUCCESS] [Star.Wars.Rebels.S02] Download fertig: Star.Wars.Rebels.S02.German.AC3.DL.1080p.BluRay.x265-FuN.tar
+[16:41:28] [SUCCESS] [Star.Wars.Rebels.S02] fertig & einsortiert
+[16:41:28] [INFO] [Star.Wars.Rebels.S03] Suche: Star Wars Rebels S03
+[16:41:28] << :jagged.ca.us.abjects.net NOTICE * :*** Looking up your hostname...
+[16:41:28] << :jagged.ca.us.abjects.net NOTICE * :*** Checking ident...
+[16:41:29] << :jagged.ca.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[16:41:33] << :jagged.ca.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[16:41:34] >> JOIN #beast-chat
+[16:41:34] << :jagged.ca.us.abjects.net 396 ApexPredator929 C3A97A5D.6C525672.7F20E47C.IP :is now your displayed host
+[16:41:34] << :ApexPredator929!~ApexPreda@C3A97A5D.6C525672.7F20E47C.IP JOIN :#beast-chat
+[16:41:35] >> PRIVMSG #beast-chat :!s Star Wars Rebels S03
+[16:41:35] << :jagged.ca.us.abjects.net 332 ApexPredator929 #beast-chat :Welcome to #BEAST-XDCC  (Search:ONLINE) (Requests:ONLINE) ~ added !get command ~ !top or !topger to see most leeched releases, can be filtered by days ~ Please use !german for latest GERMAN releases only ~ commands; !latest !german !search !request !get !top !topger !tv !tvger !games ~ For more commands use !help ~ Have something to offer? Msg an ~ 
+[16:41:35] << :jagged.ca.us.abjects.net 333 ApexPredator929 #beast-chat devnull!~qlimax@beastmo.de 1779527540
+[16:41:36] << :databeast!~databeast@the.beast NOTICE ApexPredator929 :04SEARCH RESULTS LIMITED TO 100 PACKS
+[16:41:36] << :databeast!~databeast@the.beast NOTICE ApexPredator929 :04(145.8G04) 14Star.Wars.Rebels.S03.German.AC3.DL.1080p.BluRay.x265-FuN.tar04 (142014x04)14 /msg 14BEAST-X-JOKER14 xdcc send #141207
+[16:41:42] >> QUIT :bye
+[16:41:58] << :stormy.fr.eu.abjects.net NOTICE * :*** Looking up your hostname...
+[16:41:58] << :stormy.fr.eu.abjects.net NOTICE * :*** Checking ident...
+[16:41:58] << :stormy.fr.eu.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[16:42:02] << :stormy.fr.eu.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[16:42:03] >> JOIN #mg-chat
+[16:42:03] << :stormy.fr.eu.abjects.net 396 DragonSlayer275 C3A97A5D.6C525672.7F20E47C.IP :is now your displayed host
+[16:42:03] << :DragonSlayer275!~DragonSla@C3A97A5D.6C525672.7F20E47C.IP JOIN :#mg-chat
+[16:42:04] >> PRIVMSG #mg-chat :!s Star Wars Rebels S03
+[16:42:04] << :stormy.fr.eu.abjects.net 332 DragonSlayer275 #mg-chat : Welcome to Moviegods Chat - If you are new to this type !help - Join #MG-Lounge for requests/questions/comments/tv-subs/spam free chat -//- Join #MG-Help for help - Donations earn VIP perks  - Join #MG-donations for info
+[16:42:04] << :stormy.fr.eu.abjects.net 333 DragonSlayer275 #mg-chat katsper!Kat@Sex.With.Leather.Clad.Women.is.Hot 1728087751
+[16:42:04] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE DragonSlayer275 :00,0100115)10   9x04 |10 5.8G04 |10 Star.Wars.Rebels.S03.German.AC3.DL.1080p.BluRay.x265-FuN.tar04 |09 /msg [MG]-FUN|EU|S|FunFiles XDCC SEND 2220 04|00 Used: 70.94% 10/15 avg: 7.23MiB/s (48s ago)04 
+[16:42:04] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE DragonSlayer275 :15,01   )07 #MOVIEGODS - Found 1 ONLINE Packs (1 Bots) = Total GETS: 9.
+[16:42:08] << :homeandaway-TV!~Proton63@20A34461.A69A8182.CB53B551.IP JOIN :#mg-chat
+[16:42:08] << :gg0vtn41!~gg0vtn41@7C5CCBCF:8CD04A7F:270E5980:IP JOIN :#mg-chat
+[16:42:08] >> QUIT :bye
+[16:42:08] << :vuln.abandoned-irc.net NOTICE * :*** Looking up your hostname...
+[16:42:09] << :vuln.abandoned-irc.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[16:42:10] >> JOIN #ZW-CHAT
+[16:42:10] << :vuln.abandoned-irc.net 396 SteelTitan154 9457BFBC.35B0CB26.E30ED253.IP :is now your displayed host
+[16:42:10] << :vuln.abandoned-irc.net 422 SteelTitan154 :MOTD File is missing
+[16:42:10] << :vuln.abandoned-irc.net 474 SteelTitan154 #ZW-CHAT :Cannot join channel (+b)
+[16:42:40] >> QUIT :bye
+[16:42:41] [INFO] [Star.Wars.Rebels.S03] Versuch 1/15: Star.Wars.Rebels.S03.German.AC3.DL.1080p.BluRay.x265-FuN.tar (irc.abjects.net #beast-xdcc)
+[16:42:41] << :mortal.tx.us.abjects.net NOTICE * :*** Looking up your hostname...
+[16:42:41] << :mortal.tx.us.abjects.net NOTICE * :*** Checking ident...
+[16:42:43] << :mortal.tx.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[16:42:45] << :mortal.tx.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[16:42:45] << PING :6E8B6AF5
+[16:42:47] >> JOIN #beast-xdcc
+[16:42:47] << :mortal.tx.us.abjects.net 396 DarkPhoenix874 C3A97A5D.6C525672.7F20E47C.IP :is now your displayed host
+[16:42:47] << :DarkPhoenix874!~DarkPhoen@C3A97A5D.6C525672.7F20E47C.IP JOIN :#beast-xdcc
+[16:42:47] << :mortal.tx.us.abjects.net 332 DarkPhoenix874 #beast-xdcc :#BEAST-XDCC //   BLAZING SPEEDS ~ PROPER PACKS   //   join #BEAST-CHAT for Search and much more.
+[16:42:47] << :mortal.tx.us.abjects.net 333 DarkPhoenix874 #beast-xdcc dbeast 1705098478
+[16:42:47] [INFO] [Star.Wars.Rebels.S03] /msg beast-x-joker xdcc send #1207
+[16:42:48] >> PRIVMSG beast-x-joker :xdcc send #1207
+[16:42:48] << :BEAST-X-SHADY!~beast@untamed.beast PRIVMSG #beast-xdcc :#58   40x [ 49G] Star.Trek.VII.Treffen.der.Generationen.1994.German.UHDBD.2160p.DV.HDR10.HEVC.TrueHD.DL.Remux-pmHD.mkv
+[16:42:48] << :BEAST-X-JOKER!~beast@untamed.beast PRIVMSG #beast-xdcc :#1804 20x [ 13G] [IMDB.Top.Movies].Saving.Private.Ryan.1998.1080p.BluRay.x264-LEVERAGE.tar
+[16:42:48] << :SleepyTypeGuy!~SleepyTyp@abjects-A6A684F1.dip0.t-ipconnect.de JOIN :#beast-xdcc
+[16:42:49] << :BEAST-X-SMOKED!~beast@untamed.beast PRIVMSG #beast-xdcc :0x [1.2G] Hustlers.Gamblers.Crooks.S02E05.GERMAN.DL.DOKU.720p.WEB.H264-SYNERGiE.mkv /MSG BEAST-X-SMOKED XDCC SEND 330
+[16:42:49] << :BEAST-X-CHINGY!~beast@untamed.beast PRIVMSG #beast-xdcc :#316  12x [ 12G] TRaumschiff.Surprise.Periode.1.2004.1080p.BluRay.DTS.x264-HDC.tar
+[16:42:49] << :BEAST-X-REVOLT!~beast@untamed.beast PRIVMSG #beast-xdcc :#1796 10x [6.0G] The.Good.Place.S04.German.AC3.DL.1080p.WebHD.x265-FuN.tar
+[16:42:50] << :BEAST-X-ABYSS!~beast@untamed.beast PRIVMSG #beast-xdcc :#611  15x [1.2G] Hellboy.The.Crooked.Man.2024.German.AC3.1080p.BluRay.x265-FuN.mkv
+[16:42:51] << :BEAST-X-DELTA!~beast@untamed.beast PRIVMSG #beast-xdcc :#1947 10x [ 12G] Ink.Master.(2012).S04.1080p.WEBRip.10bit.EAC3.2.0.x265-iVy.tar
+[16:42:51] << :ADMIRAL_HUBRIS!~ADMIRAL_H@ragnar.anchorage.8th-fleet.hq QUIT :Ping timeout: 240 seconds
+[16:42:52] << :BEAST-X-AFFECT!~beast@untamed.beast PRIVMSG #beast-xdcc :#618  11x [4.9G] Monsieur.Claude.und.sein.grosses.Fest.2021.German.DL.LD.1080p.BluRay.x264-PRD.tar
+[16:42:53] << :BEAST-X-SHADY!~beast@untamed.beast PRIVMSG #beast-xdcc :#59   34x [ 58G] The.Princess.Bride.1987.Criterion.2160p.UHD.Blu-ray.Remux.DV.HDR.HEVC.FLAC.2.0-CiNEPHiLES.mkv
+[16:42:53] << :BEAST-X-REVOLT!~beast@untamed.beast PRIVMSG #beast-xdcc :#1797 33x [5.7G] The.Gorge.2025.German.DL.Atmos.1080p.ATVP.WEB.H265-ZeroTwo.mkv
+[16:42:54] << :BEAST-X-JOKER!~beast@untamed.beast NOTICE DarkPhoenix874 :** Sending you pack #1207 ("Star.Wars.Rebels.S03.German.AC3.DL.1080p.BluRay.x265-FuN.tar"), which is 5.8GB. (resume supported)
+[16:42:54] [INFO] [Star.Wars.Rebels.S03] ** Sending you pack #1207 ("Star.Wars.Rebels.S03.German.AC3.DL.1080p.BluRay.x265-FuN.tar"), which is 5.8GB. (resume supported)
+[16:42:54] << :BEAST-X-ABYSS!~beast@untamed.beast PRIVMSG #beast-xdcc :#612  15x [1.8G] Heretic.2024.German.AC3.DL.1080p.BluRay.x265-FuN.mkv
+[16:42:55] << :BEAST-X-DELTA!~beast@untamed.beast PRIVMSG #beast-xdcc :#1948 10x [ 16G] Ink.Master.(2012).S06.1080p.WEBRip.10bit.EAC3.2.0.x265-iVy.tar
+[16:42:55] << :BEAST-X-CHINGY!~beast@untamed.beast PRIVMSG #beast-xdcc :#317  10x [8.4G] Taare.Zameen.Par.Ein.Stern.auf.Erden.German.2007.German.AC3D.DL.1080p.BluRay.x264-SiXTYNiNE.tar
+[16:42:57] << :BEAST-X-AFFECT!~beast@untamed.beast PRIVMSG #beast-xdcc :#619  13x [2.6G] Monsieur.Claude.und.seine.Toechter.2014.German.AC3.DL.1080p.BluRay.x265-FuN.mkv
+[16:42:58] << :BEAST-X-CHINGY!~beast@untamed.beast PRIVMSG #beast-xdcc :#318  13x [7.7G] Taboo.S01.German.AC3.DL.1080p.BDRip.x265-FuN.tar
+[16:42:59] << :BEAST-X-SHADY!~beast@untamed.beast PRIVMSG #beast-xdcc :#60   26x [ 77G] The.Sound.of.Music.1965.REPACK2.2160p.UHD.Blu-ray.Remux.DV.HDR.HEVC.TrueHD.Atmos.7.1-CiNEPHiLES.mkv
+[16:42:59] << :BEAST-X-DELTA!~beast@untamed.beast PRIVMSG #beast-xdcc :#1949 10x [ 13G] Ink.Master.(2012).S07.1080p.WEBRip.10bit.EAC3.2.0.x265-iVy.tar
+[16:42:59] << :BEAST-X-JOKER!~beast@untamed.beast PRIVMSG DarkPhoenix874 :DCC SEND Star.Wars.Rebels.S03.German.AC3.DL.1080p.BluRay.x265-FuN.tar 3418141710 35679 6233640960
+[16:44:27] >> QUIT :bye
+[16:44:27] [SUCCESS] [Star.Wars.Rebels.S03] Download fertig: Star.Wars.Rebels.S03.German.AC3.DL.1080p.BluRay.x265-FuN.tar
+[16:45:25] [SUCCESS] [Star.Wars.Rebels.S03] fertig & einsortiert
+[16:45:25] [INFO] [Star.Wars.Rebels.S04] Suche: Star Wars Rebels S04
+[16:45:25] << :heimdall.no.eu.abjects.net NOTICE * :*** Looking up your hostname...
+[16:45:25] << :heimdall.no.eu.abjects.net NOTICE * :*** Checking ident...
+[16:45:25] << :heimdall.no.eu.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[16:45:29] << :heimdall.no.eu.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[16:45:31] >> JOIN #beast-chat
+[16:45:31] << :heimdall.no.eu.abjects.net 396 ThunderStrike072 C3A97A5D.6C525672.7F20E47C.IP :is now your displayed host
+[16:45:31] << :ThunderStrike072!~ThunderSt@C3A97A5D.6C525672.7F20E47C.IP JOIN :#beast-chat
+[16:45:32] >> PRIVMSG #beast-chat :!s Star Wars Rebels S04
+[16:45:32] << :heimdall.no.eu.abjects.net 332 ThunderStrike072 #beast-chat :Welcome to #BEAST-XDCC  (Search:ONLINE) (Requests:ONLINE) ~ added !get command ~ !top or !topger to see most leeched releases, can be filtered by days ~ Please use !german for latest GERMAN releases only ~ commands; !latest !german !search !request !get !top !topger !tv !tvger !games ~ For more commands use !help ~ Have something to offer? Msg an ~ 
+[16:45:32] << :heimdall.no.eu.abjects.net 333 ThunderStrike072 #beast-chat devnull!~qlimax@beastmo.de 1779527540
+[16:45:32] << :databeast!~databeast@the.beast NOTICE ThunderStrike072 :04SEARCH RESULTS LIMITED TO 100 PACKS
+[16:45:32] << :databeast!~databeast@the.beast NOTICE ThunderStrike072 :04(144.6G04) 14Star.Wars.Rebels.S04.German.AC3.DL.1080p.BluRay.x265-FuN.tar04 (141814x04)14 /msg 14BEAST-X-CHINGY14 xdcc send #14157
+[16:45:38] >> QUIT :bye
+[16:45:55] << :sharpshooter.ny.us.abjects.net NOTICE * :*** Looking up your hostname...
+[16:45:55] << :sharpshooter.ny.us.abjects.net NOTICE * :*** Checking ident...
+[16:45:56] << :sharpshooter.ny.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[16:45:59] << :sharpshooter.ny.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[16:46:01] >> JOIN #mg-chat
+[16:46:01] << :sharpshooter.ny.us.abjects.net 396 RogueAce921 C3A97A5D.6C525672.7F20E47C.IP :is now your displayed host
+[16:46:01] << :RogueAce921!~RogueAce9@C3A97A5D.6C525672.7F20E47C.IP JOIN :#mg-chat
+[16:46:02] >> PRIVMSG #mg-chat :!s Star Wars Rebels S04
+[16:46:02] << :sharpshooter.ny.us.abjects.net 332 RogueAce921 #mg-chat : Welcome to Moviegods Chat - If you are new to this type !help - Join #MG-Lounge for requests/questions/comments/tv-subs/spam free chat -//- Join #MG-Help for help - Donations earn VIP perks  - Join #MG-donations for info
+[16:46:02] << :sharpshooter.ny.us.abjects.net 333 RogueAce921 #mg-chat katsper!Kat@Sex.With.Leather.Clad.Women.is.Hot 1728087751
+[16:46:02] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE RogueAce921 :00,0100115)10  10x04 |10 4.6G04 |10 Star.Wars.Rebels.S04.German.AC3.DL.1080p.BluRay.x265-FuN.tar04 |09 /msg [MG]-FUN|EU|S|FunFiles XDCC SEND 1554 04|00 Used: 101.07% 10/15 avg: 10.29MiB/s (46s ago)04 
+[16:46:02] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE RogueAce921 :15,01   )07 #MOVIEGODS - Found 1 ONLINE Packs (1 Bots) = Total GETS: 10.
+[16:46:06] << :Mosley!~Mosley@7E1E8798.C7257172.CECCE9B8.IP JOIN :#mg-chat
+[16:46:08] << :Stefan!~Stefan@abjects-9609F8DE.pool.telefonica.de JOIN :#mg-chat
+[16:46:08] >> QUIT :bye
+[16:46:08] << :chaos.abandoned-irc.net NOTICE * :*** Looking up your hostname...
+[16:46:09] << :chaos.abandoned-irc.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[16:46:10] >> JOIN #ZW-CHAT
+[16:46:10] << :chaos.abandoned-irc.net 396 IronFist695 9457BFBC.35B0CB26.E30ED253.IP :is now your displayed host
+[16:46:10] << :IronFist695!IronFist69@9457BFBC.35B0CB26.E30ED253.IP JOIN :#zw-chat
+[16:46:11] >> PRIVMSG #ZW-CHAT :!search Star Wars Rebels S04
+[16:46:11] << :chaos.abandoned-irc.net 332 IronFist695 #zw-chat :12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12=[04Searchbot]-[09ONLINE]- Triggers: !help !search !latest !subscriptions !topdl !hot !recommended !movies !music !tv !apps !games !ebook !xxx !mobile | Web: http://www.Abandoned-IRC.net/
+[16:46:11] << :chaos.abandoned-irc.net 333 IronFist695 #zw-chat [ZOMBIE]-LATEST!Abandoned-@zombie.warez 1781827870
+[16:46:11] << :Zombie!ZW@ZoMbIe.WaReZ NOTICE IronFist695 :[#ZW-CHAT] 12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12= we are looking for experienced ROOTERS/DEDi/BOXOWNERS . interested? use !joinZW
+[16:46:13] << :[o_0]!Zombies@Zombie.Warez NOTICE IronFist695 :
+[16:46:13] << :[o_0]!Zombies@Zombie.Warez NOTICE IronFist695 : ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+[16:46:13] << :[o_0]!Zombies@Zombie.Warez NOTICE IronFist695 :End of Results. Found: 0 ONLINE packs (0 Bots = 0 Gets) matching "Star*Wars*Rebels*S04"
+[16:46:17] >> QUIT :bye
+[16:46:18] [INFO] [Star.Wars.Rebels.S04] Versuch 1/15: Star.Wars.Rebels.S04.German.AC3.DL.1080p.BluRay.x265-FuN.tar (irc.abjects.net #beast-xdcc)
+[16:46:18] [INFO] [Star.Wars.Rebels.S04] Warte 7s vor erneuter Verbindung zu irc.abjects.net
+[16:46:25] << :spiked.ca.us.abjects.net NOTICE * :*** Looking up your hostname...
+[16:46:25] << :spiked.ca.us.abjects.net NOTICE * :*** Checking ident...
+[16:46:26] << :spiked.ca.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[16:46:29] << :spiked.ca.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[16:46:29] << PING :56709D03
+[16:46:31] >> JOIN #beast-xdcc
+[16:46:31] << :spiked.ca.us.abjects.net 396 SteelTitan639 C3A97A5D.6C525672.7F20E47C.IP :is now your displayed host
+[16:46:31] << :SteelTitan639!~SteelTita@C3A97A5D.6C525672.7F20E47C.IP JOIN :#beast-xdcc
+[16:46:31] << :spiked.ca.us.abjects.net 332 SteelTitan639 #beast-xdcc :#BEAST-XDCC //   BLAZING SPEEDS ~ PROPER PACKS   //   join #BEAST-CHAT for Search and much more.
+[16:46:31] << :spiked.ca.us.abjects.net 333 SteelTitan639 #beast-xdcc dbeast 1705098478
+[16:46:31] [INFO] [Star.Wars.Rebels.S04] /msg beast-x-chingy xdcc send #157
+[16:46:32] >> PRIVMSG beast-x-chingy :xdcc send #157
+[16:46:32] << :BEAST-X-REVOLT!~beast@untamed.beast PRIVMSG #beast-xdcc :#1852 15x [1.7G] The.Pickup.2025.German.AC3.DL.1080p.Web.x265-FuN.mkv
+[16:46:33] << :BEAST-X-ABYSS!~beast@untamed.beast PRIVMSG #beast-xdcc :#666  11x [ 10G] House.of.Cards.S01.German.AC3.DL.1080p.BluRay.x265-FuN.tar
+[16:46:33] << :BEAST-X-SHADY!~beast@untamed.beast PRIVMSG #beast-xdcc :#103  26x [ 56G] Black.Panther.Wakanda.Forever.2022.German.UHDBD.2160p.DV.HDR10.HEVC.EAC3.DL.Remux-pmHD.mkv
+[16:46:34] << :BEAST-X-DELTA!~beast@untamed.beast PRIVMSG #beast-xdcc :#2003 11x [ 12G] Jack.Reacher.Kein.Weg.zurueck.2016.GERMAN.DL.HDR.2160p.WEB.H265.iNTERNAL-SunDry.tar
+[16:46:34] << :BEAST-X-CHINGY!~beast@untamed.beast NOTICE SteelTitan639 :** Sending you pack #157 ("Star.Wars.Rebels.S04.German.AC3.DL.1080p.BluRay.x265-FuN.tar"), which is 4.6GB. (resume supported)
+[16:46:34] [INFO] [Star.Wars.Rebels.S04] ** Sending you pack #157 ("Star.Wars.Rebels.S04.German.AC3.DL.1080p.BluRay.x265-FuN.tar"), which is 4.6GB. (resume supported)
+[16:46:35] << :BEAST-X-JOKER!~beast@untamed.beast PRIVMSG #beast-xdcc :#1856 14x [ 34G] master.and.commander.bis.ans.ende.der.welt.2003.german.dl.2160p.uhd.bluray.x265-endstation.mkv
+[16:46:36] << :BEAST-X-AFFECT!~beast@untamed.beast PRIVMSG #beast-xdcc :#672  12x [2.0G] Mr.Boo.Vorletzte.Allgemeine.Verunsicherung.1981.German.AC3D.DL.1080p.BluRay.x265-FuN.mkv
+[16:46:36] << :BEAST-X-REVOLT!~beast@untamed.beast PRIVMSG #beast-xdcc :#1853 10x [6.6G] The.Plague.2025.1080p.AMZN.WEB-DL.DDP5.1.H.264-BYNDR.mkv
+[16:46:36] << :batwho2!~batwhere2@abjects-E0249FD3.hegaudata.de JOIN :#beast-xdcc
+[16:46:37] << :BEAST-X-ABYSS!~beast@untamed.beast PRIVMSG #beast-xdcc :#667  11x [ 11G] House.of.Cards.S02.German.AC3.DL.1080p.BluRay.x265-FuN.tar
+[16:46:38] << :BEAST-X-DELTA!~beast@untamed.beast PRIVMSG #beast-xdcc :#2004 11x [5.3G] Jack.und.Jill.German.DL.1080p.BluRay.x264-SONS.tar
+[16:46:38] << :BEAST-X-CHINGY!~beast@untamed.beast PRIVMSG SteelTitan639 :DCC SEND Star.Wars.Rebels.S04.German.AC3.DL.1080p.BluRay.x265-FuN.tar 2996999663 51437 4979507200
+[16:47:47] >> QUIT :bye
+[16:47:47] [SUCCESS] [Star.Wars.Rebels.S04] Download fertig: Star.Wars.Rebels.S04.German.AC3.DL.1080p.BluRay.x265-FuN.tar
+[16:48:26] [SUCCESS] [Star.Wars.Rebels.S04] fertig & einsortiert
+[16:48:26] [INFO] [Nobody  2] Suche: Nobody 2
+[16:48:26] << :sharpshooter.ny.us.abjects.net NOTICE * :*** Looking up your hostname...
+[16:48:26] << :sharpshooter.ny.us.abjects.net NOTICE * :*** Checking ident...
+[16:48:27] << :sharpshooter.ny.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[16:48:30] << :sharpshooter.ny.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[16:48:32] >> JOIN #beast-chat
+[16:48:32] << :sharpshooter.ny.us.abjects.net 396 NovaBlade962 C3A97A5D.6C525672.7F20E47C.IP :is now your displayed host
+[16:48:32] << :NovaBlade962!~NovaBlade@C3A97A5D.6C525672.7F20E47C.IP JOIN :#beast-chat
+[16:48:33] >> PRIVMSG #beast-chat :!s Nobody 2
+[16:48:33] << :sharpshooter.ny.us.abjects.net 332 NovaBlade962 #beast-chat :Welcome to #BEAST-XDCC  (Search:ONLINE) (Requests:ONLINE) ~ added !get command ~ !top or !topger to see most leeched releases, can be filtered by days ~ Please use !german for latest GERMAN releases only ~ commands; !latest !german !search !request !get !top !topger !tv !tvger !games ~ For more commands use !help ~ Have something to offer? Msg an ~ 
+[16:48:33] << :sharpshooter.ny.us.abjects.net 333 NovaBlade962 #beast-chat devnull!~qlimax@beastmo.de 1779527540
+[16:48:33] << :databeast!~databeast@the.beast NOTICE NovaBlade962 :04SEARCH RESULTS LIMITED TO 100 PACKS
+[16:48:33] << :databeast!~databeast@the.beast NOTICE NovaBlade962 :04(143.1G04) 14Doc.West.2.Nobody.schlaegt.zurueck2009.German.AC3.DL.1080p.BluRay.x265-FuN.mkv04 (141314x04)14 /msg 14BEAST-X-ABYSS14 xdcc send #14133
+[16:48:33] << :databeast!~databeast@the.beast NOTICE NovaBlade962 :04(142.4G04) 14Mein.Name.ist.Nobody.1973.German.AC3.DL.1080p.BluRay.x265-FuN.mkv04 (141614x04)14 /msg 14BEAST-X-AFFECT14 xdcc send #14463
+[16:48:33] << :databeast!~databeast@the.beast NOTICE NovaBlade962 :04(141.8G04) 14Nobody.2.2025.1080p.WEBRip.x265-DH.mkv04 (141614x04)14 /msg 14BEAST-X-AFFECT14 xdcc send #14929
+[16:48:33] << :databeast!~databeast@the.beast NOTICE NovaBlade962 :04(147.8G04) 14Nobody.2.2025.2160p.WEB.h265-ETHEL.mkv04 (141114x04)14 /msg 14BEAST-X-AFFECT14 xdcc send #14930
+[16:48:33] << :databeast!~databeast@the.beast NOTICE NovaBlade962 :04(149.4G04) 14Nobody.2.2025.DV.2160p.WEB.h265-ETHEL.mkv04 (141014x04)14 /msg 14BEAST-X-AFFECT14 xdcc send #14931
+[16:48:33] << :databeast!~databeast@the.beast NOTICE NovaBlade962 :04(141.6G04) 14Nobody.2.2025.German.DL.1080p.WEBRiP.x265-P73.mkv04 (141514x04)14 /msg 14BEAST-X-AFFECT14 xdcc send #14932
+[16:48:33] << :databeast!~databeast@the.beast NOTICE NovaBlade962 :04(1410G04) 14Nobody.2.2025.German.DL.2160p.WEB.H265-ZeroTwo.mkv04 (141214x04)14 /msg 14BEAST-X-AFFECT14 xdcc send #14933
+[16:48:33] << :databeast!~databeast@the.beast NOTICE NovaBlade962 :04(143.3G04) 14Nobody.2.2025.German.DL.EAC3D.1080p.BluRay.x264-MTZ.tar04 (141114x04)14 /msg 14BEAST-X-AFFECT14 xdcc send #14934
+[16:48:33] << :databeast!~databeast@the.beast NOTICE NovaBlade962 :04(142.3G04) 14Nobody.2021.German.AC3.DL.1080p.BluRay.x265-FuN.mkv04 (141814x04)14 /msg 14BEAST-X-AFFECT14 xdcc send #14935
+[16:48:33] << :databeast!~databeast@the.beast NOTICE NovaBlade962 :04(1430G04) 14Nobody.2021.German.Atmos.DL.2160p.UHD.BluRay.HDR.x265-NIMA4K.mkv04 (141214x04)14 /msg 14BEAST-X-AFFECT14 xdcc send #14936
+[16:48:33] << :databeast!~databeast@the.beast NOTICE NovaBlade962 :04(1413G04) 14nobody.2.2025.german.dl.2160p.hdr.dv.web.h265-mge.mkv04 (141114x04)14 /msg 14BEAST-X-AFFECT14 xdcc send #142158
+[16:48:33] << :databeast!~databeast@the.beast NOTICE NovaBlade962 :04(142.8G04) 14nobody.2.2025.german.dl.720p.web.h264-mge.mkv04 (141014x04)14 /msg 14BEAST-X-AFFECT14 xdcc send #142159
+[16:48:33] << :databeast!~databeast@the.beast NOTICE NovaBlade962 :04(1410G04) 14Mr.Nobody.2009.German.DL.1080p.BluRay.x264-ENCOUNTERS.tar04 (141014x04)14 /msg 14BEAST-X-AORUS14 xdcc send #14489
+[16:48:33] << :databeast!~databeast@the.beast NOTICE NovaBlade962 :04(145.6G04) 14Nobody.2.2025.TELESYNC.x264-SyncUP.mkv04 (141014x04)14 /msg 14BEAST-X-AORUS14 xdcc send #14685
+[16:48:33] << :databeast!~databeast@the.beast NOTICE NovaBlade962 :04(145.2G04) 14Nobody.2.2025.German.DL.5.1.MD.1080p.WEB.h264-LiNEUP.tar04 (141014x04)14 /msg 14BEAST-X-AORUS14 xdcc send #14774
+[16:48:33] << :databeast!~databeast@the.beast NOTICE NovaBlade962 :04(144.8G04) 14Nobody.2.2025.1080p.AMZN.WEB-DL.DDP5.1.Atmos.H.264-BYNDR.mkv04 (141014x04)14 /msg 14BEAST-X-AORUS14 xdcc send #14907
+[16:48:33] << :databeast!~databeast@the.beast NOTICE NovaBlade962 :04(144.5G04) 14Nobody.2.2025.1080p.WEB.h264-ETHEL.mkv04 (141014x04)14 /msg 14BEAST-X-AORUS14 xdcc send #14908
+[16:48:33] << :databeast!~databeast@the.beast NOTICE NovaBlade962 :04(142.8G04) 14Nobody.2.2025.German.DL.720p.WEB.H264-ZeroTwo.mkv04 (141114x04)14 /msg 14BEAST-X-AORUS14 xdcc send #14909
+[16:48:33] << :databeast!~databeast@the.beast NOTICE NovaBlade962 :04(142.2G04) 14Rooster.S01E08.Nobody.Spook.It.1080p.AMZN.WEB-DL.DDP5.1.Atmos.H.264-RAWR.mkv04 (141914x04)14 /msg 14BEAST-X-ARISE14 xdcc send #14226
+[16:48:34] << :databeast!~databeast@the.beast NOTICE NovaBlade962 :04(145.5G04) 14Spider-Noir.S01E07.Nobodys.Hero.2160p.AMZN.WEB-DL.DDP5.1.Atmos.DV.HDR10+.H.265-RUDR.mkv04 (141014x04)14 /msg 14BEAST-X-AURORA14 xdcc send #1487
+[16:48:34] << :databeast!~databeast@the.beast NOTICE NovaBlade962 :04(141.5G04) 14kaugere.a.place.where.nobody.enters.2023.1080p.hdtv.h264-cbfm.mkv04 (141014x04)14 /msg 14BEAST-X-AURORA14 xdcc send #14201
+[16:48:34] << :databeast!~databeast@the.beast NOTICE NovaBlade962 :04(144.5G04) 14nobody.2.2025.720p.bluray.x264-pignus.mkv04 (141014x04)14 /msg 14BEAST-X-BANDIT14 xdcc send #14105
+[16:48:34] << :databeast!~databeast@the.beast NOTICE NovaBlade962 :04(143.4G04) 14Criminal.Record.S02E08.Nobody.Dies.1080p.ATVP.WEB-DL.DDP5.1.Atmos.H.264-Kitsune.mkv04 (141014x04)14 /msg 14BEAST-X-CHANEL14 xdcc send #1477
+[16:48:34] << :databeast!~databeast@the.beast NOTICE NovaBlade962 :04(141.6G04) 14Doc.West.1.Nobody.Ist.Zurueck.German.AC3.BDRip.x264-AG.mkv04 (141114x04)14 /msg 14BEAST-X-COPPER14 xdcc send #14299
+[16:48:34] << :databeast!~databeast@the.beast NOTICE NovaBlade962 :04(142.1G04) 14Nobody.Ist.Der.Groesste.1975.German.AC3.BDRip.x264-AG.mkv04 (141114x04)14 /msg 14BEAST-X-CRANK14 xdcc send #14122
+[16:48:34] << :databeast!~databeast@the.beast NOTICE NovaBlade962 :04(1419G04) 14Andor.S01E09.Nobody's.Listening.UHD.BluRay.2160p.TrueHD.Atmos.7.1.DV.HEVC.HYBRID.REMUX-FraMeSToR.mkv04 (141614x04)14 /msg 14BEAST-X-CREAM14 xdcc send #14125
+[16:48:34] << :databeast!~databeast@the.beast NOTICE NovaBlade962 :04(144.2G04) 14Jackie.Chan.ist.Nobody.1998.German.EAC3.1080p.WEBRip.h265-WOTT.mkv04 (141314x04)14 /msg 14BEAST-X-DELTA14 xdcc send #142005
+[16:48:34] << :databeast!~databeast@the.beast NOTICE NovaBlade962 :04(143.0G04) 14Berlin.Nobody.2024.German.DL.720p.WEB.H264-CLASSiCALHD.tar04 (141114x04)14 /msg 14BEAST-X-DREAD14 xdcc send #14191
+[16:48:34] << :databeast!~databeast@the.beast NOTICE NovaBlade962 :04(141.9G04) 14Mein.Name.Ist.Nobody.1973.German.AC3.BDRip.x264-AG.mkv04 (141114x04)14 /msg 14BEAST-X-FLUME14 xdcc send #14121
+[16:48:34] << :databeast!~databeast@the.beast NOTICE NovaBlade962 :04(143.2G04) 14Mr.Nobody.2009.German.BDRip.DL.1080p.x265.AAC-2BA.mkv04 (141314x04)14 /msg 14BEAST-X-JOKER14 xdcc send #14919
+[16:48:34] << :databeast!~databeast@the.beast NOTICE NovaBlade962 :04(14786M04) 14Nobody.2.2025.German.BDRip.x264-DETAiLS.tar04 (141014x04)14 /msg 14BEAST-X-JOKER14 xdcc send #14966
+[16:48:34] << :databeast!~databeast@the.beast NOTICE NovaBlade962 :04(1416G04) 14Nobody.2.2025.German.DL.2160p.DV.HDR.WEB.H265-ZeroTwo.mkv04 (141114x04)14 /msg 14BEAST-X-JOKER14 xdcc send #14967
+[16:48:34] << :databeast!~databeast@the.beast NOTICE NovaBlade962 :04(142.8G04) 14Nobody.2021.German.AC3.1080p.BluRay.HEVC-Cancer58.mkv04 (141614x04)14 /msg 14BEAST-X-JOKER14 xdcc send #14968
+[16:48:34] << :databeast!~databeast@the.beast NOTICE NovaBlade962 :04(1430G04) 14Nobody.2021.German.DL.2160p.UHD.BluRay.x265-ENDSTATiON.mkv04 (141314x04)14 /msg 14BEAST-X-JOKER14 xdcc send #141920
+[16:48:34] << :databeast!~databeast@the.beast NOTICE NovaBlade962 :04(142.0G04) 14Jackie.Chan.Ist.Nobody.1998.German.AC3.BDRIP.x264-AG.mkv04 (141114x04)14 /msg 14BEAST-X-LAMAR14 xdcc send #14215
+[16:48:34] << :databeast!~databeast@the.beast NOTICE NovaBlade962 :04(14784M04) 14Spider-Noir.S01E07.Nobodys.Hero.1080p.WEBRip.10Bit.DDP5.1.x265-NeoNoir.mkv04 (141014x04)14 /msg 14BEAST-X-RANDOM14 xdcc send #14264
+[16:48:34] << :databeast!~databeast@the.beast NOTICE NovaBlade962 :04(142.8G04) 14Nobody.2.2025.German.EAC3.1080p.WEB.HEVC-Cancer58.mkv04 (141014x04)14 /msg 14BEAST-X-RAPTURE14 xdcc send #14147
+[16:48:34] << :databeast!~databeast@the.beast NOTICE NovaBlade962 :04(141.5G04) 14Nobody.Is.Perfect.1978.German.BDRiP.x264-PL3X.tar04 (141014x04)14 /msg 14BEAST-X-RAPTURE14 xdcc send #14384
+[16:48:34] << :databeast!~databeast@the.beast NOTICE NovaBlade962 :04(142.7G04) 14Spider.Noir.2026.S01E07.Nobodys.Hero.1080p.AMZN.WEB-DL.DDP5.1.Atmos.H.264-KRATOS.mkv04 (141114x04)14 /msg 14BEAST-X-REDUX14 xdcc send #14266
+[16:48:34] << :databeast!~databeast@the.beast NOTICE NovaBlade962 :04(144.9G04) 14Doc.West.Nobody.ist.zurueck.2009.German.AC3.DL.1080p.BluRay.x265-FuN-High.mkv04 (141314x04)14 /msg 14BEAST-X-REVOLT14 xdcc send #14699
+[16:48:34] << :databeast!~databeast@the.beast NOTICE NovaBlade962 :04(1413G04) 14nobody.2.2025.1080p.bluray.x264-pignus.mkv04 (141114x04)14 /msg 14BEAST-X-REVOLT14 xdcc send #142113
+[16:48:34] << :databeast!~databeast@the.beast NOTICE NovaBlade962 :04(145.1G04) 14nobody.2.2025.german.dl.1080p.web.h264-mge.mkv04 (141214x04)14 /msg 14BEAST-X-REVOLT14 xdcc send #142114
+[16:48:34] << :databeast!~databeast@the.beast NOTICE NovaBlade962 :04(1410G04) 14nobody.2.2025.german.dl.2160p.web.h265-mge.mkv04 (141014x04)14 /msg 14BEAST-X-REVOLT14 xdcc send #142115
+[16:48:34] << :databeast!~databeast@the.beast NOTICE NovaBlade962 :04(1463G04) 14Nobodys.Fool.Auf.Dauer.unwiderstehlich.1994.German.DTSHD.Dubbed.DL.2160p.UHD.BluRay.DV.HDR.HEVC.Remux-QfG.mkv04 (142214x04)14 /msg 14BEAST-X-SHADY14 xdcc send #14513
+[16:48:34] << :databeast!~databeast@the.beast NOTICE NovaBlade962 :04(1446G04) 14Nobody.2.2025.German.UHDBD.2160p.DV.HDR10.HEVC.TrueHD.DL.Remux-pmHD.mkv04 (142914x04)14 /msg 14BEAST-X-SHADY14 xdcc send #14853
+[16:48:34] << :databeast!~databeast@the.beast NOTICE NovaBlade962 :04(1443G04) 14Nobody.2.2025.UHD.BluRay.2160p.TrueHD.Atmos.7.1.DV.HEVC.REMUX-FraMeSToR.mkv04 (142814x04)14 /msg 14BEAST-X-SHADY14 xdcc send #141395
+[16:48:34] << :databeast!~databeast@the.beast NOTICE NovaBlade962 :04(145.1G04) 14Nobody.ist.der.Groesste.1975.German.DTS.1080p.BluRay.h264-kala.mkv04 (141114x04)14 /msg 14BEAST-X-SHANK14 xdcc send #14214
+[16:48:34] << :databeast!~databeast@the.beast NOTICE NovaBlade962 :04(141.5G04) 14Nobody.2.2025.German.720p.BluRay.x264-DETAiLS.tar04 (141114x04)14 /msg 14BEAST-X-SHANK14 xdcc send #14257
+[16:48:34] << :databeast!~databeast@the.beast NOTICE NovaBlade962 :04(1416G04) 14Nobody.2.2025.2160p.iT.WEB-DL.DDP5.1.Atmos.DV.HDR.H.265-BYNDR.mkv04 (141014x04)14 /msg 14BEAST-X-SHANK14 xdcc send #14258
+[16:48:34] << :databeast!~databeast@the.beast NOTICE NovaBlade962 :04(146.2G04) 14Mein.Name.ist.Nobody.1973.German.DTS.DL.1080p.BluRay.h264-kala.mkv04 (141014x04)14 /msg 14BEAST-X-SMOKED14 xdcc send #14217
+[16:48:34] << :databeast!~databeast@the.beast NOTICE NovaBlade962 :04(149.4G04) 14Nobody.2.2025.2160p.iT.WEB-DL.DDP5.1.Atmos.DV.H.265-BYNDR.mkv04 (141014x04)14 /msg 14BEAST-X-SNOOP14 xdcc send #14295
+[16:48:34] << :databeast!~databeast@the.beast NOTICE NovaBlade962 :04(141.0G04) 14Nobody.2.2025.German.AC3.WEBRip.x264-ZeroTwo.mkv04 (141014x04)14 /msg 14BEAST-X-SNOOP14 xdcc send #14296
+[16:48:34] << :databeast!~databeast@the.beast NOTICE NovaBlade962 :04(1424G04) 14Nobody.2021.German.TrueHD.Atmos.DL.2160p.UHD.BluRay.DV.HDR.x265-VECTOR.mkv04 (141614x04)14 /msg 14BEAST-X-SPHYNX14 xdcc send #14149
+[16:48:34] << :databeast!~databeast@the.beast NOTICE NovaBlade962 :04(14817M04) 14Spider-Noir.S01E07.Nobodys.Hero.BW.1080p.WEBRip.10Bit.DDP5.1.x265-NeoNoir.mkv04 (141114x04)14 /msg 14BEAST-X-SPHYNX14 xdcc send #14319
+[16:48:34] << :databeast!~databeast@the.beast NOTICE NovaBlade962 :04(146.7G04) 14Berlin.Nobody.2024.German.DL.EAC3.1080p.WEB.H264-SiXTYNiNE.mkv04 (141114x04)14 /msg 14BEAST-X-ULTRA14 xdcc send #14400
+[16:48:34] << :databeast!~databeast@the.beast NOTICE NovaBlade962 :04(144.4G04) 14Doc.West.Nobody.ist.zurueck.2009.German.DL.1080p.BluRay.x264-kala.mkv04 (141014x04)14 /msg 14BEAST-X-ULTRA14 xdcc send #14852
+[16:48:34] << :databeast!~databeast@the.beast NOTICE NovaBlade962 :04(141.3G04) 14Mr.Nobody.gegen.Putin.2025.GERMAN.DOKU.1080p.WEB.x265-TSCC.mkv04 (141414x04)14 /msg 14BEAST-X-ULTRA14 xdcc send #141409
+[16:48:34] << :databeast!~databeast@the.beast NOTICE NovaBlade962 :04(1429G04) 14Nobody.2.2025.German.DL.2160p.UHD.BluRay.x265-ENDSTATiON.mkv04 (141114x04)14 /msg 14BEAST-X-ULTRA14 xdcc send #141450
+[16:48:34] << :databeast!~databeast@the.beast NOTICE NovaBlade962 :04(1416G04) 14Nobody.2.2025.HDR.2160p.WEB.h265-ETHEL.mkv04 (141114x04)14 /msg 14BEAST-X-ULTRA14 xdcc send #141451
+[16:48:34] << :databeast!~databeast@the.beast NOTICE NovaBlade962 :04(145.1G04) 14Nobody.Wants.This.S01.German.AC3.DL.1080p.Web.x265-FuN.tar04 (141014x04)14 /msg 14BEAST-X-ULTRA14 xdcc send #141452
+[16:48:34] << :databeast!~databeast@the.beast NOTICE NovaBlade962 :04(142.1G04) 14Nobody.ist.der.Groesste.1975.German.AC3.1080p.BluRay.x265-FuN.mkv04 (141714x04)14 /msg 14BEAST-X-ULTRA14 xdcc send #141453
+[16:48:34] << :databeast!~databeast@the.beast NOTICE NovaBlade962 :04(148.0G04) 14Nobody.2021.German.DL.2160p.HDR.UHDBDRip.AV1-WOTT.mkv04 (142214x04)14 /msg 14BEAST-X-VAMPED14 xdcc send #14128
+[16:48:40] >> QUIT :bye
+[16:48:56] << :heimdall.no.eu.abjects.net NOTICE * :*** Looking up your hostname...
+[16:48:56] << :heimdall.no.eu.abjects.net NOTICE * :*** Checking ident...
+[16:48:56] << :heimdall.no.eu.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[16:49:01] << :heimdall.no.eu.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[16:49:02] >> JOIN #mg-chat
+[16:49:02] << :heimdall.no.eu.abjects.net 396 DragonSlayer412 C3A97A5D.6C525672.7F20E47C.IP :is now your displayed host
+[16:49:02] << :DragonSlayer412!~DragonSla@C3A97A5D.6C525672.7F20E47C.IP JOIN :#mg-chat
+[16:49:03] >> PRIVMSG #mg-chat :!s Nobody 2
+[16:49:03] << :heimdall.no.eu.abjects.net 332 DragonSlayer412 #mg-chat : Welcome to Moviegods Chat - If you are new to this type !help - Join #MG-Lounge for requests/questions/comments/tv-subs/spam free chat -//- Join #MG-Help for help - Donations earn VIP perks  - Join #MG-donations for info
+[16:49:03] << :heimdall.no.eu.abjects.net 333 DragonSlayer412 #mg-chat katsper!Kat@Sex.With.Leather.Clad.Women.is.Hot 1728087751
+[16:49:03] << :nopeosie!~nopeosie@E752A0BD.719842AB.928745DB.IP JOIN :#mg-chat
+[16:49:03] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE DragonSlayer412 :00,0100115)10   6x04 |10 3.4G04 |10 Criminal.Record.S02E08.Nobody.Dies.1080p.ATVP.WEB-DL.DDP5.1.H.264-NTb.mkv04 |09 /msg [MG]-HDTV|EU|S|FantasyVIII XDCC SEND 84 04|00 Used: 0.00% 0/10 (49s ago)04 
+[16:49:03] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE DragonSlayer412 :00,0100215)10   3x04 |10 486M04 |10 Criminal.Record.S02E08.Nobody.Dies.1080p.HEVC.x265-MeGusta.mkv04 |09 /msg [MG]-X265|EU|S|GreenCrack XDCC SEND 763 04|00 Used: 3.86% 1/10 avg: 364.20KiB/s (1m18s ago)04 
+[16:49:03] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE DragonSlayer412 :00,0100315)10   2x04 |10 7.9G04 |10 Criminal.Record.S02E08.Nobody.Dies.2160p.ATVP.WEB-DL.DDP5.1.DV.HDR.H.265-NTb.mkv04 |09 /msg [MG]-X265|EU|S|GranddadPurple XDCC SEND 295 04|00 Used: 21.26% 2/10 avg: 8.65MiB/s (47s ago)04 
+[16:49:03] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE DragonSlayer412 :00,0100415)10   1x04 |10 6.6G04 |10 Criminal.Record.S02E08.Nobody.Dies.2160p.ATVP.WEB-DL.DDP5.1.H.265-NTb.mkv04 |09 /msg [MG]-MISC|EU|S|CriticalMass XDCC SEND 1050 04|00 Used: 12.29% 6/10 avg: 1.64MiB/s (27s ago)04 
+[16:49:03] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE DragonSlayer412 :00,0100515)10  12x04 |10 1.1G04 |10 Criminal.Record.S02E08.Nobody.Dies.720p.ATVP.WEB-DL.DDP5.1.H.264-NTb.mkv04 |09 /msg [MG]-HDTV|EU|S|Harlow XDCC SEND 79 04|00 Used: 0.21% 1/10 avg: 132.00KiB/s (20s ago)04 
+[16:49:03] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE DragonSlayer412 :00,0100615)10   4x04 |10 5.8G04 |10 Doc.West.1.Nobody.ist.zurueck.2009.German.1080p.BluRay.x264-oWn.mkv04 |09 /msg [MG]-OWN|EU|S|HellBee XDCC SEND 1089 04|00 Used: 5.15% 2/15 avg: 2.21MiB/s (1m7s ago)04 
+[16:49:03] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE DragonSlayer412 :00,0100715)10   2x04 |10 5.8G04 |10 Doc.West.2.Nobody.schlaegt.zurueck.2010.German.BluRay.1080p.x264-oWn.mkv04 |09 /msg [MG]-OWN|EU|S|HellBee XDCC SEND 578 04|00 Used: 5.15% 2/15 avg: 2.21MiB/s (1m7s ago)04 
+[16:49:03] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE DragonSlayer412 :00,0100815)10   1x04 |10 5.9G04 |10 Jackie.Chan.ist.Nobody.1998.EXTENDED.German.AC3.AAC.5.1.DL.1080p.WebHD.x264-oWn.mkv04 |09 /msg [MG]-OWN|EU|S|HellBee XDCC SEND 335 04|00 Used: 5.15% 2/15 avg: 2.21MiB/s (1m7s ago)04 
+[16:49:03] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE DragonSlayer412 :00,0100915)10   7x04 |10 2.0G04 |10 Mein.Name.ist.Nobody.1973.German.DL.AC3.1080p.BluRay.x265-FuN.mkv04 |09 /msg [MG]-FUN|EU|S|FunFiles XDCC SEND 388 04|00 Used: 89.76% 8/15 avg: 11.43MiB/s (1m47s ago)04 
+[16:49:03] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE DragonSlayer412 :00,0101015)10  16x04 |10 6.1G04 |10 Mr.Nobody.Against.Putin.2025.1080p.AMZN.WEB-DL.DDP5.1.H.264-MADSKY.mkv04 |09 /msg [MG]-MISC|EU|S|Chaos XDCC SEND 31 04|00 Used: 4.76% 3/10 avg: 1.28MiB/s (1m6s ago)04 
+[16:49:03] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE DragonSlayer412 :00,0101115)10   8x04 |10  16G04 |10 Nobody.2.2025.2160p.UHD.BluRay.x265-B0MBARDiERS.mkv04 |09 /msg [MG]-X265|EU|S|GranddadPurple XDCC SEND 37 04|00 Used: 21.26% 2/10 avg: 8.65MiB/s (47s ago)04 
+[16:49:03] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE DragonSlayer412 :00,0101215)10  14x04 |10 4.7G04 |10 Nobody.2.2025.German.AAC.7.1.DL.1080p.BluRay.x264-oWn.mkv04 |09 /msg [MG]-OWN|EU|S|HellBee XDCC SEND 201 04|00 Used: 5.15% 2/15 avg: 2.21MiB/s (1m7s ago)04 
+[16:49:03] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE DragonSlayer412 :00,0101315)10   9x04 |10 10.004 |10 Nobody.2021.2160p.AMZN.WEB-DL.x265.10bit.HDR10Plus.DDP5.1-SWTYBLZ.mkv04 |09 /msg [MG]-4k-Movies|Archive XDCC SEND 87 04|00 Used: 0.00% 0/10 (1m11s ago)04 
+[16:49:03] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE DragonSlayer412 :00,0101415)10   0x04 |10 5.1G04 |10 Nobody.Wants.This.S01.German.AC3.DL.1080p.Web.x265-FuN.tar04 |09 /msg [MG]-FUN|EU|S|FunFiles XDCC SEND 2400 04|00 Used: 89.76% 8/15 avg: 11.43MiB/s (1m47s ago)04 
+[16:49:03] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE DragonSlayer412 :00,0101515)10  25x04 |10 2.2G04 |10 Rooster.S01E08.Nobody.Spook.It.1080p.AMZN.WEB-DL.DDP5.1.Atmos.H.264-RAWR.mkv04 |09 /msg [MG]-Request|Bot|Osiris XDCC SEND 30 04|00 Used: 10.96% 1/10 avg: 7.09MiB/s (1m2s ago)04 
+[16:49:03] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE DragonSlayer412 :00,0101615)10   7x04 |10 317M04 |10 Rooster.S01E08.Nobody.Spook.It.1080p.HEVC.x265-MeGusta.mkv04 |09 /msg [MG]-X265|EU|S|NorthernLights XDCC SEND 84 04|00 Used: 5.40% 1/15 avg: 700.50KiB/s (1m6s ago)04 
+[16:49:03] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE DragonSlayer412 :00,0101715)10   3x04 |10 258M04 |10 Rooster.S01E08.Nobody.Spook.It.720p.HEVC.x265-MeGusta.mkv04 |09 /msg [MG]-X265|EU|S|NorthernLights XDCC SEND 371 04|00 Used: 5.40% 1/15 avg: 700.50KiB/s (1m6s ago)04 
+[16:49:03] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE DragonSlayer412 :00,0101815)10 116x04 |10 513M04 |10 Spider-Noir.S01E07.Nobodys.Hero.1080p.HEVC.x265-MeGusta.mkv04 |09 /msg [MG]-X265|EU|S|GreenCrack XDCC SEND 590 04|00 Used: 3.86% 1/10 avg: 364.20KiB/s (1m18s ago)04 
+[16:49:03] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE DragonSlayer412 :00,0101915)10  30x04 |10 350M04 |10 Spider-Noir.S01E07.Nobodys.Hero.720p.HEVC.x265-MeGusta.mkv04 |09 /msg [MG]-X265|EU|S|JeRrYFaR XDCC SEND 80 04|00 Used: 0.00% 0/10 (1m53s ago)04 
+[16:49:03] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE DragonSlayer412 :00,0102015)10  77x04 |10 615M04 |10 Spider-Noir.S01E07.Nobodys.Hero.Authentic.BW.1080p.HEVC.x265-MeGusta.mkv04 |09 /msg [MG]-X265|EU|S|GranddadPurple XDCC SEND 123 04|00 Used: 21.26% 2/10 avg: 8.65MiB/s (47s ago)04 
+[16:49:03] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE DragonSlayer412 :00,0102115)10  16x04 |10 390M04 |10 Spider-Noir.S01E07.Nobodys.Hero.Authentic.BW.720p.HEVC.x265-MeGusta.mkv04 |09 /msg [MG]-X265|EU|S|GranddadPurple XDCC SEND 122 04|00 Used: 21.26% 2/10 avg: 8.65MiB/s (47s ago)04 
+[16:49:03] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE DragonSlayer412 :15,01   )07 #MOVIEGODS - Found 21 ONLINE Packs (12 Bots) = Total GETS: 359.
+[16:49:05] << :dfghdfghdfgh!~sfbztetrz@abjects-9E9F5DEA.dip0.t-ipconnect.de QUIT :Ping timeout: 241 seconds
+[16:49:08] >> QUIT :bye
+[16:49:08] << :killer.abandoned-irc.net NOTICE * :*** Looking up your hostname...
+[16:49:08] << :killer.abandoned-irc.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[16:49:10] >> JOIN #ZW-CHAT
+[16:49:10] << :killer.abandoned-irc.net 396 ViperZ981 9457BFBC.35B0CB26.E30ED253.IP :is now your displayed host
+[16:49:10] << :ViperZ981!ViperZ981@9457BFBC.35B0CB26.E30ED253.IP JOIN :#ZW-CHAT
+[16:49:11] >> PRIVMSG #ZW-CHAT :!search Nobody 2
+[16:49:11] << :killer.abandoned-irc.net 332 ViperZ981 #ZW-CHAT :12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12=[04Searchbot]-[09ONLINE]- Triggers: !help !search !latest !subscriptions !topdl !hot !recommended !movies !music !tv !apps !games !ebook !xxx !mobile | Web: http://www.Abandoned-IRC.net/
+[16:49:11] << :killer.abandoned-irc.net 333 ViperZ981 #ZW-CHAT [ZOMBIE]-LATEST!Abandoned-@zombie.warez 1781827870
+[16:49:11] << :Zombie!ZW@ZoMbIe.WaReZ NOTICE ViperZ981 :[#ZW-CHAT] 12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12= we are looking for experienced ROOTERS/DEDi/BOXOWNERS . interested? use !joinZW
+[16:49:13] << :[o_0]!Zombies@Zombie.Warez NOTICE ViperZ981 :
+[16:49:13] << :[o_0]!Zombies@Zombie.Warez NOTICE ViperZ981 : ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+[16:49:13] << :[o_0]!Zombies@Zombie.Warez NOTICE ViperZ981 :End of Results. Found: 0 ONLINE packs (0 Bots = 0 Gets) matching "Nobody*2"
+[16:49:16] >> QUIT :bye
+[16:49:18] [INFO] [Nobody  2] Versuch 1/15: Nobody.2021.German.AC3.DL.1080p.BluRay.x265-FuN.mkv (irc.abjects.net #beast-xdcc)
+[16:49:18] [INFO] [Nobody  2] Warte 9s vor erneuter Verbindung zu irc.abjects.net
+[16:49:26] << :heimdall.no.eu.abjects.net NOTICE * :*** Looking up your hostname...
+[16:49:26] << :heimdall.no.eu.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[16:49:26] << :heimdall.no.eu.abjects.net NOTICE * :*** Checking ident...
+[16:49:30] << :heimdall.no.eu.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[16:49:30] << PING :72A40977
+[16:49:31] >> JOIN #beast-xdcc
+[16:49:31] << :heimdall.no.eu.abjects.net 396 DragonSlayer718 C3A97A5D.6C525672.7F20E47C.IP :is now your displayed host
+[16:49:31] << :DragonSlayer718!~DragonSla@C3A97A5D.6C525672.7F20E47C.IP JOIN :#beast-xdcc
+[16:49:31] << :heimdall.no.eu.abjects.net 332 DragonSlayer718 #beast-xdcc :#BEAST-XDCC //   BLAZING SPEEDS ~ PROPER PACKS   //   join #BEAST-CHAT for Search and much more.
+[16:49:31] << :heimdall.no.eu.abjects.net 333 DragonSlayer718 #beast-xdcc dbeast 1705098478
+[16:49:31] [INFO] [Nobody  2] /msg beast-x-affect xdcc send #935
+[16:49:32] >> PRIVMSG beast-x-affect :xdcc send #935
+[16:49:32] << :BEAST-X-JOKER!~beast@untamed.beast PRIVMSG #beast-xdcc :#1902 10x [7.6G] together.-.unzertrennlich.2025.german.dl.1080p.web.h264-mge.mkv
+[16:49:32] << :ins!~ins@D9C1B0C:18196CC4:A1BE1379:IP QUIT :Quit: ins
+[16:49:33] << :BEAST-X-DELTA!~beast@untamed.beast PRIVMSG #beast-xdcc :#2046 13x [3.1G] Josie.der.Tiger.und.die.Fische.2020.German.DL.DTS.1080p.BluRay.iNTERNAL.x264-STARS.tar
+[16:49:34] << :BEAST-X-ABYSS!~beast@untamed.beast PRIVMSG #beast-xdcc :#710  15x [1.7G] Ich.weiss.was.du.letzten.Sommer.getan.hast.2025.German.AC3.DL.1080p.Web.x265-FuN.mkv
+[16:49:34] << :BEAST-X-CHINGY!~beast@untamed.beast PRIVMSG #beast-xdcc :#414  10x [986M] The.Accountant.2.2025.German.BDRip.x264-DETAiLS.tar
+[16:49:34] << :BEAST-X-REVOLT!~beast@untamed.beast PRIVMSG #beast-xdcc :#1898 11x [5.9G] The.Unholy.Trinity.2024.german.DL.EAC3.1080p.WEB.H264-SiXTYNiNE.mkv
+[16:49:35] << :BEAST-X-AFFECT!~beast@untamed.beast NOTICE DragonSlayer718 :** Sending you pack #935 ("Nobody.2021.German.AC3.DL.1080p.BluRay.x265-FuN.mkv"), which is 2.3GB. (resume supported)
+[16:49:35] [INFO] [Nobody  2] ** Sending you pack #935 ("Nobody.2021.German.AC3.DL.1080p.BluRay.x265-FuN.mkv"), which is 2.3GB. (resume supported)
+[16:49:36] << :BEAST-X-JOKER!~beast@untamed.beast PRIVMSG #beast-xdcc :#1903 10x [3.4G] ufc.320.ankalaev.vs.pereira.2.prelims.1080p.web.h264-verum.mkv
+[16:49:36] << :BEAST-X-SHADY!~beast@untamed.beast PRIVMSG #beast-xdcc :#138  30x [ 57G] Drag.Me.to.Hell.2009.Unrated.German.US.UHDBD.2160p.DV.HDR10.HEVC.DTSHD.DL.Remux-pmHD.mkv
+[16:49:36] << :bat4here!~batwhere2@abjects-7E52A337.hegaudata.de QUIT :Ping timeout: 241 seconds
+[16:49:37] << :BEAST-X-REVOLT!~beast@untamed.beast PRIVMSG #beast-xdcc :#1899 11x [1.7G] The.Union.2024.German.AC3.DL.1080p.Web.x265-FuN.mkv
+[16:49:38] << :BEAST-X-DELTA!~beast@untamed.beast PRIVMSG #beast-xdcc :#2047 10x [5.6G] Jotunnslayer.Hordes.of.Hel.The.Fall.of.Alfheim.Update.v1.1.3-RUNE.tar
+[16:49:38] << :BEAST-X-CHINGY!~beast@untamed.beast PRIVMSG #beast-xdcc :#415  13x [ 11G] The.Accountant.2016.German.DL.1080p.BluRay.x264-COiNCiDENCE.tar
+[16:49:38] << :BEAST-X-ABYSS!~beast@untamed.beast PRIVMSG #beast-xdcc :#711  22x [2.4G] Idiocracy.2006.German.AC3.DL.1080p.WEBDL.x265-FuN.mkv
+[16:49:40] << :BEAST-X-JOKER!~beast@untamed.beast PRIVMSG #beast-xdcc :#1904 10x [7.6G] ufc.322.della.maddalena.vs.makhachev.ppv.1080p.web.h264-verum.mkv
+[16:49:40] << :BEAST-X-AFFECT!~beast@untamed.beast PRIVMSG DragonSlayer718 :DCC SEND Nobody.2021.German.AC3.DL.1080p.BluRay.x265-FuN.mkv 2996999667 39243 2446498334
+[16:50:14] >> QUIT :bye
+[16:50:14] [SUCCESS] [Nobody  2] Download fertig: Nobody.2021.German.AC3.DL.1080p.BluRay.x265-FuN.mkv
+[16:50:14] [SUCCESS] [Nobody  2] fertig & einsortiert
+
+============================================================
+=== Lauf beendet: 2026-06-29 16:50:14 | ok: 12, fehlgeschlagen: 0 ===
+============================================================

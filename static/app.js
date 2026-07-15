@@ -97,19 +97,23 @@ async function removeDownloaded(title) {
   }
 }
 
-function appendChatLines(lines) {
-  const box = $("irc-box");
+function classifyIrcLine(line) {
+  const raw = line.replace(/^\[\d{2}:\d{2}:\d{2}\] /, "");
+  if (raw.startsWith("===") || line.startsWith("===")) return "sep";
+  if (raw.startsWith(">>")) return "sent";
+  if (raw.startsWith("[SUCCESS]")) return "success";
+  if (raw.startsWith("[ERROR]")) return "error";
+  if (raw.startsWith("[WARNING]")) return "warning";
+  return "recv";
+}
+
+function appendChatLines(lines, box) {
+  box = box || $("irc-box");
   const atBottom = box.scrollHeight - box.scrollTop - box.clientHeight < 40;
   for (const line of lines) {
     if (!line) continue;
     const div = document.createElement("div");
-    if (line.startsWith("===") || line.startsWith("===")) {
-      div.className = "irc-line sep";
-    } else if (line.startsWith(">>")) {
-      div.className = "irc-line sent";
-    } else {
-      div.className = "irc-line recv";
-    }
+    div.className = "irc-line " + classifyIrcLine(line);
     div.textContent = line;
     box.appendChild(div);
   }
@@ -196,6 +200,7 @@ async function pollStatus() {
         showSummary(data.summary);
         if (data.summary) {
           await loadDownloaded();
+          await loadRuns();
         }
         break;
       }
@@ -220,11 +225,64 @@ async function startRun() {
   pollStatus();
 }
 
+function parseRunName(filename) {
+  // "2026-06-16_17-41-22.txt" -> "2026-06-16 17:41:22"
+  const base = filename.replace(".txt", "");
+  const parts = base.split("_");
+  if (parts.length !== 2) return base;
+  const timeStr = parts[1].replace(/-/g, ":");
+  return `${parts[0]}  ${timeStr}`;
+}
+
+async function loadRuns() {
+  try {
+    const res = await fetch("/api/runs");
+    const runs = await res.json();
+    const list = $("runs-list");
+    if (!runs.length) {
+      list.innerHTML = '<span class="muted">Keine Logs vorhanden</span>';
+      return;
+    }
+    list.innerHTML = "";
+    for (const r of runs) {
+      const btn = document.createElement("button");
+      btn.className = "run-entry";
+      const kb = r.size > 0 ? ` (${Math.ceil(r.size / 1024)} KB)` : "";
+      btn.textContent = parseRunName(r.name) + kb;
+      btn.dataset.filename = r.name;
+      btn.addEventListener("click", () => openRunLog(r.name));
+      list.appendChild(btn);
+    }
+  } catch (e) { /* ignore */ }
+}
+
+async function openRunLog(filename) {
+  // Highlight selected
+  for (const btn of $("runs-list").querySelectorAll(".run-entry")) {
+    btn.classList.toggle("active", btn.dataset.filename === filename);
+  }
+  try {
+    const res = await fetch(`/api/runs/${encodeURIComponent(filename)}`);
+    if (!res.ok) throw new Error("HTTP " + res.status);
+    const data = await res.json();
+    $("run-viewer-title").textContent = parseRunName(filename);
+    const box = $("run-viewer-box");
+    box.innerHTML = "";
+    appendChatLines(data.lines, box);
+    box.scrollTop = 0;
+    $("run-viewer").classList.remove("hidden");
+  } catch (e) {
+    $("run-viewer-title").textContent = "Fehler beim Laden";
+    $("run-viewer").classList.remove("hidden");
+  }
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   loadWishlist();
   loadDownloaded();
   loadChatLog();
-  pollStatus(); // falls bereits ein Lauf aktiv ist
+  loadRuns();
+  pollStatus();
 
   $("save-btn").addEventListener("click", saveWishlist);
   $("run-btn").addEventListener("click", startRun);
@@ -232,5 +290,11 @@ document.addEventListener("DOMContentLoaded", () => {
   $("log-clear-btn").addEventListener("click", () => { $("irc-box").innerHTML = ""; });
   $("log-bottom-btn").addEventListener("click", () => {
     const b = $("irc-box"); b.scrollTop = b.scrollHeight;
+  });
+  $("run-viewer-close").addEventListener("click", () => {
+    $("run-viewer").classList.add("hidden");
+    for (const btn of $("runs-list").querySelectorAll(".run-entry")) {
+      btn.classList.remove("active");
+    }
   });
 });

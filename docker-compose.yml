@@ -37,13 +37,17 @@ services:
       - DOWNLOAD_DIR=/downloads
       - DONE_LOG=/app/downloaded.txt
       - CHAT_LOG=/app/Chat.txt
+      - LOGS_DIR=/app/logs
       - SEARCH_LANG=German
       - CHANNELS_CONFIG=/app/channels.json
+      - RIZON_SASL_PASS=${RIZON_SASL_PASS}
     volumes:
       - ./wishlist.md:/app/wishlist.md
       - ./downloaded.txt:/app/downloaded.txt
       - ./channels.json:/app/channels.json
+      - ./server_state.json:/app/server_state.json
       - ./Chat.txt:/app/Chat.txt
+      - ./logs:/app/logs
       - ./scripts/downloader.py:/app/downloader.py
       - ./scripts/xdcc_client.py:/app/xdcc_client.py
       - ./scripts/cli.py:/app/cli.py

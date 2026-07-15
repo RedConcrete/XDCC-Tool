@@ -1,0 +1,109 @@
+
+============================================================
+=== Lauf gestartet: 2026-07-09 22:23:03 ===
+============================================================
+[22:23:03] [INFO] [Isle of Dogs] Suche: Isle of Dogs
+[22:23:03] << :spiked.ca.us.abjects.net NOTICE * :*** Looking up your hostname...
+[22:23:03] << :spiked.ca.us.abjects.net NOTICE * :*** Checking ident...
+[22:23:04] << :spiked.ca.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[22:23:07] << :spiked.ca.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[22:23:09] >> JOIN #beast-chat
+[22:23:09] << :spiked.ca.us.abjects.net 396 VoidWalker830 65EF2A22.6C525672.7F20E47C.IP :is now your displayed host
+[22:23:10] << :VoidWalker830!~VoidWalke@65EF2A22.6C525672.7F20E47C.IP JOIN :#beast-chat
+[22:23:11] >> PRIVMSG #beast-chat :!s Isle of Dogs
+[22:23:11] << :spiked.ca.us.abjects.net 332 VoidWalker830 #beast-chat :Welcome to #BEAST-XDCC  (Search:ONLINE) (Requests:ONLINE) ~ added !get command ~ !top or !topger to see most leeched releases, can be filtered by days ~ Please use !german for latest GERMAN releases only ~ commands; !latest !german !search !request !get !top !topger !tv !tvger !games ~ For more commands use !help ~ Have something to offer? Msg an ~ 
+[22:23:11] << :spiked.ca.us.abjects.net 333 VoidWalker830 #beast-chat devnull!~qlimax@beastmo.de 1779527540
+[22:23:11] << :databeast!~databeast@the.beast NOTICE VoidWalker830 :04SEARCH RESULTS LIMITED TO 100 PACKS
+[22:23:11] << :databeast!~databeast@the.beast NOTICE VoidWalker830 :04(146.1G04) 14Isle.of.Dogs.2018.BluRay.1080p.DDP.5.1.x264-hallowed.mkv04 (141614x04)14 /msg 14BEAST-X-JOKER14 xdcc send #14613
+[22:23:11] << :databeast!~databeast@the.beast NOTICE VoidWalker830 :04(1471G04) 14Isle.of.Dogs.2018.2160p.UHD.Blu-ray.Remux.DV.HDR.HEVC.DTS-HD.MA.5.1-CiNEPHiLES.mkv04 (142314x04)14 /msg 14BEAST-X-SHADY14 xdcc send #14186
+[22:23:17] >> QUIT :bye
+[22:23:33] << :mortal.tx.us.abjects.net NOTICE * :*** Looking up your hostname...
+[22:23:33] << :mortal.tx.us.abjects.net NOTICE * :*** Checking ident...
+[22:23:34] << :mortal.tx.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[22:23:37] << :mortal.tx.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[22:23:39] >> JOIN #mg-chat
+[22:23:39] << :mortal.tx.us.abjects.net 396 DragonSlayer156 65EF2A22.6C525672.7F20E47C.IP :is now your displayed host
+[22:23:39] << :DragonSlayer156!~DragonSla@65EF2A22.6C525672.7F20E47C.IP JOIN :#mg-chat
+[22:23:40] >> PRIVMSG #mg-chat :!s Isle of Dogs
+[22:23:40] << :mortal.tx.us.abjects.net 332 DragonSlayer156 #mg-chat : Welcome to Moviegods Chat - If you are new to this type !help - Join #MG-Lounge for requests/questions/comments/tv-subs/spam free chat -//- Join #MG-Help for help - Donations earn VIP perks  - Join #MG-donations for info
+[22:23:40] << :mortal.tx.us.abjects.net 333 DragonSlayer156 #mg-chat katsper!Kat@Sex.With.Leather.Clad.Women.is.Hot 1728087751
+[22:23:41] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE DragonSlayer156 :15,01   )07 #MOVIEGODS - Found 0 ONLINE Packs (0 Bots) = Total GETS: 0.
+[22:23:47] >> QUIT :bye
+[22:23:47] << :hawk.abandoned-irc.net NOTICE * :*** Looking up your hostname...
+[22:23:47] << :hawk.abandoned-irc.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[22:23:49] >> JOIN #ZW-CHAT
+[22:23:49] << :hawk.abandoned-irc.net 396 NightHawk198 12B485F9.35B0CB26.E30ED253.IP :is now your displayed host
+[22:23:49] << :NightHawk198!NightHawk1@12B485F9.35B0CB26.E30ED253.IP JOIN :#zw-chat
+[22:23:50] >> PRIVMSG #ZW-CHAT :!search Isle of Dogs
+[22:23:50] << :hawk.abandoned-irc.net 332 NightHawk198 #zw-chat :12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12=[04Searchbot]-[09ONLINE]- Triggers: !help !search !latest !subscriptions !topdl !hot !recommended !movies !music !tv !apps !games !ebook !xxx !mobile | Web: http://www.Abandoned-IRC.net/
+[22:23:50] << :hawk.abandoned-irc.net 333 NightHawk198 #zw-chat [ZOMBIE]-LATEST!Abandoned-@zombie.warez 1782976606
+[22:23:50] << :Zombie!ZW@ZoMbIe.WaReZ NOTICE NightHawk198 :[#ZW-CHAT] 12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12= we are looking for experienced ROOTERS/DEDi/BOXOWNERS . interested? use !joinZW
+[22:23:53] << :[o_0]!Zombies@Zombie.Warez NOTICE NightHawk198 :
+[22:23:53] << :[o_0]!Zombies@Zombie.Warez NOTICE NightHawk198 : ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+[22:23:53] << :[o_0]!Zombies@Zombie.Warez NOTICE NightHawk198 :End of Results. Found: 0 ONLINE packs (0 Bots = 0 Gets) matching "Isle*of*Dogs"
+[22:23:56] >> QUIT :bye
+[22:23:57] [INFO] [Isle of Dogs] Versuch 1/12: Isle.of.Dogs.2018.BluRay.1080p.DDP.5.1.x264-hallowed.mkv (irc.abjects.net #beast-xdcc)
+[22:23:57] [INFO] [Isle of Dogs] Warte 6s vor erneuter Verbindung zu irc.abjects.net
+[22:24:03] << :mortal.tx.us.abjects.net NOTICE * :*** Looking up your hostname...
+[22:24:03] << :mortal.tx.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[22:24:03] << :mortal.tx.us.abjects.net NOTICE * :*** Checking ident...
+[22:24:08] << :mortal.tx.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[22:24:08] << PING :A0E7F3AB
+[22:24:09] >> JOIN #beast-xdcc
+[22:24:09] << :mortal.tx.us.abjects.net 396 NovaBlade593 65EF2A22.6C525672.7F20E47C.IP :is now your displayed host
+[22:24:09] << :NovaBlade593!~NovaBlade@65EF2A22.6C525672.7F20E47C.IP JOIN :#beast-xdcc
+[22:24:09] << :mortal.tx.us.abjects.net 332 NovaBlade593 #beast-xdcc :#BEAST-XDCC //   BLAZING SPEEDS ~ PROPER PACKS   //   join #BEAST-CHAT for Search and much more.
+[22:24:09] << :mortal.tx.us.abjects.net 333 NovaBlade593 #beast-xdcc dbeast 1705098478
+[22:24:09] [INFO] [Isle of Dogs] /msg beast-x-joker xdcc send #613
+[22:24:10] >> PRIVMSG beast-x-joker :xdcc send #613
+[22:24:10] << :BEAST-X-SNOOP!~beast@untamed.beast PRIVMSG #beast-xdcc :#215 11x [1.1G] Rooster.S01E10.GERMAN.DL.720p.WEB.h264-SAUERKRAUT.mkv
+[22:24:10] << :BEAST-X-SMOKED!~beast@untamed.beast PRIVMSG #beast-xdcc :#213 10x [6.2G] Maximum.Pleasure.Guaranteed.S01E03.GERMAN.DL.DV.2160p.WEB.h265-SAUERKRAUT.mkv
+[22:24:10] << :BEAST-X-JOKER!~beast@untamed.beast PRIVMSG #beast-xdcc :#944  11x [ 61G] NINJA.GAIDEN.4.The.Two.Masters-RUNE.tar
+[22:24:10] << :BEAST-X-ABYSS!~beast@untamed.beast PRIVMSG #beast-xdcc :#1192 13x [ 10G] American.Horror.Story.S05.1080p.BluRay.x265-RARBG.tar
+[22:24:11] << :BEAST-X-STYLES!~beast@untamed.beast PRIVMSG #beast-xdcc :#215  0x [734M] Stephen.King.Alptraeume-4._Das.Ende.vom.Ende.German.AC3.WebRip.x264-AG.mkv
+[22:24:11] << :BEAST-X-AFFECT!~beast@untamed.beast PRIVMSG #beast-xdcc :#2090 12x [8.3G] Sky.High.2005.German.DTS.DL.1080p.BluRay.x264-SightHD.tar
+[22:24:11] << :BEAST-X-SOURCE!~beast@untamed.beast PRIVMSG #beast-xdcc :#5    4x [341M] Medieval.Dynasty.Echoes.of.Nature.Update.v2.4.2.0-RUNE.tar
+[22:24:11] << :BEAST-X-HAMAS!~beast@untamed.beast PRIVMSG #beast-xdcc :#268 18x [ 65G] Five.Easy.Pieces.1970.2160p.UHD.Blu-ray.Remux.DV.HDR.HEVC.FLAC.1.0-CiNEPHiLES.mkv
+[22:24:12] << :BEAST-X-LAMAR!~beast@untamed.beast PRIVMSG #beast-xdcc :#218 10x [2.6G] Jay.Kelly.2025.German.DL.EAC3.720p.DV.HDR.NF.WEB.H265-WAREZCX.mkv
+[22:24:12] << :BEAST-X-SWIFT!~beast@untamed.beast PRIVMSG #beast-xdcc :#211 10x [2.4G] The.Terror.S03E04.GERMAN.DL.1080P.WEB.H264-WAYNE.mkv
+[22:24:12] << :BEAST-X-CHINGY!~beast@untamed.beast PRIVMSG #beast-xdcc :#205  10x [1.9G] Steve.2025.German.AC3.DL.1080p.Web.x265-FuN.mkv
+[22:24:13] << :BEAST-X-DIDDY!~beast@untamed.beast PRIVMSG #beast-xdcc :#216 10x [1.6G] Besessen.Fesseln.Der.Eifersucht.2009.German.AC3.BDRIP.x264-AG.mkv
+[22:24:13] << :BEAST-X-EMINEM!~beast@untamed.beast PRIVMSG #beast-xdcc :#217 10x [1.0G] Father.Brown.2013.S09E02.GERMAN.DL.720P.WEB.X264-WAYNE.mkv
+[22:24:14] << :BEAST-X-REVOLT!~beast@untamed.beast PRIVMSG #beast-xdcc :#924  14x [3.5G] Guns.Up.2025.German.DL.1080p.BluRay.x264-DETAiLS.tar
+[22:24:14] << :BEAST-X-DRAKE!~beast@untamed.beast PRIVMSG #beast-xdcc :#213 10x [649M] Daredevil.Born.Again.S02E04.1080p.x265-ELiTE.mkv
+[22:24:14] << :BEAST-X-SNOOP!~beast@untamed.beast PRIVMSG #beast-xdcc :#216 10x [690M] Rosie.and.Frank.2022.German.BDRip.x264-LizardSquad.tar
+[22:24:14] << :BEAST-X-ABYSS!~beast@untamed.beast PRIVMSG #beast-xdcc :#1193 13x [6.7G] American.Horror.Story.S08.1080p.BluRay.x265-RARBG.tar
+[22:24:14] << :BEAST-X-SOURCE!~beast@untamed.beast PRIVMSG #beast-xdcc :#6   20x [ 10G] The.Lonesome.Guild-RUNE.tar
+[22:24:15] << :BEAST-X-LAMAR!~beast@untamed.beast PRIVMSG #beast-xdcc :#219 10x [303M] Jeopardy.2025.03.04.720p.HDTV.AAC2.0.x264-MacP.mkv
+[22:24:15] << :BEAST-X-AFFECT!~beast@untamed.beast PRIVMSG #beast-xdcc :#2091 10x [1.5G] Skyline.2010.REMASTERED.1080p.BluRay.x265-LAMA.mp4
+[22:24:15] << :BEAST-X-STYLES!~beast@untamed.beast PRIVMSG #beast-xdcc :#216  0x [364M] Sternstunde.der.Moerder.S01E02.GERMAN.HDTVRip.x264-TMSF.tar
+[22:24:15] << :BEAST-X-SMOKED!~beast@untamed.beast PRIVMSG #beast-xdcc :#214 11x [2.8G] Maximum.Pleasure.Guaranteed.S01E05.Scamboy.1080p.ATVP.WEB-DL.DDP5.1.Atmos.H.264-Kitsune.mkv
+[22:24:15] << :Juniee!~Username@D030F75A.8A4673E8.1927BB06.IP JOIN :#beast-xdcc
+[22:24:16] << :BEAST-X-DRAKE!~beast@untamed.beast PRIVMSG #beast-xdcc :#214 10x [684M] Daredevil.Born.Again.S02E05.1080p.x265-ELiTE.mkv
+[22:24:16] << :BEAST-X-SWIFT!~beast@untamed.beast PRIVMSG #beast-xdcc :#212 11x [1.6G] The.Testaments.2026.S01E01.GERMAN.DL.1080p.WEB.H264-TSCC.mkv
+[22:24:16] << :BEAST-X-DIDDY!~beast@untamed.beast PRIVMSG #beast-xdcc :#217 10x [951M] Best.Medicine.S01E13.1080p.x265-ELiTE.mkv
+[22:24:16] << :BEAST-X-CHINGY!~beast@untamed.beast PRIVMSG #beast-xdcc :#206  10x [8.3G] Still.2016.GERMAN.DL.1080P.BLURAY.X264-WATCHABLE.tar
+[22:24:16] << :BEAST-X-REVOLT!~beast@untamed.beast PRIVMSG #beast-xdcc :#925  10x [2.9G] H.Is.For.Hawk.2026.1080p.WEBRip.x265-DH.mkv
+[22:24:16] << :BEAST-X-JOKER!~beast@untamed.beast NOTICE NovaBlade593 :** Sending you pack #613 ("Isle.of.Dogs.2018.BluRay.1080p.DDP.5.1.x264-hallowed.mkv"), which is 6.1GB. (resume supported)
+[22:24:16] [INFO] [Isle of Dogs] ** Sending you pack #613 ("Isle.of.Dogs.2018.BluRay.1080p.DDP.5.1.x264-hallowed.mkv"), which is 6.1GB. (resume supported)
+[22:24:17] << :BEAST-X-EMINEM!~beast@untamed.beast PRIVMSG #beast-xdcc :#218 10x [1.0G] Father.Brown.2013.S09E04.GERMAN.DL.720P.WEB.X264-WAYNE.mkv
+[22:24:17] << :BEAST-X-HAMAS!~beast@untamed.beast PRIVMSG #beast-xdcc :#269 15x [ 81G] Pulp.Fiction.1994.PROPER.UHD.BluRay.2160p.DTS-HD.MA.5.1.DV.HDR10P.HEVC.HYBRID.REMUX-FraMeSToR.mkv
+[22:24:17] << :BEAST-X-SOURCE!~beast@untamed.beast PRIVMSG #beast-xdcc :#7  168x [ 27G] DRAGON_BALL_Sparking_ZERO-FLT.tar
+[22:24:18] << :BEAST-X-SNOOP!~beast@untamed.beast PRIVMSG #beast-xdcc :#217 10x [ 12G] Roter.Drache.2002.German.DL.1080p.BluRay.x264.iNTERNAL-J4F.tar
+[22:24:18] << :BEAST-X-AFFECT!~beast@untamed.beast PRIVMSG #beast-xdcc :#2092 11x [1.7G] Skyscraper.Live.2026.1080p.WEBRip.x265.10bit.AAC-LAMA.mp4
+[22:24:18] << :BEAST-X-ABYSS!~beast@untamed.beast PRIVMSG #beast-xdcc :#1194 15x [6.2G] American.Horror.Story.S11.1080p.WEBRip.x265-RARBG.tar
+[22:24:18] << :BEAST-X-STYLES!~beast@untamed.beast PRIVMSG #beast-xdcc :#217  0x [3.1G] Stickman.Strikes.Conquer.Fantasy.World.v0.2.07-TENOKE.tar
+[22:24:19] << :BEAST-X-CHINGY!~beast@untamed.beast PRIVMSG #beast-xdcc :#207  10x [1.0G] Still.2016.German.AC3.DL.1080p.BluRay.x265-FuN.mkv
+[22:24:19] << :BEAST-X-LAMAR!~beast@untamed.beast PRIVMSG #beast-xdcc :#220 10x [277M] Jeopardy.2025.03.26.720p.HDTV.AAC2.0.x264-MacP.mkv
+[22:24:20] << :BEAST-X-DRAKE!~beast@untamed.beast PRIVMSG #beast-xdcc :#215 10x [6.1G] Daredevil.Born.Again.S02E08.DV.2160p.WEB.h265-GRACE.mkv
+[22:24:20] << :BEAST-X-SWIFT!~beast@untamed.beast PRIVMSG #beast-xdcc :#213 12x [1.7G] The.Testaments.2026.S01E03.GERMAN.DL.1080p.WEB.H264-TSCC.mkv
+[22:24:20] << :BEAST-X-DIDDY!~beast@untamed.beast PRIVMSG #beast-xdcc :#218 10x [4.8G] Beule.-.zerlegt.die.Welt.2022.German.EAC3.1080p.WEB.H264-SiXTYNiNE.mkv
+[22:24:20] << :BEAST-X-SMOKED!~beast@untamed.beast PRIVMSG #beast-xdcc :#215 10x [5.2G] Maximum.Pleasure.Guaranteed.S01E06.GERMAN.DL.DV.2160p.WEB.h265-SAUERKRAUT.mkv
+[22:24:21] << :BEAST-X-JOKER!~beast@untamed.beast PRIVMSG NovaBlade593 :DCC SEND Isle.of.Dogs.2018.BluRay.1080p.DDP.5.1.x264-hallowed.mkv 3418141710 57653 6590713138
+[22:29:15] >> QUIT :bye
+[22:29:15] [SUCCESS] [Isle of Dogs] Download fertig: Isle.of.Dogs.2018.BluRay.1080p.DDP.5.1.x264-hallowed.mkv
+[22:29:15] [SUCCESS] [Isle of Dogs] fertig & einsortiert
+
+============================================================
+=== Lauf beendet: 2026-07-09 22:29:15 | ok: 1, fehlgeschlagen: 0 ===
+============================================================

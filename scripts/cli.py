@@ -16,6 +16,8 @@ from downloader import (
     STAGING_DIR,
     _extra_channels_for,
     _merge_move,
+    is_server_disabled,
+    mark_server_disabled,
 )
 from xdcc_client import xdcc_download
 
@@ -41,7 +43,7 @@ SECTION_ALIASES = {
 # Kategorien, die tatsächlich gesucht/geladen werden (Merkliste nicht)
 ACTIVE_CATEGORIES = ["serien", "film"]
 
-MAX_CANDIDATES = 8
+MAX_CANDIDATES = 15
 MAX_STALLS = 3  # max. Anzahl 60s-Stalls bevor Kandidat abgebrochen wird
 
 
@@ -178,6 +180,9 @@ def process_item(title: str, category: str, status_cb=None, progress_cb=None,
         if server in banned_servers:
             status(f"Überspringe {pack.get('channel')} – auf {server} gesperrt", "warning")
             continue
+        if is_server_disabled(server):
+            status(f"Überspringe {server} – kein gültiger Account (dauerhaft deaktiviert)", "warning")
+            continue
         if channel_failures.get(bot_key, 0) >= 2:
             status(f"Überspringe {pack.get('bot')} (zu viele Fehlversuche)", "warning")
             continue
@@ -186,39 +191,42 @@ def process_item(title: str, category: str, status_cb=None, progress_cb=None,
         status(f"Versuch {i + 1}/{min(len(candidates), MAX_CANDIDATES)}: "
                f"{fname} ({server} {pack.get('channel')})")
 
+        _ban_flag = False
         success, filename = False, None
-        for _dl_try in range(2):  # max 1 Retry bei Verbindungsabbruch (DCC RESUME)
-            _ban_flag = False
-            try:
-                success, filename = xdcc_download(
-                    server=server,
-                    channel=pack["channel"],
-                    bot=pack["bot"],
-                    pack=pack["pack"],
-                    output_dir=STAGING_DIR,
-                    port=pack.get("port", 6667),
-                    timeout=60,
-                    extra_channels=_extra_channels_for(server, pack["channel"]),
-                    progress_callback=(lambda r, t: progress_cb(title, r, t)) if progress_cb else None,
-                    status_callback=status,
-                    stall_callback=_make_stall_cb(status),
-                    expected_fname=expected,
-                    irc_callback=irc_callback,
-                )
-            except Exception as e:
-                status(f"Download-Fehler: {e}", "error")
-                success, filename = False, None
+        try:
+            success, filename = xdcc_download(
+                server=server,
+                channel=pack["channel"],
+                bot=pack["bot"],
+                pack=pack["pack"],
+                output_dir=STAGING_DIR,
+                port=pack.get("port", 6667),
+                tls=pack.get("tls", False),
+                sasl_user=pack.get("sasl_user", ""),
+                sasl_pass=pack.get("sasl_pass", ""),
+                sasl_fail_callback=(
+                    (lambda srv=server: mark_server_disabled(
+                        srv, "SASL-Login fehlgeschlagen (kein/ungültiger Account)"))
+                    if pack.get("sasl_user") else None
+                ),
+                timeout=60,
+                extra_channels=_extra_channels_for(server, pack["channel"]),
+                progress_callback=(lambda r, t: progress_cb(title, r, t)) if progress_cb else None,
+                status_callback=status,
+                stall_callback=_make_stall_cb(status),
+                expected_fname=expected,
+                irc_callback=irc_callback,
+            )
+        except Exception as e:
+            status(f"Download-Fehler: {e}", "error")
+            success, filename = False, None
 
-            if _ban_flag:
-                banned_servers.add(server)
-                break
-            if success:
-                break
-            # Verbindungsabbruch während DCC-Übertragung → Resume versuchen
-            if filename and (STAGING_DIR / filename).exists() and _dl_try == 0:
-                status("Verbindung unterbrochen – versuche DCC RESUME …", "warning")
-                continue
-            break
+        if _ban_flag:
+            banned_servers.add(server)
+        elif not success and filename and (STAGING_DIR / filename).exists():
+            # Verbindungsabbruch mit Teildatei → nächster Bot wird DCC RESUME anbieten
+            mb = (STAGING_DIR / filename).stat().st_size / 1024 / 1024
+            status(f"Verbindung unterbrochen – {mb:.0f} MB gesichert, nächster Bot versucht Resume", "warning")
 
         if not success:
             if not filename:  # Kein Transfer gestartet → Bot-Fehlzähler erhöhen

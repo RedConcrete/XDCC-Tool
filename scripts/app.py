@@ -1,17 +1,20 @@
 #!/usr/bin/env python3
 """Lokale Web-UI fuer den XDCC-Downloader (LAN-only, Port 5005)."""
 
+import importlib
 import os
+import re
 import threading
 import time
 from datetime import datetime
 from pathlib import Path
 
-from flask import Flask, jsonify, render_template, request
+from flask import Flask, abort, jsonify, render_template, request
 
 import cli
 
 CHAT_LOG_PATH = Path(os.environ.get("CHAT_LOG", "/app/Chat.txt"))
+LOGS_DIR = Path(os.environ.get("LOGS_DIR", "/app/logs"))
 
 app = Flask(__name__)
 
@@ -22,41 +25,78 @@ _state = {
     "irc_log": [],      # Liste von {"ts","line"} – roh IRC-Traffic
     "summary": None,     # Ergebnis von run_once() nach Abschluss
     "progress": None,    # {"title","received","total"} waehrend Download
+    "run_log_path": None,  # Pfad zur Log-Datei des aktuellen Laufs
 }
 
-
-def _status_cb(title, msg, level="info"):
-    with _lock:
-        _state["log"].append({"ts": time.time(), "title": title, "msg": msg, "level": level})
-        if level in ("success", "error") or "fertig" in msg or "fehlgeschlagen" in msg:
-            _state["progress"] = None
+_LOG_FILENAME_RE = re.compile(r"^\d{4}-\d{2}-\d{2}_\d{2}-\d{2}-\d{2}\.txt$")
 
 
-def _progress_cb(title, received, total):
-    with _lock:
-        _state["progress"] = {"title": title, "received": received, "total": total}
-
-
-def _irc_cb(line: str):
-    with _lock:
-        _state["irc_log"].append({"ts": time.time(), "line": line})
+def _write_to_file(path: Path, text: str) -> None:
     try:
-        with open(CHAT_LOG_PATH, "a", encoding="utf-8") as f:
-            f.write(line + "\n")
+        with open(path, "a", encoding="utf-8") as f:
+            f.write(text)
     except Exception:
         pass
 
 
-def _run_job():
+def _status_cb(title: str, msg: str, level: str = "info") -> None:
+    ts = datetime.now().strftime("%H:%M:%S")
+    with _lock:
+        _state["log"].append({"ts": time.time(), "title": title, "msg": msg, "level": level})
+        if level in ("success", "error") or "fertig" in msg or "fehlgeschlagen" in msg:
+            _state["progress"] = None
+        run_log = _state["run_log_path"]
+    if run_log:
+        _write_to_file(run_log, f"[{ts}] [{level.upper()}] [{title}] {msg}\n")
+
+
+def _progress_cb(title: str, received: int, total: int) -> None:
+    with _lock:
+        _state["progress"] = {"title": title, "received": received, "total": total}
+
+
+def _irc_cb(line: str) -> None:
+    ts = datetime.now().strftime("%H:%M:%S")
+    stamped = f"[{ts}] {line}"
+    with _lock:
+        _state["irc_log"].append({"ts": time.time(), "line": stamped})
+        run_log = _state["run_log_path"]
+    _write_to_file(CHAT_LOG_PATH, stamped + "\n")
+    if run_log:
+        _write_to_file(run_log, stamped + "\n")
+
+
+def _run_job() -> None:
     try:
         summary = cli.run_once(_status_cb, _progress_cb, _irc_cb)
     except Exception as e:
         summary = {"error": str(e)}
         _status_cb("Allgemein", f"Lauf abgebrochen: {e}", "error")
+
     with _lock:
         _state["running"] = False
         _state["summary"] = summary
         _state["progress"] = None
+        run_log = _state["run_log_path"]
+        _state["run_log_path"] = None
+
+    if run_log:
+        ts_now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        if summary and not summary.get("error"):
+            footer = (
+                f"\n{'=' * 60}\n"
+                f"=== Lauf beendet: {ts_now} | "
+                f"ok: {summary.get('ok', 0)}, fehlgeschlagen: {summary.get('failed', 0)} ===\n"
+                f"{'=' * 60}\n"
+            )
+        else:
+            err = (summary or {}).get("error", "unbekannt")
+            footer = (
+                f"\n{'=' * 60}\n"
+                f"=== Lauf abgebrochen: {ts_now} | {err} ===\n"
+                f"{'=' * 60}\n"
+            )
+        _write_to_file(run_log, footer)
 
 
 @app.route("/")
@@ -85,18 +125,24 @@ def run():
     with _lock:
         if _state["running"]:
             return jsonify({"ok": False, "error": "Lauf bereits aktiv"}), 409
+        # Reload cli module so code changes on disk take effect without container restart
+        importlib.reload(cli)
+        now = datetime.now()
+        run_filename = now.strftime("%Y-%m-%d_%H-%M-%S") + ".txt"
+        LOGS_DIR.mkdir(parents=True, exist_ok=True)
+        run_log_path = LOGS_DIR / run_filename
         _state["running"] = True
         _state["log"] = []
         _state["irc_log"] = []
         _state["summary"] = None
         _state["progress"] = None
-    try:
-        with open(CHAT_LOG_PATH, "a", encoding="utf-8") as f:
-            f.write(f"\n{'='*60}\n")
-            f.write(f"=== Lauf gestartet: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} ===\n")
-            f.write(f"{'='*60}\n")
-    except Exception:
-        pass
+        _state["run_log_path"] = run_log_path
+
+    ts_str = now.strftime("%Y-%m-%d %H:%M:%S")
+    header = f"\n{'=' * 60}\n=== Lauf gestartet: {ts_str} ===\n{'=' * 60}\n"
+    _write_to_file(CHAT_LOG_PATH, header)
+    _write_to_file(run_log_path, header)
+
     threading.Thread(target=_run_job, daemon=True).start()
     return jsonify({"ok": True})
 
@@ -121,6 +167,16 @@ def downloaded():
         return jsonify([])
     lines = [l.strip() for l in cli.DONE_LOG_PATH.read_text(encoding="utf-8").splitlines() if l.strip()]
     return jsonify(list(reversed(lines)))
+
+
+@app.route("/api/downloaded", methods=["DELETE"])
+def delete_downloaded():
+    data = request.get_json(force=True) or {}
+    title = str(data.get("title", "")).strip()
+    if not title:
+        return jsonify({"ok": False, "error": "title fehlt"}), 400
+    removed = cli.remove_done(title)
+    return jsonify({"ok": removed})
 
 
 @app.route("/api/irc")
@@ -148,19 +204,35 @@ def chat_logs():
         return jsonify({"lines": chunk.splitlines(), "size": size})
     if tail > 0:
         text = CHAT_LOG_PATH.read_text(encoding="utf-8", errors="replace")
-        lines = text.splitlines()
-        return jsonify({"lines": lines[-tail:], "size": size})
+        return jsonify({"lines": text.splitlines()[-tail:], "size": size})
     return jsonify({"lines": [], "size": size})
 
 
-@app.route("/api/downloaded", methods=["DELETE"])
-def delete_downloaded():
-    data = request.get_json(force=True) or {}
-    title = str(data.get("title", "")).strip()
-    if not title:
-        return jsonify({"ok": False, "error": "title fehlt"}), 400
-    removed = cli.remove_done(title)
-    return jsonify({"ok": removed})
+@app.route("/api/runs")
+def list_runs():
+    if not LOGS_DIR.exists():
+        return jsonify([])
+    files = sorted(LOGS_DIR.glob("*.txt"), reverse=True)[:50]
+    return jsonify([
+        {"name": f.name, "size": f.stat().st_size}
+        for f in files
+    ])
+
+
+@app.route("/api/runs/<filename>")
+def get_run_log(filename: str):
+    if not _LOG_FILENAME_RE.match(filename):
+        abort(400)
+    path = LOGS_DIR / filename
+    if not path.exists():
+        abort(404)
+    tail = request.args.get("tail", default=0, type=int)
+    size = path.stat().st_size
+    if tail > 0:
+        text = path.read_text(encoding="utf-8", errors="replace")
+        return jsonify({"lines": text.splitlines()[-tail:], "size": size})
+    text = path.read_text(encoding="utf-8", errors="replace")
+    return jsonify({"lines": text.splitlines(), "size": size})
 
 
 if __name__ == "__main__":

@@ -1,0 +1,87 @@
+
+============================================================
+=== Lauf gestartet: 2026-06-29 15:09:17 ===
+============================================================
+[15:09:17] [INFO] [Dune.der.Wuestenplanet.1984] Suche: Dune der Wuestenplanet 1984
+[15:09:17] << :neptune.ny.us.abjects.net NOTICE * :*** Looking up your hostname...
+[15:09:17] << :neptune.ny.us.abjects.net NOTICE * :*** Checking ident...
+[15:09:17] << :neptune.ny.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[15:09:22] << :neptune.ny.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[15:09:23] >> JOIN #beast-chat
+[15:09:23] << :neptune.ny.us.abjects.net 396 DarkPhoenix254 C3A97A5D.6C525672.7F20E47C.IP :is now your displayed host
+[15:09:23] << :DarkPhoenix254!~DarkPhoen@C3A97A5D.6C525672.7F20E47C.IP JOIN :#beast-chat
+[15:09:24] >> PRIVMSG #beast-chat :!s Dune der Wuestenplanet 1984
+[15:09:24] << :neptune.ny.us.abjects.net 332 DarkPhoenix254 #beast-chat :Welcome to #BEAST-XDCC  (Search:ONLINE) (Requests:ONLINE) ~ added !get command ~ !top or !topger to see most leeched releases, can be filtered by days ~ Please use !german for latest GERMAN releases only ~ commands; !latest !german !search !request !get !top !topger !tv !tvger !games ~ For more commands use !help ~ Have something to offer? Msg an ~ 
+[15:09:24] << :neptune.ny.us.abjects.net 333 DarkPhoenix254 #beast-chat devnull!~qlimax@beastmo.de 1779527540
+[15:09:25] << :databeast!~databeast@the.beast NOTICE DarkPhoenix254 :04SEARCH RESULTS LIMITED TO 100 PACKS
+[15:09:25] << :databeast!~databeast@the.beast NOTICE DarkPhoenix254 :04(142.4G04) 14Dune.der.Wuestenplanet.1984.EXTENDED.German.AC3.DL.1080p.BluRay.x265-FuN.mkv04 (142614x04)14 /msg 14BEAST-X-FANTOM14 xdcc send #14158
+[15:09:25] << :databeast!~databeast@the.beast NOTICE DarkPhoenix254 :04(1412G04) 14Dune.Der.Wuestenplanet.1984.German.DL.2160p.DV.HDR.UHD.US.BDRip.AV1-WOTT.mkv04 (141114x04)14 /msg 14BEAST-X-SHANK14 xdcc send #14316
+[15:09:25] << :databeast!~databeast@the.beast NOTICE DarkPhoenix254 :04(148.6G04) 14Dune.Der.Wuestenplanet.1984.German.DL.1080p.DV.HDR.UHD.US.BDRip.AV1-WOTT.mkv04 (141014x04)14 /msg 14BEAST-X-STYLES14 xdcc send #14315
+[15:09:31] >> QUIT :bye
+[15:09:47] << :neptune.ny.us.abjects.net NOTICE * :*** Looking up your hostname...
+[15:09:47] << :neptune.ny.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[15:09:47] << :neptune.ny.us.abjects.net NOTICE * :*** Checking ident...
+[15:09:51] << :neptune.ny.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[15:09:52] >> JOIN #mg-chat
+[15:09:52] << :neptune.ny.us.abjects.net 396 PhantomX381 C3A97A5D.6C525672.7F20E47C.IP :is now your displayed host
+[15:09:52] << :PhantomX381!~PhantomX3@C3A97A5D.6C525672.7F20E47C.IP JOIN :#mg-chat
+[15:09:53] >> PRIVMSG #mg-chat :!s Dune der Wuestenplanet 1984
+[15:09:53] << :neptune.ny.us.abjects.net 332 PhantomX381 #mg-chat : Welcome to Moviegods Chat - If you are new to this type !help - Join #MG-Lounge for requests/questions/comments/tv-subs/spam free chat -//- Join #MG-Help for help - Donations earn VIP perks  - Join #MG-donations for info
+[15:09:53] << :neptune.ny.us.abjects.net 333 PhantomX381 #mg-chat katsper!Kat@Sex.With.Leather.Clad.Women.is.Hot 1728087751
+[15:09:53] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE PhantomX381 :00,0100115)10   5x04 |10 5.7G04 |10 Dune.Der.Wuestenplanet.1984.GERMAN.DL.WS.BluRay.1080p.x264-oWn.mkv04 |09 /msg [MG]-OWN|EU|S|HellBee XDCC SEND 104 04|00 Used: 0.00% 0/15 (1m57s ago)04 
+[15:09:54] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE PhantomX381 :15,01   )07 #MOVIEGODS - Found 1 ONLINE Packs (1 Bots) = Total GETS: 5.
+[15:09:57] << :laggyluke!~laggyluke@abjects-DD79D2C2.pool.telefonica.de JOIN :#mg-chat
+[15:09:58] >> QUIT :bye
+[15:09:58] << :killer.abandoned-irc.net NOTICE * :*** Looking up your hostname...
+[15:09:58] << :killer.abandoned-irc.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[15:10:00] >> JOIN #ZW-CHAT
+[15:10:00] << :killer.abandoned-irc.net 396 BlazeFury258 9457BFBC.35B0CB26.E30ED253.IP :is now your displayed host
+[15:10:00] << :BlazeFury258!BlazeFury2@9457BFBC.35B0CB26.E30ED253.IP JOIN :#ZW-CHAT
+[15:10:01] >> PRIVMSG #ZW-CHAT :!search Dune der Wuestenplanet 1984
+[15:10:01] << :killer.abandoned-irc.net 332 BlazeFury258 #ZW-CHAT :12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12=[04Searchbot]-[09ONLINE]- Triggers: !help !search !latest !subscriptions !topdl !hot !recommended !movies !music !tv !apps !games !ebook !xxx !mobile | Web: http://www.Abandoned-IRC.net/
+[15:10:01] << :killer.abandoned-irc.net 333 BlazeFury258 #ZW-CHAT [ZOMBIE]-LATEST!Abandoned-@zombie.warez 1781827870
+[15:10:01] << :Zombie!ZW@ZoMbIe.WaReZ NOTICE BlazeFury258 :[#ZW-CHAT] 12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12= we are looking for experienced ROOTERS/DEDi/BOXOWNERS . interested? use !joinZW
+[15:10:03] << :[o_0]!Zombies@Zombie.Warez NOTICE BlazeFury258 :
+[15:10:03] << :[o_0]!Zombies@Zombie.Warez NOTICE BlazeFury258 : ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+[15:10:03] << :[o_0]!Zombies@Zombie.Warez NOTICE BlazeFury258 :End of Results. Found: 0 ONLINE packs (0 Bots = 0 Gets) matching "Dune*der*Wuestenplanet*1984"
+[15:10:06] >> QUIT :bye
+[15:10:07] [INFO] [Dune.der.Wuestenplanet.1984] Versuch 1/4: Dune.der.Wuestenplanet.1984.EXTENDED.German.AC3.DL.1080p.BluRay.x265-FuN.mkv (irc.abjects.net #beast-xdcc)
+[15:10:07] [INFO] [Dune.der.Wuestenplanet.1984] Warte 9s vor erneuter Verbindung zu irc.abjects.net
+[15:10:17] << :heimdall.no.eu.abjects.net NOTICE * :*** Looking up your hostname...
+[15:10:17] << :heimdall.no.eu.abjects.net NOTICE * :*** Checking ident...
+[15:10:18] << :heimdall.no.eu.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[15:10:21] << :heimdall.no.eu.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[15:10:21] << PING :82BA9F54
+[15:10:23] >> JOIN #beast-xdcc
+[15:10:23] << :heimdall.no.eu.abjects.net 396 GhostRider747 C3A97A5D.6C525672.7F20E47C.IP :is now your displayed host
+[15:10:23] << :GhostRider747!~GhostRide@C3A97A5D.6C525672.7F20E47C.IP JOIN :#beast-xdcc
+[15:10:23] << :heimdall.no.eu.abjects.net 332 GhostRider747 #beast-xdcc :#BEAST-XDCC //   BLAZING SPEEDS ~ PROPER PACKS   //   join #BEAST-CHAT for Search and much more.
+[15:10:23] << :heimdall.no.eu.abjects.net 333 GhostRider747 #beast-xdcc dbeast 1705098478
+[15:10:23] [INFO] [Dune.der.Wuestenplanet.1984] /msg beast-x-fantom xdcc send #158
+[15:10:24] >> PRIVMSG beast-x-fantom :xdcc send #158
+[15:10:24] << :BEAST-X-JOKER!~beast@untamed.beast PRIVMSG #beast-xdcc :#449  15x [4.7G] Excalibur.1981.German.AC3D.DL.1080p.US-BluRay.x265-FuN.mkv
+[15:10:24] << :BEAST-X-REVOLT!~beast@untamed.beast PRIVMSG #beast-xdcc :#446  11x [1.4G] Der.Biber.2011.German.AC3.DL.1080p.BluRay.x265-FuN.mkv
+[15:10:25] << :BEAST-X-ABYSS!~beast@untamed.beast PRIVMSG #beast-xdcc :#2285 10x [4.1G] Vanderpump.Villa.S03E06.2160p.WEB.h265-GRACE.mkv
+[15:10:25] << :BEAST-X-HBHOE!~G0D@abjects-7A8888FA.clients.your-server.de PRIVMSG #beast-xdcc :#169  39x [632M] EaseUS.Partition.Master.v19.9.WinPE.iSO-rG.tar
+[15:10:26] << :BEAST-X-SWITCH!~G0D@abjects-7A8888FA.clients.your-server.de PRIVMSG #beast-xdcc :#190   42x [1.7G] Double_Dragon_Gaiden_Rise_of_the_Dragons_MULTI11_INTERNAL_NSW-SUXXORS.tar
+[15:10:26] << :BEAST-X-FANTOM!~beast@untamed.beast NOTICE GhostRider747 :** Sending you pack #158 ("Dune.der.Wuestenplanet.1984.EXTENDED.German.AC3.DL.1080p.BluRay.x265-FuN.mkv"), which is 2.4GB. (resume supported)
+[15:10:26] [INFO] [Dune.der.Wuestenplanet.1984] ** Sending you pack #158 ("Dune.der.Wuestenplanet.1984.EXTENDED.German.AC3.DL.1080p.BluRay.x265-FuN.mkv"), which is 2.4GB. (resume supported)
+[15:10:26] << :BEAST-X-HAMAS!~beast@untamed.beast PRIVMSG #beast-xdcc :#247 11x [ 69G] Mona.Lisa.1986.UHD.BluRay.2160p.FLAC.1.0.DV.HEVC.REMUX-FraMeSToR.mkv
+[15:10:26] << :BEAST-X-DELTA!~beast@untamed.beast PRIVMSG #beast-xdcc :#630  13x [6.8G] Das.Haus.David.S01.German.AC3.DL.1080p.Web.x265-FuN.tar
+[15:10:27] << :BEAST-X-JOKER!~beast@untamed.beast PRIVMSG #beast-xdcc :#450  19x [2.9G] Excalibur.1981.German.DL.AC3.1080p.BluRay.x265-FuN.mkv
+[15:10:28] << :BEAST-X-HBHOE!~G0D@abjects-7A8888FA.clients.your-server.de PRIVMSG #beast-xdcc :#170  13x [508M] Hasleo.Disk.Clone.PRO.v5.5.iSO.WinPE-rG.tar
+[15:10:28] << :BEAST-X-CREAM!~beast@untamed.beast PRIVMSG #beast-xdcc :#86  12x [ 15G] Stranger.Things.S01E06.Chapter.Six.The.Monster.2160p.TrueHD.5.1.HEVC.HYBRID.REMUX-FraMeSToR.mkv
+[15:10:28] << :BEAST-X-REVOLT!~beast@untamed.beast PRIVMSG #beast-xdcc :#447  10x [7.4G] Der.Blender.The.Imposter.2012.German.DL.1080p.BluRay.x264-ENCOUNTERS.tar
+[15:10:29] << :BEAST-X-SWITCH!~G0D@abjects-7A8888FA.clients.your-server.de PRIVMSG #beast-xdcc :#191   69x [5.4G] Paper_Mario_The_Thousand-Year_Door_NSW-HR.tar
+[15:10:29] << :BEAST-X-ABYSS!~beast@untamed.beast PRIVMSG #beast-xdcc :#2286 10x [2.7G] Vanderpump.Villa.S03E06.GERMAN.DL.1080p.WEB.h264-HAXE.mkv
+[15:10:31] << :BEAST-X-DELTA!~beast@untamed.beast PRIVMSG #beast-xdcc :#631  12x [1.7G] Das.Haus.der.geheimnisvollen.Uhren.2018.German.AC3.DL.1080p.BluRay.x265-FuN.mkv
+[15:10:31] << :BEAST-X-HAMAS!~beast@untamed.beast PRIVMSG #beast-xdcc :#248 47x [ 85G] Sentimental.Value.2025.2160p.UHD.Blu-ray.Remux.SDR.HEVC.DTS-HD.MA.5.1-CiNEPHiLES.mkv
+[15:10:32] << :BEAST-X-JOKER!~beast@untamed.beast PRIVMSG #beast-xdcc :#451  45x [6.0G] Exit_8_(2025)_(1080p_BluRay_x265_SDR_DDP_7.1_Japanese_-_DarQ_HONE).mkv
+[15:10:32] << :BEAST-X-FANTOM!~beast@untamed.beast PRIVMSG GhostRider747 :DCC SEND Dune.der.Wuestenplanet.1984.EXTENDED.German.AC3.DL.1080p.BluRay.x265-FuN.mkv 3418141701 34241 2567808415
+[15:11:08] >> QUIT :bye
+[15:11:08] [SUCCESS] [Dune.der.Wuestenplanet.1984] Download fertig: Dune.der.Wuestenplanet.1984.EXTENDED.German.AC3.DL.1080p.BluRay.x265-FuN.mkv
+[15:11:10] [SUCCESS] [Dune.der.Wuestenplanet.1984] fertig & einsortiert
+
+============================================================
+=== Lauf beendet: 2026-06-29 15:11:10 | ok: 1, fehlgeschlagen: 0 ===
+============================================================
