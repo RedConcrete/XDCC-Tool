@@ -1,0 +1,66 @@
+
+============================================================
+=== Lauf gestartet: 2026-07-12 21:03:28 ===
+============================================================
+[21:03:28] [INFO] [Hells.Paradise.S02E02.GERMAN] Suche: Hells Paradise S02E02 GERMAN
+[21:03:29] << :sharpshooter.ny.us.abjects.net NOTICE * :*** Looking up your hostname...
+[21:03:29] << :sharpshooter.ny.us.abjects.net NOTICE * :*** Checking ident...
+[21:03:29] << :sharpshooter.ny.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[21:03:33] << :sharpshooter.ny.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[21:03:36] >> JOIN #beast-chat
+[21:03:36] << :sharpshooter.ny.us.abjects.net 396 NightHawk822 E92E9C96.AFB7C0ED.7F20E47C.IP :is now your displayed host
+[21:03:36] << :NightHawk822!~NightHawk@E92E9C96.AFB7C0ED.7F20E47C.IP JOIN :#beast-chat
+[21:03:37] >> PRIVMSG #beast-chat :!s Hells Paradise S02E02 GERMAN
+[21:03:37] << :sharpshooter.ny.us.abjects.net 332 NightHawk822 #beast-chat :Welcome to #BEAST-XDCC  (Search:ONLINE) (Requests:ONLINE) ~ added !get command ~ !top or !topger to see most leeched releases, can be filtered by days ~ Please use !german for latest GERMAN releases only ~ commands; !latest !german !search !request !get !top !topger !tv !tvger !games ~ For more commands use !help ~ Have something to offer? Msg an ~ 
+[21:03:37] << :sharpshooter.ny.us.abjects.net 333 NightHawk822 #beast-chat devnull!~qlimax@beastmo.de 1779527540
+[21:03:37] << :databeast!~databeast@the.beast NOTICE NightHawk822 :04No packs found matching your search criteria.
+[21:03:43] >> QUIT :bye
+[21:03:59] << :mortal.tx.us.abjects.net NOTICE * :*** Looking up your hostname...
+[21:03:59] << :mortal.tx.us.abjects.net NOTICE * :*** Checking ident...
+[21:04:00] << :mortal.tx.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[21:04:04] << :mortal.tx.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[21:04:05] >> JOIN #mg-chat
+[21:04:05] << :mortal.tx.us.abjects.net 396 SteelTitan039 E92E9C96.AFB7C0ED.7F20E47C.IP :is now your displayed host
+[21:04:05] << :SteelTitan039!~SteelTita@E92E9C96.AFB7C0ED.7F20E47C.IP JOIN :#mg-chat
+[21:04:06] >> PRIVMSG #mg-chat :!s Hells Paradise S02E02 GERMAN
+[21:04:06] << :mortal.tx.us.abjects.net 332 SteelTitan039 #mg-chat : Welcome to Moviegods Chat - If you are new to this type !help - Join #MG-Lounge for requests/questions/comments/tv-subs/spam free chat -//- Join #MG-Help for help - Donations earn VIP perks  - Join #MG-donations for info
+[21:04:06] << :mortal.tx.us.abjects.net 333 SteelTitan039 #mg-chat katsper!Kat@Sex.With.Leather.Clad.Women.is.Hot 1728087751
+[21:04:07] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE SteelTitan039 :15,01   )07 #MOVIEGODS - Found 0 ONLINE Packs (0 Bots) = Total GETS: 0.
+[21:04:09] << :nopeosie!~nopeosie@CD4A6D28.719842AB.928745DB.IP JOIN :#mg-chat
+[21:04:12] >> QUIT :bye
+[21:04:12] << :hawk.abandoned-irc.net NOTICE * :*** Looking up your hostname...
+[21:04:15] << :hawk.abandoned-irc.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[21:04:15] >> JOIN #ZW-CHAT
+[21:04:15] << :hawk.abandoned-irc.net 396 BlazeFury478 7F09C0D.2A1F7D19.E30ED253.IP :is now your displayed host
+[21:04:15] << :BlazeFury478!BlazeFury4@7F09C0D.2A1F7D19.E30ED253.IP JOIN :#zw-chat
+[21:04:16] >> PRIVMSG #ZW-CHAT :!search Hells Paradise S02E02 GERMAN
+[21:04:16] << :hawk.abandoned-irc.net 332 BlazeFury478 #zw-chat :12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12=[04Searchbot]-[09ONLINE]- Triggers: !help !search !latest !subscriptions !topdl !hot !recommended !movies !music !tv !apps !games !ebook !xxx !mobile | Web: http://www.Abandoned-IRC.net/
+[21:04:16] << :hawk.abandoned-irc.net 333 BlazeFury478 #zw-chat [ZOMBIE]-LATEST!Abandoned-@zombie.warez 1782976606
+[21:04:16] << :Zombie!ZW@ZoMbIe.WaReZ NOTICE BlazeFury478 :[#ZW-CHAT] 12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12= we are looking for experienced ROOTERS/DEDi/BOXOWNERS . interested? use !joinZW
+[21:04:19] << :[o_0]!Zombies@Zombie.Warez NOTICE BlazeFury478 :
+[21:04:19] << :[o_0]!Zombies@Zombie.Warez NOTICE BlazeFury478 : ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+[21:04:19] << :[o_0]!Zombies@Zombie.Warez NOTICE BlazeFury478 :End of Results. Found: 0 ONLINE packs (0 Bots = 0 Gets) matching "Hells*Paradise*S02E02*GERMAN"
+[21:04:21] << :Dr-Doccy!Dr-Doccy@Abandoned-48D9D8CA.cable.virginm.net JOIN :#zw-chat
+[21:04:21] >> QUIT :bye
+[21:04:22] [INFO] [Hells.Paradise.S02E02.GERMAN] Versuch 1/1: Hells.Paradise.S02E02.GERMAN.ML.ANiME.1080p.WEB.H264-GERTv.mkv (irc.abjects.net #moviegods)
+[21:04:22] [INFO] [Hells.Paradise.S02E02.GERMAN] Warte 6s vor erneuter Verbindung zu irc.abjects.net
+[21:04:29] << :stormy.fr.eu.abjects.net NOTICE * :*** Looking up your hostname...
+[21:04:29] << :stormy.fr.eu.abjects.net NOTICE * :*** Checking ident...
+[21:04:29] << :stormy.fr.eu.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[21:04:32] << :stormy.fr.eu.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[21:04:32] << PING :3E54ED5D
+[21:04:33] >> JOIN #moviegods
+[21:04:33] << :stormy.fr.eu.abjects.net 396 VoidWalker524 E92E9C96.AFB7C0ED.7F20E47C.IP :is now your displayed host
+[21:04:33] << :VoidWalker524!~VoidWalke@E92E9C96.AFB7C0ED.7F20E47C.IP JOIN :#moviegods
+[21:04:33] << :stormy.fr.eu.abjects.net 332 VoidWalker524 #moviegods : Welcome to #MOVIEGODS - If you are new to this type !help -//- Join #mg-chat to download -//- Join #MG-Lounge for requests/questions/comments/tv-subs/spam free chat -//-  Join #MG-Help for help -//- Donations get VIP perks  -  Join #MG-donations for info
+[21:04:33] << :stormy.fr.eu.abjects.net 333 VoidWalker524 #moviegods katsper!Kat@Sex.With.Leather.Clad.Women.is.Hot 1728068851
+[21:04:33] [INFO] [Hells.Paradise.S02E02.GERMAN] /msg [mg]-misc|eu|s|glados xdcc send #303
+[21:04:34] >> PRIVMSG [mg]-misc|eu|s|glados :xdcc send #303
+[21:04:34] << :[MG]-MISC|EU|S|GLaDOS!~root@22658C5E.F0C31D27.A6FD9088.IP PRIVMSG VoidWalker524 :DCC SEND Der.Bachelor.S16E09.GERMAN.1080p.WEB.H264-TSCC.mkv 3105216788 21002 5027588272
+[21:04:34] [WARNING] [Hells.Paradise.S02E02.GERMAN] Falscher Titel – überspringe: Der.Bachelor.S16E09.GERMAN.1080p.WEB.H264-TSCC.mkv
+[21:04:34] >> QUIT :bye
+[21:04:34] [ERROR] [Hells.Paradise.S02E02.GERMAN] fehlgeschlagen
+
+============================================================
+=== Lauf beendet: 2026-07-12 21:04:34 | ok: 0, fehlgeschlagen: 1 ===
+============================================================

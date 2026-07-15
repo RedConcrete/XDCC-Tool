@@ -1,0 +1,93 @@
+
+============================================================
+=== Lauf gestartet: 2026-06-17 07:09:32 ===
+============================================================
+[07:09:32] [INFO] [Killers of the Flower Moon 2023] Suche: Killers of the Flower Moon 2023
+[07:09:32] << :spiked.ca.us.abjects.net NOTICE * :*** Looking up your hostname...
+[07:09:32] << :spiked.ca.us.abjects.net NOTICE * :*** Checking ident...
+[07:09:32] << :spiked.ca.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[07:09:36] << :spiked.ca.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[07:09:37] >> JOIN #beast-chat
+[07:09:37] << :spiked.ca.us.abjects.net 396 ThunderStrike373 2668F1DF.6C525672.7F20E47C.IP :is now your displayed host
+[07:09:37] << :ThunderStrike373!~ThunderSt@2668F1DF.6C525672.7F20E47C.IP JOIN :#beast-chat
+[07:09:38] >> PRIVMSG #beast-chat :!s Killers of the Flower Moon 2023
+[07:09:38] << :spiked.ca.us.abjects.net 332 ThunderStrike373 #beast-chat :Welcome to #BEAST-XDCC  (Search:ONLINE) (Requests:ONLINE) ~ added !get command ~ !top or !topger to see most leeched releases, can be filtered by days ~ Please use !german for latest GERMAN releases only ~ commands; !latest !german !search !request !get !top !topger !tv !tvger !games ~ For more commands use !help ~ Have something to offer? Msg an ~ 
+[07:09:38] << :spiked.ca.us.abjects.net 333 ThunderStrike373 #beast-chat devnull!~qlimax@beastmo.de 1779527540
+[07:09:39] << :databeast!~databeast@the.beast NOTICE ThunderStrike373 :04SEARCH RESULTS LIMITED TO 100 PACKS
+[07:09:39] << :databeast!~databeast@the.beast NOTICE ThunderStrike373 :04(1476G04) 14Killers.of.the.Flower.Moon.2023.2160p.UHD.Blu-ray.Remux.DV.HDR.HEVC.TrueHD.Atmos.7.1-CiNEPHiLES.mkv04 (141614x04)14 /msg 14BEAST-X-HAMAS14 xdcc send #14108
+[07:09:39] << :databeast!~databeast@the.beast NOTICE ThunderStrike373 :04(1476G04) 14Killers.of.the.Flower.Moon.2023.Hybrid.2160p.UHD.Blu-ray.Remux.DV.HDR10P.HEVC.TrueHD.Atmos.7.1-CiNEPHiLES.mkv04 (141414x04)14 /msg 14BEAST-X-HAMAS14 xdcc send #14109
+[07:09:39] << :databeast!~databeast@the.beast NOTICE ThunderStrike373 :04(143.2G04) 14Killers.of.the.Flower.Moon.2023.German.AC3.DL.1080p.Web.x265-FuN.mkv04 (142614x04)14 /msg 14BEAST-X-REVOLT14 xdcc send #141180
+[07:09:39] << :databeast!~databeast@the.beast NOTICE ThunderStrike373 :04(1437G04) 14Killers.of.the.Flower.Moon.2023.German.2160p.WEB-DL.EAC3.DV.HDR10Plus.HEVC-pmHD.mkv04 (142914x04)14 /msg 14BEAST-X-SHADY14 xdcc send #14726
+[07:09:45] >> QUIT :bye
+[07:09:45] << :mortal.tx.us.abjects.net NOTICE * :*** Looking up your hostname...
+[07:09:45] << :mortal.tx.us.abjects.net NOTICE * :*** Checking ident...
+[07:09:47] << :mortal.tx.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[07:09:49] << :mortal.tx.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[07:09:51] >> JOIN #mg-chat
+[07:09:51] << :mortal.tx.us.abjects.net 396 PhantomX385 2668F1DF.6C525672.7F20E47C.IP :is now your displayed host
+[07:09:51] << :PhantomX385!~PhantomX3@2668F1DF.6C525672.7F20E47C.IP JOIN :#mg-chat
+[07:09:52] >> PRIVMSG #mg-chat :!s Killers of the Flower Moon 2023
+[07:09:52] << :mortal.tx.us.abjects.net 332 PhantomX385 #mg-chat : Welcome to Moviegods Chat - If you are new to this type !help - Join #MG-Lounge for requests/questions/comments/tv-subs/spam free chat -//- Join #MG-Help for help - Donations earn VIP perks  - Join #MG-donations for info
+[07:09:52] << :mortal.tx.us.abjects.net 333 PhantomX385 #mg-chat katsper!Kat@Sex.With.Leather.Clad.Women.is.Hot 1728087751
+[07:09:52] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE PhantomX385 :00,0100115)10   3x04 |10  23G04 |10 Killers.of.the.Flower.Moon.2023.German.DL.HDR.2160p.WEB.h265-W4K.mkv04 |09 /msg [MG]-4k|EU|S|BubbaKush XDCC SEND 3 04|00 Used: 2.30% 1/10 avg: 514.00KiB/s (1m56s ago)04 
+[07:09:52] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE PhantomX385 :15,01   )07 #MOVIEGODS - Found 1 ONLINE Packs (1 Bots) = Total GETS: 3.
+[07:09:55] << :M1Cha3L!~1M1K1@abjects-EA37DE9D.dip0.t-ipconnect.de PRIVMSG #mg-chat :!get Tom.Clancys.Jack.Ryan.Ghost.War.2026.GERMAN.DL.1080P.WEB.H264-WAYNE.mkv
+[07:09:58] >> QUIT :bye
+[07:09:59] [INFO] [Killers of the Flower Moon 2023] Versuch 1/15: Killers.of.the.Flower.Moon.2023.German.2160p.WEB-DL.EAC3.DV.HDR10Plus.HEVC-pmHD.mkv (irc.abjects.net #beast-xdcc)
+[07:09:59] << :mortal.tx.us.abjects.net NOTICE * :*** Looking up your hostname...
+[07:09:59] << :mortal.tx.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[07:09:59] << :mortal.tx.us.abjects.net NOTICE * :*** Checking ident...
+[07:10:03] << :mortal.tx.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[07:10:03] << PING :C38C327B
+[07:10:05] >> JOIN #beast-xdcc
+[07:10:05] << :mortal.tx.us.abjects.net 396 IronFist765 2668F1DF.6C525672.7F20E47C.IP :is now your displayed host
+[07:10:05] << :IronFist765!~IronFist7@2668F1DF.6C525672.7F20E47C.IP JOIN :#beast-xdcc
+[07:10:05] << :mortal.tx.us.abjects.net 332 IronFist765 #beast-xdcc :#BEAST-XDCC //   BLAZING SPEEDS ~ PROPER PACKS   //   join #BEAST-CHAT for Search and much more.
+[07:10:05] << :mortal.tx.us.abjects.net 333 IronFist765 #beast-xdcc dbeast 1705098478
+[07:10:05] << :BEAST-X-HBHOE!~G0D@abjects-7A8888FA.clients.your-server.de PRIVMSG #beast-xdcc :#169  38x [632M] EaseUS.Partition.Master.v19.9.WinPE.iSO-rG.tar
+[07:10:05] [INFO] [Killers of the Flower Moon 2023] /msg beast-x-shady xdcc send #726
+[07:10:06] >> PRIVMSG beast-x-shady :xdcc send #726
+[07:10:06] << :BEAST-X-FANTOM!~beast@untamed.beast PRIVMSG #beast-xdcc :#66   16x [4.6G] Cocoon.2.-.Die.Rueckkehr.1988.German.AC3D.DL.1080p.WEB-DL.x264-Jakopo.mkv
+[07:10:06] << :BEAST-X-NEMESIS!~beast@untamed.beast PRIVMSG #beast-xdcc :#32  17x [1.5G] didi.auf.vollen.touren.1986.german.bdrip.x264.internal-contribution.mkv
+[07:10:06] << :BEAST-X-MENTAL!~beast@untamed.beast PRIVMSG #beast-xdcc :#273 25x [7.3G] Dutton.Ranch.S01E06.HDR.2160p.WEB.h265-GRACE.mkv
+[07:10:06] << :murkwurk!~murk@abjects-BED0C20B.ip-158-69-215.net QUIT :Connection closed
+[07:10:08] << :BEAST-X-ABYSS!~beast@untamed.beast PRIVMSG #beast-xdcc :#540  19x [2.7G] Guardians.of.the.Galaxy.Vol.3.2023.German.AC3.DL.1080p.BluRay.x265-FuN.mkv
+[07:10:08] << :BEAST-X-SINNER!~beast@untamed.beast PRIVMSG #beast-xdcc :#79  65x [ 15G] mercy.2026.german.dl.hdr.2160p.web.h265-w4k.mkv
+[07:10:08] << :BEAST-X-ULTRA!~beast@untamed.beast PRIVMSG #beast-xdcc :#931  10x [5.4G] Ein.ehrliches.Leben.2025.GERMAN.DL.1080p.WEB.h264-SAUERKRAUT.mkv
+[07:10:08] << :BEAST-X-BUSTA!~beast@untamed.beast PRIVMSG #beast-xdcc :#152 20x [1.5G] Ghosts.2021.S05E11.GERMAN.DL.1080p.WEB.h264-SAUERKRAUT.mkv
+[07:10:08] << :BEAST-X-DELTA!~beast@untamed.beast PRIVMSG #beast-xdcc :#306  16x [ 13G] Battlestar.Galactica.S01.German.AC3.DL.1080p.BDRip.x265-FuN.tar
+[07:10:08] << :BEAST-X-HUSTLA!~beast@untamed.beast PRIVMSG #beast-xdcc :#111 11x [404M] bloodhounds.s02e02.german.webrip.x264-avtomat.mkv
+[07:10:09] << :BEAST-X-HBHOE!~G0D@abjects-7A8888FA.clients.your-server.de PRIVMSG #beast-xdcc :#170  13x [508M] Hasleo.Disk.Clone.PRO.v5.5.iSO.WinPE-rG.tar
+[07:10:09] << :BEAST-X-FANTOM!~beast@untamed.beast PRIVMSG #beast-xdcc :#67   14x [6.5G] Pandora.2016.German.EAC3.5.1.DL.1080p.WEB.h264.mkv
+[07:10:10] << :DaineOhmaUffToast!~XX@abjects-55D4C410.dip0.t-ipconnect.de JOIN :#beast-xdcc
+[07:10:10] << :BEAST-X-SHADY!~beast@untamed.beast NOTICE IronFist765 :** Sending you pack #726 ("Killers.of.the.Flower.Moon.2023.German.2160p.WEB-DL.EAC3.DV.HDR10Plus.HEVC-pmHD.mkv"), which is 37GB. (resume supported)
+[07:10:10] [INFO] [Killers of the Flower Moon 2023] ** Sending you pack #726 ("Killers.of.the.Flower.Moon.2023.German.2160p.WEB-DL.EAC3.DV.HDR10Plus.HEVC-pmHD.mkv"), which is 37GB. (resume supported)
+[07:10:10] << :BEAST-X-NEMESIS!~beast@untamed.beast PRIVMSG #beast-xdcc :#33  37x [6.9G] Long.Gone.Heroes.2024.German.DL.EAC3.1080p.WEB.H264-SiXTYNiNE.mkv
+[07:10:11] << :BEAST-X-BUSTA!~beast@untamed.beast PRIVMSG #beast-xdcc :#153 16x [767M] Highter.und.Wolkig.S01E02.German.1080p.WEB.x264-WvF.mkv
+[07:10:11] << :BEAST-X-MENTAL!~beast@untamed.beast PRIVMSG #beast-xdcc :#274 10x [3.4G] Taskmaster.Australia.S05E06.Having.a.Menty.B.1080p.AMZN.WEB-DL.DDP2.0.H.264-RAWR.mkv
+[07:10:12] << :BEAST-X-SINNER!~beast@untamed.beast PRIVMSG #beast-xdcc :#80  13x [289M] Jeopardy.2025.01.21.720p.HDTV.AAC2.0.x264-MacP.mkv
+[07:10:12] << :BEAST-X-ABYSS!~beast@untamed.beast PRIVMSG #beast-xdcc :#541  11x [1.7G] Gunpowder.Milkshake.2021.German.AC3.DL.1080p.BluRay.x265-FuN.mkv
+[07:10:12] << :BEAST-X-HBHOE!~G0D@abjects-7A8888FA.clients.your-server.de PRIVMSG #beast-xdcc :#171   7x [ 34M] Hetman.Internet.Spy.v4.0.Incl.Keygen-BTCR.tar
+[07:10:12] << :BEAST-X-DELTA!~beast@untamed.beast PRIVMSG #beast-xdcc :#307  16x [ 24G] Battlestar.Galactica.S02.German.AC3.DL.1080p.BDRip.x265-FuN.tar
+[07:10:12] << :BEAST-X-HUSTLA!~beast@untamed.beast PRIVMSG #beast-xdcc :#112 17x [952M] The.Testaments.Die.Zeuginnen.S01E01.German.DL.720p.WEB.h264-WvF.tar
+[07:10:14] << :BEAST-X-NEMESIS!~beast@untamed.beast PRIVMSG #beast-xdcc :#34  49x [7.1G] The.Thicket.2024.German.DL.1080p.BluRay.x264-LizardSquad.tar
+[07:10:14] << :BEAST-X-FANTOM!~beast@untamed.beast PRIVMSG #beast-xdcc :#68   16x [8.1G] Die.Braut.die.sich.nicht.traut.1999.German.AC3D.DL.1080p.BluRay.x264-KLASSiGERHD.mkv
+[07:10:15] << :BEAST-X-ULTRA!~beast@untamed.beast PRIVMSG #beast-xdcc :#932  11x [2.2G] Ein.unmoeglicher.Haertefall.2003.GERMAN.DL.AC3.1080p.BluRay.x265-FuN.mkv
+[07:10:15] << :BEAST-X-BUSTA!~beast@untamed.beast PRIVMSG #beast-xdcc :#154 12x [2.4G] The.Race.S03E07.GERMAN.720p.WEB.h264-HAXE.mkv
+[07:10:15] << :BEAST-X-ABYSS!~beast@untamed.beast PRIVMSG #beast-xdcc :#542  13x [1.9G] Gwigongja.2023.German.AC3.DL.1080p.BluRay.x265-FuN.mkv
+[07:10:15] << :BEAST-X-GANJA!~beast@untamed.beast PRIVMSG #beast-xdcc :0x [1.8G] The.Legend.of.Vox.Machina.S04E07.The.Ghosts.of.Whitestone.1080p.AMZN.WEB-DL.DDP5.1.H.264-Kitsune.mkv /MSG BEAST-X-GANJA XDCC SEND 277
+[07:10:15] << :BEAST-X-SINNER!~beast@untamed.beast PRIVMSG #beast-xdcc :#81  12x [290M] Jeopardy.2025.06.25.720p.HDTV.AAC2.0.x264-MacP.mkv
+[07:10:15] << :CptBlaubaer!~CptBlauba@B47672A.BA7EFA39.FF0E9874.IP JOIN :#beast-xdcc
+[07:10:16] << :BEAST-X-HUSTLA!~beast@untamed.beast PRIVMSG #beast-xdcc :#113 14x [967M] Rooster.Fighter.S01E04.GERMAN.DL.ANIME.1080P.WEB.H264-WAYNE.tar
+[07:10:16] << :BEAST-X-HBHOE!~G0D@abjects-7A8888FA.clients.your-server.de PRIVMSG #beast-xdcc :#172   8x [ 86M] Hetman.RAID.Recovery.v2.8.Portable.Incl.Keygen-BTCR.tar
+[07:10:16] << :BEAST-X-MENTAL!~beast@untamed.beast PRIVMSG #beast-xdcc :#275 15x [1.6G] Der.Zweite.Weltkrieg.mit.Tom.Hanks.S01E05.GERMAN.DOKU.720p.WEB.H264-SYNERGiE.mkv
+[07:10:17] << :BEAST-X-GANJA!~beast@untamed.beast PRIVMSG #beast-xdcc :#277 10x [1.8G] The.Legend.of.Vox.Machina.S04E07.The.Ghosts.of.Whitestone.1080p.AMZN.WEB-DL.DDP5.1.H.264-Kitsune.mkv
+[07:10:17] << :BEAST-X-NEMESIS!~beast@untamed.beast PRIVMSG #beast-xdcc :#35  11x [2.6G] Stray.Children-TENOKE.tar
+[07:10:17] << :BEAST-X-SHADY!~beast@untamed.beast PRIVMSG IronFist765 :DCC SEND Killers.of.the.Flower.Moon.2023.German.2160p.WEB-DL.EAC3.DV.HDR10Plus.HEVC-pmHD.mkv 3418141710 59157 39438571729
+[07:21:03] >> QUIT :bye
+[07:21:03] [SUCCESS] [Killers of the Flower Moon 2023] Download fertig: Killers.of.the.Flower.Moon.2023.German.2160p.WEB-DL.EAC3.DV.HDR10Plus.HEVC-pmHD.mkv
+[07:21:03] [SUCCESS] [Killers of the Flower Moon 2023] fertig & einsortiert
+
+============================================================
+=== Lauf beendet: 2026-06-17 07:21:03 | ok: 1, fehlgeschlagen: 0 ===
+============================================================

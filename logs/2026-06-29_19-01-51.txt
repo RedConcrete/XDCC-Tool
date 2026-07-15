@@ -1,0 +1,230 @@
+
+============================================================
+=== Lauf gestartet: 2026-06-29 19:01:51 ===
+============================================================
+[19:01:51] [INFO] [The.Peanuts.Movie.2015.] Suche: The Peanuts Movie 2015
+[19:01:51] << :arse.nl.eu.abjects.net NOTICE * :*** Looking up your hostname...
+[19:01:51] << :arse.nl.eu.abjects.net NOTICE * :*** Checking ident...
+[19:01:51] << :arse.nl.eu.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[19:01:55] << :arse.nl.eu.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[19:01:57] >> JOIN #beast-chat
+[19:01:57] << :arse.nl.eu.abjects.net 396 NovaBlade238 C3A97A5D.6C525672.7F20E47C.IP :is now your displayed host
+[19:01:57] << :NovaBlade238!~NovaBlade@C3A97A5D.6C525672.7F20E47C.IP JOIN :#beast-chat
+[19:01:58] >> PRIVMSG #beast-chat :!s The Peanuts Movie 2015
+[19:01:58] << :arse.nl.eu.abjects.net 332 NovaBlade238 #beast-chat :Welcome to #BEAST-XDCC  (Search:ONLINE) (Requests:ONLINE) ~ added !get command ~ !top or !topger to see most leeched releases, can be filtered by days ~ Please use !german for latest GERMAN releases only ~ commands; !latest !german !search !request !get !top !topger !tv !tvger !games ~ For more commands use !help ~ Have something to offer? Msg an ~ 
+[19:01:58] << :arse.nl.eu.abjects.net 333 NovaBlade238 #beast-chat devnull!~qlimax@beastmo.de 1779527540
+[19:01:58] << :databeast!~databeast@the.beast NOTICE NovaBlade238 :04No packs found matching your search criteria.
+[19:02:03] << :mamamama!~kolobolo@abjects-BAAC8D70.play-internet.pl JOIN :#beast-chat
+[19:02:03] >> QUIT :bye
+[19:02:22] << :sharpshooter.ny.us.abjects.net NOTICE * :*** Looking up your hostname...
+[19:02:22] << :sharpshooter.ny.us.abjects.net NOTICE * :*** Checking ident...
+[19:02:22] << :sharpshooter.ny.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[19:02:25] << :sharpshooter.ny.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[19:02:27] >> JOIN #mg-chat
+[19:02:27] << :sharpshooter.ny.us.abjects.net 396 ShadowWolf191 C3A97A5D.6C525672.7F20E47C.IP :is now your displayed host
+[19:02:27] << :ShadowWolf191!~ShadowWol@C3A97A5D.6C525672.7F20E47C.IP JOIN :#mg-chat
+[19:02:28] >> PRIVMSG #mg-chat :!s The Peanuts Movie 2015
+[19:02:28] << :sharpshooter.ny.us.abjects.net 332 ShadowWolf191 #mg-chat : Welcome to Moviegods Chat - If you are new to this type !help - Join #MG-Lounge for requests/questions/comments/tv-subs/spam free chat -//- Join #MG-Help for help - Donations earn VIP perks  - Join #MG-donations for info
+[19:02:28] << :sharpshooter.ny.us.abjects.net 333 ShadowWolf191 #mg-chat katsper!Kat@Sex.With.Leather.Clad.Women.is.Hot 1728087751
+[19:02:28] << :demi!~demi@abjects-4A95DC23.cable.virginm.net PRIVMSG #mg-chat :!s the devil wears prada 2
+[19:02:28] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE ShadowWolf191 :00,0100115)10   2x04 |10 1.8G04 |10 The.Peanuts.Movie.2015.German.AC3.DL.1080p.BluRay.x265-FuN.mkv04 |09 /msg [MG]-FUN|EU|S|FunFiles XDCC SEND 2418 04|00 Used: 28.65% 8/15 avg: 3.65MiB/s (1m12s ago)04 
+[19:02:28] << :UBM!~kvirc@C78956FE.B1B8663A.BDD0D255.IP PRIVMSG #mg-chat :1s Prey
+[19:02:28] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE ShadowWolf191 :15,01   )07 #MOVIEGODS - Found 1 ONLINE Packs (1 Bots) = Total GETS: 2.
+[19:02:30] << :media!~media@null.user PRIVMSG #mg-chat :!hot
+[19:02:31] << :efish!~s_gonzale@abjects-13E125E.lsan.ca.frontiernet.net PRIVMSG #mg-chat :!topdl
+[19:02:31] << :HansTheHorrible!~HansTheHo@abjects-E98EDF30.dip0.t-ipconnect.de JOIN :#mg-chat
+[19:02:32] << :BotReign2!Bot@Me.Serve.You.Longer.Time PRIVMSG #mg-chat :04,01(08 #MOVIEGODS 04)-(08 Rocky.1976.4K.REMASTERED.German.EAC3.DL.1080p.BluRay.x265-VECTOR 04)-(08 MOVIECLASSIC-X265-DE-1080P00 x 7.4G 04)-(00 /msg [MG]-X265|EU|S|GranddadPurple xdcc send #473 04)
+[19:02:32] >> QUIT :bye
+[19:02:32] << :vuln.abandoned-irc.net NOTICE * :*** Looking up your hostname...
+[19:02:33] << :vuln.abandoned-irc.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[19:02:34] >> JOIN #ZW-CHAT
+[19:02:34] << :vuln.abandoned-irc.net 396 ApexPredator899 9457BFBC.35B0CB26.E30ED253.IP :is now your displayed host
+[19:02:34] << :vuln.abandoned-irc.net 422 ApexPredator899 :MOTD File is missing
+[19:02:34] << :ApexPredator899!ApexPredat@9457BFBC.35B0CB26.E30ED253.IP JOIN :#zw-chat
+[19:02:35] >> PRIVMSG #ZW-CHAT :!search The Peanuts Movie 2015
+[19:02:35] << :vuln.abandoned-irc.net 332 ApexPredator899 #zw-chat :12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12=[04Searchbot]-[09ONLINE]- Triggers: !help !search !latest !subscriptions !topdl !hot !recommended !movies !music !tv !apps !games !ebook !xxx !mobile | Web: http://www.Abandoned-IRC.net/
+[19:02:35] << :vuln.abandoned-irc.net 333 ApexPredator899 #zw-chat [ZOMBIE]-LATEST!Abandoned-@zombie.warez 1781827870
+[19:02:35] << :Zombie!ZW@ZoMbIe.WaReZ NOTICE ApexPredator899 :[#ZW-CHAT] 12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12= we are looking for experienced ROOTERS/DEDi/BOXOWNERS . interested? use !joinZW
+[19:02:36] << :LarryTango!not@Abandoned-54DFB9CA.vm8.cable.virginm.net QUIT :Quit: 04«±« 08I was using Bwia Nostalgia04 »±» Version «±« 083.2.104 »±» Edition «±« 08Master edition04 »±» Webpage «±« 08#Warezit@04 »±» 1 Hour 46 Minutes and 53 Seconds «±« 08Online04 »±»
+[19:02:37] << :[o_0]!Zombies@Zombie.Warez NOTICE ApexPredator899 :
+[19:02:37] << :[o_0]!Zombies@Zombie.Warez NOTICE ApexPredator899 : ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+[19:02:37] << :[o_0]!Zombies@Zombie.Warez NOTICE ApexPredator899 :End of Results. Found: 0 ONLINE packs (0 Bots = 0 Gets) matching "The*Peanuts*Movie*2015"
+[19:02:40] >> QUIT :bye
+[19:02:41] [INFO] [The.Peanuts.Movie.2015.] Versuch 1/6: The.Peanuts.Movie.2015.German.AC3.DL.1080p.BluRay.x265-FuN.mkv (irc.abjects.net #moviegods)
+[19:02:41] [INFO] [The.Peanuts.Movie.2015.] Warte 10s vor erneuter Verbindung zu irc.abjects.net
+[19:02:51] << :arse.nl.eu.abjects.net NOTICE * :*** Looking up your hostname...
+[19:02:51] << :arse.nl.eu.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[19:02:51] << :arse.nl.eu.abjects.net NOTICE * :*** Checking ident...
+[19:02:55] << :arse.nl.eu.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[19:02:55] << PING :6AE2F684
+[19:02:56] >> JOIN #moviegods
+[19:02:56] << :arse.nl.eu.abjects.net 396 ThunderStrike048 C3A97A5D.6C525672.7F20E47C.IP :is now your displayed host
+[19:02:56] << :ThunderStrike048!~ThunderSt@C3A97A5D.6C525672.7F20E47C.IP JOIN :#moviegods
+[19:02:56] << :arse.nl.eu.abjects.net 332 ThunderStrike048 #moviegods : Welcome to #MOVIEGODS - If you are new to this type !help -//- Join #mg-chat to download -//- Join #MG-Lounge for requests/questions/comments/tv-subs/spam free chat -//-  Join #MG-Help for help -//- Donations get VIP perks  -  Join #MG-donations for info
+[19:02:56] << :arse.nl.eu.abjects.net 333 ThunderStrike048 #moviegods katsper!Kat@Sex.With.Leather.Clad.Women.is.Hot 1728068851
+[19:02:56] [INFO] [The.Peanuts.Movie.2015.] /msg [mg]-fun|eu|s|funfiles xdcc send #2418
+[19:02:57] >> PRIVMSG [mg]-fun|eu|s|funfiles :xdcc send #2418
+[19:02:57] << :[MG]-X265|EU|S|MorningStar!~root@abjects-E0F9D77D.clients.your-server.de PRIVMSG #moviegods :#748  14x [665M] Saturday.Night.Live.S51E19.Matt.Damon.720p.HEVC.x265-MeGusta.mkv
+[19:02:57] << :[MG]-X265|EU|S|GranddadPurple!~root@abjects-325D2437.clients.your-server.de PRIVMSG #moviegods :#438   1x [326M] The.Amazing.Digital.Circus.S01E06.They.All.Get.Guns.1080p.HEVC.x265-MeGusta.mkv
+[19:02:57] << :[MG]-FUN|EU|S|FunFiles!~root@abjects-3DFC1E70.ip-54-39-128.net PRIVMSG #moviegods :#2731   5x [3.3G] Koenigreich.der.Himmel.Directors.Cut.2005.German.AC3.DL.1080p.BluRay.x265-FuN.mkv
+[19:02:57] << :[MG]-HDTV|EU|S|DeathStar!~root@abjects-325D2437.clients.your-server.de PRIVMSG #moviegods :#390  14x [2.0G] Clarksons.Farm.S05E07.Sickening.720p.AMZN.WEB-DL.DDP5.1.H.264-RAWR.mkv
+[19:02:57] << :[MG]-FUN|EU|S|FunFiles!~root@abjects-3DFC1E70.ip-54-39-128.net PRIVMSG ThunderStrike048 :DCC SEND The.Peanuts.Movie.2015.German.AC3.DL.1080p.BluRay.x265-FuN.mkv 908558430 30005 1887552666
+[19:03:49] >> QUIT :bye
+[19:03:49] [SUCCESS] [The.Peanuts.Movie.2015.] Download fertig: The.Peanuts.Movie.2015.German.AC3.DL.1080p.BluRay.x265-FuN.mkv
+[19:03:49] [SUCCESS] [The.Peanuts.Movie.2015.] fertig & einsortiert
+[19:03:49] [INFO] [Shot.Caller.2017] Suche: Shot Caller 2017
+[19:03:49] << :arse.nl.eu.abjects.net NOTICE * :*** Looking up your hostname...
+[19:03:49] << :arse.nl.eu.abjects.net NOTICE * :*** Checking ident...
+[19:03:50] << :arse.nl.eu.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[19:03:53] << :arse.nl.eu.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[19:03:54] >> JOIN #beast-chat
+[19:03:54] << :arse.nl.eu.abjects.net 396 ViperZ691 C3A97A5D.6C525672.7F20E47C.IP :is now your displayed host
+[19:03:54] << :ViperZ691!~ViperZ691@C3A97A5D.6C525672.7F20E47C.IP JOIN :#beast-chat
+[19:03:55] >> PRIVMSG #beast-chat :!s Shot Caller 2017
+[19:03:55] << :arse.nl.eu.abjects.net 332 ViperZ691 #beast-chat :Welcome to #BEAST-XDCC  (Search:ONLINE) (Requests:ONLINE) ~ added !get command ~ !top or !topger to see most leeched releases, can be filtered by days ~ Please use !german for latest GERMAN releases only ~ commands; !latest !german !search !request !get !top !topger !tv !tvger !games ~ For more commands use !help ~ Have something to offer? Msg an ~ 
+[19:03:55] << :arse.nl.eu.abjects.net 333 ViperZ691 #beast-chat devnull!~qlimax@beastmo.de 1779527540
+[19:03:55] << :databeast!~databeast@the.beast NOTICE ViperZ691 :04No packs found matching your search criteria.
+[19:04:01] >> QUIT :bye
+[19:04:19] << :arse.nl.eu.abjects.net NOTICE * :*** Looking up your hostname...
+[19:04:19] << :arse.nl.eu.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[19:04:19] << :arse.nl.eu.abjects.net NOTICE * :*** Checking ident...
+[19:04:23] << :arse.nl.eu.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[19:04:24] >> JOIN #mg-chat
+[19:04:24] << :arse.nl.eu.abjects.net 396 NightHawk846 C3A97A5D.6C525672.7F20E47C.IP :is now your displayed host
+[19:04:24] << :NightHawk846!~NightHawk@C3A97A5D.6C525672.7F20E47C.IP JOIN :#mg-chat
+[19:04:25] >> PRIVMSG #mg-chat :!s Shot Caller 2017
+[19:04:25] << :arse.nl.eu.abjects.net 332 NightHawk846 #mg-chat : Welcome to Moviegods Chat - If you are new to this type !help - Join #MG-Lounge for requests/questions/comments/tv-subs/spam free chat -//- Join #MG-Help for help - Donations earn VIP perks  - Join #MG-donations for info
+[19:04:25] << :arse.nl.eu.abjects.net 333 NightHawk846 #mg-chat katsper!Kat@Sex.With.Leather.Clad.Women.is.Hot 1728087751
+[19:04:26] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE NightHawk846 :15,01   )07 #MOVIEGODS - Found 0 ONLINE Packs (0 Bots) = Total GETS: 0.
+[19:04:32] >> QUIT :bye
+[19:04:32] << :horde.abandoned-irc.net NOTICE * :*** Looking up your hostname...
+[19:04:32] << :horde.abandoned-irc.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[19:04:34] >> JOIN #ZW-CHAT
+[19:04:34] << :horde.abandoned-irc.net 396 FrostByte188 9457BFBC.35B0CB26.E30ED253.IP :is now your displayed host
+[19:04:34] << :FrostByte188!FrostByte1@9457BFBC.35B0CB26.E30ED253.IP JOIN :#zw-chat
+[19:04:35] >> PRIVMSG #ZW-CHAT :!search Shot Caller 2017
+[19:04:35] << :horde.abandoned-irc.net 332 FrostByte188 #zw-chat :12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12=[04Searchbot]-[09ONLINE]- Triggers: !help !search !latest !subscriptions !topdl !hot !recommended !movies !music !tv !apps !games !ebook !xxx !mobile | Web: http://www.Abandoned-IRC.net/
+[19:04:35] << :horde.abandoned-irc.net 333 FrostByte188 #zw-chat [ZOMBIE]-LATEST!Abandoned-@zombie.warez 1781827870
+[19:04:35] << :Zombie!ZW@ZoMbIe.WaReZ NOTICE FrostByte188 :[#ZW-CHAT] 12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12= we are looking for experienced ROOTERS/DEDi/BOXOWNERS . interested? use !joinZW
+[19:04:35] << :[o_0]!Zombies@Zombie.Warez PRIVMSG FrostByte188 :VERSION
+[19:04:37] << :[o_0]!Zombies@Zombie.Warez NOTICE FrostByte188 :
+[19:04:37] << :[o_0]!Zombies@Zombie.Warez NOTICE FrostByte188 : ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+[19:04:37] << :[o_0]!Zombies@Zombie.Warez NOTICE FrostByte188 :End of Results. Found: 0 ONLINE packs (0 Bots = 0 Gets) matching "Shot*Caller*2017"
+[19:04:40] >> QUIT :bye
+[19:04:40] [INFO] [Shot.Caller.2017] Versuch 1/10: Shot.Caller.2017.1080p.BluRay.AC3.x264-ZQ.tar (irc.rizon.net #ELITEWAREZ)
+[19:04:40] << :irc.tngnet.com NOTICE * :*** Looking up your hostname...
+[19:04:40] << :irc.tngnet.com NOTICE * :*** Checking Ident
+[19:04:40] << :irc.tngnet.com NOTICE * :*** Couldn't look up your hostname
+[19:04:42] << :irc.tngnet.com NOTICE * :*** No Ident response
+[19:04:42] << PING :1828931464
+[19:04:42] << :irc.tngnet.com NOTICE StormBreaker749 :*** Your host is masked (FE842F8.9337BBCB.DDD5C2D7.IP)
+[19:04:42] >> JOIN #ELITEWAREZ
+[19:04:42] << :StormBreaker749!~StormBrea@FE842F8.9337BBCB.DDD5C2D7.IP JOIN :#ELITEWAREZ
+[19:04:42] << :irc.tngnet.com 332 StormBreaker749 #ELITEWAREZ : :: 10#0ELiTEWAREZ :: Search: 4ONLINE 0::0 Join 10#0ELITE-CHAT for S10earch0, S10ubscriptions0, and C10hat0! 
+[19:04:42] << :irc.tngnet.com 333 StormBreaker749 #ELITEWAREZ aLp1ne!~aLp1ne@banged.your.mom.at.g00dwill.org 1765431530
+[19:04:42] [INFO] [Shot.Caller.2017] /msg [ewg]-b-qmaster xdcc send #489
+[19:04:43] >> PRIVMSG [ewg]-b-qmaster :xdcc send #489
+[19:04:43] << :Global!service@rizon.net NOTICE StormBreaker749 :[Logon News - Dec 16 2013] Own a large/active channel or plan to get one going? Please read http://s.rizon.net/authline
+[19:04:43] << :Global!service@rizon.net NOTICE StormBreaker749 :[Logon News - Feb 16 2022] First time on Rizon? Be sure to check out our wiki! https://wiki.rizon.net
+[19:04:43] << :Global!service@rizon.net NOTICE StormBreaker749 :[Random News - Mar 20 2009] Idle on Rizon a lot? Why not play our idlerpg game, you can check it out at #RizonIRPG for more information visit the website http://idlerpg.rizon.net -Rizon Staff
+[19:04:43] << :[EWG]!EWG@EWG.rizon NOTICE StormBreaker749 :[#ELITEWAREZ] Have something to offer? join #ewg-recruits
+[19:04:43] << :py-ctcp!ctcp@ctcp-scanner.rizon.net PRIVMSG StormBreaker749 :VERSION
+[19:04:43] << :[EWG]-B-XTREM!~shh@863933A7.7304A9F.C6F98C0D.IP PRIVMSG #ELITEWAREZ :#1165  0x [913M] 9-1-1.Lone.Star.S05E05.Thunderstruck.1080p.WEBRip.DDP5.1.H265-d3g.mkv
+[19:04:43] << :[EWG]Nikita4k!~Nikita4k@A44E1591.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#3850 0x [3.7G] Dark.Desire.S02E15.2160p.WEB.h265-BETTY.mkv
+[19:04:43] << :[EWG]dumpPorn!~ewg@5DC8CE39.B856B7DC.B987F727.IP PRIVMSG #ELITEWAREZ :09#1182 3x [617.9M] joibabes.25.09.15.audrey.hollander.mp4
+[19:04:44] << :[EWG]-[TB-oldenB!~GERMAN@Rizon-5871E309.dip0.t-ipconnect.de PRIVMSG #ELITEWAREZ :#78    0x [838M] Already.Tomorrow.in.Hong.Kong.2015.LIMITED.DVDRip.x264-BiPOLAR.tar
+[19:04:44] << :windoxDCC!~ewg@Rizon-273EB4E3.coreirc.net PRIVMSG #ELITEWAREZ :08#1868 0x [7.5G] [ BlueTorrents.com ] Ozark S02E06 Outer Darkness REPACK 2160p NF WEB-DL DDP5 1 H 265-Kitsune
+[19:04:44] << :[EWG]-B-QMASTER!~shh@5053B33F.197402A1.5E2E18F3.IP NOTICE StormBreaker749 :** Sending you pack #489 ("Shot.Caller.2017.1080p.BluRay.AC3.x264-ZQ.tar"), which is 14GB. (resume supported)
+[19:04:44] [INFO] [Shot.Caller.2017] ** Sending you pack #489 ("Shot.Caller.2017.1080p.BluRay.AC3.x264-ZQ.tar"), which is 14GB. (resume supported)
+[19:04:44] << :[EWG]-B-QMASTER!~shh@5053B33F.197402A1.5E2E18F3.IP PRIVMSG StormBreaker749 :DCC SEND Shot.Caller.2017.1080p.BluRay.AC3.x264-ZQ.tar 1264191444 56000 15248465920
+[19:08:14] [ERROR] [Shot.Caller.2017] [Errno 104] Connection reset by peer
+[19:08:14] >> QUIT :bye
+[19:08:14] [WARNING] [Shot.Caller.2017] Verbindung unterbrochen – 401 MB gesichert, nächster Bot versucht Resume
+[19:08:14] [INFO] [Shot.Caller.2017] Versuch 2/10: Shot.Caller.2017.1080p.BluRay.x264-OFT.mkv (irc.rizon.net #ELITEWAREZ)
+[19:08:14] << :irc.tngnet.com NOTICE * :*** Couldn't look up your hostname (cached)
+[19:08:14] << :irc.tngnet.com NOTICE * :*** Checking Ident
+[19:08:16] << :irc.tngnet.com NOTICE * :*** No Ident response
+[19:08:16] << PING :1935951511
+[19:08:16] << :irc.tngnet.com NOTICE ShadowWolf431 :*** Your host is masked (FE842F8.9337BBCB.DDD5C2D7.IP)
+[19:08:16] >> JOIN #ELITEWAREZ
+[19:08:16] << :ShadowWolf431!~ShadowWol@FE842F8.9337BBCB.DDD5C2D7.IP JOIN :#ELITEWAREZ
+[19:08:16] << :irc.tngnet.com 332 ShadowWolf431 #ELITEWAREZ : :: 10#0ELiTEWAREZ :: Search: 4ONLINE 0::0 Join 10#0ELITE-CHAT for S10earch0, S10ubscriptions0, and C10hat0! 
+[19:08:16] << :irc.tngnet.com 333 ShadowWolf431 #ELITEWAREZ aLp1ne!~aLp1ne@banged.your.mom.at.g00dwill.org 1765431530
+[19:08:16] [WARNING] [Shot.Caller.2017] Bot '[ewg]blue' nicht im Channel
+[19:08:16] >> QUIT :bye
+[19:08:16] [INFO] [Shot.Caller.2017] Versuch 3/10: Shot.Caller.2017.1080p.BluRay.AC3.x264-ZQ.mkv (irc.rizon.net #ELITEWAREZ)
+[19:08:16] [INFO] [Shot.Caller.2017] Warte 28s vor erneuter Verbindung zu irc.rizon.net
+[19:08:44] << :irc.tngnet.com NOTICE * :*** Couldn't look up your hostname (cached)
+[19:08:44] << :irc.tngnet.com NOTICE * :*** Checking Ident
+[19:08:46] << :irc.tngnet.com NOTICE * :*** No Ident response
+[19:08:46] << PING :454443864
+[19:08:46] << :irc.tngnet.com NOTICE NovaBlade872 :*** Your host is masked (FE842F8.9337BBCB.DDD5C2D7.IP)
+[19:08:46] >> JOIN #ELITEWAREZ
+[19:08:46] << :NovaBlade872!~NovaBlade@FE842F8.9337BBCB.DDD5C2D7.IP JOIN :#ELITEWAREZ
+[19:08:46] << :irc.tngnet.com 332 NovaBlade872 #ELITEWAREZ : :: 10#0ELiTEWAREZ :: Search: 4ONLINE 0::0 Join 10#0ELITE-CHAT for S10earch0, S10ubscriptions0, and C10hat0! 
+[19:08:46] << :irc.tngnet.com 333 NovaBlade872 #ELITEWAREZ aLp1ne!~aLp1ne@banged.your.mom.at.g00dwill.org 1765431530
+[19:08:46] [INFO] [Shot.Caller.2017] /msg [ewg]flexa xdcc send #71
+[19:08:47] >> PRIVMSG [ewg]flexa :xdcc send #71
+[19:08:47] << :Global!service@rizon.net NOTICE NovaBlade872 :[Logon News - Dec 16 2013] Own a large/active channel or plan to get one going? Please read http://s.rizon.net/authline
+[19:08:47] << :Global!service@rizon.net NOTICE NovaBlade872 :[Logon News - Feb 16 2022] First time on Rizon? Be sure to check out our wiki! https://wiki.rizon.net
+[19:08:47] << :Global!service@rizon.net NOTICE NovaBlade872 :[Random News - May 07 2013] Looking for a quotes, trivia, or other extra bots? /msg funserv help
+[19:08:47] << :[EWG]!EWG@EWG.rizon NOTICE NovaBlade872 :[#ELITEWAREZ] Have something to offer? join #ewg-recruits
+[19:08:47] << :py-ctcp!ctcp@ctcp-scanner.rizon.net PRIVMSG NovaBlade872 :VERSION
+[19:08:48] << :[EWG]FlexA!~Debian-ex@Rizon-919F4284.clients.your-server.de NOTICE NovaBlade872 :** Invalid Pack Number, Try Again
+[19:08:48] [INFO] [Shot.Caller.2017] ** Invalid Pack Number, Try Again
+[19:08:48] >> QUIT :bye
+[19:08:48] [INFO] [Shot.Caller.2017] Versuch 4/10: Shot.Caller.2017.1080p.BluRay.AC3.x264-ZQ.mkv (irc.rizon.net #ELITEWAREZ)
+[19:08:48] [INFO] [Shot.Caller.2017] Warte 26s vor erneuter Verbindung zu irc.rizon.net
+[19:09:14] << :irc.tngnet.com NOTICE * :*** Looking up your hostname...
+[19:09:14] << :irc.tngnet.com NOTICE * :*** Checking Ident
+[19:09:14] << :irc.tngnet.com NOTICE * :*** Couldn't look up your hostname
+[19:09:16] << :irc.tngnet.com NOTICE * :*** No Ident response
+[19:09:16] << PING :1544847153
+[19:09:16] << :irc.tngnet.com NOTICE PhantomX571 :*** Your host is masked (FE842F8.9337BBCB.DDD5C2D7.IP)
+[19:09:16] >> JOIN #ELITEWAREZ
+[19:09:16] << :PhantomX571!~PhantomX5@FE842F8.9337BBCB.DDD5C2D7.IP JOIN :#ELITEWAREZ
+[19:09:16] << :irc.tngnet.com 332 PhantomX571 #ELITEWAREZ : :: 10#0ELiTEWAREZ :: Search: 4ONLINE 0::0 Join 10#0ELITE-CHAT for S10earch0, S10ubscriptions0, and C10hat0! 
+[19:09:16] << :irc.tngnet.com 333 PhantomX571 #ELITEWAREZ aLp1ne!~aLp1ne@banged.your.mom.at.g00dwill.org 1765431530
+[19:09:16] << :[EWG]MArchive!~MArchive@B1E84723.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#30914 0x [28.7M] Legal_Sound_Drugs-Kool_Pool-(EB290)-WEB-2025-PTC.tar
+[19:09:16] [INFO] [Shot.Caller.2017] /msg [ewg]flexb xdcc send #71
+[19:09:17] >> PRIVMSG [ewg]flexb :xdcc send #71
+[19:09:17] << :Global!service@rizon.net NOTICE PhantomX571 :[Logon News - Dec 16 2013] Own a large/active channel or plan to get one going? Please read http://s.rizon.net/authline
+[19:09:17] << :Global!service@rizon.net NOTICE PhantomX571 :[Logon News - Feb 16 2022] First time on Rizon? Be sure to check out our wiki! https://wiki.rizon.net
+[19:09:17] << :Global!service@rizon.net NOTICE PhantomX571 :[Random News - May 07 2013] Looking for a quotes, trivia, or other extra bots? /msg funserv help
+[19:09:17] << :[EWG]!EWG@EWG.rizon NOTICE PhantomX571 :[#ELITEWAREZ] Have something to offer? join #ewg-recruits
+[19:09:17] << :py-ctcp!ctcp@ctcp-scanner.rizon.net PRIVMSG PhantomX571 :VERSION
+[19:09:17] << :[EWG]-B-MONTY!~shh@Rizon-7C6D4F99.mtl01.ca.xpservers.com PRIVMSG #ELITEWAREZ :#878   1x [293K] Leona Windwalker - Hunting by Moonlight (retail) (epub).epub
+[19:09:18] << :[EWG]-B-XTREM!~shh@863933A7.7304A9F.C6F98C0D.IP PRIVMSG #ELITEWAREZ :#1219  0x [1.6G] 9-1-1.Lone.Star.S04E15.Donors.1080p.WEBRip.DDP5.1.H265-d3g.mkv
+[19:09:18] << :windoxDCC!~ewg@Rizon-273EB4E3.coreirc.net PRIVMSG #ELITEWAREZ :10#1936 0x [508.0M] [ BlueTorrents.com ] Iron Man and His Awesome Friends S01E22 XviD-AFG
+[19:09:18] << :[EWG]dumpPorn!~ewg@5DC8CE39.B856B7DC.B987F727.IP PRIVMSG #ELITEWAREZ :06#1237 3x [698.2M] sexmex.25.10.14.galidiva.mp4
+[19:09:18] << :[EWG]FlexB!~Debian-ex@Rizon-919F4284.clients.your-server.de NOTICE PhantomX571 :** Invalid Pack Number, Try Again
+[19:09:18] [INFO] [Shot.Caller.2017] ** Invalid Pack Number, Try Again
+[19:09:18] >> QUIT :bye
+[19:09:18] [INFO] [Shot.Caller.2017] Versuch 5/10: Shot Caller (2017) Bluray-1080p.mp4 (irc.rizon.net #ELITEWAREZ)
+[19:09:18] [INFO] [Shot.Caller.2017] Warte 26s vor erneuter Verbindung zu irc.rizon.net
+[19:09:44] << :irc.tngnet.com NOTICE * :*** Couldn't look up your hostname (cached)
+[19:09:44] << :irc.tngnet.com NOTICE * :*** Checking Ident
+[19:09:46] << :irc.tngnet.com NOTICE * :*** No Ident response
+[19:09:46] << PING :941421292
+[19:09:46] << :irc.tngnet.com NOTICE BlazeFury127 :*** Your host is masked (FE842F8.9337BBCB.DDD5C2D7.IP)
+[19:09:46] >> JOIN #ELITEWAREZ
+[19:09:46] << :BlazeFury127!~BlazeFury@FE842F8.9337BBCB.DDD5C2D7.IP JOIN :#ELITEWAREZ
+[19:09:46] << :irc.tngnet.com 332 BlazeFury127 #ELITEWAREZ : :: 10#0ELiTEWAREZ :: Search: 4ONLINE 0::0 Join 10#0ELITE-CHAT for S10earch0, S10ubscriptions0, and C10hat0! 
+[19:09:46] << :irc.tngnet.com 333 BlazeFury127 #ELITEWAREZ aLp1ne!~aLp1ne@banged.your.mom.at.g00dwill.org 1765431530
+[19:09:46] [INFO] [Shot.Caller.2017] /msg [ewg]solos xdcc send #101
+[19:09:47] >> PRIVMSG [ewg]solos :xdcc send #101
+[19:09:47] << :Global!service@rizon.net NOTICE BlazeFury127 :[Logon News - Dec 16 2013] Own a large/active channel or plan to get one going? Please read http://s.rizon.net/authline
+[19:09:47] << :Global!service@rizon.net NOTICE BlazeFury127 :[Logon News - Feb 16 2022] First time on Rizon? Be sure to check out our wiki! https://wiki.rizon.net
+[19:09:47] << :Global!service@rizon.net NOTICE BlazeFury127 :[Random News - Nov 29 2013] Want to make your vhost shiny by adding colors to it? Try your luck in #VIzon
+[19:09:47] << :[EWG]!EWG@EWG.rizon NOTICE BlazeFury127 :[#ELITEWAREZ] Have something to offer? join #ewg-recruits
+[19:09:47] << :py-ctcp!ctcp@ctcp-scanner.rizon.net PRIVMSG BlazeFury127 :VERSION
+[19:09:47] << :[EWG]Solos!~onestream@Rizon-DFC80A9E.clients.your-server.de NOTICE BlazeFury127 :** Sending you pack #101 ("Shot Caller (2017) Bluray-1080p.mp4"), which is 2.3GB. (resume supported)
+[19:09:47] [INFO] [Shot.Caller.2017] ** Sending you pack #101 ("Shot Caller (2017) Bluray-1080p.mp4"), which is 2.3GB. (resume supported)
+[19:09:47] << :[EWG]Solos!~onestream@Rizon-DFC80A9E.clients.your-server.de PRIVMSG BlazeFury127 :DCC SEND Shot_Caller_(2017)_Bluray-1080p.mp4 1091953769 36473 2467725534
+[19:10:29] >> QUIT :bye
+[19:10:29] [SUCCESS] [Shot.Caller.2017] Download fertig: Shot_Caller_(2017)_Bluray-1080p.mp4
+[19:10:29] [SUCCESS] [Shot.Caller.2017] fertig & einsortiert
+
+============================================================
+=== Lauf beendet: 2026-06-29 19:10:29 | ok: 2, fehlgeschlagen: 0 ===
+============================================================

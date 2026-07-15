@@ -13,6 +13,8 @@ import struct
 import os
 import logging
 import threading
+import ssl
+import base64
 from pathlib import Path
 
 log = logging.getLogger(__name__)
@@ -27,7 +29,7 @@ _NICK_NAMES = [
 ]
 
 # Hammering-Schutz: Mindestabstand zwischen Verbindungen zum selben Server
-_MIN_CONNECT_INTERVAL = 8  # Sekunden
+_MIN_CONNECT_INTERVAL = 30  # Sekunden
 _last_connect: dict[str, float] = {}
 _connect_lock = threading.Lock()
 
@@ -95,7 +97,9 @@ class XDCCDownloader:
                  extra_channels: list = None,
                  progress_callback=None, status_callback=None, stall_callback=None,
                  skip_names_check: bool = False, expected_fname: str = "",
-                 irc_callback=None):
+                 irc_callback=None, tls: bool = False,
+                 sasl_user: str = "", sasl_pass: str = "",
+                 sasl_fail_callback=None):
         self.server         = server
         self.port           = port
         self.channel        = channel
@@ -104,7 +108,7 @@ class XDCCDownloader:
         self.output_dir     = output_dir
         self.timeout        = timeout
         self.extra_channels = extra_channels or []
-        self.nick           = make_nick()
+        self.nick           = sasl_user if (sasl_user and sasl_pass) else make_nick()
         self.sock           = None
         self.done           = False
         self.success        = False
@@ -117,11 +121,17 @@ class XDCCDownloader:
         self.expected_fname       = expected_fname
         self.irc_callback         = irc_callback
         self.file_exists_callback = None   # wird von außen gesetzt
+        self.tls = tls
+        self.sasl_user = sasl_user
+        self.sasl_pass = sasl_pass
+        self.sasl_done = not (sasl_user and sasl_pass)
+        self.sasl_fail_callback = sasl_fail_callback
         self._skip_dcc_fname      = None   # angekündigte Datei überspringen
 
     def _send(self, msg: str):
         self.sock.sendall((msg + "\r\n").encode("utf-8", errors="replace"))
-        log.debug(f">>> {msg}")
+        _log_msg = "AUTHENTICATE ****" if msg.startswith("AUTHENTICATE ") and msg != "AUTHENTICATE PLAIN" else msg
+        log.debug(f">>> {_log_msg}")
         if self.irc_callback and any(msg.startswith(p) for p in ("JOIN", "PRIVMSG", "QUIT")):
             self.irc_callback(f">> {msg}")
 
@@ -247,6 +257,11 @@ class XDCCDownloader:
         log.info(f"Verbinde mit {self.server}:{self.port} als {self.nick}")
         try:
             self.sock = socket.create_connection((self.server, self.port), timeout=30)
+            if self.tls:
+                ctx = ssl.create_default_context()
+                ctx.check_hostname = False
+                ctx.verify_mode = ssl.CERT_NONE
+                self.sock = ctx.wrap_socket(self.sock, server_hostname=self.server)
             self.sock.settimeout(5)
         except Exception as e:
             log.error(f"Verbindung fehlgeschlagen: {e}")
@@ -254,6 +269,8 @@ class XDCCDownloader:
                 self.status_callback(f"Verbindung fehlgeschlagen: {e}", "error")
             return False
 
+        if self.sasl_user and self.sasl_pass:
+            self._send("CAP LS 302")
         self._send(f"NICK {self.nick}")
         self._send(f"USER {self.nick} 0 * :{self.nick}")
 
@@ -288,6 +305,34 @@ class XDCCDownloader:
                     if self.status_callback:
                         self.status_callback(f"IRC: {msg}", "error")
                     break
+
+                # SASL-Verhandlung (nur aktiv wenn sasl_user/sasl_pass gesetzt)
+                if not self.sasl_done:
+                    if re.search(r'\bCAP\b.*\bLS\b', line):
+                        self._send("CAP REQ :sasl")
+                        continue
+                    if re.search(r'\bCAP\b.*\bACK\b', line) and "sasl" in line.lower():
+                        self._send("AUTHENTICATE PLAIN")
+                        continue
+                    if re.search(r'\bCAP\b.*\bNAK\b', line):
+                        self.sasl_done = True
+                        self._send("CAP END")
+                        continue
+                    if line.strip() == "AUTHENTICATE +":
+                        cred = f"{self.sasl_user}\0{self.sasl_user}\0{self.sasl_pass}".encode()
+                        self._send(f"AUTHENTICATE {base64.b64encode(cred).decode()}")
+                        continue
+                    if re.match(r'^\S+\s+903\s', line):
+                        self.sasl_done = True
+                        self._send("CAP END")
+                        continue
+                    if re.match(r'^\S+\s+90[4-7]\s', line):
+                        self.sasl_done = True
+                        log.warning(f"SASL-Login fehlgeschlagen fuer {self.nick}@{self.server}")
+                        if self.sasl_fail_callback:
+                            self.sasl_fail_callback()
+                        self._send("CAP END")
+                        continue
 
                 parts = line.split()
                 if len(parts) < 2:
@@ -454,7 +499,12 @@ class XDCCDownloader:
 
                 # Banned oder Error
                 elif code in ("474", "473", "475", "465"):
+                    banned_ch = parts[3] if len(parts) > 3 else ""
                     msg = line.split(":", 2)[-1].strip() if line.count(":") >= 2 else line
+                    if banned_ch.lower() != self.channel.lower():
+                        # Ban auf Extra-Channel (z.B. #ZW-CHAT) → weiter ohne diesen Channel
+                        log.warning(f"Extra-Channel {banned_ch} gesperrt, fahre ohne ihn fort")
+                        continue
                     log.error(f"Channel/Server-Fehler {code}: {msg}")
                     if self.status_callback:
                         self.status_callback(f"Gesperrt ({code}): {msg[:80]}", "error")
@@ -488,7 +538,9 @@ def xdcc_download(server: str, channel: str, bot: str, pack: str,
                   skip_names_check: bool = False,
                   file_exists_callback=None,
                   expected_fname: str = "",
-                  irc_callback=None) -> tuple[bool, str | None]:
+                  irc_callback=None, tls: bool = False,
+                  sasl_user: str = "", sasl_pass: str = "",
+                  sasl_fail_callback=None) -> tuple[bool, str | None]:
     """Gibt (success, actual_filename) zurück."""
     d = XDCCDownloader(server, port, channel, bot, pack, output_dir, timeout,
                        extra_channels=extra_channels,
@@ -497,7 +549,11 @@ def xdcc_download(server: str, channel: str, bot: str, pack: str,
                        stall_callback=stall_callback,
                        skip_names_check=skip_names_check,
                        expected_fname=expected_fname,
-                       irc_callback=irc_callback)
+                       irc_callback=irc_callback,
+                       tls=tls,
+                       sasl_user=sasl_user,
+                       sasl_pass=sasl_pass,
+                       sasl_fail_callback=sasl_fail_callback)
     d.file_exists_callback = file_exists_callback
     success = d.download()
     return success, d.filename

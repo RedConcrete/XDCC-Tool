@@ -1,0 +1,500 @@
+Perl interface loaded
+ Lua version 1.3/5.4 loaded.
+ FiSHLiM plugin loaded
+ Checksum plugin loaded
+ Sysinfo plugin loaded
+* Looking up irc.rizon.net
+* Connecting to vd4lnv54425lkh4cq5y7umfka3tuf6ek2ce4jhkmvq.map.rizon.net (135.125.224.84:6697)
+* * Subject: /C=US/O=Internet Security Research Group/CN=ISRG Root X1
+* * Issuer: /C=US/O=Internet Security Research Group/CN=ISRG Root X1
+* * Subject: /C=US/O=Let's Encrypt/CN=R13
+* * Issuer: /C=US/O=Internet Security Research Group/CN=ISRG Root X1
+* * Subject: /CN=irc.rizon.net
+* * Issuer: /C=US/O=Let's Encrypt/CN=R13
+* * Certification info:
+*   Subject:
+*     CN=irc.rizon.net
+*   Issuer:
+*     C=US
+*     O=Let's Encrypt
+*     CN=R13
+*   Public key algorithm: rsaEncryption (4096 bits)
+*   Sign algorithm sha256WithRSAEncryption
+*   Valid since May 17 13:20:22 2026 GM to Aug 15 13:20:21 2026 GM
+* * Cipher info:
+*   Version: TLSv1.3, cipher TLS_AES_256_GCM_SHA384 (256 bits)
+* Connected. Now logging in.
+* *** Looking up your hostname...
+* *** Checking Ident
+* *** Couldn't look up your hostname
+* *** No Ident response
+* Capabilities supported: away-notify chghost invite-notify multi-prefix sasl userhost-in-names
+* Capabilities requested: away-notify chghost invite-notify multi-prefix userhost-in-names 
+* Capabilities acknowledged: away-notify chghost invite-notify multi-prefix userhost-in-names
+* *** Connected securely via TLSv1.3 TLS_AES_256_GCM_SHA384-256
+* *** Your host is masked (44E4255B.9337BBCB.DDD5C2D7.IP)
+* Welcome to the Rizon Internet Relay Chat Network CutCat
+* Your host is irc.mufff.in, running version plexus-4(hybrid-8.1.20)
+* This server was created Jan 22 2022 at 18:54:40
+* irc.mufff.in plexus-4(hybrid-8.1.20) CDGNRSUWagilopqrswxyz BCIMNORSabcehiklmnopqstvz Iabehkloqv
+* CALLERID CASEMAPPING=rfc1459 DEAF=D KICKLEN=180 MODES=4 PREFIX=(qaohv)~&@%+ STATUSMSG=~&@%+ EXCEPTS=e INVEX=I NICKLEN=30 NETWORK=Rizon MAXLIST=beI:250 MAXTARGETS=4 :are supported by this server
+* CHANTYPES=# CHANLIMIT=#:250 CHANNELLEN=50 TOPICLEN=390 CHANMODES=beI,k,l,BCMNORScimnpstz KNOCK AWAYLEN=180 WATCH=60 NAMESX UHNAMES ELIST=CMNTU SAFELIST :are supported by this server
+* There are 14 users and 9212 invisible on 17 servers
+* 46 :IRC Operators online
+* 2 :unknown connection(s)
+* 6591 :channels formed
+* I have 9226 clients and 17 servers
+* Current local users: 9226  Max: 11508
+* Current global users: 9226  Max: 11508
+* - irc.mufff.in Message of the Day - 
+* -          oo                            
+* - 
+* - 88d888b. dP d888888b .d8888b. 88d888b. 
+* - 88'  `88 88    .d8P' 88'  `88 88'  `88 
+* - 88       88  .Y8P    88.  .88 88    88 
+* - dP       dP d888888P `88888P' dP    dP
+* - 
+* - Rizon Chat Network -- http://rizon.net
+* - 
+* - Listening on ports: 6660 - 6669, 7000. SSL: 6697, 9999
+* - 
+
+
+windoxDCC aborted.
+>NickServ< HELP
+-NickServ- NickServ allows you to "register" a nickname and
+-NickServ- prevent others from using it. The following
+-NickServ- commands allow for registration and maintenance of
+-NickServ- nicknames; to use them, type /msg NickServ command.
+-NickServ- For more information on a specific command, type
+-NickServ- /msg NickServ HELP command.
+-NickServ-  
+-NickServ-     REGISTER   Register a nickname
+-NickServ-     CONFIRM    Confirm a nickserv auth code
+-NickServ-     GROUP      Join a group
+-NickServ-     GLIST      Lists all nicknames in your group
+-NickServ-     IDENTIFY   Identify yourself with your password
+-NickServ-     ACCESS     Modify the list of authorized addresses
+-NickServ-     SET        Set options, including kill protection
+-NickServ-     DROP       Cancel the registration of a nickname
+-NickServ-     RECOVER    Kill another user who has taken your nick
+-NickServ-     RELEASE    Regain custody of your nick after RECOVER
+-NickServ-     GHOST      Disconnects a "ghost" IRC session using your nick
+-NickServ-     ALIST      List channels you have access on
+-NickServ-     INFO       Displays information about a given nickname
+-NickServ-     LOGOUT     Reverses the effect of the IDENTIFY command
+-NickServ-     STATUS     Returns the owner status of the given nickname
+-NickServ-     UPDATE     Updates your current status, i.e. it checks for new memos
+-NickServ-     CANCEL     Cancel your pending nick registration
+-NickServ-     RESETPASS  Reset the password of the given nickname
+-NickServ-     ENTERCODE  Confirm your password reset operation.
+-NickServ-     RESENDCODE Send the passcode for password reset again.
+-NickServ-     CONFIRMEMAIL     Confirm your new email address
+-NickServ-  
+-NickServ- Nicknames that are not used anymore are subject to
+-NickServ- the automatic expiration, i.e. they will be deleted
+-NickServ- after 90 days if not used.
+-NickServ-  
+-NickServ- NOTICE: This service is intended to provide a way for
+-NickServ- IRC users to ensure their identity is not compromised.
+-NickServ- It is NOT intended to facilitate "stealing" of
+-NickServ- nicknames or other malicious actions.  Abuse of NickServ
+-NickServ- will result in, at minimum, loss of the abused
+-NickServ- nickname(s).
+
+-ChanServ- /msg ChanServ command.  For more information on a
+-ChanServ- specific command, type /msg ChanServ HELP command.
+-ChanServ-  
+-ChanServ-     REGISTER   Register a channel
+-ChanServ-     IDENTIFY   Identify yourself with your password
+-ChanServ-     SET        Set channel options and information
+-ChanServ-     SOP        Modify the list of SOP users
+-ChanServ-     AOP        Modify the list of AOP users
+-ChanServ-     HOP        Maintains the HOP (HalfOP) list for a channel
+-ChanServ-     VOP        Maintains the VOP (VOicePeople) list for a channel
+-ChanServ-     ACCESS     Modify the list of privileged users
+-ChanServ-     LEVELS     Redefine the meanings of access levels
+-ChanServ-     AKICK      Maintain the AutoKick list
+-ChanServ-     DROP       Cancel the registration of a channel
+-ChanServ-     BAN        Bans a selected nick on a channel
+-ChanServ-     UNBAN      Remove all bans preventing a user from entering a channel
+-ChanServ-     OWNER      Gives you owner status on channel
+-ChanServ-     DEOWNER    Removes your owner status on a channel
+-ChanServ-     PROTECT    Protects a selected nick on a channel
+-ChanServ-     DEPROTECT  Deprotects a selected nick on a channel
+-ChanServ-     OP         Gives Op status to a selected nick on a channel
+-ChanServ-     DEOP       Deops a selected nick on a channel
+-ChanServ-     HALFOP     Halfops a selected nick on a channel
+-ChanServ-     DEHALFOP   Dehalfops a selected nick on a channel
+-ChanServ-     VOICE      Voices a selected nick on a channel
+-ChanServ-     DEVOICE    Devoices a selected nick on a channel
+-ChanServ-     GETKEY     Returns the key of the given channel
+-ChanServ-     INVITE     Tells ChanServ to invite you into a channel
+-ChanServ-     KICK       Kicks a selected nick from a channel
+-ChanServ-     LOGOUT     This command will logout the selected nickname
+-ChanServ-     TOPIC      Manipulate the topic of the specified channel
+-ChanServ-     INFO       Lists information about the named registered channel
+-ChanServ-     WHY        Shows source of channel access
+-ChanServ-     CLEAR      Tells ChanServ to clear certain settings on a channel
+-ChanServ-     FLAGS      Manipulate the flags for users
+-ChanServ-     APPENDTOPIC   Add text to a channels topic
+-ChanServ-     CHECKBAN   Tells you why you are banned from a channel
+-ChanServ-     SYNC          Sync users channel modes
+-ChanServ- Note that any channel which is not used for 30 days
+-ChanServ- (i.e. which no user on the channel's access list enters
+-ChanServ- for that period of time) will be automatically dropped.
+
+============================================================
+=== Lauf gestartet: 2026-07-15 18:37:40 ===
+============================================================
+[18:37:40] << :spiked.ca.us.abjects.net NOTICE * :*** Looking up your hostname...
+[18:37:40] << :spiked.ca.us.abjects.net NOTICE * :*** Checking ident...
+[18:37:40] << :spiked.ca.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[18:37:44] << :spiked.ca.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[18:37:46] >> JOIN #beast-chat
+[18:37:46] << :spiked.ca.us.abjects.net 396 BlazeFury252 37AE729A.6C525672.7F20E47C.IP :is now your displayed host
+[18:37:46] << :BlazeFury252!~BlazeFury@37AE729A.6C525672.7F20E47C.IP JOIN :#beast-chat
+[18:37:47] >> PRIVMSG #beast-chat :!s The Super Mario Galaxy Movie 2026
+[18:37:47] << :spiked.ca.us.abjects.net 332 BlazeFury252 #beast-chat :Welcome to #BEAST-XDCC  (Search:ONLINE) (Requests:ONLINE) ~ added !get command ~ !top or !topger to see most leeched releases, can be filtered by days ~ Please use !german for latest GERMAN releases only ~ commands; !latest !german !search !request !get !top !topger !tv !tvger !games ~ For more commands use !help ~ Have something to offer? Msg an ~ 
+[18:37:47] << :spiked.ca.us.abjects.net 333 BlazeFury252 #beast-chat devnull!~qlimax@beastmo.de 1779527540
+[18:37:47] << :databeast!~databeast@the.beast NOTICE BlazeFury252 :04SEARCH RESULTS LIMITED TO 100 PACKS
+[18:37:47] << :databeast!~databeast@the.beast NOTICE BlazeFury252 :04(1410G04) 14The.Super.Mario.Galaxy.Movie.2026.UHD.BluRay.2160p.DDP.Atmos.5.1.DV.HDR.x265-hallowed.mkv04 (141914x04)14 /msg 14BEAST-X-CRANK14 xdcc send #14149
+[18:37:47] << :databeast!~databeast@the.beast NOTICE BlazeFury252 :04(1415G04) 14The.Super.Mario.Galaxy.Movie.2026.GERMAN.DL.2160P.WEB.H265-WAYNE.mkv04 (144214x04)14 /msg 14BEAST-X-DEMISE14 xdcc send #1495
+[18:37:47] << :databeast!~databeast@the.beast NOTICE BlazeFury252 :04(1417G04) 14The.Super.Mario.Galaxy.Movie.2026.German.DL.2160p.DV.HDR.WEB.H265-iSSEYMiYAKE.mkv04 (145114x04)14 /msg 14BEAST-X-DORITO14 xdcc send #14277
+[18:37:47] << :databeast!~databeast@the.beast NOTICE BlazeFury252 :04(143.5G04) 14The.Super.Mario.Galaxy.Movie.2026.1080p.WEBRip.x265-DH.mkv04 (147214x04)14 /msg 14BEAST-X-EXILE14 xdcc send #1469
+[18:37:47] << :databeast!~databeast@the.beast NOTICE BlazeFury252 :04(1456G04) 14The.Super.Mario.Galaxy.Movie.2026.MULTi.iNTERNAL.UHD.BluRay.2160p.TrueHD.Atmos.7.1.DV.HDR10.REMUX-seedpool.mkv04 (143114x04)14 /msg 14BEAST-X-FIEND14 xdcc send #1486
+[18:37:47] << :databeast!~databeast@the.beast NOTICE BlazeFury252 :04(141.6G04) 14The.Super.Mario.Galaxy.Movie.2026.1080p.WEBRip.x265.10bit.AAC5.1-LAMA.mp404 (144414x04)14 /msg 14BEAST-X-HELL14 xdcc send #1463
+[18:37:47] << :databeast!~databeast@the.beast NOTICE BlazeFury252 :04(1411G04) 14The.Super.Mario.Galaxy.Movie.2026.1080p.Webrip.Multi.Line.Audio.x264-SyncUP.mkv04 (1416714x04)14 /msg 14BEAST-X-HYBULA14 xdcc send #14172
+[18:37:47] << :databeast!~databeast@the.beast NOTICE BlazeFury252 :04(146.9G04) 14the.super.mario.galaxy.movie.2026.1080p.web.h264-poke.mkv04 (143314x04)14 /msg 14BEAST-X-KANYE14 xdcc send #1496
+[18:37:47] << :databeast!~databeast@the.beast NOTICE BlazeFury252 :04(144.3G04) 14The.Super.Mario.Galaxy.Movie.2026.German.DL.1080p.DV.HDR.WEBRip.AV1-WOTT.mkv04 (143514x04)14 /msg 14BEAST-X-KURUPT14 xdcc send #14263
+[18:37:47] << :databeast!~databeast@the.beast NOTICE BlazeFury252 :04(141.9G04) 14The.Super.Mario.Galaxy.Movie.2026.1080p.WEBRip.10Bit.DDP.5.1.x265-NeoNoir.mkv04 (145214x04)14 /msg 14BEAST-X-LAYLOW14 xdcc send #14268
+[18:37:47] << :databeast!~databeast@the.beast NOTICE BlazeFury252 :04(1417G04) 14The.Super.Mario.Galaxy.Movie.2026.2160p.iT.WEB-DL.DDP5.1.Atmos.DV.HDR.H.265-BYNDR.mkv04 (1410714x04)14 /msg 14BEAST-X-MAFIA14 xdcc send #1463
+[18:37:47] << :databeast!~databeast@the.beast NOTICE BlazeFury252 :04(144.9G04) 14The.Super.Mario.Galaxy.Movie.2026.German.DL.2160p.DV.HDR.WEBRip.AV1-WOTT.mkv04 (142714x04)14 /msg 14BEAST-X-MAFIA14 xdcc send #1493
+[18:37:47] << :databeast!~databeast@the.beast NOTICE BlazeFury252 :04(148.5G04) 14The.Super.Mario.Galaxy.Movie.2026.1080p.TELESYNC.x264-SyncUP.mkv04 (143014x04)14 /msg 14BEAST-X-SPHYNX14 xdcc send #14113
+[18:37:47] << :databeast!~databeast@the.beast NOTICE BlazeFury252 :04(147.9G04) 14The.Super.Mario.Galaxy.Movie.2026.1080p.TELESYNC.V2.x264-SyncUP.mkv04 (143514x04)14 /msg 14BEAST-X-SUBZERO14 xdcc send #14116
+[18:37:47] << :databeast!~databeast@the.beast NOTICE BlazeFury252 :04(1415G04) 14the.super.mario.galaxy.movie.2026.german.dl.hdr.2160p.web.h265-w4k.mkv04 (143614x04)14 /msg 14BEAST-X-SUBZERO14 xdcc send #14267
+[18:37:47] << :databeast!~databeast@the.beast NOTICE BlazeFury252 :04(147.2G04) 14The.Super.Mario.Galaxy.Movie.2026.1080p.iT.WEB-DL.DDP5.1.Atmos.H.264-BYNDR.mkv04 (145214x04)14 /msg 14BEAST-X-SULTAN14 xdcc send #1466
+[18:37:47] << :databeast!~databeast@the.beast NOTICE BlazeFury252 :04(1418G04) 14The_Super_Mario_Galaxy_Movie_(2026)_(2160p_YKW_WEB-DL_Hybrid_H265_DV_HDR_DDP_Atmos_5.1_English_-_HONE).mkv04 (141714x04)14 /msg 14BEAST-X-SWIFT14 xdcc send #14100
+[18:37:48] << :databeast!~databeast@the.beast NOTICE BlazeFury252 :04(144.6G04) 14The.Super.Mario.Galaxy.Movie.2026.GERMAN.DL.720P.WEB.H264-WAYNE.mkv04 (142314x04)14 /msg 14BEAST-X-TIESTO14 xdcc send #14253
+[18:37:48] << :databeast!~databeast@the.beast NOTICE BlazeFury252 :04(1415G04) 14The.Super.Mario.Galaxy.Movie.2026.2160p.iT.WEB-DL.DDP5.1.Atmos.H.265-BYNDR.mkv04 (144214x04)14 /msg 14BEAST-X-TRICK14 xdcc send #1466
+[18:37:48] << :databeast!~databeast@the.beast NOTICE BlazeFury252 :04(142.7G04) 14The.Super.Mario.Galaxy.Movie.2026.1080p.Bluray.10Bit.AAC7.1.x265-NeoNoir.mkv04 (142014x04)14 /msg 14BEAST-X-TUPAC14 xdcc send #14129
+[18:37:48] << :databeast!~databeast@the.beast NOTICE BlazeFury252 :04(147.4G04) 14The.Super.Mario.Galaxy.Movie.2026.German.DL.1080p.WEB.h264-WvF.mkv04 (148114x04)14 /msg 14BEAST-X-UNSTABLE14 xdcc send #14274
+[18:37:50] << :BobZeMachine!BobZeMachi@8A7A3E88:D8D5EBDD:1D8DD1DD:IP JOIN :#beast-chat
+[18:37:52] << :Initiat!~Initiat@C33E2AE3:90D393A:F7677CC2:IP QUIT :Quit: Leaving
+[18:37:52] >> QUIT :bye
+[18:38:10] << :arse.nl.eu.abjects.net NOTICE * :*** Looking up your hostname...
+[18:38:10] << :arse.nl.eu.abjects.net NOTICE * :*** Checking ident...
+[18:38:10] << :arse.nl.eu.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[18:38:14] << :arse.nl.eu.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[18:38:15] >> JOIN #mg-chat
+[18:38:15] << :arse.nl.eu.abjects.net 396 StormBreaker700 37AE729A.6C525672.7F20E47C.IP :is now your displayed host
+[18:38:15] << :StormBreaker700!~StormBrea@37AE729A.6C525672.7F20E47C.IP JOIN :#mg-chat
+[18:38:16] >> PRIVMSG #mg-chat :!s The Super Mario Galaxy Movie 2026
+[18:38:16] << :arse.nl.eu.abjects.net 332 StormBreaker700 #mg-chat : Welcome to Moviegods Chat - If you are new to this type !help - Join #MG-Lounge for requests/questions/comments/tv-subs/spam free chat -//- Join #MG-Help for help - Donations earn VIP perks  - Join #MG-donations for info
+[18:38:16] << :arse.nl.eu.abjects.net 333 StormBreaker700 #mg-chat katsper!Kat@Sex.With.Leather.Clad.Women.is.Hot 1728087751
+[18:38:16] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE StormBreaker700 :00,0100115)10  53x04 |10 6.9G04 |10 The.Super.Mario.Galaxy.Movie.2026.1080P.WEB.H264-POKE.mkv04 |09 /msg [MG]-MISC|EU|S|Entropy XDCC SEND 40 04|00 Used: 26.18% 1/10 avg: 20.01MiB/s (20s ago)04 
+[18:38:16] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE StormBreaker700 :00,0100215)10  81x04 |10 2.4G04 |10 The.Super.Mario.Galaxy.Movie.2026.1080p.WebRip.EAC3.5.1.x265-Lootera.mkv04 |09 /msg [MG]-X265|EU|S|JeRrYFaR XDCC SEND 54 04|00 Used: 0.00% 0/10 (1m24s ago)04 
+[18:38:16] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE StormBreaker700 :00,0100315)10 192x04 |10 7.4G04 |10 The.Super.Mario.Galaxy.Movie.2026.German.DL.1080p.WEB.h264-WvF.mkv04 |09 /msg [MG]-Request|Bot|Osiris4 XDCC SEND 20 04|00 Used: 0.00% 0/10 (1m46s ago)04 
+[18:38:16] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE StormBreaker700 :00,0100415)10  77x04 |10  15G04 |10 The.Super.Mario.Galaxy.Movie.2026.German.DL.HDR.2160p.WEB.h265-W4K.mkv04 |09 /msg [MG]-X265|EU|S|Tanooki XDCC SEND 56 04|00 Used: 22.38% 1/10 avg: 20.98MiB/s (15s ago)04 
+[18:38:16] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE StormBreaker700 :00,0100515)10   4x04 |10  16G04 |10 The.Super.Mario.Galaxy.Movie.2026.MULTi.1080p.BluRay.x264-LYPSG.mkv04 |09 /msg [MG]-MISC|EU|S|MrHyde XDCC SEND 136 04|00 Used: 0.00% 0/10 (1m18s ago)04 
+[18:38:16] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE StormBreaker700 :15,01   )07 #MOVIEGODS - Found 5 ONLINE Packs (5 Bots) = Total GETS: 407.
+[18:38:22] >> QUIT :bye
+[18:38:22] << :killer.abandoned-irc.net NOTICE * :*** Looking up your hostname...
+[18:38:22] << :killer.abandoned-irc.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[18:38:24] >> JOIN #ZW-CHAT
+[18:38:24] << :killer.abandoned-irc.net 396 DarkPhoenix013 90495D67.35B0CB26.E30ED253.IP :is now your displayed host
+[18:38:24] << :DarkPhoenix013!DarkPhoeni@90495D67.35B0CB26.E30ED253.IP JOIN :#ZW-CHAT
+[18:38:25] >> PRIVMSG #ZW-CHAT :!search The Super Mario Galaxy Movie 2026
+[18:38:25] << :killer.abandoned-irc.net 332 DarkPhoenix013 #ZW-CHAT :12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12=[04Searchbot]-[09ONLINE]- Triggers: !help !search !latest !subscriptions !topdl !hot !recommended !movies !music !tv !apps !games !ebook !xxx !mobile | Web: http://www.Abandoned-IRC.net/
+[18:38:25] << :killer.abandoned-irc.net 333 DarkPhoenix013 #ZW-CHAT [ZOMBIE]-LATEST!Abandoned-@zombie.warez 1782976606
+[18:38:25] << :Zombie!ZW@ZoMbIe.WaReZ NOTICE DarkPhoenix013 :[#ZW-CHAT] 12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12= we are looking for experienced ROOTERS/DEDi/BOXOWNERS . interested? use !joinZW
+[18:38:25] << :[o_0]!Zombies@Zombie.Warez PRIVMSG DarkPhoenix013 :VERSION
+[18:38:25] << :[o_0]!Zombies@Zombie.Warez NOTICE DarkPhoenix013 : ________________________________________________________________________________________________________________
+[18:38:25] << :[o_0]!Zombies@Zombie.Warez NOTICE DarkPhoenix013 : 1).                            (Zombie-AI - Used: 0/10 Speed: 0B/s)
+[18:38:25] << :[o_0]!Zombies@Zombie.Warez NOTICE DarkPhoenix013 :
+[18:38:25] << :[o_0]!Zombies@Zombie.Warez NOTICE DarkPhoenix013 :        22x [1.9G] The.Super.Mario.Galaxy.Movie.2026.1080p.WEBRip.10Bit.DDP.5.1.x265-NeoNoir.tar -( Command: /MSG Zombie-AI XDCC SEND #299 )
+[18:38:25] << :[o_0]!Zombies@Zombie.Warez NOTICE DarkPhoenix013 :        0x [2.7G] The.Super.Mario.Galaxy.Movie.2026.1080p.Bluray.10Bit.AAC7.1.x265-NeoNoir.tar -( Command: /MSG Zombie-AI XDCC SEND #513 )
+[18:38:25] << :[o_0]!Zombies@Zombie.Warez NOTICE DarkPhoenix013 : ________________________________________________________________________________________________________________
+[18:38:25] << :[o_0]!Zombies@Zombie.Warez NOTICE DarkPhoenix013 : 2).                            (Zombie-Dixon - Used: 0/8 Speed: 0B/s)
+[18:38:25] << :[o_0]!Zombies@Zombie.Warez NOTICE DarkPhoenix013 :
+[18:38:25] << :[o_0]!Zombies@Zombie.Warez NOTICE DarkPhoenix013 :        6x [8.4G] The.Super.Mario.Galaxy.Movie.2026.1080p.TELESYNC.V2.x264-SyncUP.tar -( Command: /MSG Zombie-Dixon XDCC SEND #97 )
+[18:38:25] << :[o_0]!Zombies@Zombie.Warez NOTICE DarkPhoenix013 :        0x [2.6G] The.Super.Mario.Galaxy.Movie.2026.1080p.iNT.HEVC.10bit.AAC-LuCY.mkv -( Command: /MSG Zombie-Dixon XDCC SEND #285 )
+[18:38:25] << :[o_0]!Zombies@Zombie.Warez NOTICE DarkPhoenix013 : ________________________________________________________________________________________________________________
+[18:38:25] << :[o_0]!Zombies@Zombie.Warez NOTICE DarkPhoenix013 : 3).                            (Zombie-Grimes - Used: 0/8 Speed: 0B/s)
+[18:38:25] << :[o_0]!Zombies@Zombie.Warez NOTICE DarkPhoenix013 :
+[18:38:25] << :[o_0]!Zombies@Zombie.Warez NOTICE DarkPhoenix013 :        9x [1.9G] The.Super.Mario.Galaxy.Movie.2026.1080p.WEBRip.10Bit.DDP.5.1.x265-NeoNoir.tar -( Command: /MSG Zombie-Grimes XDCC SEND #370 )
+[18:38:25] << :[o_0]!Zombies@Zombie.Warez NOTICE DarkPhoenix013 :        5x [2.7G] The.Super.Mario.Galaxy.Movie.2026.1080p.Bluray.10Bit.AAC7.1.x265-NeoNoir.tar -( Command: /MSG Zombie-Grimes XDCC SEND #780 )
+[18:38:25] << :[o_0]!Zombies@Zombie.Warez NOTICE DarkPhoenix013 : ________________________________________________________________________________________________________________
+[18:38:25] << :[o_0]!Zombies@Zombie.Warez NOTICE DarkPhoenix013 : 4).                            (Zombie-LuCy-DiSTRO - Used: 0/8 Speed: 0B/s)
+[18:38:25] << :[o_0]!Zombies@Zombie.Warez NOTICE DarkPhoenix013 :
+[18:38:25] << :[o_0]!Zombies@Zombie.Warez NOTICE DarkPhoenix013 :        7x [8.5G] The.Super.Mario.Galaxy.Movie.2026.1080p.TS.x264-GP-M-Eng.mkv -( Command: /MSG Zombie-LuCy-DiSTRO XDCC SEND #42 )
+[18:38:25] << :[o_0]!Zombies@Zombie.Warez NOTICE DarkPhoenix013 :        1x [1.9G] The.Super.Mario.Galaxy.Movie.2026.1080p.WEBRip.10bit.DDP.5.1.x265-NeoNoir.mkv -( Command: /MSG Zombie-LuCy-DiSTRO XDCC SEND #89 )
+[18:38:25] << :[o_0]!Zombies@Zombie.Warez NOTICE DarkPhoenix013 :        2x [2.9G] The.Super.Mario.Galaxy.Movie.2026.1080p.WEBRip.HEVC.AAC5.1-LuCY.mkv -( Command: /MSG Zombie-LuCy-DiSTRO XDCC SEND #103 )
+[18:38:25] << :[o_0]!Zombies@Zombie.Warez NOTICE DarkPhoenix013 :        7x [ 17G] The.Super.Mario.Galaxy.Movie.2026.MULTi.2160p.WEB.H265.mkv -( Command: /MSG Zombie-LuCy-DiSTRO XDCC SEND #129 )
+[18:38:25] << :[o_0]!Zombies@Zombie.Warez NOTICE DarkPhoenix013 :        0x [2.0G] The.Super.Mario.Galaxy.Movie.2026.1080p.WEBRip.AAC5.1.10bits.x265-Rapta.mkv -( Command: /MSG Zombie-LuCy-DiSTRO XDCC SEND #148 )
+[18:38:25] << :[o_0]!Zombies@Zombie.Warez NOTICE DarkPhoenix013 :        2x [3.5G] The.Super.Mario.Galaxy.Movie.2026.1080p.DS4K.Webrip.x265.10bit.EAC3.5.1.Atmos-DNU-TAoE.mkv -( Command: /MSG Zombie-LuCy-DiSTRO XDCC SEND #167 )
+[18:38:25] << :[o_0]!Zombies@Zombie.Warez NOTICE DarkPhoenix013 :        1x [2.6G] The.Super.Mario.Galaxy.Movie.2026.1080p.iNT.HEVC.10bit.AAC-LuCY.mkv -( Command: /MSG Zombie-LuCy-DiSTRO XDCC SEND #224 )
+[18:38:25] << :[o_0]!Zombies@Zombie.Warez NOTICE DarkPhoenix013 :        1x [7.4G] the.super.mario.galaxy.movie.2026.german.dl.1080p.web.h264-wvf.mkv -( Command: /MSG Zombie-LuCy-DiSTRO XDCC SEND #229 )
+[18:38:25] << :[o_0]!Zombies@Zombie.Warez NOTICE DarkPhoenix013 :        2x [9.0G] The.Super.Mario.Galaxy.Movie.2026.2160p.iNT.HEVC.10bit.AAC-LuCY.mkv -( Command: /MSG Zombie-LuCy-DiSTRO XDCC SEND #246 )
+[18:38:25] << :[o_0]!Zombies@Zombie.Warez NOTICE DarkPhoenix013 :        0x [3.2G] The.Super.Mario.Galaxy.Movie.2026.REPACK.720p.MA.WEB-DL.DDP5.1.Atmos.x264-Draken02.mkv -( Command: /MSG Zombie-LuCy-DiSTRO XDCC SEND #400 )
+[18:38:25] << :[o_0]!Zombies@Zombie.Warez NOTICE DarkPhoenix013 : ________________________________________________________________________________________________________________
+[18:38:25] << :[o_0]!Zombies@Zombie.Warez NOTICE DarkPhoenix013 : 5).                            (Zombie-Slayer - Used: 0/10 Speed: 0B/s)
+[18:38:25] << :[o_0]!Zombies@Zombie.Warez NOTICE DarkPhoenix013 :
+[18:38:25] << :[o_0]!Zombies@Zombie.Warez NOTICE DarkPhoenix013 :        16x [8.5G] The.Super.Mario.Galaxy.Movie.2026.1080p.TS.x264-GP-M-Eng.mkv -( Command: /MSG Zombie-Slayer XDCC SEND #507 )
+[18:38:25] << :[o_0]!Zombies@Zombie.Warez NOTICE DarkPhoenix013 : ________________________________________________________________________________________________________________
+[18:38:25] << :[o_0]!Zombies@Zombie.Warez NOTICE DarkPhoenix013 : 6).                            (Zombie-Blood - Used: 0/8 Speed: 0B/s)
+[18:38:25] << :[o_0]!Zombies@Zombie.Warez NOTICE DarkPhoenix013 :
+[18:38:25] << :[o_0]!Zombies@Zombie.Warez NOTICE DarkPhoenix013 :        0x [ 18G] The.Super.Mario.Galaxy.Movie.(2026).(2160p.YKW.WEB-DL.Hybrid.H265.DV.HDR.DDP.Atmos.5.1.English.-.HONE).tar -( Command: /MSG Zombie-Blood XDCC SEND #700 )
+[18:38:25] << :[o_0]!Zombies@Zombie.Warez NOTICE DarkPhoenix013 : ________________________________________________________________________________________________________________
+[18:38:25] << :[o_0]!Zombies@Zombie.Warez NOTICE DarkPhoenix013 : 7).                            (Zombie-Alpha - Used: 0/8 Speed: 0B/s)
+[18:38:25] << :[o_0]!Zombies@Zombie.Warez NOTICE DarkPhoenix013 :
+[18:38:25] << :[o_0]!Zombies@Zombie.Warez NOTICE DarkPhoenix013 :        29x [8.9G] The.Super.Mario.Galaxy.Movie.2026.1080p.TELESYNC.x264-SyncUP.tar -( Command: /MSG Zombie-Alpha XDCC SEND #122 )
+[18:38:25] << :[o_0]!Zombies@Zombie.Warez NOTICE DarkPhoenix013 :        5x [8.4G] The.Super.Mario.Galaxy.Movie.2026.1080p.TELESYNC.V2.x264-SyncUP.tar -( Command: /MSG Zombie-Alpha XDCC SEND #161 )
+[18:38:25] << :[o_0]!Zombies@Zombie.Warez NOTICE DarkPhoenix013 :        25x [1.8G] The.Super.Mario.Galaxy.Movie.(2026).1080p.WEBRip.5.1-LAMA.tar -( Command: /MSG Zombie-Alpha XDCC SEND #411 )
+[18:38:25] << :[o_0]!Zombies@Zombie.Warez NOTICE DarkPhoenix013 :        1x [ 18G] The.Super.Mario.Galaxy.Movie.(2026).(2160p.YKW.WEB-DL.Hybrid.H265.DV.HDR.DDP.Atmos.5.1.English.-.HONE).tar -( Command: /MSG Zombie-Alpha XDCC SEND #637 )
+[18:38:25] << :[o_0]!Zombies@Zombie.Warez NOTICE DarkPhoenix013 :        1x [2.7G] The.Super.Mario.Galaxy.Movie.2026.1080p.Bluray.10Bit.AAC7.1.x265-NeoNoir.tar -( Command: /MSG Zombie-Alpha XDCC SEND #860 )
+[18:38:25] << :[o_0]!Zombies@Zombie.Warez NOTICE DarkPhoenix013 : ________________________________________________________________________________________________________________
+[18:38:25] << :[o_0]!Zombies@Zombie.Warez NOTICE DarkPhoenix013 : 8).                            (Zombie-KAOS - Used: 0/8 Speed: 0B/s)
+[18:38:25] << :[o_0]!Zombies@Zombie.Warez NOTICE DarkPhoenix013 :
+[18:38:25] << :[o_0]!Zombies@Zombie.Warez NOTICE DarkPhoenix013 :        0x [ 11G] The.Super.Mario.Galaxy.Movie.2026.1080p.Webrip.Multi.Line.Audio.x264-SyncUP.mkv -( Command: /MSG Zombie-KAOS XDCC SEND #16 )
+[18:38:25] << :[o_0]!Zombies@Zombie.Warez NOTICE DarkPhoenix013 :        0x [ 17G] The.Super.Mario.Galaxy.Movie.2026.MULTi.2160p.WEB.H265.mkv -( Command: /MSG Zombie-KAOS XDCC SEND #24 )
+[18:38:25] << :[o_0]!Zombies@Zombie.Warez NOTICE DarkPhoenix013 :        0x [3.5G] The.Super.Mario.Galaxy.Movie.2026.1080p.DS4K.Webrip.x265.10bit.EAC3.5.1.Atmos-DNU-TAoE.mkv -( Command: /MSG Zombie-KAOS XDCC SEND #139 )
+[18:38:25] << :[o_0]!Zombies@Zombie.Warez NOTICE DarkPhoenix013 :        0x [ 16G] The.Super.Mario.Galaxy.Movie.2026.NORDiC.ENG.1080p.BluRay.x264.DDP7.1-ADDICTION.mkv -( Command: /MSG Zombie-KAOS XDCC SEND #352 )
+[18:38:25] << :[o_0]!Zombies@Zombie.Warez NOTICE DarkPhoenix013 :        1x [4.4G] The.Super.Mario.Galaxy.Movie.2026.1080p.WEBRip.AAC2.0.HEVC-LuCY.mkv -( Command: /MSG Zombie-KAOS XDCC SEND #405 )
+[18:38:25] << :[o_0]!Zombies@Zombie.Warez NOTICE DarkPhoenix013 :        0x [2.0G] The.Super.Mario.Galaxy.Movie.2026.1080p.WEBRip.AAC5.1.10bits.x265-Rapta.mkv -( Command: /MSG Zombie-KAOS XDCC SEND #435 )
+[18:38:25] << :[o_0]!Zombies@Zombie.Warez NOTICE DarkPhoenix013 :        0x [7.4G] the.super.mario.galaxy.movie.2026.german.dl.1080p.web.h264-wvf.mkv -( Command: /MSG Zombie-KAOS XDCC SEND #466 )
+[18:38:25] << :[o_0]!Zombies@Zombie.Warez NOTICE DarkPhoenix013 :        0x [1.9G] The.Super.Mario.Galaxy.Movie.2026.1080p.WEBRip.10bit.DDP.5.1.x265-NeoNoir.mkv -( Command: /MSG Zombie-KAOS XDCC SEND #494 )
+[18:38:25] << :[o_0]!Zombies@Zombie.Warez NOTICE DarkPhoenix013 :        0x [8.5G] The.Super.Mario.Galaxy.Movie.2026.1080p.TS.x264-GP-M-Eng.mkv -( Command: /MSG Zombie-KAOS XDCC SEND #550 )
+[18:38:25] << :[o_0]!Zombies@Zombie.Warez NOTICE DarkPhoenix013 :        1x [ 28G] the.super.mario.galaxy.movie.2026.multi.2160p.uhd.bluray.x265-seskapile.mkv -( Command: /MSG Zombie-KAOS XDCC SEND #582 )
+[18:38:25] << :[o_0]!Zombies@Zombie.Warez NOTICE DarkPhoenix013 :        0x [ 15G] The.Super.Mario.Galaxy.Movie.2026.1080p.BluRay.DD+7.1.x264-playHD.mkv -( Command: /MSG Zombie-KAOS XDCC SEND #585 )
+[18:38:25] << :[o_0]!Zombies@Zombie.Warez NOTICE DarkPhoenix013 :        0x [ 55G] The.Super.Mario.Galaxy.Movie.2026.2160p.UHD.Remux.HEVC.DoVi.TrueHD.Atmos.7.1-playBD.mkv -( Command: /MSG Zombie-KAOS XDCC SEND #591 )
+[18:38:27] << :[o_0]!Zombies@Zombie.Warez NOTICE DarkPhoenix013 :
+[18:38:27] << :[o_0]!Zombies@Zombie.Warez NOTICE DarkPhoenix013 : ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+[18:38:27] << :[o_0]!Zombies@Zombie.Warez NOTICE DarkPhoenix013 :End of Results. Found: 35 ONLINE packs (8 Bots = 144 Gets) matching "The*Super*Mario*Galaxy*Movie*2026"
+[18:38:30] >> QUIT :bye
+[18:38:40] << :arse.nl.eu.abjects.net NOTICE * :*** Looking up your hostname...
+[18:38:40] << :arse.nl.eu.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[18:38:40] << :arse.nl.eu.abjects.net NOTICE * :*** Checking ident...
+[18:38:44] << :arse.nl.eu.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[18:38:44] << PING :9EAD17AF
+[18:38:45] >> JOIN #moviegods
+[18:38:45] << :arse.nl.eu.abjects.net 396 DragonSlayer501 37AE729A.6C525672.7F20E47C.IP :is now your displayed host
+[18:38:45] << :DragonSlayer501!~DragonSla@37AE729A.6C525672.7F20E47C.IP JOIN :#moviegods
+[18:38:45] << :arse.nl.eu.abjects.net 332 DragonSlayer501 #moviegods : Welcome to #MOVIEGODS - If you are new to this type !help -//- Join #mg-chat to download -//- Join #MG-Lounge for requests/questions/comments/tv-subs/spam free chat -//-  Join #MG-Help for help -//- Donations get VIP perks  -  Join #MG-donations for info
+[18:38:45] << :arse.nl.eu.abjects.net 333 DragonSlayer501 #moviegods katsper!Kat@Sex.With.Leather.Clad.Women.is.Hot 1728068851
+[18:38:46] >> PRIVMSG [mg]-request|bot|osiris4 :xdcc send #20
+[18:38:47] << :[MG]-Request|Bot|Osiris4!~root@B6A59B64.2D6D11AF.A6FD9088.IP PRIVMSG DragonSlayer501 :DCC SEND The.Super.Mario.Galaxy.Movie.2026.German.DL.1080p.WEB.h264-WvF.mkv 3105216708 34012 7899830725
+[18:41:47] >> QUIT :bye
+[18:41:48] << :sharpshooter.ny.us.abjects.net NOTICE * :*** Looking up your hostname...
+[18:41:48] << :sharpshooter.ny.us.abjects.net NOTICE * :*** Checking ident...
+[18:41:48] << :sharpshooter.ny.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[18:41:51] << :sharpshooter.ny.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[18:41:53] >> JOIN #beast-chat
+[18:41:53] << :sharpshooter.ny.us.abjects.net 396 GhostRider129 37AE729A.6C525672.7F20E47C.IP :is now your displayed host
+[18:41:53] << :GhostRider129!~GhostRide@37AE729A.6C525672.7F20E47C.IP JOIN :#beast-chat
+[18:41:54] >> PRIVMSG #beast-chat :!s The Super Mario Bros Movie 2023
+[18:41:54] << :sharpshooter.ny.us.abjects.net 332 GhostRider129 #beast-chat :Welcome to #BEAST-XDCC  (Search:ONLINE) (Requests:ONLINE) ~ added !get command ~ !top or !topger to see most leeched releases, can be filtered by days ~ Please use !german for latest GERMAN releases only ~ commands; !latest !german !search !request !get !top !topger !tv !tvger !games ~ For more commands use !help ~ Have something to offer? Msg an ~ 
+[18:41:54] << :sharpshooter.ny.us.abjects.net 333 GhostRider129 #beast-chat devnull!~qlimax@beastmo.de 1779527540
+[18:41:55] << :databeast!~databeast@the.beast NOTICE GhostRider129 :04SEARCH RESULTS LIMITED TO 100 PACKS
+[18:41:55] << :databeast!~databeast@the.beast NOTICE GhostRider129 :04(1410G04) 14The.Super.Mario.Bros.Movie.2023.UHD.BluRay.2160p.DDP.7.1.DV.HDR.x265-hallowed.mkv04 (141414x04)14 /msg 14BEAST-X-TIESTO14 xdcc send #14286
+[18:42:01] >> QUIT :bye
+[18:42:17] << :heimdall.no.eu.abjects.net NOTICE * :*** Looking up your hostname...
+[18:42:17] << :heimdall.no.eu.abjects.net NOTICE * :*** Checking ident...
+[18:42:17] << :heimdall.no.eu.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[18:42:21] << :heimdall.no.eu.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[18:42:23] >> JOIN #mg-chat
+[18:42:23] << :heimdall.no.eu.abjects.net 396 VoidWalker472 37AE729A.6C525672.7F20E47C.IP :is now your displayed host
+[18:42:23] << :VoidWalker472!~VoidWalke@37AE729A.6C525672.7F20E47C.IP JOIN :#mg-chat
+[18:42:24] >> PRIVMSG #mg-chat :!s The Super Mario Bros Movie 2023
+[18:42:24] << :heimdall.no.eu.abjects.net 332 VoidWalker472 #mg-chat : Welcome to Moviegods Chat - If you are new to this type !help - Join #MG-Lounge for requests/questions/comments/tv-subs/spam free chat -//- Join #MG-Help for help - Donations earn VIP perks  - Join #MG-donations for info
+[18:42:24] << :heimdall.no.eu.abjects.net 333 VoidWalker472 #mg-chat katsper!Kat@Sex.With.Leather.Clad.Women.is.Hot 1728087751
+[18:42:24] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE VoidWalker472 :00,0100115)10  52x04 |10  16G04 |10 The.Super.Mario.Bros.Movie.2023.2160p.MA.WEB-DL.DDP5.1.Atmos.DV.HDR10.H.265-CMARIOG.mkv04 |09 /msg [MG]-4k-Movies|Archive XDCC SEND 216 04|00 Used: 17.35% 1/10 avg: 13.86MiB/s (31s ago)04 
+[18:42:24] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE VoidWalker472 :15,01   )07 #MOVIEGODS - Found 1 ONLINE Packs (1 Bots) = Total GETS: 52.
+[18:42:28] << :bloink64!~bloink256@1A6F4E84:CD45CAD5:B8E0FA81:IP PRIVMSG #mg-chat :!g House.of.the.Dragon.S03E04.GERMAN.DL.1080P.WEB.H264-WAYNE
+[18:42:31] >> QUIT :bye
+[18:42:31] << :karkar.abandoned-irc.net NOTICE * :*** Looking up your hostname...
+[18:42:31] << :karkar.abandoned-irc.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[18:42:33] >> JOIN #ZW-CHAT
+[18:42:33] << :karkar.abandoned-irc.net 396 VoidWalker691 90495D67.35B0CB26.E30ED253.IP :is now your displayed host
+[18:42:33] << :VoidWalker691!VoidWalker@90495D67.35B0CB26.E30ED253.IP JOIN :#ZW-CHAT
+[18:42:34] >> PRIVMSG #ZW-CHAT :!search The Super Mario Bros Movie 2023
+[18:42:34] << :karkar.abandoned-irc.net 332 VoidWalker691 #ZW-CHAT :12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12=[04Searchbot]-[09ONLINE]- Triggers: !help !search !latest !subscriptions !topdl !hot !recommended !movies !music !tv !apps !games !ebook !xxx !mobile | Web: http://www.Abandoned-IRC.net/
+[18:42:34] << :karkar.abandoned-irc.net 333 VoidWalker691 #ZW-CHAT [ZOMBIE]-LATEST!Abandoned-@zombie.warez 1782976606
+[18:42:34] << :Zombie!ZW@ZoMbIe.WaReZ NOTICE VoidWalker691 :[#ZW-CHAT] 12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12= we are looking for experienced ROOTERS/DEDi/BOXOWNERS . interested? use !joinZW
+[18:42:36] << :[o_0]!Zombies@Zombie.Warez NOTICE VoidWalker691 :
+[18:42:36] << :[o_0]!Zombies@Zombie.Warez NOTICE VoidWalker691 : ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+[18:42:36] << :[o_0]!Zombies@Zombie.Warez NOTICE VoidWalker691 :End of Results. Found: 0 ONLINE packs (0 Bots = 0 Gets) matching "The*Super*Mario*Bros*Movie*2023"
+[18:42:39] >> QUIT :bye
+[18:42:48] << :neptune.ny.us.abjects.net NOTICE * :*** Looking up your hostname...
+[18:42:48] << :neptune.ny.us.abjects.net NOTICE * :*** Checking ident...
+[18:42:48] << :neptune.ny.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[18:42:52] << :neptune.ny.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[18:42:52] << PING :8B14BE5C
+[18:42:53] >> JOIN #moviegods
+[18:42:53] << :neptune.ny.us.abjects.net 396 NovaBlade738 37AE729A.6C525672.7F20E47C.IP :is now your displayed host
+[18:42:53] << :NovaBlade738!~NovaBlade@37AE729A.6C525672.7F20E47C.IP JOIN :#moviegods
+[18:42:53] << :neptune.ny.us.abjects.net 332 NovaBlade738 #moviegods : Welcome to #MOVIEGODS - If you are new to this type !help -//- Join #mg-chat to download -//- Join #MG-Lounge for requests/questions/comments/tv-subs/spam free chat -//-  Join #MG-Help for help -//- Donations get VIP perks  -  Join #MG-donations for info
+[18:42:53] << :neptune.ny.us.abjects.net 333 NovaBlade738 #moviegods katsper!Kat@Sex.With.Leather.Clad.Women.is.Hot 1728068851
+[18:42:54] >> PRIVMSG [mg]-4k-movies|archive :xdcc send #216
+[18:42:55] << :[MG]-4k-Movies|Archive!~root@abjects-3DFC1E70.ip-54-39-128.net PRIVMSG NovaBlade738 :DCC SEND The.Super.Mario.Bros.Movie.2023.2160p.MA.WEB-DL.DDP5.1.Atmos.DV.HDR10.H.265-CMARIOG.mkv 908558430 33001 17622300595
+[18:57:37] >> QUIT :bye
+
+============================================================
+=== Lauf gestartet: 2026-07-15 18:58:33 ===
+============================================================
+[18:58:33] << :stormy.fr.eu.abjects.net NOTICE * :*** Looking up your hostname...
+[18:58:33] << :stormy.fr.eu.abjects.net NOTICE * :*** Checking ident...
+[18:58:33] << :stormy.fr.eu.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[18:58:37] << :stormy.fr.eu.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[18:58:40] >> JOIN #beast-chat
+[18:58:40] << :stormy.fr.eu.abjects.net 396 ToxicVenom226 37AE729A.6C525672.7F20E47C.IP :is now your displayed host
+[18:58:40] << :ToxicVenom226!~ToxicVeno@37AE729A.6C525672.7F20E47C.IP JOIN :#beast-chat
+[18:58:41] >> PRIVMSG #beast-chat :!s Overlord S01
+[18:58:41] << :stormy.fr.eu.abjects.net 332 ToxicVenom226 #beast-chat :Welcome to #BEAST-XDCC  (Search:ONLINE) (Requests:ONLINE) ~ added !get command ~ !top or !topger to see most leeched releases, can be filtered by days ~ Please use !german for latest GERMAN releases only ~ commands; !latest !german !search !request !get !top !topger !tv !tvger !games ~ For more commands use !help ~ Have something to offer? Msg an ~ 
+[18:58:41] << :stormy.fr.eu.abjects.net 333 ToxicVenom226 #beast-chat devnull!~qlimax@beastmo.de 1779527540
+[18:58:41] << :databeast!~databeast@the.beast NOTICE ToxicVenom226 :04SEARCH RESULTS LIMITED TO 100 PACKS
+[18:58:41] << :databeast!~databeast@the.beast NOTICE ToxicVenom226 :04(1418G04) 14Overlord.S01.German.ANIME.DL.DTS.1080p.BluRay.10bit.x265-CNY.tar04 (141214x04)14 /msg 14BEAST-X-RAPTURE14 xdcc send #14320
+[18:58:47] >> QUIT :bye
+[18:59:03] << :heimdall.no.eu.abjects.net NOTICE * :*** Looking up your hostname...
+[18:59:03] << :heimdall.no.eu.abjects.net NOTICE * :*** Checking ident...
+[18:59:03] << :heimdall.no.eu.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[18:59:07] << :heimdall.no.eu.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[18:59:09] >> JOIN #mg-chat
+[18:59:09] << :heimdall.no.eu.abjects.net 396 ApexPredator603 37AE729A.6C525672.7F20E47C.IP :is now your displayed host
+[18:59:09] << :ApexPredator603!~ApexPreda@37AE729A.6C525672.7F20E47C.IP JOIN :#mg-chat
+[18:59:10] >> PRIVMSG #mg-chat :!s Overlord S01
+[18:59:10] << :heimdall.no.eu.abjects.net 332 ApexPredator603 #mg-chat : Welcome to Moviegods Chat - If you are new to this type !help - Join #MG-Lounge for requests/questions/comments/tv-subs/spam free chat -//- Join #MG-Help for help - Donations earn VIP perks  - Join #MG-donations for info
+[18:59:10] << :heimdall.no.eu.abjects.net 333 ApexPredator603 #mg-chat katsper!Kat@Sex.With.Leather.Clad.Women.is.Hot 1728087751
+[18:59:10] << :nosync!~nosync@347CF778.A78A9EFF.E5363E04.IP PRIVMSG #mg-chat :!get The.Forbidden.City.2025.1080p.BluRay.x264-GeneMige.mkv
+[18:59:10] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE ApexPredator603 :00,0100115)10   4x04 |10  18G04 |10 Overlord.S01.1080p.CR.WEB-DL.DUAL.DDP2.0.H.264-Kitsune.tar04 |09 /msg [MG]-MISC|EU|S|LuckyCharms XDCC SEND 84 04|00 Used: 0.00% 0/10 (1m15s ago)04 
+[18:59:10] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE ApexPredator603 :15,01   )07 #MOVIEGODS - Found 1 ONLINE Packs (1 Bots) = Total GETS: 4.
+[18:59:16] >> QUIT :bye
+[18:59:17] << :chaos.abandoned-irc.net NOTICE * :*** Looking up your hostname...
+[18:59:18] << :chaos.abandoned-irc.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[18:59:18] >> JOIN #ZW-CHAT
+[18:59:18] << :chaos.abandoned-irc.net 396 VoidWalker736 90495D67.35B0CB26.E30ED253.IP :is now your displayed host
+[18:59:18] << :VoidWalker736!VoidWalker@90495D67.35B0CB26.E30ED253.IP JOIN :#zw-chat
+[18:59:19] >> PRIVMSG #ZW-CHAT :!search Overlord S01
+[18:59:19] << :chaos.abandoned-irc.net 332 VoidWalker736 #zw-chat :12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12=[04Searchbot]-[09ONLINE]- Triggers: !help !search !latest !subscriptions !topdl !hot !recommended !movies !music !tv !apps !games !ebook !xxx !mobile | Web: http://www.Abandoned-IRC.net/
+[18:59:19] << :chaos.abandoned-irc.net 333 VoidWalker736 #zw-chat [ZOMBIE]-LATEST!Abandoned-@zombie.warez 1782976606
+[18:59:19] << :Zombie!ZW@ZoMbIe.WaReZ NOTICE VoidWalker736 :[#ZW-CHAT] 12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12= we are looking for experienced ROOTERS/DEDi/BOXOWNERS . interested? use !joinZW
+[18:59:22] << :[o_0]!Zombies@Zombie.Warez NOTICE VoidWalker736 :
+[18:59:22] << :[o_0]!Zombies@Zombie.Warez NOTICE VoidWalker736 : ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+[18:59:22] << :[o_0]!Zombies@Zombie.Warez NOTICE VoidWalker736 :End of Results. Found: 0 ONLINE packs (0 Bots = 0 Gets) matching "Overlord*S01"
+[18:59:25] >> QUIT :bye
+[18:59:34] << :jagged.ca.us.abjects.net NOTICE * :*** Looking up your hostname...
+[18:59:34] << :jagged.ca.us.abjects.net NOTICE * :*** Checking ident...
+[18:59:34] << :jagged.ca.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[18:59:38] << :jagged.ca.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[18:59:38] << PING :8A867A78
+[18:59:39] >> JOIN #beast-xdcc
+[18:59:39] << :jagged.ca.us.abjects.net 396 NightHawk252 37AE729A.6C525672.7F20E47C.IP :is now your displayed host
+[18:59:40] << :NightHawk252!~NightHawk@37AE729A.6C525672.7F20E47C.IP JOIN :#beast-xdcc
+[18:59:40] << :jagged.ca.us.abjects.net 332 NightHawk252 #beast-xdcc :#BEAST-XDCC //   BLAZING SPEEDS ~ PROPER PACKS   //   join #BEAST-CHAT for Search and much more.
+[18:59:40] << :jagged.ca.us.abjects.net 333 NightHawk252 #beast-xdcc dbeast 1705098478
+[18:59:41] >> PRIVMSG beast-x-rapture :xdcc send #320
+[18:59:41] << :BEAST-X-DELTA!~beast@untamed.beast PRIVMSG #beast-xdcc :#1384 10x [223M] Fear.The.Timeloop.Update.v1.1.2-RUNE.tar
+[18:59:41] << :BEAST-X-HAMAS!~beast@untamed.beast PRIVMSG #beast-xdcc :#138 14x [ 61G] Song.of.the.Miraculous.Hind.2002.2160p.UHD.Blu-ray.Remux.DV.HDR.HEVC.FLAC.2.0-CiNEPHiLES.mkv
+[18:59:41] << :BEAST-X-ABYSS!~beast@untamed.beast PRIVMSG #beast-xdcc :#1728 11x [ 14G] Chicago.PD.S06.1080p.WEBRip.x265-RARBG.tar
+[18:59:41] << :BEAST-X-JOKER!~beast@untamed.beast PRIVMSG #beast-xdcc :#1464 17x [ 12G] The.Last.of.Us.S02.2160p.10bit.HDR.DV.WEBRip.6CH.x265.HEVC-PSA.tar
+[18:59:41] << :BEAST-X-SWITCH!~G0D@abjects-7A8888FA.clients.your-server.de PRIVMSG #beast-xdcc :#1059  22x [675M] Terminator_2D_NO_FATE_NSW-VENOM.tar
+[18:59:42] << :BEAST-X-RAPTURE!~beast@untamed.beast NOTICE NightHawk252 :** Sending you pack #320 ("Overlord.S01.German.ANIME.DL.DTS.1080p.BluRay.10bit.x265-CNY.tar"), which is 18GB. (resume supported)
+[18:59:42] << :BEAST-X-RAPTURE!~beast@untamed.beast PRIVMSG NightHawk252 :DCC SEND Overlord.S01.German.ANIME.DL.DTS.1080p.BluRay.10bit.x265-CNY.tar 2997008659 35231 19182100480
+[19:04:13] >> QUIT :bye
+[19:12:53] << :heimdall.no.eu.abjects.net NOTICE * :*** Looking up your hostname...
+[19:12:53] << :heimdall.no.eu.abjects.net NOTICE * :*** Checking ident...
+[19:12:54] << :heimdall.no.eu.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[19:12:57] << :heimdall.no.eu.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[19:12:59] >> JOIN #beast-chat
+[19:12:59] << :heimdall.no.eu.abjects.net 396 ApexPredator265 37AE729A.6C525672.7F20E47C.IP :is now your displayed host
+[19:12:59] << :ApexPredator265!~ApexPreda@37AE729A.6C525672.7F20E47C.IP JOIN :#beast-chat
+[19:13:00] >> PRIVMSG #beast-chat :!s Overlord S02
+[19:13:00] << :heimdall.no.eu.abjects.net 332 ApexPredator265 #beast-chat :Welcome to #BEAST-XDCC  (Search:ONLINE) (Requests:ONLINE) ~ added !get command ~ !top or !topger to see most leeched releases, can be filtered by days ~ Please use !german for latest GERMAN releases only ~ commands; !latest !german !search !request !get !top !topger !tv !tvger !games ~ For more commands use !help ~ Have something to offer? Msg an ~ 
+[19:13:00] << :heimdall.no.eu.abjects.net 333 ApexPredator265 #beast-chat devnull!~qlimax@beastmo.de 1779527540
+[19:13:00] << :GuyIncognito742!~GuyIncogn@abjects-A437F2BB.pool.telefonica.de QUIT :Ping timeout: 240 seconds
+[19:13:00] << :databeast!~databeast@the.beast NOTICE ApexPredator265 :04SEARCH RESULTS LIMITED TO 100 PACKS
+[19:13:00] << :databeast!~databeast@the.beast NOTICE ApexPredator265 :04(1414G04) 14Overlord.S02.German.DL.DTS.1080p.BluRay.10bit.x265-CNY.tar04 (141714x04)14 /msg 14BEAST-X-REVOLT14 xdcc send #141471
+[19:13:06] >> QUIT :bye
+[19:13:23] << :sharpshooter.ny.us.abjects.net NOTICE * :*** Looking up your hostname...
+[19:13:23] << :sharpshooter.ny.us.abjects.net NOTICE * :*** Checking ident...
+[19:13:24] << :sharpshooter.ny.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[19:13:27] << :sharpshooter.ny.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[19:13:29] >> JOIN #mg-chat
+[19:13:29] << :sharpshooter.ny.us.abjects.net 396 GhostRider399 37AE729A.6C525672.7F20E47C.IP :is now your displayed host
+[19:13:29] << :GhostRider399!~GhostRide@37AE729A.6C525672.7F20E47C.IP JOIN :#mg-chat
+[19:13:30] >> PRIVMSG #mg-chat :!s Overlord S02
+[19:13:30] << :sharpshooter.ny.us.abjects.net 332 GhostRider399 #mg-chat : Welcome to Moviegods Chat - If you are new to this type !help - Join #MG-Lounge for requests/questions/comments/tv-subs/spam free chat -//- Join #MG-Help for help - Donations earn VIP perks  - Join #MG-donations for info
+[19:13:30] << :sharpshooter.ny.us.abjects.net 333 GhostRider399 #mg-chat katsper!Kat@Sex.With.Leather.Clad.Women.is.Hot 1728087751
+[19:13:30] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE GhostRider399 :00,0100115)10   7x04 |10  18G04 |10 Overlord.S02.1080p.CR.WEB-DL.DUAL.DDP2.0.H.264-Kitsune.tar04 |09 /msg [MG]-Request|Bot|Osiris XDCC SEND 695 04|00 Used: 0.91% 1/10 avg: 605.60KiB/s (1m25s ago)04 
+[19:13:30] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE GhostRider399 :15,01   )07 #MOVIEGODS - Found 1 ONLINE Packs (1 Bots) = Total GETS: 7.
+[19:13:36] >> QUIT :bye
+[19:13:36] << :horde.abandoned-irc.net NOTICE * :*** Looking up your hostname...
+[19:13:36] << :horde.abandoned-irc.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[19:13:38] >> JOIN #ZW-CHAT
+[19:13:38] << :horde.abandoned-irc.net 396 DragonSlayer301 90495D67.35B0CB26.E30ED253.IP :is now your displayed host
+[19:13:38] << :DragonSlayer301!DragonSlay@90495D67.35B0CB26.E30ED253.IP JOIN :#zw-chat
+[19:13:39] >> PRIVMSG #ZW-CHAT :!search Overlord S02
+[19:13:39] << :horde.abandoned-irc.net 332 DragonSlayer301 #zw-chat :12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12=[04Searchbot]-[09ONLINE]- Triggers: !help !search !latest !subscriptions !topdl !hot !recommended !movies !music !tv !apps !games !ebook !xxx !mobile | Web: http://www.Abandoned-IRC.net/
+[19:13:39] << :horde.abandoned-irc.net 333 DragonSlayer301 #zw-chat [ZOMBIE]-LATEST!Abandoned-@zombie.warez 1782976606
+[19:13:39] << :Zombie!ZW@ZoMbIe.WaReZ NOTICE DragonSlayer301 :[#ZW-CHAT] 12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12= we are looking for experienced ROOTERS/DEDi/BOXOWNERS . interested? use !joinZW
+[19:13:41] << :[o_0]!Zombies@Zombie.Warez NOTICE DragonSlayer301 :
+[19:13:41] << :[o_0]!Zombies@Zombie.Warez NOTICE DragonSlayer301 : ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+[19:13:41] << :[o_0]!Zombies@Zombie.Warez NOTICE DragonSlayer301 :End of Results. Found: 0 ONLINE packs (0 Bots = 0 Gets) matching "Overlord*S02"
+[19:13:44] >> QUIT :bye
+[19:13:53] << :heimdall.no.eu.abjects.net NOTICE * :*** Looking up your hostname...
+[19:13:53] << :heimdall.no.eu.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[19:13:53] << :heimdall.no.eu.abjects.net NOTICE * :*** Checking ident...
+[19:13:57] << :heimdall.no.eu.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[19:13:57] << PING :A46E49E1
+[19:14:00] >> JOIN #beast-xdcc
+[19:14:00] << :heimdall.no.eu.abjects.net 396 FrostByte622 37AE729A.6C525672.7F20E47C.IP :is now your displayed host
+[19:14:00] << :FrostByte622!~FrostByte@37AE729A.6C525672.7F20E47C.IP JOIN :#beast-xdcc
+[19:14:00] << :heimdall.no.eu.abjects.net 332 FrostByte622 #beast-xdcc :#BEAST-XDCC //   BLAZING SPEEDS ~ PROPER PACKS   //   join #BEAST-CHAT for Search and much more.
+[19:14:00] << :heimdall.no.eu.abjects.net 333 FrostByte622 #beast-xdcc dbeast 1705098478
+[19:14:01] >> PRIVMSG beast-x-revolt :xdcc send #1471
+[19:14:01] << :BEAST-X-REVOLT!~beast@untamed.beast PRIVMSG #beast-xdcc :#1655 22x [4.7G] Solo.Leveling.S01.German.AC3.DL.1080p.Web.x265-FuN.tar
+[19:14:01] << :BEAST-X-ABYSS!~beast@untamed.beast PRIVMSG #beast-xdcc :#1934 10x [ 16G] Dawsons.Creek.S04.1080p.BluRay.x265-RARBG.tar
+[19:14:01] << :BEAST-X-JOKER!~beast@untamed.beast PRIVMSG #beast-xdcc :#1681 10x [7.7G] Unforgettable.S04.German.AC3D.DL.1080p.WebHD.x265-FuN.tar
+[19:14:01] << :BEAST-X-BLAZED!~beast@untamed.beast PRIVMSG #beast-xdcc :#211 10x [1.7G] Border.Control.Tuerkei.Grenzschuetzer.im.Einsatz.S01E25.GERMAN.DOKU.720p.WEB.H264-SYNERGiE.mkv
+[19:14:01] << :BEAST-X-RAPTURE!~beast@untamed.beast PRIVMSG #beast-xdcc :#209 11x [1.5G] Historys.Deadliest.mit.Ving.Rhames.S01E08.GERMAN.DOKU.720p.WEB.H264-SYNERGiE.mkv
+[19:14:02] << :BEAST-X-BANDIT!~beast@untamed.beast PRIVMSG #beast-xdcc :#209 12x [1.6G] Greys.Anatomy.Die.jungen.Aerzte.S22E05.GERMAN.DL.1080p.WEB.h264-SAUERKRAUT.mkv
+[19:14:02] << :BEAST-X-AURORA!~beast@untamed.beast PRIVMSG #beast-xdcc :#206 10x [1.4G] Dr.Stone.S04E22.German.DL.AAC.1080p.WEB.H264-WeebPinn.mkv
+[19:14:02] << :BEAST-X-SLICK!~beast@untamed.beast PRIVMSG #beast-xdcc :#451  30x [2.2G] WARNO.SOUTHAG.Update.v172762.incl.DLC-RUNE.tar
+[19:14:03] << :BEAST-X-DREAM!~beast@untamed.beast PRIVMSG #beast-xdcc :#211  12x [ 10G] DO.NOT.ENTER.2026.2160p.AMZN.WEB-DL.DDP5.1.H.265-BYNDR.mkv
+[19:14:03] << :BEAST-X-HBHOE!~G0D@abjects-7A8888FA.clients.your-server.de PRIVMSG #beast-xdcc :#232   4x [3.7G] Harry Potter and the Prisoner of Azkaban (Full-Cast Edition) - AAC 6ch.m4b
+[19:14:03] << :BEAST-X-AORUS!~beast@untamed.beast PRIVMSG #beast-xdcc :#217  10x [6.2G] The.Witness.2026.S01E03.HDR.2160p.WEB.h265-GRACE.mkv
+[19:14:04] << :BEAST-X-DELTA!~beast@untamed.beast PRIVMSG #beast-xdcc :#1593 11x [ 15G] Good.Fortune.2025.2160p.WEB.H265-SLOT.mkv
+[19:14:04] << :BEAST-X-CHANEL!~beast@untamed.beast PRIVMSG #beast-xdcc :#212 10x [7.6G] Boston.Blue.S01E20.HDR.2160p.WEB.h265-GRACE.mkv
+[19:14:04] << :BEAST-X-RANDOM!~beast@untamed.beast PRIVMSG #beast-xdcc :#214 10x [1.6G] Memory.of.a.Killer.S01E07.German.1080p.WEB.h264-WvF.mkv
+[19:14:04] << :BEAST-X-NYMPHO!~beast@untamed.beast PRIVMSG #beast-xdcc :#211 11x [1.5G] Ghosts.S05E21.Up.the.Creek.1080p.AMZN.WEB-DL.DDP5.1.H.264-BLOOM.mkv
+[19:14:05] << :BEAST-X-JOKER!~beast@untamed.beast PRIVMSG #beast-xdcc :#1682 17x [1.4G] Unicorn.Academy.S03.German.AC3.DL.1080p.WebHD.x265-FuN.tar
+[19:14:05] << :BEAST-X-ABYSS!~beast@untamed.beast PRIVMSG #beast-xdcc :#1935 10x [ 16G] Dawsons.Creek.S06.1080p.BluRay.x265-RARBG.tar
+[19:14:05] << :BEAST-X-BLAZED!~beast@untamed.beast PRIVMSG #beast-xdcc :#212 10x [1.7G] NCIS.Sydney.S03E19.GERMAN.DL.720p.WEB.h264-SAUERKRAUT.mkv
+[19:14:05] << :BEAST-X-RAPTURE!~beast@untamed.beast PRIVMSG #beast-xdcc :#210 12x [1.5G] your.friends.and.neighbors.s02e05.720p.web.h264-sylix.mkv
+[19:14:05] << :BEAST-X-ROLEX!~beast@untamed.beast PRIVMSG #beast-xdcc :#207 10x [6.2G] Spider-Noir.S01E08.The.Man.in.the.Mask.2160p.AMZN.WEB-DL.DDP5.1.Atmos.DV.HDR10+.H.265-RUDR.mkv
+[19:14:05] << :BEAST-X-SLICK!~beast@untamed.beast PRIVMSG #beast-xdcc :#452  31x [ 41G] WW2.Rebuilder.Remagen.and.Caen-RUNE.tar
+[19:14:06] << :BEAST-X-BANDIT!~beast@untamed.beast PRIVMSG #beast-xdcc :#210 10x [1.6G] Kid.Galahad.Harte.Faeuste.heisse.Liebe.1962.German.AC3.BDRIP.x264-AG.mkv
+[19:14:06] << :BEAST-X-DREAM!~beast@untamed.beast PRIVMSG #beast-xdcc :#212  12x [2.5G] Chicago.PD.S12E21.German.DL.1080p.WEB.x264-WvF.mkv
+[19:14:07] << :BEAST-X-REVOLT!~beast@untamed.beast NOTICE FrostByte622 :** Sending you pack #1471 ("Overlord.S02.German.DL.DTS.1080p.BluRay.10bit.x265-CNY.tar"), which is 14GB. (resume supported)
+[19:14:07] << :BEAST-X-NYMPHO!~beast@untamed.beast PRIVMSG #beast-xdcc :#212 11x [1.5G] Mating.Season.S01E07.2160p.WEB.h265-GRACE.mkv
+[19:14:07] << :BEAST-X-CHANEL!~beast@untamed.beast PRIVMSG #beast-xdcc :#213 10x [7.6G] matka.king.s01e01.dv.2160p.web.h265-sylix.mkv
+[19:14:07] << :BEAST-X-HBHOE!~G0D@abjects-7A8888FA.clients.your-server.de PRIVMSG #beast-xdcc :#233   0x [8.5G] Masters.of.the.Air.S01.1080p.WEBRip.10bit.DDP5.1.x265-HODL.tar
+[19:14:08] << :BEAST-X-JOKER!~beast@untamed.beast PRIVMSG #beast-xdcc :#1683 11x [1.2G] Unit.234.2024.1080p.WEBRip.x265-DH.mkv
+[19:14:08] << :BEAST-X-BLAZED!~beast@untamed.beast PRIVMSG #beast-xdcc :#213 10x [1.6G] BEEF.S02E01.1080p.WEB.h264-ETHEL.mkv
+[19:14:08] << :BEAST-X-ABYSS!~beast@untamed.beast PRIVMSG #beast-xdcc :#1936 10x [ 20G] Day.One.S01.GERMAN.DL.1080P.WEB.H264-WAYNE.tar
+[19:14:08] << :BEAST-X-DELTA!~beast@untamed.beast PRIVMSG #beast-xdcc :#1594 10x [1.5G] Good.Grief.2023.1080p.10bit.WEBRip.6CH.x265.HEVC-PSA.mkv.tar
+[19:14:08] << :BEAST-X-ROLEX!~beast@untamed.beast PRIVMSG #beast-xdcc :#208 10x [6.1G] Rivals.2024.S02E04.DV.2160p.WEB.h265-GRACE.mkv
+[19:14:08] << :BEAST-X-AURORA!~beast@untamed.beast PRIVMSG #beast-xdcc :#207 11x [1.4G] Frieren.Beyond.Journeys.End.2023.S02E07.German.DL.ANiME.AAC.1080p.CR.WEB.H264-DRiFTKiNG.mkv
+[19:14:09] << :BEAST-X-AORUS!~beast@untamed.beast PRIVMSG #beast-xdcc :#218  10x [5.8G] Dateline.Unforgettable.S08E01.The.Man.of.Many.Faces.1080p.AMZN.WEB-DL.DDP2.0.H.264-BLOOM.mkv
+[19:14:09] << :BEAST-X-RANDOM!~beast@untamed.beast PRIVMSG #beast-xdcc :#215 10x [1.6G] Police.Interceptors.Auf.Verfolgungsjagd.S24E13.GERMAN.DL.DOKU.720p.WEB.H264-SYNERGiE.mkv
+[19:14:09] << :BEAST-X-RAPTURE!~beast@untamed.beast PRIVMSG #beast-xdcc :#211 11x [1.5G] Ghosts.2021.S05E13.GERMAN.DL.1080p.WEB.h264-SAUERKRAUT.mkv
+[19:14:09] << :BEAST-X-SLICK!~beast@untamed.beast PRIVMSG #beast-xdcc :#453  32x [ 13G] Warhammer.40000.Battlesector.Black.Legion-RUNE.tar
+[19:14:10] << :BEAST-X-BANDIT!~beast@untamed.beast PRIVMSG #beast-xdcc :#211 10x [1.6G] The.End.We.Start.From.2023.German.EAC3.1080p.WEB.AV1-Cancer58.mkv
+[19:14:11] << :BEAST-X-BLAZED!~beast@untamed.beast PRIVMSG #beast-xdcc :#214 11x [1.6G] Man.on.Fire.S01E06.1080p.WEB.h264-GRACE.mkv
+[19:14:11] << :BEAST-X-NYMPHO!~beast@untamed.beast PRIVMSG #beast-xdcc :#213 12x [1.5G] Oak.Island.Fluch.und.Legende.S13E07.GERMAN.DOKU.720p.WEB.H264-SYNERGiE.mkv
+[19:14:11] << :BEAST-X-CHANEL!~beast@untamed.beast PRIVMSG #beast-xdcc :#214 10x [7.1G] Suesse.Magnolien.S05E07.GERMAN.DL.HDR.2160p.WEB.h265-SAUERKRAUT.mkv
+[19:14:11] << :BEAST-X-HBHOE!~G0D@abjects-7A8888FA.clients.your-server.de PRIVMSG #beast-xdcc :#234  13x [ 32G] Disneys.Gummibaerenbande.S01.-.S06.German.FS.WEB.H264.iNTERNAL-MRW.tar
+[19:14:11] << :BEAST-X-DREAM!~beast@untamed.beast PRIVMSG #beast-xdcc :#213  12x [ 14G] Click.2006.UHD.BluRay.2160p.DDP.Atmos.5.1.DV.HDR10Plus.x265-hallowed.mkv
+[19:14:12] << :BEAST-X-DELTA!~beast@untamed.beast PRIVMSG #beast-xdcc :#1595 17x [2.2G] Good.Luck.Have.Fun.Dont.Die.2025.1080p.WEBRip.x265.10bit.AAC5.1-LAMA.mp4
+[19:14:12] << :BEAST-X-REVOLT!~beast@untamed.beast PRIVMSG FrostByte622 :DCC SEND Overlord.S02.German.DL.DTS.1080p.BluRay.10bit.x265-CNY.tar 3418141710 40937 15025203200
+[19:17:54] >> QUIT :bye

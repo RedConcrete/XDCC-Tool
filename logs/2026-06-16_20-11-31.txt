@@ -1,0 +1,764 @@
+
+============================================================
+=== Lauf gestartet: 2026-06-16 20:11:31 ===
+============================================================
+[20:11:31] [INFO] [Greys.Anatomy.S22E07] Suche: Greys Anatomy S22E07
+[20:11:32] << :mortal.tx.us.abjects.net NOTICE * :*** Looking up your hostname...
+[20:11:32] << :mortal.tx.us.abjects.net NOTICE * :*** Checking ident...
+[20:11:33] << :mortal.tx.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[20:11:36] << :mortal.tx.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[20:11:38] >> JOIN #beast-chat
+[20:11:38] << :mortal.tx.us.abjects.net 396 IronFist760 3A2EBF91.AFB7C0ED.7F20E47C.IP :is now your displayed host
+[20:11:38] << :IronFist760!~IronFist7@3A2EBF91.AFB7C0ED.7F20E47C.IP JOIN :#beast-chat
+[20:11:39] >> PRIVMSG #beast-chat :!s Greys Anatomy S22E07
+[20:11:39] << :mortal.tx.us.abjects.net 332 IronFist760 #beast-chat :Welcome to #BEAST-XDCC  (Search:ONLINE) (Requests:ONLINE) ~ added !get command ~ !top or !topger to see most leeched releases, can be filtered by days ~ Please use !german for latest GERMAN releases only ~ commands; !latest !german !search !request !get !top !topger !tv !tvger !games ~ For more commands use !help ~ Have something to offer? Msg an ~ 
+[20:11:39] << :mortal.tx.us.abjects.net 333 IronFist760 #beast-chat devnull!~qlimax@beastmo.de 1779527540
+[20:11:39] << :databeast!~databeast@the.beast NOTICE IronFist760 :04No packs found matching your search criteria.
+[20:11:40] << :trit!~trit_@EB51FB5E.5A0CAAEF.1F3F8C27.IP JOIN :#beast-chat
+[20:11:41] << :Burnsomething!~Burnsomet@D8A0EF6A:A8711F80:76FE2:IP QUIT :Connection closed
+[20:11:44] >> QUIT :bye
+[20:11:45] << :spiked.ca.us.abjects.net NOTICE * :*** Looking up your hostname...
+[20:11:45] << :spiked.ca.us.abjects.net NOTICE * :*** Checking ident...
+[20:11:45] << :spiked.ca.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[20:11:50] << :spiked.ca.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[20:11:51] >> JOIN #mg-chat
+[20:11:51] << :spiked.ca.us.abjects.net 396 CrimsonFox871 3A2EBF91.AFB7C0ED.7F20E47C.IP :is now your displayed host
+[20:11:51] << :CrimsonFox871!~CrimsonFo@3A2EBF91.AFB7C0ED.7F20E47C.IP JOIN :#mg-chat
+[20:11:52] >> PRIVMSG #mg-chat :!s Greys Anatomy S22E07
+[20:11:52] << :spiked.ca.us.abjects.net 332 CrimsonFox871 #mg-chat : Welcome to Moviegods Chat - If you are new to this type !help - Join #MG-Lounge for requests/questions/comments/tv-subs/spam free chat -//- Join #MG-Help for help - Donations earn VIP perks  - Join #MG-donations for info
+[20:11:52] << :spiked.ca.us.abjects.net 333 CrimsonFox871 #mg-chat katsper!Kat@Sex.With.Leather.Clad.Women.is.Hot 1728087751
+[20:11:53] << :Waffles01!~Waffles01@abjects-C915F582.access.telenet.be QUIT :Ping timeout: 240 seconds
+[20:11:53] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE CrimsonFox871 :15,01   )07 #MOVIEGODS - Found 0 ONLINE Packs (0 Bots) = Total GETS: 0.
+[20:11:53] << :freak!~freak@810FB503:B535271B:41B258BF:IP PRIVMSG #mg-chat :!topdl
+[20:11:54] << :poopooass!~Xenu@abjects-146544C4.fixed.kpn.net QUIT :Connection closed
+[20:11:56] << :irqzero!~irqzero@18CDFB2A.55BAC9D0.64399226.IP PRIVMSG #mg-chat :!s backrooms
+[20:11:59] >> QUIT :bye
+[20:12:00] [INFO] [Greys.Anatomy.S22E07] Versuch 1/15: Greys.Anatomy.S22E07.1080p.10bit.WEBRip.6CH.X265.HEVC-PSA.mkv (irc.scenep2p.net #THE.SOURCE)
+[20:13:30] << :Paranoia.SceneP2P.net NOTICE * :*** Looking up your hostname...
+[20:13:30] << :Paranoia.SceneP2P.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[20:13:39] << PING :DBC71D09
+[20:13:39] >> JOIN #THE.SOURCE
+[20:13:39] << :Paranoia.SceneP2P.net 396 DarkPhoenix393 4F9AB60C.75754FE4.D2285560.IP :is now your displayed host
+[20:13:39] << :Paranoia.SceneP2P.net NOTICE DarkPhoenix393 :WARNING: Insecure connection. Please consider using TLS.
+[20:13:39] << :DarkPhoenix393!DarkPhoeni@4F9AB60C.75754FE4.D2285560.IP JOIN :#THE.SOURCE
+[20:13:39] << :Paranoia.SceneP2P.net 332 DarkPhoenix393 #THE.SOURCE :10Welcome to #THE.SOURCE. 7The only xdcc channel you will ever need. The FASTEST downloads on IRC. NEVER throttled/logged/restricted | #The.Lounge for search/chat | 4#THE.INSIDERS for auto downloads. Open to all! |11Escape the flood join #THE.SOURCE.NOSPAM | 13Happy Leeching!!!
+[20:13:39] << :Paranoia.SceneP2P.net 333 DarkPhoenix393 #THE.SOURCE Reeko 1625664464
+[20:13:39] << :NickServ!services@Services.SceneP2P.net NOTICE DarkPhoenix393 :Your nickname is not registered. To register it, use: /msg NickServ REGISTER password email
+[20:13:39] [INFO] [Greys.Anatomy.S22E07] /msg ts-archive|us|p|03799 xdcc send #938
+[20:13:40] >> PRIVMSG ts-archive|us|p|03799 :xdcc send #938
+[20:13:40] << :TheSource!root@The.Source.For.All NOTICE DarkPhoenix393 :[#THE.SOURCE] 10Welcome to #THE.SOURCE | 11Not sure what to do next? Join #THE.LOUNGE for !help !search !latest !passive | 7Join #THE.INSIDERS to setup your TV subscriptions for auto downloads. | Escape the flood. Idle in #THE.SOURCE.NOSPAM instead of #THE.SOURCE to download.
+[20:13:40] << :Ocel0t!Ocel0t@scenep2p-42261BDA.pools.vodafone-ip.de QUIT :Connection closed
+[20:13:40] << :TS-HD|DK|P|69230!root@The.Source.org PRIVMSG #THE.SOURCE :#143 0x [2.1G] 10Under.Suspicion.2000.1080p.BluRay.AC3.x265-cRuci4L.mkv
+[20:13:40] << :Paranoia.SceneP2P.net 531 DarkPhoenix393 TS-ARCHIVE|US|P|03799 :You cannot send messages to users until you've been connected for 120 seconds or more
+[20:13:40] [ERROR] [Greys.Anatomy.S22E07] Server verweigert MSG – 120s Wartezeit nötig, überspringe
+[20:13:40] >> QUIT :bye
+[20:13:40] [INFO] [Greys.Anatomy.S22E07] Versuch 2/15: Greys.Anatomy.S22E07.1080p.HEVC.x265-MeGusta.mkv (irc.abjects.net #moviegods)
+[20:13:40] << :jagged.ca.us.abjects.net NOTICE * :*** Looking up your hostname...
+[20:13:40] << :jagged.ca.us.abjects.net NOTICE * :*** Checking ident...
+[20:13:41] << :jagged.ca.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[20:13:44] << :jagged.ca.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[20:13:44] << PING :FB3CCF4D
+[20:13:46] >> JOIN #moviegods
+[20:13:46] << :jagged.ca.us.abjects.net 396 DragonSlayer487 3A2EBF91.AFB7C0ED.7F20E47C.IP :is now your displayed host
+[20:13:46] << :DragonSlayer487!~DragonSla@3A2EBF91.AFB7C0ED.7F20E47C.IP JOIN :#moviegods
+[20:13:46] << :jagged.ca.us.abjects.net 332 DragonSlayer487 #moviegods : Welcome to #MOVIEGODS - If you are new to this type !help -//- Join #mg-chat to download -//- Join #MG-Lounge for requests/questions/comments/tv-subs/spam free chat -//-  Join #MG-Help for help -//- Donations get VIP perks  -  Join #MG-donations for info
+[20:13:46] << :jagged.ca.us.abjects.net 333 DragonSlayer487 #moviegods katsper!Kat@Sex.With.Leather.Clad.Women.is.Hot 1728068851
+[20:13:46] [INFO] [Greys.Anatomy.S22E07] /msg [mg]-hdtv|eu|s|fruitypebbles xdcc send #719
+[20:13:47] >> PRIVMSG [mg]-hdtv|eu|s|fruitypebbles :xdcc send #719
+[20:13:47] << :[MG]-X265|EU|S|NorthernLights_!~root@FA99A4D5.F8DB83E6.F8D95EFD.IP PRIVMSG #moviegods :#134   1x [382M] DTF.St.Louis.S01E03.The.Go.Getter.720p.HEVC.x265-MeGusta.mkv
+[20:13:47] << :[MG]-APPS|EU|S|Gynoid!~root@C3EF4D55.2D6D11AF.A6FD9088.IP PRIVMSG #moviegods :** To request a file, type "/MSG [MG]-APPS|EU|S|Gynoid XDCC SEND x" **
+[20:13:47] << :[MG]-Request|Bot|Chachy!~root@433448F.2D6D11AF.A6FD9088.IP PRIVMSG #moviegods :** 82 packs **  8 of 10 slots open, Record: 162532.4kB/s
+[20:13:47] << :[MG]-MISC|US|S|Snx5!~root@abjects-5E6002B0.whatbox.ca PRIVMSG #moviegods :#774  0x [400M] The.Ultimatum.Queer.Love.S02E04.720p.HEVC.x265-MeGusta.mkv
+[20:13:47] << :[MG]-HDTV|EU|S|Ramsick!~root@E92A34AB.2D6D11AF.A6FD9088.IP PRIVMSG #moviegods :#3    10x [961M] Chicago.PD.S12E15.GERMAN.DL.720P.WEB.X264-WAYNE.mkv
+[20:13:48] << :[MG]-HDTV|EU|S|FruityPebbles!~root@abjects-E0F9D77D.clients.your-server.de NOTICE DragonSlayer487 :** Invalid pack number #719
+[20:13:48] [INFO] [Greys.Anatomy.S22E07] ** Invalid pack number #719
+[20:13:48] >> QUIT :bye
+[20:13:48] [INFO] [Greys.Anatomy.S22E07] Versuch 3/15: Greys.Anatomy.S22E07.1080p.AMZN.WEB-DL.DDP5.1.H.264-NTb.tar (irc.abandoned-irc.net #zombie-warez)
+[20:13:48] << :chaos.abandoned-irc.net NOTICE * :*** Looking up your hostname...
+[20:13:48] << :chaos.abandoned-irc.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[20:13:50] << PING :8A4F631F
+[20:13:50] >> JOIN #ZW-CHAT
+[20:13:50] >> JOIN #zombie-warez
+[20:13:50] << :chaos.abandoned-irc.net 396 ViperZ022 F10A4199.2A1F7D19.E30ED253.IP :is now your displayed host
+[20:13:50] << :ViperZ022!ViperZ022@F10A4199.2A1F7D19.E30ED253.IP JOIN :#zw-chat
+[20:13:50] << :chaos.abandoned-irc.net 332 ViperZ022 #zw-chat :12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12=[04Searchbot]-[09ONLINE]- Triggers: !help !search !latest !subscriptions !topdl !hot !recommended !movies !music !tv !apps !games !ebook !xxx !mobile | Web: http://www.Abandoned-IRC.net/
+[20:13:50] << :chaos.abandoned-irc.net 333 ViperZ022 #zw-chat lurk3r!jj@zombie.warez 1779866923
+[20:13:50] << :ViperZ022!ViperZ022@F10A4199.2A1F7D19.E30ED253.IP JOIN :#zombie-warez
+[20:13:50] << :chaos.abandoned-irc.net 332 ViperZ022 #zombie-warez :12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12=[04Searchbot]-[09ONLINE]- Join #ZW-CHAT for Search, subscriptions, and chat! | BoxOwners/Rooters Needed | -catcher -bottler
+[20:13:50] << :chaos.abandoned-irc.net 333 ViperZ022 #zombie-warez [ZOMBIE]-LATEST!Abandoned-@zombie.warez 1777966087
+[20:13:50] << :Zombie!ZW@ZoMbIe.WaReZ NOTICE ViperZ022 :[#ZW-CHAT] 12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12= we are looking for experienced ROOTERS/DEDi/BOXOWNERS . interested? use !joinZW
+[20:13:50] [INFO] [Greys.Anatomy.S22E07] /msg zombie-alpha xdcc send #1568
+[20:13:51] >> PRIVMSG zombie-alpha :xdcc send #1568
+[20:13:51] << :Zombie!ZW@ZoMbIe.WaReZ NOTICE ViperZ022 :[#ZOMBIE-WAREZ] 4!!!WARNING!!! YOU MUST IDLE IN #ZW-CHAT - IF YOU ATTEMPT TO DOWNLOAD WITHOUT BEING IN #ZW-CHAT YOU WILL BE BANNED!
+[20:13:51] << :Zombie-Walker!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#37   1x [2.9G] 14Sheriff.Country.S01E08.1080p.WEB.h264-ETHEL.tar
+[20:13:52] << :Zombie-UnifiedCW!Zombie-Uni@Zombie-Bot PRIVMSG #zombie-warez :#384  0x [1.9G] 03front.row.with.megan.burslem.tso.strauss.four.last.songs.2025.1080p.hdtv.h264-cbfm.mkv
+[20:13:52] << :Zombie-LuCy-DiSTRO!bot@Zombie-Bot PRIVMSG #zombie-warez :#210  0x [ 11G] 14Der.Teufel.traegt.Prada.2.2026.German.5.1.Line.Dubbed.1080p.DCPRip.x264-CMN.mkv
+[20:13:52] << :Zombie-Alpha!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#170   0x [3.1G] 03Gogglebox.S06E03.1080i.HDTV.DD2.0.H.264-NTb.tar
+[20:13:52] << :Zombie-Torsie!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#206  0x [ 19G] 03Good.Boy.2025.1080p.Blu-ray.Remux.AVC.DTS-HD.MA.5.1-SPHD.tar
+[20:13:52] << :Zombie-Aura!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#187  1x [759M] 14P!nk.-.Beautiful.Trauma.[Japan.Edition].[2017].[FLAC]-Sc4r3cr0w.tar
+[20:13:52] << :Zombie-Dixon!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#189  0x [1.7G] 03The.Snoopy.Show.S01E04.Happiness.Is.a.Snow.Day.1080p.ATVP.WEB-DL.DDP5.1.Atmos.H.264-NTb.mkv
+[20:13:53] << :Zombie-Blood!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#185   0x [3.1G] 039-1-1.Nashville.S01E09.Pipe.Dreams.1080p.AMZN.WEB-DL.DDP5.1.H.264-NTb.tar
+[20:13:53] << :Zombie-Grimes!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#222   1x [2.0G] 03CIA.2026.S01E04.1080p.WEB.h264-ETHEL.tar
+[20:13:55] << :Zombie-Ferel!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#203  3x [423M] 14Olivia.Newton-John.-.Essentials.[2026].[MP3-320]-Sc4r3cr0w.tar
+[20:13:56] << :Zombie-Walker!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#38   1x [3.0G] 14Fire.Country.S04E08.Fresh.Start.1080p.AMZN.WEB-DL.DDP5.1.H.264-NTb.tar
+[20:13:56] << :Zombie-Alpha!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#171   1x [1.7G] 03Gogglebox.S06E01.1080i.HDTV.DD2.0.H.264-NTb.tar
+[20:13:56] << :Zombie-Torsie!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#207  0x [ 11G] 03Jean.Valjean.2025.1080p.BluRay.DD.5.1.x264-SPHD.tar
+[20:13:56] << :Zombie-LuCy-DiSTRO!bot@Zombie-Bot PRIVMSG #zombie-warez :#211  1x [4.3G] 14Swapped.2026.1080p.NF.WEB-DL.DDP5.1.Atmos.H.264-MWeb.mkv
+[20:13:56] << :Zombie-Aura!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#188  3x [ 10M] 14Driver.Easy.Professional.v7.1.2.0.+.Fix.{CracksHash}.tar
+[20:13:57] << :Zombie-UnifiedCW!Zombie-Uni@Zombie-Bot PRIVMSG #zombie-warez :#385  0x [1.1G] 03girlsoutwest.26.01.17.daisy.chainz.and.eleanor.mp4
+[20:13:57] << :Zombie-EyePopper!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#186  0x [2.0G] 14Formula1.2026.Round00.Bahrain.Test.One.Day.Three.Teds.Notebook.SKYF1UHD.WEBRiP.2160p.H265.DDP5.1.English-MWR.tar
+[20:13:57] << :Zombie-Grimes!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#223   0x [ 12G] 03Zombie.Tidal.Wave.2019.1080P.BLURAY.X264-WATCHABLE.tar
+[20:13:58] << :Zombie-Blood!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#186   1x [1.7G] 03How.To.Ruin.The.Holidays.(2023).1080p.WEBRip.5.1-LAMA.tar
+[20:13:58] << :Zombie-Dixon!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#190  1x [1.6G] 03The.Snoopy.Show.S01E13.Speak.Softly.and.Carry.a.Beagle.1080p.ATVP.WEB-DL.DDP5.1.Atmos.H.264-NTb.mkv
+[20:13:59] << :Zombie-Ferel!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#204  1x [ 12M] 14wallstreetjournal.20260519.TheWallStreetJournal.pdf.tar
+[20:14:00] << :Zombie-Alpha!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#172   0x [3.0G] 03Gogglebox.S06E13.1080i.HDTV.DD2.0.H.264-NTb.tar
+[20:14:00] << :Zombie-Torsie!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#208  0x [ 20G] 03Bao.shui.guan.2026.1080p.Blu-ray.Remux.AVC.FLAC.2.0-SPHD.tar
+[20:14:00] << :Zombie-Grimes!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#224   3x [1.4G] 03The.Rookie.S08E11.1080p.WEB.h264-ETHEL.tar
+[20:14:01] << :Zombie-Blood!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#187  12x [1.5G] 03Mother.Of.Flies.(2025).1080p.WEBRip-LAMA.tar
+[20:14:01] << :Zombie-EyePopper!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#187  0x [1.4G] 14The.Rookies.S02E02.Margin.For.Error.1080p.WEB-DL.AAC2.0.H.264-NTb.tar
+[20:14:01] << :Zombie-Aura!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#189  2x [1.6G] 14P!NK.-.P!NK.[4CD.Special.Edition.Box.Set].[2009].[FLAC]-Sc4r3cr0w.tar
+[20:14:01] << :Zombie-Walker!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#39   0x [1.2G] 14Curious.George.S14E14.The.Great.Train.Birthday.1080p.PCOK.WEB-DL.AAC2.0.H.264-NTb.tar
+[20:14:01] << :Zombie-Dixon!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#191  0x [997M] 03Fire.Country.S04E10.720p.HDTV.x264-SYNCOPY.tar
+[20:14:02] << :Zombie-LuCy-DiSTRO!bot@Zombie-Bot PRIVMSG #zombie-warez :#212  0x [3.1G] 14Remarkably.Bright.Creatures.2026.MULTi.1080p.NF.WEB.DDP5.1.Atmos.H265-SiC.mkv
+[20:14:03] << :Zombie-UnifiedCW!Zombie-Uni@Zombie-Bot PRIVMSG #zombie-warez :#386  1x [2.2G] 03GirlfriendsFilms.26.01.17.Aria.Banks.And.Archer.Ali.XXX.1080p.mp4
+[20:14:03] << :Zombie-Alpha!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#173   1x [3.1G] 03Gogglebox.S06E14.1080i.HDTV.DD2.0.H.264-NTb.tar
+[20:14:04] << :Zombie-Torsie!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#209  0x [ 50G] 03The.Testaments.S01.2160p.DSNP.WEB-DL.DD.5.1.DoVi.H.265-playWEB.tar
+[20:14:05] << :Zombie-Aura!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#190  2x [3.3G] 14Antidote.12.v4.0.3.(x64).+.Fix.{CracksHash}.tar
+[20:14:05] << :Zombie-Ferel!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#205  6x [1.5G] 14Harry.Potter.and.the.Deathly.Hallows.-.Full-Cast.Edition.Audiobook.(2026).-.Stereo.-.mp3.split.chapters.tar
+[20:14:05] << :Zombie-Blood!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#188   6x [397M] 03Megadeth.-.Megadeth.2026.FLAC.16bit.44kHz.tar
+[20:14:05] << :Zombie-Grimes!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#225   1x [688M] 03The.Fall.and.Rise.of.Reggie.Dinkins.S01E05.1080p.WEB.h264-ETHEL.tar
+[20:14:05] << :Zombie-Walker!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#40   2x [882M] 14Ranma.1.2.2024.S02E10.1080p.WEB.h264-QUiNTESSENCE.tar
+[20:14:06] << :Zombie-LuCy-DiSTRO!bot@Zombie-Bot PRIVMSG #zombie-warez :#213  3x [2.9G] 14In.The.Grey.2026.1080p.TS.HEVC.10bit.AAC2.0-LuCY.mkv
+[20:14:06] << :Zombie-EyePopper!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#188  0x [1.4G] 14The.Rookies.S02E11.Down.Home.Boy.1080p.WEB-DL.AAC2.0.H.264-NTb.tar
+[20:14:07] << :Zombie-Alpha!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#174   1x [3.1G] 03Gogglebox.S06E02.1080i.HDTV.DD2.0.H.264-NTb.tar
+[20:14:07] << :Zombie-UnifiedCW!Zombie-Uni@Zombie-Bot PRIVMSG #zombie-warez :#387  0x [2.6G] 03girlcum.26.01.10.amira.mae.waves.of.bliss.mp4
+[20:14:07] << :Zombie-Dixon!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#192  0x [3.3G] 03The.Marvelous.Mrs.Maisel.S02E05.Midnight.at.the.Concord.1080p.AMZN.WEB-DL.DDP5.1.H.264-NTb.mkv
+[20:14:07] << :tritaris!trit_@9D0083ED.E5CC6A86.35867963.IP QUIT :Ping timeout: 180 seconds
+[20:14:08] << :Zombie-Blood!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#189   0x [1.8G] 03Once.Again.(2023).1080p.WEBRip-LAMA.tar
+[20:14:08] << :Zombie-Torsie!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#210  0x [ 25G] 03Half.Man.S01.1080p.AMZN.WEB-DL.DD.5.1.H.264-playWEB.tar
+[20:14:08] << :Zombie-Aura!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#191  3x [1.7G] 14Rough.Cut.1980.1080p.BluRay.HEVC.x265.BONE.mkv.tar
+[20:14:08] << :Zombie-Ferel!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#206  2x [ 43M] 14Computeractive.-.Issue.736.pdf.tar
+[20:14:09] << :Zombie-Grimes!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#226   2x [ 14G] 03After.The.Dark.2013.1080P.BLURAY.X264-WATCHABLE.tar
+[20:14:09] << :Zombie-Walker!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#41   0x [3.2G] 14The.Kitchen.S39E02.1080p.WEB.h264-FREQUENCY.tar
+[20:14:10] << :Zombie-Dixon!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#193  1x [744M] 03Stumble.S01E11.1080p.WEB.h264-ETHEL.tar
+[20:14:11] << :Zombie-EyePopper!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#189  0x [2.5G] 14The.Lincoln.Lawyer.S04E08.Confirmation.Bias.1080p.NF.WEB-DL.DDP5.1.H.264-NTb.tar
+[20:14:11] << :Zombie-Alpha!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#175   1x [3.1G] 03Gogglebox.S06E06.1080i.HDTV.DD2.0.H.264-NTb.tar
+[20:14:12] << :Zombie-UnifiedCW!Zombie-Uni@Zombie-Bot PRIVMSG #zombie-warez :#388  0x [8.5G] 03hookuphotshot.26.01.16.best.of.huhs.volume.8.mp4
+[20:14:12] << :Zombie-LuCy-DiSTRO!bot@Zombie-Bot PRIVMSG #zombie-warez :#214  0x [ 74G] 14Avatar.Fire.and.Ash.2025.2160p.UHD.Remux.HEVC.DoVi.TrueHD.Atmos.7.1-playBD.mkv
+[20:14:12] << :Zombie-Blood!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#190   0x [1.2G] 03Kotaro.Lives.Alone.S01E09.1080p.WEB.h264-QUiNTESSENCE.tar
+[20:14:12] << :Zombie-Ferel!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#207  1x [ 32M] 14[.WebToolTip.com.].Linux.Magazine.USA.-.Issue.307,.June.2026.tar
+[20:14:12] << :Zombie-Walker!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#42   0x [1.9G] 14The.Kitchen.S38E09.1080p.WEB.h265-FREQUENCY.tar
+[20:14:13] << :Zombie-Grimes!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#227   1x [662M] 03St.Denis.Medical.S02E15.1080p.WEB.h264-ETHEL.tar
+[20:14:13] << :Zombie-Torsie!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#211  0x [2.0G] 03Desert.Warrior.2025.1080p.WEB-DL.HEVC.x265.5.1-BONE.tar
+[20:14:13] << :Zombie-Aura!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#192  1x [2.6G] 14Zoolander.Duology.2001,2016.1080p.WEB-DL.HEVC.x265.5.1.BONE.tar
+[20:14:15] << :Zombie-Dixon!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#194  0x [4.2G] 03Formula.1.Drive.to.Survive.S08.1080p.ATVP.WEB-DL.DDP5.1.H.264-NTb.mkv
+[20:14:15] << :Zombie-EyePopper!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#190  0x [3.4G] 14Call.the.Midwife.S07E03.Episode.3.1080p.AMZN.WEB-DL.DDP2.0.H.264-NTb.tar
+[20:14:15] << :Zombie-Alpha!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#176   1x [2.9G] 03McMafia.S01E01.1080p.AMZN.WEB-DL.DDP5.1.H.264-NTb.tar
+[20:14:16] << :Zombie-Grimes!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#228   1x [ 12G] 03Cutterhead.2018.1080P.BLURAY.X264-WATCHABLE.tar
+[20:14:17] << :Zombie-UnifiedCW!Zombie-Uni@Zombie-Bot PRIVMSG #zombie-warez :#389  1x [566M] 03girlsway.26.01.11.charlotte.sins.and.aria.sloane.mp4
+[20:14:17] << :Zombie-LuCy-DiSTRO!bot@Zombie-Bot PRIVMSG #zombie-warez :#215  0x [ 14G] 14Apex.2026.NF.WEB-DL.2160p.X265.DV-HDR10.DDP.5.1.TR-EN.TurkSeeD.mkv
+[20:14:17] << :Zombie-Torsie!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#212  0x [1.1G] 03True.Justice.Eye.for.An.Eye.2026.1080p.WEB-DL.HEVC.x265.5.1-BONE.tar
+[20:14:17] << :Zombie-Blood!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#191   4x [3.3G] 03Gold.Rush.S16E11.Cleaning.Up.in.Vegas.1080p.AMZN.WEB-DL.DDP2.0.H.264-NTb.tar
+[20:14:17] << :Zombie-Walker!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#43   0x [ 11G] 14UFC.on.ESPN.73.Brandon.Royval.vs.Manel.Kape.1080p.HDTV.H264-Star.mp4.tar
+[20:14:18] << :Zombie-Aura!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#193  1x [6.1G] 14Bridget.Jones.Collection.1-4.2001-2025.1080p.WEB-DL.HEVC.x265.5.1.BONE.tar
+[20:14:19] << :Zombie-Alpha!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#177   1x [3.0G] 03Gogglebox.S06E08.1080i.HDTV.DD2.0.H.264-NTb.tar
+[20:14:19] << :Zombie-Ferel!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#208  6x [1.4G] 14Harry.Potter.and.the.Half-Blood.Prince.-.Full-Cast.Edition.Audiobook.(2026).-.Stereo.-.mp3.split.chapters.tar
+[20:14:19] << :Zombie-Dixon!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#195  3x [1.8G] 03Thunderbirds.Are.Go.1966.1080p.BluRay.x264.AAC.5.1-RARBG.tar
+[20:14:20] << :Zombie-Grimes!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#229  11x [4.2G] 03Scream.7.2026.1080p.WEB-DL.AAC.5.1.H264-UNiON.tar
+[20:14:20] << :Zombie-EyePopper!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#191  0x [1.4G] 14The.Rookies.S01E15.Tarnished.Idol.1080p.WEB-DL.AAC2.0.H.264-NTb.tar
+[20:14:21] << :Zombie-LuCy-DiSTRO!bot@Zombie-Bot PRIVMSG #zombie-warez :#216  0x [8.0G] 14Finche.Morte.Non.Ci.Separi.2.2026.iTA-ENG.WEB-DL.1080p.x264-CYBER.mkv
+[20:14:21] << :Zombie-Walker!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#44   0x [2.8G] 14Tracker.2024.S03E09.1080p.WEB.h264-ETHEL.tar
+[20:14:22] << :Zombie-Alpha!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#178   1x [4.1G] 03Gogglebox.S06E05.1080i.HDTV.DD2.0.H.264-NTb.tar
+[20:14:22] << :Zombie-Ferel!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#209  2x [ 66M] 14PC.Quest.-.May.2026.pdf.tar
+[20:14:22] << :Zombie-Aura!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#194  2x [1.4G] 14Led.Zeppelin.-.Physical.Presence.[2026].[FLAC]-Sc4r3cr0w.tar
+[20:14:22] << :Zombie-Torsie!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#213  0x [8.2G] 03It.Was.Just.an.Accident.2025.MULTi.VFi.1080p.WEBRip.AC3.5.1.H264-LiHDL.tar
+[20:14:23] << :Zombie-UnifiedCW!Zombie-Uni@Zombie-Bot PRIVMSG #zombie-warez :#390  1x [379M] 03ilovepov.26.01.12.lesya.moon.passionate.quickie.with.lesya.mp4
+[20:14:23] << :Zombie-Blood!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#192   1x [3.4G] 03David.Attenborough_s.Global.Adventure.S01E03.The.Rise.of.Nature.1080p.AMZN.WEB-DL.DD.2.0.H.264-NTb.tar
+[20:14:23] << :Zombie-Dixon!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#196  0x [8.3G] 03WWE.SmackDown.2026.02.27.1080p.WEB.h264-HEEL.mkv.tar
+[20:14:23] << :[ZOMBIE]-LATEST!Abandoned-@zombie.warez PRIVMSG #zw-chat :12,1»15 This week's11 #5 15most popular search -09 Disclosure.Day14 (28x) 12» 
+[20:14:24] << :Zombie-Grimes!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#230   5x [2.5G] 03Shrinking.S03E08.1080p.WEB.h264-ETHEL.tar
+[20:14:24] << :Zombie-EyePopper!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#192  0x [3.6G] 14Halo.S01E01.Contact.1080p.AMZN.WEB-DL.DDP5.1.H.264-NTb.tar
+[20:14:25] << :Zombie-Walker!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#45   0x [838M] 14Fresh.Off.the.Boat.S02E20.Hi.My.Name.Is.1080p.WEB-DL.DD5.1.H.264-NTb.tar
+[20:14:26] << :Zombie-Torsie!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#214  0x [6.8G] 03Reckless.2026.1080p.AMZN.WEB-DL.H264.SDR.DDP.5.1.English.--HONE.tar
+[20:14:26] << :Zombie-Alpha!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#179   1x [3.1G] 03Gogglebox.S06E11.1080i.HDTV.DD2.0.H.264-NTb.tar
+[20:14:27] << :Zombie-UnifiedCW!Zombie-Uni@Zombie-Bot PRIVMSG #zombie-warez :#391  0x [1.1G] 03hardx.26.01.17.melztube.mp4
+[20:14:27] << :Zombie-LuCy-DiSTRO!bot@Zombie-Bot PRIVMSG #zombie-warez :#217  2x [1.3G] 14Mortal.Kombat.II.2026.1080p.HDTS.HEVC.10bit.AAC2.0-LuCY.mkv
+[20:14:27] << :Zombie-Aura!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#195  4x [579M] 14Evanescence.-.The.Bitter.Truth.[2CD].[Limited.Edition].[2021].[FLAC]-Sc4r3cr0w.tar
+[20:14:28] << :Zombie-Grimes!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#231   1x [3.6G] 03Imperfect.Women.S01E01.1080p.WEB.h264-ETHEL.tar
+[20:14:28] << :Zombie-Blood!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#193  17x [554M] 03OnlyFans.-.Lena.the.Plug.-.Girthmasterr.Stretches.Lena.the.Plug.Out.rq.mp4.tar
+[20:14:28] << :Zombie-Ferel!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#210  6x [2.0G] 14Harry.Potter.and.the.Order.of.the.Phoenix.-.Full-Cast.Edition.Audiobook.(2026).-.Stereo.-.mp3.split.chapters.tar
+[20:14:28] << :Zombie-Dixon!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#197  0x [1.6G] 039-1-1.Nashville.S01E11.Don.Begins.1080p.DSNP.WEB-DL.DDP5.1.H.264-NTb.mkv
+[20:14:29] << :Zombie-Torsie!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#215  0x [4.8G] 03Collision.Course-TENOKE.tar
+[20:14:30] << :Zombie-LuCy-DiSTRO!bot@Zombie-Bot PRIVMSG #zombie-warez :#218  1x [7.0G] 14US.Marshals.1998.1080p.DVD.Upscale.HEVC-LuCY.mkv
+[20:14:30] << :Zombie-EyePopper!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#193  0x [1.7G] 14Life.In.Pieces.S03E02.Bunny.Single.Nightmare.Drinking.1080p.AMZN.WEB-DL.DDP5.1.H.264-NTb.tar
+[20:14:30] << :Zombie-Alpha!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#180   1x [3.1G] 03Gogglebox.S06E12.1080i.HDTV.DD2.0.H.264-NTb.tar
+[20:14:31] << :Zombie-Aura!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#196  3x [266M] 14Tears.For.Fears.-.The.Hurting.(Remastered).(1983).FLAC.88.tar
+[20:14:31] << :Zombie-Grimes!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#232   2x [3.5G] 03Imperfect.Women.S01E02.1080p.WEB.h264-ETHEL.tar
+[20:14:31] << :Zombie-Walker!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#46   0x [2.8G] 14Sister.Wives.S20E12.What.If.We.Worked.This.Out.1080p.AMZN.WEB-DL.DDP2.0.H.264-NTb.tar
+[20:14:32] << :Zombie-Dixon!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#198  0x [3.3G] 03Love.Island.S05E11.1080p.AMZN.WEB-DL.DDP2.0.H.264-NTb.mkv
+[20:14:33] << :Zombie-UnifiedCW!Zombie-Uni@Zombie-Bot PRIVMSG #zombie-warez :#392  0x [1.4G] 03gloryholesecrets.26.01.12.satine.summers.fourth.glory.hole.pov.mp4
+[20:14:33] << :Zombie-Blood!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#194   0x [1.9G] 03The.Masked.Singer.S06E12.Group.B.Finale.1080p.HULU.WEB-DL.DDP5.1.H.264-NTb.tar
+[20:14:34] << :Zombie-Torsie!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#216  0x [7.2G] 03Under.Fire.2025.MULTi.VFi.1080p.WEBRip.AC3.5.1.H264-LiHDL.tar
+[20:14:34] << :Zombie-EyePopper!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#194  0x [1.0G] 14Charlie.Brookers.Weekly.Wipe.S03E01.1080i.HDTV.H.264.DD2.0-NTb.tar
+[20:14:34] << :Zombie-Alpha!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#181   1x [3.0G] 03McMafia.S01E08.1080p.AMZN.WEB-DL.DDP5.1.H.264-NTb.tar
+[20:14:34] << :Zombie-Ferel!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#211  5x [743M] 14Harry.Potter.and.the.Chamber.of.Secrets.-.Full-Cast.Edition.Audiobook.(2025).-.Stereo.-.mp3.split.chapters.tar
+[20:14:34] << :Zombie-Walker!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#47   0x [2.9G] 14FBI.S08E10.1080p.WEB.h264-ETHEL.tar
+[20:14:35] << :Zombie-Grimes!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#233   3x [2.5G] 03NCIS.S23E12.1080p.WEB.h264-ETHEL.tar
+[20:14:35] << :Zombie-LuCy-DiSTRO!bot@Zombie-Bot PRIVMSG #zombie-warez :#219  0x [4.3G] 14Mouse.Hunt.1997.1080p.DVD.Upscale.HEVC-LuCY.mkv
+[20:14:36] << :Zombie-Aura!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#197  4x [446M] 14Evanescence.-.Evanescence.[Deluxe.Version].[2014].[FLAC]-Sc4r3cr0w.tar
+[20:14:37] << :Zombie-UnifiedCW!Zombie-Uni@Zombie-Bot PRIVMSG #zombie-warez :#393  0x [384M] 03gloryholesecrets.26.01.17.cum.compilation.mp4
+[20:14:37] << :Dr-Doccy!Dr-Doccy@Abandoned-48D9D8CA.cable.virginm.net PRIVMSG #zw-chat :!boxset
+[20:14:37] << :Zombie-Blood!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#195   0x [3.0G] 03Chicago.Med.S11E09.1080p.AMZN.WEB-DL.DDP5.1.H.264-NTb.tar
+[20:14:38] << :Zombie-EyePopper!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#195  0x [3.8G] 14Californication.S04E10.1080p.BluRay.DD5.1.x264-NTb.tar
+[20:14:38] << :Zombie-Alpha!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#182   1x [3.1G] 03Gogglebox.S06E15.1080i.HDTV.DD2.0.H.264-NTb.tar
+[20:14:38] << :Zombie-Torsie!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#217  0x [9.3G] 03Mardaani.3.2026.MULTi.VFi.1080p.WEBRip.AC3.5.1.H264-LiHDL.tar
+[20:14:38] << :Zombie-Grimes!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#234   2x [2.4G] 03NCIS.Origins.S02E11.1080p.WEB.h264-ETHEL.tar
+[20:14:38] << :Zombie-Dixon!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#199 14x [1.4G] 03OnlyFans.2026.ShinraTensei98.And.Laylaastar.Aka.Stefania.Meloni.Layla.Star.New.Threesome.XXX.1080p.MP4-P2P[XC].tar
+[20:14:39] << :Zombie-Walker!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#48   3x [684M] 14Bobs.Burgers.S16E09.Its.a.Stunterful.Life.1080p.DSNP.WEB-DL.DDP5.1.H.264-NTb.tar
+[20:14:40] << :Zombie-Ferel!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#212  4x [1.5G] 14Harry.Potter.and.the.Goblet.of.Fire.-.Full-Cast.Edition.Audiobook.(2026).-.Stereo.-.mp3.split.chapters.tar
+[20:14:40] << :Zombie-Aura!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#198  2x [411M] 14Evanescence.-.Synthesis.[2017].[FLAC]-Sc4r3cr0w.tar
+[20:14:41] << :Zombie-Alpha!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#183   1x [3.1G] 03Gogglebox.S06E04.1080i.HDTV.DD2.0.H.264-NTb.tar
+[20:14:41] << :Zombie-LuCy-DiSTRO!bot@Zombie-Bot PRIVMSG #zombie-warez :#220  1x [836M] 14Space.Ranger.New.Worlds.2026.1080p.WEBRip.HEVC.10bit.AAC2.0-LuCY.mkv
+[20:14:42] << :Zombie-Blood!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#196   3x [5.8G] 03Cinerama.Holiday.1955.1080p.Bluray.Opus.5.1.x264-RetroPeeps.tar
+[20:14:42] << :Zombie-Torsie!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#218  3x [1.9G] 03Pegasus.3.2026.1080p.IQ.WEB-DL.H.264.AAC-UBWEB.tar
+[20:14:42] << :Zombie-Grimes!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#235   2x [2.8G] 03NCIS.Sydney.S03E11.1080p.WEB.h264-ETHEL.tar
+[20:14:43] << :Zombie-UnifiedCW!Zombie-Uni@Zombie-Bot PRIVMSG #zombie-warez :#394  0x [4.9G] 03in.the.heat.of.the.night.s01e03.multi.1080p.web.h264-ukdtv.mkv
+[20:14:43] << :Zombie-Aura!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#199  0x [6.0G] 14James.Bond.Audiobook.Collection.tar
+[20:14:43] << :Zombie-Dixon!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#200  0x [2.7G] 03Vanderpump.Rules.S12E12.1080p.AMZN.WEB-DL.DDP2.0.H.264-NTb.mkv
+[20:14:43] << :Zombie-Walker!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#49   1x [522M] 14The.Curse.of.Oak.Island.S02E05.iNTERNAL.720p.HEVC.x265-MeGusta.tar
+[20:14:44] << :Zombie-EyePopper!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#196  0x [1.1G] 14Designing.Women.S03E01.Reservations.For.12.Plus.Ursula.1080p.DSNP.WEB-DL.AAC2.0.H.264-NTb.tar
+[20:14:44] << :Zombie-Ferel!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#213  3x [ 84M] 14Drake.-.Habibti.Hip-Hop.R&B.(2026).320.kbps.Beats⭐.tar
+[20:14:45] << :Zombie-Alpha!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#184   1x [3.1G] 03Gogglebox.S06E07.1080i.HDTV.DD2.0.H.264-NTb.tar
+[20:14:46] << :Zombie-LuCy-DiSTRO!bot@Zombie-Bot PRIVMSG #zombie-warez :#221  1x [1.5G] 14Surviving.Silence.2026.1080p.SCR.HEVC.10bit-LuCY.mkv
+[20:14:46] << :Zombie-Torsie!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#219  0x [ 10G] 03Meadowlarks.2025.2160p.AMZN.WEB-DL.DDP5.1.H.265-Kitsune.tar
+[20:14:46] << :Zombie-Grimes!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#236   3x [1.3G] 03Invincible.2021.S04E02.1080p.WEB.h264-ETHEL.tar
+[20:14:47] << :Zombie-Aura!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#200  2x [2.8G] 14Battered.1978.1080p.WEBRip.AAC2.0.x264-PLiSSKEN.mkv.tar
+[20:14:47] << :Zombie-Blood!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#197   0x [2.1G] 03Ilha.da.Tentacao.Brasil.S01E05.1080p.ANTP.WEB-DL.AAC2.0.H.264-playWEB.tar
+[20:14:47] << :Zombie-Dixon!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#201  1x [1.4G] 03Chris.Fleming.Live.At.The.Palace.(2026).1080p.WEBRip.5.1-LAMA.tar
+[20:14:48] << :Zombie-UnifiedCW!Zombie-Uni@Zombie-Bot PRIVMSG #zombie-warez :#395  0x [4.6G] 03in.the.heat.of.the.night.s01e06.multi.1080p.web.h264-ukdtv.mkv
+[20:14:48] << :Zombie-EyePopper!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#197  1x [8.0G] 14AEW.Grand.Slam.Australia.2026.1080p.WEBRip.H264-Star.mp4.tar
+[20:14:49] << :Zombie-Walker!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#50   1x [1.4G] 14House.Hunters.International.S203E08.Complete.Life.Reset.in.Tulum.Mexico.1080p.WEB.h264-FREQUENCY.tar
+[20:14:49] << :Zombie-Grimes!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#237   1x [1.5G] 03Will.Trent.S04E11.1080p.WEB.h264-ETHEL.tar
+[20:14:50] << :Zombie-Torsie!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#220  0x [ 42G] 03Alias.COMPLETE.SERIES.3.DVDR.NORDIC.PAL-TD.Exclusive.tar
+[20:14:51] << :Zombie-Alpha!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#185   1x [648M] 03Dimension.20s.Adventuring.Party.S22E06.Spinch.Party.Kill.1080p.DRPO.WEB-DL.AAC2.0.H.264-NTb.tar
+[20:14:51] << :Zombie-LuCy-DiSTRO!bot@Zombie-Bot PRIVMSG #zombie-warez :#222  0x [3.7G] 14Unbreakable.2000.1080p.DVD.Upscale.HEVC-LuCY.mkv
+[20:14:51] << :Zombie-Blood!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#198   0x [2.7G] 03Home.Town.S10E04.City.Siblings.1080p.AMZN.WEB-DL.DDP2.0.H.264-NTb.tar
+[20:14:51] << :Zombie-Ferel!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#214  4x [907M] 14Harry.Potter.and.the.Prisoner.of.Azkaban.-.Full-Cast.Edition.Audiobook.(2026).-.Stereo.-.mp3.split.chapters.tar
+[20:14:51] << :Zombie-Aura!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#201  2x [2.3G] 14Battered.2021.1080p.AMZN.WEBRip.DDP2.0.x264-BobDobbs.mkv.tar
+[20:14:52] [ERROR] [Greys.Anatomy.S22E07] Timeout – Bot hat nicht geantwortet
+[20:14:52] >> QUIT :bye
+[20:14:52] [INFO] [Greys.Anatomy.S22E07] Versuch 4/15: Greys.Anatomy.S22E07.1080p.AMZN.WEB-DL.DDP5.1.H.264-NTb.tar (irc.abandoned-irc.net #zombie-warez)
+[20:14:52] << :hawk.abandoned-irc.net NOTICE * :*** Looking up your hostname...
+[20:14:54] << :hawk.abandoned-irc.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[20:14:54] << PING :9EF94ED3
+[20:14:54] >> JOIN #ZW-CHAT
+[20:14:54] >> JOIN #zombie-warez
+[20:14:54] << :hawk.abandoned-irc.net 396 SilentSniper841 F10A4199.2A1F7D19.E30ED253.IP :is now your displayed host
+[20:14:54] << :SilentSniper841!SilentSnip@F10A4199.2A1F7D19.E30ED253.IP JOIN :#zw-chat
+[20:14:54] << :hawk.abandoned-irc.net 332 SilentSniper841 #zw-chat :12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12=[04Searchbot]-[09ONLINE]- Triggers: !help !search !latest !subscriptions !topdl !hot !recommended !movies !music !tv !apps !games !ebook !xxx !mobile | Web: http://www.Abandoned-IRC.net/
+[20:14:54] << :hawk.abandoned-irc.net 333 SilentSniper841 #zw-chat lurk3r!jj@zombie.warez 1779866923
+[20:14:55] << :Zombie!ZW@ZoMbIe.WaReZ NOTICE SilentSniper841 :[#ZW-CHAT] 12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12= we are looking for experienced ROOTERS/DEDi/BOXOWNERS . interested? use !joinZW
+[20:14:55] << :SilentSniper841!SilentSnip@F10A4199.2A1F7D19.E30ED253.IP JOIN :#zombie-warez
+[20:14:55] << :hawk.abandoned-irc.net 332 SilentSniper841 #zombie-warez :12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12=[04Searchbot]-[09ONLINE]- Join #ZW-CHAT for Search, subscriptions, and chat! | BoxOwners/Rooters Needed | -catcher -bottler
+[20:14:55] << :hawk.abandoned-irc.net 333 SilentSniper841 #zombie-warez [ZOMBIE]-LATEST!Abandoned-@zombie.warez 1777966087
+[20:14:55] << :Zombie!ZW@ZoMbIe.WaReZ NOTICE SilentSniper841 :[#ZOMBIE-WAREZ] 4!!!WARNING!!! YOU MUST IDLE IN #ZW-CHAT - IF YOU ATTEMPT TO DOWNLOAD WITHOUT BEING IN #ZW-CHAT YOU WILL BE BANNED!
+[20:14:55] [INFO] [Greys.Anatomy.S22E07] /msg zombie-alpha xdcc send #1688
+[20:14:56] >> PRIVMSG zombie-alpha :xdcc send #1688
+[20:14:56] << :Zombie-Alpha!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#186   0x [3.1G] 03McMafia.S01E07.1080p.AMZN.WEB-DL.DDP5.1.H.264-NTb.tar
+[20:14:56] << :Zombie-Torsie!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#221  7x [121M] 03VA.-.Top.Dance.Hits.Vol.9.(Viral.Trending.Remixes).(Sped.Up)-(9361385256064)-WEB-2026-ZzZz.tar
+[20:14:56] << :Zombie-Blood!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#199   0x [8.8G] 03Emanuelle.Worlds.Intrigue.In.Manila.2025.1080P.BLURAY.X264-WATCHABLE.tar
+[20:14:56] << :Zombie-Aura!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#202  1x [6.8G] 14WWE.Friday.Night.Smackdown.S28E23.Netflix.2026-06-05.1080p.60FPS.AVCHD-SC-SDH.tar
+[20:14:56] << :Zombie-LuCy-DiSTRO!bot@Zombie-Bot PRIVMSG #zombie-warez :#223  2x [1.0G] 14Lupin.III.The.Fuma.Conspiracy.1987.DVD.720.x265.DA.AC3.mkv
+[20:14:56] << :Zombie-Walker!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#51   0x [1.4G] 14Percy.Jackson.and.the.Olympians.S02E03.We.Board.the.Princess.Andromeda.1080p.DSNP.WEB-DL.DDP5.1.H.264-NTb.tar
+[20:14:56] << :Zombie-Dixon!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#203  0x [2.6G] 03Killing.Eve.S02.1080p.AMZN.WEB-DL.DDP5.1.H.264-NTb.mkv
+[20:14:57] << :Zombie-Ferel!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#215  7x [678M] 14Harry.Potter.and.the.Philosopher’s.Stone.-.Full-Cast.Edition.(2025).-.Stereo.-.mp3.split.chapters.tar
+[20:14:57] << :Zombie-Grimes!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#239   5x [1.5G] 03High.Potential.S02E15.1080p.WEB.h264-ETHEL.tar
+[20:14:58] << :Zombie-EyePopper!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#199  0x [1.8G] 14Bewitched.S08E17.Serenas.Richcraft.1080p.AMZN.WEB-DL.DDP2.0.H.264-NTb.tar
+[20:14:59] << :Zombie-UnifiedCW!Zombie-Uni@Zombie-Bot PRIVMSG #zombie-warez :#397  0x [9.3G] 03in.the.heat.of.the.night.s01e01-e02.multi.1080p.web.h264-ukdtv.mkv
+[20:15:00] << :Zombie-Grimes!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#240   1x [1.5G] 03Invincible.2021.S04E03.1080p.WEB.h264-ETHEL.tar
+[20:15:00] << :Zombie-Alpha!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#187   0x [2.1G] 03Now.Apocalypse.S01E04.The.Downward.Spiral.1080p.AMZN.WEB-DL.DDP5.1.H.264-NTb.tar
+[20:15:00] << :Zombie-Blood!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#200   0x [2.9G] 03Law.and.Order.S25E11.1080p.AMZN.WEB-DL.DDP5.1.H.264-NTb.tar
+[20:15:00] << :Zombie-Aura!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#203  2x [ 92M] 14MediaHuman.YouTube.Downloader.3.9.20.(0106).(x64).tar
+[20:15:00] << :Zombie-Walker!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#52   0x [1.5G] 14Cheap.Ass.Beach.Houses.S01E06.1080p.WEB.h264-FREQUENCY.tar
+[20:15:01] << :Zombie-Torsie!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#222  3x [141M] 03VA.-.DJ.Party.Mixes.Vol.9.(Remixed.and.Reloaded)-(9361385256033)-WEB-2026-ZzZz.tar
+[20:15:01] << :Zombie-Dixon!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#204  0x [2.2G] 03Killing.Eve.S02E05.Smell.Ya.Later.1080p.AMZN.WEB-DL.DDP5.1.H.264-NTb.1.mkv
+[20:15:02] << :Zombie-Ferel!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#216  1x [320M] 14Jimi.Hendrix.-.Valley.of.Jams.1969-1970.[Vinyl].[2026].[MP3-320]-Sc4r3cr0w.tar
+[20:15:02] << :Zombie-LuCy-DiSTRO!bot@Zombie-Bot PRIVMSG #zombie-warez :#224  1x [2.6G] 14The.Super.Mario.Galaxy.Movie.2026.1080p.iNT.HEVC.10bit.AAC-LuCY.mkv
+[20:15:03] << :Zombie-Walker!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#53   1x [1.4G] 14Emily.in.Paris.S05E04.1080p.WEB.h264-ETHEL.tar
+[20:15:04] << :Zombie-Aura!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#204  1x [111M] 14Orgy.-.Candyass.(1992).[Mp3].[320kbps].[suffo].tar
+[20:15:04] << :Zombie-Grimes!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#241   2x [1.6G] 03Invincible.2021.S04E01.1080p.WEB.h264-ETHEL.tar
+[20:15:04] << :Zombie-EyePopper!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#200  0x [1.8G] 14Bewitched.S08E01.How.Not.to.Lose.Your.Head.to.Henry.VIII.Part.I.1080p.AMZN.WEB-DL.DDP2.0.H.264-NTb.tar
+[20:15:05] << :Zombie-UnifiedCW!Zombie-Uni@Zombie-Bot PRIVMSG #zombie-warez :#398  0x [9.0G] 03in.the.heat.of.the.night.s02e01-e02.multi.1080p.web.h264-ukdtv.mkv
+[20:15:05] << :Zombie-Blood!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#201   0x [3.6G] 03PONIES.S01E02.Hanging.on.the.Telephone.1080p.AMZN.WEB-DL.DDP5.1.H.264-NTb.tar
+[20:15:05] << :Zombie-Alpha!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#188   0x [2.1G] 03Now.Apocalypse.S01E05.Stranger.Than.Paradise.1080p.AMZN.WEB-DL.DDP5.1.H.264-NTb.tar
+[20:15:06] << :Zombie-Ferel!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#217  3x [ 14M] 14wallstreetjournal.20260521.TheWallStreetJournal.pdf.tar
+[20:15:06] << :Zombie-Torsie!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#223  2x [122M] 03VA.-.DJ.Party.Mixes.Vol.9.(Remixed.and.Reloaded).(Sped.Up)-(9361385256040)-WEB-2026-ZzZz.tar
+[20:15:07] << :Zombie-LuCy-DiSTRO!bot@Zombie-Bot PRIVMSG #zombie-warez :#225  0x [5.0G] 14The.Punisher.One.Last.Kill.2026.German.DL.EAC3.2160p.DV.HDR.DSNP.WEB.H265-WAREZCX.mkv
+[20:15:07] << :Zombie-Walker!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#54   0x [3.6G] 14Power.Book.IV.Force.S03E07.1080p.WEB.h264-ETHEL.tar
+[20:15:07] << :Zombie-Dixon!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#205  0x [3.1G] 03Private.Practice.S01E08.In.Which.Cooper.Finds.a.Port.In.His.Storm.1080p.AMZN.WEB-DL.DDP5.1.H.264-NTb.mkv
+[20:15:08] << :Zombie-Aura!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#205  1x [318M] 14Sugar.Ray.[discography].[Mp3].[320kbps].[suffo].tar
+[20:15:08] << :Zombie-Grimes!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#242   1x [1.7G] 03R.J.Decker.S01E03.1080p.WEB.h264-ETHEL.tar
+[20:15:09] << :Zombie-UnifiedCW!Zombie-Uni@Zombie-Bot PRIVMSG #zombie-warez :#399  0x [4.6G] 03in.the.heat.of.the.night.s02e03.multi.1080p.web.h264-ukdtv.mkv
+[20:15:09] << :Zombie-EyePopper!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#201  0x [1.8G] 14Bewitched.S08E10.Hansel.and.Gretel.in.Samanthaland.1080p.AMZN.WEB-DL.DDP2.0.H.264-NTb.tar
+[20:15:09] << :Zombie-Blood!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#202   0x [4.1G] 03Sketch.(2024).2160p.4K.WEB.5.1-LAMA.tar
+[20:15:09] << :Zombie-Alpha!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#189   1x [1.4G] 03Because.Of.Cupid.(2026).1080p.WEBRip-LAMA.tar
+[20:15:10] << :Zombie-Torsie!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#224  3x [134M] 03VA.-.House.Charts.2026-(DH535)-WEB-2026-ZzZz.tar
+[20:15:10] << :Zombie-Ferel!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#218  1x [2.2G] 14AEW.Dynamite.2026.05.20.MAX.720p.WEBRip.h264-HEEL.mp4.tar
+[20:15:11] << :Zombie-Grimes!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#243   5x [950M] 03Scrubs.2026.S01E05.1080p.WEB.h264-ETHEL.tar
+[20:15:12] << :Zombie-Aura!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#206  1x [1.4G] 14TOOL.[discography].[Mp3].[320kbps].[suffo].tar
+[20:15:12] << :Zombie-LuCy-DiSTRO!bot@Zombie-Bot PRIVMSG #zombie-warez :#226  2x [4.3G] 14Der.Astronaut.Project.Hail.Mary.2026.German.AC3.DL.1080p.WEB.x265-WM3.mkv
+[20:15:12] << :Zombie-Dixon!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#206  0x [3.0G] 03Private.Practice.S02E15.Acceptance.1080p.AMZN.WEB-DL.DDP5.1.H.264-NTb.mkv
+[20:15:12] << :Zombie-Walker!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#55   0x [1.2G] 14After.Life.S01E06.Episode.6.1080p.NF.WEB-DL.DDP5.1.x264-NTG.tar
+[20:15:13] << :Zombie-Alpha!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#190   3x [1.3G] 03The.Bigfoot.Prophecy.(2024).1080p.WEBRip-LAMA.tar
+[20:15:14] << :Zombie-Ferel!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#219  4x [179M] 14The.New.York.Times.Best.Sellers.-.May.31,.2026.(Nonfiction).tar
+[20:15:14] << :Zombie-EyePopper!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#202  0x [1.8G] 14Bewitched.S06E27.If.the.Shoe.Pinches.1080p.AMZN.WEB-DL.DDP2.0.H.264-NTb.tar
+[20:15:14] << :Zombie-Blood!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#203   2x [3.0G] 03Brilliant.Minds.S02E13.The.Rabbit.Hole.1080p.AMZN.WEB-DL.DDP5.1.H.264-NTb.tar
+[20:15:15] << :Zombie-UnifiedCW!Zombie-Uni@Zombie-Bot PRIVMSG #zombie-warez :#400  0x [4.9G] 03in.the.heat.of.the.night.s01e07.multi.1080p.web.h264-ukdtv.mkv
+[20:15:15] << :Zombie-Grimes!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#244   1x [950M] 03Abbott.Elementary.S05E16.1080p.WEB.h264-ETHEL.tar
+[20:15:15] << :Zombie-Walker!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#56   0x [1.3G] 14Its.Florida.Man.S02E04.1080p.WEB.h264-ETHEL.tar
+[20:15:15] << :Zombie-Torsie!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#225  5x [139M] 03VA.-.Top.Dance.Hits.Vol.9.(Viral.Trending.Remixes)-(9361385256057)-WEB-2026-ZzZz.tar
+[20:15:16] << :Zombie-Alpha!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#191   4x [1.7G] 03Suffer.(2025).1080p.WEBRip.5.1-LAMA.tar
+[20:15:16] << :Zombie-Aura!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#207  3x [548M] 14Matchbox.Twenty.[discography].[Mp3].[320kbps].[suffo].tar
+[20:15:17] << :Zombie-LuCy-DiSTRO!bot@Zombie-Bot PRIVMSG #zombie-warez :#227  1x [8.9G] 14Mortal.Kombat.II.2026.German.5.1.AC3.MD.1080p.DCPRip.x264-LiNEUP.mkv
+[20:15:17] << :Zombie-Dixon!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#207  0x [3.1G] 03Private.Practice.S02E21.What.You.Do.For.Love.1080p.AMZN.WEB-DL.DDP5.1.H.264-NTb.mkv
+[20:15:18] << :Zombie-Blood!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#204   9x [1.6G] 03The.Rookie.S08E04.Cut.and.Run.1080p.DSNP.WEB-DL.DDP5.1.H.264-NTb.tar
+[20:15:19] << :Zombie-UnifiedCW!Zombie-Uni@Zombie-Bot PRIVMSG #zombie-warez :#401  0x [4.5G] 03in.the.heat.of.the.night.s02e04.multi.1080p.web.h264-ukdtv.mkv
+[20:15:19] << :Zombie-Grimes!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#245   1x [2.0G] 03Beauty.in.Black.S02E11.1080p.WEB.h264-ETHEL.tar
+[20:15:19] << :Zombie-Torsie!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#226  1x [ 22G] 03IRON.LUNG.2026.2160p.PLAY.WEB-DL.DDP5.1.HDR.H.265-SCOPE.tar
+[20:15:19] << :Zombie-EyePopper!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#203  0x [1.8G] 14Bewitched.S05E21.Marriage.Witches.Style.1080p.AMZN.WEB-DL.DDP2.0.H.264-NTb.tar
+[20:15:19] << :Zombie-Ferel!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#220  1x [140M] 14TAKE.ME.TO.YOUR.LEADER.by.Neil.deGrasse.Tyson.(Audiobook)(Nonfiction).mp3.tar
+[20:15:19] << :Zombie-Walker!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#57   0x [809M] 14Stumble.S01E06.1080p.WEB.h264-ETHEL.tar
+[20:15:20] << :Zombie-Aura!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#208  2x [128M] 14Lifehouse.-.No.Name.Face.(2000).[Mp3].[320kbps].[suffo].tar
+[20:15:20] << :Zombie-Alpha!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#192   1x [1.4G] 03Love.On.The.Danube.Kissing.Stars.(2024).1080p.WEBRip-LAMA.tar
+[20:15:20] << :Zombie-LuCy-DiSTRO!bot@Zombie-Bot PRIVMSG #zombie-warez :#228  1x [1.7G] 14Normal.2025.1080p.WEBRip.x264.AAC5.1-LAMA.mp4
+[20:15:21] << :Zombie-Dixon!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#208  2x [2.5G] 033rd.Reich.Hitlers.UFOs.and.the.Nazis.Most.Powerful.Weapon.mp4.tar
+[20:15:22] << :Zombie-Blood!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#205   8x [2.0G] 03David.(2025).1080p.WEBRip.5.1-LAMA.tar
+[20:15:23] << :Zombie-Grimes!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#246   0x [2.0G] 03Beauty.in.Black.S02E09.1080p.WEB.h264-ETHEL.tar
+[20:15:23] << :Zombie-Ferel!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#221  2x [379M] 14Ariana.Grande.-.Essentials.[2026].[MP3-320]-Sc4r3cr0w.tar
+[20:15:23] << :Zombie-Walker!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#58   0x [1.8G] 14Secrets.in.the.Sand.S02E08.1080p.WEB.h264-FREQUENCY.tar
+[20:15:24] << :Zombie-EyePopper!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#204  0x [1.8G] 14Bewitched.S05E25.Samanthas.Power.Failure.1080p.AMZN.WEB-DL.DDP2.0.H.264-NTb.tar
+[20:15:24] << :Zombie-Alpha!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#193   1x [1.4G] 03The.Perfect.Killer.(2025).1080p.WEBRip-LAMA.tar
+[20:15:24] << :Zombie-Torsie!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#227  3x [ 21G] 03Protector.2026.BluRay.1080p.ReMuX.AVC.DTS-HD.MA.5.1-RFX.mkv.tar
+[20:15:24] << :Zombie-Aura!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#209  2x [683M] 14Marcy.Playground.[discography].[Mp3].[320kbps].[suffo].tar
+[20:15:25] << :Zombie-UnifiedCW!Zombie-Uni@Zombie-Bot PRIVMSG #zombie-warez :#402  0x [4.6G] 03in.the.heat.of.the.night.s01e08.final.multi.1080p.web.h264-ukdtv.mkv
+[20:15:25] << :Zombie-Blood!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#206   2x [5.2G] 03The.Hacker.Wars.2014.1080p.WEB.h264-OPUS.tar
+[20:15:26] << :Zombie-Grimes!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#247   0x [1.7G] 03Beauty.in.Black.S02E13.1080p.WEB.h264-ETHEL.tar
+[20:15:26] << :Zombie-LuCy-DiSTRO!bot@Zombie-Bot PRIVMSG #zombie-warez :#229  1x [7.4G] 14the.super.mario.galaxy.movie.2026.german.dl.1080p.web.h264-wvf.mkv
+[20:15:26] << :Zombie-Dixon!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#209  2x [4.9G] 03Father.Mother.Sister.Brother.(2025).2160p.4K.WEB.5.1-LAMA.tar
+[20:15:27] << :Zombie-Walker!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#59   0x [1.4G] 14Cabin.in.the.Woods.S01E01.1080p.WEB.h264-FREQUENCY.tar
+[20:15:27] << :Zombie-Ferel!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#222  1x [427M] 14Lady.Gaga.-.Essentials.[2026].[MP3-320]-Sc4r3cr0w.tar
+[20:15:28] << :Zombie-Aura!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#210  2x [1.5G] 14The.GooGoo.Dolls.[discography].[Mp3].[320kbps].[suffo].tar
+[20:15:28] << :Zombie-Alpha!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#194   4x [1.9G] 03Persona.(2026).1080p.WEBRip.5.1-LAMA.tar
+[20:15:28] << :Zombie-Torsie!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#228  2x [2.4G] 03Being.Eddie.2025.DOC.MULTi.1080p.WEB.H265-FW.tar
+[20:15:29] << :Zombie-EyePopper!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#205  0x [1.8G] 14Bewitched.S06E13.Youre.So.Agreeable.1080p.AMZN.WEB-DL.DDP2.0.H.264-NTb.tar
+[20:15:29] << :Zombie-UnifiedCW!Zombie-Uni@Zombie-Bot PRIVMSG #zombie-warez :#403  0x [4.7G] 03in.the.heat.of.the.night.s02e06.multi.1080p.web.h264-ukdtv.mkv
+[20:15:30] << :Zombie-Grimes!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#248   0x [2.0G] 03Beauty.in.Black.S02E15.1080p.WEB.h264-ETHEL.tar
+[20:15:30] << :Zombie-Blood!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#207  12x [292M] 03OnlyFans.-.Summer.Rose,.Callie.Roks.-.Round.2.Office.3Some.rq.mp4.tar
+[20:15:31] << :Zombie-Ferel!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#223  1x [219M] 14Zara.Larsson.-.Essentials.[2026].[MP3-320]-Sc4r3cr0w.tar
+[20:15:31] << :Zombie-Walker!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#60   0x [1.5G] 14Two.Guys.Garage.S24E12.1080p.WEB.h264-FREQUENCY.tar
+[20:15:32] << :Zombie-Alpha!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#195   1x [2.6G] 03McMafia.S01E03.1080p.AMZN.WEB-DL.DDP5.1.H.264-NTb.tar
+[20:15:32] << :Zombie-Aura!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#211  3x [2.0G] 14Counting.Crows.[discography].[Mp3].[320kbps].[suffo].tar
+[20:15:32] << :Zombie-LuCy-DiSTRO!bot@Zombie-Bot PRIVMSG #zombie-warez :#230  3x [1.9G] 14Der.Teufel.traegt.Prada.2.2026.German.5.1.LD.1080p.DCPRip.x265-LDO.mkv
+[20:15:32] << :Zombie-Dixon!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#210  0x [3.1G] 03Formula.1.Drive.to.Survive.S08E04.A.Bull.With.No.Horns.REPACK.1080p.ATVP.WEB-DL.DDP5.1.H.264-NTb.mkv
+[20:15:33] << :Zombie-Torsie!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#229  1x [ 10G] 03Margos.Got.Money.Troubles.S01.2026.1080p.ATVP.WEB-DL.DDP5.1.Atmos.H.264-HDSWEB.tar
+[20:15:33] << :dfghdfghdfgh!sfbztetrzh@Abandoned-AB2A56CC.dip0.t-ipconnect.de JOIN :#zombie-warez
+[20:15:34] << :Zombie-Blood!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#208  11x [284M] 03OnlyFans.-.Greedy.Grove.-.FFM.Threesome.With.A.BBC.rq.mp4.tar
+[20:15:34] << :Zombie-EyePopper!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#206  0x [1.8G] 14Bewitched.S06E30.Make.Love.Not.Hate.1080p.AMZN.WEB-DL.DDP2.0.H.264-NTb.tar
+[20:15:34] << :Zombie-Grimes!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#249   1x [2.1G] 03Beauty.in.Black.S02E14.1080p.WEB.h264-ETHEL.tar
+[20:15:34] << :Dr-Doccy!Dr-Doccy@Abandoned-48D9D8CA.cable.virginm.net PRIVMSG #zw-chat :!tv
+[20:15:35] << :Zombie-Alpha!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#196   1x [6.2G] 03Preacher.S01E01.1080p.BluRay.DD5.1.x264-NTb.tar
+[20:15:35] << :Zombie-Ferel!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#224  2x [ 53M] 14Amazon.Best.Books.of.the.Month.-.April,.2026.tar
+[20:15:35] << :Zombie-UnifiedCW!Zombie-Uni@Zombie-Bot PRIVMSG #zombie-warez :#404  0x [4.6G] 03in.the.heat.of.the.night.s02e10.multi.1080p.web.h264-ukdtv.mkv
+[20:15:35] << :Zombie-Walker!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#61   2x [783M] 14Shoresy.S04E01.Summer.in.Sudvegas.1080p.DSNP.WEB-DL.DDP5.1.H.264-NTb.tar
+[20:15:35] << :Zombie-LuCy-DiSTRO!bot@Zombie-Bot PRIVMSG #zombie-warez :#231  1x [2.1G] 14Mother.Mary.2026.1080p.WEBRip.x264.AAC5.1-LAMA.mp4
+[20:15:36] << :Zombie-Aura!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#212  2x [1.9G] 14Black.Sabbath.[discography].[Mp3].[320kbps].[suffo].tar
+[20:15:36] << :Zombie-Dixon!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#211  3x [2.8G] 03Marshals.S01E01.Piya.Wiconi.1080p.AMZN.WEB-DL.DDP5.1.H.264-NTb.mkv
+[20:15:37] << :Zombie-Torsie!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#230  2x [ 21G] 03Protector.2025.iNTERNAL.BluRay.1080p.REMUX.AVC.DTS-HD.MA.5.1-Aisha.tar
+[20:15:38] << :Zombie-EyePopper!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#207  0x [3.1G] 14Gogglebox.S11E05.1080i.HDTV.DD2.0.H.264-NTb.tar
+[20:15:38] << :Zombie-Blood!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#209   2x [4.2G] 03Hijack.2023.S02E03.1080p.WEB.h264-ETHEL.tar
+[20:15:38] << :Zombie-Grimes!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#250   1x [2.1G] 03Beauty.in.Black.S02E16.1080p.WEB.h264-ETHEL.tar
+[20:15:39] << :Zombie-UnifiedCW!Zombie-Uni@Zombie-Bot PRIVMSG #zombie-warez :#405  0x [4.8G] 03in.the.heat.of.the.night.s02e05.multi.1080p.web.h264-ukdtv.mkv
+[20:15:39] << :Zombie-Ferel!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#225  2x [ 26M] 14wallstreetjournal.20260522.TheWallStreetJournal.pdf.tar
+[20:15:39] << :Zombie-Alpha!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#197   1x [4.8G] 03Preacher.S01E09.1080p.BluRay.DD5.1.x264-NTb.tar
+[20:15:40] << :Zombie-Walker!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#62   1x [3.1G] 14Crime.Beat.S07E09.Manhunt.1080p.AMZN.WEB-DL.DDP5.1.H.264-NTb.tar
+[20:15:41] << :Zombie-Torsie!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#231  0x [5.0G] 03System.2026.1080p.AMZN.WEB-DL.DDP5.1.H.264-playWEB.tar
+[20:15:41] << :Zombie-Grimes!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#251   1x [1.8G] 03Beauty.in.Black.S02E10.1080p.WEB.h264-ETHEL.tar
+[20:15:41] << :Zombie-EyePopper!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#208  0x [3.1G] 14Gogglebox.S11E11.1080i.HDTV.DD2.0.H.264-NTb.tar
+[20:15:41] << :Zombie-Aura!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#213  2x [266M] 14Steely.Dan.-.The.Royal.Scam.(Remastered).(1976).FLAC.88.tar
+[20:15:41] << :Zombie-LuCy-DiSTRO!bot@Zombie-Bot PRIVMSG #zombie-warez :#232  1x [ 15G] 14Avatar.Fire.and.Ash.2025.German.AC3D.DL.1080p.BluRay.x264-toto.mkv
+[20:15:41] << :Zombie-Dixon!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#212  0x [3.5G] 03The.Bachelorette.S18E11.After.the.Final.Rose.1080p.AMZN.WEB-DL.DDP2.0.H.264-NTb.mkv
+[20:15:42] << :Zombie-Blood!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#210   4x [ 13G] 03Ella.McCay.2025.GERMAN.DL.2160P.WEB.H265-WAYNE.tar
+[20:15:43] << :Zombie-Alpha!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#198   2x [3.3G] 03Preacher.S01E03.1080p.BluRay.DD5.1.x264-NTb.tar
+[20:15:43] << :Zombie-Ferel!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#226  2x [882M] 14Einstein,.Albert.-.Collected.Works.(60.books).tar
+[20:15:44] << :Zombie-UnifiedCW!Zombie-Uni@Zombie-Bot PRIVMSG #zombie-warez :#406  0x [4.4G] 03in.the.heat.of.the.night.s02e08.multi.1080p.web.h264-ukdtv.mkv
+[20:15:45] << :Zombie-Grimes!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#252   1x [1.9G] 03Beauty.in.Black.S02E12.1080p.WEB.h264-ETHEL.tar
+[20:15:45] << :Zombie-Walker!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#63   1x [1.3G] 14Dirty.Laundry.2022.S01E01.Who.Shot.a.Softcore.Porn.1080p.WEB-DL.AAC2.0.H.264-NTb.tar
+[20:15:46] << :Zombie-Dixon!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#213  0x [6.2G] 03The.Bachelorette.S18E09.Week.9.1080p.AMZN.WEB-DL.DDP5.1.H.264-NTb.mkv
+[20:15:46] << :Zombie-Blood!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#211  12x [1.4G] 03Wonder.Man.2026.S01E07.1080p.WEB.h264-ETHEL.tar
+[20:15:46] << :Zombie-EyePopper!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#209  1x [2.4G] 14Quantum.Leap.2022.S01E14.S.O.S.1080p.AMZN.WEB-DL.DDP5.1.H.264-NTb.tar
+[20:15:46] << :Zombie-Aura!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#214  2x [512M] 14Bullet.For.My.Valentine.-.Scream.Aim.Fire.(Deluxe.Edition).(2008).FLAC.88.tar
+[20:15:46] << :Zombie-Torsie!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#232  0x [ 12G] 03War.Machine.2026.2160p.NF.WEB-DL.DDP5.1.Atmos.DV.HDR.H.265-FLUX.tar
+[20:15:47] << :Zombie-LuCy-DiSTRO!bot@Zombie-Bot PRIVMSG #zombie-warez :#233  1x [7.3G] 14Das.Glueck.hat.acht.Arme.2026.German.DL.2160p.DV.WEBRip.AV1-WOTT.mkv
+[20:15:47] << :Zombie-Alpha!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#199   2x [3.2G] 03Preacher.S01E06.1080p.BluRay.DD5.1.x264-NTb.tar
+[20:15:47] << :Zombie-Ferel!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#227  2x [207M] 14Galilei,.Galileo.-.Collected.Works.(19.books).tar
+[20:15:49] << :Zombie-Walker!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#64   0x [2.8G] 14Sister.Wives.S20E13.1080p.AMZN.WEB-DL.DDP2.0.H.264-NTb.tar
+[20:15:49] << :Zombie-Grimes!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#253   1x [1.4G] 03Chicago.PD.S13E15.1080p.WEB.h264-ETHEL.tar
+[20:15:49] << :Zombie-Torsie!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#233  1x [ 18G] 03Truck.Driver.The.American.Dream-RUNE.tar
+[20:15:49] << :Zombie-Blood!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#212   0x [1.3G] 03Will.Trent.S04E04.1080p.WEB.h264-ETHEL.tar
+[20:15:49] << :Zombie-Dixon!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#214  1x [838M] 03The.Rookie.S08E09.720p.HDTV.x264-SYNCOPY.tar
+[20:15:50] << :Zombie-UnifiedCW!Zombie-Uni@Zombie-Bot PRIVMSG #zombie-warez :#407  0x [4.3G] 03in.the.heat.of.the.night.s02e07.multi.1080p.web.h264-ukdtv.mkv
+[20:15:50] << :Zombie-Aura!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#215  3x [469M] 14VA.-.The.Great.Vocalists.-.The.Myths.-.2CD-[FLAC]-[TFM].tar
+[20:15:50] << :Zombie-LuCy-DiSTRO!bot@Zombie-Bot PRIVMSG #zombie-warez :#234  1x [7.4G] 14Hoppers.2026.DUTCH.1080p.WEB.h264-TRIPEL.mkv
+[20:15:51] << :Zombie-EyePopper!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#210  0x [2.6G] 14Quantum.Leap.2022.S01E07.O.Ye.of.Little.Faith.1080p.AMZN.WEB-DL.DDP5.1.H.264-NTb.tar
+[20:15:51] << :Zombie-Alpha!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#200   0x [4.9G] 03Preacher.S01E02.1080p.BluRay.DD5.1.x264-NTb.tar
+[20:15:51] << :Zombie-Ferel!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#228  3x [1.2G] 14Newton,.Isaac.-.Collected.Works.and.Letters,.incl.Principia.(28.books).tar
+[20:15:52] << :Zombie-Grimes!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#254   2x [1.4G] 03Chicago.Fire.S14E15.1080p.WEB.h264-ETHEL.tar
+[20:15:53] << :Zombie-Torsie!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#234  0x [ 18G] 03Secret.Service.2026.S01.1080p.BluRay.x264-SPiESRUS.tar
+[20:15:53] << :Zombie-Walker!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#65   3x [4.0G] 14Spartacus.House.of.Ashur.S01E05.1080p.WEB.h264-ETHEL.tar
+[20:15:54] << :Zombie-UnifiedCW!Zombie-Uni@Zombie-Bot PRIVMSG #zombie-warez :#408  0x [4.5G] 03in.the.heat.of.the.night.s02e12.multi.1080p.web.h264-ukdtv.mkv
+[20:15:54] << :Zombie-Alpha!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#201   0x [3.8G] 03Preacher.S01E05.1080p.BluRay.DD5.1.x264-NTb.tar
+[20:15:54] << :Zombie-Aura!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#216  4x [2.0G] 14OnlyFans.26.05.31.Hannah.Jo.BBBG.DP.4some.XXX.1080p.MP4-P2P[XC].tar
+[20:15:54] << :Zombie-Dixon!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#215  0x [4.3G] 03The.Traitors.US.S04E12.1080p.AMZN.WEB-DL.DDP5.1.H.264-NTb.mkv
+[20:15:55] << :Zombie-Ferel!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#229  2x [ 33M] 14wallstreetjournal.20260523.TheWallStreetJournal.pdf.tar
+[20:15:55] << :Zombie-Blood!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#213   0x [3.8G] 03The.Real.Housewives.of.Salt.Lake.City.S06E19.Reunion.Pt.3.1080p.AMZN.WEB-DL.DDP2.0.H.264-NTb.tar
+[20:15:56] [ERROR] [Greys.Anatomy.S22E07] Timeout – Bot hat nicht geantwortet
+[20:15:56] >> QUIT :bye
+[20:15:56] [INFO] [Greys.Anatomy.S22E07] Versuch 5/15: Greys.Anatomy.S22E07.Skyfall.1080p.AMZN.WEB-DL.DDP5.1.H.264-NTb.tar (irc.abandoned-irc.net #zombie-warez)
+[20:15:56] << :hawk.abandoned-irc.net NOTICE * :*** Looking up your hostname...
+[20:15:56] << :hawk.abandoned-irc.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[20:15:58] << PING :D13047D
+[20:15:58] >> JOIN #ZW-CHAT
+[20:15:58] >> JOIN #zombie-warez
+[20:15:58] << :hawk.abandoned-irc.net 396 GhostRider481 F10A4199.2A1F7D19.E30ED253.IP :is now your displayed host
+[20:15:58] << :GhostRider481!GhostRider@F10A4199.2A1F7D19.E30ED253.IP JOIN :#zw-chat
+[20:15:58] << :hawk.abandoned-irc.net 332 GhostRider481 #zw-chat :12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12=[04Searchbot]-[09ONLINE]- Triggers: !help !search !latest !subscriptions !topdl !hot !recommended !movies !music !tv !apps !games !ebook !xxx !mobile | Web: http://www.Abandoned-IRC.net/
+[20:15:58] << :hawk.abandoned-irc.net 333 GhostRider481 #zw-chat lurk3r!jj@zombie.warez 1779866923
+[20:15:58] << :GhostRider481!GhostRider@F10A4199.2A1F7D19.E30ED253.IP JOIN :#zombie-warez
+[20:15:58] << :hawk.abandoned-irc.net 332 GhostRider481 #zombie-warez :12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12=[04Searchbot]-[09ONLINE]- Join #ZW-CHAT for Search, subscriptions, and chat! | BoxOwners/Rooters Needed | -catcher -bottler
+[20:15:58] << :hawk.abandoned-irc.net 333 GhostRider481 #zombie-warez [ZOMBIE]-LATEST!Abandoned-@zombie.warez 1777966087
+[20:15:58] << :Zombie!ZW@ZoMbIe.WaReZ NOTICE GhostRider481 :[#ZW-CHAT] 12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12= we are looking for experienced ROOTERS/DEDi/BOXOWNERS . interested? use !joinZW
+[20:15:58] [INFO] [Greys.Anatomy.S22E07] /msg zombie-walker xdcc send #164
+[20:15:59] >> PRIVMSG zombie-walker :xdcc send #164
+[20:15:59] << :Zombie!ZW@ZoMbIe.WaReZ NOTICE GhostRider481 :[#ZOMBIE-WAREZ] 4!!!WARNING!!! YOU MUST IDLE IN #ZW-CHAT - IF YOU ATTEMPT TO DOWNLOAD WITHOUT BEING IN #ZW-CHAT YOU WILL BE BANNED!
+[20:15:59] << :Zombie-Grimes!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#256   1x [2.8G] 03Deadloch.S02E02.1080p.WEB.h264-ETHEL.tar
+[20:15:59] << :[o_0]!Zombies@Zombie.Warez PRIVMSG GhostRider481 :VERSION
+[20:16:00] << :Zombie-Ferel!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#230  1x [3.3G] 14WWE.SmackDown.2026.05.22.NF.iNT.720p.WEBRip.h264-HEEL.mp4.tar
+[20:16:00] << :Zombie-LuCy-DiSTRO!bot@Zombie-Bot PRIVMSG #zombie-warez :#236  0x [706M] 14Heresy.2024.WEB.HEVC.10bit.AAC5.1-LuCY.mkv
+[20:16:00] << :Zombie-UnifiedCW!Zombie-Uni@Zombie-Bot PRIVMSG #zombie-warez :#409  0x [4.7G] 03in.the.heat.of.the.night.s02e13.multi.1080p.web.h264-ukdtv.mkv
+[20:16:01] << :Zombie-Dixon!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#217 10x [1.9G] 03The.Moment.(2026).1080p.WEBRip.5.1-LAMA.tar
+[20:16:01] << :Zombie-Aura!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#217  7x [739M] 14OnlyFans.26.05.17.Minami.Airi.And.Alfiecinematic.Japanese.Hot.Babe.Minani.Airi.Hammered.In.Sextape.XXX.1080p.MP4-P2P[XC].tar
+[20:16:02] << :Zombie-EyePopper!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#212  0x [2.9G] 14Quantum.Leap.2022.S01E17.The.Friendly.Skies.1080p.AMZN.WEB-DL.DDP5.1.H.264-NTb.tar
+[20:16:02] << :Zombie-Alpha!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#203   2x [3.0G] 03Preacher.S01E07.1080p.BluRay.DD5.1.x264-NTb.tar
+[20:16:02] << :Zombie-Blood!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#215   2x [445M] 03Shifting.Gears.S02E12.720p.HDTV.x264-SYNCOPY.tar
+[20:16:02] << :Zombie-Torsie!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#236  1x [3.9G] 03Eraserheads.Combo.on.the.Run.2025.1080p.NF.WEB-DL.DDP5.1.H.264-playWEB.tar
+[20:16:03] << :Zombie-Grimes!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#257   1x [2.7G] 03Deadloch.S02E05.1080p.WEB.h264-ETHEL.tar
+[20:16:03] << :Zombie-Walker!twist3d@Zombie-Bot NOTICE GhostRider481 :** Sending you pack #164 ("Greys.Anatomy.S22E07.Skyfall.1080p.AMZN.WEB-DL.DDP5.1.H.264-NTb.tar"), which is 2.9GB. (resume supported)
+[20:16:03] [INFO] [Greys.Anatomy.S22E07] ** Sending you pack #164 ("Greys.Anatomy.S22E07.Skyfall.1080p.AMZN.WEB-DL.DDP5.1.H.264-NTb.tar"), which is 2.9GB. (resume supported)
+[20:16:04] << :Zombie-Ferel!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#231  1x [3.0G] 14Fight.Club.1999.REMASTERED.V2.1080p.BluRay.HEVC.x265.5.1.BONE.mkv.tar
+[20:16:04] << :Zombie-UnifiedCW!Zombie-Uni@Zombie-Bot PRIVMSG #zombie-warez :#410  0x [4.7G] 03in.the.heat.of.the.night.s02e11.multi.1080p.web.h264-ukdtv.mkv
+[20:16:06] << :Zombie-Grimes!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#258   0x [2.7G] 03Deadloch.S02E01.1080p.WEB.h264-ETHEL.tar
+[20:16:06] << :Zombie-Aura!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#218  3x [1.5G] 14OnlyFans.2026.Dainty.Wilder.And.Alina.Lopez.New.Threesome.XXX.1080p.MP4-P2P[XC].tar
+[20:16:06] << :Zombie-Blood!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#216   1x [1.7G] 03Head.South.(2024).1080p.WEBRip.5.1-LAMA.tar
+[20:16:06] << :Zombie-Alpha!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#204   2x [4.3G] 03Preacher.S01E10.1080p.BluRay.DD5.1.x264-NTb.tar
+[20:16:06] << :Zombie-Torsie!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#237  0x [4.3G] 03The.Other.2025.1080p.BluRay.x264-OFT.tar
+[20:16:06] << :Zombie-LuCy-DiSTRO!bot@Zombie-Bot PRIVMSG #zombie-warez :#237  1x [529M] 14Austin.Powers.The.Spy.Who.Shagged.Me.1999.1080p.DVD.Upscale.HEVC-LuCY.mkv
+[20:16:06] << :Zombie-Dixon!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#218  1x [1.6G] 03Memory.of.a.Killer.S01E06.Uncle.Jacob.1080p.AMZN.WEB-DL.DDP5.1.H.264-NTb.mkv
+[20:16:07] << :Zombie-EyePopper!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#213  0x [2.1G] 14Now.Apocalypse.S01E07.Anywhere.Out.of.the.World.1080p.AMZN.WEB-DL.DDP5.1.H.264-NTb.tar
+[20:16:07] << :IMdaMan14!ident@Abandoned-74896B9.cable.virginm.net PRIVMSG #zw-chat :!s the furious
+[20:16:08] << :Zombie-Ferel!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#232  2x [2.5G] 14Rick.and.Morty.S08.720p.x264-FENiX.tar
+[20:16:08] << :Zombie-Walker!twist3d@Zombie-Bot PRIVMSG GhostRider481 :DCC SEND Greys.Anatomy.S22E07.Skyfall.1080p.AMZN.WEB-DL.DDP5.1.H.264-NTb.tar 96751999 48453 3126927360
+[20:16:08] >> PRIVMSG zombie-walker :DCC RESUME Greys.Anatomy.S22E07.Skyfall.1080p.AMZN.WEB-DL.DDP5.1.H.264-NTb.tar 48453 1882235600
+[20:16:09] << :Zombie-UnifiedCW!Zombie-Uni@Zombie-Bot PRIVMSG #zombie-warez :#411  0x [4.2G] 03in.the.heat.of.the.night.s02e14.multi.1080p.web.h264-ukdtv.mkv
+[20:16:09] << :Zombie-Alpha!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#205   2x [3.6G] 03Preacher.S01E04.1080p.BluRay.DD5.1.x264-NTb.tar
+[20:16:09] << :Zombie-Blood!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#217   6x [2.5G] 03Bridgerton.S04E01.1080p.WEB.h264-ETHEL.tar
+[20:16:09] << :Zombie-Torsie!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#238  0x [4.0G] 03Trouble.Man.2025.1080p.BluRay.x264-OFT.tar
+[20:16:10] << :Zombie-Grimes!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#259   0x [2.7G] 03Deadloch.S02E03.1080p.WEB.h264-ETHEL.tar
+[20:16:10] << :Zombie-Aura!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#219  2x [220M] 14Carpenters.-.Ticket.To.Ride.(1969,.1986.Reissue).FLAC.88.tar
+[20:16:10] << :Zombie-Dixon!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#219  0x [4.7G] 03Shameless.US.S06E06.NSFW.1080p.REPACK.AMZN.WEBRip.DD5.1.x264-NTb.mkv
+[20:16:11] << :Zombie-LuCy-DiSTRO!bot@Zombie-Bot PRIVMSG #zombie-warez :#238  3x [1.0G] 14Bight.2026.AMZN.WEB-DL.HEVC.10bit.AAC5.1-LuCY.mkv
+[20:16:11] << :Zombie-EyePopper!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#214  0x [3.0G] 14Gogglebox.S06E08.1080i.HDTV.DD2.0.H.264-NTb.tar
+[20:16:13] << :Zombie-Grimes!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#260   1x [2.5G] 03Deadloch.S02E04.1080p.WEB.h264-ETHEL.tar
+[20:16:13] << :Zombie-Ferel!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#233  3x [1.0G] 14Rick.and.Morty.S09E01.Theres.Something.About.Morty.1080p.HDTV.AAC2.0.x264-Slurpuff.mkv.tar
+[20:16:13] << :Zombie-Walker!twist3d@Zombie-Bot PRIVMSG GhostRider481 :DCC ACCEPT Greys.Anatomy.S22E07.Skyfall.1080p.AMZN.WEB-DL.DDP5.1.H.264-NTb.tar 48453 1882235600
+[20:16:13] [INFO] [Greys.Anatomy.S22E07] Resume ab 1795 MB
+[20:20:04] [ERROR] [Greys.Anatomy.S22E07] [Errno 104] Connection reset by peer
+[20:20:04] >> QUIT :bye
+[20:20:04] [WARNING] [Greys.Anatomy.S22E07] Verbindung unterbrochen – versuche DCC RESUME …
+[20:20:04] << :chaos.abandoned-irc.net NOTICE * :*** Looking up your hostname...
+[20:20:05] << :chaos.abandoned-irc.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[20:20:06] << PING :FDF94EF2
+[20:20:06] >> JOIN #ZW-CHAT
+[20:20:06] >> JOIN #zombie-warez
+[20:20:06] << :chaos.abandoned-irc.net 396 SteelTitan317 F10A4199.2A1F7D19.E30ED253.IP :is now your displayed host
+[20:20:06] << :chaos.abandoned-irc.net 474 SteelTitan317 #ZW-CHAT :Cannot join channel (+b)
+[20:20:06] [ERROR] [Greys.Anatomy.S22E07] Gesperrt (474): Cannot join channel (+b)
+[20:20:06] >> QUIT :bye
+[20:20:06] [WARNING] [Greys.Anatomy.S22E07] Überspringe #zombie-warez – auf irc.abandoned-irc.net gesperrt
+[20:20:06] [WARNING] [Greys.Anatomy.S22E07] Überspringe #zombie-warez – auf irc.abandoned-irc.net gesperrt
+[20:20:06] [INFO] [Greys.Anatomy.S22E07] Versuch 8/15: Greys.Anatomy.S22E07.Skyfall.1080p.AMZN.WEB-DL.DDP5.1.H.264-NTb.mkv (irc.abjects.net #moviegods)
+[20:20:06] << :mortal.tx.us.abjects.net NOTICE * :*** Looking up your hostname...
+[20:20:06] << :mortal.tx.us.abjects.net NOTICE * :*** Checking ident...
+[20:20:08] << :mortal.tx.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[20:20:11] << :mortal.tx.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[20:20:11] << PING :83730474
+[20:20:12] >> JOIN #moviegods
+[20:20:12] << :mortal.tx.us.abjects.net 396 DragonSlayer670 3A2EBF91.AFB7C0ED.7F20E47C.IP :is now your displayed host
+[20:20:12] << :DragonSlayer670!~DragonSla@3A2EBF91.AFB7C0ED.7F20E47C.IP JOIN :#moviegods
+[20:20:12] << :mortal.tx.us.abjects.net 332 DragonSlayer670 #moviegods : Welcome to #MOVIEGODS - If you are new to this type !help -//- Join #mg-chat to download -//- Join #MG-Lounge for requests/questions/comments/tv-subs/spam free chat -//-  Join #MG-Help for help -//- Donations get VIP perks  -  Join #MG-donations for info
+[20:20:12] << :mortal.tx.us.abjects.net 333 DragonSlayer670 #moviegods katsper!Kat@Sex.With.Leather.Clad.Women.is.Hot 1728068851
+[20:20:13] [INFO] [Greys.Anatomy.S22E07] /msg [mg]-misc|eu|s|justapunk xdcc send #242
+[20:20:14] >> PRIVMSG [mg]-misc|eu|s|justapunk :xdcc send #242
+[20:20:14] << :[MG]-X265|EU|S|JeRrYFaR!~root@19C11F0B.2D6D11AF.A6FD9088.IP PRIVMSG #moviegods :#122  31x [511M] The.Boroughs.S01E01.720p.HEVC.x265-MeGusta.mkv
+[20:20:14] << :[MG]-MISC|US|S|Snx5!~root@abjects-5E6002B0.whatbox.ca PRIVMSG #moviegods :#967  0x [814M] Kita.kun.Share.EP03.1080p.FOD.WEB-DL.AAC2.0.H.264-MagicStar.mkv
+[20:20:14] << :[MG]-MISC|EU|S|LuckyCharms!~root@5C8F366B.F0C31D27.A6FD9088.IP PRIVMSG #moviegods :#153   5x [ 15G] The.Testaments.2026.S01.GERMAN.DL.1080p.WEB.H264-TSCC.tar
+[20:20:14] << :[MG]-FUN|EU|S|FunFiles!~root@abjects-3DFC1E70.ip-54-39-128.net PRIVMSG #moviegods :#180    1x [ 14G] Fackeln.im.Sturm.S01.German.AC3.DL.1080p.WebRip.x265-FuN.tar
+[20:20:14] << :[MG]-X265|EU|S|PixieBCake!~root@5CF07B24.2D6D11AF.A6FD9088.IP PRIVMSG #moviegods :#206   1x [483M] Inside.the.Tower.of.London.S09E04.1080p.HEVC.x265-MeGusta.mkv
+[20:20:14] << :[MG]-X265|EU|S|Tanooki!~root@1D2F86BA.2D6D11AF.A6FD9088.IP PRIVMSG #moviegods :#165   9x [413M] Penn.and.Teller.Fool.Us.S05E08.Here.Lie.Penn.and.Teller.720p.HEVC.x265-MeGusta.mkv
+[20:20:14] << :[MG]-MISC|EU|S|CriticalMass_!~root@FA99A4D5.F8DB83E6.F8D95EFD.IP PRIVMSG #moviegods :#353    0x [1.6G] Gogglebox.Australia.S23E09.1080p.HDTV.H264-DARKFLiX.mkv
+[20:20:14] << :[MG]-X265|EU|S|GreenCrack_!~root@FA99A4D5.F8DB83E6.F8D95EFD.IP PRIVMSG #moviegods :#326   0x [260M] Missed.Call.S01E02.720p.HEVC.x265-MeGusta.mkv
+[20:20:14] << :[MG]-MISC|EU|S|JustaPunk!~root@D05AE341.2D6D11AF.A6FD9088.IP NOTICE DragonSlayer670 :** Invalid pack number #242
+[20:20:14] [INFO] [Greys.Anatomy.S22E07] ** Invalid pack number #242
+[20:20:14] >> QUIT :bye
+[20:20:14] [WARNING] [Greys.Anatomy.S22E07] Überspringe #zombie-warez – auf irc.abandoned-irc.net gesperrt
+[20:20:14] [WARNING] [Greys.Anatomy.S22E07] Überspringe #zombie-warez – auf irc.abandoned-irc.net gesperrt
+[20:20:14] [INFO] [Greys.Anatomy.S22E07] Versuch 11/15: Greys.Anatomy.S22E07.Skyfall.1080p.DSNP.WEB-DL.DDP5.1.H.264-NTb.mkv (irc.abjects.net #moviegods)
+[20:20:14] << :neptune.ny.us.abjects.net NOTICE * :*** Looking up your hostname...
+[20:20:14] << :neptune.ny.us.abjects.net NOTICE * :*** Checking ident...
+[20:20:14] << :neptune.ny.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[20:20:18] << :neptune.ny.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[20:20:19] << PING :F8574FC8
+[20:20:20] >> JOIN #moviegods
+[20:20:20] << :neptune.ny.us.abjects.net 396 ViperZ440 3A2EBF91.AFB7C0ED.7F20E47C.IP :is now your displayed host
+[20:20:20] << :ViperZ440!~ViperZ440@3A2EBF91.AFB7C0ED.7F20E47C.IP JOIN :#moviegods
+[20:20:20] << :neptune.ny.us.abjects.net 332 ViperZ440 #moviegods : Welcome to #MOVIEGODS - If you are new to this type !help -//- Join #mg-chat to download -//- Join #MG-Lounge for requests/questions/comments/tv-subs/spam free chat -//-  Join #MG-Help for help -//- Donations get VIP perks  -  Join #MG-donations for info
+[20:20:20] << :neptune.ny.us.abjects.net 333 ViperZ440 #moviegods katsper!Kat@Sex.With.Leather.Clad.Women.is.Hot 1728068851
+[20:20:20] << :[MG]-FUN|EU|S|FunFiles!~root@abjects-3DFC1E70.ip-54-39-128.net PRIVMSG #moviegods :#187    3x [1.8G] The.Fog.Nebel.des.Grauens.2005.EXTENDED.German.AC3D.DL.1080p.BluRay.x265-FuN.mkv
+[20:20:20] [INFO] [Greys.Anatomy.S22E07] /msg [mg]-hdtv|eu|s|fruitypebbles xdcc send #750
+[20:20:21] >> PRIVMSG [mg]-hdtv|eu|s|fruitypebbles :xdcc send #750
+[20:20:21] << :[MG]-X265|EU|S|NorthernLights_!~root@FA99A4D5.F8DB83E6.F8D95EFD.IP PRIVMSG #moviegods :#331   3x [484M] Sesame.Street.S36E10.720p.HEVC.x265-MeGusta.mkv
+[20:20:21] << :[MG]-APPS|EU|S|Gynoid!~root@C3EF4D55.2D6D11AF.A6FD9088.IP PRIVMSG #moviegods :#196  0x [ 17M] GoldWave.v6.78.Incl.Keygen-BTCR.tar
+[20:20:21] << :[MG]-X265|EU|S|JeRrYFaR!~root@19C11F0B.2D6D11AF.A6FD9088.IP PRIVMSG #moviegods :#126  10x [387M] SkyMed.S04E03.1080p.HEVC.x265-MeGusta.mkv
+[20:20:21] << :[MG]-MISC|US|S|Snx5!~root@abjects-5E6002B0.whatbox.ca PRIVMSG #moviegods :#971  0x [293M] Dirty.Laundry.2022.S05E06.Who.Got.Walked.In.on.with.Their.Hair.on.Fire.720p.HEVC.x265-MeGusta.mkv
+[20:20:21] << :[MG]-MISC|EU|S|LuckyCharms!~root@5C8F366B.F0C31D27.A6FD9088.IP PRIVMSG #moviegods :#157  12x [ 13G] Cradle.Will.Rock.1999.1080p.AMZN.WEBRip.DD5.1.x264-monkee.mkv
+[20:20:21] << :[MG]-FUN|EU|S|FunFiles!~root@abjects-3DFC1E70.ip-54-39-128.net PRIVMSG #moviegods :#188   21x [2.0G] Street.Fighter.II.The.Animated.Movie.1994.German.AC3D.DL.1080p.BDRip.X265-FuN.mkv
+[20:20:21] << :[MG]-HDTV|EU|S|FruityPebbles!~root@abjects-E0F9D77D.clients.your-server.de NOTICE ViperZ440 :** Invalid pack number #750
+[20:20:21] [INFO] [Greys.Anatomy.S22E07] ** Invalid pack number #750
+[20:20:21] >> QUIT :bye
+[20:20:21] [INFO] [Greys.Anatomy.S22E07] Versuch 12/15: Greys.Anatomy.S22E07.Skyfall.1080p.HEVC.x265-MeGusta.mkv (irc.abjects.net #moviegods)
+[20:20:21] [INFO] [Greys.Anatomy.S22E07] Warte 1s vor erneuter Verbindung zu irc.abjects.net
+[20:20:22] << :neptune.ny.us.abjects.net NOTICE * :*** Looking up your hostname...
+[20:20:22] << :neptune.ny.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[20:20:22] << :neptune.ny.us.abjects.net NOTICE * :*** Checking ident...
+[20:20:26] << :neptune.ny.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[20:20:26] << PING :DF6513D7
+[20:20:28] >> JOIN #moviegods
+[20:20:28] << :neptune.ny.us.abjects.net 396 SilentSniper270 3A2EBF91.AFB7C0ED.7F20E47C.IP :is now your displayed host
+[20:20:28] << :SilentSniper270!~SilentSni@3A2EBF91.AFB7C0ED.7F20E47C.IP JOIN :#moviegods
+[20:20:28] << :neptune.ny.us.abjects.net 332 SilentSniper270 #moviegods : Welcome to #MOVIEGODS - If you are new to this type !help -//- Join #mg-chat to download -//- Join #MG-Lounge for requests/questions/comments/tv-subs/spam free chat -//-  Join #MG-Help for help -//- Donations get VIP perks  -  Join #MG-donations for info
+[20:20:28] << :neptune.ny.us.abjects.net 333 SilentSniper270 #moviegods katsper!Kat@Sex.With.Leather.Clad.Women.is.Hot 1728068851
+[20:20:28] [WARNING] [Greys.Anatomy.S22E07] Bot '[mg]-hdtv|eu|s|shadow' nicht im Channel
+[20:20:28] >> QUIT :bye
+[20:20:28] [INFO] [Greys.Anatomy.S22E07] Versuch 13/15: Greys.Anatomy.S22E07.1080p.x265-ELiTE.mkv (irc.abjects.net #beast-xdcc)
+[20:20:28] [INFO] [Greys.Anatomy.S22E07] Warte 2s vor erneuter Verbindung zu irc.abjects.net
+[20:20:30] << :jagged.ca.us.abjects.net NOTICE * :*** Looking up your hostname...
+[20:20:30] << :jagged.ca.us.abjects.net NOTICE * :*** Checking ident...
+[20:20:31] << :jagged.ca.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[20:20:35] << :jagged.ca.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[20:20:35] << PING :3923E244
+[20:20:36] >> JOIN #beast-xdcc
+[20:20:36] << :jagged.ca.us.abjects.net 396 StormBreaker018 3A2EBF91.AFB7C0ED.7F20E47C.IP :is now your displayed host
+[20:20:36] << :StormBreaker018!~StormBrea@3A2EBF91.AFB7C0ED.7F20E47C.IP JOIN :#beast-xdcc
+[20:20:36] << :jagged.ca.us.abjects.net 332 StormBreaker018 #beast-xdcc :#BEAST-XDCC //   BLAZING SPEEDS ~ PROPER PACKS   //   join #BEAST-CHAT for Search and much more.
+[20:20:36] << :jagged.ca.us.abjects.net 333 StormBreaker018 #beast-xdcc dbeast 1705098478
+[20:20:36] [INFO] [Greys.Anatomy.S22E07] /msg beast-x-super xdcc send #297
+[20:20:37] >> PRIVMSG beast-x-super :xdcc send #297
+[20:20:37] << :BEAST-X-DELTA!~beast@untamed.beast PRIVMSG #beast-xdcc :#419  12x [1.4G] Brexit.Chronik.eines.Abschieds.2019.German.AC3.1080p.WebHD.x265-FuN.mkv
+[20:20:39] << :BEAST-X-ABYSS!~beast@untamed.beast PRIVMSG #beast-xdcc :#296  12x [1.8G] Ewige.Jugend.2015.German.AC3.DL.1080p.BluRay.x265-FuN.mkv
+[20:20:39] << :BEAST-X-SUPER!~beast@untamed.beast PRIVMSG #beast-xdcc :#143  11x [3.5G] Very.Scary.People.S06E02.1080p.WEB.h264-FREQUENCY.mkv
+[20:20:40] << :BEAST-X-AFFECT!~beast@untamed.beast PRIVMSG #beast-xdcc :#288  21x [1.4G] Lucky.Number.Slevin.2006.AC3D.DL.1080p.US.BluRay.x265-FuN.mkv
+[20:20:40] << :BEAST-X-DELTA!~beast@untamed.beast PRIVMSG #beast-xdcc :#420  13x [6.9G] Bridgerton.S03.German.AC3.DL.1080p.Web.x265-FuN.tar
+[20:20:40] << :BEAST-X-HEROIN!~beast@untamed.beast PRIVMSG #beast-xdcc :#242 16x [8.6G] Silo.2023.S02E08.Quinns.Buch.GERMAN.5.1.ATMOS.UNTOUCHED.DUBBED.DL.EAC3.2160p.WEB-DL.DV.HDR10Plus.HEVC-TvR.mkv
+[20:20:40] << :BEAST-X-CHINGY!~beast@untamed.beast PRIVMSG #beast-xdcc :#249  13x [5.1G] Suburbicon.2017.German.DL.1080p.BluRay.x264-ENCOUNTERS.tar
+[20:20:40] << :BEAST-X-JOKER!~beast@untamed.beast PRIVMSG #beast-xdcc :#275  11x [2.1G] Das.Gesetz.bin.ich.1974.German.AC3D.DL.1080p.BluRay.x265-FuN.mkv
+[20:20:40] << :BEAST-X-ECSTACY!~beast@untamed.beast PRIVMSG #beast-xdcc :#258 11x [8.4G] Better.Call.Saul.S03E03.Sunk.Costs.1080p.DTS-HD.MA.5.1.AVC.REMUX-FraMeSToR.mkv
+[20:20:41] << :BEAST-X-DEEP!~beast@untamed.beast PRIVMSG #beast-xdcc :#72  24x [6.8G] From.Paris.with.Love.2010.German.DL.1080p.BluRay.x264.iNTERNAL-VideoStar.tar
+[20:20:41] << :BEAST-X-LuCY!~nakedgoat@D100FDD3.2AC71085.E62BF8D7.IP PRIVMSG #beast-xdcc :#242  2x [476M] The.Amazing.Digital.Circus.The.Last.Act.2026.WEB.HEVC.10bit.AAC-LuCY.mkv
+[20:20:41] << :BEAST-X-ULTRA!~beast@untamed.beast PRIVMSG #beast-xdcc :#261  11x [1.9G] Angel.1983.German.AC3D.1080p.BluRay.AV1-Cancer58.mkv
+[20:20:42] << :BEAST-X-REVOLT!~beast@untamed.beast PRIVMSG #beast-xdcc :#285  11x [6.8G] Chupacabra.Sie.kommen.aus.der.Hoelle.2013.German.DL.1080p.BluRay.x264-iFPD.tar
+[20:20:42] << :BEAST-X-SUPER!~beast@untamed.beast PRIVMSG #beast-xdcc :#144  11x [6.3G] matka.king.s01e03.dv.2160p.web.h265-sylix.mkv
+[20:20:44] << :BEAST-X-CHINGY!~beast@untamed.beast PRIVMSG #beast-xdcc :#250  14x [ 13G] Succession.(2018).S01.1080p.BluRay.10bit.EAC3.5.1.x265-iVy.tar
+[20:20:44] << :BEAST-X-ABYSS!~beast@untamed.beast PRIVMSG #beast-xdcc :#297  11x [1.4G] Exchange.Ein.Leben.fuer.ein.Leben.2022.German.AC3.DL.1080p.BluRay.x265-FuN.mkv
+[20:20:44] << :BEAST-X-ULTRA!~beast@untamed.beast PRIVMSG #beast-xdcc :#262  11x [3.3G] Angelo.Wach.auf.es.ist.Weihnachten.2022.German.1080p.WEB.x264-CLASSiCALHD.tar
+[20:20:44] << :BEAST-X-JOKER!~beast@untamed.beast PRIVMSG #beast-xdcc :#276  27x [1.4G] Das.Kanu.Des.Manitu.2025.German.AC3.1080p.BluRay.x265-FuN.mkv
+[20:20:44] << :BEAST-X-DEEP!~beast@untamed.beast PRIVMSG #beast-xdcc :#73  16x [5.2G] Kaiserschmarrndrama.2021.German.1080p.BluRay.x264-DETAiLS.tar
+[20:20:45] << :BEAST-X-AFFECT!~beast@untamed.beast PRIVMSG #beast-xdcc :#289  13x [7.7G] Luegen.macht.erfinderisch.2009.German.DL.1080p.BluRay.x264-SPiCY.tar
+[20:20:45] << :BEAST-X-LuCY!~nakedgoat@D100FDD3.2AC71085.E62BF8D7.IP PRIVMSG #beast-xdcc :#243 97x [4.1G] Disclosure.Day.2026.1080p.iNTERNAL.WEB.HEVC.10bit.AAC-LuCY.mkv
+[20:20:45] << :BEAST-X-ECSTACY!~beast@untamed.beast PRIVMSG #beast-xdcc :#259 11x [8.9G] Better.Call.Saul.S03E04.Sabrosito.1080p.DTS-HD.MA.5.1.AVC.REMUX-FraMeSToR.mkv
+[20:20:45] << :BEAST-X-DELTA!~beast@untamed.beast PRIVMSG #beast-xdcc :#421  15x [1.9G] Bridget.Jones.Am.Rande.des.Wahnsinns.2004.German.DL.AC3.1080p.BluRay.x265-FuN.mkv
+[20:20:45] << :BEAST-X-REVOLT!~beast@untamed.beast PRIVMSG #beast-xdcc :#286  12x [2.2G] Cinderella.2015.REPACK.1080p.10bit.BluRay.6CH.x265.HEVC-PSA.mkv
+[20:20:45] << :BEAST-X-SUPER!~beast@untamed.beast PRIVMSG #beast-xdcc :#145  12x [1.9G] iyanu.s01e00.1080p.web.h264-sylix.mkv
+[20:20:46] << :BEAST-X-HEROIN!~beast@untamed.beast PRIVMSG #beast-xdcc :#243 16x [ 11G] Silo.2023.S02E09.Das.Sicherheitssystem.GERMAN.5.1.ATMOS.UNTOUCHED.DUBBED.DL.EAC3.2160p.WEB-DL.DV.HDR10Plus.HEVC-TvR.mkv
+[20:20:48] << :BEAST-X-ULTRA!~beast@untamed.beast PRIVMSG #beast-xdcc :#263  11x [ 60G] Anger.Management.S02.German.AC3.DL.1080p.BDRip.x265-FuN.tar
+[20:20:48] << :BEAST-X-ABYSS!~beast@untamed.beast PRIVMSG #beast-xdcc :#298  15x [2.8G] ExistenZ.1999.German.AC3.DL.1080p.BluRay.x265-FuN.mkv
+[20:20:49] << :BEAST-X-DELTA!~beast@untamed.beast PRIVMSG #beast-xdcc :#422  14x [1.8G] Bridget.Jones.Baby.2016.German.DL.AC3.1080p.BluRay.x265-FuN.mkv
+[20:20:49] << :BEAST-X-ECSTACY!~beast@untamed.beast PRIVMSG #beast-xdcc :#260 11x [9.4G] Better.Call.Saul.S03E05.Chicanery.1080p.DTS-HD.MA.5.1.AVC.REMUX-FraMeSToR.mkv
+[20:20:49] << :BEAST-X-AFFECT!~beast@untamed.beast PRIVMSG #beast-xdcc :#290  11x [2.4G] Lurker.2025.German.AC3.DL.1080p.Web.x265-FuN.mkv
+[20:20:49] << :BEAST-X-DEEP!~beast@untamed.beast PRIVMSG #beast-xdcc :#74  17x [5.6G] Zombieland.2.Doppelt.haelt.besser.2019.German.DTS.DL.1080p.BluRay.x264-COiNCiDENCE.tar
+[20:20:49] << :hoods!~hoods@abjects-DB344878.dip0.t-ipconnect.de QUIT :Quit: 
+[20:20:49] << :BEAST-X-SUPER!~beast@untamed.beast PRIVMSG #beast-xdcc :#146  21x [746M] From.S04E01.GERMAN.DL.720p.WEB.h264-SAUERKRAUT.mkv
+[20:20:50] << :BEAST-X-JOKER!~beast@untamed.beast PRIVMSG #beast-xdcc :#277  15x [2.8G] Das.Kanu.des.Manitu.2025.German.EAC3.1080p.WEB.HEVC-Cancer58.mkv
+[20:20:50] << :BEAST-X-CHINGY!~beast@untamed.beast PRIVMSG #beast-xdcc :#251  12x [ 13G] Succession.(2018).S03.1080p.BluRay.10bit.EAC3.5.1.x265-iVy.tar
+[20:20:51] << :BEAST-X-LuCY!~nakedgoat@D100FDD3.2AC71085.E62BF8D7.IP PRIVMSG #beast-xdcc :#244 37x [4.1G] Disclosure.Day.2026.1080p.HDTS.HEVC.10bit.HCSubs.AAC-LuCY.mkv
+[20:20:51] << :BEAST-X-ABYSS!~beast@untamed.beast PRIVMSG #beast-xdcc :#299  12x [2.8G] Exit.2019.S01.German.AC3.1080p.Web.x265-FuN.tar
+[20:20:52] << :BEAST-X-AFFECT!~beast@untamed.beast PRIVMSG #beast-xdcc :#291  11x [ 29G] Lurker.2025.German.DL.1080p.BluRay.AVC-TM.tar
+[20:20:52] << :BEAST-X-REVOLT!~beast@untamed.beast PRIVMSG #beast-xdcc :#287  10x [5.5G] Cinderella.in.the.Caribbean.Ein.karibisches.Maerchen.2023.German.DL.EAC3.1080p.WEB.H264-SiXTYNiNE.mkv
+[20:20:53] << :BEAST-X-CHINGY!~beast@untamed.beast PRIVMSG #beast-xdcc :#252  13x [ 14G] Succession.(2018).S04.1080p.BluRay.10bit.EAC3.5.1.x265-iVy.tar
+[20:20:53] << :BEAST-X-JOKER!~beast@untamed.beast PRIVMSG #beast-xdcc :#278  13x [3.8G] Das.Koenigreich.der.Katzen.2002.German.DL.DTS.1080p.BluRay.x264-STARS.tar
+[20:20:53] << :BEAST-X-HEROIN!~beast@untamed.beast PRIVMSG #beast-xdcc :#244 18x [ 11G] Silo.2023.S02E10.Ins.Feuer.GERMAN.5.1.ATMOS.UNTOUCHED.DUBBED.DL.EAC3.2160p.WEB-DL.DV.HDR10Plus.HEVC-TvR.mkv
+[20:20:53] << :BEAST-X-DEEP!~beast@untamed.beast PRIVMSG #beast-xdcc :#75  14x [ 10G] Der.Sommer.der.Gaukler.German.1080p.BluRay.x264-EPHEMERiD.tar
+[20:20:54] << :BEAST-X-ULTRA!~beast@untamed.beast PRIVMSG #beast-xdcc :#264  12x [2.8G] Angst.ueber.der.Stadt.1975.German.AC3.1080p.BluRay.AV1-Cancer58.mkv
+[20:20:54] << :BEAST-X-ECSTACY!~beast@untamed.beast PRIVMSG #beast-xdcc :#261 10x [9.1G] Better.Call.Saul.S03E06.Off.Brand.1080p.DTS-HD.MA.5.1.AVC.REMUX-FraMeSToR.mkv
+[20:20:54] << :poopooass!~Xenu@abjects-146544C4.fixed.kpn.net QUIT :Ping timeout: 240 seconds
+[20:20:54] << :BEAST-X-SUPER!~beast@untamed.beast PRIVMSG #beast-xdcc :#147  13x [2.8G] Watson.S02E18.Sic.Semper.Tyrannis.1080p.AMZN.WEB-DL.DDP5.1.H.264-RAWR.mkv
+[20:20:54] << :BEAST-X-DELTA!~beast@untamed.beast PRIVMSG #beast-xdcc :#423  14x [1.5G] Bridget.Jones.Schokolade.zum.Fruehstueck.2001.German.DL.AC3.1080p.BluRay.x265-FuN.mkv
+[20:20:55] << :DaineOhmaUffToast!~XX@abjects-55D4C410.dip0.t-ipconnect.de QUIT :Ping timeout: 240 seconds
+[20:20:55] << :BEAST-X-ABYSS!~beast@untamed.beast PRIVMSG #beast-xdcc :#300  12x [3.5G] Exit.2019.S02.German.AC3.1080p.Web.x265-FuN.tar
+[20:20:55] << :BEAST-X-AFFECT!~beast@untamed.beast PRIVMSG #beast-xdcc :#292  11x [8.6G] Lurker.2025.German.DL.1080p.BluRay.x264-TM.tar
+[20:20:55] << :BEAST-X-LuCY!~nakedgoat@D100FDD3.2AC71085.E62BF8D7.IP PRIVMSG #beast-xdcc :#245  2x [2.1G] Mortal.Kombat.Ii.2026.1080p.WEB-DL.HEVC.10bit.AAC-LuCY.mkv
+[20:20:55] << :BEAST-X-REVOLT!~beast@untamed.beast PRIVMSG #beast-xdcc :#288  10x [5.5G] Cineramas.Russian.Adventure.1966.1080p.BluRay.x264-OFT.mkv
+[20:20:57] << :BEAST-X-CHINGY!~beast@untamed.beast PRIVMSG #beast-xdcc :#253  11x [ 10G] Succession.S03.German.AC3D.DL.1080p.WebHD.x265-FuN.tar
+[20:20:57] << :BEAST-X-JOKER!~beast@untamed.beast PRIVMSG #beast-xdcc :#279  12x [1.9G] Das.Leuchten.der.Rentiere.2024.German.AC3.DL.1080p.Web.x265-FuN.mkv
+[20:20:57] << :BEAST-X-DEEP!~beast@untamed.beast PRIVMSG #beast-xdcc :#76  15x [811M] West.Is.West.1987.534p.CRIT.WEB-DL.AAC2.0.H.264-BLOOM.mkv
+[20:20:58] << :BEAST-X-ULTRA!~beast@untamed.beast PRIVMSG #beast-xdcc :#265  20x [1.2G] Animal.Farm.Aufstand.Der.Tiere.1954.German.AC3.BDRIP.x264-AG.mkv
+[20:20:58] << :BEAST-X-HEROIN!~beast@untamed.beast PRIVMSG #beast-xdcc :#245 18x [ 11G] Silo.S01E01.Freiheitstag.GERMAN.5.1.ATMOS.UNTOUCHED.DUBBED.DL.EAC3.2160p.WEB-DL.DV.HDR10Plus.HEVC-TvR.mkv
+[20:20:58] << :BEAST-X-SUPER!~beast@untamed.beast PRIVMSG #beast-xdcc :#148  12x [4.3G] Rooster.S01E06.GERMAN.DL.DV.HDR.2160p.WEB.h265-SAUERKRAUT.mkv
+[20:20:59] << :BEAST-X-DELTA!~beast@untamed.beast PRIVMSG #beast-xdcc :#424  14x [1.9G] Briefe.eines.toten.Mannes.1986.German.AC3.DL.1080p.BluRay.x265-FuN.mkv
+[20:20:59] << :BEAST-X-ECSTACY!~beast@untamed.beast PRIVMSG #beast-xdcc :#262 10x [ 10G] Better.Call.Saul.S03E07.Expenses.1080p.DTS-HD.MA.5.1.AVC.REMUX-FraMeSToR.mkv
+[20:20:59] << :BEAST-X-ABYSS!~beast@untamed.beast PRIVMSG #beast-xdcc :#301  12x [1.7G] Exorzist.Der.Anfang.2004.German.AC3.DL.1080p.HDTVRip.x265-FuN.mkv
+[20:20:59] << :BEAST-X-REVOLT!~beast@untamed.beast PRIVMSG #beast-xdcc :#289  12x [2.2G] Clair.Obscur.Expedition.33.Update.v1.4.0-RUNE.tar
+[20:21:00] << :BEAST-X-LuCY!~nakedgoat@D100FDD3.2AC71085.E62BF8D7.IP PRIVMSG #beast-xdcc :#246  2x [1.7G] Badland.Rising.2026.1080p.WEB-DL.HEVC.10bit.AAC5.1-LuCY.mkv
+[20:21:00] << :BEAST-X-AFFECT!~beast@untamed.beast PRIVMSG #beast-xdcc :#293  11x [1.4G] Luster-Das.Zweite.Ich.2011.German.Ac3.DvDrip.x264-AG.mkv
+[20:21:00] << :BEAST-X-DEEP!~beast@untamed.beast PRIVMSG #beast-xdcc :#77  14x [523M] Ikarie.XB.1.German.1963.AC3.BDRiP.x264-PL3X.tar
+[20:21:01] << :BEAST-X-SUPER!~beast@untamed.beast PRIVMSG #beast-xdcc :#149  12x [8.6G] Criminal.Record.S02E02.DV.2160p.WEB.h265-GRACE.mkv
+[20:21:02] << :BEAST-X-AFFECT!~beast@untamed.beast PRIVMSG #beast-xdcc :#294  12x [5.5G] Luther.S01.1080p.BluRay.x265-RARBG.tar
+[20:21:02] << :BEAST-X-CHINGY!~beast@untamed.beast PRIVMSG #beast-xdcc :#254  10x [7.0G] Succubus.Daemonische.Begierde.2024.German.DL.1080p.BluRay.x264-PL3X.tar
+[20:21:03] << :BEAST-X-DELTA!~beast@untamed.beast PRIVMSG #beast-xdcc :#425  12x [1.6G] Brightburn.Son.Of.Darkness.2019.German.AC3.DL.1080p.BluRay.x265-FuN.mkv
+[20:21:03] << :BEAST-X-ECSTACY!~beast@untamed.beast PRIVMSG #beast-xdcc :#263 10x [9.2G] Better.Call.Saul.S03E08.Slip.1080p.DTS-HD.MA.5.1.AVC.REMUX-FraMeSToR.mkv
+[20:21:03] << :BEAST-X-ULTRA!~beast@untamed.beast PRIVMSG #beast-xdcc :#266  12x [ 11G] Animal.Kingdom.S02.German.AC3.DL.1080p.BDRip.x265-FuN.tar
+[20:21:03] << :BEAST-X-JOKER!~beast@untamed.beast PRIVMSG #beast-xdcc :#280  10x [ 21G] Das.Model.und.der.Schnueffler.S02.German.AC3D.DL.1080p.WebHD.x265-FuN.tar
+[20:21:04] << :BEAST-X-ABYSS!~beast@untamed.beast PRIVMSG #beast-xdcc :#302  13x [2.6G] Explorers.Ein.phantastisches.Abenteuer.1985.German.AC3.DL.1080p.WEBRip.x265-FuN.mkv
+[20:21:04] << :BEAST-X-DEEP!~beast@untamed.beast PRIVMSG #beast-xdcc :#78  13x [3.8G] how.to.tell.a.secret.2022.internal.1080p.web.h264-cbfm.mkv
+[20:21:05] << :BEAST-X-HEROIN!~beast@untamed.beast PRIVMSG #beast-xdcc :#246 18x [8.6G] Silo.S01E02.Der.Weg.nach.draussen.GERMAN.5.1.ATMOS.UNTOUCHED.DUBBED.DL.EAC3.2160p.WEB-DL.DV.HDR10Plus.HEVC-TvR.mkv
+[20:21:05] << :BEAST-X-LuCY!~nakedgoat@D100FDD3.2AC71085.E62BF8D7.IP PRIVMSG #beast-xdcc :#247  2x [1.0G] Scary.Movie.2026.720p.iNTERNAL.HDTS.HEVC.10bit.AAC-LuCY.mkv
+[20:21:05] << :BEAST-X-REVOLT!~beast@untamed.beast PRIVMSG #beast-xdcc :#290  15x [5.5G] Clair.Obscur.Expedition.33.Update.v1.5.0-RUNE.tar
+[20:21:05] << :BEAST-X-SUPER!~beast@untamed.beast PRIVMSG #beast-xdcc :#150  17x [4.2G] The.Testaments.S01E06.DV.HDR.2160p.WEB.h265-GRACE.mkv
+[20:21:06] << :BEAST-X-AFFECT!~beast@untamed.beast PRIVMSG #beast-xdcc :#295  11x [5.0G] Lux.Aeterna.2019.German.1080p.BluRay.x264-ROCKEFELLER.tar
+[20:21:06] << :BEAST-X-ULTRA!~beast@untamed.beast PRIVMSG #beast-xdcc :#267  12x [1.8G] Annabelle.3.2019.German.AC3.DL.1080p.BluRay.x265-FuN.mkv
+[20:21:06] << :BEAST-X-JOKER!~beast@untamed.beast PRIVMSG #beast-xdcc :#281  12x [8.8G] Das.Narrenschiff.1965.German.DL.1080p.BluRay.x264-SPiCY.tar
+[20:21:07] << :BEAST-X-CHINGY!~beast@untamed.beast PRIVMSG #beast-xdcc :#255  10x [6.3G] Succubus.Daemonische.Begierde.2024.German.DL.EAC3.1080p.WEB.H264-SiXTYNiNE.mkv
+[20:21:07] << :BEAST-X-ABYSS!~beast@untamed.beast PRIVMSG #beast-xdcc :#303  11x [1.4G] Exterritorial.2025.German.AC3.1080p.Web.x265-FuN.mkv
+[20:21:07] << :BEAST-X-DEEP!~beast@untamed.beast PRIVMSG #beast-xdcc :#79  14x [3.2G] Tales.And.Tactics.v1.4.24-TENOKE.tar
+[20:21:08] << :BEAST-X-DELTA!~beast@untamed.beast PRIVMSG #beast-xdcc :#426  13x [1.8G] Brimstone.Erloese.uns.von.dem.Boesen.2016.German.AC3.DL.1080p.BluRay.x265-FuN.x265.mkv
+[20:21:08] << :BEAST-X-ECSTACY!~beast@untamed.beast PRIVMSG #beast-xdcc :#264 10x [9.3G] Better.Call.Saul.S03E09.Fall.1080p.DTS-HD.MA.5.1.AVC.REMUX-FraMeSToR.mkv
+[20:21:08] << :BEAST-X-REVOLT!~beast@untamed.beast PRIVMSG #beast-xdcc :#291  17x [1.1G] Clannad.S00.German.AC3.DL.1080p.BDRip.x265-FuN.tar
+[20:21:09] << :BEAST-X-AFFECT!~beast@untamed.beast PRIVMSG #beast-xdcc :#296  11x [4.2G] Luzifer.2021.German.1080p.BluRay.x264-PL3X.tar
+[20:21:09] << :BEAST-X-HEROIN!~beast@untamed.beast PRIVMSG #beast-xdcc :#247 17x [ 11G] Silo.S01E03.Maschinen.GERMAN.5.1.ATMOS.UNTOUCHED.DUBBED.DL.EAC3.2160p.WEB-DL.DV.HDR10Plus.HEVC-TvR.mkv
+[20:21:09] << :BEAST-X-SUPER!~beast@untamed.beast PRIVMSG #beast-xdcc :#151  12x [1.9G] Leverage.Redemption.S03E10.GERMAN.DL.720P.WEB.X264-WAYNE.mkv
+[20:21:10] << :BEAST-X-ULTRA!~beast@untamed.beast PRIVMSG #beast-xdcc :#268  18x [3.9G] Annabelle.3.2019.German.DL.AC3.1080p.BluRay.x265-Bi0hazard.mkv
+[20:21:10] << :BEAST-X-LuCY!~nakedgoat@D100FDD3.2AC71085.E62BF8D7.IP PRIVMSG #beast-xdcc :#248  1x [1.0G] Scary.Movie.2026.HDTS.HEVC.10bit.AAC-LuCY.mkv
+[20:21:11] << :BEAST-X-ABYSS!~beast@untamed.beast PRIVMSG #beast-xdcc :#304  15x [1.5G] Extinction.2018.German.AC3D.DL.1080p.WebHD.x265-FuN.mkv
+[20:21:11] << :BEAST-X-DEEP!~beast@untamed.beast PRIVMSG #beast-xdcc :#80  13x [3.4G] Maelstrom.The.Battle.For.Earth.Begins.Enhanced-SKIDROW.tar
+[20:21:12] << :BEAST-X-DELTA!~beast@untamed.beast PRIVMSG #beast-xdcc :#427  17x [8.5G] Brooklyn.Nine-Nine.S04.German.AC3.DL.1080p.WebRip.x265-FuN.tar
+[20:21:12] << :BEAST-X-ECSTACY!~beast@untamed.beast PRIVMSG #beast-xdcc :#265 10x [ 11G] Better.Call.Saul.S03E10.Lantern.1080p.DTS-HD.MA.5.1.AVC.REMUX-FraMeSToR.mkv
+[20:21:12] << :BEAST-X-CHINGY!~beast@untamed.beast PRIVMSG #beast-xdcc :#256  12x [2.9G] Sudden.Death.1995.German.AC3.DL.1080p.BluRay.x265-FuN.mkv
+[20:21:12] << :BEAST-X-SUPER!~beast@untamed.beast PRIVMSG #beast-xdcc :#152  27x [1.7G] Man.on.Fire.S01E05.1080p.WEB.h264-GRACE.mkv
+[20:21:12] << :BEAST-X-JOKER!~beast@untamed.beast PRIVMSG #beast-xdcc :#282  10x [ 35G] Das.Phantom.der.Oper.1998.German.DL.2160p.UHD.BluRay.x265-ENDSTATiON.mkv
+[20:21:13] << :BEAST-X-AFFECT!~beast@untamed.beast PRIVMSG #beast-xdcc :#297  12x [3.2G] Lycoris.Recoil.S01.German.AC3.DL.1080p.BluRay.x265-FuN.tar
+[20:21:15] << :BEAST-X-ABYSS!~beast@untamed.beast PRIVMSG #beast-xdcc :#305  11x [1.6G] Eye.in.the.Sky.2015.German.AC3.DL.1080p.BluRay.x265-FuN.mkv
+[20:21:15] << :BEAST-X-ULTRA!~beast@untamed.beast PRIVMSG #beast-xdcc :#269  12x [2.0G] Anomalisa.2015.German.AC3.ML.1080p.BluRay.x265-FuN.mkv
+[20:21:15] << :BEAST-X-DEEP!~beast@untamed.beast PRIVMSG #beast-xdcc :#81  14x [ 13G] Relationship.Goals.2026.DV.2160p.WEB.h265-ETHEL.mkv
+[20:21:15] << :BEAST-X-HEROIN!~beast@untamed.beast PRIVMSG #beast-xdcc :#248 18x [8.2G] Silo.S01E04.Wahrheit.GERMAN.5.1.ATMOS.UNTOUCHED.DUBBED.DL.EAC3.2160p.WEB-DL.DV.HDR10Plus.HEVC-TvR.mkv
+[20:21:16] << :BEAST-X-REVOLT!~beast@untamed.beast PRIVMSG #beast-xdcc :#292  12x [ 13G] Clarice.Starling.Das.Erwachen.der.Laemmer.S01.GERMAN.DL.720P.WEB.X264-WAYNE.tar
+[20:21:16] << :BEAST-X-CHINGY!~beast@untamed.beast PRIVMSG #beast-xdcc :#257  11x [1.4G] Sugar.Baby.2023.German.AC3.DL.1080p.BluRay.x265-FuN.mkv
+[20:21:16] << :BEAST-X-LuCY!~nakedgoat@D100FDD3.2AC71085.E62BF8D7.IP PRIVMSG #beast-xdcc :#249  8x [3.5G] Star.Wars.The.Mandalorian.And.Grogu.2026.1080p.CAM.HEVC.10bit.AAC-LuCY.mkv
+[20:21:16] << :BEAST-X-ECSTACY!~beast@untamed.beast PRIVMSG #beast-xdcc :#266 11x [ 16G] Twin.Peaks.S03E01.Part.1.1080p.TrueHD.5.1.AVC.REMUX-FraMeSToR.mkv
+[20:21:16] << :BEAST-X-JOKER!~beast@untamed.beast PRIVMSG #beast-xdcc :#283  11x [693M] Das.Schlitzohr.und.der.Bulle.German.1976.AC3.BDRip.x264-SPiCY.tar
+[20:21:16] << :BEAST-X-SUPER!~beast@untamed.beast PRIVMSG #beast-xdcc :#153  19x [1.0G] Man.on.Fire.S01E02.German.DL.720p.WEB.x264-WvF.mkv
+[20:21:16] << :BEAST-X-DELTA!~beast@untamed.beast PRIVMSG #beast-xdcc :#428  15x [7.9G] Brooklyn.Nine-Nine.S05.German.AC3.DL.1080p.WebRip.x265-FuN.tar
+[20:21:17] << :BEAST-X-AFFECT!~beast@untamed.beast PRIVMSG #beast-xdcc :#298  18x [1.8G] M3GAN.2.0.2025.German.AC3.DL.1080p.BluRay.x265-FuN.mkv
+[20:21:18] << :BEAST-X-REVOLT!~beast@untamed.beast PRIVMSG #beast-xdcc :#293  15x [9.4G] Clarksons.Farm.S03.German.AC3.DL.1080p.Web.x265-FuN.tar
+[20:21:19] << :BEAST-X-CHINGY!~beast@untamed.beast PRIVMSG #beast-xdcc :#258  11x [6.4G] Suits.LA.S01.1080p.x265-ELiTE.tar
+[20:21:19] << :BEAST-X-ABYSS!~beast@untamed.beast PRIVMSG #beast-xdcc :#306  25x [3.3G] Eyes.Wide.Shut.1999.German.AC3.DL.1080p.BluRay.x265-FuN.mkv
+[20:21:19] << :BEAST-X-ULTRA!~beast@untamed.beast PRIVMSG #beast-xdcc :#270  11x [2.6G] Anora.2024.German.AC3.DL.1080p.BluRay.x265-FuN.mkv
+[20:21:19] << :BEAST-X-DEEP!~beast@untamed.beast PRIVMSG #beast-xdcc :#82  14x [1.4G] Akame.ga.Kill.Ep.22.German.PCM.DL.1080p.Bluray.x264-AST4u.mkv
+[20:21:20] << :BEAST-X-DELTA!~beast@untamed.beast PRIVMSG #beast-xdcc :#429  12x [2.1G] Brot.und.Tulpen.2000.German.AC3.DL.1080p.BluRay.x265-FuN.mkv
+[20:21:20] << :BEAST-X-ECSTACY!~beast@untamed.beast PRIVMSG #beast-xdcc :#267 11x [ 15G] Twin.Peaks.S03E02.Part.2.1080p.TrueHD.5.1.AVC.REMUX-FraMeSToR.mkv
+[20:21:20] << :BEAST-X-LuCY!~nakedgoat@D100FDD3.2AC71085.E62BF8D7.IP PRIVMSG #beast-xdcc :#250  1x [1.7G] Maternal.Instinct.2026.iNTERNAL.1080p.WEB.HEVC.10bit.AAC5.1-LuCY.mkv
+[20:21:20] << :BEAST-X-SUPER!~beast@untamed.beast PRIVMSG #beast-xdcc :#154  11x [2.9G] Vanderpump.Villa.S03E09.GERMAN.DL.1080p.WEB.h264-HAXE.mkv
+[20:21:21] << :BEAST-X-HEROIN!~beast@untamed.beast PRIVMSG #beast-xdcc :#249 15x [9.2G] Silo.S01E05.Der.Hausmeistersohn.GERMAN.5.1.ATMOS.UNTOUCHED.DUBBED.DL.EAC3.2160p.WEB-DL.DV.HDR10Plus.HEVC-TvR.mkv
+[20:21:22] << :BEAST-X-AFFECT!~beast@untamed.beast PRIVMSG #beast-xdcc :#299  11x [ 22G] M3GAN.2.0.2025.German.DL.2160p.WEB.H265-ZeroTwo.mkv
+[20:21:22] << :BEAST-X-REVOLT!~beast@untamed.beast PRIVMSG #beast-xdcc :#294  10x [3.7G] Clown.Motel.2023.German.DL.1080p.BluRay.x264-iMPERiUM.tar
+[20:21:22] << :BEAST-X-DEEP!~beast@untamed.beast PRIVMSG #beast-xdcc :#83  13x [535M] Dont.Knock.Twice.German.2016.BDRip.x264-iMPERiUM.tar
+[20:21:23] << :BEAST-X-ABYSS!~beast@untamed.beast PRIVMSG #beast-xdcc :#307  16x [3.1G] F1.2025.German.AC3.DL.1080p.BluRay.x265-FuN.mkv
+[20:21:23] << :BEAST-X-CHINGY!~beast@untamed.beast PRIVMSG #beast-xdcc :#259  11x [ 12G] Suits.S03.German.DL.AC3.1080p.BDRip.x265-FuN.tar
+[20:21:23] << :BEAST-X-SUPER!~beast@untamed.beast PRIVMSG #beast-xdcc :#155  15x [681M] Hacks.2021.S05E05.1080p.x265-ELiTE.mkv
+[20:21:23] << :BEAST-X-JOKER!~beast@untamed.beast PRIVMSG #beast-xdcc :#284  13x [1.4G] Das.Spiel.des.Killers.5.ist.die.perfekte.Zahl.2021.German.AC3.DL.1080p.BluRay.x265-FuN.tar
+[20:21:24] << :BEAST-X-AFFECT!~beast@untamed.beast PRIVMSG #beast-xdcc :#300  15x [1.8G] M3gan.2022.German.AC3.DL.1080p.BluRay.x265-FuN.mkv
+[20:21:24] << :BEAST-X-DELTA!~beast@untamed.beast PRIVMSG #beast-xdcc :#430  14x [2.6G] Brust.oder.Keule.1976.German.AC3.DL.1080p.BluRay.x265-FuN.mkv
+[20:21:25] << :BEAST-X-ECSTACY!~beast@untamed.beast PRIVMSG #beast-xdcc :#268 11x [ 15G] Twin.Peaks.S03E03.Part.3.1080p.TrueHD.5.1.AVC.REMUX-FraMeSToR.mkv
+[20:21:25] << :BEAST-X-LuCY!~nakedgoat@D100FDD3.2AC71085.E62BF8D7.IP PRIVMSG #beast-xdcc :#251  6x [1.4G] Saccharine.2026.1080p.WEB-DL.HEVC.10bit.AAC5.1-LuCY.mkv
+[20:21:25] << :BEAST-X-ULTRA!~beast@untamed.beast PRIVMSG #beast-xdcc :#271  10x [4.5G] Another.Deadly.Weekend.2015.German.DL.1080p.BluRay.x264-ENCOUNTERS.tar
+[20:21:26] << :BEAST-X-JOKER!~beast@untamed.beast PRIVMSG #beast-xdcc :#285  10x [2.0G] Das.Versprechen.2001.German.AC3D.DL.1080p.BluRay.x265-FuN.mkv
+[20:21:26] << :BEAST-X-DEEP!~beast@untamed.beast PRIVMSG #beast-xdcc :#84  14x [ 14G] deathstalker.2025.1080p.bluray.x264-knives.mkv
+[20:21:27] << :BEAST-X-ABYSS!~beast@untamed.beast PRIVMSG #beast-xdcc :#308  11x [1.7G] Face.Abgerechnet.wird.zum.Schluss.1997.German.AC3.DL.1080p.BluRay.x265-FuN.mkv
+[20:21:27] << :BEAST-X-HEROIN!~beast@untamed.beast PRIVMSG #beast-xdcc :#250 15x [9.2G] Silo.S01E06.Das.Relikt.GERMAN.5.1.ATMOS.UNTOUCHED.DUBBED.DL.EAC3.2160p.WEB-DL.DV.HDR10Plus.HEVC-TvR.mkv
+[20:21:27] << :BEAST-X-REVOLT!~beast@untamed.beast PRIVMSG #beast-xdcc :#295  11x [1.8G] Cobbler.Der.Schuhmagier.2014.German.DL.AC3.1080p.BluRay.x265-FuN.mkv
+[20:21:27] << :BEAST-X-SUPER!~beast@untamed.beast PRIVMSG #beast-xdcc :#156  15x [8.8G] For.All.Mankind.S05E06.MULTi.HDR.DV.2160p.WEB.H265-FW.mkv
+[20:21:28] << :BEAST-X-DELTA!~beast@untamed.beast PRIVMSG #beast-xdcc :#431  13x [1.5G] Buddy.Buddy.1981.German.AC3D.DL.1080p.DVD2BD.x265-FuN.mkv
+[20:21:28] << :BEAST-X-CHINGY!~beast@untamed.beast PRIVMSG #beast-xdcc :#260  11x [ 12G] Suits.S04.German.DL.AC3.1080p.BDRip.x265-FuN.tar
+[20:21:28] << :BEAST-X-AFFECT!~beast@untamed.beast PRIVMSG #beast-xdcc :#301  14x [3.0G] M3gan.UNRATED.2022.German.DL.1080p.BluRay.x264-COiNCiDENCE.tar
+[20:21:28] << :BEAST-X-ULTRA!~beast@untamed.beast PRIVMSG #beast-xdcc :#272  11x [1.8G] Another.Earth.2011.German.DL.AC3.1080p.BluRay.x265-FuN.mkv
+[20:21:29] << :BEAST-X-ECSTACY!~beast@untamed.beast PRIVMSG #beast-xdcc :#269 11x [ 15G] Twin.Peaks.S03E04.Part.4.1080p.TrueHD.5.1.AVC.REMUX-FraMeSToR.mkv
+[20:21:30] << :BEAST-X-DEEP!~beast@untamed.beast PRIVMSG #beast-xdcc :#85  13x [3.1G] Mock_the_Week_S22E02_1080p_AMZN_WEB-DL_DDP2_0_H_264-RAWR.mkv
+[20:21:30] << :BEAST-X-SUPER!~beast@untamed.beast PRIVMSG #beast-xdcc :#157  13x [2.0G] Half.Man.S01E02.German.DL.720p.WEB.h264-WvF.mkv
+[20:21:31] << :BEAST-X-ABYSS!~beast@untamed.beast PRIVMSG #beast-xdcc :#309  14x [2.1G] Fack.ju.Goehte.3.2017.German.AC3.1080p.BluRay.x265-FuN.mkv
+[20:21:31] << :BEAST-X-LuCY!~nakedgoat@D100FDD3.2AC71085.E62BF8D7.IP PRIVMSG #beast-xdcc :#252  0x [1.2G] Dutton.Ranch.S01E04.iNTERNAL.1080p.AMZN.WEBRip.HEVC.10bit.AAC5.1-LuCY.mkv
+[20:21:31] << :BEAST-X-JOKER!~beast@untamed.beast PRIVMSG #beast-xdcc :#286  12x [1.4G] Das.Wiegenlied.vom.Tod.2016.German.AC3.DL.1080p.BluRay.x265-FuN.mkv
+[20:21:31] << :BEAST-X-REVOLT!~beast@untamed.beast PRIVMSG #beast-xdcc :#296  12x [1.9G] Cold.Prey.Eiskalter.Tod.2006.German.AC3.DL.1080p.BluRay.x265-FuN.mkv
+[20:21:32] << :BEAST-X-ULTRA!~beast@untamed.beast PRIVMSG #beast-xdcc :#273  12x [4.2G] Another.Simple.Favor.2025.German.DL.1080p.AMZN.WEB.H265-WAREZCX.mkv
+[20:21:33] << :BEAST-X-DELTA!~beast@untamed.beast PRIVMSG #beast-xdcc :#432  15x [2.0G] Buddy.haut.den.Lukas.EXTENDED.1980.German.AC3.1080p.BluRay.x265-FuN.mkv
+[20:21:33] << :BEAST-X-ECSTACY!~beast@untamed.beast PRIVMSG #beast-xdcc :#270 10x [ 14G] Twin.Peaks.S03E05.Part.5.1080p.TrueHD.5.1.AVC.REMUX-FraMeSToR.mkv
+[20:21:33] << :BEAST-X-HEROIN!~beast@untamed.beast PRIVMSG #beast-xdcc :#251 16x [8.6G] Silo.S01E07.Die.letzte.Flammenwaechterin.GERMAN.5.1.ATMOS.UNTOUCHED.DUBBED.DL.EAC3.2160p.WEB-DL.DV.HDR10Plus.HEVC-TvR.mkv
+[20:21:33] << :BEAST-X-AFFECT!~beast@untamed.beast PRIVMSG #beast-xdcc :#302  15x [9.0G] MaXXXine.2024.German.DL.1080p.BluRay.x264.RERiP-GMA.tar
+[20:21:34] << :BEAST-X-CHINGY!~beast@untamed.beast PRIVMSG #beast-xdcc :#261  12x [ 26G] Sullivans.Crossing.S03.GERMAN.DL.1080p.WEB.h264-SAUERKRAUT.tar
+[20:21:34] << :BEAST-X-DEEP!~beast@untamed.beast PRIVMSG #beast-xdcc :#86  16x [ 14G] Love.Me.Love.Me.2026.GERMAN.DL.HDR.2160p.WEB.h265-SAUERKRAUT.mkv
+[20:21:35] << :BEAST-X-ABYSS!~beast@untamed.beast PRIVMSG #beast-xdcc :#310  11x [ 12G] Fackeln.im.Sturm.S02.German.E-AC3.DL.1080p.WebRip.x265-FuN.tar
+[20:21:36] << :BEAST-X-LuCY!~nakedgoat@D100FDD3.2AC71085.E62BF8D7.IP PRIVMSG #beast-xdcc :#253  0x [1.3G] Dutton.Ranch.S01E05.iNTERNAL.1080p.AMZN.WEBRip.HEVC.10bit.AAC5.1-LuCY.mkv
+[20:21:36] << :BEAST-X-JOKER!~beast@untamed.beast PRIVMSG #beast-xdcc :#287  12x [1.8G] Das.grenzt.an.Liebe.2014.German.AC3.DL.1080p.BluRay.x265-FuN.mkv
+[20:21:36] << :BEAST-X-SUPER!~beast@untamed.beast PRIVMSG #beast-xdcc :#158  12x [1.7G] Outback.Opal.Hunters.Edelsteinjagd.in.Australien.S08E04.GERMAN.DL.DOKU.720p.WEB.H264-SYNERGiE.mkv
+[20:21:37] << :BEAST-X-AFFECT!~beast@untamed.beast PRIVMSG #beast-xdcc :#303  14x [5.7G] Mac.And.Devin.Go.To.High.School.2012.German.DL.AC3D.1080p.BluRay.x264-GSG9.tar
+[20:21:37] << :BEAST-X-ECSTACY!~beast@untamed.beast PRIVMSG #beast-xdcc :#271 10x [ 13G] Twin.Peaks.S03E06.Part.6.1080p.TrueHD.5.1.AVC.REMUX-FraMeSToR.mkv
+[20:21:37] << :BEAST-X-CHINGY!~beast@untamed.beast PRIVMSG #beast-xdcc :#262  10x [3.9G] Sum1.2017.GERMAN.DL.1080p.BluRay.x264-UNiVERSUM.tar
+[20:21:37] << :BEAST-X-ULTRA!~beast@untamed.beast PRIVMSG #beast-xdcc :#274  17x [2.5G] Ant-Man.2015.German.AC3.DL.1080p.BluRay.x265-FuN.mkv
+[20:21:37] << :BEAST-X-REVOLT!~beast@untamed.beast PRIVMSG #beast-xdcc :#297  15x [1.9G] Cold.Skin.Insel.der.Kreaturen.2017.German.AC3.DL.1080p.BluRay.x265-FuN.mkv
+[20:21:38] [ERROR] [Greys.Anatomy.S22E07] Timeout – Bot hat nicht geantwortet
+[20:21:38] >> QUIT :bye
+[20:21:38] [INFO] [Greys.Anatomy.S22E07] Versuch 14/15: Greys.Anatomy.S22E07.Skyfall.720p.HEVC.x265-MeGusta.mkv (irc.abjects.net #moviegods)
+[20:21:39] << :spiked.ca.us.abjects.net NOTICE * :*** Looking up your hostname...
+[20:21:39] << :spiked.ca.us.abjects.net NOTICE * :*** Checking ident...
+[20:21:39] << :spiked.ca.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[20:21:44] << :spiked.ca.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[20:21:44] << PING :FE41B06A
+[20:21:46] >> JOIN #moviegods
+[20:21:46] << :spiked.ca.us.abjects.net 396 PhantomX384 3A2EBF91.AFB7C0ED.7F20E47C.IP :is now your displayed host
+[20:21:46] << :PhantomX384!~PhantomX3@3A2EBF91.AFB7C0ED.7F20E47C.IP JOIN :#moviegods
+[20:21:46] << :spiked.ca.us.abjects.net 332 PhantomX384 #moviegods : Welcome to #MOVIEGODS - If you are new to this type !help -//- Join #mg-chat to download -//- Join #MG-Lounge for requests/questions/comments/tv-subs/spam free chat -//-  Join #MG-Help for help -//- Donations get VIP perks  -  Join #MG-donations for info
+[20:21:46] << :spiked.ca.us.abjects.net 333 PhantomX384 #moviegods katsper!Kat@Sex.With.Leather.Clad.Women.is.Hot 1728068851
+[20:21:46] [WARNING] [Greys.Anatomy.S22E07] Bot '[mg]-misc|eu|s|stevenjfry' nicht im Channel
+[20:21:46] >> QUIT :bye
+[20:21:46] [WARNING] [Greys.Anatomy.S22E07] Überspringe [MG]-HDTV|EU|S|FruityPebbles (zu viele Fehlversuche)
+[20:21:46] [ERROR] [Greys.Anatomy.S22E07] fehlgeschlagen
+
+============================================================
+=== Lauf beendet: 2026-06-16 20:21:46 | ok: 0, fehlgeschlagen: 1 ===
+============================================================

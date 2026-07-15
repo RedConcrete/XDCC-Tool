@@ -58,6 +58,20 @@
     </section>
 
     <section class="card">
+      <h2>Vergangene Läufe</h2>
+      <div id="runs-list" class="runs-list">
+        <span class="muted">Lade...</span>
+      </div>
+      <div id="run-viewer" class="run-viewer hidden">
+        <div class="irc-toolbar">
+          <span id="run-viewer-title" class="run-viewer-title"></span>
+          <button id="run-viewer-close" class="small-btn">× Schließen</button>
+        </div>
+        <pre id="run-viewer-box" class="irc-box"></pre>
+      </div>
+    </section>
+
+    <section class="card">
       <h2>Bereits geladen</h2>
       <input id="downloaded-filter" type="text" placeholder="Filtern ...">
       <ul id="downloaded-list" class="downloaded-list"></ul>

@@ -1,0 +1,184 @@
+
+============================================================
+=== Lauf gestartet: 2026-06-29 07:23:59 ===
+============================================================
+[07:23:59] [INFO] [Hunter.x.Hunter.S02] Suche: Hunter x Hunter S02
+[07:23:59] << :stormy.fr.eu.abjects.net NOTICE * :*** Looking up your hostname...
+[07:23:59] << :stormy.fr.eu.abjects.net NOTICE * :*** Checking ident...
+[07:24:00] << :stormy.fr.eu.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[07:24:03] << :stormy.fr.eu.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[07:24:05] >> JOIN #beast-chat
+[07:24:05] << :stormy.fr.eu.abjects.net 396 StormBreaker968 C3A97A5D.6C525672.7F20E47C.IP :is now your displayed host
+[07:24:05] << :StormBreaker968!~StormBrea@C3A97A5D.6C525672.7F20E47C.IP JOIN :#beast-chat
+[07:24:06] >> PRIVMSG #beast-chat :!s Hunter x Hunter S02
+[07:24:06] << :stormy.fr.eu.abjects.net 332 StormBreaker968 #beast-chat :Welcome to #BEAST-XDCC  (Search:ONLINE) (Requests:ONLINE) ~ added !get command ~ !top or !topger to see most leeched releases, can be filtered by days ~ Please use !german for latest GERMAN releases only ~ commands; !latest !german !search !request !get !top !topger !tv !tvger !games ~ For more commands use !help ~ Have something to offer? Msg an ~ 
+[07:24:06] << :stormy.fr.eu.abjects.net 333 StormBreaker968 #beast-chat devnull!~qlimax@beastmo.de 1779527540
+[07:24:06] << :databeast!~databeast@the.beast NOTICE StormBreaker968 :04SEARCH RESULTS LIMITED TO 100 PACKS
+[07:24:06] << :databeast!~databeast@the.beast NOTICE StormBreaker968 :04(1430G04) 14Hunter.X.Hunter.(2011).S02.1080p.BluRay.10bit.EAC3.2.0.x265-iVy.tar04 (141214x04)14 /msg 14BEAST-X-DELTA14 xdcc send #141863
+[07:24:12] >> QUIT :bye
+[07:24:30] << :neptune.ny.us.abjects.net NOTICE * :*** Looking up your hostname...
+[07:24:30] << :neptune.ny.us.abjects.net NOTICE * :*** Checking ident...
+[07:24:31] << :neptune.ny.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[07:24:33] << :neptune.ny.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[07:24:34] >> JOIN #mg-chat
+[07:24:34] << :neptune.ny.us.abjects.net 396 DarkPhoenix475 C3A97A5D.6C525672.7F20E47C.IP :is now your displayed host
+[07:24:34] << :DarkPhoenix475!~DarkPhoen@C3A97A5D.6C525672.7F20E47C.IP JOIN :#mg-chat
+[07:24:35] >> PRIVMSG #mg-chat :!s Hunter x Hunter S02
+[07:24:35] << :neptune.ny.us.abjects.net 332 DarkPhoenix475 #mg-chat : Welcome to Moviegods Chat - If you are new to this type !help - Join #MG-Lounge for requests/questions/comments/tv-subs/spam free chat -//- Join #MG-Help for help - Donations earn VIP perks  - Join #MG-donations for info
+[07:24:35] << :neptune.ny.us.abjects.net 333 DarkPhoenix475 #mg-chat katsper!Kat@Sex.With.Leather.Clad.Women.is.Hot 1728087751
+[07:24:36] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE DarkPhoenix475 :15,01   )07 #MOVIEGODS - Found 0 ONLINE Packs (0 Bots) = Total GETS: 0.
+[07:24:42] >> QUIT :bye
+[07:24:42] << :horde.abandoned-irc.net NOTICE * :*** Looking up your hostname...
+[07:24:42] << :horde.abandoned-irc.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[07:24:44] >> JOIN #ZW-CHAT
+[07:24:44] << :horde.abandoned-irc.net 396 ApexPredator802 9457BFBC.35B0CB26.E30ED253.IP :is now your displayed host
+[07:24:44] << :ApexPredator802!ApexPredat@9457BFBC.35B0CB26.E30ED253.IP JOIN :#zw-chat
+[07:24:45] >> PRIVMSG #ZW-CHAT :!search Hunter x Hunter S02
+[07:24:45] << :horde.abandoned-irc.net 332 ApexPredator802 #zw-chat :12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12=[04Searchbot]-[09ONLINE]- Triggers: !help !search !latest !subscriptions !topdl !hot !recommended !movies !music !tv !apps !games !ebook !xxx !mobile | Web: http://www.Abandoned-IRC.net/
+[07:24:45] << :horde.abandoned-irc.net 333 ApexPredator802 #zw-chat [ZOMBIE]-LATEST!Abandoned-@zombie.warez 1781827870
+[07:24:45] << :Zombie!ZW@ZoMbIe.WaReZ NOTICE ApexPredator802 :[#ZW-CHAT] 12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12= we are looking for experienced ROOTERS/DEDi/BOXOWNERS . interested? use !joinZW
+[07:24:45] << :[o_0]!Zombies@Zombie.Warez PRIVMSG ApexPredator802 :VERSION
+[07:24:47] << :[o_0]!Zombies@Zombie.Warez NOTICE ApexPredator802 :
+[07:24:47] << :[o_0]!Zombies@Zombie.Warez NOTICE ApexPredator802 : ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+[07:24:47] << :[o_0]!Zombies@Zombie.Warez NOTICE ApexPredator802 :End of Results. Found: 0 ONLINE packs (0 Bots = 0 Gets) matching "Hunter*x*Hunter*S02"
+[07:24:50] >> QUIT :bye
+[07:24:50] [INFO] [Hunter.x.Hunter.S02] Versuch 1/15: [ BlueTorrents.com ] Hunter x Hunter S02E18 2013 1080p Netflix WEB-DL AVC AAC 2 0-DBTV (irc.rizon.net #ELITEWAREZ)
+[07:24:51] << :irc.tngnet.com NOTICE * :*** Looking up your hostname...
+[07:24:51] << :irc.tngnet.com NOTICE * :*** Checking Ident
+[07:24:51] << :irc.tngnet.com NOTICE * :*** Couldn't look up your hostname
+[07:24:53] << :irc.tngnet.com NOTICE * :*** No Ident response
+[07:24:53] << PING :3088046312
+[07:24:53] << :irc.tngnet.com NOTICE SilentSniper195 :*** Your host is masked (FE842F8.9337BBCB.DDD5C2D7.IP)
+[07:24:53] >> JOIN #ELITEWAREZ
+[07:24:53] << :SilentSniper195!~SilentSni@FE842F8.9337BBCB.DDD5C2D7.IP JOIN :#ELITEWAREZ
+[07:24:53] << :irc.tngnet.com 332 SilentSniper195 #ELITEWAREZ : :: 10#0ELiTEWAREZ :: Search: 4ONLINE 0::0 Join 10#0ELITE-CHAT for S10earch0, S10ubscriptions0, and C10hat0! 
+[07:24:53] << :irc.tngnet.com 333 SilentSniper195 #ELITEWAREZ aLp1ne!~aLp1ne@banged.your.mom.at.g00dwill.org 1765431530
+[07:24:53] [INFO] [Hunter.x.Hunter.S02] /msg windoxdcc xdcc send #63528
+[07:24:54] >> PRIVMSG windoxdcc :xdcc send #63528
+[07:24:54] << :Global!service@rizon.net NOTICE SilentSniper195 :[Logon News - Dec 16 2013] Own a large/active channel or plan to get one going? Please read http://s.rizon.net/authline
+[07:24:54] << :Global!service@rizon.net NOTICE SilentSniper195 :[Logon News - Feb 16 2022] First time on Rizon? Be sure to check out our wiki! https://wiki.rizon.net
+[07:24:54] << :Global!service@rizon.net NOTICE SilentSniper195 :[Random News - Nov 29 2013] Want to make your vhost shiny by adding colors to it? Try your luck in #VIzon
+[07:24:54] << :[EWG]!EWG@EWG.rizon NOTICE SilentSniper195 :[#ELITEWAREZ] Have something to offer? join #ewg-recruits
+[07:24:54] << :py-ctcp!ctcp@ctcp-scanner.rizon.net PRIVMSG SilentSniper195 :VERSION
+[07:24:54] << :windoxDCC!~ewg@Rizon-273EB4E3.coreirc.net NOTICE SilentSniper195 :Pack #63528 does not exist
+[07:24:54] [INFO] [Hunter.x.Hunter.S02] Pack #63528 does not exist
+[07:24:55] << :windoxDCC!~ewg@Rizon-273EB4E3.coreirc.net PRIVMSG #ELITEWAREZ :07added - [1.2G] - [ BlueTorrents.com ] WWEs Greatest Moments S03E20 Entrances of the 90s 1080p HULU WEB-DL AAC2 0 H 264-RAWR - /MSG windoxDCC XDCC SEND 47623
+[07:24:55] >> QUIT :bye
+[07:24:55] [INFO] [Hunter.x.Hunter.S02] Versuch 2/15: [ BlueTorrents.com ] Hunter x Hunter S02E69 2013 1080p Netflix WEB-DL AVC AAC 2 0-DBTV (irc.rizon.net #ELITEWAREZ)
+[07:24:55] [INFO] [Hunter.x.Hunter.S02] Warte 26s vor erneuter Verbindung zu irc.rizon.net
+[07:25:21] << :irc.tngnet.com NOTICE * :*** Looking up your hostname...
+[07:25:21] << :irc.tngnet.com NOTICE * :*** Checking Ident
+[07:25:21] << :irc.tngnet.com NOTICE * :*** Couldn't look up your hostname
+[07:25:22] << :irc.tngnet.com NOTICE * :*** No Ident response
+[07:25:22] << PING :3225057050
+[07:25:22] << :irc.tngnet.com NOTICE DarkPhoenix045 :*** Your host is masked (FE842F8.9337BBCB.DDD5C2D7.IP)
+[07:25:22] >> JOIN #ELITEWAREZ
+[07:25:22] << :DarkPhoenix045!~DarkPhoen@FE842F8.9337BBCB.DDD5C2D7.IP JOIN :#ELITEWAREZ
+[07:25:22] << :irc.tngnet.com 332 DarkPhoenix045 #ELITEWAREZ : :: 10#0ELiTEWAREZ :: Search: 4ONLINE 0::0 Join 10#0ELITE-CHAT for S10earch0, S10ubscriptions0, and C10hat0! 
+[07:25:22] << :irc.tngnet.com 333 DarkPhoenix045 #ELITEWAREZ aLp1ne!~aLp1ne@banged.your.mom.at.g00dwill.org 1765431530
+[07:25:22] [INFO] [Hunter.x.Hunter.S02] /msg windoxdcc xdcc send #63614
+[07:25:23] >> PRIVMSG windoxdcc :xdcc send #63614
+[07:25:23] << :[EWG]GemuCS!~GemuCS@B1E84723.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#4538 0x [11.0M] 1803 - Yakusoku no Chi Riviera (J)(Caravan).zip
+[07:25:23] << :Global!service@rizon.net NOTICE DarkPhoenix045 :[Logon News - Dec 16 2013] Own a large/active channel or plan to get one going? Please read http://s.rizon.net/authline
+[07:25:23] << :Global!service@rizon.net NOTICE DarkPhoenix045 :[Logon News - Feb 16 2022] First time on Rizon? Be sure to check out our wiki! https://wiki.rizon.net
+[07:25:23] << :Global!service@rizon.net NOTICE DarkPhoenix045 :[Random News - Mar 20 2009] Idle on Rizon a lot? Why not play our idlerpg game, you can check it out at #RizonIRPG for more information visit the website http://idlerpg.rizon.net -Rizon Staff
+[07:25:23] << :[EWG]!EWG@EWG.rizon NOTICE DarkPhoenix045 :[#ELITEWAREZ] Have something to offer? join #ewg-recruits
+[07:25:23] << :py-ctcp!ctcp@ctcp-scanner.rizon.net PRIVMSG DarkPhoenix045 :VERSION
+[07:25:23] << :windoxDCC!~ewg@Rizon-273EB4E3.coreirc.net NOTICE DarkPhoenix045 :Pack #63614 does not exist
+[07:25:23] [INFO] [Hunter.x.Hunter.S02] Pack #63614 does not exist
+[07:25:23] << :[EWG]Achleuhi_FR!~EWG]Achle@11DB6A47.F8A9A017.8F120497.IP PRIVMSG #ELITEWAREZ :06#4548 2x [831.8M] Supernatural.S14E04.1080p.MULTi.WEB-DL.AvALoN.mkv
+[07:25:24] << :[EWG]Totoro!~Totoro@Rizon-1AA4B93D.dohboy.org PRIVMSG #ELITEWAREZ :04#122 2x [1.1G] Wolverine and the X-Men - S01E10 - Greetings from Genosha.mkv
+[07:25:24] << :windoxDCC!~ewg@Rizon-273EB4E3.coreirc.net PRIVMSG #ELITEWAREZ :08#22957 0x [3.1G] [ BlueTorrents.com ] Chuck S02E19 Chuck Versus the Dream Job 1080p AMZN WEB-DL DD 5 1 H 264-playWEB
+[07:25:25] << :[EWG]Nikita4k!~Nikita4k@A44E1591.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#1382 0x [16.7G] the.new.avengers.s02e09.multi.2160p.uhd.bluray.x265-ukdtv.mkv
+[07:25:25] << :[EWG]dumpPorn!~ewg@5DC8CE39.B856B7DC.B987F727.IP PRIVMSG #ELITEWAREZ :04#1526 9x [1.1G] alsscan.25.11.01.mitzi.x.xxx.strut.mp4
+[07:25:25] << :[EWG]Achleuhi_FR!~EWG]Achle@11DB6A47.F8A9A017.8F120497.IP PRIVMSG #ELITEWAREZ :06#4549 2x [837.8M] Supernatural.S14E19.1080p.MULTi.WEB-DL.AvALoN.mkv
+[07:25:26] << :[EWG]Nikita!~Nikita@A44E1591.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#16605 0x [3.2G] The.House.of.the.Spirits.S01E08.1080p.WEB.h264-EDITH.mkv
+[07:25:26] << :[EWG]Totoro!~Totoro@Rizon-1AA4B93D.dohboy.org PRIVMSG #ELITEWAREZ :04#123 2x [1.1G] Wolverine and the X-Men - S01E11 - Past Discretions.mkv
+[07:25:27] << :[EWG]MArchive!~MArchive@B1E84723.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#27396 0x [7.4M] Ilyaa_and_Yub_-_The_Carnival_(Extended_Mix)-(5063845242658)-SINGLE-WEB-2025-ZzZz.tar
+[07:25:27] << :[EWG]Achleuhi_FR!~EWG]Achle@11DB6A47.F8A9A017.8F120497.IP PRIVMSG #ELITEWAREZ :06#4550 2x [832.6M] Supernatural.S14E06.1080p.MULTi.WEB-DL.AvALoN.mkv
+[07:25:28] << :[EWG]SoftKing!~ewg@ACB8F08F.509A19EC.92FBB3A5.IP PRIVMSG #ELITEWAREZ :12#591 0x [122.9M] DC.Universe.Online.Hero.Powers.Hack.tar
+[07:25:28] << :[EWG]Totoro!~Totoro@Rizon-1AA4B93D.dohboy.org PRIVMSG #ELITEWAREZ :04#124 2x [1.1G] Wolverine and the X-Men - S01E12 - eXcessive Force.mkv
+[07:25:28] << :windoxDCC!~ewg@Rizon-273EB4E3.coreirc.net PRIVMSG #ELITEWAREZ :09#22958 0x [3.1G] [ BlueTorrents.com ] Chuck S02E18 Chuck Versus the Broken Heart 1080p AMZN WEB-DL DD 5 1 H 264-playWEB
+[07:25:30] << :[EWG]Totoro!~Totoro@Rizon-1AA4B93D.dohboy.org PRIVMSG #ELITEWAREZ :04#125 2x [1.1G] Wolverine and the X-Men - S01E13 - Battle Lines.mkv
+[07:25:30] << :[EWG]dumpPorn!~ewg@5DC8CE39.B856B7DC.B987F727.IP PRIVMSG #ELITEWAREZ :07#1527 17x [1.9G] nubilefilms.25.11.01.christina.sage.november.2025.fantasy.of.the.month.mp4
+[07:25:31] << :[EWG]Ongaku!~Ongaku@B1E84723.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#31150 1x [9.3M] Harris_and_Ford_and_Kickbait_-_Frozen_(Extended_Mix)-(4069977335542)-SINGLE-WEB-2026-ZzZz.tar
+[07:25:32] << :[EWG]Totoro!~Totoro@Rizon-1AA4B93D.dohboy.org PRIVMSG #ELITEWAREZ :04#126 2x [1.1G] Wolverine and the X-Men - S01E14 - Stolen Lives.mkv
+[07:25:32] << :windoxDCC!~ewg@Rizon-273EB4E3.coreirc.net PRIVMSG #ELITEWAREZ :03#22959 0x [3.1G] [ BlueTorrents.com ] Chuck S02E14 Chuck Versus the Best Friend 1080p AMZN WEB-DL DD 5 1 H 264-playWEB
+[07:25:33] << :[EWG]GemuPC!~GemuPC@B1E84723.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#225 1x [627.1M] Aris_Arcanum-DINOByTES.tar
+[07:25:34] << :[EWG]Totoro!~Totoro@Rizon-1AA4B93D.dohboy.org PRIVMSG #ELITEWAREZ :04#127 2x [1.1G] Wolverine and the X-Men - S01E15 - Hunting Grounds.mkv
+[07:25:34] << :[EWG]GemuCS!~GemuCS@B1E84723.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#4539 0x [6.0M] 1804 - Premier Manager 2004-05 (E)(Rising Sun).zip
+[07:25:35] << :[EWG]dumpPorn!~ewg@5DC8CE39.B856B7DC.B987F727.IP PRIVMSG #ELITEWAREZ :08#1528 35x [2.6G] sislovesme.25.11.01.roxie.sinner.jade.kimiko.and.breezy.bri.mp4
+[07:25:36] << :[EWG]SoftKing!~ewg@ACB8F08F.509A19EC.92FBB3A5.IP PRIVMSG #ELITEWAREZ :06#592 0x [38.6M] Dead.by.Daylight.Bloodpoint.Farm.Hack.tar
+[07:25:36] << :[EWG]Nikita!~Nikita@A44E1591.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#16606 0x [507.4M] Etty.S01E02.MULTi.1080p.WEB.H264-AMB3R.mkv
+[07:25:36] << :[EWG]Totoro!~Totoro@Rizon-1AA4B93D.dohboy.org PRIVMSG #ELITEWAREZ :04#128 3x [8.7G] Avatar The Last Airbender - S03E18-E21 - Sozin's Comet The Phoenix King & Sozin's Comet The Old Masters & Sozin's Comet Into the Inferno & Sozin's Comet Avatar Aang.mkv
+[07:25:36] << :windoxDCC!~ewg@Rizon-273EB4E3.coreirc.net PRIVMSG #ELITEWAREZ :10#22960 0x [3.1G] [ BlueTorrents.com ] Chuck S02E13 Chuck Versus the Suburbs 1080p AMZN WEB-DL DD 5 1 H 264-playWEB
+[07:25:38] << :[EWG]Totoro!~Totoro@Rizon-1AA4B93D.dohboy.org PRIVMSG #ELITEWAREZ :04#129 2x [1.1G] Wolverine and the X-Men - S01E16 - Badlands.mkv
+[07:25:39] << :[EWG]MArchive!~MArchive@B1E84723.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#27397 0x [12.1M] Inaya_Day_And_Ewan_Mcvicar_-_Our_Revival_(Warehouse_Edit)-SINGLE-WEB-2025-FMC.tar
+[07:25:40] << :[EWG]Totoro!~Totoro@Rizon-1AA4B93D.dohboy.org PRIVMSG #ELITEWAREZ :04#130 2x [1.1G] Wolverine and the X-Men - S01E17 - Code of Conduct.mkv
+[07:25:40] << :windoxDCC!~ewg@Rizon-273EB4E3.coreirc.net PRIVMSG #ELITEWAREZ :02#22961 0x [2.9G] [ BlueTorrents.com ] Chuck S02E12 Chuck Versus the Third Dimension 1080p AMZN WEB-DL DD 5 1 H 264-playWEB
+[07:25:40] << :[EWG]dumpPorn!~ewg@5DC8CE39.B856B7DC.B987F727.IP PRIVMSG #ELITEWAREZ :09#1529 10x [2.6G] momsfamilysecrets.25.11.01.krystal.sparks.pussy.for.the.man.of.the.house.mp4
+[07:25:42] << :[EWG]Nikita4k!~Nikita4k@A44E1591.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#1383 0x [18.6G] the.new.avengers.s02e03.multi.2160p.uhd.bluray.x265-ukdtv.mkv
+[07:25:43] << :[EWG]Ongaku!~Ongaku@B1E84723.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#31151 2x [457.2M] Mydworth_Ein_Fall_Fuer_Lord_Und_Lady_Mortimer_-_Countdown_Im_Cockpit-MP3CD-DE-2026-MOD.tar
+[07:25:44] << :[EWG]SoftKing!~ewg@ACB8F08F.509A19EC.92FBB3A5.IP PRIVMSG #ELITEWAREZ :13#593 0x [155.9M] Dead.by.Daylight.Killer.Speed.Mod.tar
+[07:25:44] << :windoxDCC!~ewg@Rizon-273EB4E3.coreirc.net PRIVMSG #ELITEWAREZ :12#22962 0x [3.1G] [ BlueTorrents.com ] Chuck S02E09 Chuck Versus The Sensei 1080p AMZN WEB-DL DD 5 1 H 264-playWEB
+[07:25:45] << :[EWG]GemuPC!~GemuPC@B1E84723.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#226 0x [70.8M] Arma.Reforger.Update.v1.4.0.48-TENOKE.tar
+[07:25:45] << :[EWG]dumpPorn!~ewg@5DC8CE39.B856B7DC.B987F727.IP PRIVMSG #ELITEWAREZ :03#1530 17x [1.6G] brazzersexxtra.25.11.01.valentina.nappi.valentina.takes.over.berlin.mp4
+[07:25:46] << :[EWG]Nikita!~Nikita@A44E1591.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#16607 0x [665.1M] Etty.S01E06.FiNAL.MULTi.1080p.WEB.H264-AMB3R.mkv
+[07:25:46] << :[EWG]GemuCS!~GemuCS@B1E84723.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#4540 0x [10.0M] 1805 - Final Fantasy I & II - Dawn of Souls (U)(Independent).zip
+[07:25:48] << :windoxDCC!~ewg@Rizon-273EB4E3.coreirc.net PRIVMSG #ELITEWAREZ :06#22963 0x [3.1G] [ BlueTorrents.com ] Chuck S02E03 Chuck Versus the Break-Up 1080p AMZN WEB-DL DD 5 1 H 264-playWEB
+[07:25:50] << :[EWG]dumpPorn!~ewg@5DC8CE39.B856B7DC.B987F727.IP PRIVMSG #ELITEWAREZ :10#1531 9x [1.4G] TabooHeat.25.11.01.Gigi.Sweets.XXX.1080p.mp4
+[07:25:51] << :[EWG]MArchive!~MArchive@B1E84723.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#27398 0x [16.0M] Ilony-Its_A_New_Day-(ATR263)-SINGLE-WEB-2025-BB.tar
+[07:25:52] << :[EWG]SoftKing!~ewg@ACB8F08F.509A19EC.92FBB3A5.IP PRIVMSG #ELITEWAREZ :04#594 0x [135.4M] Dead.by.Daylight.Perks.Unlimited.Mod.tar
+[07:25:52] << :windoxDCC!~ewg@Rizon-273EB4E3.coreirc.net PRIVMSG #ELITEWAREZ :13#22964 0x [1.2G] [ BlueTorrents.com ] Deadly Influence The Social Media Murders S02E03 720p WEB H264-JFF
+[07:25:55] << :[EWG]Ongaku!~Ongaku@B1E84723.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#31152 1x [11.4M] Neophyte_And_Panic-Anthem_Of_Power_(Extended_Mix)-(NEO371)-SINGLE-WEB-2026-AOV.tar
+[07:25:55] << :[EWG]dumpPorn!~ewg@5DC8CE39.B856B7DC.B987F727.IP PRIVMSG #ELITEWAREZ :02#1532 13x [2.1G] bigtitcreampie.25.11.01.christina.savoy.mp4
+[07:25:56] << :[EWG]Nikita!~Nikita@A44E1591.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#16608 0x [740.3M] Etty.S01E03.MULTi.1080p.WEB.H264-AMB3R.mkv
+[07:25:56] << :windoxDCC!~ewg@Rizon-273EB4E3.coreirc.net PRIVMSG #ELITEWAREZ :04#22965 0x [1.2G] [ BlueTorrents.com ] BBQ Brawl S07E06 720p WEB H264-JFF
+[07:25:57] << :[EWG]GemuPC!~GemuPC@B1E84723.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#227 1x [75.0M] Arma.Reforger.Update.v1.4.0.55-TENOKE.tar
+[07:25:58] << :[EWG]GemuCS!~GemuCS@B1E84723.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#4541 0x [4.8M] 1806 - Gli Incredibili (I)(Independent).zip
+[07:25:59] << :[EWG]Nikita4k!~Nikita4k@A44E1591.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#1384 0x [16.9G] the.new.avengers.s02e12.multi.2160p.uhd.bluray.x265-ukdtv.mkv
+[07:26:00] << :[EWG]SoftKing!~ewg@ACB8F08F.509A19EC.92FBB3A5.IP PRIVMSG #ELITEWAREZ :07#595 0x [110.0M] Dead.by.Daylight.Steam.Cheat.tar
+[07:26:00] << :windoxDCC!~ewg@Rizon-273EB4E3.coreirc.net PRIVMSG #ELITEWAREZ :07#22966 0x [419.0M] [ BlueTorrents.com ] Zatima S04E17 1080p AV1 10bit-MeGusta
+[07:26:00] << :[EWG]dumpPorn!~ewg@5DC8CE39.B856B7DC.B987F727.IP PRIVMSG #ELITEWAREZ :12#1533 4x [3.8G] hesgotrizz.25.11.01.imani.valor.and.lilybet.sanders.mp4
+[07:26:03] << :[EWG]MArchive!~MArchive@B1E84723.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#27399 0x [117.4M] In_Virtue-Age_of_Legends-WEB-2025-ENTiTLED.tar
+[07:26:04] << :windoxDCC!~ewg@Rizon-273EB4E3.coreirc.net PRIVMSG #ELITEWAREZ :08#22967 0x [5.0G] [ BlueTorrents.com ] Nuremberg 2025 1080p BluRay DV HDR10P x265-GeneMige
+[07:26:05] << :[EWG]dumpPorn!~ewg@5DC8CE39.B856B7DC.B987F727.IP PRIVMSG #ELITEWAREZ :06#1534 14x [1.8G] brazzersexxtra.25.11.01.melody.marks.and.daisy.pheonix.gen.zz.part.1.mp4
+[07:26:06] << :[EWG]Nikita!~Nikita@A44E1591.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#16609 0x [2.1G] Etty.S01E05.MULTi.1080p.WEB.H264-AMB3R.mkv
+[07:26:07] << :[EWG]Ongaku!~Ongaku@B1E84723.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#31153 1x [485.0M] Mydworth_Ein_Fall_Fuer_Lord_Und_Lady_Mortimer_-_Toedliche_Fracht-MP3CD-DE-2026-MOD.tar
+[07:26:08] << :[EWG]SoftKing!~ewg@ACB8F08F.509A19EC.92FBB3A5.IP PRIVMSG #ELITEWAREZ :08#596 0x [93.9M] Dead.Cells.Roguelike.Metroidvania.Crack.tar
+[07:26:08] << :windoxDCC!~ewg@Rizon-273EB4E3.coreirc.net PRIVMSG #ELITEWAREZ :09#22968 0x [8.8G] [ BlueTorrents.com ] Oceans Twelve 2004 1080p AMZN HWDY WEB-DL DDP 5 1 H 264-PiRaTeS
+[07:26:09] << :[EWG]GemuPC!~GemuPC@B1E84723.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#228 0x [6.2G] Ark.of.Trisolar-TENOKE.tar
+[07:26:10] << :[EWG]GemuCS!~GemuCS@B1E84723.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#4542 0x [3.8M] 1807 - Payback (E)(Rising Sun).zip
+[07:26:10] << :[EWG]dumpPorn!~ewg@5DC8CE39.B856B7DC.B987F727.IP PRIVMSG #ELITEWAREZ :13#1535 16x [954.6M] AssholeFever.25.11.01.Maya.Rose.Scoring.Before.The.Tennis.Match.XXX.1080p.mp4
+[07:26:12] << :windoxDCC!~ewg@Rizon-273EB4E3.coreirc.net PRIVMSG #ELITEWAREZ :03#22969 0x [6.0G] [ BlueTorrents.com ] Observe and Report 2009 1080p AMZN HWDY WEB-DL DDP 5 1 H 264-PiRaTeS
+[07:26:15] << :[EWG]MArchive!~MArchive@B1E84723.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#27400 0x [8.2M] Ilyaa_-_Bad_Baddies_(Extended_Mix)-(5063863338180)-SINGLE-WEB-2025-ZzZz.tar
+[07:26:15] << :[EWG]dumpPorn!~ewg@5DC8CE39.B856B7DC.B987F727.IP PRIVMSG #ELITEWAREZ :04#1536 9x [2.1G] Gonzo2000.25.10.30.Valentine.Rush.Erotic.Valentine.Rush.Taking.Franks.Gun.XXX.1080p.mp4
+[07:26:16] << :[EWG]SoftKing!~ewg@ACB8F08F.509A19EC.92FBB3A5.IP PRIVMSG #ELITEWAREZ :09#597 0x [140.2M] Dead.Island.Riptide.Zombie.Slayer.Trainer.tar
+[07:26:16] << :[EWG]Nikita!~Nikita@A44E1591.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#16610 0x [2.7G] Etty.S01E04.MULTi.1080p.WEB.H264-AMB3R.mkv
+[07:26:16] << :[EWG]Nikita4k!~Nikita4k@A44E1591.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#1385 0x [18.4G] the.new.avengers.s02e13.final.multi.2160p.uhd.bluray.x265-ukdtv.mkv
+[07:26:16] << :windoxDCC!~ewg@Rizon-273EB4E3.coreirc.net PRIVMSG #ELITEWAREZ :10#22970 1x [7.2G] [ BlueTorrents.com ] Deep Water 2026 2026 1080p AMZN WEB-DL DDP5 1 H 264-KyoGo
+[07:26:19] << :[EWG]Ongaku!~Ongaku@B1E84723.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#31154 1x [25.7M] K-Fox_-_Golden-(LNGS3534)-WEB-2026-ZzZz.tar
+[07:26:20] << :windoxDCC!~ewg@Rizon-273EB4E3.coreirc.net PRIVMSG #ELITEWAREZ :02#22971 0x [368.0M] [ BlueTorrents.com ] Tribunal Justice S03E77 1080p AV1 10bit-MeGusta
+[07:26:20] << :[EWG]dumpPorn!~ewg@5DC8CE39.B856B7DC.B987F727.IP PRIVMSG #ELITEWAREZ :07#1537 4x [3.3G] narcos-ts5-25-10-31-sarina-valentina-pov-queen-1080p.mp4
+[07:26:21] << :[EWG]GemuPC!~GemuPC@B1E84723.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#229 2x [7.4G] Arma.2.Anniversary.Edition.READNFO-FiGHTCLUB.tar
+[07:26:22] << :[EWG]GemuCS!~GemuCS@B1E84723.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#4543 0x [2.4M] 1808 - Ms. Pac-Man Maze Madness (E)(Rising Sun).zip
+[07:26:24] [ERROR] [Hunter.x.Hunter.S02] Timeout – Bot hat nicht geantwortet
+[07:26:24] >> QUIT :bye
+[07:26:24] [WARNING] [Hunter.x.Hunter.S02] Überspringe windoxDCC (zu viele Fehlversuche)
+[07:26:24] [WARNING] [Hunter.x.Hunter.S02] Überspringe windoxDCC (zu viele Fehlversuche)
+[07:26:24] [WARNING] [Hunter.x.Hunter.S02] Überspringe windoxDCC (zu viele Fehlversuche)
+[07:26:24] [WARNING] [Hunter.x.Hunter.S02] Überspringe windoxDCC (zu viele Fehlversuche)
+[07:26:24] [WARNING] [Hunter.x.Hunter.S02] Überspringe windoxDCC (zu viele Fehlversuche)
+[07:26:24] [WARNING] [Hunter.x.Hunter.S02] Überspringe windoxDCC (zu viele Fehlversuche)
+[07:26:24] [WARNING] [Hunter.x.Hunter.S02] Überspringe windoxDCC (zu viele Fehlversuche)
+[07:26:24] [WARNING] [Hunter.x.Hunter.S02] Überspringe windoxDCC (zu viele Fehlversuche)
+[07:26:24] [WARNING] [Hunter.x.Hunter.S02] Überspringe windoxDCC (zu viele Fehlversuche)
+[07:26:24] [WARNING] [Hunter.x.Hunter.S02] Überspringe windoxDCC (zu viele Fehlversuche)
+[07:26:24] [WARNING] [Hunter.x.Hunter.S02] Überspringe windoxDCC (zu viele Fehlversuche)
+[07:26:24] [WARNING] [Hunter.x.Hunter.S02] Überspringe windoxDCC (zu viele Fehlversuche)
+[07:26:24] [WARNING] [Hunter.x.Hunter.S02] Überspringe windoxDCC (zu viele Fehlversuche)
+[07:26:24] [ERROR] [Hunter.x.Hunter.S02] fehlgeschlagen
+
+============================================================
+=== Lauf beendet: 2026-06-29 07:26:24 | ok: 0, fehlgeschlagen: 1 ===
+============================================================

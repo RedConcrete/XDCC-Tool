@@ -1,0 +1,265 @@
+
+============================================================
+=== Lauf gestartet: 2026-06-17 08:59:23 ===
+============================================================
+[08:59:23] [INFO] [Greys.Anatomy.S22E08] Suche: Greys Anatomy S22E08
+[08:59:23] << :mortal.tx.us.abjects.net NOTICE * :*** Looking up your hostname...
+[08:59:23] << :mortal.tx.us.abjects.net NOTICE * :*** Checking ident...
+[08:59:26] << :mortal.tx.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[08:59:27] << :mortal.tx.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[08:59:29] >> JOIN #beast-chat
+[08:59:29] << :mortal.tx.us.abjects.net 396 RogueAce310 2668F1DF.6C525672.7F20E47C.IP :is now your displayed host
+[08:59:29] << :RogueAce310!~RogueAce3@2668F1DF.6C525672.7F20E47C.IP JOIN :#beast-chat
+[08:59:30] >> PRIVMSG #beast-chat :!s Greys Anatomy S22E08
+[08:59:30] << :mortal.tx.us.abjects.net 332 RogueAce310 #beast-chat :Welcome to #BEAST-XDCC  (Search:ONLINE) (Requests:ONLINE) ~ added !get command ~ !top or !topger to see most leeched releases, can be filtered by days ~ Please use !german for latest GERMAN releases only ~ commands; !latest !german !search !request !get !top !topger !tv !tvger !games ~ For more commands use !help ~ Have something to offer? Msg an ~ 
+[08:59:30] << :mortal.tx.us.abjects.net 333 RogueAce310 #beast-chat devnull!~qlimax@beastmo.de 1779527540
+[08:59:30] << :boosterpack!~illu@can.catch.a.meteor PRIVMSG #beast-chat :!s after truth
+[08:59:30] << :databeast!~databeast@the.beast NOTICE RogueAce310 :04No packs found matching your search criteria.
+[08:59:36] >> QUIT :bye
+[08:59:37] << :sharpshooter.ny.us.abjects.net NOTICE * :*** Looking up your hostname...
+[08:59:37] << :sharpshooter.ny.us.abjects.net NOTICE * :*** Checking ident...
+[08:59:37] << :sharpshooter.ny.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[08:59:41] << :sharpshooter.ny.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[08:59:43] >> JOIN #mg-chat
+[08:59:43] << :sharpshooter.ny.us.abjects.net 396 FrostByte249 2668F1DF.6C525672.7F20E47C.IP :is now your displayed host
+[08:59:43] << :FrostByte249!~FrostByte@2668F1DF.6C525672.7F20E47C.IP JOIN :#mg-chat
+[08:59:44] >> PRIVMSG #mg-chat :!s Greys Anatomy S22E08
+[08:59:44] << :sharpshooter.ny.us.abjects.net 332 FrostByte249 #mg-chat : Welcome to Moviegods Chat - If you are new to this type !help - Join #MG-Lounge for requests/questions/comments/tv-subs/spam free chat -//- Join #MG-Help for help - Donations earn VIP perks  - Join #MG-donations for info
+[08:59:44] << :sharpshooter.ny.us.abjects.net 333 FrostByte249 #mg-chat katsper!Kat@Sex.With.Leather.Clad.Women.is.Hot 1728087751
+[08:59:44] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE FrostByte249 :15,01   )07 #MOVIEGODS - Found 0 ONLINE Packs (0 Bots) = Total GETS: 0.
+[08:59:48] << :DesasterMaster!~DesasterM@abjects-286A9B43.pools.arcor-ip.net PRIVMSG #mg-chat :!s Over.the.Top.1987.REMASTERED
+[08:59:48] >> QUIT :bye
+[08:59:49] << :chaos.abandoned-irc.net NOTICE * :*** Looking up your hostname...
+[08:59:49] << :chaos.abandoned-irc.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[08:59:51] >> JOIN #ZW-CHAT
+[08:59:51] << :chaos.abandoned-irc.net 396 CrimsonFox739 A87883A9.35B0CB26.E30ED253.IP :is now your displayed host
+[08:59:51] << :CrimsonFox739!CrimsonFox@A87883A9.35B0CB26.E30ED253.IP JOIN :#zw-chat
+[08:59:52] >> PRIVMSG #ZW-CHAT :!search Greys Anatomy S22E08
+[08:59:52] << :chaos.abandoned-irc.net 332 CrimsonFox739 #zw-chat :12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12=[04Searchbot]-[09ONLINE]- Triggers: !help !search !latest !subscriptions !topdl !hot !recommended !movies !music !tv !apps !games !ebook !xxx !mobile | Web: http://www.Abandoned-IRC.net/
+[08:59:52] << :chaos.abandoned-irc.net 333 CrimsonFox739 #zw-chat lurk3r!jj@zombie.warez 1779866923
+[08:59:52] << :Zombie!ZW@ZoMbIe.WaReZ NOTICE CrimsonFox739 :[#ZW-CHAT] 12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12= we are looking for experienced ROOTERS/DEDi/BOXOWNERS . interested? use !joinZW
+[08:59:52] << :[ZOMBIE]-Homer!ZOMBIE-Hom@Zombie.Warez KICK #zw-chat CutCat :(Clone/Duplicate Blacklisted)
+[08:59:52] << :[ZOMBIE]-Homer!ZOMBIE-Hom@Zombie.Warez KICK #zw-chat CrimsonFox739 :(Clone/Duplicate Blacklisted )
+[08:59:52] << :chaos.abandoned-irc.net 404 CrimsonFox739 #zw-chat :No external channel messages (#ZW-CHAT)
+[08:59:58] >> QUIT :bye
+[08:59:59] [INFO] [Greys.Anatomy.S22E08] Versuch 1/15: Greys.Anatomy.S22E08.1080p.10bit.WEBRip.6CH.X265.HEVC-PSA.mkv (irc.scenep2p.net #THE.SOURCE)
+[08:59:59] << :Paranoia.SceneP2P.net NOTICE * :*** Looking up your hostname...
+[08:59:59] << :Paranoia.SceneP2P.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[09:00:08] << PING :36CB14D7
+[09:00:08] >> JOIN #THE.SOURCE
+[09:00:08] << :Paranoia.SceneP2P.net 396 ApexPredator040 78EFE201.81E10EC4.D2285560.IP :is now your displayed host
+[09:00:08] << :Paranoia.SceneP2P.net NOTICE ApexPredator040 :WARNING: Insecure connection. Please consider using TLS.
+[09:00:08] << :ApexPredator040!ApexPredat@78EFE201.81E10EC4.D2285560.IP JOIN :#THE.SOURCE
+[09:00:08] << :Paranoia.SceneP2P.net 332 ApexPredator040 #THE.SOURCE :10Welcome to #THE.SOURCE. 7The only xdcc channel you will ever need. The FASTEST downloads on IRC. NEVER throttled/logged/restricted | #The.Lounge for search/chat | 4#THE.INSIDERS for auto downloads. Open to all! |11Escape the flood join #THE.SOURCE.NOSPAM | 13Happy Leeching!!!
+[09:00:08] << :Paranoia.SceneP2P.net 333 ApexPredator040 #THE.SOURCE Reeko 1625664464
+[09:00:08] [INFO] [Greys.Anatomy.S22E08] /msg ts-hdtv|ca|p|60609 xdcc send #3788
+[09:00:09] >> PRIVMSG ts-hdtv|ca|p|60609 :xdcc send #3788
+[09:00:09] << :NickServ!services@Services.SceneP2P.net NOTICE ApexPredator040 :Your nickname is not registered. To register it, use: /msg NickServ REGISTER password email
+[09:00:09] << :TheSource!root@The.Source.For.All NOTICE ApexPredator040 :[#THE.SOURCE] 10Welcome to #THE.SOURCE | 11Not sure what to do next? Join #THE.LOUNGE for !help !search !latest !passive | 7Join #THE.INSIDERS to setup your TV subscriptions for auto downloads. | Escape the flood. Idle in #THE.SOURCE.NOSPAM instead of #THE.SOURCE to download.
+[09:00:09] << :TS-HDTV|DE|VPSH!root@The.Source.org PRIVMSG #THE.SOURCE :#2  1x [341M] 13Doctor.on.the.Edge.S01E05.1080p.HEVC.x265-MeGusta.mkv
+[09:00:09] << :TS-ARCHIVE|KR|P|21358!root@The.Source.org PRIVMSG #THE.SOURCE :#4438 0x [375M] 02Road.Wars.2022.S06E10.1080p.HEVC.x265-MeGusta.mkv
+[09:00:09] << :TS-HDTV|FR|VPSE!root@The.Source.org PRIVMSG #THE.SOURCE :#21 3x [1.9G] 03Seth.Meyers.2026.06.15.Carmelo.Anthony.1080p.WEB.h264-JOAN.mkv
+[09:00:09] << :Paranoia.SceneP2P.net 531 ApexPredator040 TS-HDTV|CA|P|60609 :You cannot send messages to users until you've been connected for 120 seconds or more
+[09:00:09] [ERROR] [Greys.Anatomy.S22E08] Server verweigert MSG – 120s Wartezeit nötig, überspringe
+[09:00:09] >> QUIT :bye
+[09:00:09] [INFO] [Greys.Anatomy.S22E08] Versuch 2/15: Greys.Anatomy.S22E08.1080p.10bit.WEBRip.6CH.X265.HEVC-PSA.mkv (irc.scenep2p.net #THE.SOURCE)
+[09:00:09] << :Neutrino.SceneP2P.net NOTICE * :*** Looking up your hostname...
+[09:00:09] << :Neutrino.SceneP2P.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[09:00:18] << PING :B2465D0F
+[09:00:18] >> JOIN #THE.SOURCE
+[09:00:18] << :Neutrino.SceneP2P.net 396 DarkPhoenix596 78EFE201.81E10EC4.D2285560.IP :is now your displayed host
+[09:00:18] << :Neutrino.SceneP2P.net NOTICE DarkPhoenix596 :WARNING: Insecure connection. Please consider using TLS.
+[09:00:18] << :DarkPhoenix596!DarkPhoeni@78EFE201.81E10EC4.D2285560.IP JOIN :#THE.SOURCE
+[09:00:18] << :Neutrino.SceneP2P.net 332 DarkPhoenix596 #THE.SOURCE :10Welcome to #THE.SOURCE. 7The only xdcc channel you will ever need. The FASTEST downloads on IRC. NEVER throttled/logged/restricted | #The.Lounge for search/chat | 4#THE.INSIDERS for auto downloads. Open to all! |11Escape the flood join #THE.SOURCE.NOSPAM | 13Happy Leeching!!!
+[09:00:18] << :Neutrino.SceneP2P.net 333 DarkPhoenix596 #THE.SOURCE Reeko 1625664464
+[09:00:18] << :NickServ!services@Services.SceneP2P.net NOTICE DarkPhoenix596 :Your nickname is not registered. To register it, use: /msg NickServ REGISTER password email
+[09:00:18] [INFO] [Greys.Anatomy.S22E08] /msg ts-hdtv|my|bitch xdcc send #289
+[09:00:19] >> PRIVMSG ts-hdtv|my|bitch :xdcc send #289
+[09:00:19] << :TheSource!root@The.Source.For.All NOTICE DarkPhoenix596 :[#THE.SOURCE] 10Welcome to #THE.SOURCE | 11Not sure what to do next? Join #THE.LOUNGE for !help !search !latest !passive | 7Join #THE.INSIDERS to setup your TV subscriptions for auto downloads. | Escape the flood. Idle in #THE.SOURCE.NOSPAM instead of #THE.SOURCE to download.
+[09:00:19] << :TS-HDTV|RO|P|75943!root@The.Source.org PRIVMSG #THE.SOURCE :#230  0x [1.6G] 11The.Boys.(2019).S04E05.Beware.the.Jabberwock.My.Son.(1080p.AMZN.Webrip.x265.10bit.HEVC.EAC3.5.1-H4XO).mkv
+[09:00:19] << :TS-ARCHIVE|JP|P|85417!root@The.Source.org PRIVMSG #THE.SOURCE :#560 0x [2.1G] 10Outlast.The.Jungle.S01E05.1080p.WEB.h264-EDITH.mkv
+[09:00:19] << :TS-ARCHIVE|DE|P|84870!root@The.Source.org PRIVMSG #THE.SOURCE :#431  0x [892M] 15R.J.Decker.S01E02.720p.WEB.H264-iNSiDiOUS.mkv
+[09:00:19] << :TS-HD|TW|P|35611!root@The.Source.org PRIVMSG #THE.SOURCE :#280 2x [11M] 10Vovsoft.Text.to.Image.Converter.v2.3.Incl.Keymaker-CORE.tar
+[09:00:19] << :TS-HD|PL|STFU!root@The.Source.org PRIVMSG #THE.SOURCE :#410    0x [11M] 07Vitalii.Levchenko.Software.Exportizer.Enterprise.v10.3.4.822.x64.Multilingual.Incl.Keymaker-CORE.tar
+[09:00:19] << :TS-ARCHIVE|IT|P|86652!root@The.Source.org PRIVMSG #THE.SOURCE :#1033 0x [1.7G] 13Wild.Cards.S03E01.1080p.WEBRip.x264-BAE.mkv
+[09:00:19] << :Neutrino.SceneP2P.net 531 DarkPhoenix596 TS-HDTV|MY|BITCH :You cannot send messages to users until you've been connected for 120 seconds or more
+[09:00:19] [ERROR] [Greys.Anatomy.S22E08] Server verweigert MSG – 120s Wartezeit nötig, überspringe
+[09:00:19] >> QUIT :bye
+[09:00:19] [INFO] [Greys.Anatomy.S22E08] Versuch 3/15: Greys.Anatomy.S22E08.1080p.10bit.WEBRip.6CH.X265.HEVC-PSA.mkv (irc.scenep2p.net #THE.SOURCE)
+[09:00:19] << :Neutrino.SceneP2P.net NOTICE * :*** Looking up your hostname...
+[09:00:19] << :Neutrino.SceneP2P.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[09:00:28] << PING :9DE37D38
+[09:00:28] >> JOIN #THE.SOURCE
+[09:00:28] << :Neutrino.SceneP2P.net 396 PhantomX500 78EFE201.81E10EC4.D2285560.IP :is now your displayed host
+[09:00:28] << :Neutrino.SceneP2P.net NOTICE PhantomX500 :WARNING: Insecure connection. Please consider using TLS.
+[09:00:28] << :PhantomX500!PhantomX50@78EFE201.81E10EC4.D2285560.IP JOIN :#THE.SOURCE
+[09:00:28] << :Neutrino.SceneP2P.net 332 PhantomX500 #THE.SOURCE :10Welcome to #THE.SOURCE. 7The only xdcc channel you will ever need. The FASTEST downloads on IRC. NEVER throttled/logged/restricted | #The.Lounge for search/chat | 4#THE.INSIDERS for auto downloads. Open to all! |11Escape the flood join #THE.SOURCE.NOSPAM | 13Happy Leeching!!!
+[09:00:28] << :Neutrino.SceneP2P.net 333 PhantomX500 #THE.SOURCE Reeko 1625664464
+[09:00:28] << :NickServ!services@Services.SceneP2P.net NOTICE PhantomX500 :Your nickname is not registered. To register it, use: /msg NickServ REGISTER password email
+[09:00:28] [INFO] [Greys.Anatomy.S22E08] /msg ts-archive|de|p|60028 xdcc send #1401
+[09:00:29] >> PRIVMSG ts-archive|de|p|60028 :xdcc send #1401
+[09:00:29] << :TheSource!root@The.Source.For.All NOTICE PhantomX500 :[#THE.SOURCE] 10Welcome to #THE.SOURCE | 11Not sure what to do next? Join #THE.LOUNGE for !help !search !latest !passive | 7Join #THE.INSIDERS to setup your TV subscriptions for auto downloads. | Escape the flood. Idle in #THE.SOURCE.NOSPAM instead of #THE.SOURCE to download.
+[09:00:29] << :TS-HD|CH|P|MOLE!root@The.Source.org PRIVMSG #THE.SOURCE :** To request a file, type "/MSG TS-HD|CH|P|MOLE XDCC SEND x" **
+[09:00:29] << :TS-HDTV|FR|VPSAA!root@The.Source.org PRIVMSG #THE.SOURCE :Total Offered: 13GB  Total Transferred: 37GB
+[09:00:29] << :TS-HDTV|NL|VALHALL!root@The.Source.org PRIVMSG #THE.SOURCE :#242   1x [694M] 12Kid.vs.Kat.S02E15.King.of.the.Pipsqueaks-Down.the.Cheek.REPACK.1080p.WEB-DL.DD5.1.H.264-SA89.mkv
+[09:00:29] << :TS-HDTV|ES|SPUR!root@The.Source.org PRIVMSG #THE.SOURCE :#1620  5x [435M] 06The.Great.British.Bake.Off.S07E05.Pastry.720p.HEVC.x265-MeGusta.mkv
+[09:00:29] << :Neutrino.SceneP2P.net 531 PhantomX500 TS-ARCHIVE|DE|P|60028 :You cannot send messages to users until you've been connected for 120 seconds or more
+[09:00:29] [ERROR] [Greys.Anatomy.S22E08] Server verweigert MSG – 120s Wartezeit nötig, überspringe
+[09:00:29] >> QUIT :bye
+[09:00:29] [INFO] [Greys.Anatomy.S22E08] Versuch 4/15: Greys.Anatomy.S22E08.1080p.10bit.WEBRip.6CH.X265.HEVC-PSA.mkv (irc.scenep2p.net #THE.SOURCE)
+[09:00:29] << :Neutrino.SceneP2P.net NOTICE * :*** Looking up your hostname...
+[09:00:29] << :Neutrino.SceneP2P.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[09:00:38] << PING :37BB289E
+[09:00:38] >> JOIN #THE.SOURCE
+[09:00:38] << :Neutrino.SceneP2P.net 396 ShadowWolf879 78EFE201.81E10EC4.D2285560.IP :is now your displayed host
+[09:00:38] << :Neutrino.SceneP2P.net NOTICE ShadowWolf879 :WARNING: Insecure connection. Please consider using TLS.
+[09:00:38] << :NickServ!services@Services.SceneP2P.net NOTICE ShadowWolf879 :Your nickname is not registered. To register it, use: /msg NickServ REGISTER password email
+[09:00:38] << :ShadowWolf879!ShadowWolf@78EFE201.81E10EC4.D2285560.IP JOIN :#THE.SOURCE
+[09:00:38] << :Neutrino.SceneP2P.net 332 ShadowWolf879 #THE.SOURCE :10Welcome to #THE.SOURCE. 7The only xdcc channel you will ever need. The FASTEST downloads on IRC. NEVER throttled/logged/restricted | #The.Lounge for search/chat | 4#THE.INSIDERS for auto downloads. Open to all! |11Escape the flood join #THE.SOURCE.NOSPAM | 13Happy Leeching!!!
+[09:00:38] << :Neutrino.SceneP2P.net 333 ShadowWolf879 #THE.SOURCE Reeko 1625664464
+[09:00:38] [WARNING] [Greys.Anatomy.S22E08] Bot 'ts-archive|de|p|925001' nicht im Channel
+[09:00:38] >> QUIT :bye
+[09:00:38] [INFO] [Greys.Anatomy.S22E08] Versuch 5/15: Greys.Anatomy.S22E08.1080p.10bit.WEBRip.6CH.X265.HEVC-PSA.mkv (irc.scenep2p.net #THE.SOURCE)
+[09:01:08] << :Paranoia.SceneP2P.net NOTICE * :*** Looking up your hostname...
+[09:01:08] << :Paranoia.SceneP2P.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[09:01:17] << PING :2C7DB204
+[09:01:17] >> JOIN #THE.SOURCE
+[09:01:17] << :Paranoia.SceneP2P.net 396 ToxicVenom190 78EFE201.81E10EC4.D2285560.IP :is now your displayed host
+[09:01:17] << :Paranoia.SceneP2P.net NOTICE ToxicVenom190 :WARNING: Insecure connection. Please consider using TLS.
+[09:01:17] << :ToxicVenom190!ToxicVenom@78EFE201.81E10EC4.D2285560.IP JOIN :#THE.SOURCE
+[09:01:17] << :Paranoia.SceneP2P.net 332 ToxicVenom190 #THE.SOURCE :10Welcome to #THE.SOURCE. 7The only xdcc channel you will ever need. The FASTEST downloads on IRC. NEVER throttled/logged/restricted | #The.Lounge for search/chat | 4#THE.INSIDERS for auto downloads. Open to all! |11Escape the flood join #THE.SOURCE.NOSPAM | 13Happy Leeching!!!
+[09:01:17] << :Paranoia.SceneP2P.net 333 ToxicVenom190 #THE.SOURCE Reeko 1625664464
+[09:01:17] [WARNING] [Greys.Anatomy.S22E08] Bot 'ts-hdtv|us|p|66007' nicht im Channel
+[09:01:17] >> QUIT :bye
+[09:01:17] [INFO] [Greys.Anatomy.S22E08] Versuch 6/15: Greys.Anatomy.S22E08.Heavy.on.Me.1080p.AMZN.WEB-DL.DDP5.1.H.264-Kitsune.mkv (irc.abjects.net #beast-xdcc)
+[09:01:17] << :heimdall.no.eu.abjects.net NOTICE * :*** Looking up your hostname...
+[09:01:17] << :heimdall.no.eu.abjects.net NOTICE * :*** Checking ident...
+[09:01:17] << :heimdall.no.eu.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[09:01:21] << :heimdall.no.eu.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[09:01:21] << PING :8CD7E4B7
+[09:01:22] >> JOIN #beast-xdcc
+[09:01:22] << :heimdall.no.eu.abjects.net 396 ToxicVenom237 2668F1DF.6C525672.7F20E47C.IP :is now your displayed host
+[09:01:22] << :ToxicVenom237!~ToxicVeno@2668F1DF.6C525672.7F20E47C.IP JOIN :#beast-xdcc
+[09:01:22] << :heimdall.no.eu.abjects.net 332 ToxicVenom237 #beast-xdcc :#BEAST-XDCC //   BLAZING SPEEDS ~ PROPER PACKS   //   join #BEAST-CHAT for Search and much more.
+[09:01:22] << :heimdall.no.eu.abjects.net 333 ToxicVenom237 #beast-xdcc dbeast 1705098478
+[09:01:23] [WARNING] [Greys.Anatomy.S22E08] Bot 'beast-x-lucid' nicht im Channel
+[09:01:23] >> QUIT :bye
+[09:01:23] [INFO] [Greys.Anatomy.S22E08] Versuch 7/15: Greys.Anatomy.S22E08.Heavy.on.Me.1080p.AMZN.WEB-DL.DDP5.1.H.264-NTb.tar (irc.abandoned-irc.net #zombie-warez)
+[09:01:23] << :karkar.abandoned-irc.net NOTICE * :*** Looking up your hostname...
+[09:01:24] << :karkar.abandoned-irc.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[09:01:24] << PING :4F6E79F4
+[09:01:24] >> JOIN #ZW-CHAT
+[09:01:24] >> JOIN #zombie-warez
+[09:01:24] << :karkar.abandoned-irc.net 396 ApexPredator005 A87883A9.35B0CB26.E30ED253.IP :is now your displayed host
+[09:01:24] << :karkar.abandoned-irc.net 474 ApexPredator005 #ZW-CHAT :Cannot join channel (+b)
+[09:01:24] << :ApexPredator005!ApexPredat@A87883A9.35B0CB26.E30ED253.IP JOIN :#zombie-warez
+[09:01:24] << :karkar.abandoned-irc.net 332 ApexPredator005 #zombie-warez :12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12=[04Searchbot]-[09ONLINE]- Join #ZW-CHAT for Search, subscriptions, and chat! | BoxOwners/Rooters Needed | -catcher -bottler
+[09:01:24] << :karkar.abandoned-irc.net 333 ApexPredator005 #zombie-warez [ZOMBIE]-LATEST!Abandoned-@zombie.warez 1777966087
+[09:01:24] << :Zombie!ZW@ZoMbIe.WaReZ NOTICE ApexPredator005 :[#ZOMBIE-WAREZ] 4!!!WARNING!!! YOU MUST IDLE IN #ZW-CHAT - IF YOU ATTEMPT TO DOWNLOAD WITHOUT BEING IN #ZW-CHAT YOU WILL BE BANNED!
+[09:01:24] [INFO] [Greys.Anatomy.S22E08] /msg zombie-ai xdcc send #225
+[09:01:25] >> PRIVMSG zombie-ai :xdcc send #225
+[09:01:25] << :Zombie-EyePopper!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#152  0x [2.6G] 14The.Lincoln.Lawyer.S04E04.Bleeding.The.Beast.1080p.NF.WEB-DL.DDP5.1.H.264-NTb.tar
+[09:01:25] << :[o_0]!Zombies@Zombie.Warez PRIVMSG ApexPredator005 :VERSION
+[09:01:26] << :Zombie-AI!twist3d@Zombie-Bot NOTICE ApexPredator005 :** Sending you pack #225 ("Boston.Blue.S01E15.1080p.WEB.h264-ETHEL.tar"), which is 2.3GB. (resume supported)
+[09:01:26] [INFO] [Greys.Anatomy.S22E08] ** Sending you pack #225 ("Boston.Blue.S01E15.1080p.WEB.h264-ETHEL.tar"), which is 2.3GB. (resume supported)
+[09:01:26] << :Zombie-AI!twist3d@Zombie-Bot PRIVMSG ApexPredator005 :DCC SEND Boston.Blue.S01E15.1080p.WEB.h264-ETHEL.tar 3227459628 4002 2508226560
+[09:01:26] [WARNING] [Greys.Anatomy.S22E08] Falscher Titel – überspringe: Boston.Blue.S01E15.1080p.WEB.h264-ETHEL.tar
+[09:01:26] >> QUIT :bye
+[09:01:26] [INFO] [Greys.Anatomy.S22E08] Versuch 8/15: Greys.Anatomy.S22E08.1080p.AMZN.WEB-DL.DDP5.1.H.264-NTb.tar (irc.abandoned-irc.net #zombie-warez)
+[09:01:26] [INFO] [Greys.Anatomy.S22E08] Warte 5s vor erneuter Verbindung zu irc.abandoned-irc.net
+[09:01:31] << :karkar.abandoned-irc.net NOTICE * :*** Looking up your hostname...
+[09:01:31] << :karkar.abandoned-irc.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[09:01:33] << PING :3497F768
+[09:01:33] >> JOIN #ZW-CHAT
+[09:01:33] >> JOIN #zombie-warez
+[09:01:33] << :karkar.abandoned-irc.net 396 IronFist992 A87883A9.35B0CB26.E30ED253.IP :is now your displayed host
+[09:01:33] << :karkar.abandoned-irc.net 474 IronFist992 #ZW-CHAT :Cannot join channel (+b)
+[09:01:33] << :IronFist992!IronFist99@A87883A9.35B0CB26.E30ED253.IP JOIN :#zombie-warez
+[09:01:33] << :karkar.abandoned-irc.net 332 IronFist992 #zombie-warez :12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12=[04Searchbot]-[09ONLINE]- Join #ZW-CHAT for Search, subscriptions, and chat! | BoxOwners/Rooters Needed | -catcher -bottler
+[09:01:33] << :karkar.abandoned-irc.net 333 IronFist992 #zombie-warez [ZOMBIE]-LATEST!Abandoned-@zombie.warez 1777966087
+[09:01:33] << :Zombie!ZW@ZoMbIe.WaReZ NOTICE IronFist992 :[#ZOMBIE-WAREZ] 4!!!WARNING!!! YOU MUST IDLE IN #ZW-CHAT - IF YOU ATTEMPT TO DOWNLOAD WITHOUT BEING IN #ZW-CHAT YOU WILL BE BANNED!
+[09:01:33] [INFO] [Greys.Anatomy.S22E08] /msg zombie-alpha xdcc send #1570
+[09:01:34] >> PRIVMSG zombie-alpha :xdcc send #1570
+[09:01:34] << :Zombie-Slayer!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#861   8x [3.6M] 03WinRAR.v7.22.(x64).FINAL.+.Fix.{CracksHash}.tar
+[09:01:35] << :Zombie-Alpha!twist3d@Zombie-Bot NOTICE IronFist992 :** Invalid Pack Number, Try Again
+[09:01:35] [INFO] [Greys.Anatomy.S22E08] ** Invalid Pack Number, Try Again
+[09:01:35] >> QUIT :bye
+[09:01:35] [INFO] [Greys.Anatomy.S22E08] Versuch 9/15: Greys.Anatomy.S22E08.1080p.AMZN.WEB-DL.DDP5.1.H.264-NTb.tar (irc.abandoned-irc.net #zombie-warez)
+[09:01:35] [INFO] [Greys.Anatomy.S22E08] Warte 4s vor erneuter Verbindung zu irc.abandoned-irc.net
+[09:01:39] << :vuln.abandoned-irc.net NOTICE * :*** Looking up your hostname...
+[09:01:39] << :vuln.abandoned-irc.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[09:01:41] << PING :14570F28
+[09:01:41] >> JOIN #ZW-CHAT
+[09:01:41] >> JOIN #zombie-warez
+[09:01:41] << :vuln.abandoned-irc.net 396 ApexPredator650 A87883A9.35B0CB26.E30ED253.IP :is now your displayed host
+[09:01:41] << :vuln.abandoned-irc.net 422 ApexPredator650 :MOTD File is missing
+[09:01:41] << :vuln.abandoned-irc.net 474 ApexPredator650 #ZW-CHAT :Cannot join channel (+b)
+[09:01:41] << :ApexPredator650!ApexPredat@A87883A9.35B0CB26.E30ED253.IP JOIN :#zombie-warez
+[09:01:41] << :vuln.abandoned-irc.net 332 ApexPredator650 #zombie-warez :12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12=[04Searchbot]-[09ONLINE]- Join #ZW-CHAT for Search, subscriptions, and chat! | BoxOwners/Rooters Needed | -catcher -bottler
+[09:01:41] << :vuln.abandoned-irc.net 333 ApexPredator650 #zombie-warez [ZOMBIE]-LATEST!Abandoned-@zombie.warez 1777966087
+[09:01:41] << :Zombie!ZW@ZoMbIe.WaReZ NOTICE ApexPredator650 :[#ZOMBIE-WAREZ] 4!!!WARNING!!! YOU MUST IDLE IN #ZW-CHAT - IF YOU ATTEMPT TO DOWNLOAD WITHOUT BEING IN #ZW-CHAT YOU WILL BE BANNED!
+[09:01:41] [INFO] [Greys.Anatomy.S22E08] /msg zombie-alpha xdcc send #1690
+[09:01:42] >> PRIVMSG zombie-alpha :xdcc send #1690
+[09:01:42] << :Zombie-EyePopper!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#156  2x [2.7G] 14Shrinking.S03E03.D-Day.1080p.ATVP.WEB-DL.DDP5.1.H.264-NTb.tar
+[09:01:43] << :Zombie-Alpha!twist3d@Zombie-Bot NOTICE ApexPredator650 :** Invalid Pack Number, Try Again
+[09:01:43] [INFO] [Greys.Anatomy.S22E08] ** Invalid Pack Number, Try Again
+[09:01:43] >> QUIT :bye
+[09:01:43] [INFO] [Greys.Anatomy.S22E08] Versuch 10/15: Greys Anatomy S22E08 Heavy on Me 1080p DSNP WEB-DL DD 5 1 H 264-playWEB.mkv (irc.rizon.net #ELITEWAREZ)
+[09:01:43] << :irc.tngnet.com NOTICE * :*** Looking up your hostname...
+[09:01:43] << :irc.tngnet.com NOTICE * :*** Checking Ident
+[09:01:43] << :irc.tngnet.com NOTICE * :*** Couldn't look up your hostname
+[09:01:45] << :irc.tngnet.com NOTICE * :*** No Ident response
+[09:01:45] << PING :1138225439
+[09:01:45] << :irc.tngnet.com NOTICE IronFist056 :*** Your host is masked (F8952CA2.9337BBCB.DDD5C2D7.IP)
+[09:01:45] >> JOIN #ELITEWAREZ
+[09:01:45] << :IronFist056!~IronFist0@F8952CA2.9337BBCB.DDD5C2D7.IP JOIN :#ELITEWAREZ
+[09:01:45] << :irc.tngnet.com 332 IronFist056 #ELITEWAREZ : :: 10#0ELiTEWAREZ :: Search: 4ONLINE 0::0 Join 10#0ELITE-CHAT for S10earch0, S10ubscriptions0, and C10hat0! 
+[09:01:45] << :irc.tngnet.com 333 IronFist056 #ELITEWAREZ aLp1ne!~aLp1ne@banged.your.mom.at.g00dwill.org 1765431530
+[09:01:45] [INFO] [Greys.Anatomy.S22E08] /msg [ewg]nikita xdcc send #1380
+[09:01:46] >> PRIVMSG [ewg]nikita :xdcc send #1380
+[09:01:46] << :Global!service@rizon.net NOTICE IronFist056 :[Logon News - Dec 16 2013] Own a large/active channel or plan to get one going? Please read http://s.rizon.net/authline
+[09:01:46] << :Global!service@rizon.net NOTICE IronFist056 :[Logon News - Feb 16 2022] First time on Rizon? Be sure to check out our wiki! https://wiki.rizon.net
+[09:01:46] << :Global!service@rizon.net NOTICE IronFist056 :[Random News - Nov 29 2013] Want to make your vhost shiny by adding colors to it? Try your luck in #VIzon
+[09:01:46] << :[EWG]!EWG@EWG.rizon NOTICE IronFist056 :[#ELITEWAREZ] Have something to offer? join #ewg-recruits
+[09:01:46] << :py-ctcp!ctcp@ctcp-scanner.rizon.net PRIVMSG IronFist056 :VERSION
+[09:01:46] << :[EWG]Nikita!~Nikita@A44E1591.B266744.4249C630.IP PRIVMSG IronFist056 :DCC SEND Greys_Anatomy_S22E08_Heavy_on_Me_1080p_DSNP_WEB-DL_DD_5_1_H_264-playWEB.mkv 1607680172 5587 1821280267
+[09:02:33] >> QUIT :bye
+[09:02:33] [SUCCESS] [Greys.Anatomy.S22E08] Download fertig: Greys_Anatomy_S22E08_Heavy_on_Me_1080p_DSNP_WEB-DL_DD_5_1_H_264-playWEB.mkv
+[09:02:33] [SUCCESS] [Greys.Anatomy.S22E08] fertig & einsortiert
+[09:02:33] [INFO] [Der große Gatsby] Suche: Der große Gatsby
+[09:02:33] << :stormy.fr.eu.abjects.net NOTICE * :*** Looking up your hostname...
+[09:02:33] << :stormy.fr.eu.abjects.net NOTICE * :*** Checking ident...
+[09:02:33] << :stormy.fr.eu.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[09:02:38] << :stormy.fr.eu.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[09:02:39] >> JOIN #beast-chat
+[09:02:39] << :stormy.fr.eu.abjects.net 396 ToxicVenom287 2668F1DF.6C525672.7F20E47C.IP :is now your displayed host
+[09:02:39] << :ToxicVenom287!~ToxicVeno@2668F1DF.6C525672.7F20E47C.IP JOIN :#beast-chat
+[09:02:40] >> PRIVMSG #beast-chat :!s Der große Gatsby
+[09:02:40] << :stormy.fr.eu.abjects.net 332 ToxicVenom287 #beast-chat :Welcome to #BEAST-XDCC  (Search:ONLINE) (Requests:ONLINE) ~ added !get command ~ !top or !topger to see most leeched releases, can be filtered by days ~ Please use !german for latest GERMAN releases only ~ commands; !latest !german !search !request !get !top !topger !tv !tvger !games ~ For more commands use !help ~ Have something to offer? Msg an ~ 
+[09:02:40] << :stormy.fr.eu.abjects.net 333 ToxicVenom287 #beast-chat devnull!~qlimax@beastmo.de 1779527540
+[09:02:41] << :databeast!~databeast@the.beast NOTICE ToxicVenom287 :04No packs found matching your search criteria.
+[09:02:47] >> QUIT :bye
+[09:02:47] << :mortal.tx.us.abjects.net NOTICE * :*** Looking up your hostname...
+[09:02:47] << :mortal.tx.us.abjects.net NOTICE * :*** Checking ident...
+[09:02:48] << :mortal.tx.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[09:02:51] << :mortal.tx.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[09:02:52] >> JOIN #mg-chat
+[09:02:52] << :mortal.tx.us.abjects.net 396 SilentSniper224 2668F1DF.6C525672.7F20E47C.IP :is now your displayed host
+[09:02:52] << :SilentSniper224!~SilentSni@2668F1DF.6C525672.7F20E47C.IP JOIN :#mg-chat
+[09:02:53] >> PRIVMSG #mg-chat :!s Der große Gatsby
+[09:02:53] << :mortal.tx.us.abjects.net 332 SilentSniper224 #mg-chat : Welcome to Moviegods Chat - If you are new to this type !help - Join #MG-Lounge for requests/questions/comments/tv-subs/spam free chat -//- Join #MG-Help for help - Donations earn VIP perks  - Join #MG-donations for info
+[09:02:53] << :mortal.tx.us.abjects.net 333 SilentSniper224 #mg-chat katsper!Kat@Sex.With.Leather.Clad.Women.is.Hot 1728087751
+[09:02:54] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE SilentSniper224 :15,01   )07 #MOVIEGODS - Found 0 ONLINE Packs (0 Bots) = Total GETS: 0.
+[09:03:00] >> QUIT :bye
+[09:03:00] << :killer.abandoned-irc.net NOTICE * :*** Looking up your hostname...
+[09:03:00] << :killer.abandoned-irc.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[09:03:02] >> JOIN #ZW-CHAT
+[09:03:02] << :killer.abandoned-irc.net 396 FrostByte481 A87883A9.35B0CB26.E30ED253.IP :is now your displayed host
+[09:03:02] << :killer.abandoned-irc.net 474 FrostByte481 #ZW-CHAT :Cannot join channel (+b)
+[09:03:02] << :[o_0]!Zombies@Zombie.Warez PRIVMSG FrostByte481 :VERSION
+[09:03:32] >> QUIT :bye
+[09:03:33] [WARNING] [Der große Gatsby] nichts gefunden
+
+============================================================
+=== Lauf beendet: 2026-06-17 09:03:33 | ok: 1, fehlgeschlagen: 1 ===
+============================================================

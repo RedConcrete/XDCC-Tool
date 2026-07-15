@@ -178,9 +178,12 @@ button:disabled {
 }
 
 .irc-line { color: #7a808c; }
-.irc-line.sent { color: #4f8cff; }
-.irc-line.recv { color: #c4c8d0; }
-.irc-line.sep  { color: #f0c14b; font-weight: 600; }
+.irc-line.sent    { color: #4f8cff; }
+.irc-line.recv    { color: #c4c8d0; }
+.irc-line.sep     { color: #f0c14b; font-weight: 600; }
+.irc-line.success { color: var(--success); }
+.irc-line.error   { color: var(--error); }
+.irc-line.warning { color: var(--warning); }
 
 .irc-toolbar {
   display: flex;
@@ -201,6 +204,48 @@ button:disabled {
 .small-btn:hover {
   color: var(--text);
   border-color: var(--muted);
+}
+
+.runs-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  max-height: 180px;
+  overflow-y: auto;
+}
+
+.run-entry {
+  background: transparent;
+  color: var(--muted);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 0.3rem 0.7rem;
+  font-size: 0.82rem;
+  text-align: left;
+  cursor: pointer;
+  font-family: "Consolas", "Courier New", monospace;
+}
+
+.run-entry:hover {
+  color: var(--text);
+  border-color: var(--muted);
+}
+
+.run-entry.active {
+  color: var(--accent);
+  border-color: var(--accent);
+  background: #1a2035;
+}
+
+.run-viewer {
+  margin-top: 0.7rem;
+}
+
+.run-viewer-title {
+  font-family: "Consolas", "Courier New", monospace;
+  font-size: 0.85rem;
+  color: var(--text);
+  flex: 1;
 }
 
 #downloaded-filter {

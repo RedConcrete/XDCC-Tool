@@ -22,15 +22,24 @@
     "port": 6667,
     "channel": "#zombie-warez",
     "search_channel": "#ZW-CHAT",
-    "extra_channels": ["#ZW-CHAT"],
+    "search_bot": "[o_0]",
+    "search_cmd": "!search {query}",
+    "extra_channels": [
+      "#ZW-CHAT"
+    ],
     "lang": "German"
   },
   {
     "server": "irc.rizon.net",
-    "port": 6667,
+    "port": 6697,
     "channel": "#1WAREZ",
     "search_channel": "#1WAREZ",
-    "extra_channels": ["#1WAREZ-CHAT"],
-    "lang": "German"
+    "extra_channels": [
+      "#1WAREZ-CHAT"
+    ],
+    "lang": "German",
+    "tls": true,
+    "sasl_user": "CutCat",
+    "sasl_pass_env": "RIZON_SASL_PASS"
   }
 ]

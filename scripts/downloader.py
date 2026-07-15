@@ -16,6 +16,7 @@ import logging
 import json
 import urllib.request
 import urllib.parse
+import ssl
 from pathlib import Path
 from xdcc_client import xdcc_download, _rate_limit, make_nick  # noqa: F401
 
@@ -43,12 +44,49 @@ CATEGORY_DIRS = {
 
 CHANNELS_CONFIG = Path(os.environ.get("CHANNELS_CONFIG", "/app/channels.json"))
 
+SERVER_STATE_PATH = Path(os.environ.get("SERVER_STATE_FILE", "/app/server_state.json"))
+
+
+def _load_server_state() -> dict:
+    if SERVER_STATE_PATH.exists():
+        try:
+            return json.loads(SERVER_STATE_PATH.read_text(encoding="utf-8"))
+        except Exception as e:
+            log.warning(f"server_state.json Ladefehler: {e}")
+    return {}
+
+
+def _save_server_state(state: dict) -> None:
+    try:
+        SERVER_STATE_PATH.write_text(json.dumps(state, indent=2, ensure_ascii=False), encoding="utf-8")
+    except Exception as e:
+        log.warning(f"server_state.json Schreibfehler: {e}")
+
+
+def is_server_disabled(server: str) -> bool:
+    return _load_server_state().get(server, {}).get("disabled", False)
+
+
+def mark_server_disabled(server: str, reason: str) -> None:
+    state = _load_server_state()
+    state[server] = {
+        "disabled": True,
+        "reason": reason,
+        "since": time.strftime("%Y-%m-%d %H:%M:%S"),
+    }
+    _save_server_state(state)
+    log.warning(f"Server {server} dauerhaft deaktiviert: {reason}")
+
 
 def _load_channels() -> list[dict]:
     if CHANNELS_CONFIG.exists():
         try:
             data = json.loads(CHANNELS_CONFIG.read_text(encoding="utf-8"))
             if isinstance(data, list) and data:
+                for ch in data:
+                    # Passwoerter kommen aus der Umgebung (.env), nie aus channels.json
+                    if "sasl_pass_env" in ch and "sasl_pass" not in ch:
+                        ch["sasl_pass"] = os.environ.get(ch["sasl_pass_env"], "")
                 return data
         except Exception as e:
             log.warning(f"channels.json Ladefehler: {e}")
@@ -163,7 +201,7 @@ def _irc_bot_search(server: str, port: int, channel: str,
                     search_bot: str, search_cmd: str,
                     query: str, timeout: int = 30,
                     download_channel: str | None = None,
-                    irc_callback=None) -> list[dict]:
+                    irc_callback=None, tls: bool = False) -> list[dict]:
     """Sucht direkt via IRC-Suchbot (z.B. databeast auf Abjects)."""
     results = []
     nick = make_nick()
@@ -171,6 +209,11 @@ def _irc_bot_search(server: str, port: int, channel: str,
     _rate_limit(server)
     try:
         sock = socket.create_connection((server, port), timeout=15)
+        if tls:
+            ctx = ssl.create_default_context()
+            ctx.check_hostname = False
+            ctx.verify_mode = ssl.CERT_NONE
+            sock = ctx.wrap_socket(sock, server_hostname=server)
         sock.settimeout(3)
     except Exception as e:
         log.warning(f"IRC-Suche: Verbindung zu {server} fehlgeschlagen: {e}")
@@ -258,6 +301,15 @@ def _irc_bot_search(server: str, port: int, channel: str,
                         )
                         if m:
                             gets, size, fname, bot, pack = m.groups()
+                        else:
+                            # zombie-warez [o_0]-Format:
+                            # 0x [928M] Name.tar -( Command: /MSG Zombie-Slayer XDCC SEND #125 )
+                            m = re.search(
+                                r'(\d+)x\s+\[([0-9.]+[KMGT]?i?B?)\]\s+(.+?)\s+-\(\s*Command:\s*/MSG\s+(\S+)\s+XDCC\s+SEND\s*#(\d+)',
+                                notice, re.IGNORECASE
+                            )
+                            if m:
+                                gets, size, fname, bot, pack = m.groups()
 
                     if fname:
                         results.append({
@@ -292,7 +344,11 @@ def search_packs(query: str, irc_callback=None) -> list[dict]:
     # xdcc.eu für #moviegods, nicht für #beast-xdcc (beide auf irc.abjects.net)
     irc_channels: set[tuple] = set()
 
+    disabled_servers = {s for s, v in _load_server_state().items() if v.get("disabled")}
+
     for ch in CHANNELS:
+        if ch["server"] in disabled_servers:
+            continue
         if "search_bot" in ch:
             found = _irc_bot_search(
                 server=ch["server"],
@@ -303,14 +359,27 @@ def search_packs(query: str, irc_callback=None) -> list[dict]:
                 query=query,
                 download_channel=ch["channel"],
                 irc_callback=irc_callback,
+                tls=ch.get("tls", False),
             )
             if found:
                 results.extend(found)
+                for p in found:
+                    p.setdefault("port", ch.get("port", 6667))
+                    p.setdefault("tls", ch.get("tls", False))
+                    p.setdefault("sasl_user", ch.get("sasl_user", ""))
+                    p.setdefault("sasl_pass", ch.get("sasl_pass", ""))
                 irc_channels.add((ch["server"], ch["channel"].lower()))
 
     for p in search_xdcc_eu(query):
+        if p["server"] in disabled_servers:
+            continue
         key = (p["server"], p.get("channel", "").lower())
         if key not in irc_channels:
+            cfg = _CHANNEL_CFG.get(key, {})
+            p.setdefault("port", cfg.get("port", 6667))
+            p.setdefault("tls", cfg.get("tls", False))
+            p.setdefault("sasl_user", cfg.get("sasl_user", ""))
+            p.setdefault("sasl_pass", cfg.get("sasl_pass", ""))
             results.append(p)
 
     return results

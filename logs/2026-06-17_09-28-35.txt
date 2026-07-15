@@ -1,0 +1,943 @@
+
+============================================================
+=== Lauf gestartet: 2026-06-17 09:28:35 ===
+============================================================
+[09:28:35] [INFO] [Greys.Anatomy.S22E09] Suche: Greys Anatomy S22E09
+[09:28:36] << :spiked.ca.us.abjects.net NOTICE * :*** Looking up your hostname...
+[09:28:36] << :spiked.ca.us.abjects.net NOTICE * :*** Checking ident...
+[09:28:36] << :spiked.ca.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[09:28:41] << :spiked.ca.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[09:28:43] >> JOIN #beast-chat
+[09:28:43] << :spiked.ca.us.abjects.net 396 RogueAce447 2668F1DF.6C525672.7F20E47C.IP :is now your displayed host
+[09:28:43] << :RogueAce447!~RogueAce4@2668F1DF.6C525672.7F20E47C.IP JOIN :#beast-chat
+[09:28:44] >> PRIVMSG #beast-chat :!s Greys Anatomy S22E09
+[09:28:44] << :spiked.ca.us.abjects.net 332 RogueAce447 #beast-chat :Welcome to #BEAST-XDCC  (Search:ONLINE) (Requests:ONLINE) ~ added !get command ~ !top or !topger to see most leeched releases, can be filtered by days ~ Please use !german for latest GERMAN releases only ~ commands; !latest !german !search !request !get !top !topger !tv !tvger !games ~ For more commands use !help ~ Have something to offer? Msg an ~ 
+[09:28:44] << :spiked.ca.us.abjects.net 333 RogueAce447 #beast-chat devnull!~qlimax@beastmo.de 1779527540
+[09:28:44] << :databeast!~databeast@the.beast NOTICE RogueAce447 :04No packs found matching your search criteria.
+[09:28:50] >> QUIT :bye
+[09:28:50] << :arse.nl.eu.abjects.net NOTICE * :*** Looking up your hostname...
+[09:28:50] << :arse.nl.eu.abjects.net NOTICE * :*** Checking ident...
+[09:28:50] << :arse.nl.eu.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[09:28:54] << :arse.nl.eu.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[09:28:56] >> JOIN #mg-chat
+[09:28:56] << :arse.nl.eu.abjects.net 396 RogueAce835 2668F1DF.6C525672.7F20E47C.IP :is now your displayed host
+[09:28:56] << :RogueAce835!~RogueAce8@2668F1DF.6C525672.7F20E47C.IP JOIN :#mg-chat
+[09:28:57] >> PRIVMSG #mg-chat :!s Greys Anatomy S22E09
+[09:28:57] << :arse.nl.eu.abjects.net 332 RogueAce835 #mg-chat : Welcome to Moviegods Chat - If you are new to this type !help - Join #MG-Lounge for requests/questions/comments/tv-subs/spam free chat -//- Join #MG-Help for help - Donations earn VIP perks  - Join #MG-donations for info
+[09:28:57] << :arse.nl.eu.abjects.net 333 RogueAce835 #mg-chat katsper!Kat@Sex.With.Leather.Clad.Women.is.Hot 1728087751
+[09:28:57] << :Itchi!~Itchi@ADCC6EF4.77F84858.EBBEC08E.IP QUIT :Quit: KVIrc 4.2.0 Equilibrium http://www.kvirc.net/
+[09:28:57] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE RogueAce835 :00,0100115)10   0x04 |10 918M04 |10 greys.anatomy.s22e09.720p.web.h264-insidious.mkv04 |09 /msg [MG]-HDTV|EU|S|Lumieres XDCC SEND 5 04|00 Used: 0.00% 0/10 (1m5s ago)04 
+[09:28:57] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE RogueAce835 :15,01   )07 #MOVIEGODS - Found 1 ONLINE Packs (1 Bots) = Total GETS: 0.
+[09:29:03] >> QUIT :bye
+[09:29:04] << :hawk.abandoned-irc.net NOTICE * :*** Looking up your hostname...
+[09:29:04] << :hawk.abandoned-irc.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[09:29:05] >> JOIN #ZW-CHAT
+[09:29:05] << :hawk.abandoned-irc.net 396 ToxicVenom817 A87883A9.35B0CB26.E30ED253.IP :is now your displayed host
+[09:29:05] << :ToxicVenom817!ToxicVenom@A87883A9.35B0CB26.E30ED253.IP JOIN :#zw-chat
+[09:29:06] >> PRIVMSG #ZW-CHAT :!search Greys Anatomy S22E09
+[09:29:06] << :hawk.abandoned-irc.net 332 ToxicVenom817 #zw-chat :12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12=[04Searchbot]-[09ONLINE]- Triggers: !help !search !latest !subscriptions !topdl !hot !recommended !movies !music !tv !apps !games !ebook !xxx !mobile | Web: http://www.Abandoned-IRC.net/
+[09:29:06] << :hawk.abandoned-irc.net 333 ToxicVenom817 #zw-chat lurk3r!jj@zombie.warez 1779866923
+[09:29:06] << :Zombie!ZW@ZoMbIe.WaReZ NOTICE ToxicVenom817 :[#ZW-CHAT] 12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12= we are looking for experienced ROOTERS/DEDi/BOXOWNERS . interested? use !joinZW
+[09:29:07] << :[o_0]!Zombies@Zombie.Warez NOTICE ToxicVenom817 : ________________________________________________________________________________________________________________
+[09:29:07] << :[o_0]!Zombies@Zombie.Warez NOTICE ToxicVenom817 : 1).                            (Zombie-Walker - Used: 0/10 Speed: 0B/s)
+[09:29:07] << :[o_0]!Zombies@Zombie.Warez NOTICE ToxicVenom817 :
+[09:29:07] << :[o_0]!Zombies@Zombie.Warez NOTICE ToxicVenom817 :        0x [867M] Greys.Anatomy.S22E09.720p.HDTV.x264-SYNCOPY.tar -( Command: /MSG Zombie-Walker XDCC SEND #204 )
+[09:29:07] << :[o_0]!Zombies@Zombie.Warez NOTICE ToxicVenom817 :        2x [1.8G] Greys.Anatomy.S22E09.Fortunate.Son.1080p.DSNP.WEB-DL.DDP5.1.H.264-NTb.tar -( Command: /MSG Zombie-Walker XDCC SEND #208 )
+[09:29:09] << :[o_0]!Zombies@Zombie.Warez NOTICE ToxicVenom817 :
+[09:29:09] << :[o_0]!Zombies@Zombie.Warez NOTICE ToxicVenom817 : ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+[09:29:09] << :[o_0]!Zombies@Zombie.Warez NOTICE ToxicVenom817 :End of Results. Found: 2 ONLINE packs (1 Bots = 2 Gets) matching "Greys*Anatomy*S22E09"
+[09:29:12] >> QUIT :bye
+[09:29:13] [INFO] [Greys.Anatomy.S22E09] Versuch 1/15: Greys.Anatomy.S22E09.Fortunate.Son.1080p.DSNP.WEB-DL.DDP5.1.H.264-NTb.tar (irc.abandoned-irc.net #zombie-warez)
+[09:29:13] << :horde.abandoned-irc.net NOTICE * :*** Looking up your hostname...
+[09:29:13] << :horde.abandoned-irc.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[09:29:15] << PING :83532761
+[09:29:15] >> JOIN #ZW-CHAT
+[09:29:15] >> JOIN #zombie-warez
+[09:29:15] << :horde.abandoned-irc.net 396 ThunderStrike932 A87883A9.35B0CB26.E30ED253.IP :is now your displayed host
+[09:29:15] << :ThunderStrike932!ThunderStr@A87883A9.35B0CB26.E30ED253.IP JOIN :#zw-chat
+[09:29:15] << :horde.abandoned-irc.net 332 ThunderStrike932 #zw-chat :12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12=[04Searchbot]-[09ONLINE]- Triggers: !help !search !latest !subscriptions !topdl !hot !recommended !movies !music !tv !apps !games !ebook !xxx !mobile | Web: http://www.Abandoned-IRC.net/
+[09:29:15] << :horde.abandoned-irc.net 333 ThunderStrike932 #zw-chat lurk3r!jj@zombie.warez 1779866923
+[09:29:15] << :Zombie!ZW@ZoMbIe.WaReZ NOTICE ThunderStrike932 :[#ZW-CHAT] 12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12= we are looking for experienced ROOTERS/DEDi/BOXOWNERS . interested? use !joinZW
+[09:29:15] << :ThunderStrike932!ThunderStr@A87883A9.35B0CB26.E30ED253.IP JOIN :#zombie-warez
+[09:29:15] << :horde.abandoned-irc.net 332 ThunderStrike932 #zombie-warez :12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12=[04Searchbot]-[09ONLINE]- Join #ZW-CHAT for Search, subscriptions, and chat! | BoxOwners/Rooters Needed | -catcher -bottler
+[09:29:15] << :horde.abandoned-irc.net 333 ThunderStrike932 #zombie-warez [ZOMBIE]-LATEST!Abandoned-@zombie.warez 1777966087
+[09:29:15] << :Zombie!ZW@ZoMbIe.WaReZ NOTICE ThunderStrike932 :[#ZOMBIE-WAREZ] 4!!!WARNING!!! YOU MUST IDLE IN #ZW-CHAT - IF YOU ATTEMPT TO DOWNLOAD WITHOUT BEING IN #ZW-CHAT YOU WILL BE BANNED!
+[09:29:15] [INFO] [Greys.Anatomy.S22E09] /msg zombie-walker xdcc send #208
+[09:29:16] >> PRIVMSG zombie-walker :xdcc send #208
+[09:29:16] << :[o_0]!Zombies@Zombie.Warez PRIVMSG ThunderStrike932 :VERSION
+[09:29:17] << :Zombie-LuCy-DiSTRO!bot@Zombie-Bot PRIVMSG #zombie-warez :#431  0x [601M] 14Various_Artists-Big_Jogging_Hits_2019_(Fitness_Version)-16BIT-44.1KHZ-WEB-FLAC-2019-WALKMAN.tar
+[09:29:18] << :shabbacranks!shabbacran@F6BD232B.392D3724.9E1B22F1.IP JOIN :#zombie-warez
+[09:29:19] << :TorS!tors@the.pirate.killer PRIVMSG #zw-chat :yes after 14 hours drive with my cammion is was tired :)
+[09:29:19] << :Zombie-EyePopper!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#58   0x [1.7G] 14Mom.S05E22.Diamond.Earrings.and.a.Pumpkin.Head.1080p.AMZN.WEB-DL.DDP5.1.H.264-NTb.tar
+[09:29:20] << :Zombie-Walker!twist3d@Zombie-Bot NOTICE ThunderStrike932 :** Sending you pack #208 ("Greys.Anatomy.S22E09.Fortunate.Son.1080p.DSNP.WEB-DL.DDP5.1.H.264-NTb.tar"), which is 1.8GB. (resume supported)
+[09:29:20] [INFO] [Greys.Anatomy.S22E09] ** Sending you pack #208 ("Greys.Anatomy.S22E09.Fortunate.Son.1080p.DSNP.WEB-DL.DDP5.1.H.264-NTb.tar"), which is 1.8GB. (resume supported)
+[09:29:22] << :Zombie-LuCy-DiSTRO!bot@Zombie-Bot PRIVMSG #zombie-warez :#432  0x [365M] 14Various_Artists-Loving_Jazz,_Vol._61-16BIT-44.1KHZ-WEB-FLAC-2022-WALKMAN.tar
+[09:29:25] << :Zombie-EyePopper!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#59   0x [1.3G] 14Mom.S02E16.Dirty.Money.And.A.Woman.Named.Mike.1080p.AMZN.WEB-DL.DDP5.1.H.264-NTb.tar
+[09:29:25] << :Zombie-Walker!twist3d@Zombie-Bot PRIVMSG ThunderStrike932 :DCC SEND Greys.Anatomy.S22E09.Fortunate.Son.1080p.DSNP.WEB-DL.DDP5.1.H.264-NTb.tar 96751999 32793 1882480640
+[09:33:44] [ERROR] [Greys.Anatomy.S22E09] [Errno 104] Connection reset by peer
+[09:33:44] >> QUIT :bye
+[09:33:44] [WARNING] [Greys.Anatomy.S22E09] Verbindung unterbrochen – 630 MB gesichert, nächster Bot versucht Resume
+[09:33:44] [INFO] [Greys.Anatomy.S22E09] Versuch 2/15: greys.anatomy.s22e09.720p.web.h264-insidious.mkv (irc.abjects.net #moviegods)
+[09:33:44] << :arse.nl.eu.abjects.net NOTICE * :*** Looking up your hostname...
+[09:33:44] << :arse.nl.eu.abjects.net NOTICE * :*** Checking ident...
+[09:33:44] << :arse.nl.eu.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[09:33:48] << :arse.nl.eu.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[09:33:48] << PING :FC003963
+[09:33:50] >> JOIN #moviegods
+[09:33:50] << :arse.nl.eu.abjects.net 396 NightHawk641 2668F1DF.6C525672.7F20E47C.IP :is now your displayed host
+[09:33:50] << :NightHawk641!~NightHawk@2668F1DF.6C525672.7F20E47C.IP JOIN :#moviegods
+[09:33:50] << :arse.nl.eu.abjects.net 332 NightHawk641 #moviegods : Welcome to #MOVIEGODS - If you are new to this type !help -//- Join #mg-chat to download -//- Join #MG-Lounge for requests/questions/comments/tv-subs/spam free chat -//-  Join #MG-Help for help -//- Donations get VIP perks  -  Join #MG-donations for info
+[09:33:50] << :arse.nl.eu.abjects.net 333 NightHawk641 #moviegods katsper!Kat@Sex.With.Leather.Clad.Women.is.Hot 1728068851
+[09:33:50] [INFO] [Greys.Anatomy.S22E09] /msg [mg]-hdtv|eu|s|lumieres xdcc send #5
+[09:33:51] >> PRIVMSG [mg]-hdtv|eu|s|lumieres :xdcc send #5
+[09:33:51] << :[MG]-HDTV|EU|S|Lumieres!~root@abjects-20531A66.ip-192-99-233.net PRIVMSG NightHawk641 :DCC SEND greys.anatomy.s22e09.720p.web.h264-insidious.mkv 3227773425 30000 962825123
+[09:34:22] >> QUIT :bye
+[09:34:22] [SUCCESS] [Greys.Anatomy.S22E09] Download fertig: greys.anatomy.s22e09.720p.web.h264-insidious.mkv
+[09:34:22] [SUCCESS] [Greys.Anatomy.S22E09] fertig & einsortiert
+[09:34:22] [INFO] [Greys.Anatomy.S22E10] Suche: Greys Anatomy S22E10
+[09:34:22] << :arse.nl.eu.abjects.net NOTICE * :*** Looking up your hostname...
+[09:34:22] << :arse.nl.eu.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[09:34:22] << :arse.nl.eu.abjects.net NOTICE * :*** Checking ident...
+[09:34:26] << :arse.nl.eu.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[09:34:27] >> JOIN #beast-chat
+[09:34:27] << :arse.nl.eu.abjects.net 396 ToxicVenom507 2668F1DF.6C525672.7F20E47C.IP :is now your displayed host
+[09:34:27] << :ToxicVenom507!~ToxicVeno@2668F1DF.6C525672.7F20E47C.IP JOIN :#beast-chat
+[09:34:28] >> PRIVMSG #beast-chat :!s Greys Anatomy S22E10
+[09:34:28] << :arse.nl.eu.abjects.net 332 ToxicVenom507 #beast-chat :Welcome to #BEAST-XDCC  (Search:ONLINE) (Requests:ONLINE) ~ added !get command ~ !top or !topger to see most leeched releases, can be filtered by days ~ Please use !german for latest GERMAN releases only ~ commands; !latest !german !search !request !get !top !topger !tv !tvger !games ~ For more commands use !help ~ Have something to offer? Msg an ~ 
+[09:34:28] << :arse.nl.eu.abjects.net 333 ToxicVenom507 #beast-chat devnull!~qlimax@beastmo.de 1779527540
+[09:34:28] << :databeast!~databeast@the.beast NOTICE ToxicVenom507 :04No packs found matching your search criteria.
+[09:34:34] >> QUIT :bye
+[09:34:34] << :neptune.ny.us.abjects.net NOTICE * :*** Looking up your hostname...
+[09:34:34] << :neptune.ny.us.abjects.net NOTICE * :*** Checking ident...
+[09:34:35] << :neptune.ny.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[09:34:38] << :neptune.ny.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[09:34:39] >> JOIN #mg-chat
+[09:34:39] << :neptune.ny.us.abjects.net 396 BlazeFury573 2668F1DF.6C525672.7F20E47C.IP :is now your displayed host
+[09:34:39] << :BlazeFury573!~BlazeFury@2668F1DF.6C525672.7F20E47C.IP JOIN :#mg-chat
+[09:34:40] >> PRIVMSG #mg-chat :!s Greys Anatomy S22E10
+[09:34:40] << :neptune.ny.us.abjects.net 332 BlazeFury573 #mg-chat : Welcome to Moviegods Chat - If you are new to this type !help - Join #MG-Lounge for requests/questions/comments/tv-subs/spam free chat -//- Join #MG-Help for help - Donations earn VIP perks  - Join #MG-donations for info
+[09:34:40] << :neptune.ny.us.abjects.net 333 BlazeFury573 #mg-chat katsper!Kat@Sex.With.Leather.Clad.Women.is.Hot 1728087751
+[09:34:41] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE BlazeFury573 :15,01   )07 #MOVIEGODS - Found 0 ONLINE Packs (0 Bots) = Total GETS: 0.
+[09:34:42] << :Eddox!~Eddox@abjects-123DE5DA.pools.vodafone-ip.de PRIVMSG #mg-chat :!hot
+[09:34:45] >> QUIT :bye
+[09:34:45] << :hawk.abandoned-irc.net NOTICE * :*** Looking up your hostname...
+[09:34:46] << :hawk.abandoned-irc.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[09:34:47] >> JOIN #ZW-CHAT
+[09:34:47] << :hawk.abandoned-irc.net 396 RogueAce453 A87883A9.35B0CB26.E30ED253.IP :is now your displayed host
+[09:34:47] << :RogueAce453!RogueAce45@A87883A9.35B0CB26.E30ED253.IP JOIN :#zw-chat
+[09:34:48] >> PRIVMSG #ZW-CHAT :!search Greys Anatomy S22E10
+[09:34:48] << :hawk.abandoned-irc.net 332 RogueAce453 #zw-chat :12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12=[04Searchbot]-[09ONLINE]- Triggers: !help !search !latest !subscriptions !topdl !hot !recommended !movies !music !tv !apps !games !ebook !xxx !mobile | Web: http://www.Abandoned-IRC.net/
+[09:34:48] << :hawk.abandoned-irc.net 333 RogueAce453 #zw-chat lurk3r!jj@zombie.warez 1779866923
+[09:34:48] << :Zombie!ZW@ZoMbIe.WaReZ NOTICE RogueAce453 :[#ZW-CHAT] 12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12= we are looking for experienced ROOTERS/DEDi/BOXOWNERS . interested? use !joinZW
+[09:34:50] << :[o_0]!Zombies@Zombie.Warez NOTICE RogueAce453 :
+[09:34:50] << :[o_0]!Zombies@Zombie.Warez NOTICE RogueAce453 : ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+[09:34:50] << :[o_0]!Zombies@Zombie.Warez NOTICE RogueAce453 :End of Results. Found: 0 ONLINE packs (0 Bots = 0 Gets) matching "Greys*Anatomy*S22E10"
+[09:34:53] >> QUIT :bye
+[09:34:55] [INFO] [Greys.Anatomy.S22E10] Versuch 1/15: Greys.Anatomy.S22E10.Strip.That.Down.1080p.DSNP.WEB-DL.DDP5.1.H.264-NTb.tar (irc.abandoned-irc.net #zombie-warez)
+[09:34:55] << :chaos.abandoned-irc.net NOTICE * :*** Looking up your hostname...
+[09:34:56] << :chaos.abandoned-irc.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[09:34:57] << PING :5F903F46
+[09:34:57] >> JOIN #ZW-CHAT
+[09:34:57] >> JOIN #zombie-warez
+[09:34:57] << :chaos.abandoned-irc.net 396 ToxicVenom087 A87883A9.35B0CB26.E30ED253.IP :is now your displayed host
+[09:34:57] << :ToxicVenom087!ToxicVenom@A87883A9.35B0CB26.E30ED253.IP JOIN :#zw-chat
+[09:34:57] << :chaos.abandoned-irc.net 332 ToxicVenom087 #zw-chat :12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12=[04Searchbot]-[09ONLINE]- Triggers: !help !search !latest !subscriptions !topdl !hot !recommended !movies !music !tv !apps !games !ebook !xxx !mobile | Web: http://www.Abandoned-IRC.net/
+[09:34:57] << :chaos.abandoned-irc.net 333 ToxicVenom087 #zw-chat lurk3r!jj@zombie.warez 1779866923
+[09:34:57] << :Zombie!ZW@ZoMbIe.WaReZ NOTICE ToxicVenom087 :[#ZW-CHAT] 12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12= we are looking for experienced ROOTERS/DEDi/BOXOWNERS . interested? use !joinZW
+[09:34:57] << :ToxicVenom087!ToxicVenom@A87883A9.35B0CB26.E30ED253.IP JOIN :#zombie-warez
+[09:34:57] << :chaos.abandoned-irc.net 332 ToxicVenom087 #zombie-warez :12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12=[04Searchbot]-[09ONLINE]- Join #ZW-CHAT for Search, subscriptions, and chat! | BoxOwners/Rooters Needed | -catcher -bottler
+[09:34:57] << :chaos.abandoned-irc.net 333 ToxicVenom087 #zombie-warez [ZOMBIE]-LATEST!Abandoned-@zombie.warez 1777966087
+[09:34:57] << :Zombie!ZW@ZoMbIe.WaReZ NOTICE ToxicVenom087 :[#ZOMBIE-WAREZ] 4!!!WARNING!!! YOU MUST IDLE IN #ZW-CHAT - IF YOU ATTEMPT TO DOWNLOAD WITHOUT BEING IN #ZW-CHAT YOU WILL BE BANNED!
+[09:34:57] [INFO] [Greys.Anatomy.S22E10] /msg zombie-ai xdcc send #317
+[09:34:58] >> PRIVMSG zombie-ai :xdcc send #317
+[09:34:58] << :Zombie-EyePopper!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#133  3x [1.4G] 14The.Burbs.S01E08.1080p.WEB.h264-ETHEL.tar
+[09:34:58] << :[o_0]!Zombies@Zombie.Warez PRIVMSG ToxicVenom087 :VERSION
+[09:34:59] << :Zombie-AI!twist3d@Zombie-Bot NOTICE ToxicVenom087 :** Sending you pack #317 ("Chris.Brown.-.Brown.R&B.(2026).320.kbps.Beats⭐.tar"), which is 212MB. (resume supported)
+[09:34:59] [INFO] [Greys.Anatomy.S22E10] ** Sending you pack #317 ("Chris.Brown.-.Brown.R&B.(2026).320.kbps.Beats⭐.tar"), which is 212MB. (resume supported)
+[09:34:59] << :Zombie-AI!twist3d@Zombie-Bot PRIVMSG ToxicVenom087 :DCC SEND Chris.Brown.-.Brown.R&B.(2026).320.kbps.Beats⭐.tar 3227459628 4008 222208000
+[09:34:59] [WARNING] [Greys.Anatomy.S22E10] Falscher Titel – überspringe: Chris.Brown.-.Brown.R&B.(2026).320.kbps.Beats⭐.tar
+[09:34:59] >> QUIT :bye
+[09:34:59] [INFO] [Greys.Anatomy.S22E10] Versuch 2/15: Greys.Anatomy.S22E10.Strip.that.Down.1080p.AMZN.WEB-DL.DDP5.1.H.264-NTb.mkv (irc.abjects.net #moviegods)
+[09:34:59] << :jagged.ca.us.abjects.net NOTICE * :*** Looking up your hostname...
+[09:34:59] << :jagged.ca.us.abjects.net NOTICE * :*** Checking ident...
+[09:35:00] << :jagged.ca.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[09:35:03] << :jagged.ca.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[09:35:03] << PING :C20B4085
+[09:35:05] >> JOIN #moviegods
+[09:35:05] << :jagged.ca.us.abjects.net 396 SteelTitan986 2668F1DF.6C525672.7F20E47C.IP :is now your displayed host
+[09:35:05] << :SteelTitan986!~SteelTita@2668F1DF.6C525672.7F20E47C.IP JOIN :#moviegods
+[09:35:05] << :jagged.ca.us.abjects.net 332 SteelTitan986 #moviegods : Welcome to #MOVIEGODS - If you are new to this type !help -//- Join #mg-chat to download -//- Join #MG-Lounge for requests/questions/comments/tv-subs/spam free chat -//-  Join #MG-Help for help -//- Donations get VIP perks  -  Join #MG-donations for info
+[09:35:05] << :jagged.ca.us.abjects.net 333 SteelTitan986 #moviegods katsper!Kat@Sex.With.Leather.Clad.Women.is.Hot 1728068851
+[09:35:05] [INFO] [Greys.Anatomy.S22E10] /msg [mg]-misc|eu|s|glados xdcc send #95
+[09:35:06] >> PRIVMSG [mg]-misc|eu|s|glados :xdcc send #95
+[09:35:07] << :[MG]-MISC|EU|S|GLaDOS!~root@22658C5E.F0C31D27.A6FD9088.IP PRIVMSG SteelTitan986 :DCC SEND Batman.The.Animated.Series.S04.1080p.BluRay.FLAC2.0.H.264-MG.tar 3105216788 21002 5970292736
+[09:35:07] [WARNING] [Greys.Anatomy.S22E10] Falscher Titel – überspringe: Batman.The.Animated.Series.S04.1080p.BluRay.FLAC2.0.H.264-MG.tar
+[09:35:07] >> QUIT :bye
+[09:35:07] [INFO] [Greys.Anatomy.S22E10] Versuch 3/15: Greys.Anatomy.S22E10.Strip.That.Down.1080p.DSNP.WEB-DL.DDP5.1.H.264-NTb.tar (irc.abandoned-irc.net #zombie-warez)
+[09:35:07] << :karkar.abandoned-irc.net NOTICE * :*** Looking up your hostname...
+[09:35:07] << :karkar.abandoned-irc.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[09:35:08] << PING :C8466BEF
+[09:35:08] >> JOIN #ZW-CHAT
+[09:35:08] >> JOIN #zombie-warez
+[09:35:08] << :karkar.abandoned-irc.net 396 DarkPhoenix863 A87883A9.35B0CB26.E30ED253.IP :is now your displayed host
+[09:35:08] << :DarkPhoenix863!DarkPhoeni@A87883A9.35B0CB26.E30ED253.IP JOIN :#ZW-CHAT
+[09:35:08] << :karkar.abandoned-irc.net 332 DarkPhoenix863 #ZW-CHAT :12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12=[04Searchbot]-[09ONLINE]- Triggers: !help !search !latest !subscriptions !topdl !hot !recommended !movies !music !tv !apps !games !ebook !xxx !mobile | Web: http://www.Abandoned-IRC.net/
+[09:35:08] << :karkar.abandoned-irc.net 333 DarkPhoenix863 #ZW-CHAT lurk3r!jj@zombie.warez 1779866923
+[09:35:08] << :Zombie!ZW@ZoMbIe.WaReZ NOTICE DarkPhoenix863 :[#ZW-CHAT] 12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12= we are looking for experienced ROOTERS/DEDi/BOXOWNERS . interested? use !joinZW
+[09:35:08] << :DarkPhoenix863!DarkPhoeni@A87883A9.35B0CB26.E30ED253.IP JOIN :#zombie-warez
+[09:35:08] << :karkar.abandoned-irc.net 332 DarkPhoenix863 #zombie-warez :12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12=[04Searchbot]-[09ONLINE]- Join #ZW-CHAT for Search, subscriptions, and chat! | BoxOwners/Rooters Needed | -catcher -bottler
+[09:35:08] << :karkar.abandoned-irc.net 333 DarkPhoenix863 #zombie-warez [ZOMBIE]-LATEST!Abandoned-@zombie.warez 1777966087
+[09:35:08] << :Zombie!ZW@ZoMbIe.WaReZ NOTICE DarkPhoenix863 :[#ZOMBIE-WAREZ] 4!!!WARNING!!! YOU MUST IDLE IN #ZW-CHAT - IF YOU ATTEMPT TO DOWNLOAD WITHOUT BEING IN #ZW-CHAT YOU WILL BE BANNED!
+[09:35:08] [INFO] [Greys.Anatomy.S22E10] /msg zombie-alpha xdcc send #2221
+[09:35:09] >> PRIVMSG zombie-alpha :xdcc send #2221
+[09:35:10] << :Zombie-Alpha!twist3d@Zombie-Bot NOTICE DarkPhoenix863 :** Invalid Pack Number, Try Again
+[09:35:10] [INFO] [Greys.Anatomy.S22E10] ** Invalid Pack Number, Try Again
+[09:35:10] >> QUIT :bye
+[09:35:10] [INFO] [Greys.Anatomy.S22E10] Versuch 4/15: Greys.Anatomy.S22E10.Strip.That.Down.1080p.DSNP.WEB-DL.DDP5.1.H.264-NTb.tar (irc.abandoned-irc.net #zombie-warez)
+[09:35:10] [INFO] [Greys.Anatomy.S22E10] Warte 5s vor erneuter Verbindung zu irc.abandoned-irc.net
+[09:35:15] << :horde.abandoned-irc.net NOTICE * :*** Looking up your hostname...
+[09:35:15] << :horde.abandoned-irc.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[09:35:16] << PING :9E5166C2
+[09:35:16] >> JOIN #ZW-CHAT
+[09:35:16] >> JOIN #zombie-warez
+[09:35:16] << :horde.abandoned-irc.net 396 SteelTitan416 A87883A9.35B0CB26.E30ED253.IP :is now your displayed host
+[09:35:16] << :horde.abandoned-irc.net 474 SteelTitan416 #ZW-CHAT :Cannot join channel (+b)
+[09:35:16] << :SteelTitan416!SteelTitan@A87883A9.35B0CB26.E30ED253.IP JOIN :#zombie-warez
+[09:35:16] << :horde.abandoned-irc.net 332 SteelTitan416 #zombie-warez :12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12=[04Searchbot]-[09ONLINE]- Join #ZW-CHAT for Search, subscriptions, and chat! | BoxOwners/Rooters Needed | -catcher -bottler
+[09:35:16] << :horde.abandoned-irc.net 333 SteelTitan416 #zombie-warez [ZOMBIE]-LATEST!Abandoned-@zombie.warez 1777966087
+[09:35:16] << :Zombie!ZW@ZoMbIe.WaReZ NOTICE SteelTitan416 :[#ZOMBIE-WAREZ] 4!!!WARNING!!! YOU MUST IDLE IN #ZW-CHAT - IF YOU ATTEMPT TO DOWNLOAD WITHOUT BEING IN #ZW-CHAT YOU WILL BE BANNED!
+[09:35:16] [INFO] [Greys.Anatomy.S22E10] /msg zombie-alpha xdcc send #2421
+[09:35:17] >> PRIVMSG zombie-alpha :xdcc send #2421
+[09:35:18] << :Zombie-Alpha!twist3d@Zombie-Bot NOTICE SteelTitan416 :** Invalid Pack Number, Try Again
+[09:35:18] [INFO] [Greys.Anatomy.S22E10] ** Invalid Pack Number, Try Again
+[09:35:18] >> QUIT :bye
+[09:35:18] [WARNING] [Greys.Anatomy.S22E10] Überspringe Zombie-Alpha (zu viele Fehlversuche)
+[09:35:18] [INFO] [Greys.Anatomy.S22E10] Versuch 6/15: Greys Anatomy S22E10 Strip That Down 1080p DSNP WEB-DL DD 5 1 H 264-playWEB.mkv (irc.rizon.net #ELITEWAREZ)
+[09:35:18] << :irc.tngnet.com NOTICE * :*** Looking up your hostname...
+[09:35:18] << :irc.tngnet.com NOTICE * :*** Checking Ident
+[09:35:18] << :irc.tngnet.com NOTICE * :*** Couldn't look up your hostname
+[09:35:20] << :irc.tngnet.com NOTICE * :*** No Ident response
+[09:35:20] << PING :734230277
+[09:35:20] << :irc.tngnet.com NOTICE SilentSniper587 :*** Your host is masked (F8952CA2.9337BBCB.DDD5C2D7.IP)
+[09:35:20] >> JOIN #ELITEWAREZ
+[09:35:20] << :SilentSniper587!~SilentSni@F8952CA2.9337BBCB.DDD5C2D7.IP JOIN :#ELITEWAREZ
+[09:35:20] << :irc.tngnet.com 332 SilentSniper587 #ELITEWAREZ : :: 10#0ELiTEWAREZ :: Search: 4ONLINE 0::0 Join 10#0ELITE-CHAT for S10earch0, S10ubscriptions0, and C10hat0! 
+[09:35:20] << :irc.tngnet.com 333 SilentSniper587 #ELITEWAREZ aLp1ne!~aLp1ne@banged.your.mom.at.g00dwill.org 1765431530
+[09:35:20] [INFO] [Greys.Anatomy.S22E10] /msg [ewg]nikita xdcc send #3719
+[09:35:21] >> PRIVMSG [ewg]nikita :xdcc send #3719
+[09:35:21] << :[EWG]-[TB-iKR09!~KR@DAC1586A.A0550882.CE4E895A.IP PRIVMSG #ELITEWAREZ :#37   73x [7.4G] Tenet.2020.720p.BluRay.x264-FLAME.tar
+[09:35:21] << :Global!service@rizon.net NOTICE SilentSniper587 :[Logon News - Dec 16 2013] Own a large/active channel or plan to get one going? Please read http://s.rizon.net/authline
+[09:35:21] << :Global!service@rizon.net NOTICE SilentSniper587 :[Logon News - Feb 16 2022] First time on Rizon? Be sure to check out our wiki! https://wiki.rizon.net
+[09:35:21] << :Global!service@rizon.net NOTICE SilentSniper587 :[Random News - Mar 20 2009] Idle on Rizon a lot? Why not play our idlerpg game, you can check it out at #RizonIRPG for more information visit the website http://idlerpg.rizon.net -Rizon Staff
+[09:35:21] << :[EWG]!EWG@EWG.rizon NOTICE SilentSniper587 :[#ELITEWAREZ] Have something to offer? join #ewg-recruits
+[09:35:21] << :[EWG]Achleuhi_FR!~EWG]Achle@11DB6A47.F8A9A017.8F120497.IP PRIVMSG #ELITEWAREZ :04#5385 0x [227.6M] 1 - Le géant sans cœur.mkv
+[09:35:21] << :py-ctcp!ctcp@ctcp-scanner.rizon.net PRIVMSG SilentSniper587 :VERSION
+[09:35:21] << :[EWG]MArchive!~MArchive@B1E84723.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#55070 0x [18.3M] Tomb-Fields-(SEKC006)-WEB-2025-PTC.tar
+[09:35:21] << :[EWG]Nikita!~Nikita@A44E1591.B266744.4249C630.IP PRIVMSG SilentSniper587 :DCC SEND Tougen.Anki.E14.MULTi.1080p.WEB.x264-AMB3R.mkv 1607680172 15157 1519104313
+[09:35:21] [WARNING] [Greys.Anatomy.S22E10] Falscher Titel – überspringe: Tougen.Anki.E14.MULTi.1080p.WEB.x264-AMB3R.mkv
+[09:35:21] >> QUIT :bye
+[09:35:21] [INFO] [Greys.Anatomy.S22E10] Versuch 7/15: Greys.Anatomy.S22E10.Strip.That.Down.1080p.HEVC.x265-MeGusta.mkv (irc.scenep2p.net #THE.SOURCE)
+[09:36:21] << :Neutrino.SceneP2P.net NOTICE * :*** Looking up your hostname...
+[09:36:21] << :Neutrino.SceneP2P.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[09:36:30] << PING :20D364CA
+[09:36:30] >> JOIN #THE.SOURCE
+[09:36:30] << :Neutrino.SceneP2P.net 396 DragonSlayer656 78EFE201.81E10EC4.D2285560.IP :is now your displayed host
+[09:36:30] << :Neutrino.SceneP2P.net NOTICE DragonSlayer656 :WARNING: Insecure connection. Please consider using TLS.
+[09:36:30] << :DragonSlayer656!DragonSlay@78EFE201.81E10EC4.D2285560.IP JOIN :#THE.SOURCE
+[09:36:30] << :Neutrino.SceneP2P.net 332 DragonSlayer656 #THE.SOURCE :10Welcome to #THE.SOURCE. 7The only xdcc channel you will ever need. The FASTEST downloads on IRC. NEVER throttled/logged/restricted | #The.Lounge for search/chat | 4#THE.INSIDERS for auto downloads. Open to all! |11Escape the flood join #THE.SOURCE.NOSPAM | 13Happy Leeching!!!
+[09:36:30] << :Neutrino.SceneP2P.net 333 DragonSlayer656 #THE.SOURCE Reeko 1625664464
+[09:36:30] << :NickServ!services@Services.SceneP2P.net NOTICE DragonSlayer656 :Your nickname is not registered. To register it, use: /msg NickServ REGISTER password email
+[09:36:30] [INFO] [Greys.Anatomy.S22E10] /msg ts-hdtv|us|wtf xdcc send #1159
+[09:36:31] >> PRIVMSG ts-hdtv|us|wtf :xdcc send #1159
+[09:36:31] << :TheSource!root@The.Source.For.All NOTICE DragonSlayer656 :[#THE.SOURCE] 10Welcome to #THE.SOURCE | 11Not sure what to do next? Join #THE.LOUNGE for !help !search !latest !passive | 7Join #THE.INSIDERS to setup your TV subscriptions for auto downloads. | Escape the flood. Idle in #THE.SOURCE.NOSPAM instead of #THE.SOURCE to download.
+[09:36:31] << :TS-HDTV|RO|P|75943!root@The.Source.org PRIVMSG #THE.SOURCE :#592  0x [746M] 11Family.Guy.S13E09.This.Little.Piggy.1080p.WEB-DL.DD5.1.H.264-CtrlHD.mkv
+[09:36:31] << :TS-ARCHIVE|DE|P|84870!root@The.Source.org PRIVMSG #THE.SOURCE :#793  0x [1.3G] 15Tainted.Grail.The.Fall.of.Avalon.Sanctuary.of.Sarras.Update.v1.21.incl.DLC-RUNE.tar
+[09:36:31] << :TS-ARCHIVE|DE|P|49582!root@The.Source.org PRIVMSG #THE.SOURCE :#72  0x [296M] 06Stranger.Things.Tales.from.85.S01E10.720p.HEVC.x265-MeGusta.mkv
+[09:36:31] << :TS-HD|FR|WOOO!root@The.Source.org PRIVMSG #THE.SOURCE :#3112   2x [344M] 10Flimsy.2025.1080p.CBC.WEB-DL.DD+.EX.5.1.H.264-Kitsune.mkv
+[09:36:31] << :TS-ARCHIVE|IT|P|86652!root@The.Source.org PRIVMSG #THE.SOURCE :#1395 0x [205M] 13Ghosts.Australia.S01E04.720p.HEVC.x265-MeGusta.mkv
+[09:36:31] << :TS-HDTV|RU|VLAD!root@The.Source.org PRIVMSG #THE.SOURCE :#411 0x [133M] 11Among.Us.2026.S01E08.1080p.HEVC.x265-MeGusta.mkv
+[09:36:31] << :Neutrino.SceneP2P.net 531 DragonSlayer656 TS-HDTV|US|WTF :You cannot send messages to users until you've been connected for 120 seconds or more
+[09:36:31] [ERROR] [Greys.Anatomy.S22E10] Server verweigert MSG – 120s Wartezeit nötig, überspringe
+[09:36:31] >> QUIT :bye
+[09:36:31] [INFO] [Greys.Anatomy.S22E10] Versuch 8/15: Greys.Anatomy.S22E10.Strip.That.Down.1080p.HEVC.x265-MeGusta.mkv (irc.abjects.net #moviegods)
+[09:36:31] << :spiked.ca.us.abjects.net NOTICE * :*** Looking up your hostname...
+[09:36:31] << :spiked.ca.us.abjects.net NOTICE * :*** Checking ident...
+[09:36:31] << :spiked.ca.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[09:36:36] << :spiked.ca.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[09:36:36] << PING :B9DD255D
+[09:36:37] >> JOIN #moviegods
+[09:36:37] << :spiked.ca.us.abjects.net 396 DarkPhoenix927 2668F1DF.6C525672.7F20E47C.IP :is now your displayed host
+[09:36:37] << :DarkPhoenix927!~DarkPhoen@2668F1DF.6C525672.7F20E47C.IP JOIN :#moviegods
+[09:36:37] << :spiked.ca.us.abjects.net 332 DarkPhoenix927 #moviegods : Welcome to #MOVIEGODS - If you are new to this type !help -//- Join #mg-chat to download -//- Join #MG-Lounge for requests/questions/comments/tv-subs/spam free chat -//-  Join #MG-Help for help -//- Donations get VIP perks  -  Join #MG-donations for info
+[09:36:37] << :spiked.ca.us.abjects.net 333 DarkPhoenix927 #moviegods katsper!Kat@Sex.With.Leather.Clad.Women.is.Hot 1728068851
+[09:36:37] [WARNING] [Greys.Anatomy.S22E10] Bot '[mg]-request|bot|kat' nicht im Channel
+[09:36:37] >> QUIT :bye
+[09:36:37] [INFO] [Greys.Anatomy.S22E10] Versuch 9/15: Greys.Anatomy.S22E10.1080p.HEVC.x265-MeGusta.mkv (irc.scenep2p.net #THE.SOURCE)
+[09:37:38] << :Paranoia.SceneP2P.net NOTICE * :*** Looking up your hostname...
+[09:37:38] << :Paranoia.SceneP2P.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[09:37:46] << PING :DF7E65E4
+[09:37:46] >> JOIN #THE.SOURCE
+[09:37:46] << :Paranoia.SceneP2P.net 396 ViperZ444 78EFE201.81E10EC4.D2285560.IP :is now your displayed host
+[09:37:46] << :Paranoia.SceneP2P.net NOTICE ViperZ444 :WARNING: Insecure connection. Please consider using TLS.
+[09:37:46] << :ViperZ444!ViperZ444@78EFE201.81E10EC4.D2285560.IP JOIN :#THE.SOURCE
+[09:37:46] << :Paranoia.SceneP2P.net 332 ViperZ444 #THE.SOURCE :10Welcome to #THE.SOURCE. 7The only xdcc channel you will ever need. The FASTEST downloads on IRC. NEVER throttled/logged/restricted | #The.Lounge for search/chat | 4#THE.INSIDERS for auto downloads. Open to all! |11Escape the flood join #THE.SOURCE.NOSPAM | 13Happy Leeching!!!
+[09:37:46] << :Paranoia.SceneP2P.net 333 ViperZ444 #THE.SOURCE Reeko 1625664464
+[09:37:46] [WARNING] [Greys.Anatomy.S22E10] Bot 'ts-hdtv|ch|p|87714' nicht im Channel
+[09:37:46] >> QUIT :bye
+[09:37:46] [INFO] [Greys.Anatomy.S22E10] Versuch 10/15: Greys.Anatomy.S22E10.Strip.That.Down.1080p.HEVC.x265-MeGusta.mkv (irc.scenep2p.net #THE.SOURCE)
+[09:38:16] << :Paranoia.SceneP2P.net NOTICE * :*** Looking up your hostname...
+[09:38:16] << :Paranoia.SceneP2P.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[09:38:25] << PING :7DB27598
+[09:38:25] >> JOIN #THE.SOURCE
+[09:38:25] << :Paranoia.SceneP2P.net 396 NightHawk096 78EFE201.81E10EC4.D2285560.IP :is now your displayed host
+[09:38:25] << :Paranoia.SceneP2P.net NOTICE NightHawk096 :WARNING: Insecure connection. Please consider using TLS.
+[09:38:25] << :NightHawk096!NightHawk0@78EFE201.81E10EC4.D2285560.IP JOIN :#THE.SOURCE
+[09:38:25] << :Paranoia.SceneP2P.net 332 NightHawk096 #THE.SOURCE :10Welcome to #THE.SOURCE. 7The only xdcc channel you will ever need. The FASTEST downloads on IRC. NEVER throttled/logged/restricted | #The.Lounge for search/chat | 4#THE.INSIDERS for auto downloads. Open to all! |11Escape the flood join #THE.SOURCE.NOSPAM | 13Happy Leeching!!!
+[09:38:25] << :Paranoia.SceneP2P.net 333 NightHawk096 #THE.SOURCE Reeko 1625664464
+[09:38:25] [WARNING] [Greys.Anatomy.S22E10] Bot 'ts-hdtv|tw|p|export' nicht im Channel
+[09:38:25] >> QUIT :bye
+[09:38:25] [INFO] [Greys.Anatomy.S22E10] Versuch 11/15: Greys.Anatomy.S22E10.Strip.That.Down.1080p.HEVC.x265-MeGusta.mkv (irc.scenep2p.net #THE.SOURCE)
+[09:38:25] << :Paranoia.SceneP2P.net NOTICE * :*** Looking up your hostname...
+[09:38:25] << :Paranoia.SceneP2P.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[09:38:34] << PING :7CA17ED4
+[09:38:34] >> JOIN #THE.SOURCE
+[09:38:34] << :Paranoia.SceneP2P.net 396 RogueAce784 78EFE201.81E10EC4.D2285560.IP :is now your displayed host
+[09:38:34] << :Paranoia.SceneP2P.net NOTICE RogueAce784 :WARNING: Insecure connection. Please consider using TLS.
+[09:38:34] << :RogueAce784!RogueAce78@78EFE201.81E10EC4.D2285560.IP JOIN :#THE.SOURCE
+[09:38:34] << :Paranoia.SceneP2P.net 332 RogueAce784 #THE.SOURCE :10Welcome to #THE.SOURCE. 7The only xdcc channel you will ever need. The FASTEST downloads on IRC. NEVER throttled/logged/restricted | #The.Lounge for search/chat | 4#THE.INSIDERS for auto downloads. Open to all! |11Escape the flood join #THE.SOURCE.NOSPAM | 13Happy Leeching!!!
+[09:38:34] << :Paranoia.SceneP2P.net 333 RogueAce784 #THE.SOURCE Reeko 1625664464
+[09:38:34] [WARNING] [Greys.Anatomy.S22E10] Bot 'ts-hdtv|us|p|66007' nicht im Channel
+[09:38:34] >> QUIT :bye
+[09:38:34] [INFO] [Greys.Anatomy.S22E10] Versuch 12/15: Greys.Anatomy.S22E10.Strip.That.Down.720p.DSNP.WEB-DL.DDP5.1.H.264-NTb.mkv (irc.abjects.net #moviegods)
+[09:38:34] << :neptune.ny.us.abjects.net NOTICE * :*** Looking up your hostname...
+[09:38:34] << :neptune.ny.us.abjects.net NOTICE * :*** Checking ident...
+[09:38:34] << :neptune.ny.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[09:38:38] << :neptune.ny.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[09:38:38] << PING :31130067
+[09:38:40] >> JOIN #moviegods
+[09:38:40] << :neptune.ny.us.abjects.net 396 DragonSlayer360 2668F1DF.6C525672.7F20E47C.IP :is now your displayed host
+[09:38:40] << :DragonSlayer360!~DragonSla@2668F1DF.6C525672.7F20E47C.IP JOIN :#moviegods
+[09:38:40] << :neptune.ny.us.abjects.net 332 DragonSlayer360 #moviegods : Welcome to #MOVIEGODS - If you are new to this type !help -//- Join #mg-chat to download -//- Join #MG-Lounge for requests/questions/comments/tv-subs/spam free chat -//-  Join #MG-Help for help -//- Donations get VIP perks  -  Join #MG-donations for info
+[09:38:40] << :neptune.ny.us.abjects.net 333 DragonSlayer360 #moviegods katsper!Kat@Sex.With.Leather.Clad.Women.is.Hot 1728068851
+[09:38:40] [WARNING] [Greys.Anatomy.S22E10] Bot '[mg]-misc|eu|s|dugoraga' nicht im Channel
+[09:38:40] >> QUIT :bye
+[09:38:40] [INFO] [Greys.Anatomy.S22E10] Versuch 13/15: Greys Anatomy S22E10 1080p x265-ELiTE.mkv (irc.rizon.net #ELITEWAREZ)
+[09:38:40] << :irc.tngnet.com NOTICE * :*** Looking up your hostname...
+[09:38:40] << :irc.tngnet.com NOTICE * :*** Checking Ident
+[09:38:40] << :irc.tngnet.com NOTICE * :*** Couldn't look up your hostname
+[09:38:42] << :irc.tngnet.com NOTICE * :*** No Ident response
+[09:38:42] << PING :186254802
+[09:38:42] << :irc.tngnet.com NOTICE ViperZ922 :*** Your host is masked (F8952CA2.9337BBCB.DDD5C2D7.IP)
+[09:38:42] >> JOIN #ELITEWAREZ
+[09:38:42] << :ViperZ922!~ViperZ922@F8952CA2.9337BBCB.DDD5C2D7.IP JOIN :#ELITEWAREZ
+[09:38:42] << :irc.tngnet.com 332 ViperZ922 #ELITEWAREZ : :: 10#0ELiTEWAREZ :: Search: 4ONLINE 0::0 Join 10#0ELITE-CHAT for S10earch0, S10ubscriptions0, and C10hat0! 
+[09:38:42] << :irc.tngnet.com 333 ViperZ922 #ELITEWAREZ aLp1ne!~aLp1ne@banged.your.mom.at.g00dwill.org 1765431530
+[09:38:42] [INFO] [Greys.Anatomy.S22E10] /msg [ewg]nikita xdcc send #3686
+[09:38:43] >> PRIVMSG [ewg]nikita :xdcc send #3686
+[09:38:43] << :Global!service@rizon.net NOTICE ViperZ922 :[Logon News - Dec 16 2013] Own a large/active channel or plan to get one going? Please read http://s.rizon.net/authline
+[09:38:43] << :Global!service@rizon.net NOTICE ViperZ922 :[Logon News - Feb 16 2022] First time on Rizon? Be sure to check out our wiki! https://wiki.rizon.net
+[09:38:43] << :Global!service@rizon.net NOTICE ViperZ922 :[Random News - Nov 29 2013] Want to make your vhost shiny by adding colors to it? Try your luck in #VIzon
+[09:38:43] << :[EWG]!EWG@EWG.rizon NOTICE ViperZ922 :[#ELITEWAREZ] Have something to offer? join #ewg-recruits
+[09:38:43] << :py-ctcp!ctcp@ctcp-scanner.rizon.net PRIVMSG ViperZ922 :VERSION
+[09:38:43] << :[EWG]Nikita4k!~Nikita4k@A44E1591.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#2751 0x [5.0G] fake.profile.s03e01.multi.2160p.web.h265-higgsboson.mkv
+[09:38:43] << :windoxDCC!~ewg@Rizon-273EB4E3.coreirc.net PRIVMSG #ELITEWAREZ :10#9231 0x [8.9K] [ BlueTorrents.com ] Jury.Duty.Presents.Company.Retreat.S01E08.720p.HEVC.x265-MeGusta
+[09:38:43] << :[EWG]SoftKing!~ewg@ACB8F08F.509A19EC.92FBB3A5.IP PRIVMSG #ELITEWAREZ :07#260 0x [98.3M] Baldurs.Gate.Portable.Full.Download.Game.2026.tar
+[09:38:43] << :[EWG]-[YOLOx0!~YOLx@Rizon-D9DCCC82.ferraniait.com PRIVMSG #ELITEWAREZ :** Bandwidth Usage ** Current: 0.0kB/s,
+[09:38:43] << :[EWG]-jewSuSE4!~y0lo@93E22222.5F300EF1.3F05F60A.IP PRIVMSG #ELITEWAREZ :#40 0x [9.1G] Dieses.Maedchen.ist.fuer.alle.1966.German.AC3D.DL.1080p.AmazonHD.h264-paranoid06.mkv
+[09:38:43] << :[EWG]Nikita!~Nikita@A44E1591.B266744.4249C630.IP PRIVMSG ViperZ922 :DCC SEND Law_and_Order_S25E12_1080p_x265-ELiTE.mkv 1607680172 27839 674343274
+[09:38:43] [WARNING] [Greys.Anatomy.S22E10] Falscher Titel – überspringe: Law_and_Order_S25E12_1080p_x265-ELiTE.mkv
+[09:38:43] >> QUIT :bye
+[09:38:43] [INFO] [Greys.Anatomy.S22E10] Versuch 14/15: Greys.Anatomy.S22E10.1080p.x265-ELiTE.mkv (irc.scenep2p.net #THE.SOURCE)
+[09:39:13] << :Neutrino.SceneP2P.net NOTICE * :*** Looking up your hostname...
+[09:39:13] << :Neutrino.SceneP2P.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[09:39:22] << PING :9A10DB16
+[09:39:22] >> JOIN #THE.SOURCE
+[09:39:22] << :Neutrino.SceneP2P.net 396 ThunderStrike871 78EFE201.81E10EC4.D2285560.IP :is now your displayed host
+[09:39:22] << :Neutrino.SceneP2P.net NOTICE ThunderStrike871 :WARNING: Insecure connection. Please consider using TLS.
+[09:39:22] << :ThunderStrike871!ThunderStr@78EFE201.81E10EC4.D2285560.IP JOIN :#THE.SOURCE
+[09:39:22] << :Neutrino.SceneP2P.net 332 ThunderStrike871 #THE.SOURCE :10Welcome to #THE.SOURCE. 7The only xdcc channel you will ever need. The FASTEST downloads on IRC. NEVER throttled/logged/restricted | #The.Lounge for search/chat | 4#THE.INSIDERS for auto downloads. Open to all! |11Escape the flood join #THE.SOURCE.NOSPAM | 13Happy Leeching!!!
+[09:39:22] << :Neutrino.SceneP2P.net 333 ThunderStrike871 #THE.SOURCE Reeko 1625664464
+[09:39:22] [WARNING] [Greys.Anatomy.S22E10] Bot 'ts-archive|jp|p|70700' nicht im Channel
+[09:39:22] >> QUIT :bye
+[09:39:22] [INFO] [Greys.Anatomy.S22E10] Versuch 15/15: Greys.Anatomy.S22E10.1080p.WEB.h264-ETHEL.tar (irc.abandoned-irc.net #zombie-warez)
+[09:39:22] << :horde.abandoned-irc.net NOTICE * :*** Looking up your hostname...
+[09:39:22] << :horde.abandoned-irc.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[09:39:24] << PING :C1BC0210
+[09:39:24] >> JOIN #ZW-CHAT
+[09:39:24] >> JOIN #zombie-warez
+[09:39:24] << :horde.abandoned-irc.net 396 ApexPredator933 A87883A9.35B0CB26.E30ED253.IP :is now your displayed host
+[09:39:24] << :horde.abandoned-irc.net 474 ApexPredator933 #ZW-CHAT :Cannot join channel (+b)
+[09:39:24] << :ApexPredator933!ApexPredat@A87883A9.35B0CB26.E30ED253.IP JOIN :#zombie-warez
+[09:39:24] << :horde.abandoned-irc.net 332 ApexPredator933 #zombie-warez :12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12=[04Searchbot]-[09ONLINE]- Join #ZW-CHAT for Search, subscriptions, and chat! | BoxOwners/Rooters Needed | -catcher -bottler
+[09:39:24] << :horde.abandoned-irc.net 333 ApexPredator933 #zombie-warez [ZOMBIE]-LATEST!Abandoned-@zombie.warez 1777966087
+[09:39:24] << :Zombie!ZW@ZoMbIe.WaReZ NOTICE ApexPredator933 :[#ZOMBIE-WAREZ] 4!!!WARNING!!! YOU MUST IDLE IN #ZW-CHAT - IF YOU ATTEMPT TO DOWNLOAD WITHOUT BEING IN #ZW-CHAT YOU WILL BE BANNED!
+[09:39:24] [INFO] [Greys.Anatomy.S22E10] /msg zombie-grimes xdcc send #116
+[09:39:25] >> PRIVMSG zombie-grimes :xdcc send #116
+[09:39:25] << :[o_0]!Zombies@Zombie.Warez PRIVMSG ApexPredator933 :VERSION
+[09:39:26] << :Zombie-Walker!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#20   0x [1.9G] 14Baylen.Out.Loud.S02E09.1080p.WEB.h264-FREQUENCY.tar
+[09:39:26] << :Zombie-Grimes!twist3d@Zombie-Bot NOTICE ApexPredator933 :** Sending you pack #116 ("High.Potential.S02E14.720p.HDTV.x264-SYNCOPY.tar"), which is 878MB. (resume supported)
+[09:39:26] [INFO] [Greys.Anatomy.S22E10] ** Sending you pack #116 ("High.Potential.S02E14.720p.HDTV.x264-SYNCOPY.tar"), which is 878MB. (resume supported)
+[09:39:26] << :Zombie-Grimes!twist3d@Zombie-Bot PRIVMSG ApexPredator933 :DCC SEND High.Potential.S02E14.720p.HDTV.x264-SYNCOPY.tar 3227773078 59485 920412160
+[09:39:26] [WARNING] [Greys.Anatomy.S22E10] Falscher Titel – überspringe: High.Potential.S02E14.720p.HDTV.x264-SYNCOPY.tar
+[09:39:26] >> QUIT :bye
+[09:39:26] [ERROR] [Greys.Anatomy.S22E10] fehlgeschlagen
+[09:39:26] [INFO] [Greys.Anatomy.S22E11] Suche: Greys Anatomy S22E11
+[09:39:26] << :sharpshooter.ny.us.abjects.net NOTICE * :*** Looking up your hostname...
+[09:39:26] << :sharpshooter.ny.us.abjects.net NOTICE * :*** Checking ident...
+[09:39:26] << :sharpshooter.ny.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[09:39:30] << :sharpshooter.ny.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[09:39:32] >> JOIN #beast-chat
+[09:39:32] << :sharpshooter.ny.us.abjects.net 396 ThunderStrike503 2668F1DF.6C525672.7F20E47C.IP :is now your displayed host
+[09:39:32] << :ThunderStrike503!~ThunderSt@2668F1DF.6C525672.7F20E47C.IP JOIN :#beast-chat
+[09:39:33] >> PRIVMSG #beast-chat :!s Greys Anatomy S22E11
+[09:39:33] << :sharpshooter.ny.us.abjects.net 332 ThunderStrike503 #beast-chat :Welcome to #BEAST-XDCC  (Search:ONLINE) (Requests:ONLINE) ~ added !get command ~ !top or !topger to see most leeched releases, can be filtered by days ~ Please use !german for latest GERMAN releases only ~ commands; !latest !german !search !request !get !top !topger !tv !tvger !games ~ For more commands use !help ~ Have something to offer? Msg an ~ 
+[09:39:33] << :sharpshooter.ny.us.abjects.net 333 ThunderStrike503 #beast-chat devnull!~qlimax@beastmo.de 1779527540
+[09:39:33] << :databeast!~databeast@the.beast NOTICE ThunderStrike503 :04No packs found matching your search criteria.
+[09:39:39] >> QUIT :bye
+[09:39:39] << :arse.nl.eu.abjects.net NOTICE * :*** Looking up your hostname...
+[09:39:39] << :arse.nl.eu.abjects.net NOTICE * :*** Checking ident...
+[09:39:39] << :arse.nl.eu.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[09:39:43] << :arse.nl.eu.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[09:39:44] >> JOIN #mg-chat
+[09:39:44] << :arse.nl.eu.abjects.net 396 NightHawk304 2668F1DF.6C525672.7F20E47C.IP :is now your displayed host
+[09:39:44] << :NightHawk304!~NightHawk@2668F1DF.6C525672.7F20E47C.IP JOIN :#mg-chat
+[09:39:45] >> PRIVMSG #mg-chat :!s Greys Anatomy S22E11
+[09:39:45] << :arse.nl.eu.abjects.net 332 NightHawk304 #mg-chat : Welcome to Moviegods Chat - If you are new to this type !help - Join #MG-Lounge for requests/questions/comments/tv-subs/spam free chat -//- Join #MG-Help for help - Donations earn VIP perks  - Join #MG-donations for info
+[09:39:45] << :arse.nl.eu.abjects.net 333 NightHawk304 #mg-chat katsper!Kat@Sex.With.Leather.Clad.Women.is.Hot 1728087751
+[09:39:46] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE NightHawk304 :00,0100115)10   1x04 |10 298M04 |10 Greys.Anatomy.S22E11.720p.HEVC.x265-MeGusta.mkv04 |09 /msg [MG]-X265|EU|S|MorningStar XDCC SEND 193 04|00 Used: 0.00% 0/10 (1m46s ago)04 
+[09:39:46] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE NightHawk304 :15,01   )07 #MOVIEGODS - Found 1 ONLINE Packs (1 Bots) = Total GETS: 1.
+[09:39:49] << :hydra18!~hydra18@abjects-2100BE81.fixed.kpn.net QUIT :Ping timeout: 240 seconds
+[09:39:52] >> QUIT :bye
+[09:39:52] << :vuln.abandoned-irc.net NOTICE * :*** Looking up your hostname...
+[09:39:52] << :vuln.abandoned-irc.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[09:39:54] >> JOIN #ZW-CHAT
+[09:39:54] << :vuln.abandoned-irc.net 396 ToxicVenom170 A87883A9.35B0CB26.E30ED253.IP :is now your displayed host
+[09:39:54] << :vuln.abandoned-irc.net 422 ToxicVenom170 :MOTD File is missing
+[09:39:54] << :vuln.abandoned-irc.net 474 ToxicVenom170 #ZW-CHAT :Cannot join channel (+b)
+[09:40:24] >> QUIT :bye
+[09:40:25] [INFO] [Greys.Anatomy.S22E11] Versuch 1/15: Greys.Anatomy.S22E11.720p.HEVC.x265-MeGusta.mkv (irc.abjects.net #moviegods)
+[09:40:25] << :heimdall.no.eu.abjects.net NOTICE * :*** Looking up your hostname...
+[09:40:25] << :heimdall.no.eu.abjects.net NOTICE * :*** Checking ident...
+[09:40:25] << :heimdall.no.eu.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[09:40:30] << :heimdall.no.eu.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[09:40:30] << PING :7B03E64E
+[09:40:31] >> JOIN #moviegods
+[09:40:31] << :heimdall.no.eu.abjects.net 396 StormBreaker767 2668F1DF.6C525672.7F20E47C.IP :is now your displayed host
+[09:40:31] << :StormBreaker767!~StormBrea@2668F1DF.6C525672.7F20E47C.IP JOIN :#moviegods
+[09:40:31] << :heimdall.no.eu.abjects.net 332 StormBreaker767 #moviegods : Welcome to #MOVIEGODS - If you are new to this type !help -//- Join #mg-chat to download -//- Join #MG-Lounge for requests/questions/comments/tv-subs/spam free chat -//-  Join #MG-Help for help -//- Donations get VIP perks  -  Join #MG-donations for info
+[09:40:31] << :heimdall.no.eu.abjects.net 333 StormBreaker767 #moviegods katsper!Kat@Sex.With.Leather.Clad.Women.is.Hot 1728068851
+[09:40:31] [INFO] [Greys.Anatomy.S22E11] /msg [mg]-x265|eu|s|morningstar xdcc send #193
+[09:40:32] >> PRIVMSG [mg]-x265|eu|s|morningstar :xdcc send #193
+[09:40:32] << :[MG]-X265|EU|S|MorningStar!~root@abjects-E0F9D77D.clients.your-server.de PRIVMSG StormBreaker767 :DCC SEND Greys.Anatomy.S22E11.720p.HEVC.x265-MeGusta.mkv 2297671756 30000 312978829
+[09:40:37] >> QUIT :bye
+[09:40:37] [SUCCESS] [Greys.Anatomy.S22E11] Download fertig: Greys.Anatomy.S22E11.720p.HEVC.x265-MeGusta.mkv
+[09:40:37] [SUCCESS] [Greys.Anatomy.S22E11] fertig & einsortiert
+[09:40:37] [INFO] [Dragonball.Z.Remastered.S08] Suche: Dragonball Z Remastered S08
+[09:40:37] << :stormy.fr.eu.abjects.net NOTICE * :*** Looking up your hostname...
+[09:40:37] << :stormy.fr.eu.abjects.net NOTICE * :*** Checking ident...
+[09:40:37] << :stormy.fr.eu.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[09:40:41] << :stormy.fr.eu.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[09:40:42] >> JOIN #beast-chat
+[09:40:42] << :stormy.fr.eu.abjects.net 396 ThunderStrike265 2668F1DF.6C525672.7F20E47C.IP :is now your displayed host
+[09:40:42] << :ThunderStrike265!~ThunderSt@2668F1DF.6C525672.7F20E47C.IP JOIN :#beast-chat
+[09:40:43] >> PRIVMSG #beast-chat :!s Dragonball Z Remastered S08
+[09:40:43] << :stormy.fr.eu.abjects.net 332 ThunderStrike265 #beast-chat :Welcome to #BEAST-XDCC  (Search:ONLINE) (Requests:ONLINE) ~ added !get command ~ !top or !topger to see most leeched releases, can be filtered by days ~ Please use !german for latest GERMAN releases only ~ commands; !latest !german !search !request !get !top !topger !tv !tvger !games ~ For more commands use !help ~ Have something to offer? Msg an ~ 
+[09:40:43] << :stormy.fr.eu.abjects.net 333 ThunderStrike265 #beast-chat devnull!~qlimax@beastmo.de 1779527540
+[09:40:44] << :databeast!~databeast@the.beast NOTICE ThunderStrike265 :04No packs found matching your search criteria.
+[09:40:45] << :trew123!~PeterPitr@trem.the.trew QUIT :Connection closed
+[09:40:48] >> QUIT :bye
+[09:40:48] << :mortal.tx.us.abjects.net NOTICE * :*** Looking up your hostname...
+[09:40:48] << :mortal.tx.us.abjects.net NOTICE * :*** Checking ident...
+[09:40:49] << :mortal.tx.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[09:40:53] << :mortal.tx.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[09:40:54] >> JOIN #mg-chat
+[09:40:54] << :mortal.tx.us.abjects.net 396 ShadowWolf464 2668F1DF.6C525672.7F20E47C.IP :is now your displayed host
+[09:40:55] << :ShadowWolf464!~ShadowWol@2668F1DF.6C525672.7F20E47C.IP JOIN :#mg-chat
+[09:40:56] >> PRIVMSG #mg-chat :!s Dragonball Z Remastered S08
+[09:40:56] << :mortal.tx.us.abjects.net 332 ShadowWolf464 #mg-chat : Welcome to Moviegods Chat - If you are new to this type !help - Join #MG-Lounge for requests/questions/comments/tv-subs/spam free chat -//- Join #MG-Help for help - Donations earn VIP perks  - Join #MG-donations for info
+[09:40:56] << :mortal.tx.us.abjects.net 333 ShadowWolf464 #mg-chat katsper!Kat@Sex.With.Leather.Clad.Women.is.Hot 1728087751
+[09:40:56] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE ShadowWolf464 :00,0100115)10   6x04 |10  20G04 |10 Dragonball.Z.Remastered.S08.AC3.ML.1080p.BluRay.x265-FuN.tar04 |09 /msg [MG]-FUN|EU|S|FunFiles XDCC SEND 1133 04|00 Used: 24.41% 5/15 avg: 4.95MiB/s (1m41s ago)04 
+[09:40:56] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE ShadowWolf464 :15,01   )07 #MOVIEGODS - Found 1 ONLINE Packs (1 Bots) = Total GETS: 6.
+[09:41:02] >> QUIT :bye
+[09:41:02] << :killer.abandoned-irc.net NOTICE * :*** Looking up your hostname...
+[09:41:02] << :killer.abandoned-irc.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[09:41:04] >> JOIN #ZW-CHAT
+[09:41:04] << :killer.abandoned-irc.net 396 ShadowWolf887 A87883A9.35B0CB26.E30ED253.IP :is now your displayed host
+[09:41:04] << :killer.abandoned-irc.net 474 ShadowWolf887 #ZW-CHAT :Cannot join channel (+b)
+[09:41:04] << :[o_0]!Zombies@Zombie.Warez PRIVMSG ShadowWolf887 :VERSION
+[09:41:34] >> QUIT :bye
+[09:41:35] [INFO] [Dragonball.Z.Remastered.S08] Versuch 1/2: Dragonball.Z.Remastered.S08.AC3.ML.1080p.BluRay.x265-FuN.tar (irc.abjects.net #moviegods)
+[09:41:36] << :mortal.tx.us.abjects.net NOTICE * :*** Looking up your hostname...
+[09:41:36] << :mortal.tx.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[09:41:36] << :mortal.tx.us.abjects.net NOTICE * :*** Checking ident...
+[09:41:39] << :mortal.tx.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[09:41:39] << PING :69D72688
+[09:41:40] >> JOIN #moviegods
+[09:41:40] << :mortal.tx.us.abjects.net 396 ThunderStrike444 2668F1DF.6C525672.7F20E47C.IP :is now your displayed host
+[09:41:40] << :ThunderStrike444!~ThunderSt@2668F1DF.6C525672.7F20E47C.IP JOIN :#moviegods
+[09:41:40] << :mortal.tx.us.abjects.net 332 ThunderStrike444 #moviegods : Welcome to #MOVIEGODS - If you are new to this type !help -//- Join #mg-chat to download -//- Join #MG-Lounge for requests/questions/comments/tv-subs/spam free chat -//-  Join #MG-Help for help -//- Donations get VIP perks  -  Join #MG-donations for info
+[09:41:40] << :mortal.tx.us.abjects.net 333 ThunderStrike444 #moviegods katsper!Kat@Sex.With.Leather.Clad.Women.is.Hot 1728068851
+[09:41:41] [INFO] [Dragonball.Z.Remastered.S08] /msg [mg]-fun|eu|s|funfiles xdcc send #1133
+[09:41:42] >> PRIVMSG [mg]-fun|eu|s|funfiles :xdcc send #1133
+[09:41:42] << :xxXxx!~xxXxx@abjects-EDC87CB4.pool.telefonica.de QUIT :Connection closed
+[09:41:42] << :[MG]-FUN|EU|S|FunFiles!~root@abjects-3DFC1E70.ip-54-39-128.net PRIVMSG ThunderStrike444 :DCC SEND Dragonball.Z.Remastered.S08.AC3.ML.1080p.BluRay.x265-FuN.tar 908558430 30003 21570723840
+[09:51:55] >> QUIT :bye
+[09:51:55] [SUCCESS] [Dragonball.Z.Remastered.S08] Download fertig: Dragonball.Z.Remastered.S08.AC3.ML.1080p.BluRay.x265-FuN.tar
+[09:59:32] [SUCCESS] [Dragonball.Z.Remastered.S08] fertig & einsortiert
+[09:59:32] [INFO] [Der.grosse.Gatsby.2013] Suche: Der grosse Gatsby 2013
+[09:59:32] << :sharpshooter.ny.us.abjects.net NOTICE * :*** Looking up your hostname...
+[09:59:32] << :sharpshooter.ny.us.abjects.net NOTICE * :*** Checking ident...
+[09:59:32] << :sharpshooter.ny.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[09:59:36] << :sharpshooter.ny.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[09:59:38] >> JOIN #beast-chat
+[09:59:38] << :sharpshooter.ny.us.abjects.net 396 VoidWalker006 2668F1DF.6C525672.7F20E47C.IP :is now your displayed host
+[09:59:38] << :VoidWalker006!~VoidWalke@2668F1DF.6C525672.7F20E47C.IP JOIN :#beast-chat
+[09:59:39] >> PRIVMSG #beast-chat :!s Der grosse Gatsby 2013
+[09:59:39] << :sharpshooter.ny.us.abjects.net 332 VoidWalker006 #beast-chat :Welcome to #BEAST-XDCC  (Search:ONLINE) (Requests:ONLINE) ~ added !get command ~ !top or !topger to see most leeched releases, can be filtered by days ~ Please use !german for latest GERMAN releases only ~ commands; !latest !german !search !request !get !top !topger !tv !tvger !games ~ For more commands use !help ~ Have something to offer? Msg an ~ 
+[09:59:39] << :sharpshooter.ny.us.abjects.net 333 VoidWalker006 #beast-chat devnull!~qlimax@beastmo.de 1779527540
+[09:59:39] << :databeast!~databeast@the.beast NOTICE VoidWalker006 :04SEARCH RESULTS LIMITED TO 100 PACKS
+[09:59:40] << :databeast!~databeast@the.beast NOTICE VoidWalker006 :04(1418G04) 14Der.grosse.Gatsby.2013.GERMAN.DL.2160p.UHD.BluRay.x265-ENDSTATiON.mkv04 (141214x04)14 /msg 14BEAST-X-ETHER14 xdcc send #1431
+[09:59:46] >> QUIT :bye
+[09:59:46] << :mortal.tx.us.abjects.net NOTICE * :*** Looking up your hostname...
+[09:59:46] << :mortal.tx.us.abjects.net NOTICE * :*** Checking ident...
+[09:59:47] << :mortal.tx.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[09:59:50] << :mortal.tx.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[09:59:51] >> JOIN #mg-chat
+[09:59:51] << :mortal.tx.us.abjects.net 396 VoidWalker404 2668F1DF.6C525672.7F20E47C.IP :is now your displayed host
+[09:59:51] << :VoidWalker404!~VoidWalke@2668F1DF.6C525672.7F20E47C.IP JOIN :#mg-chat
+[09:59:52] >> PRIVMSG #mg-chat :!s Der grosse Gatsby 2013
+[09:59:52] << :mortal.tx.us.abjects.net 332 VoidWalker404 #mg-chat : Welcome to Moviegods Chat - If you are new to this type !help - Join #MG-Lounge for requests/questions/comments/tv-subs/spam free chat -//- Join #MG-Help for help - Donations earn VIP perks  - Join #MG-donations for info
+[09:59:52] << :mortal.tx.us.abjects.net 333 VoidWalker404 #mg-chat katsper!Kat@Sex.With.Leather.Clad.Women.is.Hot 1728087751
+[09:59:53] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE VoidWalker404 :15,01   )07 #MOVIEGODS - Found 0 ONLINE Packs (0 Bots) = Total GETS: 0.
+[09:59:59] >> QUIT :bye
+[09:59:59] << :vuln.abandoned-irc.net NOTICE * :*** Looking up your hostname...
+[09:59:59] << :vuln.abandoned-irc.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[10:00:01] >> JOIN #ZW-CHAT
+[10:00:01] << :vuln.abandoned-irc.net 396 StormBreaker444 A87883A9.35B0CB26.E30ED253.IP :is now your displayed host
+[10:00:01] << :vuln.abandoned-irc.net 422 StormBreaker444 :MOTD File is missing
+[10:00:01] << :StormBreaker444!StormBreak@A87883A9.35B0CB26.E30ED253.IP JOIN :#zw-chat
+[10:00:02] >> PRIVMSG #ZW-CHAT :!search Der grosse Gatsby 2013
+[10:00:02] << :vuln.abandoned-irc.net 332 StormBreaker444 #zw-chat :12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12=[04Searchbot]-[09ONLINE]- Triggers: !help !search !latest !subscriptions !topdl !hot !recommended !movies !music !tv !apps !games !ebook !xxx !mobile | Web: http://www.Abandoned-IRC.net/
+[10:00:02] << :vuln.abandoned-irc.net 333 StormBreaker444 #zw-chat lurk3r!jj@zombie.warez 1779866923
+[10:00:02] << :Zombie!ZW@ZoMbIe.WaReZ NOTICE StormBreaker444 :[#ZW-CHAT] 12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12= we are looking for experienced ROOTERS/DEDi/BOXOWNERS . interested? use !joinZW
+[10:00:04] << :[o_0]!Zombies@Zombie.Warez NOTICE StormBreaker444 :
+[10:00:04] << :[o_0]!Zombies@Zombie.Warez NOTICE StormBreaker444 : ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+[10:00:04] << :[o_0]!Zombies@Zombie.Warez NOTICE StormBreaker444 :End of Results. Found: 0 ONLINE packs (0 Bots = 0 Gets) matching "Der*grosse*Gatsby*2013"
+[10:00:07] >> QUIT :bye
+[10:00:08] [INFO] [Der.grosse.Gatsby.2013] Versuch 1/2: Der.grosse.Gatsby.2013.GERMAN.DL.2160p.UHD.BluRay.x265-ENDSTATiON.mkv (irc.abjects.net #beast-xdcc)
+[10:00:08] << :spiked.ca.us.abjects.net NOTICE * :*** Looking up your hostname...
+[10:00:08] << :spiked.ca.us.abjects.net NOTICE * :*** Checking ident...
+[10:00:09] << :spiked.ca.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[10:00:12] << :spiked.ca.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[10:00:12] << PING :AD9E2E92
+[10:00:14] >> JOIN #beast-xdcc
+[10:00:14] << :spiked.ca.us.abjects.net 396 ApexPredator824 2668F1DF.6C525672.7F20E47C.IP :is now your displayed host
+[10:00:14] << :ApexPredator824!~ApexPreda@2668F1DF.6C525672.7F20E47C.IP JOIN :#beast-xdcc
+[10:00:14] << :spiked.ca.us.abjects.net 332 ApexPredator824 #beast-xdcc :#BEAST-XDCC //   BLAZING SPEEDS ~ PROPER PACKS   //   join #BEAST-CHAT for Search and much more.
+[10:00:14] << :spiked.ca.us.abjects.net 333 ApexPredator824 #beast-xdcc dbeast 1705098478
+[10:00:14] [INFO] [Der.grosse.Gatsby.2013] /msg beast-x-ether xdcc send #31
+[10:00:15] >> PRIVMSG beast-x-ether :xdcc send #31
+[10:00:15] << :BEAST-X-HENESSY!~beast@untamed.beast PRIVMSG #beast-xdcc :#76  12x [2.5G] Bloodhounds.S02E03.GERMAN.DL.1080p.WEB.h264-SAUERKRAUT.mkv
+[10:00:15] << :BEAST-X-ABYSS!~beast@untamed.beast PRIVMSG #beast-xdcc :#5    17x [2.0G] Die.Hexe.und.der.Zauberer.1963.German.AC3.DL.1080p.BluRay.x265-FuN.mkv
+[10:00:15] << :BEAST-X-GUARDIAN!~beast@untamed.beast PRIVMSG #beast-xdcc :#223 15x [1.9G] The.Expandables.2.German.DL.AC3.1080p.BluRay.x265-FuN.tar
+[10:00:15] << :BEAST-X-AFFECT!~beast@untamed.beast PRIVMSG #beast-xdcc :#1732 10x [5.4G] Rokka.Braves.Of.The.Six.Flowers.(2015).S01.1080p.BluRay.10bit.EAC3.2.0.x265-iVy.tar
+[10:00:15] << :BEAST-X-HELL!~beast@untamed.beast PRIVMSG #beast-xdcc :#5   14x [3.7G] Ali.2001.German.AC3.DL.1080p.BluRay.x265-FuN.mkv
+[10:00:15] << :BEAST-X-UNSTABLE!~beast@untamed.beast PRIVMSG #beast-xdcc :#225 16x [ 18G] Pokemon.S16.German.DL.AC3.1080p.WebDL.x265-Tanuki.tar
+[10:00:15] << :BEAST-X-SOURCE!~beast@untamed.beast PRIVMSG #beast-xdcc :#5    4x [341M] Medieval.Dynasty.Echoes.of.Nature.Update.v2.4.2.0-RUNE.tar
+[10:00:15] << :BEAST-X-ALPHA!~beast@untamed.beast PRIVMSG #beast-xdcc :#6    25x [1.6G] Equilibrium.2002.German.AC3.1080p.BluRay.AV1-Cancer58.mkv
+[10:00:15] << :BEAST-X-FANTOM!~beast@untamed.beast PRIVMSG #beast-xdcc :#2    21x [ 20G] Escape.Simulator.Spy-RUNE.tar
+[10:00:16] << :BEAST-X-GRIZZLY!~beast@untamed.beast PRIVMSG #beast-xdcc :#79  15x [1.5G] Ghosts.2021.S05E14.1080p.WEB.h264-ETHEL.mkv
+[10:00:16] << :BEAST-X-DREAD!~beast@untamed.beast PRIVMSG #beast-xdcc :#77  11x [2.5G] Wie.Das.Leben.So.Spielt.2009.German.AC3.BDRIP.x264-AG.mkv
+[10:00:16] << :BEAST-X-LuCY!~nakedgoat@D100FDD3.2AC71085.E62BF8D7.IP PRIVMSG #beast-xdcc :#4     1x [4.0G] 28.Years.Later.the.Bone.Temple.2026.1080p.WEB-DL.DDP5.1.x264-LuCY.mkv
+[10:00:16] << :BEAST-X-NEWBIE!~beast@untamed.beast PRIVMSG #beast-xdcc :#220  14x [315M] high.potential.s02e16.german.webrip.x264-avtomat.mkv
+[10:00:16] << :BEAST-X-XEBEC!~beast@untamed.beast PRIVMSG #beast-xdcc :#5   12x [ 10G] Doctor.Who.2005.S13.720p.BluRay.x264-TARDiS.tar
+[10:00:16] << :BEAST-X-TIESTO!~beast@78A23D98.43CB05D2.66866862.IP PRIVMSG #beast-xdcc :#223  14x [4.7G] Dust.Bunny.2025.German.DL.1080p.DV.HDR.WEBRip.AV1-WOTT.mkv
+[10:00:16] << :BEAST-X-LAYLOW!~beast@untamed.beast PRIVMSG #beast-xdcc :#77  17x [3.4G] Dirty.Dancing.2.2004.German.DL.AC3.1080p.BluRay.x265-RobertDeNiro.mkv
+[10:00:16] << :BEAST-X-SWITCH!~G0D@abjects-7A8888FA.clients.your-server.de PRIVMSG #beast-xdcc :#1065  12x [252M] Trials_of_Mana_Update_v1.1.1_NSW-VENOM.tar
+[10:00:16] << :BEAST-X-HYBULA!~beast@untamed.beast PRIVMSG #beast-xdcc :#78   11x [ 30G] Collateral.2004.German.AC3.DL.2160p.UHD.BluRay.DV.HDR.x265-VECTOR.mkv
+[10:00:16] << :BEAST-X-DORITO!~beast@untamed.beast PRIVMSG #beast-xdcc :#75  17x [9.0G] Monarch.Legacy.of.Monsters.S02E06.DV.2160p.WEB.h265-ETHEL.mkv
+[10:00:16] << :BEAST-X-EVIL!~beast@untamed.beast PRIVMSG #beast-xdcc :#6    9x [7.7G] Heretic.2024.1080p.AMZN.WEB-DL.DDP5.1.H.264-APEX.mkv
+[10:00:16] << :BEAST-X-PSYCHO!~beast@untamed.beast PRIVMSG #beast-xdcc :#6   20x [ 17G] Bastion.36.2025.GERMAN.DL.2160P.WEB.H265-WAYNE.tar
+[10:00:16] << :BEAST-X-CHINGY!~beast@untamed.beast PRIVMSG #beast-xdcc :#1197 14x [1.7G] Tiefe.Wasser.2022.German.AC3.DL.1080p.WebHD.x265-FuN.tar
+[10:00:17] << :BEAST-X-GROOVE!~beast@untamed.beast PRIVMSG #beast-xdcc :#79  24x [1.3G] For.All.Mankind.S05E02.German.DL.720p.WEB.h264-WvF.tar
+[10:00:17] << :BEAST-X-FANTOM!~beast@untamed.beast PRIVMSG #beast-xdcc :#3   114x [149G] FINAL_FANTASY_VII_REBIRTH-FLT.tar
+[10:00:17] << :BEAST-X-SUBZERO!~beast@untamed.beast PRIVMSG #beast-xdcc :#79   14x [ 22G] Deadpool.and.Wolverine.2024.German.EAC3.DL.2160p.UHD.BluRay.DV.HDR.x265-VECTOR.mkv
+[10:00:17] << :BEAST-X-ARISE!~beast@untamed.beast PRIVMSG #beast-xdcc :#218  20x [1.3G] Monarch.Legacy.of.Monsters.S02E09.German.DL.720p.WEB.h264-WvF.mkv
+[10:00:17] << :BEAST-X-MAFIA!~beast@untamed.beast PRIVMSG #beast-xdcc :#5    14x [3.4G] 2067.Kampf.um.die.Zukunft.2020.German.DTS.1080p.BluRay.x265-UNFIrED.mkv
+[10:00:17] << :BEAST-X-MARYJ!~beast@untamed.beast PRIVMSG #beast-xdcc :#6   11x [6.5G] To.Trap.a.Spy.1964.1080p.EAC3.5.1.H.264.mkv
+[10:00:17] << :BEAST-X-DEMISE!~beast@untamed.beast PRIVMSG #beast-xdcc :#6   19x [3.2G] Armageddon.1998.German.DL.AC3.1080p.BluRay.x265-FuN.mkv
+[10:00:17] << :BEAST-X-HBHOE!~G0D@abjects-7A8888FA.clients.your-server.de PRIVMSG #beast-xdcc :#8    55x [9.4G] Banshee.S03.1080p.BluRay.x265-BEAST.tar
+[10:00:17] << :BEAST-X-ELCHAPO!~beast@untamed.beast PRIVMSG #beast-xdcc :#6    4x [1.5G] The.Nightmare.2015.German.AC3.BDRip.x264-AG.mkv
+[10:00:17] << :BEAST-X-SPHYNX!~beast@untamed.beast PRIVMSG #beast-xdcc :#221  11x [822M] Pokemon.S20E87.German.AAC.1080p.WEB.H264-WeebPinn.mkv
+[10:00:17] << :BEAST-X-KURUPT!~beast@untamed.beast PRIVMSG #beast-xdcc :#221 11x [1.3G] Elise.und.das.vergessene.Weihnachtsfest.2019.German.AC3.DL.1080p.BluRay.x265-FuN.mkv
+[10:00:17] << :BEAST-X-WASTED!~beast@untamed.beast PRIVMSG #beast-xdcc :#231 12x [2.0G] Calabasas.Confidential.S01E03.GERMAN.DL.1080p.WEB.h264-HAXE.mkv
+[10:00:18] << :BEAST-X-HENESSY!~beast@untamed.beast PRIVMSG #beast-xdcc :#77  11x [2.0G] Clans.S02E05.GERMAN.DL.1080P.WEB.X264-WAYNE.tar
+[10:00:18] << :BEAST-X-LuCY!~nakedgoat@D100FDD3.2AC71085.E62BF8D7.IP PRIVMSG #beast-xdcc :#5     0x [4.1G] A.Knight.of.the.Seven.Kingdoms.S01E05.In.the.Name.of.the.Mother.2160p.HMAX.WEB-DL.DDP5.1.Atmos.H.265-GP-TV-NLsubs.2160p.WEB-DL.AAC5.1.AV1-LuCY.mkv
+[10:00:18] << :BEAST-X-FANTOM!~beast@untamed.beast PRIVMSG #beast-xdcc :#4    25x [1.6G] Farming.Simulator.25.Update.v1.10.0.0.incl.DLC-RUNE.tar
+[10:00:18] << :BEAST-X-COPPER!~beast@untamed.beast PRIVMSG #beast-xdcc :#76   12x [4.5G] hallow.road.2025.720p.bluray.x264-knives.mkv
+[10:00:18] << :BEAST-X-CRANK!~beast@untamed.beast PRIVMSG #beast-xdcc :#6   12x [5.5G] 10DANCE.2025.GERMAN.DL.1080p.WEB.h264-SAUERKRAUT.mkv
+[10:00:18] << :BEAST-X-EXILE!~beast@untamed.beast PRIVMSG #beast-xdcc :#6   13x [2.4G] Ballermann.6.1997.German.AC3.1080p.WebHD.x265-FuN.mkv
+[10:00:18] << :BEAST-X-VAMPED!~beast@78A23D98.43CB05D2.66866862.IP PRIVMSG #beast-xdcc :#223 22x [2.0G] Reflection.in.A.Dead.Diamond.2025.German.AC3.DL.1080p.BluRay.x265-FuN.mkv
+[10:00:18] << :BEAST-X-DROID!~beast@untamed.beast PRIVMSG #beast-xdcc :#61   16x [695M] Homer.und.Eddie.GERMAN.1989.DVDRiP.XViD-S8.avi
+[10:00:18] << :BEAST-X-XEROX!~beast@untamed.beast PRIVMSG #beast-xdcc :#249 19x [1.6G] Kap.der.Angst.S01E02.German.DL.720p.WEB.h264-WvF.mkv
+[10:00:18] << :BEAST-X-SOURCE!~beast@untamed.beast PRIVMSG #beast-xdcc :#6   20x [ 10G] The.Lonesome.Guild-RUNE.tar
+[10:00:18] << :BEAST-X-IGNITE!~beast@78A23D98.43CB05D2.66866862.IP PRIVMSG #beast-xdcc :#214  14x [993M] Rooster.Fighter.S01E05.GERMAN.DL.ANIME.1080P.WEB.H264-WAYNE.mkv
+[10:00:19] << :BEAST-X-SICKO!~beast@untamed.beast PRIVMSG #beast-xdcc :#4 15x [ 43G] Venom.Let.There.Be.Carnage.2021.UHD.BluRay.2160p.TrueHD.Atmos.7.1.DV.HEVC.REMUX-FraMeSToR.mkv
+[10:00:19] << :BEAST-X-GRIZZLY!~beast@untamed.beast PRIVMSG #beast-xdcc :#80  18x [389M] Ghosts.2021.S05E14.1080p.x265-ELiTE.mkv
+[10:00:19] << :BEAST-X-GUARDIAN!~beast@untamed.beast PRIVMSG #beast-xdcc :#224 13x [812M] Pokemon.S20E25.German.AAC.1080p.WEB.H264.v2-WeebPinn.mkv
+[10:00:19] << :BEAST-X-AFFECT!~beast@untamed.beast PRIVMSG #beast-xdcc :#1733 12x [1.8G] Roller.Girl.2009.German.AC3.DL.1080p.BluRay.x265-FuN.mkv
+[10:00:19] << :BEAST-X-UNSTABLE!~beast@untamed.beast PRIVMSG #beast-xdcc :#226 12x [7.6G] American.Dad.S19.German.DL.AC3.720p.WEB.x265-Bi0hazard.tar
+[10:00:19] << :BEAST-X-LACED!~beast@untamed.beast PRIVMSG #beast-xdcc :#228 12x [ 20G] Kabaneri.of.the.Iron.Fortress.S01.1080p.BluRay.10-Bit.Dual-Audio.DDP5.1.x265-8RM.tar
+[10:00:19] << :BEAST-X-ALPHA!~beast@untamed.beast PRIVMSG #beast-xdcc :#7    33x [2.5G] Hallow.Road.2025.German.EAC3.1080p.WEB.HEVC-Cancer58.mkv
+[10:00:19] << :BEAST-X-ETHER!~beast@untamed.beast NOTICE ApexPredator824 :** Sending you pack #31 ("Der.grosse.Gatsby.2013.GERMAN.DL.2160p.UHD.BluRay.x265-ENDSTATiON.mkv"), which is 18GB. (resume supported)
+[10:00:19] [INFO] [Der.grosse.Gatsby.2013] ** Sending you pack #31 ("Der.grosse.Gatsby.2013.GERMAN.DL.2160p.UHD.BluRay.x265-ENDSTATiON.mkv"), which is 18GB. (resume supported)
+[10:00:19] << :BEAST-X-REDUX!~beast@untamed.beast PRIVMSG #beast-xdcc :#6   13x [2.5G] Batman.haelt.die.Welt.in.Atem.1966.German.AC3.BDRip.1080p.x265-NScR.mkv
+[10:00:19] << :BEAST-X-GSTAR!~beast@untamed.beast PRIVMSG #beast-xdcc :#217 11x [685M] Helsinki.Rescue.Einsatz.in.Finnland.S01E07.GERMAN.DL.DOKU.720p.WEB.H264-SYNERGiE.mkv
+[10:00:20] << :BEAST-X-CHINGY!~beast@untamed.beast PRIVMSG #beast-xdcc :#1198 11x [1.8G] Tierisch.Wild.2006.German.AC3.DL.1080p.BluRay.x265-FuN.mkv
+[10:00:20] << :BEAST-X-NEWBIE!~beast@untamed.beast PRIVMSG #beast-xdcc :#221  15x [1.4G] One.Piece.S23E04.Episode.1159.1080p.CR.WEB-DL.DDP2.0.H.264-Kitsune.mkv
+[10:00:20] << :BEAST-X-ABYSS!~beast@untamed.beast PRIVMSG #beast-xdcc :#6    12x [2.8G] Die.Hexe.und.der.Zauberer.1963.German.AC3D.DL.1080p.35mm.Cinema.Print.x265-FuN.mkv
+[10:00:20] << :BEAST-X-HELL!~beast@untamed.beast PRIVMSG #beast-xdcc :#6   22x [2.7G] Star.Wars.Ewkos.Karawane.der.Tapferen.1984.German.AC3.DL.1080p.WebHD.x265-FuN.mkv
+[10:00:20] << :BEAST-X-HBHOE!~G0D@abjects-7A8888FA.clients.your-server.de PRIVMSG #beast-xdcc :#9    44x [6.7G] Banshee.S04.1080p.BluRay.x265-BEAST.tar
+[10:00:20] << :BEAST-X-TIESTO!~beast@78A23D98.43CB05D2.66866862.IP PRIVMSG #beast-xdcc :#224  23x [2.4G] Ben-Hur.2016.UNCUT.German.AC3D.DL.1080p.BluRay.x265-FuN.mkv
+[10:00:20] << :BEAST-X-ARISE!~beast@untamed.beast PRIVMSG #beast-xdcc :#219  13x [696M] Fire.Country.S04E16.1080p.x265-ELiTE.mkv
+[10:00:20] << :BEAST-X-HYBULA!~beast@untamed.beast PRIVMSG #beast-xdcc :#79   11x [1.6G] Miss.March.2009.German.AC3.BDRIP.x264-AG.mkv
+[10:00:20] << :BEAST-X-LAYLOW!~beast@untamed.beast PRIVMSG #beast-xdcc :#78  41x [2.0G] Hunting.Season.2025.German.AC3.DL.1080p.WebHD.x265-FuN.tar
+[10:00:20] << :BEAST-X-SWITCH!~G0D@abjects-7A8888FA.clients.your-server.de PRIVMSG #beast-xdcc :#1066   7x [351M] Bubble_Trouble_Adventures_NSW-SUXXORS.tar
+[10:00:20] << :BEAST-X-DORITO!~beast@untamed.beast PRIVMSG #beast-xdcc :#76  17x [639M] The.Last.Thing.He.Told.Me.S02E07.1080p.x265-ELiTE.mkv
+[10:00:20] << :BEAST-X-PSYCHO!~beast@untamed.beast PRIVMSG #beast-xdcc :#7    9x [3.2G] Dobermann.1997.German.AC3.1080p.BluRay.HEVC-Cancer58.mkv
+[10:00:21] << :BEAST-X-SUBZERO!~beast@untamed.beast PRIVMSG #beast-xdcc :#80   13x [5.8G] Der.Geschmack.von.Apfelkernen.German.1080p.BluRay.x264-ROOR.tar
+[10:00:21] << :BEAST-X-LuCY!~nakedgoat@D100FDD3.2AC71085.E62BF8D7.IP PRIVMSG #beast-xdcc :#6     0x [3.3G] A.Million.Miles.Away.2023.1080p.WEBRip.AAC5.1.HEVC-LuCY.mkv
+[10:00:21] << :BEAST-X-SPHYNX!~beast@untamed.beast PRIVMSG #beast-xdcc :#222  16x [570M] Star.Wars.Maul.Shadow.Lord.S01E06.German.DL.720p.WEB.h264-WvF.mkv
+[10:00:21] << :BEAST-X-ELCHAPO!~beast@untamed.beast PRIVMSG #beast-xdcc :#7    1x [3.9G] Ebony.and.Ivory.2024.1080p.AMZN.WEB-DL.DDP5.1.H.264-BYNDR.mkv
+[10:00:21] << :BEAST-X-DROID!~beast@untamed.beast PRIVMSG #beast-xdcc :#62   14x [7.2G] The.Brothers.Sun.S01.German.DL.720p.WEB.x264-WvF.tar
+[10:00:21] << :BEAST-X-EVIL!~beast@untamed.beast PRIVMSG #beast-xdcc :#7   11x [3.7G] Dave.Chappelle.Deep.in.the.Heart.of.Texas.2017.1080p.WEBRip.X264-DEFLATE.mkv
+[10:00:21] << :BEAST-X-HUNCHO!~beast@untamed.beast PRIVMSG #beast-xdcc :#6     2x [5.6G] Stillwater.S04E01-E02.Good.Better.Best.-.Raking.Leaves.REPACK.2160p.ATVP.WEB-DL.DDP5.1.Atmos.DV.HDR.H.265-FLUX.mkv
+[10:00:21] << :BEAST-X-WASTED!~beast@untamed.beast PRIVMSG #beast-xdcc :#232 11x [7.2G] rivals.2024.s02e05.german.dl.dv.2160p.web.h265-rile.mkv
+[10:00:21] << :BEAST-X-SOURCE!~beast@untamed.beast PRIVMSG #beast-xdcc :#7  168x [ 27G] DRAGON_BALL_Sparking_ZERO-FLT.tar
+[10:00:22] << :BEAST-X-GROOVE!~beast@untamed.beast PRIVMSG #beast-xdcc :#80  14x [2.0G] For.All.Mankind.2019.S05E02.German.DL.AC3.1080p.ATVP.WEB.H265-ZeroTwo.mkv
+[10:00:22] << :BEAST-X-HENESSY!~beast@untamed.beast PRIVMSG #beast-xdcc :#78  14x [9.4G] Das.perfekte.Geheimnis.2019.German.DTS.1080p.BluRay.x264-VECTOR.mkv
+[10:00:22] << :BEAST-X-DREAD!~beast@untamed.beast PRIVMSG #beast-xdcc :#78  13x [ 11G] Das.Schicksal.ist.ein.mieser.Verraeter.2014.EXTENDED.German.DTS.DL.1080p.BluRay.x264-VECTOR.mkv
+[10:00:22] << :BEAST-X-DEMISE!~beast@untamed.beast PRIVMSG #beast-xdcc :#7   11x [ 43G] Call.My.Agent.Berlin.S01.GERMAN.HDR.2160p.WEB.h265-SAUERKRAUT.tar
+[10:00:22] << :gammarayburst!~wokoupira@5EE36E12.A5DB807F.69D7FC84.IP QUIT :Read error
+[10:00:22] << :BEAST-X-MARYJ!~beast@untamed.beast PRIVMSG #beast-xdcc :#7   16x [2.6G] 40.Tage.und.40.Naechte.2002.German.AC3D.DL.1080p.US-BluRay.x265-FuN.mkv
+[10:00:22] << :BEAST-X-MAFIA!~beast@untamed.beast PRIVMSG #beast-xdcc :#6    12x [1.3G] A.Classic.Horror.Story.2021.German.AC3.1080p.WebRip.x265.Repack-FuN.mkv
+[10:00:22] << :BEAST-X-XEBEC!~beast@untamed.beast PRIVMSG #beast-xdcc :#6   17x [8.2G] WALL.E.Der.Letzte.raeumt.die.Erde.auf.2008.German.DTS.DL.2160p.UHD.US.BluRay.DV.HDR.x265-VECTOR.mkv
+[10:00:22] << :BEAST-X-XEROX!~beast@untamed.beast PRIVMSG #beast-xdcc :#250 17x [4.5G] Your.Friends.and.Neighbors.S02E10.GERMAN.DL.1080P.WEB.H264-WAYNE.mkv
+[10:00:22] << :BEAST-X-IGNITE!~beast@78A23D98.43CB05D2.66866862.IP PRIVMSG #beast-xdcc :#215  12x [372M] American.Dad.S22E01.German.DL.720p.WEB.h264-WvF.mkv
+[10:00:22] << :BEAST-X-VAMPED!~beast@78A23D98.43CB05D2.66866862.IP PRIVMSG #beast-xdcc :#224 30x [ 11G] They.Will.Kill.You.2026.GERMAN.DL.2160P.WEB.H265-WAYNE.mkv
+[10:00:22] << :BEAST-X-KURUPT!~beast@untamed.beast PRIVMSG #beast-xdcc :#222 13x [2.0G] Die.Olsenbande.stellt.die.Weichen.1975.German.AC3.1080p.BluRay.x265-FuN.mkv
+[10:00:22] << :BEAST-X-AFFECT!~beast@untamed.beast PRIVMSG #beast-xdcc :#1734 11x [1.9G] Rom.2024.German.AC3.DL.1080p.BluRay.x265-FuN.mkv
+[10:00:22] << :BEAST-X-COPPER!~beast@untamed.beast PRIVMSG #beast-xdcc :#77   15x [100M] Oscar_Wilde_Und_Mycroft_Holmes-F56_Toedliche_Farben-Audiobook-DE-2026-VOiCE.tar
+[10:00:23] << :BEAST-X-GRIZZLY!~beast@untamed.beast PRIVMSG #beast-xdcc :#81  15x [9.4G] Come.to.Daddy.2019.GERMAN.DL.1080p.BluRay.x264-TSCC.mkv
+[10:00:23] << :BEAST-X-LACED!~beast@untamed.beast PRIVMSG #beast-xdcc :#229 12x [ 47G] Lord.of.War.-.Haendler.Des.Todes.German.2160p.UHD.BluRay-iND.tar
+[10:00:23] << :BEAST-X-GSTAR!~beast@untamed.beast PRIVMSG #beast-xdcc :#218 11x [178M] running.point.s02e02.german.webrip.x264-avtomat.mkv
+[10:00:23] << :BEAST-X-CRANK!~beast@untamed.beast PRIVMSG #beast-xdcc :#7   12x [ 12G] Attack.on.Titan.Movie.02-Fluegel.der.Freiheit.German.DTS.5.1.DL.1080p.BluRay.x264-AST4u.mkv
+[10:00:23] << :BEAST-X-REDUX!~beast@untamed.beast PRIVMSG #beast-xdcc :#7   19x [7.8G] Für.immer.ein.Teil.von.dir.2026.German.5.1.LD.DL.1080p.WEB.h264-LiNEUP.tar
+[10:00:23] << :BEAST-X-ALPHA!~beast@untamed.beast PRIVMSG #beast-xdcc :#8    15x [1.7G] Last.Light.1993.German.AC3.DvDRIP.x264-AG.mkv
+[10:00:23] << :BEAST-X-UNSTABLE!~beast@untamed.beast PRIVMSG #beast-xdcc :#227 10x [170M] st.denis.medical.s02e05.german.webrip.x264-avtomat.mkv
+[10:00:23] << :BEAST-X-SWITCH!~G0D@abjects-7A8888FA.clients.your-server.de PRIVMSG #beast-xdcc :#1067   8x [461M] Retro_Drive_Revamped_NSW-SUXXORS.tar
+[10:00:23] << :BEAST-X-GUARDIAN!~beast@untamed.beast PRIVMSG #beast-xdcc :#225 12x [103M] Teardown.The.Greenwash.Gambit.Update.v2.0.1-RUNE.tar
+[10:00:23] << :BEAST-X-PSYCHO!~beast@untamed.beast PRIVMSG #beast-xdcc :#8   15x [5.3G] the.rooster.2023.1080p.web.h264-cbfm.mkv
+[10:00:24] << :BEAST-X-LuCY!~nakedgoat@D100FDD3.2AC71085.E62BF8D7.IP PRIVMSG #beast-xdcc :#7     0x [1.9G] Apex.2026.1080p.WEBRip.AAC5.1.HEVC-LuCY.mkv
+[10:00:24] << :BEAST-X-HELL!~beast@untamed.beast PRIVMSG #beast-xdcc :#7   13x [3.9G] Nine.Perfect.Strangers.S02.1080p.x265-ELiTE.tar
+[10:00:24] << :BEAST-X-NEWBIE!~beast@untamed.beast PRIVMSG #beast-xdcc :#222  13x [810M] Pokemon.S20E24.German.AAC.1080p.WEB.H264.v2-WeebPinn.mkv
+[10:00:24] << :BEAST-X-EXILE!~beast@untamed.beast PRIVMSG #beast-xdcc :#7   12x [ 21G] The.Legend.Der.Arm.der.Goetter.schlaegt.zurueck.2024.German.DTSHD.DL.2160p.UHD.BluRay.DV.HDR.x265-VECTOR.mkv
+[10:00:24] << :BEAST-X-TIESTO!~beast@78A23D98.43CB05D2.66866862.IP PRIVMSG #beast-xdcc :#225  24x [4.0G] Charlie.der.Superhund.2025.German.DL.1080p.BluRay.x264-DETAiLS.tar
+[10:00:24] << :BEAST-X-HBHOE!~G0D@abjects-7A8888FA.clients.your-server.de PRIVMSG #beast-xdcc :#10   75x [ 10G] Band.of.Brothers.2001.COMPLETE.1080p.BluRay.x265-BEAST.tar
+[10:00:24] << :BEAST-X-SICKO!~beast@untamed.beast PRIVMSG #beast-xdcc :#5 15x [ 41G] Bloodshot.2020.UHD.BluRay.2160p.TrueHD.Atmos.7.1.DV.HEVC.HYBRID.REMUX-FraMeSToR.mkv
+[10:00:24] << :BEAST-X-DORITO!~beast@untamed.beast PRIVMSG #beast-xdcc :#77  17x [1.5G] your.friends.and.neighbors.s02e01.720p.web.h264-sylix.mkv
+[10:00:24] << :BEAST-X-SPHYNX!~beast@untamed.beast PRIVMSG #beast-xdcc :#223  24x [7.7G] Hoppers.2026.1080p.WEB.h264-GRACE.mkv
+[10:00:25] << :BEAST-X-SOURCE!~beast@untamed.beast PRIVMSG #beast-xdcc :#8   20x [172M] ELDEN.RING.NIGHTREIGN.Update.v1.01.5-RUNE.tar
+[10:00:25] << :BEAST-X-ARISE!~beast@untamed.beast PRIVMSG #beast-xdcc :#220  18x [6.6G] Criminal.Record.S01.German.AC3.DL.1080p.Web.x265-FuN.tar
+[10:00:25] << :BEAST-X-GROOVE!~beast@untamed.beast PRIVMSG #beast-xdcc :#81  15x [ 19G] Dust.Bunny.2025.German.DL.2160p.DV.WEB.H265-WAREZCX.mkv
+[10:00:25] << :BEAST-X-SUBZERO!~beast@untamed.beast PRIVMSG #beast-xdcc :#81   31x [ 19G] Dust.Bunny.2025.German.DL.2160p.DV.HDR.WEB.H265-WAREZCX.mkv
+[10:00:25] << :BEAST-X-ABYSS!~beast@untamed.beast PRIVMSG #beast-xdcc :#7    12x [3.1G] Die.Hochzeit.meines.besten.Freundes.1997.German.AC3.DL.1080p.BluRay.x265-FuN.mkv
+[10:00:25] << :BEAST-X-HYBULA!~beast@untamed.beast PRIVMSG #beast-xdcc :#80   16x [7.9G] Das.Krokodil.und.sein.Nilpferd.1979.German.1080p.BluRay.x264-CONTRiBUTiON.mkv
+[10:00:25] << :BEAST-X-ETHER!~beast@untamed.beast PRIVMSG ApexPredator824 :DCC SEND Der.grosse.Gatsby.2013.GERMAN.DL.2160p.UHD.BluRay.x265-ENDSTATiON.mkv 1502994136 51475 19379657943
+[10:04:59] >> QUIT :bye
+[10:04:59] [SUCCESS] [Der.grosse.Gatsby.2013] Download fertig: Der.grosse.Gatsby.2013.GERMAN.DL.2160p.UHD.BluRay.x265-ENDSTATiON.mkv
+[10:04:59] [SUCCESS] [Der.grosse.Gatsby.2013] fertig & einsortiert
+[10:04:59] [INFO] [Nobody.2.2025] Suche: Nobody 2 2025
+[10:04:59] << :stormy.fr.eu.abjects.net NOTICE * :*** Looking up your hostname...
+[10:04:59] << :stormy.fr.eu.abjects.net NOTICE * :*** Checking ident...
+[10:05:00] << :stormy.fr.eu.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[10:05:03] << :stormy.fr.eu.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[10:05:04] >> JOIN #beast-chat
+[10:05:04] << :stormy.fr.eu.abjects.net 396 DarkPhoenix727 2668F1DF.6C525672.7F20E47C.IP :is now your displayed host
+[10:05:04] << :DarkPhoenix727!~DarkPhoen@2668F1DF.6C525672.7F20E47C.IP JOIN :#beast-chat
+[10:05:05] >> PRIVMSG #beast-chat :!s Nobody 2 2025
+[10:05:05] << :stormy.fr.eu.abjects.net 332 DarkPhoenix727 #beast-chat :Welcome to #BEAST-XDCC  (Search:ONLINE) (Requests:ONLINE) ~ added !get command ~ !top or !topger to see most leeched releases, can be filtered by days ~ Please use !german for latest GERMAN releases only ~ commands; !latest !german !search !request !get !top !topger !tv !tvger !games ~ For more commands use !help ~ Have something to offer? Msg an ~ 
+[10:05:05] << :stormy.fr.eu.abjects.net 333 DarkPhoenix727 #beast-chat devnull!~qlimax@beastmo.de 1779527540
+[10:05:05] << :databeast!~databeast@the.beast NOTICE DarkPhoenix727 :04SEARCH RESULTS LIMITED TO 100 PACKS
+[10:05:06] << :databeast!~databeast@the.beast NOTICE DarkPhoenix727 :04(141.8G04) 14Nobody.2.2025.1080p.WEBRip.x265-DH.mkv04 (141514x04)14 /msg 14BEAST-X-AFFECT14 xdcc send #14929
+[10:05:06] << :databeast!~databeast@the.beast NOTICE DarkPhoenix727 :04(147.8G04) 14Nobody.2.2025.2160p.WEB.h265-ETHEL.mkv04 (141014x04)14 /msg 14BEAST-X-AFFECT14 xdcc send #14930
+[10:05:06] << :databeast!~databeast@the.beast NOTICE DarkPhoenix727 :04(149.4G04) 14Nobody.2.2025.DV.2160p.WEB.h265-ETHEL.mkv04 (141014x04)14 /msg 14BEAST-X-AFFECT14 xdcc send #14931
+[10:05:06] << :databeast!~databeast@the.beast NOTICE DarkPhoenix727 :04(141.6G04) 14Nobody.2.2025.German.DL.1080p.WEBRiP.x265-P73.mkv04 (141514x04)14 /msg 14BEAST-X-AFFECT14 xdcc send #14932
+[10:05:06] << :databeast!~databeast@the.beast NOTICE DarkPhoenix727 :04(1410G04) 14Nobody.2.2025.German.DL.2160p.WEB.H265-ZeroTwo.mkv04 (141214x04)14 /msg 14BEAST-X-AFFECT14 xdcc send #14933
+[10:05:06] << :databeast!~databeast@the.beast NOTICE DarkPhoenix727 :04(143.3G04) 14Nobody.2.2025.German.DL.EAC3D.1080p.BluRay.x264-MTZ.tar04 (141114x04)14 /msg 14BEAST-X-AFFECT14 xdcc send #14934
+[10:05:06] << :databeast!~databeast@the.beast NOTICE DarkPhoenix727 :04(1413G04) 14nobody.2.2025.german.dl.2160p.hdr.dv.web.h265-mge.mkv04 (141114x04)14 /msg 14BEAST-X-AFFECT14 xdcc send #142158
+[10:05:06] << :databeast!~databeast@the.beast NOTICE DarkPhoenix727 :04(142.8G04) 14nobody.2.2025.german.dl.720p.web.h264-mge.mkv04 (141014x04)14 /msg 14BEAST-X-AFFECT14 xdcc send #142159
+[10:05:06] << :databeast!~databeast@the.beast NOTICE DarkPhoenix727 :04(149.4G04) 14Nobody.2.2025.2160p.iT.WEB-DL.DDP5.1.Atmos.DV.H.265-BYNDR.mkv04 (142114x04)14 /msg 14BEAST-X-FUBAR14 xdcc send #1414
+[10:05:06] << :databeast!~databeast@the.beast NOTICE DarkPhoenix727 :04(141.0G04) 14Nobody.2.2025.German.AC3.WEBRip.x264-ZeroTwo.mkv04 (143214x04)14 /msg 14BEAST-X-FUBAR14 xdcc send #1422
+[10:05:06] << :databeast!~databeast@the.beast NOTICE DarkPhoenix727 :04(144.5G04) 14nobody.2.2025.720p.bluray.x264-pignus.mkv04 (141714x04)14 /msg 14BEAST-X-JACKED14 xdcc send #1422
+[10:05:06] << :databeast!~databeast@the.beast NOTICE DarkPhoenix727 :04(14786M04) 14Nobody.2.2025.German.BDRip.x264-DETAiLS.tar04 (141014x04)14 /msg 14BEAST-X-JOKER14 xdcc send #14966
+[10:05:06] << :databeast!~databeast@the.beast NOTICE DarkPhoenix727 :04(1416G04) 14Nobody.2.2025.German.DL.2160p.DV.HDR.WEB.H265-ZeroTwo.mkv04 (141114x04)14 /msg 14BEAST-X-JOKER14 xdcc send #14967
+[10:05:06] << :databeast!~databeast@the.beast NOTICE DarkPhoenix727 :04(144.5G04) 14Nobody.2.2025.1080p.WEB.h264-ETHEL.mkv04 (147814x04)14 /msg 14BEAST-X-RAZER14 xdcc send #1415
+[10:05:06] << :databeast!~databeast@the.beast NOTICE DarkPhoenix727 :04(142.8G04) 14Nobody.2.2025.German.DL.720p.WEB.H264-ZeroTwo.mkv04 (143814x04)14 /msg 14BEAST-X-RAZER14 xdcc send #1418
+[10:05:06] << :databeast!~databeast@the.beast NOTICE DarkPhoenix727 :04(145.6G04) 14Nobody.2.2025.TELESYNC.x264-SyncUP.mkv04 (143914x04)14 /msg 14BEAST-X-REAPER14 xdcc send #1410
+[10:05:06] << :databeast!~databeast@the.beast NOTICE DarkPhoenix727 :04(1416G04) 14Nobody.2.2025.2160p.iT.WEB-DL.DDP5.1.Atmos.DV.HDR.H.265-BYNDR.mkv04 (146014x04)14 /msg 14BEAST-X-REBEL14 xdcc send #1417
+[10:05:06] << :databeast!~databeast@the.beast NOTICE DarkPhoenix727 :04(1413G04) 14nobody.2.2025.1080p.bluray.x264-pignus.mkv04 (141114x04)14 /msg 14BEAST-X-REVOLT14 xdcc send #142113
+[10:05:06] << :databeast!~databeast@the.beast NOTICE DarkPhoenix727 :04(145.1G04) 14nobody.2.2025.german.dl.1080p.web.h264-mge.mkv04 (141114x04)14 /msg 14BEAST-X-REVOLT14 xdcc send #142114
+[10:05:06] << :databeast!~databeast@the.beast NOTICE DarkPhoenix727 :04(1410G04) 14nobody.2.2025.german.dl.2160p.web.h265-mge.mkv04 (141014x04)14 /msg 14BEAST-X-REVOLT14 xdcc send #142115
+[10:05:06] << :databeast!~databeast@the.beast NOTICE DarkPhoenix727 :04(1446G04) 14Nobody.2.2025.German.UHDBD.2160p.DV.HDR10.HEVC.TrueHD.DL.Remux-pmHD.mkv04 (142714x04)14 /msg 14BEAST-X-SHADY14 xdcc send #14853
+[10:05:06] << :databeast!~databeast@the.beast NOTICE DarkPhoenix727 :04(1443G04) 14Nobody.2.2025.UHD.BluRay.2160p.TrueHD.Atmos.7.1.DV.HEVC.REMUX-FraMeSToR.mkv04 (142814x04)14 /msg 14BEAST-X-SHADY14 xdcc send #141395
+[10:05:06] << :databeast!~databeast@the.beast NOTICE DarkPhoenix727 :04(141.5G04) 14Nobody.2.2025.German.720p.BluRay.x264-DETAiLS.tar04 (141914x04)14 /msg 14BEAST-X-SUPER14 xdcc send #1439
+[10:05:06] << :databeast!~databeast@the.beast NOTICE DarkPhoenix727 :04(144.8G04) 14Nobody.2.2025.1080p.AMZN.WEB-DL.DDP5.1.Atmos.H.264-BYNDR.mkv04 (149414x04)14 /msg 14BEAST-X-TITAN14 xdcc send #1412
+[10:05:06] << :databeast!~databeast@the.beast NOTICE DarkPhoenix727 :04(145.2G04) 14Nobody.2.2025.German.DL.5.1.MD.1080p.WEB.h264-LiNEUP.tar04 (1412314x04)14 /msg 14BEAST-X-TWIST14 xdcc send #1417
+[10:05:06] << :databeast!~databeast@the.beast NOTICE DarkPhoenix727 :04(1429G04) 14Nobody.2.2025.German.DL.2160p.UHD.BluRay.x265-ENDSTATiON.mkv04 (141114x04)14 /msg 14BEAST-X-ULTRA14 xdcc send #141450
+[10:05:06] << :databeast!~databeast@the.beast NOTICE DarkPhoenix727 :04(1416G04) 14Nobody.2.2025.HDR.2160p.WEB.h265-ETHEL.mkv04 (141114x04)14 /msg 14BEAST-X-ULTRA14 xdcc send #141451
+[10:05:06] << :databeast!~databeast@the.beast NOTICE DarkPhoenix727 :04(142.8G04) 14Nobody.2.2025.German.EAC3.1080p.WEB.HEVC-Cancer58.mkv04 (142114x04)14 /msg 14BEAST-X-XEROX14 xdcc send #1425
+[10:05:12] >> QUIT :bye
+[10:05:12] << :sharpshooter.ny.us.abjects.net NOTICE * :*** Looking up your hostname...
+[10:05:12] << :sharpshooter.ny.us.abjects.net NOTICE * :*** Checking ident...
+[10:05:12] << :sharpshooter.ny.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[10:05:16] << :sharpshooter.ny.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[10:05:18] >> JOIN #mg-chat
+[10:05:18] << :sharpshooter.ny.us.abjects.net 396 CrimsonFox355 2668F1DF.6C525672.7F20E47C.IP :is now your displayed host
+[10:05:18] << :CrimsonFox355!~CrimsonFo@2668F1DF.6C525672.7F20E47C.IP JOIN :#mg-chat
+[10:05:19] >> PRIVMSG #mg-chat :!s Nobody 2 2025
+[10:05:19] << :sharpshooter.ny.us.abjects.net 332 CrimsonFox355 #mg-chat : Welcome to Moviegods Chat - If you are new to this type !help - Join #MG-Lounge for requests/questions/comments/tv-subs/spam free chat -//- Join #MG-Help for help - Donations earn VIP perks  - Join #MG-donations for info
+[10:05:19] << :sharpshooter.ny.us.abjects.net 333 CrimsonFox355 #mg-chat katsper!Kat@Sex.With.Leather.Clad.Women.is.Hot 1728087751
+[10:05:19] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE CrimsonFox355 :00,0100115)10   8x04 |10  16G04 |10 Nobody.2.2025.2160p.UHD.BluRay.x265-B0MBARDiERS.mkv04 |09 /msg [MG]-X265|EU|S|GranddadPurple XDCC SEND 292 04|00 Used: 9.35% 3/10 avg: 2.32MiB/s (52s ago)04 
+[10:05:19] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE CrimsonFox355 :00,0100215)10  11x04 |10 4.7G04 |10 Nobody.2.2025.German.AAC.7.1.DL.1080p.BluRay.x264-oWn.mkv04 |09 /msg [MG]-OWN|EU|S|HellBee XDCC SEND 201 04|00 Used: 30.29% 1/15 avg: 26.00MiB/s (1m24s ago)04 
+[10:05:19] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE CrimsonFox355 :00,0100315)10   0x04 |10 5.2G04 |10 Nobody.2.2025.German.DL.1080p.WEB.H264-ZeroTwo.mkv04 |09 /msg [MG]-Request|Bot|Snx3 XDCC SEND 147 04|00 Used: 6.63% 1/15 avg: 610.70KiB/s (32s ago)04 
+[10:05:19] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE CrimsonFox355 :15,01   )07 #MOVIEGODS - Found 3 ONLINE Packs (3 Bots) = Total GETS: 19.
+[10:05:25] >> QUIT :bye
+[10:05:25] << :chaos.abandoned-irc.net NOTICE * :*** Looking up your hostname...
+[10:05:26] << :chaos.abandoned-irc.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[10:05:27] >> JOIN #ZW-CHAT
+[10:05:27] << :chaos.abandoned-irc.net 396 SilentSniper205 A87883A9.35B0CB26.E30ED253.IP :is now your displayed host
+[10:05:27] << :SilentSniper205!SilentSnip@A87883A9.35B0CB26.E30ED253.IP JOIN :#zw-chat
+[10:05:28] >> PRIVMSG #ZW-CHAT :!search Nobody 2 2025
+[10:05:28] << :chaos.abandoned-irc.net 332 SilentSniper205 #zw-chat :12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12=[04Searchbot]-[09ONLINE]- Triggers: !help !search !latest !subscriptions !topdl !hot !recommended !movies !music !tv !apps !games !ebook !xxx !mobile | Web: http://www.Abandoned-IRC.net/
+[10:05:28] << :chaos.abandoned-irc.net 333 SilentSniper205 #zw-chat lurk3r!jj@zombie.warez 1779866923
+[10:05:28] << :Zombie!ZW@ZoMbIe.WaReZ NOTICE SilentSniper205 :[#ZW-CHAT] 12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12= we are looking for experienced ROOTERS/DEDi/BOXOWNERS . interested? use !joinZW
+[10:05:30] << :[o_0]!Zombies@Zombie.Warez NOTICE SilentSniper205 :
+[10:05:30] << :[o_0]!Zombies@Zombie.Warez NOTICE SilentSniper205 : ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+[10:05:30] << :[o_0]!Zombies@Zombie.Warez NOTICE SilentSniper205 :End of Results. Found: 0 ONLINE packs (0 Bots = 0 Gets) matching "Nobody*2*2025"
+[10:05:33] >> QUIT :bye
+[10:05:35] [INFO] [Nobody.2.2025] Versuch 1/15: Nobody.2.2025.German.DL.5.1.MD.1080p.WEB.h264-LiNEUP.tar (irc.abjects.net #beast-xdcc)
+[10:05:35] << :stormy.fr.eu.abjects.net NOTICE * :*** Looking up your hostname...
+[10:05:35] << :stormy.fr.eu.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[10:05:35] << :stormy.fr.eu.abjects.net NOTICE * :*** Checking ident...
+[10:05:39] << :stormy.fr.eu.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[10:05:39] << PING :1886958B
+[10:05:41] >> JOIN #beast-xdcc
+[10:05:41] << :stormy.fr.eu.abjects.net 396 SilentSniper298 2668F1DF.6C525672.7F20E47C.IP :is now your displayed host
+[10:05:41] << :SilentSniper298!~SilentSni@2668F1DF.6C525672.7F20E47C.IP JOIN :#beast-xdcc
+[10:05:41] << :stormy.fr.eu.abjects.net 332 SilentSniper298 #beast-xdcc :#BEAST-XDCC //   BLAZING SPEEDS ~ PROPER PACKS   //   join #BEAST-CHAT for Search and much more.
+[10:05:41] << :stormy.fr.eu.abjects.net 333 SilentSniper298 #beast-xdcc dbeast 1705098478
+[10:05:41] [INFO] [Nobody.2.2025] /msg beast-x-twist xdcc send #17
+[10:05:42] >> PRIVMSG beast-x-twist :xdcc send #17
+[10:05:42] << :BEAST-X-SUBZERO!~beast@untamed.beast PRIVMSG #beast-xdcc :#156  13x [8.2G] PowerWash.Simulator.2.Adventure.Time.Pack-TENOKE.tar
+[10:05:42] << :BEAST-X-DORITO!~beast@untamed.beast PRIVMSG #beast-xdcc :#152 20x [2.6G] Jean.Claude.Van.Damm.PACK.Dschungelcamp.Welcome.to.the.Jungle.2013.GERMAN.AC3.1080p.x265-Tec.mkv
+[10:05:42] << :BEAST-X-NEWBIE!~beast@untamed.beast PRIVMSG #beast-xdcc :#302  12x [ 13G] The.Occultist.Update.v1.0.2.6-RUNE.tar
+[10:05:42] << :BEAST-X-DEMISE!~beast@untamed.beast PRIVMSG #beast-xdcc :#88  13x [5.1G] Zoolander.2001.German.AC3.DL.1080p.BluRay.x265-VECTOR.mkv
+[10:05:42] << :BEAST-X-EXILE!~beast@untamed.beast PRIVMSG #beast-xdcc :#84  20x [2.6G] Jaeger.der.Apokalypse.1980.German.AC3.DL.1080p.BluRay.x265-FuN.mkv
+[10:05:42] << :BEAST-X-ALPHA!~beast@untamed.beast PRIVMSG #beast-xdcc :#87   16x [5.3G] Venom.The.Last.Dance.2024.German.DL.1080p.BluRay.x264-DETAiLS.tar
+[10:05:42] << :BEAST-X-XEBEC!~beast@untamed.beast PRIVMSG #beast-xdcc :#83  17x [4.0G] Ein.Sommer.in.Italien.Die.WM.1990.2026.GERMAN.DOKU.720p.WEB.H264.iNTERNAL-SYNERGiE.mkv
+[10:05:42] << :BEAST-X-ELCHAPO!~beast@untamed.beast PRIVMSG #beast-xdcc :#85  13x [3.3G] Red.Heat.1988.Remastered.German.AC3.1080p.BluRay.HEVC-Cancer58.mkv
+[10:05:42] << :BEAST-X-KURUPT!~beast@untamed.beast PRIVMSG #beast-xdcc :#300 17x [2.5G] Torso.1973.UNCUT.German.AC3.DL.1080p.BluRay.x265-FuN.mkv
+[10:05:42] << :BEAST-X-HUNCHO!~beast@untamed.beast PRIVMSG #beast-xdcc :#85   12x [3.8G] Diabolik.wird.gejagt.2022.German.1080p.BluRay.x264-ViDEOWELT.tar
+[10:05:42] << :BEAST-X-GUARDIAN!~beast@untamed.beast PRIVMSG #beast-xdcc :#304 12x [565M] Digimon.Frontier.E17.Auf.dem.Markt.von.Akiba.German.2002.ANiME.FS.1080p.BluRay.x264-STARS.tar
+[10:05:42] << :BEAST-X-COPPER!~beast@untamed.beast PRIVMSG #beast-xdcc :#153  18x [1.7G] Johnny.Depp.PACK.Minamata.2020.GERMAN.AC3.1080p.x265-Tec.mkv
+[10:05:42] << :BEAST-X-GROOVE!~beast@untamed.beast PRIVMSG #beast-xdcc :#158 12x [7.2G] The.Choral.2025.German.DL.2160p.HDR.WEBRip.AV1-WOTT.mkv
+[10:05:42] << :BEAST-X-HYBULA!~beast@untamed.beast PRIVMSG #beast-xdcc :#155  14x [ 16G] Mechanic.2.Resurrection.2016.German.DTSHD.DL.2160p.UHD.BluRay.DV.HDR.x265-VECTOR.mkv
+[10:05:42] << :BEAST-X-DREAD!~beast@untamed.beast PRIVMSG #beast-xdcc :#156 14x [3.7G] Bait.2026.S01.1080p.WEBRip.x265-KONTRAST.tar
+[10:05:42] << :BEAST-X-LAYLOW!~beast@untamed.beast PRIVMSG #beast-xdcc :#148 12x [ 25G] James.Bond.007.Spectre.2015.German.DTS.DL.2160p.UHD.BluRay.DV.HDR.x265-VECTOR.mkv
+[10:05:42] << :BEAST-X-ABYSS!~beast@untamed.beast PRIVMSG #beast-xdcc :#81   13x [ 14G] Die.Sopranos.S04.German.AC3.DL.1080p.BDRip.x265-FuN.tar
+[10:05:42] << :BEAST-X-REDUX!~beast@untamed.beast PRIVMSG #beast-xdcc :#87  29x [6.1G] The.Sheriff.2026.German.DL.1080p.WEB.H264-SiXTYNiNE.mkv
+[10:05:42] << :BEAST-X-HBHOE!~G0D@abjects-7A8888FA.clients.your-server.de PRIVMSG #beast-xdcc :#102  30x [ 42M] Mobatek.MobaXterm.Professional.Edition.v25.0.5264-CRD.tar
+[10:05:42] << :BEAST-X-AFFECT!~beast@untamed.beast PRIVMSG #beast-xdcc :#1814 12x [2.5G] Saturday.Night.2024.German.AC3.DL.1080p.BluRay.x265-FuN.mkv
+[10:05:42] << :BEAST-X-SPHYNX!~beast@untamed.beast PRIVMSG #beast-xdcc :#302  12x [6.5G] Eiskalte.Engel.1999.German.DL.1080p.BluRay.x264.iNTERNAL-VideoStar.tar
+[10:05:42] << :BEAST-X-VAMPED!~beast@78A23D98.43CB05D2.66866862.IP PRIVMSG #beast-xdcc :#303 12x [2.9G] Tin.Soldier.2025.German.DL.720p.WEB.h264-WvF.mkv
+[10:05:42] << :BEAST-X-IGNITE!~beast@78A23D98.43CB05D2.66866862.IP PRIVMSG #beast-xdcc :#292  12x [1.0G] Das.Leben.ist.wundervoll.2021.German.BDRip.x264-LizardSquad.tar
+[10:05:42] << :BEAST-X-GSTAR!~beast@untamed.beast PRIVMSG #beast-xdcc :#298 23x [5.9G] Michael.2026.1080p.WEBRip.x265-DH.mkv
+[10:05:42] << :BEAST-X-FANTOM!~beast@untamed.beast PRIVMSG #beast-xdcc :#79   17x [ 10G] Vanilla.Sky.Remastered.2001.German.DL.1080p.BluRay.x264-ENCOUNTERS.mkv
+[10:05:43] << :BEAST-X-HELL!~beast@untamed.beast PRIVMSG #beast-xdcc :#86  11x [6.6G] Are.We.There.Yet.(2010).S01.1080p.WEBRip.10bit.EAC3.2.0.x265-iVy.tar
+[10:05:43] << :BEAST-X-MARYJ!~beast@untamed.beast PRIVMSG #beast-xdcc :#86  18x [3.3G] Scrubs.Die.Anfaenger.S07.German.AC3.DL.1080p.WebHD.x265.Repack-FuN.tar
+[10:05:43] << :BEAST-X-CRANK!~beast@untamed.beast PRIVMSG #beast-xdcc :#87  12x [1.6G] Silver.Star.2024.1080p.WEBRip.x265.10bit.AAC5.1-LAMA.mp4
+[10:05:43] << :BEAST-X-ETHER!~beast@untamed.beast PRIVMSG #beast-xdcc :#84  21x [2.4G] Dune.Part.Two.2024.German.AC3.DL.1080p.BluRay.x265-FuN.mkv
+[10:05:43] << :BEAST-X-TWIST!~beast@untamed.beast NOTICE SilentSniper298 :** Sending you pack #17 ("Nobody.2.2025.German.DL.5.1.MD.1080p.WEB.h264-LiNEUP.tar"), which is 5.2GB. (resume supported)
+[10:05:43] [INFO] [Nobody.2.2025] ** Sending you pack #17 ("Nobody.2.2025.German.DL.5.1.MD.1080p.WEB.h264-LiNEUP.tar"), which is 5.2GB. (resume supported)
+[10:05:43] << :BEAST-X-TWIST!~beast@untamed.beast PRIVMSG SilentSniper298 :DCC SEND Nobody.2.2025.German.DL.5.1.MD.1080p.WEB.h264-LiNEUP.tar 1607680356 53893 5586165760
+[10:07:02] >> QUIT :bye
+[10:07:02] [SUCCESS] [Nobody.2.2025] Download fertig: Nobody.2.2025.German.DL.5.1.MD.1080p.WEB.h264-LiNEUP.tar
+[10:07:38] [SUCCESS] [Nobody.2.2025] fertig & einsortiert
+[10:07:38] [INFO] [Ruby taucht ab 2023] Suche: Ruby taucht ab 2023
+[10:07:38] << :sharpshooter.ny.us.abjects.net NOTICE * :*** Looking up your hostname...
+[10:07:38] << :sharpshooter.ny.us.abjects.net NOTICE * :*** Checking ident...
+[10:07:38] << :sharpshooter.ny.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[10:07:42] << :sharpshooter.ny.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[10:07:43] >> JOIN #beast-chat
+[10:07:43] << :sharpshooter.ny.us.abjects.net 396 SteelTitan335 2668F1DF.6C525672.7F20E47C.IP :is now your displayed host
+[10:07:43] << :SteelTitan335!~SteelTita@2668F1DF.6C525672.7F20E47C.IP JOIN :#beast-chat
+[10:07:44] >> PRIVMSG #beast-chat :!s Ruby taucht ab 2023
+[10:07:44] << :sharpshooter.ny.us.abjects.net 332 SteelTitan335 #beast-chat :Welcome to #BEAST-XDCC  (Search:ONLINE) (Requests:ONLINE) ~ added !get command ~ !top or !topger to see most leeched releases, can be filtered by days ~ Please use !german for latest GERMAN releases only ~ commands; !latest !german !search !request !get !top !topger !tv !tvger !games ~ For more commands use !help ~ Have something to offer? Msg an ~ 
+[10:07:44] << :sharpshooter.ny.us.abjects.net 333 SteelTitan335 #beast-chat devnull!~qlimax@beastmo.de 1779527540
+[10:07:45] << :databeast!~databeast@the.beast NOTICE SteelTitan335 :04SEARCH RESULTS LIMITED TO 100 PACKS
+[10:07:45] << :databeast!~databeast@the.beast NOTICE SteelTitan335 :04(143.5G04) 14Ruby.taucht.ab.2023.German.DL.1080p.BluRay.x264-KiNOWELT.tar04 (141014x04)14 /msg 14BEAST-X-AFFECT14 xdcc send #141756
+[10:07:45] << :databeast!~databeast@the.beast NOTICE SteelTitan335 :04(1419G04) 14Ruby.taucht.ab.2023.UHD.WEB-DL.2160p.HEVC.DV.HDR.EAC3.7.1.DL.Remux-TvR.mkv04 (141214x04)14 /msg 14BEAST-X-HEROIN14 xdcc send #14163
+[10:07:45] << :databeast!~databeast@the.beast NOTICE SteelTitan335 :04(141.9G04) 14Ruby.taucht.ab.2023.German.AC3.DL.1080p.BluRay.x265-FuN.mkv04 (141114x04)14 /msg 14BEAST-X-REVOLT14 xdcc send #141584
+[10:07:51] >> QUIT :bye
+[10:07:51] << :neptune.ny.us.abjects.net NOTICE * :*** Looking up your hostname...
+[10:07:51] << :neptune.ny.us.abjects.net NOTICE * :*** Checking ident...
+[10:07:52] << :neptune.ny.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[10:07:55] << :neptune.ny.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[10:07:57] >> JOIN #mg-chat
+[10:07:57] << :neptune.ny.us.abjects.net 396 GhostRider560 2668F1DF.6C525672.7F20E47C.IP :is now your displayed host
+[10:07:57] << :GhostRider560!~GhostRide@2668F1DF.6C525672.7F20E47C.IP JOIN :#mg-chat
+[10:07:58] >> PRIVMSG #mg-chat :!s Ruby taucht ab 2023
+[10:07:58] << :neptune.ny.us.abjects.net 332 GhostRider560 #mg-chat : Welcome to Moviegods Chat - If you are new to this type !help - Join #MG-Lounge for requests/questions/comments/tv-subs/spam free chat -//- Join #MG-Help for help - Donations earn VIP perks  - Join #MG-donations for info
+[10:07:58] << :neptune.ny.us.abjects.net 333 GhostRider560 #mg-chat katsper!Kat@Sex.With.Leather.Clad.Women.is.Hot 1728087751
+[10:07:58] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE GhostRider560 :00,0100115)10   0x04 |10 1.9G04 |10 Ruby.taucht.ab.2023.German.AC3.DL.1080p.BluRay.x265-FuN.mkv04 |09 /msg [MG]-FUN|EU|S|FunFiles XDCC SEND 645 04|00 Used: 28.12% 3/15 avg: 9.51MiB/s (43s ago)04 
+[10:07:58] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE GhostRider560 :15,01   )07 #MOVIEGODS - Found 1 ONLINE Packs (1 Bots) = Total GETS: 0.
+[10:08:04] >> QUIT :bye
+[10:08:05] << :chaos.abandoned-irc.net NOTICE * :*** Looking up your hostname...
+[10:08:05] << :chaos.abandoned-irc.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[10:08:06] >> JOIN #ZW-CHAT
+[10:08:06] << :chaos.abandoned-irc.net 396 FrostByte934 A87883A9.35B0CB26.E30ED253.IP :is now your displayed host
+[10:08:06] << :FrostByte934!FrostByte9@A87883A9.35B0CB26.E30ED253.IP JOIN :#zw-chat
+[10:08:07] >> PRIVMSG #ZW-CHAT :!search Ruby taucht ab 2023
+[10:08:07] << :chaos.abandoned-irc.net 332 FrostByte934 #zw-chat :12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12=[04Searchbot]-[09ONLINE]- Triggers: !help !search !latest !subscriptions !topdl !hot !recommended !movies !music !tv !apps !games !ebook !xxx !mobile | Web: http://www.Abandoned-IRC.net/
+[10:08:07] << :chaos.abandoned-irc.net 333 FrostByte934 #zw-chat lurk3r!jj@zombie.warez 1779866923
+[10:08:07] << :Zombie!ZW@ZoMbIe.WaReZ NOTICE FrostByte934 :[#ZW-CHAT] 12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12= we are looking for experienced ROOTERS/DEDi/BOXOWNERS . interested? use !joinZW
+[10:08:10] << :[o_0]!Zombies@Zombie.Warez NOTICE FrostByte934 :
+[10:08:10] << :[o_0]!Zombies@Zombie.Warez NOTICE FrostByte934 : ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+[10:08:10] << :[o_0]!Zombies@Zombie.Warez NOTICE FrostByte934 :End of Results. Found: 0 ONLINE packs (0 Bots = 0 Gets) matching "Ruby*taucht*ab*2023"
+[10:08:13] >> QUIT :bye
+[10:08:14] [INFO] [Ruby taucht ab 2023] Versuch 1/6: Ruby.taucht.ab.2023.German.AC3.DL.1080p.BluRay.x265-FuN.mkv (irc.abjects.net #beast-xdcc)
+[10:08:14] << :heimdall.no.eu.abjects.net NOTICE * :*** Looking up your hostname...
+[10:08:14] << :heimdall.no.eu.abjects.net NOTICE * :*** Checking ident...
+[10:08:14] << :heimdall.no.eu.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[10:08:18] << :heimdall.no.eu.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[10:08:18] << PING :36AE2235
+[10:08:19] >> JOIN #beast-xdcc
+[10:08:19] << :heimdall.no.eu.abjects.net 396 CrimsonFox097 2668F1DF.6C525672.7F20E47C.IP :is now your displayed host
+[10:08:19] << :CrimsonFox097!~CrimsonFo@2668F1DF.6C525672.7F20E47C.IP JOIN :#beast-xdcc
+[10:08:19] << :heimdall.no.eu.abjects.net 332 CrimsonFox097 #beast-xdcc :#BEAST-XDCC //   BLAZING SPEEDS ~ PROPER PACKS   //   join #BEAST-CHAT for Search and much more.
+[10:08:19] << :heimdall.no.eu.abjects.net 333 CrimsonFox097 #beast-xdcc dbeast 1705098478
+[10:08:19] [INFO] [Ruby taucht ab 2023] /msg beast-x-revolt xdcc send #1584
+[10:08:20] >> PRIVMSG beast-x-revolt :xdcc send #1584
+[10:08:20] << :BEAST-X-COPPER!~beast@untamed.beast PRIVMSG #beast-xdcc :#191  17x [ 15G] Roommates.2026.GERMAN.DL.DV.2160p.WEB.h265-SAUERKRAUT.mkv
+[10:08:20] << :BEAST-X-DROID!~beast@untamed.beast PRIVMSG #beast-xdcc :#180  14x [888M] Memory.of.a.Killer.S01E07.GERMAN.720P.WEB.H264-WAYNE.mkv
+[10:08:20] << :BEAST-X-LuCY!~nakedgoat@D100FDD3.2AC71085.E62BF8D7.IP PRIVMSG #beast-xdcc :#86    5x [1.8G] The.Mummy.2026.1080p.WEB.HEVC.10bit.AAC5.1-LuCY.mkv
+[10:08:20] << :BEAST-X-EXILE!~beast@untamed.beast PRIVMSG #beast-xdcc :#124 13x [2.6G] Knock.Off.Der.entscheidende.Schlag.1998.Uncut.German.AC3.DL.1080p.BluRay.x265-FuN.mkv
+[10:08:20] << :BEAST-X-DEMISE!~beast@untamed.beast PRIVMSG #beast-xdcc :#128 13x [2.9G] The.Cave.Bis.zum.letzten.Atemzug.2016.GERMAN.1080p.BluRay.x264-UNiVERSUM.tar
+[10:08:20] << :BEAST-X-REVOLT!~beast@untamed.beast PRIVMSG #beast-xdcc :#575  13x [2.9G] Die.Besucher.UNCUT.1993.German.AC3D.DL.1080p.FR.BluRay.x265-FuN.mkv
+[10:08:21] << :BEAST-X-SUBZERO!~beast@untamed.beast PRIVMSG #beast-xdcc :#193  21x [2.6G] Batman_Forever_1995_German_DL_AC3_1080p_BluRay_x265-FuN.mkv
+[10:08:21] << :BEAST-X-ABYSS!~beast@untamed.beast PRIVMSG #beast-xdcc :#118  11x [ 10G] Die.wilden.Siebziger.S04.German.AC3.DL.1080p.BluRay.x265-FuN.tar
+[10:08:21] << :BEAST-X-HYBULA!~beast@untamed.beast PRIVMSG #beast-xdcc :#192  15x [ 28G] Tenet.2020.IMAX.German.DTSHD.DL.2160p.UHD.BluRay.DV.HDR.x265.REPACK-VECTOR.mkv
+[10:08:21] << :BEAST-X-AFFECT!~beast@untamed.beast PRIVMSG #beast-xdcc :#1854 18x [4.3G] Schindlers.Liste.1993.REMASTERED.German.AC3.DL.1080p.BluRay.x265-FuN.mkv
+[10:08:21] << :BEAST-X-CRANK!~beast@untamed.beast PRIVMSG #beast-xdcc :#127 11x [1.5G] Flavia.2026.1080p.WEBRip.x265-DH.mkv
+[10:08:21] << :BEAST-X-EVIL!~beast@untamed.beast PRIVMSG #beast-xdcc :#126 14x [1.1G] Crooks.S02E02.German.720p.WEB.x264-WvF.mkv
+[10:08:22] << :BEAST-X-GRIZZLY!~beast@untamed.beast PRIVMSG #beast-xdcc :#194 11x [ 44G] Express.in.die.Hoelle.1985.GERMAN.DTSD.DL.2160p.UHD.BluRay.x265-COOLHD.mkv
+[10:08:22] << :BEAST-X-LAYLOW!~beast@untamed.beast PRIVMSG #beast-xdcc :#186 22x [1.5G] In.the.Blink.of.an.Eye.2026.German.AC3.DL.1080p.WebHD.x265-FuN.mkv
+[10:08:22] << :BEAST-X-CHINGY!~beast@untamed.beast PRIVMSG #beast-xdcc :#1297 10x [2.2G] Transporter.The.Mission.2005.German.AC3.DL.1080p.BluRay.x265-FuN.mkv
+[10:08:22] << :BEAST-X-XEBEC!~beast@untamed.beast PRIVMSG #beast-xdcc :#122 25x [1.8G] Mortal.Kombat.II.2026.1080p.WEBRip.10Bit.DDP.5.1.x265-NeoNoir.mkv
+[10:08:22] << :BEAST-X-HUNCHO!~beast@untamed.beast PRIVMSG #beast-xdcc :#123  12x [2.4G] Die.Geissens.-.Eine.schrecklich.glamouroese.Familie.S24E23.GERMAN.1080p.WEB.h264-CDD.tar
+[10:08:22] << :BEAST-X-JOKER!~beast@untamed.beast PRIVMSG #beast-xdcc :#601  11x [ 17G] Inspector.Barnaby.S11.German.AC3.720p.HDTVRip.x264-kala.tar
+[10:08:22] << :BEAST-X-FANTOM!~beast@untamed.beast PRIVMSG #beast-xdcc :#118  21x [ 14G] Zurueck.in.die.Vergangenheit.S05.German.AC3.DL.1080p.BDRip.x265-FuN.tar
+[10:08:22] << :BEAST-X-PSYCHO!~beast@untamed.beast PRIVMSG #beast-xdcc :#127 14x [658M] Vom.Landei.zum.Schwertheiligen.S01E06.Ein.Landei.sieht.dem.Tod.ins.Gesicht.German.EAC3D.2025.ANiME.DL.1080p.BluRay.x264-STARS.tar
+[10:08:23] << :BEAST-X-DORITO!~beast@untamed.beast PRIVMSG #beast-xdcc :#190 13x [3.7G] The.Final.Showdown.2023.German.DL.EAC3.1080p.WEB.H265-ZeroTwo.mkv
+[10:08:23] << :BEAST-X-ALPHA!~beast@untamed.beast PRIVMSG #beast-xdcc :#127  13x [1.4G] the.last.thing.he.told.me.s02e05.720p.web.h264-sylix.mkv
+[10:08:23] << :BEAST-X-GROOVE!~beast@untamed.beast PRIVMSG #beast-xdcc :#197 15x [ 10G] Nofretete.-.Koenigin.vom.Nil.1961.German.DL.1080p.BluRay.x264-SPiCY.tar
+[10:08:23] << :BEAST-X-DROID!~beast@untamed.beast PRIVMSG #beast-xdcc :#181  11x [4.1G] M.I.A.S01E06.2160p.WEB.h265-GRACE.mkv
+[10:08:23] << :BEAST-X-ELCHAPO!~beast@untamed.beast PRIVMSG #beast-xdcc :#126 28x [2.1G] The.Pitt.S02E14.DV.HDR.2160p.WEB.h265-ETHEL.mkv
+[10:08:23] << :BEAST-X-REDUX!~beast@untamed.beast PRIVMSG #beast-xdcc :#127 14x [ 21G] The.Couple.Next.Door.Paare.mit.Geheimnissen.S02.GERMAN.DL.1080p.WEB.h264.REPACK-SAUERKRAUT.tar
+[10:08:23] << :BEAST-X-HELL!~beast@untamed.beast PRIVMSG #beast-xdcc :#125 13x [399M] The.Demon.Sword.Master.of.Excalibur.Academy.E03.Erwachende.Seele.German.2023.ANiME.DL.1080p.BluRay.x264-STARS.tar
+[10:08:23] << :BEAST-X-MAFIA!~beast@untamed.beast PRIVMSG #beast-xdcc :#121  17x [2.9G] Karakter.1997.German.AC3D.DL.1080p.BluRay.x265-FuN.mkv
+[10:08:24] << :BEAST-X-GRIZZLY!~beast@untamed.beast PRIVMSG #beast-xdcc :#195 11x [1.3G] Dread.Delusion.v1.3.3-TENOKE.tar
+[10:08:24] << :BEAST-X-HENESSY!~beast@untamed.beast PRIVMSG #beast-xdcc :#191 23x [8.1G] Monarch.Legacy.of.Monsters.2023.S02E02.German.DL.Atmos.2160p.DV.HDR.ATVP.WEB.H265-ZeroTwo.mkv
+[10:08:24] << :BEAST-X-DREAD!~beast@untamed.beast PRIVMSG #beast-xdcc :#195 12x [5.8G] 90.Day.Fiance.Before.the.90.Days.S08E19.1080p.WEB.h264-EDITH.mkv
+[10:08:24] << :BEAST-X-COPPER!~beast@untamed.beast PRIVMSG #beast-xdcc :#192  13x [5.6G] Kampf.um.den.Halbmond.S02.German.AC3.DL.1080p.WebHD.x265-FuN.tar
+[10:08:24] << :BEAST-X-EXILE!~beast@untamed.beast PRIVMSG #beast-xdcc :#125 12x [ 20G] OKTAGON.MMA.2026.OKTAGON.89.GERMAN.1080p.WEB.H264-TSCC.mkv
+[10:08:24] << :BEAST-X-DEMISE!~beast@untamed.beast PRIVMSG #beast-xdcc :#129 15x [1.9G] Das.schwarze.Loch.1979.German.BDRip.DL.1080p.x265.AAC-2BA.mkv
+[10:08:24] << :BEAST-X-MARYJ!~beast@untamed.beast PRIVMSG #beast-xdcc :#127 11x [7.9G] Flintstones.Die.Familie.Feuerstein.1994.German.DL.2160p.DV.HDR.UHD.US.BDRip.AV1-WOTT.mkv
+[10:08:24] << :BEAST-X-ETHER!~beast@untamed.beast PRIVMSG #beast-xdcc :#125 12x [ 53G] The.Da.Vinci.Code.Sakrileg.2006.Extended.Version.German.DL.2160p.UHD.BluRay.x265-TM.mkv
+[10:08:24] << :BEAST-X-HBHOE!~G0D@abjects-7A8888FA.clients.your-server.de PRIVMSG #beast-xdcc :#143  38x [7.5G] The.Last.of.Us.S02E07.DV.HDR.2160p.WEB.H265-SuccessfulCrab.tar
+[10:08:25] << :BEAST-X-SUBZERO!~beast@untamed.beast PRIVMSG #beast-xdcc :#194  13x [2.1G] Unchosen.S01E04.GERMAN.DL.1080p.WEB.h264-SAUERKRAUT.mkv
+[10:08:25] << :BEAST-X-LuCY!~nakedgoat@D100FDD3.2AC71085.E62BF8D7.IP PRIVMSG #beast-xdcc :#87    1x [5.0G] The.Mummy.2026.2160p.WEB.HEVC.10bit.AAC5.1-LuCY.mkv
+[10:08:25] << :BEAST-X-EVIL!~beast@untamed.beast PRIVMSG #beast-xdcc :#127 16x [5.9G] Daredevil.Born.Again.S02E05.DV.2160p.WEB.h265-ETHEL.mkv
+[10:08:25] << :BEAST-X-XEBEC!~beast@untamed.beast PRIVMSG #beast-xdcc :#123 11x [469M] Duppy.Detective.Tashia-TENOKE.tar
+[10:08:25] << :BEAST-X-CRANK!~beast@untamed.beast PRIVMSG #beast-xdcc :#128 12x [2.3G] The.Daily.Show.2026.06.08.Jane.Fonda.1080p.WEB.h264-EDITH.mkv
+[10:08:25] << :BEAST-X-ABYSS!~beast@untamed.beast PRIVMSG #beast-xdcc :#119  11x [8.8G] Die.wilden.Siebziger.S06.German.AC3.DL.1080p.BluRay.x265-FuN.tar
+[10:08:25] << :BEAST-X-PSYCHO!~beast@untamed.beast PRIVMSG #beast-xdcc :#128 12x [2.3G] American.Classic.S01E08.1080p.WEB.h264-ETHEL.mkv
+[10:08:26] << :BEAST-X-LAYLOW!~beast@untamed.beast PRIVMSG #beast-xdcc :#187 15x [7.7G] Titan.A.E.2000.German.AC3D.DL.1080p.WEB-DL.x264-iND.mkv
+[10:08:26] << :BEAST-X-HYBULA!~beast@untamed.beast PRIVMSG #beast-xdcc :#193  16x [4.0G] Monster.High.Verspukt.Das.Geheimnis.der.Geisterketten.2015.German.DL.1080p.BluRay.x264-LizardSquad.tar
+[10:08:26] << :BEAST-X-HUNCHO!~beast@untamed.beast PRIVMSG #beast-xdcc :#124  11x [3.1G] You.Dont.Know.Where.Im.From.Dawg.S01E02.1080p.WEB.h264-GRACE.mkv
+[10:08:26] << :BEAST-X-AFFECT!~beast@untamed.beast PRIVMSG #beast-xdcc :#1855 11x [5.7G] Schitts.Creek.S06.German.AC3.DL.1080p.WebRip.x265-FuN.tar
+[10:08:26] << :BEAST-X-REVOLT!~beast@untamed.beast NOTICE CrimsonFox097 :** Sending you pack #1584 ("Ruby.taucht.ab.2023.German.AC3.DL.1080p.BluRay.x265-FuN.mkv"), which is 1.9GB. (resume supported)
+[10:08:26] [INFO] [Ruby taucht ab 2023] ** Sending you pack #1584 ("Ruby.taucht.ab.2023.German.AC3.DL.1080p.BluRay.x265-FuN.mkv"), which is 1.9GB. (resume supported)
+[10:08:27] << :BEAST-X-DREAD!~beast@untamed.beast PRIVMSG #beast-xdcc :#196 15x [3.0G] Rabbit.Trap.2025.GERMAN.DL.720P.WEB.H264-WAYNE.mkv
+[10:08:27] << :BEAST-X-DORITO!~beast@untamed.beast PRIVMSG #beast-xdcc :#191 16x [1.4G] Outcome.2026.1080p.WEBRip.x265.10bit.AAC5.1-LAMA.mp4
+[10:08:28] << :BEAST-X-HENESSY!~beast@untamed.beast PRIVMSG #beast-xdcc :#192 11x [7.3G] DTF.St.Louis.S01E05.GERMAN.DL.DV.HDR.2160p.WEB.h265-SAUERKRAUT.mkv
+[10:08:28] << :BEAST-X-SUBZERO!~beast@untamed.beast PRIVMSG #beast-xdcc :#195  24x [1.5G] 40.Acres.2024.German.AC3.DL.1080p.WebHD.x265-FuN.mkv
+[10:08:28] << :BEAST-X-DROID!~beast@untamed.beast PRIVMSG #beast-xdcc :#182  13x [1.9G] Die.drei.von.der.Muellabfuhr.S07E01.Hand.in.Hand.GERMAN.1080p.WEB.h264-TMSF.tar
+[10:08:28] << :BEAST-X-ALPHA!~beast@untamed.beast PRIVMSG #beast-xdcc :#128  14x [1.3G] Japan.sinkt.2020.E03.Eine.neue.Hoffnung.German.DUBBED.2020.ANiME.DL.1080p.BluRay.x264-STARS.tar
+[10:08:28] << :BEAST-X-GRIZZLY!~beast@untamed.beast PRIVMSG #beast-xdcc :#196 16x [1.1G] hochhaus.des.schreckens.1989.german.bdrip.x264-contribution.mkv
+[10:08:28] << :BEAST-X-GROOVE!~beast@untamed.beast PRIVMSG #beast-xdcc :#198 12x [2.1G] Yiya.Murano.Tod.am.Nachmittag.2026.GERMAN.DL.DOKU.720p.WEB.h264-HAXE.mkv
+[10:08:28] << :BEAST-X-EVIL!~beast@untamed.beast PRIVMSG #beast-xdcc :#128 16x [4.4G] The.Boys.S05E03.1080p.WEB.h264-ETHEL.mkv
+[10:08:28] << :BEAST-X-EXILE!~beast@untamed.beast PRIVMSG #beast-xdcc :#126 24x [1.7G] Scary.Movie.6.2026.German.CAM.LD.DL.1080p.x265.AAC-2BA.mkv
+[10:08:28] << :BEAST-X-MARYJ!~beast@untamed.beast PRIVMSG #beast-xdcc :#128 10x [ 10G] Farben.des.Boesen.Schwarz.2026.GERMAN.DL.2160P.WEB.H265-WAYNE.mkv
+[10:08:28] << :BEAST-X-ETHER!~beast@untamed.beast PRIVMSG #beast-xdcc :#126 30x [2.2G] Mortal.Kombat.II.2026.German.DL.1080p.WEBRiP.x265-P73.mkv
+[10:08:28] << :BEAST-X-JOKER!~beast@untamed.beast PRIVMSG #beast-xdcc :#602  14x [2.1G] Into.the.Abyss.2022.German.AC3.DL.1080p.BluRay.x265-FuN.mkv
+[10:08:28] << :BEAST-X-REDUX!~beast@untamed.beast PRIVMSG #beast-xdcc :#128 13x [742M] Digimon.Frontier.E49.Lucemons.ultimative.Form.German.2002.ANiME.FS.1080p.BluRay.x264-STARS.tar
+[10:08:28] << :BEAST-X-MAFIA!~beast@untamed.beast PRIVMSG #beast-xdcc :#122  13x [6.4G] Brokenwood.Mord.in.Neuseeland.S03.German.AC3D.DL.1080p.BDRip.x265-FuN.tar
+[10:08:28] << :BEAST-X-HBHOE!~G0D@abjects-7A8888FA.clients.your-server.de PRIVMSG #beast-xdcc :#144  23x [ 35G] Squid.Game.2021.S03.German.ML.EAC3.2160p.NF.WEB.H265-ZeroTwo.tar
+[10:08:28] << :BEAST-X-ELCHAPO!~beast@untamed.beast PRIVMSG #beast-xdcc :#127 14x [2.9G] The.Hunting.Party.S02E09.Colette.Akins.1080p.AMZN.WEB-DL.DDP5.1.H.264-RAWR.mkv
+[10:08:28] << :BEAST-X-FANTOM!~beast@untamed.beast PRIVMSG #beast-xdcc :#119  15x [5.4G] Shanghai.Police.Die.Wuesteste.Truppe.Der.Welt.1986.HYBRID.CUT.GERMAN.DL.720P.BLURAY.X264-WATCHABLE.mkv
+[10:08:28] << :BEAST-X-CHINGY!~beast@untamed.beast PRIVMSG #beast-xdcc :#1298 14x [2.4G] Transsiberian.2008.German.AC3.DL.1080p.BluRay.x265-FuN.mkv
+[10:08:29] << :BEAST-X-COPPER!~beast@untamed.beast PRIVMSG #beast-xdcc :#193  11x [ 32G] Mission.Impossible.II.2000.German.DL.2160p.UHD.BluRay.x265-HDMEDiA.mkv
+[10:08:29] << :BEAST-X-ABYSS!~beast@untamed.beast PRIVMSG #beast-xdcc :#120  11x [9.3G] Die.wilden.Siebziger.S07.German.AC3.DL.1080p.BluRay.x265-FuN.tar
+[10:08:29] << :BEAST-X-DEMISE!~beast@untamed.beast PRIVMSG #beast-xdcc :#130 12x [499M] Digimon.Frontier.E40.Angemons.Schuetzlinge.German.2002.ANiME.FS.1080p.BluRay.x264-STARS.tar
+[10:08:29] << :BEAST-X-HELL!~beast@untamed.beast PRIVMSG #beast-xdcc :#126 12x [1.0G] Bleach.Thousand.Year.Blood.War.Part.2.E03.Die.grundlegende.Virulenz.German.2023.ANiME.DL.1080p.BluRay.x264-STARS.tar
+[10:08:29] << :BEAST-X-AFFECT!~beast@untamed.beast PRIVMSG #beast-xdcc :#1856 18x [5.3G] Schlacht.um.Midway.2019.German.DL.1080p.BluRay.x264-SAV.tar
+[10:08:29] << :BEAST-X-HUNCHO!~beast@untamed.beast PRIVMSG #beast-xdcc :#125  19x [1.0G] The.Rookie.S08E15.REPACK.1080p.x265-ELiTE.mkv
+[10:08:29] << :BEAST-X-PSYCHO!~beast@untamed.beast PRIVMSG #beast-xdcc :#129 12x [2.1G] The.Comeback.S03E04.DV.HDR.2160p.WEB.h265-ETHEL.mkv
+[10:08:30] << :BEAST-X-DREAD!~beast@untamed.beast PRIVMSG #beast-xdcc :#197 13x [650M] dmv.2025.s01e17.720p.web.h264-sylix.mkv
+[10:08:30] << :BEAST-X-HYBULA!~beast@untamed.beast PRIVMSG #beast-xdcc :#194  11x [ 31G] send.help.2026.german.dl.2160p.uhd.bluray.x265-endstation.mkv
+[10:08:30] << :BEAST-X-LuCY!~nakedgoat@D100FDD3.2AC71085.E62BF8D7.IP PRIVMSG #beast-xdcc :#88    3x [2.4G] The.Pout.Pout.Fish.2026.1080p.WEB-DL.AAC5.1.HEVC-LuCY.mkv
+[10:08:30] << :BEAST-X-CHINGY!~beast@untamed.beast PRIVMSG #beast-xdcc :#1299 11x [4.4G] Trap.House.2025.1080p.AMZN.WEB-DL.DDP5.1.H.264-FLUX.mkv
+[10:08:30] << :BEAST-X-XEBEC!~beast@untamed.beast PRIVMSG #beast-xdcc :#124 12x [ 20G] The.Couple.Next.Door.Paare.mit.Geheimnissen.S02.GERMAN.1080p.WEB.h264-SAUERKRAUT.tar
+[10:08:31] << :BEAST-X-LAYLOW!~beast@untamed.beast PRIVMSG #beast-xdcc :#188 12x [7.4G] Lulu.ist.ein.Nashorn.2025.German.DL.AC3.2160p.DV.HDR.ATVP.WEB.H265-BUTTERCUP.mkv
+[10:08:31] << :BEAST-X-DORITO!~beast@untamed.beast PRIVMSG #beast-xdcc :#192 29x [1.9G] The.Other.Bennet.Sister.S01.1080p.HEVC.x265-MeGusta.tar
+[10:08:31] << :BEAST-X-CRANK!~beast@untamed.beast PRIVMSG #beast-xdcc :#129 13x [549M] Digimon.Frontier.E07.Die.Spielzeugstadt.German.2002.ANiME.FS.1080p.BluRay.x264-STARS.tar
+[10:08:31] << :BEAST-X-MARYJ!~beast@untamed.beast PRIVMSG #beast-xdcc :#129 13x [1.8G] REPLACED.Update.v1.1.2.0-RUNE.tar
+[10:08:31] << :BEAST-X-EXILE!~beast@untamed.beast PRIVMSG #beast-xdcc :#127 11x [5.6G] The.Terminal.List.Dark.Wolf.S01.1080p.x265-ELiTE.tar
+[10:08:32] << :BEAST-X-SUBZERO!~beast@untamed.beast PRIVMSG #beast-xdcc :#196  22x [6.3G] Margos.Got.Money.Troubles.S01E04.HDR.2160p.WEB.h265-ETHEL.mkv
+[10:08:32] << :BEAST-X-DROID!~beast@untamed.beast PRIVMSG #beast-xdcc :#183  12x [8.8G] Unconditional.2026.S01E01.DV.2160p.WEB.h265-GRACE.mkv
+[10:08:32] << :BEAST-X-HENESSY!~beast@untamed.beast PRIVMSG #beast-xdcc :#193 21x [1.9G] Shadow.Man.2006.German.AC3D.DL.1080p.WEBRip.x265-FuN.mkv
+[10:08:32] << :BEAST-X-GROOVE!~beast@untamed.beast PRIVMSG #beast-xdcc :#199 11x [3.8G] Not.a.Box.2025.S01E08.German.DL.AC3.2160p.DV.HDR.ATVP.WEB.H265-BUTTERCUP.mkv
+[10:08:32] << :mxa2bat!~batwhere2@abjects-317D2575.hegaudata.de QUIT :Ping timeout: 241 seconds
+[10:08:32] << :BEAST-X-ELCHAPO!~beast@untamed.beast PRIVMSG #beast-xdcc :#128 10x [899M] Marie.Antoinette.S01E01.German.AC3.DL.1080p.BDRip.x265-FuN.mkv
+[10:08:32] << :BEAST-X-ETHER!~beast@untamed.beast PRIVMSG #beast-xdcc :#127 30x [ 19G] Michael.2026.German.DL.2160p.DV.HDR.WEB.H265-iSSEYMiYAKE.mkv
+[10:08:32] << :BEAST-X-EVIL!~beast@untamed.beast PRIVMSG #beast-xdcc :#129 10x [1.7G] Perfil.falso.S03E08.GERMAN.DL.1080p.WEB.h264-SAUERKRAUT.mkv
+[10:08:32] << :BEAST-X-REDUX!~beast@untamed.beast PRIVMSG #beast-xdcc :#129 16x [3.9G] Superman.S01.German.AC3.DL.1080p.WebHD.x265.REPACK-FuN.tar
+[10:08:32] << :BEAST-X-MAFIA!~beast@untamed.beast PRIVMSG #beast-xdcc :#123  12x [1.5G] Seven.Snipers.2026.1080p.WEBRip.x265.10bit.AAC5.1-LAMA.mp4
+[10:08:32] << :BEAST-X-JOKER!~beast@untamed.beast PRIVMSG #beast-xdcc :#603  12x [ 11G] Invasion.2024.GERMAN.1080P.BLURAY.X264-WATCHABLE.tar
+[10:08:32] << :BEAST-X-GRIZZLY!~beast@untamed.beast PRIVMSG #beast-xdcc :#197 30x [412M] Star.Wars.Maul.Shadow.Lord.S01E06.1080p.x265-ELiTE.mkv
+[10:08:33] << :BEAST-X-COPPER!~beast@untamed.beast PRIVMSG #beast-xdcc :#194  12x [7.3G] Fuer.immer.ein.Teil.von.dir.2026.German.DL.2160p.HDR.WEBRip.AV1-WOTT.mkv
+[10:08:33] << :BEAST-X-DREAD!~beast@untamed.beast PRIVMSG #beast-xdcc :#198 13x [5.0G] unchosen.s01e06.2160p.web.h265-sylix.mkv
+[10:08:33] << :BEAST-X-ABYSS!~beast@untamed.beast PRIVMSG #beast-xdcc :#121  12x [3.4G] Die.Wildgaense.kommen.1978.German.DL.AC3.1080p.BluRay.x265-FuN.mkv
+[10:08:33] << :BEAST-X-HBHOE!~G0D@abjects-7A8888FA.clients.your-server.de PRIVMSG #beast-xdcc :#145  10x [6.8G] Hearts.of.Darkness.-.Reise.ins.Herz.der.Finsternis.GERMAN.DL.DOKU.1080P.BLURAY.X264-WATCHABLE.tar
+[10:08:33] << :BEAST-X-HELL!~beast@untamed.beast PRIVMSG #beast-xdcc :#127 13x [2.4G] James.Bond.007.Casino.Royale.1966.German.AC3.DL.1080p.BluRay.x265-FuN.mkv
+[10:08:33] << :BEAST-X-HUNCHO!~beast@untamed.beast PRIVMSG #beast-xdcc :#126  18x [1.4G] The.Testaments.S01E04.1080p.WEB.h264-ETHEL.mkv
+[10:08:33] << :BEAST-X-REVOLT!~beast@untamed.beast PRIVMSG CrimsonFox097 :DCC SEND Ruby.taucht.ab.2023.German.AC3.DL.1080p.BluRay.x265-FuN.mkv 3418141710 53111 2028700734
+[10:09:17] >> QUIT :bye
+[10:09:17] [SUCCESS] [Ruby taucht ab 2023] Download fertig: Ruby.taucht.ab.2023.German.AC3.DL.1080p.BluRay.x265-FuN.mkv
+[10:09:17] [SUCCESS] [Ruby taucht ab 2023] fertig & einsortiert
+
+============================================================
+=== Lauf beendet: 2026-06-17 10:09:17 | ok: 6, fehlgeschlagen: 1 ===
+============================================================

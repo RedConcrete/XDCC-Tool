@@ -1,0 +1,145 @@
+
+============================================================
+=== Lauf gestartet: 2026-06-29 21:30:16 ===
+============================================================
+[21:30:16] [INFO] [Westworld.S01.COMPLETE.2016] Suche: Westworld S01 COMPLETE 2016
+[21:30:16] << :heimdall.no.eu.abjects.net NOTICE * :*** Looking up your hostname...
+[21:30:16] << :heimdall.no.eu.abjects.net NOTICE * :*** Checking ident...
+[21:30:16] << :heimdall.no.eu.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[21:30:20] << :heimdall.no.eu.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[21:30:21] >> JOIN #beast-chat
+[21:30:21] << :heimdall.no.eu.abjects.net 396 DarkPhoenix826 C3A97A5D.6C525672.7F20E47C.IP :is now your displayed host
+[21:30:21] << :DarkPhoenix826!~DarkPhoen@C3A97A5D.6C525672.7F20E47C.IP JOIN :#beast-chat
+[21:30:22] >> PRIVMSG #beast-chat :!s Westworld S01 COMPLETE 2016
+[21:30:22] << :heimdall.no.eu.abjects.net 332 DarkPhoenix826 #beast-chat :Welcome to #BEAST-XDCC  (Search:ONLINE) (Requests:ONLINE) ~ added !get command ~ !top or !topger to see most leeched releases, can be filtered by days ~ Please use !german for latest GERMAN releases only ~ commands; !latest !german !search !request !get !top !topger !tv !tvger !games ~ For more commands use !help ~ Have something to offer? Msg an ~ 
+[21:30:22] << :heimdall.no.eu.abjects.net 333 DarkPhoenix826 #beast-chat devnull!~qlimax@beastmo.de 1779527540
+[21:30:22] << :databeast!~databeast@the.beast NOTICE DarkPhoenix826 :04SEARCH RESULTS LIMITED TO 100 PACKS
+[21:30:23] << :databeast!~databeast@the.beast NOTICE DarkPhoenix826 :04(1410G04) 14Westworld.S01.COMPLETE.2016.German.DL.AC3.1080p.BluRay.x265-FuN.tar04 (141714x04)14 /msg 14BEAST-X-CHINGY14 xdcc send #141684
+[21:30:25] << :poppy82fgg!~poppy82fg@EA2B2090.1EDFCDEE.233BE129.IP JOIN :#beast-chat
+[21:30:28] >> QUIT :bye
+[21:30:46] << :sharpshooter.ny.us.abjects.net NOTICE * :*** Looking up your hostname...
+[21:30:46] << :sharpshooter.ny.us.abjects.net NOTICE * :*** Checking ident...
+[21:30:46] << :sharpshooter.ny.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[21:30:50] << :sharpshooter.ny.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[21:30:52] >> JOIN #mg-chat
+[21:30:52] << :sharpshooter.ny.us.abjects.net 396 ToxicVenom558 C3A97A5D.6C525672.7F20E47C.IP :is now your displayed host
+[21:30:52] << :ToxicVenom558!~ToxicVeno@C3A97A5D.6C525672.7F20E47C.IP JOIN :#mg-chat
+[21:30:53] >> PRIVMSG #mg-chat :!s Westworld S01 COMPLETE 2016
+[21:30:53] << :sharpshooter.ny.us.abjects.net 332 ToxicVenom558 #mg-chat : Welcome to Moviegods Chat - If you are new to this type !help - Join #MG-Lounge for requests/questions/comments/tv-subs/spam free chat -//- Join #MG-Help for help - Donations earn VIP perks  - Join #MG-donations for info
+[21:30:53] << :sharpshooter.ny.us.abjects.net 333 ToxicVenom558 #mg-chat katsper!Kat@Sex.With.Leather.Clad.Women.is.Hot 1728087751
+[21:30:54] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE ToxicVenom558 :15,01   )07 #MOVIEGODS - Found 0 ONLINE Packs (0 Bots) = Total GETS: 0.
+[21:30:56] << :xmfreakx!~mfreakx@14913B62.57FA623C.F22D6D68.IP PRIVMSG #mg-chat :!s house of the dragon s03e02
+[21:30:59] >> QUIT :bye
+[21:30:59] << :horde.abandoned-irc.net NOTICE * :*** Looking up your hostname...
+[21:30:59] << :horde.abandoned-irc.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[21:31:01] >> JOIN #ZW-CHAT
+[21:31:01] << :horde.abandoned-irc.net 396 SteelTitan312 9457BFBC.35B0CB26.E30ED253.IP :is now your displayed host
+[21:31:01] << :SteelTitan312!SteelTitan@9457BFBC.35B0CB26.E30ED253.IP JOIN :#zw-chat
+[21:31:02] >> PRIVMSG #ZW-CHAT :!search Westworld S01 COMPLETE 2016
+[21:31:02] << :horde.abandoned-irc.net 332 SteelTitan312 #zw-chat :12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12=[04Searchbot]-[09ONLINE]- Triggers: !help !search !latest !subscriptions !topdl !hot !recommended !movies !music !tv !apps !games !ebook !xxx !mobile | Web: http://www.Abandoned-IRC.net/
+[21:31:02] << :horde.abandoned-irc.net 333 SteelTitan312 #zw-chat [ZOMBIE]-LATEST!Abandoned-@zombie.warez 1781827870
+[21:31:02] << :Zombie!ZW@ZoMbIe.WaReZ NOTICE SteelTitan312 :[#ZW-CHAT] 12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12= we are looking for experienced ROOTERS/DEDi/BOXOWNERS . interested? use !joinZW
+[21:31:02] << :[o_0]!Zombies@Zombie.Warez PRIVMSG SteelTitan312 :VERSION
+[21:31:04] << :[o_0]!Zombies@Zombie.Warez NOTICE SteelTitan312 :
+[21:31:04] << :[o_0]!Zombies@Zombie.Warez NOTICE SteelTitan312 : ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+[21:31:04] << :[o_0]!Zombies@Zombie.Warez NOTICE SteelTitan312 :End of Results. Found: 0 ONLINE packs (0 Bots = 0 Gets) matching "Westworld*S01*COMPLETE*2016"
+[21:31:07] >> QUIT :bye
+[21:31:08] [INFO] [Westworld.S01.COMPLETE.2016] Versuch 1/1: Westworld.S01.COMPLETE.2016.German.DL.AC3.1080p.BluRay.x265-FuN.tar (irc.abjects.net #beast-xdcc)
+[21:31:08] [INFO] [Westworld.S01.COMPLETE.2016] Warte 7s vor erneuter Verbindung zu irc.abjects.net
+[21:31:16] << :heimdall.no.eu.abjects.net NOTICE * :*** Looking up your hostname...
+[21:31:16] << :heimdall.no.eu.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[21:31:16] << :heimdall.no.eu.abjects.net NOTICE * :*** Checking ident...
+[21:31:20] << :heimdall.no.eu.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[21:31:20] << PING :157394E0
+[21:31:21] >> JOIN #beast-xdcc
+[21:31:21] << :heimdall.no.eu.abjects.net 396 CrimsonFox205 C3A97A5D.6C525672.7F20E47C.IP :is now your displayed host
+[21:31:21] << :CrimsonFox205!~CrimsonFo@C3A97A5D.6C525672.7F20E47C.IP JOIN :#beast-xdcc
+[21:31:21] << :heimdall.no.eu.abjects.net 332 CrimsonFox205 #beast-xdcc :#BEAST-XDCC //   BLAZING SPEEDS ~ PROPER PACKS   //   join #BEAST-CHAT for Search and much more.
+[21:31:21] << :heimdall.no.eu.abjects.net 333 CrimsonFox205 #beast-xdcc dbeast 1705098478
+[21:31:21] [INFO] [Westworld.S01.COMPLETE.2016] /msg beast-x-chingy xdcc send #1684
+[21:31:22] >> PRIVMSG beast-x-chingy :xdcc send #1684
+[21:31:22] << :BEAST-X-SWITCH!~G0D@abjects-7A8888FA.clients.your-server.de PRIVMSG #beast-xdcc :#558   19x [6.0G] Rune_Factory_5_NSW-VENOM.tar
+[21:31:23] << :BEAST-X-ABYSS!~beast@untamed.beast PRIVMSG #beast-xdcc :#1731 11x [4.0G] Chief.of.Station.2024.German.DL.1080p.BluRay.x264-GMA.tar
+[21:31:23] << :csa22eb!~crossseed@abjects-EE1E4F69.nsw.leaptel.network JOIN :#beast-xdcc
+[21:31:24] << :BEAST-X-AFFECT!~beast@untamed.beast PRIVMSG #beast-xdcc :#1322 15x [1.7G] Peter.Pan.1953.German.DL.1080p.BluRay.x265-PaTrol.tar
+[21:31:24] << :BEAST-X-REVOLT!~beast@untamed.beast PRIVMSG #beast-xdcc :#165  19x [2.1G] Bang.Boom.Bang.Ein.todsicheres.Ding.1999.German.AC3.1080p.BluRay.x265-FuN.mkv
+[21:31:25] << :BEAST-X-JOKER!~beast@untamed.beast PRIVMSG #beast-xdcc :#171  11x [ 13G] Blue.Bloods.S10.German.AC3.DL.1080p.WebRip.x265-FuN.tar
+[21:31:25] << :BEAST-X-CHINGY!~beast@untamed.beast NOTICE CrimsonFox205 :** Sending you pack #1684 ("Westworld.S01.COMPLETE.2016.German.DL.AC3.1080p.BluRay.x265-FuN.tar"), which is 10GB. (resume supported)
+[21:31:25] [INFO] [Westworld.S01.COMPLETE.2016] ** Sending you pack #1684 ("Westworld.S01.COMPLETE.2016.German.DL.AC3.1080p.BluRay.x265-FuN.tar"), which is 10GB. (resume supported)
+[21:31:25] << :BEAST-X-SLICK!~beast@untamed.beast PRIVMSG #beast-xdcc :#66   40x [ 23G] Fullmetal.Alchemist.Brotherhood.S01.German.AC3.DL.1080p.BDRip.x265-FuN.tar
+[21:31:25] << :BEAST-X-SWITCH!~G0D@abjects-7A8888FA.clients.your-server.de PRIVMSG #beast-xdcc :#559   14x [1.7G] Super_Monkey_Ball_Banana_Blitz_HD_NSW-VENOM.tar
+[21:31:26] << :BEAST-X-SHADY!~beast@untamed.beast PRIVMSG #beast-xdcc :#608  22x [ 88G] Zwei.rechnen.ab.1957.German.DTSHD.Dubbed.DL.2160p.UHD.BluRay.DV.HDR.HEVC.Remux-QfG.mkv
+[21:31:28] << :BEAST-X-JOKER!~beast@untamed.beast PRIVMSG #beast-xdcc :#172  13x [3.0G] Blue.Moon.2025.720p.WEB.H264-SLOT.mkv
+[21:31:28] << :BEAST-X-ABYSS!~beast@untamed.beast PRIVMSG #beast-xdcc :#1732 12x [5.9G] Chihiros.Reise.ins.Zauberland.2001.German.DL.1080p.BluRay.x264-CONTRiBUTiON.tar
+[21:31:28] << :BEAST-X-AFFECT!~beast@untamed.beast PRIVMSG #beast-xdcc :#1323 12x [1.3G] Peterchens.Mondfahrt.1990.German.AC3.BDRIP.x264-AG.mkv
+[21:31:28] << :BEAST-X-REVOLT!~beast@untamed.beast PRIVMSG #beast-xdcc :#166  11x [3.8G] Bang.Storm.of.Bullets.2025.German.DL.1080p.WEB.H264-ZeroTwo.mkv
+[21:31:29] << :BEAST-X-SWITCH!~G0D@abjects-7A8888FA.clients.your-server.de PRIVMSG #beast-xdcc :#560   24x [ 14G] CRISIS_CORE_FINAL_FANTASY_VII_REUNION_NSW-HR.tar
+[21:31:29] << :BEAST-X-SLICK!~beast@untamed.beast PRIVMSG #beast-xdcc :#67   32x [ 25G] Furioza.2.2025.German.ML.EAC3.2160p.DV.HDR.NF.WEB.H265-iSSEYMiYAKE.mkv
+[21:31:30] << :BEAST-X-CHINGY!~beast@untamed.beast PRIVMSG CrimsonFox205 :DCC SEND Westworld.S01.COMPLETE.2016.German.DL.AC3.1080p.BluRay.x265-FuN.tar 2996999663 58775 10566000640
+[21:34:01] >> QUIT :bye
+[21:34:01] [SUCCESS] [Westworld.S01.COMPLETE.2016] Download fertig: Westworld.S01.COMPLETE.2016.German.DL.AC3.1080p.BluRay.x265-FuN.tar
+[21:36:00] [SUCCESS] [Westworld.S01.COMPLETE.2016] fertig & einsortiert
+[21:36:00] [INFO] [Westworld.S02.COMPLETE.2016] Suche: Westworld S02 COMPLETE 2016
+[21:36:00] << :neptune.ny.us.abjects.net NOTICE * :*** Looking up your hostname...
+[21:36:00] << :neptune.ny.us.abjects.net NOTICE * :*** Checking ident...
+[21:36:00] << :neptune.ny.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[21:36:04] << :neptune.ny.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[21:36:06] >> JOIN #beast-chat
+[21:36:06] << :neptune.ny.us.abjects.net 396 SteelTitan550 C3A97A5D.6C525672.7F20E47C.IP :is now your displayed host
+[21:36:06] << :SteelTitan550!~SteelTita@C3A97A5D.6C525672.7F20E47C.IP JOIN :#beast-chat
+[21:36:07] >> PRIVMSG #beast-chat :!s Westworld S02 COMPLETE 2016
+[21:36:07] << :neptune.ny.us.abjects.net 332 SteelTitan550 #beast-chat :Welcome to #BEAST-XDCC  (Search:ONLINE) (Requests:ONLINE) ~ added !get command ~ !top or !topger to see most leeched releases, can be filtered by days ~ Please use !german for latest GERMAN releases only ~ commands; !latest !german !search !request !get !top !topger !tv !tvger !games ~ For more commands use !help ~ Have something to offer? Msg an ~ 
+[21:36:07] << :neptune.ny.us.abjects.net 333 SteelTitan550 #beast-chat devnull!~qlimax@beastmo.de 1779527540
+[21:36:07] << :databeast!~databeast@the.beast NOTICE SteelTitan550 :04No packs found matching your search criteria.
+[21:36:13] >> QUIT :bye
+[21:36:30] << :jagged.ca.us.abjects.net NOTICE * :*** Looking up your hostname...
+[21:36:30] << :jagged.ca.us.abjects.net NOTICE * :*** Checking ident...
+[21:36:31] << :jagged.ca.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[21:36:34] << :jagged.ca.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[21:36:35] >> JOIN #mg-chat
+[21:36:35] << :jagged.ca.us.abjects.net 396 VoidWalker741 C3A97A5D.6C525672.7F20E47C.IP :is now your displayed host
+[21:36:36] << :VoidWalker741!~VoidWalke@C3A97A5D.6C525672.7F20E47C.IP JOIN :#mg-chat
+[21:36:37] >> PRIVMSG #mg-chat :!s Westworld S02 COMPLETE 2016
+[21:36:37] << :jagged.ca.us.abjects.net 332 VoidWalker741 #mg-chat : Welcome to Moviegods Chat - If you are new to this type !help - Join #MG-Lounge for requests/questions/comments/tv-subs/spam free chat -//- Join #MG-Help for help - Donations earn VIP perks  - Join #MG-donations for info
+[21:36:37] << :jagged.ca.us.abjects.net 333 VoidWalker741 #mg-chat katsper!Kat@Sex.With.Leather.Clad.Women.is.Hot 1728087751
+[21:36:38] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE VoidWalker741 :00,0100115)10   6x04 |10  12G04 |10 Westworld.S02.COMPLETE.2016.German.DL.AC3.1080p.BluRay.x265-FuN.tar04 |09 /msg [MG]-FUN|EU|S|FunFiles XDCC SEND 3845 04|00 Used: 42.59% 5/15 avg: 8.67MiB/s (1m22s ago)04 
+[21:36:38] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE VoidWalker741 :15,01   )07 #MOVIEGODS - Found 1 ONLINE Packs (1 Bots) = Total GETS: 6.
+[21:36:39] << :xamar!~xamar@abjects-3D9F1B9D.vm1.cable.virginm.net QUIT :Ping timeout: 240 seconds
+[21:36:42] >> QUIT :bye
+[21:36:42] << :chaos.abandoned-irc.net NOTICE * :*** Looking up your hostname...
+[21:36:43] << :chaos.abandoned-irc.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[21:36:44] >> JOIN #ZW-CHAT
+[21:36:44] << :chaos.abandoned-irc.net 396 ShadowWolf835 9457BFBC.35B0CB26.E30ED253.IP :is now your displayed host
+[21:36:44] << :ShadowWolf835!ShadowWolf@9457BFBC.35B0CB26.E30ED253.IP JOIN :#zw-chat
+[21:36:45] >> PRIVMSG #ZW-CHAT :!search Westworld S02 COMPLETE 2016
+[21:36:45] << :chaos.abandoned-irc.net 332 ShadowWolf835 #zw-chat :12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12=[04Searchbot]-[09ONLINE]- Triggers: !help !search !latest !subscriptions !topdl !hot !recommended !movies !music !tv !apps !games !ebook !xxx !mobile | Web: http://www.Abandoned-IRC.net/
+[21:36:45] << :chaos.abandoned-irc.net 333 ShadowWolf835 #zw-chat [ZOMBIE]-LATEST!Abandoned-@zombie.warez 1781827870
+[21:36:45] << :Zombie!ZW@ZoMbIe.WaReZ NOTICE ShadowWolf835 :[#ZW-CHAT] 12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12= we are looking for experienced ROOTERS/DEDi/BOXOWNERS . interested? use !joinZW
+[21:36:47] << :[o_0]!Zombies@Zombie.Warez NOTICE ShadowWolf835 :
+[21:36:47] << :[o_0]!Zombies@Zombie.Warez NOTICE ShadowWolf835 : ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+[21:36:47] << :[o_0]!Zombies@Zombie.Warez NOTICE ShadowWolf835 :End of Results. Found: 0 ONLINE packs (0 Bots = 0 Gets) matching "Westworld*S02*COMPLETE*2016"
+[21:36:50] >> QUIT :bye
+[21:36:52] [INFO] [Westworld.S02.COMPLETE.2016] Versuch 1/2: Westworld.S02.COMPLETE.2016.German.DL.AC3.1080p.BluRay.x265-FuN.tar (irc.abjects.net #moviegods)
+[21:36:52] [INFO] [Westworld.S02.COMPLETE.2016] Warte 8s vor erneuter Verbindung zu irc.abjects.net
+[21:37:00] << :stormy.fr.eu.abjects.net NOTICE * :*** Looking up your hostname...
+[21:37:00] << :stormy.fr.eu.abjects.net NOTICE * :*** Checking ident...
+[21:37:00] << :stormy.fr.eu.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[21:37:04] << :stormy.fr.eu.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[21:37:04] << PING :C510AEE2
+[21:37:05] >> JOIN #moviegods
+[21:37:05] << :stormy.fr.eu.abjects.net 396 IronFist833 C3A97A5D.6C525672.7F20E47C.IP :is now your displayed host
+[21:37:05] << :IronFist833!~IronFist8@C3A97A5D.6C525672.7F20E47C.IP JOIN :#moviegods
+[21:37:05] << :stormy.fr.eu.abjects.net 332 IronFist833 #moviegods : Welcome to #MOVIEGODS - If you are new to this type !help -//- Join #mg-chat to download -//- Join #MG-Lounge for requests/questions/comments/tv-subs/spam free chat -//-  Join #MG-Help for help -//- Donations get VIP perks  -  Join #MG-donations for info
+[21:37:05] << :stormy.fr.eu.abjects.net 333 IronFist833 #moviegods katsper!Kat@Sex.With.Leather.Clad.Women.is.Hot 1728068851
+[21:37:05] [INFO] [Westworld.S02.COMPLETE.2016] /msg [mg]-fun|eu|s|funfiles xdcc send #3845
+[21:37:06] >> PRIVMSG [mg]-fun|eu|s|funfiles :xdcc send #3845
+[21:37:06] << :[MG]-X265|EU|S|NorthernLights!~root@FA99A4D5.F8DB83E6.F8D95EFD.IP PRIVMSG #moviegods :#749  20x [652M] Welcome.to.Wrexham.S05E05.1080p.HEVC.x265-MeGusta.mkv
+[21:37:06] << :[MG]-HDTV|US|S|StrawberryPines!~root@FA99A4D5.F8DB83E6.F8D95EFD.IP PRIVMSG #moviegods :#639  1x [2.2G] Heart.and.Hustle.Houston.S02E04.Mending.Fences.1080p.DISC.WEB-DL.AAC2.0.H.264-RAWR.mkv
+[21:37:06] << :[MG]-FUN|EU|S|FunFiles!~root@abjects-3DFC1E70.ip-54-39-128.net PRIVMSG IronFist833 :DCC SEND Westworld.S02.COMPLETE.2016.German.DL.AC3.1080p.BluRay.x265-FuN.tar 908558430 30005 13371740160
+[21:43:35] >> QUIT :bye
+[21:43:35] [SUCCESS] [Westworld.S02.COMPLETE.2016] Download fertig: Westworld.S02.COMPLETE.2016.German.DL.AC3.1080p.BluRay.x265-FuN.tar
+[21:49:01] [SUCCESS] [Westworld.S02.COMPLETE.2016] fertig & einsortiert
+
+============================================================
+=== Lauf beendet: 2026-06-29 21:49:01 | ok: 2, fehlgeschlagen: 0 ===
+============================================================

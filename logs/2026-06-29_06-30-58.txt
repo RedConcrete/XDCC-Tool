@@ -1,0 +1,501 @@
+
+============================================================
+=== Lauf gestartet: 2026-06-29 06:30:58 ===
+============================================================
+[06:30:58] [INFO] [Plunderer] Suche: Plunderer
+[06:30:58] << :arse.nl.eu.abjects.net NOTICE * :*** Looking up your hostname...
+[06:30:58] << :arse.nl.eu.abjects.net NOTICE * :*** Checking ident...
+[06:30:58] << :arse.nl.eu.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[06:31:02] << :arse.nl.eu.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[06:31:03] >> JOIN #beast-chat
+[06:31:03] << :arse.nl.eu.abjects.net 396 VoidWalker496 C3A97A5D.6C525672.7F20E47C.IP :is now your displayed host
+[06:31:03] << :VoidWalker496!~VoidWalke@C3A97A5D.6C525672.7F20E47C.IP JOIN :#beast-chat
+[06:31:04] >> PRIVMSG #beast-chat :!s Plunderer
+[06:31:04] << :arse.nl.eu.abjects.net 332 VoidWalker496 #beast-chat :Welcome to #BEAST-XDCC  (Search:ONLINE) (Requests:ONLINE) ~ added !get command ~ !top or !topger to see most leeched releases, can be filtered by days ~ Please use !german for latest GERMAN releases only ~ commands; !latest !german !search !request !get !top !topger !tv !tvger !games ~ For more commands use !help ~ Have something to offer? Msg an ~ 
+[06:31:04] << :arse.nl.eu.abjects.net 333 VoidWalker496 #beast-chat devnull!~qlimax@beastmo.de 1779527540
+[06:31:04] << :databeast!~databeast@the.beast NOTICE VoidWalker496 :04No packs found matching your search criteria.
+[06:31:10] >> QUIT :bye
+[06:31:28] << :mortal.tx.us.abjects.net NOTICE * :*** Looking up your hostname...
+[06:31:28] << :mortal.tx.us.abjects.net NOTICE * :*** Checking ident...
+[06:31:29] << :mortal.tx.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[06:31:32] << :mortal.tx.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[06:31:34] >> JOIN #mg-chat
+[06:31:34] << :mortal.tx.us.abjects.net 396 IronFist705 C3A97A5D.6C525672.7F20E47C.IP :is now your displayed host
+[06:31:34] << :IronFist705!~IronFist7@C3A97A5D.6C525672.7F20E47C.IP JOIN :#mg-chat
+[06:31:35] >> PRIVMSG #mg-chat :!s Plunderer
+[06:31:35] << :mortal.tx.us.abjects.net 332 IronFist705 #mg-chat : Welcome to Moviegods Chat - If you are new to this type !help - Join #MG-Lounge for requests/questions/comments/tv-subs/spam free chat -//- Join #MG-Help for help - Donations earn VIP perks  - Join #MG-donations for info
+[06:31:35] << :mortal.tx.us.abjects.net 333 IronFist705 #mg-chat katsper!Kat@Sex.With.Leather.Clad.Women.is.Hot 1728087751
+[06:31:35] << :JackShephard!~JackSheph@50AAEE4C:5D630E97:2902DA44:IP JOIN :#mg-chat
+[06:31:35] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE IronFist705 :15,01   )07 #MOVIEGODS - Found 0 ONLINE Packs (0 Bots) = Total GETS: 0.
+[06:31:41] >> QUIT :bye
+[06:31:41] << :karkar.abandoned-irc.net NOTICE * :*** Looking up your hostname...
+[06:31:42] << :karkar.abandoned-irc.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[06:31:43] >> JOIN #ZW-CHAT
+[06:31:43] << :karkar.abandoned-irc.net 396 DragonSlayer463 9457BFBC.35B0CB26.E30ED253.IP :is now your displayed host
+[06:31:43] << :DragonSlayer463!DragonSlay@9457BFBC.35B0CB26.E30ED253.IP JOIN :#ZW-CHAT
+[06:31:44] >> PRIVMSG #ZW-CHAT :!search Plunderer
+[06:31:44] << :karkar.abandoned-irc.net 332 DragonSlayer463 #ZW-CHAT :12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12=[04Searchbot]-[09ONLINE]- Triggers: !help !search !latest !subscriptions !topdl !hot !recommended !movies !music !tv !apps !games !ebook !xxx !mobile | Web: http://www.Abandoned-IRC.net/
+[06:31:44] << :karkar.abandoned-irc.net 333 DragonSlayer463 #ZW-CHAT [ZOMBIE]-LATEST!Abandoned-@zombie.warez 1781827870
+[06:31:44] << :Zombie!ZW@ZoMbIe.WaReZ NOTICE DragonSlayer463 :[#ZW-CHAT] 12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12= we are looking for experienced ROOTERS/DEDi/BOXOWNERS . interested? use !joinZW
+[06:31:46] << :[o_0]!Zombies@Zombie.Warez NOTICE DragonSlayer463 :
+[06:31:46] << :[o_0]!Zombies@Zombie.Warez NOTICE DragonSlayer463 : ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+[06:31:46] << :[o_0]!Zombies@Zombie.Warez NOTICE DragonSlayer463 :End of Results. Found: 0 ONLINE packs (0 Bots = 0 Gets) matching "Plunderer"
+[06:31:49] >> QUIT :bye
+[06:31:50] [INFO] [Plunderer] Versuch 1/2: The Walking Dead - S08E10 - The Lost and the Plunderers Bluray-1080p.mkv (irc.rizon.net #ELITEWAREZ)
+[06:31:51] << :irc.tngnet.com NOTICE * :*** Looking up your hostname...
+[06:31:51] << :irc.tngnet.com NOTICE * :*** Checking Ident
+[06:31:51] << :irc.tngnet.com NOTICE * :*** Couldn't look up your hostname
+[06:31:53] << :irc.tngnet.com NOTICE * :*** No Ident response
+[06:31:53] << PING :2706336974
+[06:31:53] << :irc.tngnet.com NOTICE GhostRider817 :*** Your host is masked (FE842F8.9337BBCB.DDD5C2D7.IP)
+[06:31:53] >> JOIN #ELITEWAREZ
+[06:31:53] << :GhostRider817!~GhostRide@FE842F8.9337BBCB.DDD5C2D7.IP JOIN :#ELITEWAREZ
+[06:31:53] << :irc.tngnet.com 332 GhostRider817 #ELITEWAREZ : :: 10#0ELiTEWAREZ :: Search: 4ONLINE 0::0 Join 10#0ELITE-CHAT for S10earch0, S10ubscriptions0, and C10hat0! 
+[06:31:53] << :irc.tngnet.com 333 GhostRider817 #ELITEWAREZ aLp1ne!~aLp1ne@banged.your.mom.at.g00dwill.org 1765431530
+[06:31:53] [WARNING] [Plunderer] Bot '[ewg]landb' nicht im Channel
+[06:31:53] >> QUIT :bye
+[06:31:53] [INFO] [Plunderer] Versuch 2/2: Plunderer.2020.s01.English.x265-BEAST.tar (irc.abjects.net #beast-xdcc)
+[06:31:53] [INFO] [Plunderer] Warte 5s vor erneuter Verbindung zu irc.abjects.net
+[06:31:58] << :jagged.ca.us.abjects.net NOTICE * :*** Looking up your hostname...
+[06:31:58] << :jagged.ca.us.abjects.net NOTICE * :*** Checking ident...
+[06:31:59] << :jagged.ca.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[06:32:02] << :jagged.ca.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[06:32:02] << PING :B6952057
+[06:32:04] >> JOIN #beast-xdcc
+[06:32:04] << :jagged.ca.us.abjects.net 396 ToxicVenom012 C3A97A5D.6C525672.7F20E47C.IP :is now your displayed host
+[06:32:04] << :ToxicVenom012!~ToxicVeno@C3A97A5D.6C525672.7F20E47C.IP JOIN :#beast-xdcc
+[06:32:04] << :jagged.ca.us.abjects.net 332 ToxicVenom012 #beast-xdcc :#BEAST-XDCC //   BLAZING SPEEDS ~ PROPER PACKS   //   join #BEAST-CHAT for Search and much more.
+[06:32:04] << :jagged.ca.us.abjects.net 333 ToxicVenom012 #beast-xdcc dbeast 1705098478
+[06:32:04] [WARNING] [Plunderer] Bot 'beast-x-zoap' nicht im Channel
+[06:32:04] >> QUIT :bye
+[06:32:04] [ERROR] [Plunderer] fehlgeschlagen
+[06:32:04] [INFO] [Hunter.x.Hunter.S01] Suche: Hunter x Hunter S01
+[06:32:28] << :mortal.tx.us.abjects.net NOTICE * :*** Looking up your hostname...
+[06:32:28] << :mortal.tx.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[06:32:28] << :mortal.tx.us.abjects.net NOTICE * :*** Checking ident...
+[06:32:32] << :mortal.tx.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[06:32:34] >> JOIN #beast-chat
+[06:32:34] << :mortal.tx.us.abjects.net 396 ViperZ909 C3A97A5D.6C525672.7F20E47C.IP :is now your displayed host
+[06:32:34] << :ViperZ909!~ViperZ909@C3A97A5D.6C525672.7F20E47C.IP JOIN :#beast-chat
+[06:32:35] >> PRIVMSG #beast-chat :!s Hunter x Hunter S01
+[06:32:35] << :mortal.tx.us.abjects.net 332 ViperZ909 #beast-chat :Welcome to #BEAST-XDCC  (Search:ONLINE) (Requests:ONLINE) ~ added !get command ~ !top or !topger to see most leeched releases, can be filtered by days ~ Please use !german for latest GERMAN releases only ~ commands; !latest !german !search !request !get !top !topger !tv !tvger !games ~ For more commands use !help ~ Have something to offer? Msg an ~ 
+[06:32:35] << :mortal.tx.us.abjects.net 333 ViperZ909 #beast-chat devnull!~qlimax@beastmo.de 1779527540
+[06:32:35] << :databeast!~databeast@the.beast NOTICE ViperZ909 :04SEARCH RESULTS LIMITED TO 100 PACKS
+[06:32:35] << :databeast!~databeast@the.beast NOTICE ViperZ909 :04(1443G04) 14Hunter.x.Hunter.S01.German.DL.AC3.720p.BluRay.x264-Fuuko.tar04 (141314x04)14 /msg 14BEAST-X-REVOLT14 xdcc send #14987
+[06:32:37] << :Terten!~totton_da@abjects-372C58A2.dhcp-dynamic.fibreop.nb.bellaliant.net JOIN :#beast-chat
+[06:32:40] >> QUIT :bye
+[06:32:58] << :jagged.ca.us.abjects.net NOTICE * :*** Looking up your hostname...
+[06:32:58] << :jagged.ca.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[06:32:58] << :jagged.ca.us.abjects.net NOTICE * :*** Checking ident...
+[06:33:02] << :jagged.ca.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[06:33:04] >> JOIN #mg-chat
+[06:33:04] << :jagged.ca.us.abjects.net 396 GhostRider480 C3A97A5D.6C525672.7F20E47C.IP :is now your displayed host
+[06:33:04] << :GhostRider480!~GhostRide@C3A97A5D.6C525672.7F20E47C.IP JOIN :#mg-chat
+[06:33:05] >> PRIVMSG #mg-chat :!s Hunter x Hunter S01
+[06:33:05] << :jagged.ca.us.abjects.net 332 GhostRider480 #mg-chat : Welcome to Moviegods Chat - If you are new to this type !help - Join #MG-Lounge for requests/questions/comments/tv-subs/spam free chat -//- Join #MG-Help for help - Donations earn VIP perks  - Join #MG-donations for info
+[06:33:05] << :jagged.ca.us.abjects.net 333 GhostRider480 #mg-chat katsper!Kat@Sex.With.Leather.Clad.Women.is.Hot 1728087751
+[06:33:06] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE GhostRider480 :00,0100115)10   3x04 |10  43G04 |10 Hunter.X.Hunter.2011.S01.German.AC3.DL.1080p.BDRip.x265-FuN.tar04 |09 /msg [MG]-FUN|EU|S|FunFiles XDCC SEND 865 04|00 Used: 41.56% 7/15 avg: 6.05MiB/s (1m49s ago)04 
+[06:33:06] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE GhostRider480 :15,01   )07 #MOVIEGODS - Found 1 ONLINE Packs (1 Bots) = Total GETS: 3.
+[06:33:12] >> QUIT :bye
+[06:33:12] << :killer.abandoned-irc.net NOTICE * :*** Looking up your hostname...
+[06:33:12] << :killer.abandoned-irc.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[06:33:14] >> JOIN #ZW-CHAT
+[06:33:14] << :killer.abandoned-irc.net 396 ApexPredator710 9457BFBC.35B0CB26.E30ED253.IP :is now your displayed host
+[06:33:14] << :ApexPredator710!ApexPredat@9457BFBC.35B0CB26.E30ED253.IP JOIN :#ZW-CHAT
+[06:33:15] >> PRIVMSG #ZW-CHAT :!search Hunter x Hunter S01
+[06:33:15] << :killer.abandoned-irc.net 332 ApexPredator710 #ZW-CHAT :12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12=[04Searchbot]-[09ONLINE]- Triggers: !help !search !latest !subscriptions !topdl !hot !recommended !movies !music !tv !apps !games !ebook !xxx !mobile | Web: http://www.Abandoned-IRC.net/
+[06:33:15] << :killer.abandoned-irc.net 333 ApexPredator710 #ZW-CHAT [ZOMBIE]-LATEST!Abandoned-@zombie.warez 1781827870
+[06:33:15] << :Zombie!ZW@ZoMbIe.WaReZ NOTICE ApexPredator710 :[#ZW-CHAT] 12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12= we are looking for experienced ROOTERS/DEDi/BOXOWNERS . interested? use !joinZW
+[06:33:17] << :[o_0]!Zombies@Zombie.Warez NOTICE ApexPredator710 :
+[06:33:17] << :[o_0]!Zombies@Zombie.Warez NOTICE ApexPredator710 : ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+[06:33:17] << :[o_0]!Zombies@Zombie.Warez NOTICE ApexPredator710 :End of Results. Found: 0 ONLINE packs (0 Bots = 0 Gets) matching "Hunter*x*Hunter*S01"
+[06:33:20] >> QUIT :bye
+[06:33:21] [INFO] [Hunter.x.Hunter.S01] Versuch 1/2: Hunter.x.Hunter.S01.German.DL.AC3.720p.BluRay.x264-Fuuko.tar (irc.abjects.net #beast-xdcc)
+[06:33:21] [INFO] [Hunter.x.Hunter.S01] Warte 7s vor erneuter Verbindung zu irc.abjects.net
+[06:33:28] << :neptune.ny.us.abjects.net NOTICE * :*** Looking up your hostname...
+[06:33:28] << :neptune.ny.us.abjects.net NOTICE * :*** Checking ident...
+[06:33:28] << :neptune.ny.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[06:33:32] << :neptune.ny.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[06:33:32] << PING :ABA182DF
+[06:33:34] >> JOIN #beast-xdcc
+[06:33:34] << :neptune.ny.us.abjects.net 396 BlazeFury397 C3A97A5D.6C525672.7F20E47C.IP :is now your displayed host
+[06:33:34] << :BlazeFury397!~BlazeFury@C3A97A5D.6C525672.7F20E47C.IP JOIN :#beast-xdcc
+[06:33:34] << :neptune.ny.us.abjects.net 332 BlazeFury397 #beast-xdcc :#BEAST-XDCC //   BLAZING SPEEDS ~ PROPER PACKS   //   join #BEAST-CHAT for Search and much more.
+[06:33:34] << :neptune.ny.us.abjects.net 333 BlazeFury397 #beast-xdcc dbeast 1705098478
+[06:33:34] [INFO] [Hunter.x.Hunter.S01] /msg beast-x-revolt xdcc send #987
+[06:33:35] >> PRIVMSG beast-x-revolt :xdcc send #987
+[06:33:35] << :BEAST-X-SHADY!~beast@untamed.beast PRIVMSG #beast-xdcc :#1439 24x [ 52G] Iron.Man.2.2010.UHD.BluRay.2160p.TrueHD.Atmos.7.1.DV.HEVC.HYBRID.REMUX-FraMeSToR.mkv
+[06:33:36] << :BEAST-X-FANTOM!~beast@untamed.beast PRIVMSG #beast-xdcc :#320  24x [2.5G] Sind.wir.schon.da.2005.German.AC3.DL.1080p.BluRay.x265-FuN.mkv
+[06:33:36] << :BEAST-X-REVOLT!~beast@untamed.beast NOTICE BlazeFury397 :** Sending you pack #987 ("Hunter.x.Hunter.S01.German.DL.AC3.720p.BluRay.x264-Fuuko.tar"), which is 43GB. (resume supported)
+[06:33:36] [INFO] [Hunter.x.Hunter.S01] ** Sending you pack #987 ("Hunter.x.Hunter.S01.German.DL.AC3.720p.BluRay.x264-Fuuko.tar"), which is 43GB. (resume supported)
+[06:33:36] << :BEAST-X-REVOLT!~beast@untamed.beast PRIVMSG BlazeFury397 :DCC SEND Hunter.x.Hunter.S01.German.DL.AC3.720p.BluRay.x264-Fuuko.tar 3418141710 43301 46086871040
+[06:44:25] >> QUIT :bye
+[06:44:25] [SUCCESS] [Hunter.x.Hunter.S01] Download fertig: Hunter.x.Hunter.S01.German.DL.AC3.720p.BluRay.x264-Fuuko.tar
+[07:01:05] [SUCCESS] [Hunter.x.Hunter.S01] fertig & einsortiert
+[07:01:05] [INFO] [Hunter.x.Hunter.S02] Suche: Hunter x Hunter S02
+[07:01:05] << :heimdall.no.eu.abjects.net NOTICE * :*** Looking up your hostname...
+[07:01:05] << :heimdall.no.eu.abjects.net NOTICE * :*** Checking ident...
+[07:01:05] << :heimdall.no.eu.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[07:01:09] << :heimdall.no.eu.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[07:01:11] >> JOIN #beast-chat
+[07:01:11] << :heimdall.no.eu.abjects.net 396 NovaBlade906 C3A97A5D.6C525672.7F20E47C.IP :is now your displayed host
+[07:01:11] << :NovaBlade906!~NovaBlade@C3A97A5D.6C525672.7F20E47C.IP JOIN :#beast-chat
+[07:01:12] >> PRIVMSG #beast-chat :!s Hunter x Hunter S02
+[07:01:12] << :heimdall.no.eu.abjects.net 332 NovaBlade906 #beast-chat :Welcome to #BEAST-XDCC  (Search:ONLINE) (Requests:ONLINE) ~ added !get command ~ !top or !topger to see most leeched releases, can be filtered by days ~ Please use !german for latest GERMAN releases only ~ commands; !latest !german !search !request !get !top !topger !tv !tvger !games ~ For more commands use !help ~ Have something to offer? Msg an ~ 
+[07:01:12] << :heimdall.no.eu.abjects.net 333 NovaBlade906 #beast-chat devnull!~qlimax@beastmo.de 1779527540
+[07:01:13] << :databeast!~databeast@the.beast NOTICE NovaBlade906 :04SEARCH RESULTS LIMITED TO 100 PACKS
+[07:01:13] << :databeast!~databeast@the.beast NOTICE NovaBlade906 :04(1430G04) 14Hunter.X.Hunter.(2011).S02.1080p.BluRay.10bit.EAC3.2.0.x265-iVy.tar04 (141214x04)14 /msg 14BEAST-X-DELTA14 xdcc send #141863
+[07:01:19] >> QUIT :bye
+[07:01:35] << :stormy.fr.eu.abjects.net NOTICE * :*** Looking up your hostname...
+[07:01:35] << :stormy.fr.eu.abjects.net NOTICE * :*** Checking ident...
+[07:01:35] << :stormy.fr.eu.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[07:01:39] << :stormy.fr.eu.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[07:01:41] >> JOIN #mg-chat
+[07:01:41] << :stormy.fr.eu.abjects.net 396 ToxicVenom507 C3A97A5D.6C525672.7F20E47C.IP :is now your displayed host
+[07:01:41] << :ToxicVenom507!~ToxicVeno@C3A97A5D.6C525672.7F20E47C.IP JOIN :#mg-chat
+[07:01:42] >> PRIVMSG #mg-chat :!s Hunter x Hunter S02
+[07:01:42] << :stormy.fr.eu.abjects.net 332 ToxicVenom507 #mg-chat : Welcome to Moviegods Chat - If you are new to this type !help - Join #MG-Lounge for requests/questions/comments/tv-subs/spam free chat -//- Join #MG-Help for help - Donations earn VIP perks  - Join #MG-donations for info
+[07:01:42] << :stormy.fr.eu.abjects.net 333 ToxicVenom507 #mg-chat katsper!Kat@Sex.With.Leather.Clad.Women.is.Hot 1728087751
+[07:01:42] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE ToxicVenom507 :15,01   )07 #MOVIEGODS - Found 0 ONLINE Packs (0 Bots) = Total GETS: 0.
+[07:01:47] << :ichwillwirklichnurchatten!~ichwilldo@D5DAB5F0.DA37A98A.FF0E9874.IP QUIT :Ping timeout: 241 seconds
+[07:01:47] >> QUIT :bye
+[07:01:47] << :karkar.abandoned-irc.net NOTICE * :*** Looking up your hostname...
+[07:01:47] << :karkar.abandoned-irc.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[07:01:49] >> JOIN #ZW-CHAT
+[07:01:49] << :karkar.abandoned-irc.net 396 RogueAce067 9457BFBC.35B0CB26.E30ED253.IP :is now your displayed host
+[07:01:49] << :RogueAce067!RogueAce06@9457BFBC.35B0CB26.E30ED253.IP JOIN :#ZW-CHAT
+[07:01:50] >> PRIVMSG #ZW-CHAT :!search Hunter x Hunter S02
+[07:01:50] << :karkar.abandoned-irc.net 332 RogueAce067 #ZW-CHAT :12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12=[04Searchbot]-[09ONLINE]- Triggers: !help !search !latest !subscriptions !topdl !hot !recommended !movies !music !tv !apps !games !ebook !xxx !mobile | Web: http://www.Abandoned-IRC.net/
+[07:01:50] << :karkar.abandoned-irc.net 333 RogueAce067 #ZW-CHAT [ZOMBIE]-LATEST!Abandoned-@zombie.warez 1781827870
+[07:01:50] << :Zombie!ZW@ZoMbIe.WaReZ NOTICE RogueAce067 :[#ZW-CHAT] 12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12= we are looking for experienced ROOTERS/DEDi/BOXOWNERS . interested? use !joinZW
+[07:01:52] << :[o_0]!Zombies@Zombie.Warez NOTICE RogueAce067 :
+[07:01:52] << :[o_0]!Zombies@Zombie.Warez NOTICE RogueAce067 : ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+[07:01:52] << :[o_0]!Zombies@Zombie.Warez NOTICE RogueAce067 :End of Results. Found: 0 ONLINE packs (0 Bots = 0 Gets) matching "Hunter*x*Hunter*S02"
+[07:01:55] >> QUIT :bye
+[07:01:56] [INFO] [Hunter.x.Hunter.S02] Versuch 1/15: [ BlueTorrents.com ] Hunter x Hunter S02E18 2013 1080p Netflix WEB-DL AVC AAC 2 0-DBTV (irc.rizon.net #ELITEWAREZ)
+[07:01:56] << :irc.mufff.in NOTICE * :*** Looking up your hostname...
+[07:01:56] << :irc.mufff.in NOTICE * :*** Checking Ident
+[07:01:57] << :irc.mufff.in NOTICE * :*** Couldn't look up your hostname
+[07:01:58] << :irc.mufff.in NOTICE * :*** No Ident response
+[07:01:58] << PING :607555597
+[07:01:58] << :irc.mufff.in NOTICE VoidWalker316 :*** Your host is masked (FE842F8.9337BBCB.DDD5C2D7.IP)
+[07:01:58] >> JOIN #ELITEWAREZ
+[07:01:58] << :VoidWalker316!~VoidWalke@FE842F8.9337BBCB.DDD5C2D7.IP JOIN :#ELITEWAREZ
+[07:01:58] << :irc.mufff.in 332 VoidWalker316 #ELITEWAREZ : :: 10#0ELiTEWAREZ :: Search: 4ONLINE 0::0 Join 10#0ELITE-CHAT for S10earch0, S10ubscriptions0, and C10hat0! 
+[07:01:58] << :irc.mufff.in 333 VoidWalker316 #ELITEWAREZ aLp1ne!~aLp1ne@banged.your.mom.at.g00dwill.org 1765431530
+[07:01:58] [INFO] [Hunter.x.Hunter.S02] /msg windoxdcc xdcc send #63528
+[07:01:59] >> PRIVMSG windoxdcc :xdcc send #63528
+[07:01:59] << :Global!service@rizon.net NOTICE VoidWalker316 :[Logon News - Dec 16 2013] Own a large/active channel or plan to get one going? Please read http://s.rizon.net/authline
+[07:01:59] << :Global!service@rizon.net NOTICE VoidWalker316 :[Logon News - Feb 16 2022] First time on Rizon? Be sure to check out our wiki! https://wiki.rizon.net
+[07:01:59] << :Global!service@rizon.net NOTICE VoidWalker316 :[Random News - May 07 2013] Looking for a quotes, trivia, or other extra bots? /msg funserv help
+[07:01:59] << :[EWG]!EWG@EWG.rizon NOTICE VoidWalker316 :[#ELITEWAREZ] Have something to offer? join #ewg-recruits
+[07:01:59] << :py-ctcp!ctcp@ctcp-scanner.rizon.net PRIVMSG VoidWalker316 :VERSION
+[07:01:59] << :[EWG]GemuCS!~GemuCS@B1E84723.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#4421 0x [5.0M] 1686 - Pokemon Verde Foglia (I)(Independent).zip
+[07:01:59] << :[EWG]SoftKing!~ewg@ACB8F08F.509A19EC.92FBB3A5.IP PRIVMSG #ELITEWAREZ :07#415 0x [116.6M] Braveland.Portable.Full.Download.Game.2026.tar
+[07:01:59] << :windoxDCC!~ewg@Rizon-273EB4E3.coreirc.net NOTICE VoidWalker316 :Pack #63528 does not exist
+[07:01:59] [INFO] [Hunter.x.Hunter.S02] Pack #63528 does not exist
+[07:02:00] << :[EWG]-[TB-oldenB!~GERMAN@Rizon-5871E309.dip0.t-ipconnect.de PRIVMSG #ELITEWAREZ :#36    2x [957M] Warhammer.40000.Armageddon.Da.Orks-SKIDROW.tar
+[07:02:00] << :[EWG]dumpPorn!~ewg@5DC8CE39.B856B7DC.B987F727.IP PRIVMSG #ELITEWAREZ :13#1245 12x [1.8G] lcd.25.09.05.gina.gerson.superprivatex.mp4
+[07:02:01] << :windoxDCC!~ewg@Rizon-273EB4E3.coreirc.net PRIVMSG #ELITEWAREZ :06#22607 0x [15.3G] [ BlueTorrents.com ] Zone Troopers 1985 1080p BluRay REMUX AVC FLAC 2 0-TRiToN
+[07:02:02] << :[EWG]Totoro!~Totoro@Rizon-1AA4B93D.dohboy.org PRIVMSG #ELITEWAREZ :09#51 2x [1.3G] Invincible.2021.S02E03.THIS.MISSIVE.THIS.MACHINATION.1080p.AMZN.WEB-DL.DDP5.1.H.264-FLUX.mkv
+[07:02:03] << :[EWG]-[TB-oldenB!~GERMAN@Rizon-5871E309.dip0.t-ipconnect.de PRIVMSG #ELITEWAREZ :#37   15x [924M] Okhlos-SKIDROW.tar
+[07:02:03] << :[EWG]MArchive!~MArchive@B1E84723.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#27279 0x [10.0M] I_Coccodrilli_-_Che_Sera-SINGLE-WEB-IT-2022-UOVA.tar
+[07:02:04] << :[EWG]Totoro!~Totoro@Rizon-1AA4B93D.dohboy.org PRIVMSG #ELITEWAREZ :09#52 2x [1.3G] Invincible.2021.S02E04.ITS.BEEN.A.WHILE.1080p.AMZN.WEB-DL.DDP5.1.H.264-FLUX.mkv
+[07:02:04] << :FrEaKi!~FrEaKi_@952E6F69.127BC9FC.DCF5AF39.IP JOIN :#ELITEWAREZ
+[07:02:05] << :windoxDCC!~ewg@Rizon-273EB4E3.coreirc.net PRIVMSG #ELITEWAREZ :13#22608 0x [242.0M] [ BlueTorrents.com ] Not Suitable for Work 2026 S01E07 1080p AV1 10bit-MeGusta
+[07:02:05] << :[EWG]dumpPorn!~ewg@5DC8CE39.B856B7DC.B987F727.IP PRIVMSG #ELITEWAREZ :04#1246 3x [1015.2M] nubiles.25.10.01.rihanna.black.wet.for.you.mp4
+[07:02:06] << :[EWG]Nikita!~Nikita@A44E1591.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#16465 0x [934.1M] johan.et.pirlouit.e13.french.1080p.web.h264-d4kid.mkv
+[07:02:06] << :[EWG]Totoro!~Totoro@Rizon-1AA4B93D.dohboy.org PRIVMSG #ELITEWAREZ :09#53 2x [1.2G] Invincible.2021.S02E05.THIS.MUST.COME.AS.A.SHOCK.1080p.AMZN.WEB-DL.DDP5.1.H.264-FLUX.mkv
+[07:02:06] << :[EWG]-[TB-oldenB!~GERMAN@Rizon-5871E309.dip0.t-ipconnect.de PRIVMSG #ELITEWAREZ :#38    6x [875M] Batman.Begins.2005.iNTERNAL.DVDRip.x264-REGRET.tar
+[07:02:06] << :[EWG]Ongaku!~Ongaku@B1E84723.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#31033 1x [56.0M] Yunam-Take_Over-(VR017)-WEB-2026-PTC.tar
+[07:02:07] << :[EWG]SoftKing!~ewg@ACB8F08F.509A19EC.92FBB3A5.IP PRIVMSG #ELITEWAREZ :08#416 0x [21.5M] Braveland.Portable.Full.Game.2026.tar
+[07:02:08] << :[EWG]Totoro!~Totoro@Rizon-1AA4B93D.dohboy.org PRIVMSG #ELITEWAREZ :09#54 2x [1.2G] Invincible.2021.S02E06.ITS.NOT.THAT.SIMPLE.1080p.AMZN.WEB-DL.DDP5.1.H.264-FLUX.mkv
+[07:02:09] << :windoxDCC!~ewg@Rizon-273EB4E3.coreirc.net PRIVMSG #ELITEWAREZ :04#22609 0x [2.4G] [ BlueTorrents.com ] World War II With Tom Hanks S01E09 Secrets And Lies 1080p NOW WEB-DL AAC2 0 H 264-RAWR
+[07:02:09] << :[EWG]GemuPC!~GemuPC@B1E84723.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#108 0x [4.4G] Advent.Rising.PROPER.CloneDVD-MiRROR.tar
+[07:02:10] << :[EWG]Totoro!~Totoro@Rizon-1AA4B93D.dohboy.org PRIVMSG #ELITEWAREZ :09#55 2x [1.2G] Invincible.2021.S02E07.IM.NOT.GOING.ANYWHERE.1080p.AMZN.WEB-DL.DDP5.1.H.264-NTb.mkv
+[07:02:10] << :[EWG]-[TB-oldenB!~GERMAN@Rizon-5871E309.dip0.t-ipconnect.de PRIVMSG #ELITEWAREZ :#39    2x [1.2G] Batman.Returns.1992.iNTERNAL.DVDRip.x264-REGRET.tar
+[07:02:10] << :[EWG]dumpPorn!~ewg@5DC8CE39.B856B7DC.B987F727.IP PRIVMSG #ELITEWAREZ :07#1247 4x [1.7G] brazzersexxtra.25.09.18.anissa.kate.were.gathered.here.today.to.fuck.part.1.mp4
+[07:02:11] << :[EWG]GemuCS!~GemuCS@B1E84723.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#4422 0x [31.6M] 1687 - Nicktoons Collection Volume 2 - Gameboy Advance Video (U)(Rising Sun).zip
+[07:02:11] << :[EWG]Nikita4k!~Nikita4k@A44E1591.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#1300 0x [7.3G] sweet.magnolias.s03e04.multi.hdr.2160p.web.h265-higgsboson.mkv
+[07:02:12] << :[EWG]Totoro!~Totoro@Rizon-1AA4B93D.dohboy.org PRIVMSG #ELITEWAREZ :09#56 2x [1.2G] Invincible.2021.S02E08.I.THOUGHT.YOU.WERE.STRONGER.1080p.AMZN.WEB-DL.DDP5.1.H.264-FLUX.mkv
+[07:02:13] << :[EWG]-[TB-oldenB!~GERMAN@Rizon-5871E309.dip0.t-ipconnect.de PRIVMSG #ELITEWAREZ :#40   16x [1.4G] Imperium.2016.HDRip.XviD.AC3-EVO.tar
+[07:02:13] << :windoxDCC!~ewg@Rizon-273EB4E3.coreirc.net PRIVMSG #ELITEWAREZ :07#22610 0x [2.4G] [ BlueTorrents.com ] World War II With Tom Hanks S01E08 Operation Torch 1080p NOW WEB-DL AAC2 0 H 264-RAWR
+[07:02:13] << :thelounge306332894!~thelounge@A0CEB1B9.12B35764.AF91919B.IP QUIT :Ping timeout: 240 seconds
+[07:02:14] << :[EWG]Totoro!~Totoro@Rizon-1AA4B93D.dohboy.org PRIVMSG #ELITEWAREZ :09#57 0x [1.8G] invincible.2021.s00e01.presenting.atom.eve.special.episode.1080p.web.h264-nhtfs.mkv
+[07:02:15] << :[EWG]SoftKing!~ewg@ACB8F08F.509A19EC.92FBB3A5.IP PRIVMSG #ELITEWAREZ :09#417 0x [142.9M] Breach.Clear.Portable.Full.Download.Game.2026.tar
+[07:02:15] << :[EWG]MArchive!~MArchive@B1E84723.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#27280 0x [110.7M] I_See_Stars-THE_WHEEL-WEB-2025-QUAVER.tar
+[07:02:15] << :[EWG]dumpPorn!~ewg@5DC8CE39.B856B7DC.B987F727.IP PRIVMSG #ELITEWAREZ :08#1248 29x [2.5G] 95D.Des.Milfs.Bien.Equipees.FRENCH.XXX.1080p.WEBRip.MP4-COCKiNE.mp4
+[07:02:16] << :[EWG]Nikita!~Nikita@A44E1591.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#16466 0x [950.2M] johan.et.pirlouit.e12.french.1080p.web.h264-d4kid.mkv
+[07:02:16] << :[EWG]Totoro!~Totoro@Rizon-1AA4B93D.dohboy.org PRIVMSG #ELITEWAREZ :09#58 1x [1.8G] Invincible.2021.S00E01.Presenting.Atom.Eve.Special.Episode.REPACK.1080p.AMZN.WEB-DL.DDP5.1.H.264-NTb.mkv
+[07:02:17] << :[EWG]-[TB-oldenB!~GERMAN@Rizon-5871E309.dip0.t-ipconnect.de PRIVMSG #ELITEWAREZ :#41    1x [423M] Okhlos.v2.0.0.1.Multilingual.Linux.GOG.Retail-CORE.tar
+[07:02:17] << :windoxDCC!~ewg@Rizon-273EB4E3.coreirc.net PRIVMSG #ELITEWAREZ :08#22611 0x [194.0M] [ BlueTorrents.com ] MyLifeInMiami 26 06 09 Dakota Quinn Is Bangin XXX XviD-iPT Team
+[07:02:18] << :[EWG]Totoro!~Totoro@Rizon-1AA4B93D.dohboy.org PRIVMSG #ELITEWAREZ :09#59 0x [2.2G] Avatar The Last Airbender - S01E01 - The Boy in the Iceberg.mkv
+[07:02:18] << :[EWG]Ongaku!~Ongaku@B1E84723.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#31034 2x [209.2M] Armin_van_Buuren_-_A_State_of_Trance_1270__Unfiltered_Special-SAT-03-26-2026-TALiON.tar
+[07:02:20] << :[EWG]Totoro!~Totoro@Rizon-1AA4B93D.dohboy.org PRIVMSG #ELITEWAREZ :09#60 0x [2.2G] Avatar The Last Airbender - S01E02 - The Avatar Returns.mkv
+[07:02:20] << :[EWG]-[TB-oldenB!~GERMAN@Rizon-5871E309.dip0.t-ipconnect.de PRIVMSG #ELITEWAREZ :#42    3x [703M] Akkilahto.2016.BDRip.x264-FiCO.tar
+[07:02:20] << :[EWG]dumpPorn!~ewg@5DC8CE39.B856B7DC.B987F727.IP PRIVMSG #ELITEWAREZ :09#1249 8x [698.0M] tigermoms.25.10.24.tokyo.leigh.mp4
+[07:02:21] << :windoxDCC!~ewg@Rizon-273EB4E3.coreirc.net PRIVMSG #ELITEWAREZ :09#22612 0x [378.0M] [ BlueTorrents.com ] DFXHotWives 26 06 16 Whitney OC XXX XviD-iPT Team
+[07:02:21] << :[EWG]GemuPC!~GemuPC@B1E84723.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#109 0x [1.3G] Adventure.of.Samsara-I_KnoW.tar
+[07:02:23] << :[EWG]GemuCS!~GemuCS@B1E84723.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#4423 0x [390.1K] 1688 - GBA TV Tuner (C)(Independent).zip
+[07:02:23] << :[EWG]SoftKing!~ewg@ACB8F08F.509A19EC.92FBB3A5.IP PRIVMSG #ELITEWAREZ :03#418 0x [155.9M] Breach.Clear.Portable.Game.2026.tar
+[07:02:24] << :[EWG]-[TB-oldenB!~GERMAN@Rizon-5871E309.dip0.t-ipconnect.de PRIVMSG #ELITEWAREZ :#43   13x [ 14G] GRID.Autosport.Complete-RELOADED.tar
+[07:02:25] << :windoxDCC!~ewg@Rizon-273EB4E3.coreirc.net PRIVMSG #ELITEWAREZ :03#22613 1x [801.5M] [ BlueTorrents.com ] OyeMami 26 06 16 Mishellxy XXX 1080p MP4-WRB
+[07:02:25] << :[EWG]dumpPorn!~ewg@5DC8CE39.B856B7DC.B987F727.IP PRIVMSG #ELITEWAREZ :03#1250 6x [1007.4M] mylfselects.25.09.10.compilation.mp4
+[07:02:26] << :[EWG]Nikita!~Nikita@A44E1591.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#16467 0x [933.3M] johan.et.pirlouit.e14.french.1080p.web.h264-d4kid.mkv
+[07:02:27] << :[EWG]-[TB-oldenB!~GERMAN@Rizon-5871E309.dip0.t-ipconnect.de PRIVMSG #ELITEWAREZ :#44    0x [3.7G] The.Banner.Saga.2.MULTi5-PROPHET.tar
+[07:02:27] << :[EWG]MArchive!~MArchive@B1E84723.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#27281 0x [12.4M] Ilan_Bluestone_Pres._Stoneblue_-_The_Land_Of_Nanisa-(DREAMSTATE120B)-SINGLE-WEB-2025-FMC.tar
+[07:02:28] << :[EWG]Nikita4k!~Nikita4k@A44E1591.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#1301 0x [7.0G] sweet.magnolias.s03e05.multi.hdr.2160p.web.h265-higgsboson.mkv
+[07:02:28] << :[EWG]Achleuhi_FR!~EWG]Achle@11DB6A47.F8A9A017.8F120497.IP PRIVMSG #ELITEWAREZ :07#4371 0x [894.8M] Black Mirror S03E02 Playtest.mkv
+[07:02:29] << :windoxDCC!~ewg@Rizon-273EB4E3.coreirc.net PRIVMSG #ELITEWAREZ :10#22614 4x [2.3G] [ BlueTorrents.com ] MyLifeInMiami 26 06 09 Dakota Quinn Is Bangin XXX 2160p MP4-WRB
+[07:02:30] << :[EWG]Ongaku!~Ongaku@B1E84723.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#31035 0x [208.8M] Moguai_-_Punx_Up_The_Volume_(SSL)-SAT-03-26-2026-TALiON.tar
+[07:02:30] << :[EWG]Achleuhi_FR!~EWG]Achle@11DB6A47.F8A9A017.8F120497.IP PRIVMSG #ELITEWAREZ :07#4372 0x [988.1M] Black Mirror S03E01 Chute libre.mkv
+[07:02:30] << :[EWG]dumpPorn!~ewg@5DC8CE39.B856B7DC.B987F727.IP PRIVMSG #ELITEWAREZ :10#1251 5x [773.6M] academypov.22.08.05.zazie.skymm.blonde.desire.mp4
+[07:02:31] << :[EWG]SoftKing!~ewg@ACB8F08F.509A19EC.92FBB3A5.IP PRIVMSG #ELITEWAREZ :10#419 0x [59.6M] Bread.Fred.Portable.Full.Download.Game.2026.tar
+[07:02:31] << :[EWG]-[TB-oldenB!~GERMAN@Rizon-5871E309.dip0.t-ipconnect.de PRIVMSG #ELITEWAREZ :#45    0x [1.9G] Layers.of.Fear.Masterpiece.Edition.MULTi12-PROPHET.tar
+[07:02:32] << :[EWG]Achleuhi_FR!~EWG]Achle@11DB6A47.F8A9A017.8F120497.IP PRIVMSG #ELITEWAREZ :07#4373 0x [621.4M] Black Mirror S02E03 Le Show de Waldo.mkv
+[07:02:33] << :windoxDCC!~ewg@Rizon-273EB4E3.coreirc.net PRIVMSG #ELITEWAREZ :02#22615 0x [1.9G] [ BlueTorrents.com ] ATKGirlfriends 26 06 16 Mira Monroe Compilation XXX 2160p MP4-WRB
+[07:02:33] << :[EWG]GemuPC!~GemuPC@B1E84723.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#110 0x [1.2G] Adventure.of.Samsara.Linux-I_KnoW.tar
+[07:02:34] << :[EWG]Achleuhi_FR!~EWG]Achle@11DB6A47.F8A9A017.8F120497.IP PRIVMSG #ELITEWAREZ :07#4374 0x [604.0M] Black Mirror S02E02 La Chasse.mkv
+[07:02:35] << :[EWG]GemuCS!~GemuCS@B1E84723.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#4424 0x [94.3K] 1689 - GBA TV Tuner (C)(TrashMan).zip
+[07:02:35] << :[EWG]-[TB-oldenB!~GERMAN@Rizon-5871E309.dip0.t-ipconnect.de PRIVMSG #ELITEWAREZ :#46    4x [8.8G] Warhammer.40.000.Space.Marine.Collection-PROPHET.tar
+[07:02:35] << :[EWG]dumpPorn!~ewg@5DC8CE39.B856B7DC.B987F727.IP PRIVMSG #ELITEWAREZ :02#1252 4x [1.1G] narcos-tfx-25-09-27-jesse-pony-and-haven-rose-three-to-make-one-1080p.mp4
+[07:02:36] << :[EWG]Nikita!~Nikita@A44E1591.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#16468 0x [931.4M] johan.et.pirlouit.e09.french.1080p.web.h264-d4kid.mkv
+[07:02:36] << :[EWG]Achleuhi_FR!~EWG]Achle@11DB6A47.F8A9A017.8F120497.IP PRIVMSG #ELITEWAREZ :07#4375 0x [695.2M] Black Mirror S02E01 Bientôt de retour.mkv
+[07:02:37] << :windoxDCC!~ewg@Rizon-273EB4E3.coreirc.net PRIVMSG #ELITEWAREZ :12#22616 1x [9.6G] [ BlueTorrents.com ] First Strike 1996 1080p BluRay x264-GeneMige
+[07:02:38] << :[EWG]-[TB-oldenB!~GERMAN@Rizon-5871E309.dip0.t-ipconnect.de PRIVMSG #ELITEWAREZ :#47    0x [686M] Entertaining.the.Troops.WEB.h264-ROFL.tar
+[07:02:38] << :[EWG]Achleuhi_FR!~EWG]Achle@11DB6A47.F8A9A017.8F120497.IP PRIVMSG #ELITEWAREZ :07#4376 0x [804.2M] Sur écoute S04E11 - Un nouveau jour.mkv
+[07:02:39] << :[EWG]SoftKing!~ewg@ACB8F08F.509A19EC.92FBB3A5.IP PRIVMSG #ELITEWAREZ :02#420 1x [64.6M] Bread.Fred.Portable.Full.Game.2026.tar
+[07:02:39] << :[EWG]MArchive!~MArchive@B1E84723.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#27282 0x [60.5M] I_Prevail-Violent_Nature-2025-FNT.tar
+[07:02:40] << :[EWG]Achleuhi_FR!~EWG]Achle@11DB6A47.F8A9A017.8F120497.IP PRIVMSG #ELITEWAREZ :07#4377 0x [799.5M] Sur écoute S03E10 - La réforme.mkv
+[07:02:40] << :[EWG]dumpPorn!~ewg@5DC8CE39.B856B7DC.B987F727.IP PRIVMSG #ELITEWAREZ :12#1253 6x [1.0G] alsscan.25.10.12.gracey.fox.thick.and.thin.mp4
+[07:02:41] << :windoxDCC!~ewg@Rizon-273EB4E3.coreirc.net PRIVMSG #ELITEWAREZ :06#22617 0x [2.4G] [ BlueTorrents.com ] From S04E08 1080P TV WEB-DL EN-TR AAC2 0 H264 TURG
+[07:02:42] << :[EWG]-[TB-oldenB!~GERMAN@Rizon-5871E309.dip0.t-ipconnect.de PRIVMSG #ELITEWAREZ :#48    0x [521M] Cycling.la.Vuelta.a.Espana.2018.08.22.WEB.x264-OVERTiME.tar
+[07:02:42] << :[EWG]Ongaku!~Ongaku@B1E84723.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#31036 0x [219.0M] MALUGI_-_Radio_1s_Residency_(BBC)-SAT-03-26-2026-TALiON.tar
+[07:02:42] << :[EWG]Achleuhi_FR!~EWG]Achle@11DB6A47.F8A9A017.8F120497.IP PRIVMSG #ELITEWAREZ :07#4378 0x [800.2M] Sur écoute S03E03 - À l'ouest, la mort.mkv
+[07:02:44] << :[EWG]Achleuhi_FR!~EWG]Achle@11DB6A47.F8A9A017.8F120497.IP PRIVMSG #ELITEWAREZ :07#4379 0x [795.6M] Sur écoute S03E01 - Un nouveau Baltimore.mkv
+[07:02:45] << :[EWG]Nikita4k!~Nikita4k@A44E1591.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#1302 0x [4.3G] sweet.magnolias.s03e07.multi.hdr.2160p.web.h265-higgsboson.mkv
+[07:02:45] << :[EWG]GemuPC!~GemuPC@B1E84723.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#111 1x [129.2M] Adventure_Mosaics_Land_of_the_Rising_Sun-RAZOR.tar
+[07:02:45] << :[EWG]dumpPorn!~ewg@5DC8CE39.B856B7DC.B987F727.IP PRIVMSG #ELITEWAREZ :06#1254 4x [913.4M] tspov.18.10.30.alexa.ferry.mp4
+[07:02:46] << :windoxDCC!~ewg@Rizon-273EB4E3.coreirc.net PRIVMSG #ELITEWAREZ :13#22618 0x [1.7G] [ BlueTorrents.com ] Dutton Ranch S01E06 1080p TV WEB-DL EN-TR AAC2 0 H264 TURG
+[07:02:46] << :[EWG]Nikita!~Nikita@A44E1591.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#16469 0x [870.2M] johan.et.pirlouit.e15.french.1080p.web.h264-d4kid.mkv
+[07:02:46] << :[EWG]-[TB-oldenB!~GERMAN@Rizon-5871E309.dip0.t-ipconnect.de PRIVMSG #ELITEWAREZ :#49    3x [1.7G] Crusader.Kings.II.The.Reapers.Due.PROPER-SKIDROW.tar
+[07:02:46] << :[EWG]Achleuhi_FR!~EWG]Achle@11DB6A47.F8A9A017.8F120497.IP PRIVMSG #ELITEWAREZ :07#4380 0x [803.4M] Sur écoute S04E09 - À chacun sa place.mkv
+[07:02:47] << :[EWG]GemuCS!~GemuCS@B1E84723.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#4425 0x [11.5M] 1690 - Mario Golf - Advance Tour (S)(Independent).zip
+[07:02:47] << :[EWG]SoftKing!~ewg@ACB8F08F.509A19EC.92FBB3A5.IP PRIVMSG #ELITEWAREZ :12#421 0x [60.7M] BricsCAD.CAD.Design.Full.Crack.tar
+[07:02:50] << :windoxDCC!~ewg@Rizon-273EB4E3.coreirc.net PRIVMSG #ELITEWAREZ :04#22619 0x [628.0M] [ BlueTorrents.com ] The Evil Lawyer S01E07 720p HEVC x265-MeGusta
+[07:02:50] << :[EWG]-[TB-oldenB!~GERMAN@Rizon-5871E309.dip0.t-ipconnect.de PRIVMSG #ELITEWAREZ :#50   17x [1.4G] Ice.Age.Collision.Course.2016.READNFO.HDRip.XviD.AC3-EVO.tar
+[07:02:50] << :[EWG]dumpPorn!~ewg@5DC8CE39.B856B7DC.B987F727.IP PRIVMSG #ELITEWAREZ :13#1255 8x [401.6M] metart.25.09.30.kei.hot.sessions.2.mp4
+[07:02:51] << :[EWG]MArchive!~MArchive@B1E84723.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#27283 0x [49.6M] I_Welsh_x_The_Sci-Fi_Soul_Orchestra_x_S_Escoffery-A_Man_In_Love_With_Love_(Nick_Reach_Up_And_Steve_Mac_Remix)-(2791953)-WEB-2025-BB.tar
+[07:02:54] << :windoxDCC!~ewg@Rizon-273EB4E3.coreirc.net PRIVMSG #ELITEWAREZ :07#22620 0x [233.0M] [ BlueTorrents.com ] ATKGirlfriends 26 06 16 Mira Monroe Compilation XXX XviD-iPT Team
+[07:02:54] << :[EWG]-[TB-oldenB!~GERMAN@Rizon-5871E309.dip0.t-ipconnect.de PRIVMSG #ELITEWAREZ :#51    0x [713M] How.to.Build.a.Dinosaur.WEB.h264-ROFL.tar
+[07:02:54] << :[EWG]Ongaku!~Ongaku@B1E84723.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#31037 0x [112.4M] Rodney_Crowell-Airline_Highway-DELUXE_EDITION-WEB-2026-QUAVER.tar
+[07:02:55] << :[EWG]SoftKing!~ewg@ACB8F08F.509A19EC.92FBB3A5.IP PRIVMSG #ELITEWAREZ :06#422 0x [138.6M] Bridge.Constructor.Portable.Full.Download.Game.2026.tar
+[07:02:55] << :[EWG]dumpPorn!~ewg@5DC8CE39.B856B7DC.B987F727.IP PRIVMSG #ELITEWAREZ :04#1256 21x [2.4G] Touristes.Pleines.De.Fantasmes.FRENCH.XXX.1080p.WEBRip.MP4-COCKiNE.mp4
+[07:02:56] << :[EWG]Nikita!~Nikita@A44E1591.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#16470 0x [932.9M] johan.et.pirlouit.e08.french.1080p.web.h264-d4kid.mkv
+[07:02:57] << :[EWG]-[TB-oldenB!~GERMAN@Rizon-5871E309.dip0.t-ipconnect.de PRIVMSG #ELITEWAREZ :#52    2x [1.4G] Blood.in.the.Water.2016.HDRip.XviD.AC3-EVO.tar
+[07:02:57] << :[EWG]GemuPC!~GemuPC@B1E84723.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#112 0x [513.7M] Aeruta-TENOKE.tar
+[07:02:58] << :windoxDCC!~ewg@Rizon-273EB4E3.coreirc.net PRIVMSG #ELITEWAREZ :08#22621 0x [599.0M] [ BlueTorrents.com ] HijabHookup 26 06 16 Chloe Amour And Mira Luv XXX XviD-iPT Team
+[07:02:59] << :[EWG]GemuCS!~GemuCS@B1E84723.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#4426 0x [5.1M] 1691 - Pokemon Leaf Green (U)(Independent).zip
+[07:03:00] [ERROR] [Hunter.x.Hunter.S02] Timeout – Bot hat nicht geantwortet
+[07:03:00] >> QUIT :bye
+[07:03:00] [INFO] [Hunter.x.Hunter.S02] Versuch 2/15: [ BlueTorrents.com ] Hunter x Hunter S02E69 2013 1080p Netflix WEB-DL AVC AAC 2 0-DBTV (irc.rizon.net #ELITEWAREZ)
+[07:03:00] << :irc.tngnet.com NOTICE * :*** Looking up your hostname...
+[07:03:00] << :irc.tngnet.com NOTICE * :*** Checking Ident
+[07:03:00] << :irc.tngnet.com NOTICE * :*** Couldn't look up your hostname
+[07:03:02] << :irc.tngnet.com NOTICE * :*** No Ident response
+[07:03:02] << PING :2046114124
+[07:03:02] << :irc.tngnet.com NOTICE DragonSlayer677 :*** Your host is masked (FE842F8.9337BBCB.DDD5C2D7.IP)
+[07:03:02] >> JOIN #ELITEWAREZ
+[07:03:02] << :DragonSlayer677!~DragonSla@FE842F8.9337BBCB.DDD5C2D7.IP JOIN :#ELITEWAREZ
+[07:03:02] << :irc.tngnet.com 332 DragonSlayer677 #ELITEWAREZ : :: 10#0ELiTEWAREZ :: Search: 4ONLINE 0::0 Join 10#0ELITE-CHAT for S10earch0, S10ubscriptions0, and C10hat0! 
+[07:03:02] << :irc.tngnet.com 333 DragonSlayer677 #ELITEWAREZ aLp1ne!~aLp1ne@banged.your.mom.at.g00dwill.org 1765431530
+[07:03:02] [INFO] [Hunter.x.Hunter.S02] /msg windoxdcc xdcc send #63614
+[07:03:03] >> PRIVMSG windoxdcc :xdcc send #63614
+[07:03:03] << :Global!service@rizon.net NOTICE DragonSlayer677 :[Logon News - Dec 16 2013] Own a large/active channel or plan to get one going? Please read http://s.rizon.net/authline
+[07:03:03] << :Global!service@rizon.net NOTICE DragonSlayer677 :[Logon News - Feb 16 2022] First time on Rizon? Be sure to check out our wiki! https://wiki.rizon.net
+[07:03:03] << :Global!service@rizon.net NOTICE DragonSlayer677 :[Random News - Mar 20 2009] Idle on Rizon a lot? Why not play our idlerpg game, you can check it out at #RizonIRPG for more information visit the website http://idlerpg.rizon.net -Rizon Staff
+[07:03:03] << :[EWG]!EWG@EWG.rizon NOTICE DragonSlayer677 :[#ELITEWAREZ] Have something to offer? join #ewg-recruits
+[07:03:03] << :py-ctcp!ctcp@ctcp-scanner.rizon.net PRIVMSG DragonSlayer677 :VERSION
+[07:03:03] << :[EWG]MArchive!~MArchive@B1E84723.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#27284 0x [22.9M] Ian_Allen-Hum_Drum-(PT026)-WEB-2025-PTC.tar
+[07:03:03] << :[EWG]SoftKing!~ewg@ACB8F08F.509A19EC.92FBB3A5.IP PRIVMSG #ELITEWAREZ :13#423 0x [39.7M] Bridge.Constructor.Portable.Game.2026.tar
+[07:03:03] << :windoxDCC!~ewg@Rizon-273EB4E3.coreirc.net NOTICE DragonSlayer677 :Pack #63614 does not exist
+[07:03:03] [INFO] [Hunter.x.Hunter.S02] Pack #63614 does not exist
+[07:03:04] << :[EWG]-[TB-oldenB!~GERMAN@Rizon-5871E309.dip0.t-ipconnect.de PRIVMSG #ELITEWAREZ :#54    1x [1.6G] I.Am.Potential.2015.HDRip.XviD.AC3-iFT.tar
+[07:03:05] << :[EWG]dumpPorn!~ewg@5DC8CE39.B856B7DC.B987F727.IP PRIVMSG #ELITEWAREZ :08#1258 8x [296.3M] stunning18.25.09.05.beatrice.swann.pleasure.lover.mp4
+[07:03:06] << :windoxDCC!~ewg@Rizon-273EB4E3.coreirc.net PRIVMSG #ELITEWAREZ :03#22623 0x [1.5G] [ BlueTorrents.com ] World War II With Tom Hanks S01E09 Secrets And Lies 720p NOW WEB-DL AAC2 0 H 264-RAWR
+[07:03:06] << :[EWG]Nikita!~Nikita@A44E1591.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#16471 0x [933.0M] johan.et.pirlouit.e10.french.1080p.web.h264-d4kid.mkv
+[07:03:07] << :[EWG]Ongaku!~Ongaku@B1E84723.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#31038 0x [169.7M] Dr._John-Live_At_Rockpalast_1999-WEB-2026-QUAVER.tar
+[07:03:07] << :[EWG]-[TB-oldenB!~GERMAN@Rizon-5871E309.dip0.t-ipconnect.de PRIVMSG #ELITEWAREZ :#55    4x [547M] Dungeon.Punks-SKIDROW.tar
+[07:03:09] << :[EWG]GemuPC!~GemuPC@B1E84723.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#113 0x [1.2G] Adventure.of.Samsara.MacOS-I_KnoW.tar
+[07:03:10] << :windoxDCC!~ewg@Rizon-273EB4E3.coreirc.net PRIVMSG #ELITEWAREZ :10#22624 1x [2.6G] [ BlueTorrents.com ] World War II With Tom Hanks S01E09 Secrets And Lies 1080p AMZN WEB-DL DDP2 0 H 264-RAWR
+[07:03:10] << :[EWG]GemuCS!~GemuCS@B1E84723.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#4427 0x [9.7M] 1692 - Fire Emblem - Seima no Kouseki (J)(WRG).zip
+[07:03:10] << :[EWG]dumpPorn!~ewg@5DC8CE39.B856B7DC.B987F727.IP PRIVMSG #ELITEWAREZ :09#1259 7x [1.2G] shoplyftermylf.25.10.14.zoey.foxx.housewife.gets.caught.stealing.mp4
+[07:03:11] << :[EWG]SoftKing!~ewg@ACB8F08F.509A19EC.92FBB3A5.IP PRIVMSG #ELITEWAREZ :04#424 0x [21.5M] Brigador.Portable.Full.Download.Game.2026.tar
+[07:03:11] << :[EWG]-[TB-oldenB!~GERMAN@Rizon-5871E309.dip0.t-ipconnect.de PRIVMSG #ELITEWAREZ :#56    1x [173M] PLURALSIGHT.AWS.SECURITY.FUNDAMENTALS-JGTiSO.tar
+[07:03:14] << :windoxDCC!~ewg@Rizon-273EB4E3.coreirc.net PRIVMSG #ELITEWAREZ :02#22625 0x [1.6G] [ BlueTorrents.com ] World War II With Tom Hanks S01E08 Operation Torch 720p AMZN WEB-DL DDP2 0 H 264-RAWR
+[07:03:14] << :[EWG]MArchive!~MArchive@B1E84723.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#27285 0x [63.7M] Ilias_Katelanos_and_Plecta-Living_Dust-(MOVD0312)-WEB-2025-PTC.tar
+[07:03:15] << :[EWG]-[TB-oldenB!~GERMAN@Rizon-5871E309.dip0.t-ipconnect.de PRIVMSG #ELITEWAREZ :#57    2x [1.1G] Honey.3.Dare.to.Dance.2016.BDRip.x264-ROVERS.tar
+[07:03:15] << :[EWG]dumpPorn!~ewg@5DC8CE39.B856B7DC.B987F727.IP PRIVMSG #ELITEWAREZ :03#1260 15x [1.2G] sweetheartvideo.25.09.22.lolly.dames.and.millie.morgan.dripping.lesbian.wives.mp4
+[07:03:16] << :[EWG]Nikita!~Nikita@A44E1591.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#16472 0x [933.3M] johan.et.pirlouit.e11.french.1080p.web.h264-d4kid.mkv
+[07:03:18] << :windoxDCC!~ewg@Rizon-273EB4E3.coreirc.net PRIVMSG #ELITEWAREZ :12#22626 0x [382.0M] [ BlueTorrents.com ] OyeMami 26 06 16 Mishellxy XXX XviD-iPT Team
+[07:03:19] << :[EWG]Ongaku!~Ongaku@B1E84723.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#31039 1x [56.5M] EBK_Leebo-333-EP-WEB-2026-ENRiCH.tar
+[07:03:19] << :[EWG]Nikita4k!~Nikita4k@A44E1591.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#1304 0x [7.4G] sweet.magnolias.s03e06.multi.hdr.2160p.web.h265-higgsboson.mkv
+[07:03:19] << :[EWG]SoftKing!~ewg@ACB8F08F.509A19EC.92FBB3A5.IP PRIVMSG #ELITEWAREZ :07#425 0x [21.5M] Brigador.Portable.Full.Game.2026.tar
+[07:03:19] << :[EWG]-[TB-oldenB!~GERMAN@Rizon-5871E309.dip0.t-ipconnect.de PRIVMSG #ELITEWAREZ :#58    0x [544M] Reading.and.Leeds.Festival.2016.CHVRCHES.WEB.h264-ROFL.tar
+[07:03:20] << :[EWG]dumpPorn!~ewg@5DC8CE39.B856B7DC.B987F727.IP PRIVMSG #ELITEWAREZ :10#1261 13x [800.2M] feetishpov.22.07.22.geisha.kyd.the.orgasm.guru.mp4
+[07:03:21] << :[EWG]GemuPC!~GemuPC@B1E84723.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#114 0x [69.6M] Aeruta.Update.v1.1.0-TENOKE.tar
+[07:03:22] << :windoxDCC!~ewg@Rizon-273EB4E3.coreirc.net PRIVMSG #ELITEWAREZ :06#22627 0x [585.0M] [ BlueTorrents.com ] EvilAngel 26 06 16 Rosa Josefin XXX XviD-iPT Team
+[07:03:22] << :[EWG]GemuCS!~GemuCS@B1E84723.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#4428 0x [5.1M] 1693 - Tony Hawk's Underground 2 (U)(Venom).zip
+[07:03:23] << :[EWG]-[TB-oldenB!~GERMAN@Rizon-5871E309.dip0.t-ipconnect.de PRIVMSG #ELITEWAREZ :#59    0x [542M] Cycling.la.Vuelta.a.Espana.2016.Stage.6.WEB.x264-OVERTiME.tar
+[07:03:25] << :[EWG]dumpPorn!~ewg@5DC8CE39.B856B7DC.B987F727.IP PRIVMSG #ELITEWAREZ :02#1262 14x [808.2M] academypov.22.12.25.candee.licious.and.isabella.de.laa.one.more.exercise.mp4
+[07:03:26] << :windoxDCC!~ewg@Rizon-273EB4E3.coreirc.net PRIVMSG #ELITEWAREZ :13#22628 0x [10.0G] [ BlueTorrents.com ] For Your Consideration 2006 1080p BluRay x264-GeneMige
+[07:03:26] << :[EWG]Nikita!~Nikita@A44E1591.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#16473 0x [933.9M] johan.et.pirlouit.e16.final.french.1080p.web.h264-d4kid.mkv
+[07:03:26] << :[EWG]-[TB-oldenB!~GERMAN@Rizon-5871E309.dip0.t-ipconnect.de PRIVMSG #ELITEWAREZ :#60    2x [875M] The.4400.S01E01.720p.WEB.h264-DEFEATER.tar
+[07:03:26] << :[EWG]MArchive!~MArchive@B1E84723.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#27286 0x [40.4M] I_Saw_Daylight-Smilingisoverrated-(WEB)-2025-RUMBLE.tar
+[07:03:27] << :[EWG]SoftKing!~ewg@ACB8F08F.509A19EC.92FBB3A5.IP PRIVMSG #ELITEWAREZ :08#426 0x [21.5M] Bright.Memory.Portable.Full.Download.Game.2026.tar
+[07:03:30] << :windoxDCC!~ewg@Rizon-273EB4E3.coreirc.net PRIVMSG #ELITEWAREZ :04#22629 1x [2.7G] [ BlueTorrents.com ] World War II With Tom Hanks S01E08 Operation Torch 1080p AMZN WEB-DL DDP2 0 H 264-RAWR
+[07:03:30] << :[EWG]dumpPorn!~ewg@5DC8CE39.B856B7DC.B987F727.IP PRIVMSG #ELITEWAREZ :12#1263 8x [623.0M] backdoorpov.22.05.15.flora.fairy.flora.has.your.attention.mp4
+[07:03:31] << :[EWG]Ongaku!~Ongaku@B1E84723.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#31040 1x [39.0M] Edd_Enand-Wood_in_Motion-(PNTGN001)-WEB-2026-PTC.tar
+[07:03:31] << :[EWG]-[TB-oldenB!~GERMAN@Rizon-5871E309.dip0.t-ipconnect.de PRIVMSG #ELITEWAREZ :#61    2x [6.2M] TeraByte.Unlimited.BootIt.Bare.Metal.v1.34.Incl.Keygen.RETAIL-AMPED.tar
+[07:03:33] << :[EWG]GemuPC!~GemuPC@B1E84723.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#115 0x [569.9M] After.Long.Night-TENOKE.tar
+[07:03:34] << :windoxDCC!~ewg@Rizon-273EB4E3.coreirc.net PRIVMSG #ELITEWAREZ :07#22630 0x [1.5G] [ BlueTorrents.com ] World War II With Tom Hanks S01E09 Secrets And Lies 720p AMZN WEB-DL DDP2 0 H 264-RAWR
+[07:03:34] << :[EWG]GemuCS!~GemuCS@B1E84723.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#4429 0x [4.9M] 1694 - Mario Pinball Land (U)(Venom).zip
+[07:03:35] << :[EWG]SoftKing!~ewg@ACB8F08F.509A19EC.92FBB3A5.IP PRIVMSG #ELITEWAREZ :09#427 0x [39.9M] Bright.Memory.Portable.Game.2026.tar
+[07:03:35] << :[EWG]dumpPorn!~ewg@5DC8CE39.B856B7DC.B987F727.IP PRIVMSG #ELITEWAREZ :06#1264 4x [2.3G] bufu.25.08.26.lola.danger.mp4
+[07:03:36] << :[EWG]Nikita!~Nikita@A44E1591.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#16474 1x [319.9M] Believe.Me.2026.S01E01.1080p.HEVC.x265-MeGusta.mkv
+[07:03:36] << :[EWG]Nikita4k!~Nikita4k@A44E1591.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#1305 0x [7.5G] sweet.magnolias.s03e09.multi.hdr.2160p.web.h265-higgsboson.mkv
+[07:03:37] << :[EWG]-[TB-oldenB!~GERMAN@Rizon-5871E309.dip0.t-ipconnect.de PRIVMSG #ELITEWAREZ :#62    3x [ 52M] MICROSOFT.20480B.PART1.TRAINER.FILES.PROGRAMMING.IN.HTML5.WITH.JAVASCRIPT.AND.CSS3.TUTORIAL-kEISO.tar
+[07:03:38] << :windoxDCC!~ewg@Rizon-273EB4E3.coreirc.net PRIVMSG #ELITEWAREZ :08#22631 0x [355.0M] [ BlueTorrents.com ] Not Suitable for Work 2026 S01E06 720p x264-FENiX
+[07:03:38] << :[EWG]MArchive!~MArchive@B1E84723.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#27287 0x [85.5M] Initial_-_Organic_Chemicals-(BR00054)-WEB-2025-ZzZz.tar
+[07:03:40] << :[EWG]dumpPorn!~ewg@5DC8CE39.B856B7DC.B987F727.IP PRIVMSG #ELITEWAREZ :13#1265 9x [845.7M] evilangel.25.10.11.kianna.dior.pov.bj.titty.fuck.and.facial.mp4
+[07:03:41] << :[EWG]-[TB-oldenB!~GERMAN@Rizon-5871E309.dip0.t-ipconnect.de PRIVMSG #ELITEWAREZ :#63    0x [513M] Reading.and.Leeds.Festival.2016.Jack.Garratt.WEB.h264-ROFL.tar
+[07:03:42] << :windoxDCC!~ewg@Rizon-273EB4E3.coreirc.net PRIVMSG #ELITEWAREZ :09#22632 0x [4.2G] [ BlueTorrents.com ] Poldi (2026) 2160p 4K WEB 5 1-WORLD
+[07:03:43] << :[EWG]Ongaku!~Ongaku@B1E84723.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#31041 1x [137.6M] 3runo_Kaufmann-Back_to_Rave-(RS003)-WEB-2026-PTC.tar
+[07:03:43] << :[EWG]SoftKing!~ewg@ACB8F08F.509A19EC.92FBB3A5.IP PRIVMSG #ELITEWAREZ :03#428 0x [125.3M] Brilliant.Diamond.Shining.Pearl.Serial.tar
+[07:03:45] << :[EWG]-[TB-oldenB!~GERMAN@Rizon-5871E309.dip0.t-ipconnect.de PRIVMSG #ELITEWAREZ :#64    0x [687M] Reading.and.Leeds.Festival.2016.Imagine.Dragons.WEB.h264-ROFL.tar
+[07:03:45] << :[EWG]GemuPC!~GemuPC@B1E84723.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#116 0x [179.3M] After.Long.Night.Update.v20251106-TENOKE.tar
+[07:03:45] << :[EWG]dumpPorn!~ewg@5DC8CE39.B856B7DC.B987F727.IP PRIVMSG #ELITEWAREZ :04#1266 5x [456.2M] TabooHeat.25.10.17.Munro.Blaxxx.Rae.West.XXX.1080p.mp4
+[07:03:46] << :windoxDCC!~ewg@Rizon-273EB4E3.coreirc.net PRIVMSG #ELITEWAREZ :03#22633 0x [25.0G] [ BlueTorrents.com ] The Threesome 2025 1080p BluRay REMUX AVC DTS-HD MA 5 1-ATELiER
+[07:03:46] << :[EWG]Nikita!~Nikita@A44E1591.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#16475 3x [580.4M] The.Audacity.S01E06.1080p.HEVC.x265-MeGusta.mkv
+[07:03:46] << :[EWG]GemuCS!~GemuCS@B1E84723.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#4430 1x [5.1M] 1695 - Pokemon Fire Red (U)(Independent).zip
+[07:03:48] << :[EWG]Achleuhi_FR!~EWG]Achle@11DB6A47.F8A9A017.8F120497.IP PRIVMSG #ELITEWAREZ :08#4381 0x [780.7M] Sur écoute S05E07 - Un accent de Baltimore.mkv
+[07:03:49] << :[EWG]-[TB-oldenB!~GERMAN@Rizon-5871E309.dip0.t-ipconnect.de PRIVMSG #ELITEWAREZ :#65    0x [553M] Reading.and.Leeds.Festival.2016.Courteeners.WEB.h264-ROFL.tar
+[07:03:50] << :windoxDCC!~ewg@Rizon-273EB4E3.coreirc.net PRIVMSG #ELITEWAREZ :10#22634 0x [8.8G] [ BlueTorrents.com ] Spotify All New Music Pack Week 24 of 2026
+[07:03:50] << :oldbeng!~oldbeng@A237DD55:67397543:77F4CE5:IP QUIT :Ping timeout: 240 seconds
+[07:03:50] << :[EWG]Achleuhi_FR!~EWG]Achle@11DB6A47.F8A9A017.8F120497.IP PRIVMSG #ELITEWAREZ :08#4382 0x [803.1M] Sur écoute S04E10 - Dénonciations.mkv
+[07:03:50] << :[EWG]dumpPorn!~ewg@5DC8CE39.B856B7DC.B987F727.IP PRIVMSG #ELITEWAREZ :07#1267 8x [490.6M] lustery.e1877.be.and.ro.upon.reflection.mp4
+[07:03:50] << :[EWG]MArchive!~MArchive@B1E84723.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#27288 0x [7.0M] InnossB-Tia_Mutu-SINGLE-WEB-2025-AZF.tar
+[07:03:51] << :[EWG]SoftKing!~ewg@ACB8F08F.509A19EC.92FBB3A5.IP PRIVMSG #ELITEWAREZ :10#429 0x [131.5M] Broforce.Portable.Full.Download.Game.2026.tar
+[07:03:52] << :[EWG]Achleuhi_FR!~EWG]Achle@11DB6A47.F8A9A017.8F120497.IP PRIVMSG #ELITEWAREZ :08#4383 0x [801.9M] Sur écoute S04E06 - Jour de vote.mkv
+[07:03:53] << :[EWG]Nikita4k!~Nikita4k@A44E1591.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#1306 1x [4.0G] sweet.magnolias.s04e01.multi.hdr.2160p.web.h265-higgsboson.mkv
+[07:03:53] << :[EWG]-[TB-oldenB!~GERMAN@Rizon-5871E309.dip0.t-ipconnect.de PRIVMSG #ELITEWAREZ :#66    3x [701M] I.Am.Joe.2016.HDRip.DD2.0.x264-BDP.tar
+[07:03:54] << :windoxDCC!~ewg@Rizon-273EB4E3.coreirc.net PRIVMSG #ELITEWAREZ :02#22635 0x [10.9G] [ BlueTorrents.com ] Spotify All New Music Pack Week 23 of 2026
+[07:03:54] << :[EWG]Achleuhi_FR!~EWG]Achle@11DB6A47.F8A9A017.8F120497.IP PRIVMSG #ELITEWAREZ :08#4384 0x [804.7M] Sur écoute S04E08 - La logique du business.mkv
+[07:03:55] << :[EWG]Ongaku!~Ongaku@B1E84723.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#31042 1x [65.5M] Luna_Temmerman-Shes_a_Dancer-(LIGH005)-WEB-2026-PTC.tar
+[07:03:55] << :[EWG]dumpPorn!~ewg@5DC8CE39.B856B7DC.B987F727.IP PRIVMSG #ELITEWAREZ :08#1268 4x [932.3M] swm.25.10.03.allison.sweet.mp4
+[07:03:56] << :[EWG]Nikita!~Nikita@A44E1591.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#16476 0x [496.8M] Virgin.Island.S02E05.1080p.HEVC.x265-MeGusta.mkv
+[07:03:56] << :[EWG]-[TB-oldenB!~GERMAN@Rizon-5871E309.dip0.t-ipconnect.de PRIVMSG #ELITEWAREZ :#67    0x [231M] Night.Tube.The.First.Weekend.WEB.h264-ROFL.tar
+[07:03:56] << :[EWG]Achleuhi_FR!~EWG]Achle@11DB6A47.F8A9A017.8F120497.IP PRIVMSG #ELITEWAREZ :08#4385 0x [781.5M] Sur écoute S05E09 - Dernière édition.mkv
+[07:03:57] << :[EWG]GemuPC!~GemuPC@B1E84723.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#117 0x [4.9G] After.Prologue-TiNYiSO.tar
+[07:03:58] << :windoxDCC!~ewg@Rizon-273EB4E3.coreirc.net PRIVMSG #ELITEWAREZ :12#22636 0x [11.0M] [ BlueTorrents.com ] Image Comics - Lady Mechanika The Mechanical Menagerie No 02 2026 HYBRID COMIC eBook-21A1
+[07:03:58] << :[EWG]GemuCS!~GemuCS@B1E84723.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#4431 0x [1.6M] 1697 - Starsky & Hutch (U)(DCS).zip
+[07:03:58] << :[EWG]Achleuhi_FR!~EWG]Achle@11DB6A47.F8A9A017.8F120497.IP PRIVMSG #ELITEWAREZ :08#4386 0x [801.1M] Sur écoute S03E09 - Au-delà des règles.mkv
+[07:03:59] << :[EWG]SoftKing!~ewg@ACB8F08F.509A19EC.92FBB3A5.IP PRIVMSG #ELITEWAREZ :02#430 0x [118.1M] Brother.iPrint.Scan.App.Mod.tar
+[07:04:00] << :[EWG]Achleuhi_FR!~EWG]Achle@11DB6A47.F8A9A017.8F120497.IP PRIVMSG #ELITEWAREZ :08#4387 0x [805.7M] Sur écoute S04E05 - Chacun son pacte.mkv
+[07:04:00] << :[EWG]dumpPorn!~ewg@5DC8CE39.B856B7DC.B987F727.IP PRIVMSG #ELITEWAREZ :09#1269 4x [2.1G] brazzersexxtra.25.10.08.ashlyn.peaks.and.baby.gemini.my.wifes.sub.mp4
+[07:04:02] << :windoxDCC!~ewg@Rizon-273EB4E3.coreirc.net PRIVMSG #ELITEWAREZ :06#22637 0x [11.0M] [ BlueTorrents.com ] Image Comics - GI Joe A Real American Hero No 329 2026 HYBRID COMIC eBook-21A1
+[07:04:02] << :[EWG]Achleuhi_FR!~EWG]Achle@11DB6A47.F8A9A017.8F120497.IP PRIVMSG #ELITEWAREZ :08#4388 0x [781.4M] Sur écoute S05E04 - Les temps changent.mkv
+[07:04:02] << :[EWG]MArchive!~MArchive@B1E84723.B266744.4249C630.IP PRIVMSG #ELITEWAREZ :#27289 0x [18.6M] Ian_Climax_and_AlchemistDeep-I_Want_You-(CYAT92)-SINGLE-WEB-2025-PTC.tar
+[07:04:03] << :[EWG]-[TB-oldenB!~GERMAN@Rizon-5871E309.dip0.t-ipconnect.de PRIVMSG #ELITEWAREZ :#68    2x [7.7G] MICROSOFT.20486B.PART2.VIRTUAL.MACHINES.DEVELOPING.ASP.NET.MVC.4.WEB.APPLICATIONS.VS.2012.BASES.TUTORIAL-kEISO.tar
+[07:04:04] [ERROR] [Hunter.x.Hunter.S02] Timeout – Bot hat nicht geantwortet
+[07:04:04] >> QUIT :bye
+[07:04:04] [WARNING] [Hunter.x.Hunter.S02] Überspringe windoxDCC (zu viele Fehlversuche)
+[07:04:04] [WARNING] [Hunter.x.Hunter.S02] Überspringe windoxDCC (zu viele Fehlversuche)
+[07:04:04] [WARNING] [Hunter.x.Hunter.S02] Überspringe windoxDCC (zu viele Fehlversuche)
+[07:04:04] [WARNING] [Hunter.x.Hunter.S02] Überspringe windoxDCC (zu viele Fehlversuche)
+[07:04:04] [WARNING] [Hunter.x.Hunter.S02] Überspringe windoxDCC (zu viele Fehlversuche)
+[07:04:04] [WARNING] [Hunter.x.Hunter.S02] Überspringe windoxDCC (zu viele Fehlversuche)
+[07:04:04] [WARNING] [Hunter.x.Hunter.S02] Überspringe windoxDCC (zu viele Fehlversuche)
+[07:04:04] [WARNING] [Hunter.x.Hunter.S02] Überspringe windoxDCC (zu viele Fehlversuche)
+[07:04:04] [WARNING] [Hunter.x.Hunter.S02] Überspringe windoxDCC (zu viele Fehlversuche)
+[07:04:04] [WARNING] [Hunter.x.Hunter.S02] Überspringe windoxDCC (zu viele Fehlversuche)
+[07:04:04] [WARNING] [Hunter.x.Hunter.S02] Überspringe windoxDCC (zu viele Fehlversuche)
+[07:04:04] [WARNING] [Hunter.x.Hunter.S02] Überspringe windoxDCC (zu viele Fehlversuche)
+[07:04:04] [WARNING] [Hunter.x.Hunter.S02] Überspringe windoxDCC (zu viele Fehlversuche)
+[07:04:04] [ERROR] [Hunter.x.Hunter.S02] fehlgeschlagen
+[07:04:04] [INFO] [Hunter.x.Hunter.S03] Suche: Hunter x Hunter S03
+[07:04:05] << :jagged.ca.us.abjects.net NOTICE * :*** Looking up your hostname...
+[07:04:05] << :jagged.ca.us.abjects.net NOTICE * :*** Checking ident...
+[07:04:05] << :jagged.ca.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[07:04:09] << :jagged.ca.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[07:04:10] >> JOIN #beast-chat
+[07:04:10] << :jagged.ca.us.abjects.net 396 RogueAce632 C3A97A5D.6C525672.7F20E47C.IP :is now your displayed host
+[07:04:11] << :RogueAce632!~RogueAce6@C3A97A5D.6C525672.7F20E47C.IP JOIN :#beast-chat
+[07:04:12] >> PRIVMSG #beast-chat :!s Hunter x Hunter S03
+[07:04:12] << :jagged.ca.us.abjects.net 332 RogueAce632 #beast-chat :Welcome to #BEAST-XDCC  (Search:ONLINE) (Requests:ONLINE) ~ added !get command ~ !top or !topger to see most leeched releases, can be filtered by days ~ Please use !german for latest GERMAN releases only ~ commands; !latest !german !search !request !get !top !topger !tv !tvger !games ~ For more commands use !help ~ Have something to offer? Msg an ~ 
+[07:04:12] << :jagged.ca.us.abjects.net 333 RogueAce632 #beast-chat devnull!~qlimax@beastmo.de 1779527540
+[07:04:12] << :databeast!~databeast@the.beast NOTICE RogueAce632 :04SEARCH RESULTS LIMITED TO 100 PACKS
+[07:04:12] << :databeast!~databeast@the.beast NOTICE RogueAce632 :04(148.7G04) 14Hunter.x.Hunter.S03.German.DL.AC3.720p.BluRay.x264-Fuuko.tar04 (141314x04)14 /msg 14BEAST-X-JOKER14 xdcc send #14570
+[07:04:12] << :Smilertoo!~smilertoo@abjects-3DFAEDBC.vm40.cable.virginm.net JOIN :#beast-chat
+[07:04:19] >> QUIT :bye
+[07:04:35] << :neptune.ny.us.abjects.net NOTICE * :*** Looking up your hostname...
+[07:04:35] << :neptune.ny.us.abjects.net NOTICE * :*** Checking ident...
+[07:04:35] << :neptune.ny.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[07:04:38] << :neptune.ny.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[07:04:39] >> JOIN #mg-chat
+[07:04:39] << :neptune.ny.us.abjects.net 396 ToxicVenom342 C3A97A5D.6C525672.7F20E47C.IP :is now your displayed host
+[07:04:39] << :ToxicVenom342!~ToxicVeno@C3A97A5D.6C525672.7F20E47C.IP JOIN :#mg-chat
+[07:04:40] >> PRIVMSG #mg-chat :!s Hunter x Hunter S03
+[07:04:40] << :neptune.ny.us.abjects.net 332 ToxicVenom342 #mg-chat : Welcome to Moviegods Chat - If you are new to this type !help - Join #MG-Lounge for requests/questions/comments/tv-subs/spam free chat -//- Join #MG-Help for help - Donations earn VIP perks  - Join #MG-donations for info
+[07:04:40] << :neptune.ny.us.abjects.net 333 ToxicVenom342 #mg-chat katsper!Kat@Sex.With.Leather.Clad.Women.is.Hot 1728087751
+[07:04:41] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE ToxicVenom342 :15,01   )07 #MOVIEGODS - Found 0 ONLINE Packs (0 Bots) = Total GETS: 0.
+[07:04:44] << :skinny077!~skinny07@C2D4325B.4A3D0117.C551D39.IP JOIN :#mg-chat
+[07:04:47] >> QUIT :bye
+[07:04:47] << :killer.abandoned-irc.net NOTICE * :*** Looking up your hostname...
+[07:04:47] << :killer.abandoned-irc.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[07:04:49] >> JOIN #ZW-CHAT
+[07:04:49] << :killer.abandoned-irc.net 396 RogueAce791 9457BFBC.35B0CB26.E30ED253.IP :is now your displayed host
+[07:04:49] << :RogueAce791!RogueAce79@9457BFBC.35B0CB26.E30ED253.IP JOIN :#ZW-CHAT
+[07:04:50] >> PRIVMSG #ZW-CHAT :!search Hunter x Hunter S03
+[07:04:50] << :killer.abandoned-irc.net 332 RogueAce791 #ZW-CHAT :12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12=[04Searchbot]-[09ONLINE]- Triggers: !help !search !latest !subscriptions !topdl !hot !recommended !movies !music !tv !apps !games !ebook !xxx !mobile | Web: http://www.Abandoned-IRC.net/
+[07:04:50] << :killer.abandoned-irc.net 333 RogueAce791 #ZW-CHAT [ZOMBIE]-LATEST!Abandoned-@zombie.warez 1781827870
+[07:04:50] << :Zombie!ZW@ZoMbIe.WaReZ NOTICE RogueAce791 :[#ZW-CHAT] 12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12= we are looking for experienced ROOTERS/DEDi/BOXOWNERS . interested? use !joinZW
+[07:04:50] << :[o_0]!Zombies@Zombie.Warez NOTICE RogueAce791 : ________________________________________________________________________________________________________________
+[07:04:50] << :[o_0]!Zombies@Zombie.Warez NOTICE RogueAce791 : 1).                            (Zombie-Winter - Used: 1/10 Speed: 54.6KB/s)
+[07:04:50] << :[o_0]!Zombies@Zombie.Warez NOTICE RogueAce791 :
+[07:04:50] << :[o_0]!Zombies@Zombie.Warez NOTICE RogueAce791 :        0x [ 18G] Hunter.x.Hunter.2011.S03.REPACK.1080p.CR.WEB-DL.DUAL.FLAC2.0.H.264-Kitsune.tar -( Command: /MSG Zombie-Winter XDCC SEND #100 )
+[07:04:52] << :[o_0]!Zombies@Zombie.Warez NOTICE RogueAce791 :
+[07:04:52] << :[o_0]!Zombies@Zombie.Warez NOTICE RogueAce791 : ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+[07:04:52] << :[o_0]!Zombies@Zombie.Warez NOTICE RogueAce791 :End of Results. Found: 1 ONLINE packs (1 Bots = 0 Gets) matching "Hunter*x*Hunter*S03"
+[07:04:55] >> QUIT :bye
+[07:04:56] [INFO] [Hunter.x.Hunter.S03] Versuch 1/2: Hunter.x.Hunter.S03.German.DL.AC3.720p.BluRay.x264-Fuuko.tar (irc.abjects.net #beast-xdcc)
+[07:04:56] [INFO] [Hunter.x.Hunter.S03] Warte 8s vor erneuter Verbindung zu irc.abjects.net
+[07:05:05] << :jagged.ca.us.abjects.net NOTICE * :*** Looking up your hostname...
+[07:05:05] << :jagged.ca.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[07:05:05] << :jagged.ca.us.abjects.net NOTICE * :*** Checking ident...
+[07:05:10] << :jagged.ca.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[07:05:10] << PING :1B840E60
+[07:05:11] >> JOIN #beast-xdcc
+[07:05:11] << :jagged.ca.us.abjects.net 396 VoidWalker307 C3A97A5D.6C525672.7F20E47C.IP :is now your displayed host
+[07:05:12] << :VoidWalker307!~VoidWalke@C3A97A5D.6C525672.7F20E47C.IP JOIN :#beast-xdcc
+[07:05:12] << :jagged.ca.us.abjects.net 332 VoidWalker307 #beast-xdcc :#BEAST-XDCC //   BLAZING SPEEDS ~ PROPER PACKS   //   join #BEAST-CHAT for Search and much more.
+[07:05:12] << :jagged.ca.us.abjects.net 333 VoidWalker307 #beast-xdcc dbeast 1705098478
+[07:05:12] << :BEAST-X-ABYSS!~beast@untamed.beast PRIVMSG #beast-xdcc :#1328 13x [9.5G] Ausser.Kontrolle.1996.German.DTS.DL.1080p.BluRay.x264-c0nFuSed.tar
+[07:05:12] [INFO] [Hunter.x.Hunter.S03] /msg beast-x-joker xdcc send #570
+[07:05:13] >> PRIVMSG beast-x-joker :xdcc send #570
+[07:05:13] << :BEAST-X-GSTAR!~beast@untamed.beast PRIVMSG #beast-xdcc :#292 11x [ 12G] House.Flipper.Remastered.Collection-RUNE.tar
+[07:05:13] << :BEAST-X-UNSTABLE!~beast@untamed.beast PRIVMSG #beast-xdcc :#300 12x [1.5G] Schimanski.2002.Asyl.German.Ac3.DvDrip.x264-AG.mkv
+[07:05:13] << :BEAST-X-VAMPED!~beast@78A23D98.43CB05D2.66866862.IP PRIVMSG #beast-xdcc :#298 15x [1.3G] daemonen.1986.remastered.german.bdrip.x264-contribution.mkv
+[07:05:13] << :BEAST-X-NEWBIE!~beast@untamed.beast PRIVMSG #beast-xdcc :#299  22x [ 31G] Gothic.1.Remake.v1.0.(91407)-GOG.tar
+[07:05:13] << :BEAST-X-KURUPT!~beast@untamed.beast PRIVMSG #beast-xdcc :#294 14x [4.2G] The.Drownsman.2014.GERMAN.DL.1080p.BluRay.x264-UNiVERSUM.tar
+[07:05:14] << :BEAST-X-ARISE!~beast@untamed.beast PRIVMSG #beast-xdcc :#297  12x [1.8G] Vier.Faeuste.Gegen.Rio.1984.German.AC3.BDRip.x264-AG.mkv
+[07:05:14] << :BEAST-X-JOKER!~beast@untamed.beast NOTICE VoidWalker307 :** Sending you pack #570 ("Hunter.x.Hunter.S03.German.DL.AC3.720p.BluRay.x264-Fuuko.tar"), which is 8.7GB. (resume supported)
+[07:05:14] [INFO] [Hunter.x.Hunter.S03] ** Sending you pack #570 ("Hunter.x.Hunter.S03.German.DL.AC3.720p.BluRay.x264-Fuuko.tar"), which is 8.7GB. (resume supported)
+[07:05:14] << :BEAST-X-JOKER!~beast@untamed.beast PRIVMSG VoidWalker307 :DCC SEND Hunter.x.Hunter.S03.German.DL.AC3.720p.BluRay.x264-Fuuko.tar 3418141710 43441 9393766400
+[07:07:29] >> QUIT :bye
+[07:07:29] [SUCCESS] [Hunter.x.Hunter.S03] Download fertig: Hunter.x.Hunter.S03.German.DL.AC3.720p.BluRay.x264-Fuuko.tar
+[07:08:57] [SUCCESS] [Hunter.x.Hunter.S03] fertig & einsortiert
+
+============================================================
+=== Lauf beendet: 2026-06-29 07:08:57 | ok: 2, fehlgeschlagen: 2 ===
+============================================================

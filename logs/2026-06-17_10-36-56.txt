@@ -1,0 +1,71 @@
+
+============================================================
+=== Lauf gestartet: 2026-06-17 10:36:56 ===
+============================================================
+[10:36:56] [INFO] [Greys.Anatomy.S22E14] Suche: Greys Anatomy S22E14
+[10:36:56] << :jagged.ca.us.abjects.net NOTICE * :*** Looking up your hostname...
+[10:36:56] << :jagged.ca.us.abjects.net NOTICE * :*** Checking ident...
+[10:36:57] << :jagged.ca.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[10:37:00] << :jagged.ca.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[10:37:02] >> JOIN #beast-chat
+[10:37:02] << :jagged.ca.us.abjects.net 396 GhostRider296 2668F1DF.6C525672.7F20E47C.IP :is now your displayed host
+[10:37:02] << :GhostRider296!~GhostRide@2668F1DF.6C525672.7F20E47C.IP JOIN :#beast-chat
+[10:37:03] >> PRIVMSG #beast-chat :!s Greys Anatomy S22E14
+[10:37:03] << :jagged.ca.us.abjects.net 332 GhostRider296 #beast-chat :Welcome to #BEAST-XDCC  (Search:ONLINE) (Requests:ONLINE) ~ added !get command ~ !top or !topger to see most leeched releases, can be filtered by days ~ Please use !german for latest GERMAN releases only ~ commands; !latest !german !search !request !get !top !topger !tv !tvger !games ~ For more commands use !help ~ Have something to offer? Msg an ~ 
+[10:37:03] << :jagged.ca.us.abjects.net 333 GhostRider296 #beast-chat devnull!~qlimax@beastmo.de 1779527540
+[10:37:04] << :databeast!~databeast@the.beast NOTICE GhostRider296 :04No packs found matching your search criteria.
+[10:37:10] >> QUIT :bye
+[10:37:10] << :heimdall.no.eu.abjects.net NOTICE * :*** Looking up your hostname...
+[10:37:10] << :heimdall.no.eu.abjects.net NOTICE * :*** Checking ident...
+[10:37:11] << :heimdall.no.eu.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[10:37:14] << :heimdall.no.eu.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[10:37:15] >> JOIN #mg-chat
+[10:37:15] << :heimdall.no.eu.abjects.net 396 CrimsonFox559 2668F1DF.6C525672.7F20E47C.IP :is now your displayed host
+[10:37:15] << :CrimsonFox559!~CrimsonFo@2668F1DF.6C525672.7F20E47C.IP JOIN :#mg-chat
+[10:37:16] >> PRIVMSG #mg-chat :!s Greys Anatomy S22E14
+[10:37:16] << :heimdall.no.eu.abjects.net 332 CrimsonFox559 #mg-chat : Welcome to Moviegods Chat - If you are new to this type !help - Join #MG-Lounge for requests/questions/comments/tv-subs/spam free chat -//- Join #MG-Help for help - Donations earn VIP perks  - Join #MG-donations for info
+[10:37:16] << :heimdall.no.eu.abjects.net 333 CrimsonFox559 #mg-chat katsper!Kat@Sex.With.Leather.Clad.Women.is.Hot 1728087751
+[10:37:16] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE CrimsonFox559 :00,0100115)10   0x04 |10 977M04 |10 greys.anatomy.s22e14.720p.web.h264-sylix.mkv04 |09 /msg [MG]-HDTV|EU|S|Lumieres XDCC SEND 225 04|00 Used: 0.00% 0/10 (1m24s ago)04 
+[10:37:17] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE CrimsonFox559 :00,0100215)10   3x04 |10 419M04 |10 Greys.Anatomy.S22E14.Wrecking.Ball.1080p.HEVC.x265-MeGusta.mkv04 |09 /msg [MG]-MISC|EU|S|CriticalMass_ XDCC SEND 129 04|00 Used: 32.80% 7/10 avg: 3.39MiB/s (1m1s ago)04 
+[10:37:17] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE CrimsonFox559 :15,01   )07 #MOVIEGODS - Found 2 ONLINE Packs (2 Bots) = Total GETS: 3.
+[10:37:22] << :zfkm59!~zfkm59@74108637.5821F14E.754AC0F8.IP PRIVMSG #mg-chat :!l 199 german
+[10:37:22] >> QUIT :bye
+[10:37:22] << :horde.abandoned-irc.net NOTICE * :*** Looking up your hostname...
+[10:37:22] << :horde.abandoned-irc.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[10:37:24] >> JOIN #ZW-CHAT
+[10:37:24] << :horde.abandoned-irc.net 396 StormBreaker618 A87883A9.35B0CB26.E30ED253.IP :is now your displayed host
+[10:37:24] << :StormBreaker618!StormBreak@A87883A9.35B0CB26.E30ED253.IP JOIN :#zw-chat
+[10:37:25] >> PRIVMSG #ZW-CHAT :!search Greys Anatomy S22E14
+[10:37:25] << :horde.abandoned-irc.net 332 StormBreaker618 #zw-chat :12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12=[04Searchbot]-[09ONLINE]- Triggers: !help !search !latest !subscriptions !topdl !hot !recommended !movies !music !tv !apps !games !ebook !xxx !mobile | Web: http://www.Abandoned-IRC.net/
+[10:37:25] << :horde.abandoned-irc.net 333 StormBreaker618 #zw-chat lurk3r!jj@zombie.warez 1779866923
+[10:37:25] << :Zombie!ZW@ZoMbIe.WaReZ NOTICE StormBreaker618 :[#ZW-CHAT] 12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12= we are looking for experienced ROOTERS/DEDi/BOXOWNERS . interested? use !joinZW
+[10:37:25] << :[ZOMBIE]-Homer!ZOMBIE-Hom@Zombie.Warez KICK #zw-chat CutCat :(Clone/Duplicate Blacklisted)
+[10:37:25] << :[ZOMBIE]-Homer!ZOMBIE-Hom@Zombie.Warez KICK #zw-chat StormBreaker618 :(Clone/Duplicate Blacklisted )
+[10:37:25] << :horde.abandoned-irc.net 404 StormBreaker618 #zw-chat :No external channel messages (#ZW-CHAT)
+[10:37:31] >> QUIT :bye
+[10:37:32] [INFO] [Greys.Anatomy.S22E14] Versuch 1/15: Greys.Anatomy.S22E14.Wrecking.Ball.1080p.HEVC.x265-MeGusta.mkv (irc.abjects.net #moviegods)
+[10:37:32] << :arse.nl.eu.abjects.net NOTICE * :*** Looking up your hostname...
+[10:37:32] << :arse.nl.eu.abjects.net NOTICE * :*** Checking ident...
+[10:37:32] << :arse.nl.eu.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[10:37:36] << :arse.nl.eu.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[10:37:36] << PING :5432CDE1
+[10:37:37] >> JOIN #moviegods
+[10:37:37] << :arse.nl.eu.abjects.net 396 BlazeFury043 2668F1DF.6C525672.7F20E47C.IP :is now your displayed host
+[10:37:37] << :BlazeFury043!~BlazeFury@2668F1DF.6C525672.7F20E47C.IP JOIN :#moviegods
+[10:37:37] << :arse.nl.eu.abjects.net 332 BlazeFury043 #moviegods : Welcome to #MOVIEGODS - If you are new to this type !help -//- Join #mg-chat to download -//- Join #MG-Lounge for requests/questions/comments/tv-subs/spam free chat -//-  Join #MG-Help for help -//- Donations get VIP perks  -  Join #MG-donations for info
+[10:37:37] << :arse.nl.eu.abjects.net 333 BlazeFury043 #moviegods katsper!Kat@Sex.With.Leather.Clad.Women.is.Hot 1728068851
+[10:37:37] << :[MG]-FUN|EU|S|FunFiles!~root@abjects-3DFC1E70.ip-54-39-128.net PRIVMSG #moviegods :#1219   2x [8.9G] Longmire.S02.German.AC3D.DL.1080p.BDRip.x265-FuN.tar
+[10:37:37] [INFO] [Greys.Anatomy.S22E14] /msg [mg]-misc|eu|s|criticalmass_ xdcc send #129
+[10:37:38] >> PRIVMSG [mg]-misc|eu|s|criticalmass_ :xdcc send #129
+[10:37:38] << :[MG]-MISC|EU|S|CriticalMass!~root@FA99A4D5.F8DB83E6.F8D95EFD.IP PRIVMSG #moviegods :#14     2x [8.7G] Edge.of.Darkness.2010.1080p.BluRay.DTS.x264-HiDt.mkv
+[10:37:38] << :[MG]-HDTV|EU|S|FruityPebbles!~root@abjects-E0F9D77D.clients.your-server.de PRIVMSG #moviegods :#450   0x [774M] Syke.S23E01.FiNNiSH.1080p.WEB.H264-FECT.mkv
+[10:37:38] << :[MG]-MISC|EU|S|CriticalMass_!~root@FA99A4D5.F8DB83E6.F8D95EFD.IP PRIVMSG #moviegods :#875    3x [8.2G] Paw.Patrol.S04.WEBRip.AAC.5.1.1080p.x265-PoF.tar
+[10:37:38] << :[MG]-FUN|EU|S|FunFiles!~root@abjects-3DFC1E70.ip-54-39-128.net PRIVMSG #moviegods :#1220  35x [1.9G] Der.Super.Mario.Bros.Film.2023.German.AC3.DL.1080p.BluRay.x265-FuN.mkv
+[10:37:38] << :[MG]-MISC|EU|S|CriticalMass_!~root@FA99A4D5.F8DB83E6.F8D95EFD.IP PRIVMSG BlazeFury043 :DCC SEND Greys.Anatomy.S22E14.Wrecking.Ball.1080p.HEVC.x265-MeGusta.mkv 1607680135 29006 438993093
+[10:37:45] >> QUIT :bye
+[10:37:45] [SUCCESS] [Greys.Anatomy.S22E14] Download fertig: Greys.Anatomy.S22E14.Wrecking.Ball.1080p.HEVC.x265-MeGusta.mkv
+[10:37:45] [SUCCESS] [Greys.Anatomy.S22E14] fertig & einsortiert
+
+============================================================
+=== Lauf beendet: 2026-06-17 10:37:45 | ok: 1, fehlgeschlagen: 0 ===
+============================================================

@@ -1,0 +1,77 @@
+
+============================================================
+=== Lauf gestartet: 2026-06-28 15:11:25 ===
+============================================================
+[15:11:25] [INFO] [The.All-Devouring.Whale.Homecoming] Suche: The All Devouring Whale Homecoming
+[15:11:25] << :stormy.fr.eu.abjects.net NOTICE * :*** Looking up your hostname...
+[15:11:25] << :stormy.fr.eu.abjects.net NOTICE * :*** Checking ident...
+[15:11:25] << :stormy.fr.eu.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[15:11:29] << :stormy.fr.eu.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[15:11:30] >> JOIN #beast-chat
+[15:11:30] << :stormy.fr.eu.abjects.net 396 SilentSniper119 D81C46CB.6C525672.7F20E47C.IP :is now your displayed host
+[15:11:30] << :SilentSniper119!~SilentSni@D81C46CB.6C525672.7F20E47C.IP JOIN :#beast-chat
+[15:11:31] >> PRIVMSG #beast-chat :!s The All Devouring Whale Homecoming
+[15:11:31] << :stormy.fr.eu.abjects.net 332 SilentSniper119 #beast-chat :Welcome to #BEAST-XDCC  (Search:ONLINE) (Requests:ONLINE) ~ added !get command ~ !top or !topger to see most leeched releases, can be filtered by days ~ Please use !german for latest GERMAN releases only ~ commands; !latest !german !search !request !get !top !topger !tv !tvger !games ~ For more commands use !help ~ Have something to offer? Msg an ~ 
+[15:11:31] << :stormy.fr.eu.abjects.net 333 SilentSniper119 #beast-chat devnull!~qlimax@beastmo.de 1779527540
+[15:11:32] << :databeast!~databeast@the.beast NOTICE SilentSniper119 :04No packs found matching your search criteria.
+[15:11:38] >> QUIT :bye
+[15:11:55] << :sharpshooter.ny.us.abjects.net NOTICE * :*** Looking up your hostname...
+[15:11:55] << :sharpshooter.ny.us.abjects.net NOTICE * :*** Checking ident...
+[15:11:55] << :sharpshooter.ny.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[15:11:59] << :sharpshooter.ny.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[15:12:00] >> JOIN #mg-chat
+[15:12:00] << :sharpshooter.ny.us.abjects.net 396 ThunderStrike596 D81C46CB.6C525672.7F20E47C.IP :is now your displayed host
+[15:12:00] << :ThunderStrike596!~ThunderSt@D81C46CB.6C525672.7F20E47C.IP JOIN :#mg-chat
+[15:12:01] >> PRIVMSG #mg-chat :!s The All Devouring Whale Homecoming
+[15:12:01] << :sharpshooter.ny.us.abjects.net 332 ThunderStrike596 #mg-chat : Welcome to Moviegods Chat - If you are new to this type !help - Join #MG-Lounge for requests/questions/comments/tv-subs/spam free chat -//- Join #MG-Help for help - Donations earn VIP perks  - Join #MG-donations for info
+[15:12:01] << :sharpshooter.ny.us.abjects.net 333 ThunderStrike596 #mg-chat katsper!Kat@Sex.With.Leather.Clad.Women.is.Hot 1728087751
+[15:12:02] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE ThunderStrike596 :15,01   )07 #MOVIEGODS - Found 0 ONLINE Packs (0 Bots) = Total GETS: 0.
+[15:12:04] << :Venom2000!UTolken2Me@Pippin.Aint.Easy PRIVMSG #mg-chat :!topdl
+[15:12:07] >> QUIT :bye
+[15:12:07] << :chaos.abandoned-irc.net NOTICE * :*** Looking up your hostname...
+[15:12:08] << :chaos.abandoned-irc.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[15:12:09] >> JOIN #ZW-CHAT
+[15:12:09] << :chaos.abandoned-irc.net 396 ApexPredator853 D1D66015.35B0CB26.E30ED253.IP :is now your displayed host
+[15:12:09] << :ApexPredator853!ApexPredat@D1D66015.35B0CB26.E30ED253.IP JOIN :#zw-chat
+[15:12:10] >> PRIVMSG #ZW-CHAT :!search The All Devouring Whale Homecoming
+[15:12:10] << :chaos.abandoned-irc.net 332 ApexPredator853 #zw-chat :12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12=[04Searchbot]-[09ONLINE]- Triggers: !help !search !latest !subscriptions !topdl !hot !recommended !movies !music !tv !apps !games !ebook !xxx !mobile | Web: http://www.Abandoned-IRC.net/
+[15:12:10] << :chaos.abandoned-irc.net 333 ApexPredator853 #zw-chat [ZOMBIE]-LATEST!Abandoned-@zombie.warez 1781827870
+[15:12:10] << :Zombie!ZW@ZoMbIe.WaReZ NOTICE ApexPredator853 :[#ZW-CHAT] 12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12= we are looking for experienced ROOTERS/DEDi/BOXOWNERS . interested? use !joinZW
+[15:12:10] << :[o_0]!Zombies@Zombie.Warez NOTICE ApexPredator853 : ________________________________________________________________________________________________________________
+[15:12:10] << :[o_0]!Zombies@Zombie.Warez NOTICE ApexPredator853 : 1).                            (Zombie-Winter - Used: 0/10 Speed: 0B/s)
+[15:12:10] << :[o_0]!Zombies@Zombie.Warez NOTICE ApexPredator853 :
+[15:12:10] << :[o_0]!Zombies@Zombie.Warez NOTICE ApexPredator853 :        1x [ 12G] The.All-Devouring.Whale.Homecoming.S01.1080p.AMZN.WEB-DL.DDP2.0.H.264-Kitsune.tar -( Command: /MSG Zombie-Winter XDCC SEND #102 )
+[15:12:12] << :[o_0]!Zombies@Zombie.Warez NOTICE ApexPredator853 :
+[15:12:12] << :[o_0]!Zombies@Zombie.Warez NOTICE ApexPredator853 : ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+[15:12:12] << :[o_0]!Zombies@Zombie.Warez NOTICE ApexPredator853 :End of Results. Found: 1 ONLINE packs (1 Bots = 1 Gets) matching "The*All*Devouring*Whale*Homecoming"
+[15:12:15] >> QUIT :bye
+[15:12:17] [INFO] [The.All-Devouring.Whale.Homecoming] Versuch 1/1: The.All-Devouring.Whale.Homecoming.S01.1080p.AMZN.WEB-DL.DDP2.0.H.264-Kitsune.tar (irc.abandoned-irc.net #zombie-warez)
+[15:12:17] [INFO] [The.All-Devouring.Whale.Homecoming] Warte 20s vor erneuter Verbindung zu irc.abandoned-irc.net
+[15:12:37] << :chaos.abandoned-irc.net NOTICE * :*** Looking up your hostname...
+[15:12:37] << :chaos.abandoned-irc.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[15:12:39] << PING :4C743132
+[15:12:39] >> JOIN #ZW-CHAT
+[15:12:39] >> JOIN #zombie-warez
+[15:12:39] << :chaos.abandoned-irc.net 396 NightHawk955 D1D66015.35B0CB26.E30ED253.IP :is now your displayed host
+[15:12:39] << :NightHawk955!NightHawk9@D1D66015.35B0CB26.E30ED253.IP JOIN :#zw-chat
+[15:12:39] << :chaos.abandoned-irc.net 332 NightHawk955 #zw-chat :12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12=[04Searchbot]-[09ONLINE]- Triggers: !help !search !latest !subscriptions !topdl !hot !recommended !movies !music !tv !apps !games !ebook !xxx !mobile | Web: http://www.Abandoned-IRC.net/
+[15:12:39] << :chaos.abandoned-irc.net 333 NightHawk955 #zw-chat [ZOMBIE]-LATEST!Abandoned-@zombie.warez 1781827870
+[15:12:39] << :NightHawk955!NightHawk9@D1D66015.35B0CB26.E30ED253.IP JOIN :#zombie-warez
+[15:12:39] << :chaos.abandoned-irc.net 332 NightHawk955 #zombie-warez :12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12=[04Searchbot]-[09ONLINE]- Join #ZW-CHAT for Search, subscriptions, and chat! | BoxOwners/Rooters Needed | -catcher -bottler
+[15:12:39] << :chaos.abandoned-irc.net 333 NightHawk955 #zombie-warez [ZOMBIE]-LATEST!Abandoned-@zombie.warez 1781827870
+[15:12:40] << :Zombie!ZW@ZoMbIe.WaReZ NOTICE NightHawk955 :[#ZW-CHAT] 12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12= we are looking for experienced ROOTERS/DEDi/BOXOWNERS . interested? use !joinZW
+[15:12:40] [INFO] [The.All-Devouring.Whale.Homecoming] /msg zombie-winter xdcc send #132
+[15:12:41] >> PRIVMSG zombie-winter :xdcc send #132
+[15:12:41] << :Zombie!ZW@ZoMbIe.WaReZ NOTICE NightHawk955 :[#ZOMBIE-WAREZ] 4!!!WARNING!!! YOU MUST IDLE IN #ZW-CHAT - IF YOU ATTEMPT TO DOWNLOAD WITHOUT BEING IN #ZW-CHAT YOU WILL BE BANNED!
+[15:12:41] << :Zombie-EyePopper!twist3d@Zombie-Bot PRIVMSG #zombie-warez :#235  0x [3.1G] 14Queen.Of.The.South.S03E08.1080p.AMZN.WEB-DL.DD5.1.H.264-NTb.mkv
+[15:12:41] << :Zombie-LuCy-DiSTRO!bot@Zombie-Bot PRIVMSG #zombie-warez :#198  1x [1.7G] 14Apple.Music.Live.Lady.Gaga.Mayhem.Requiem.2026.1080p.WEB.REPACK.HEVC.10bit.AAC5.1-LuCY.mkv
+[15:12:42] << :Zombie-Winter!twist3d@Zombie-Bot NOTICE NightHawk955 :** Sending you pack #132 ("Snowfall.S05.720p.AMZN.WEB-DL.DDP5.1.H.264-NTb.tar"), which is 14GB. (resume supported)
+[15:12:42] [INFO] [The.All-Devouring.Whale.Homecoming] ** Sending you pack #132 ("Snowfall.S05.720p.AMZN.WEB-DL.DDP5.1.H.264-NTb.tar"), which is 14GB. (resume supported)
+[15:12:42] << :Zombie-Winter!twist3d@Zombie-Bot PRIVMSG NightHawk955 :DCC SEND Snowfall.S05.720p.AMZN.WEB-DL.DDP5.1.H.264-NTb.tar 908587935 32963 15548241920
+[15:12:42] [WARNING] [The.All-Devouring.Whale.Homecoming] Falscher Titel – überspringe: Snowfall.S05.720p.AMZN.WEB-DL.DDP5.1.H.264-NTb.tar
+[15:12:42] >> QUIT :bye
+[15:12:42] [ERROR] [The.All-Devouring.Whale.Homecoming] fehlgeschlagen
+
+============================================================
+=== Lauf beendet: 2026-06-28 15:12:42 | ok: 0, fehlgeschlagen: 1 ===
+============================================================

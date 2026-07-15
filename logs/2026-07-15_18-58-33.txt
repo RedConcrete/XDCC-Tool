@@ -1,0 +1,173 @@
+
+============================================================
+=== Lauf gestartet: 2026-07-15 18:58:33 ===
+============================================================
+[18:58:33] [INFO] [Overlord.S01] Suche: Overlord S01
+[18:58:33] << :stormy.fr.eu.abjects.net NOTICE * :*** Looking up your hostname...
+[18:58:33] << :stormy.fr.eu.abjects.net NOTICE * :*** Checking ident...
+[18:58:33] << :stormy.fr.eu.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[18:58:37] << :stormy.fr.eu.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[18:58:40] >> JOIN #beast-chat
+[18:58:40] << :stormy.fr.eu.abjects.net 396 ToxicVenom226 37AE729A.6C525672.7F20E47C.IP :is now your displayed host
+[18:58:40] << :ToxicVenom226!~ToxicVeno@37AE729A.6C525672.7F20E47C.IP JOIN :#beast-chat
+[18:58:41] >> PRIVMSG #beast-chat :!s Overlord S01
+[18:58:41] << :stormy.fr.eu.abjects.net 332 ToxicVenom226 #beast-chat :Welcome to #BEAST-XDCC  (Search:ONLINE) (Requests:ONLINE) ~ added !get command ~ !top or !topger to see most leeched releases, can be filtered by days ~ Please use !german for latest GERMAN releases only ~ commands; !latest !german !search !request !get !top !topger !tv !tvger !games ~ For more commands use !help ~ Have something to offer? Msg an ~ 
+[18:58:41] << :stormy.fr.eu.abjects.net 333 ToxicVenom226 #beast-chat devnull!~qlimax@beastmo.de 1779527540
+[18:58:41] << :databeast!~databeast@the.beast NOTICE ToxicVenom226 :04SEARCH RESULTS LIMITED TO 100 PACKS
+[18:58:41] << :databeast!~databeast@the.beast NOTICE ToxicVenom226 :04(1418G04) 14Overlord.S01.German.ANIME.DL.DTS.1080p.BluRay.10bit.x265-CNY.tar04 (141214x04)14 /msg 14BEAST-X-RAPTURE14 xdcc send #14320
+[18:58:47] >> QUIT :bye
+[18:59:03] << :heimdall.no.eu.abjects.net NOTICE * :*** Looking up your hostname...
+[18:59:03] << :heimdall.no.eu.abjects.net NOTICE * :*** Checking ident...
+[18:59:03] << :heimdall.no.eu.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[18:59:07] << :heimdall.no.eu.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[18:59:09] >> JOIN #mg-chat
+[18:59:09] << :heimdall.no.eu.abjects.net 396 ApexPredator603 37AE729A.6C525672.7F20E47C.IP :is now your displayed host
+[18:59:09] << :ApexPredator603!~ApexPreda@37AE729A.6C525672.7F20E47C.IP JOIN :#mg-chat
+[18:59:10] >> PRIVMSG #mg-chat :!s Overlord S01
+[18:59:10] << :heimdall.no.eu.abjects.net 332 ApexPredator603 #mg-chat : Welcome to Moviegods Chat - If you are new to this type !help - Join #MG-Lounge for requests/questions/comments/tv-subs/spam free chat -//- Join #MG-Help for help - Donations earn VIP perks  - Join #MG-donations for info
+[18:59:10] << :heimdall.no.eu.abjects.net 333 ApexPredator603 #mg-chat katsper!Kat@Sex.With.Leather.Clad.Women.is.Hot 1728087751
+[18:59:10] << :nosync!~nosync@347CF778.A78A9EFF.E5363E04.IP PRIVMSG #mg-chat :!get The.Forbidden.City.2025.1080p.BluRay.x264-GeneMige.mkv
+[18:59:10] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE ApexPredator603 :00,0100115)10   4x04 |10  18G04 |10 Overlord.S01.1080p.CR.WEB-DL.DUAL.DDP2.0.H.264-Kitsune.tar04 |09 /msg [MG]-MISC|EU|S|LuckyCharms XDCC SEND 84 04|00 Used: 0.00% 0/10 (1m15s ago)04 
+[18:59:10] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE ApexPredator603 :15,01   )07 #MOVIEGODS - Found 1 ONLINE Packs (1 Bots) = Total GETS: 4.
+[18:59:16] >> QUIT :bye
+[18:59:17] << :chaos.abandoned-irc.net NOTICE * :*** Looking up your hostname...
+[18:59:18] << :chaos.abandoned-irc.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[18:59:18] >> JOIN #ZW-CHAT
+[18:59:18] << :chaos.abandoned-irc.net 396 VoidWalker736 90495D67.35B0CB26.E30ED253.IP :is now your displayed host
+[18:59:18] << :VoidWalker736!VoidWalker@90495D67.35B0CB26.E30ED253.IP JOIN :#zw-chat
+[18:59:19] >> PRIVMSG #ZW-CHAT :!search Overlord S01
+[18:59:19] << :chaos.abandoned-irc.net 332 VoidWalker736 #zw-chat :12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12=[04Searchbot]-[09ONLINE]- Triggers: !help !search !latest !subscriptions !topdl !hot !recommended !movies !music !tv !apps !games !ebook !xxx !mobile | Web: http://www.Abandoned-IRC.net/
+[18:59:19] << :chaos.abandoned-irc.net 333 VoidWalker736 #zw-chat [ZOMBIE]-LATEST!Abandoned-@zombie.warez 1782976606
+[18:59:19] << :Zombie!ZW@ZoMbIe.WaReZ NOTICE VoidWalker736 :[#ZW-CHAT] 12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12= we are looking for experienced ROOTERS/DEDi/BOXOWNERS . interested? use !joinZW
+[18:59:22] << :[o_0]!Zombies@Zombie.Warez NOTICE VoidWalker736 :
+[18:59:22] << :[o_0]!Zombies@Zombie.Warez NOTICE VoidWalker736 : ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+[18:59:22] << :[o_0]!Zombies@Zombie.Warez NOTICE VoidWalker736 :End of Results. Found: 0 ONLINE packs (0 Bots = 0 Gets) matching "Overlord*S01"
+[18:59:25] >> QUIT :bye
+[18:59:26] [INFO] [Overlord.S01] Versuch 1/2: Overlord.S01.German.ANIME.DL.DTS.1080p.BluRay.10bit.x265-CNY.tar (irc.abjects.net #beast-xdcc)
+[18:59:26] [INFO] [Overlord.S01] Warte 7s vor erneuter Verbindung zu irc.abjects.net
+[18:59:34] << :jagged.ca.us.abjects.net NOTICE * :*** Looking up your hostname...
+[18:59:34] << :jagged.ca.us.abjects.net NOTICE * :*** Checking ident...
+[18:59:34] << :jagged.ca.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[18:59:38] << :jagged.ca.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[18:59:38] << PING :8A867A78
+[18:59:39] >> JOIN #beast-xdcc
+[18:59:39] << :jagged.ca.us.abjects.net 396 NightHawk252 37AE729A.6C525672.7F20E47C.IP :is now your displayed host
+[18:59:40] << :NightHawk252!~NightHawk@37AE729A.6C525672.7F20E47C.IP JOIN :#beast-xdcc
+[18:59:40] << :jagged.ca.us.abjects.net 332 NightHawk252 #beast-xdcc :#BEAST-XDCC //   BLAZING SPEEDS ~ PROPER PACKS   //   join #BEAST-CHAT for Search and much more.
+[18:59:40] << :jagged.ca.us.abjects.net 333 NightHawk252 #beast-xdcc dbeast 1705098478
+[18:59:40] [INFO] [Overlord.S01] /msg beast-x-rapture xdcc send #320
+[18:59:41] >> PRIVMSG beast-x-rapture :xdcc send #320
+[18:59:41] << :BEAST-X-DELTA!~beast@untamed.beast PRIVMSG #beast-xdcc :#1384 10x [223M] Fear.The.Timeloop.Update.v1.1.2-RUNE.tar
+[18:59:41] << :BEAST-X-HAMAS!~beast@untamed.beast PRIVMSG #beast-xdcc :#138 14x [ 61G] Song.of.the.Miraculous.Hind.2002.2160p.UHD.Blu-ray.Remux.DV.HDR.HEVC.FLAC.2.0-CiNEPHiLES.mkv
+[18:59:41] << :BEAST-X-ABYSS!~beast@untamed.beast PRIVMSG #beast-xdcc :#1728 11x [ 14G] Chicago.PD.S06.1080p.WEBRip.x265-RARBG.tar
+[18:59:41] << :BEAST-X-JOKER!~beast@untamed.beast PRIVMSG #beast-xdcc :#1464 17x [ 12G] The.Last.of.Us.S02.2160p.10bit.HDR.DV.WEBRip.6CH.x265.HEVC-PSA.tar
+[18:59:41] << :BEAST-X-SWITCH!~G0D@abjects-7A8888FA.clients.your-server.de PRIVMSG #beast-xdcc :#1059  22x [675M] Terminator_2D_NO_FATE_NSW-VENOM.tar
+[18:59:42] << :BEAST-X-RAPTURE!~beast@untamed.beast NOTICE NightHawk252 :** Sending you pack #320 ("Overlord.S01.German.ANIME.DL.DTS.1080p.BluRay.10bit.x265-CNY.tar"), which is 18GB. (resume supported)
+[18:59:42] [INFO] [Overlord.S01] ** Sending you pack #320 ("Overlord.S01.German.ANIME.DL.DTS.1080p.BluRay.10bit.x265-CNY.tar"), which is 18GB. (resume supported)
+[18:59:42] << :BEAST-X-RAPTURE!~beast@untamed.beast PRIVMSG NightHawk252 :DCC SEND Overlord.S01.German.ANIME.DL.DTS.1080p.BluRay.10bit.x265-CNY.tar 2997008659 35231 19182100480
+[19:04:13] >> QUIT :bye
+[19:04:13] [SUCCESS] [Overlord.S01] Download fertig: Overlord.S01.German.ANIME.DL.DTS.1080p.BluRay.10bit.x265-CNY.tar
+[19:12:53] [SUCCESS] [Overlord.S01] fertig & einsortiert
+[19:12:53] [INFO] [Overlord.S02] Suche: Overlord S02
+[19:12:53] << :heimdall.no.eu.abjects.net NOTICE * :*** Looking up your hostname...
+[19:12:53] << :heimdall.no.eu.abjects.net NOTICE * :*** Checking ident...
+[19:12:54] << :heimdall.no.eu.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[19:12:57] << :heimdall.no.eu.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[19:12:59] >> JOIN #beast-chat
+[19:12:59] << :heimdall.no.eu.abjects.net 396 ApexPredator265 37AE729A.6C525672.7F20E47C.IP :is now your displayed host
+[19:12:59] << :ApexPredator265!~ApexPreda@37AE729A.6C525672.7F20E47C.IP JOIN :#beast-chat
+[19:13:00] >> PRIVMSG #beast-chat :!s Overlord S02
+[19:13:00] << :heimdall.no.eu.abjects.net 332 ApexPredator265 #beast-chat :Welcome to #BEAST-XDCC  (Search:ONLINE) (Requests:ONLINE) ~ added !get command ~ !top or !topger to see most leeched releases, can be filtered by days ~ Please use !german for latest GERMAN releases only ~ commands; !latest !german !search !request !get !top !topger !tv !tvger !games ~ For more commands use !help ~ Have something to offer? Msg an ~ 
+[19:13:00] << :heimdall.no.eu.abjects.net 333 ApexPredator265 #beast-chat devnull!~qlimax@beastmo.de 1779527540
+[19:13:00] << :GuyIncognito742!~GuyIncogn@abjects-A437F2BB.pool.telefonica.de QUIT :Ping timeout: 240 seconds
+[19:13:00] << :databeast!~databeast@the.beast NOTICE ApexPredator265 :04SEARCH RESULTS LIMITED TO 100 PACKS
+[19:13:00] << :databeast!~databeast@the.beast NOTICE ApexPredator265 :04(1414G04) 14Overlord.S02.German.DL.DTS.1080p.BluRay.10bit.x265-CNY.tar04 (141714x04)14 /msg 14BEAST-X-REVOLT14 xdcc send #141471
+[19:13:06] >> QUIT :bye
+[19:13:23] << :sharpshooter.ny.us.abjects.net NOTICE * :*** Looking up your hostname...
+[19:13:23] << :sharpshooter.ny.us.abjects.net NOTICE * :*** Checking ident...
+[19:13:24] << :sharpshooter.ny.us.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[19:13:27] << :sharpshooter.ny.us.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[19:13:29] >> JOIN #mg-chat
+[19:13:29] << :sharpshooter.ny.us.abjects.net 396 GhostRider399 37AE729A.6C525672.7F20E47C.IP :is now your displayed host
+[19:13:29] << :GhostRider399!~GhostRide@37AE729A.6C525672.7F20E47C.IP JOIN :#mg-chat
+[19:13:30] >> PRIVMSG #mg-chat :!s Overlord S02
+[19:13:30] << :sharpshooter.ny.us.abjects.net 332 GhostRider399 #mg-chat : Welcome to Moviegods Chat - If you are new to this type !help - Join #MG-Lounge for requests/questions/comments/tv-subs/spam free chat -//- Join #MG-Help for help - Donations earn VIP perks  - Join #MG-donations for info
+[19:13:30] << :sharpshooter.ny.us.abjects.net 333 GhostRider399 #mg-chat katsper!Kat@Sex.With.Leather.Clad.Women.is.Hot 1728087751
+[19:13:30] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE GhostRider399 :00,0100115)10   7x04 |10  18G04 |10 Overlord.S02.1080p.CR.WEB-DL.DUAL.DDP2.0.H.264-Kitsune.tar04 |09 /msg [MG]-Request|Bot|Osiris XDCC SEND 695 04|00 Used: 0.91% 1/10 avg: 605.60KiB/s (1m25s ago)04 
+[19:13:30] << :BotReign!Bot@Me.Serve.You.Long.Time NOTICE GhostRider399 :15,01   )07 #MOVIEGODS - Found 1 ONLINE Packs (1 Bots) = Total GETS: 7.
+[19:13:36] >> QUIT :bye
+[19:13:36] << :horde.abandoned-irc.net NOTICE * :*** Looking up your hostname...
+[19:13:36] << :horde.abandoned-irc.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[19:13:38] >> JOIN #ZW-CHAT
+[19:13:38] << :horde.abandoned-irc.net 396 DragonSlayer301 90495D67.35B0CB26.E30ED253.IP :is now your displayed host
+[19:13:38] << :DragonSlayer301!DragonSlay@90495D67.35B0CB26.E30ED253.IP JOIN :#zw-chat
+[19:13:39] >> PRIVMSG #ZW-CHAT :!search Overlord S02
+[19:13:39] << :horde.abandoned-irc.net 332 DragonSlayer301 #zw-chat :12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12=[04Searchbot]-[09ONLINE]- Triggers: !help !search !latest !subscriptions !topdl !hot !recommended !movies !music !tv !apps !games !ebook !xxx !mobile | Web: http://www.Abandoned-IRC.net/
+[19:13:39] << :horde.abandoned-irc.net 333 DragonSlayer301 #zw-chat [ZOMBIE]-LATEST!Abandoned-@zombie.warez 1782976606
+[19:13:39] << :Zombie!ZW@ZoMbIe.WaReZ NOTICE DragonSlayer301 :[#ZW-CHAT] 12=15#00Z12=00o12=15m12=15b12=14i12=14e12=15-12=14W12=15a12=15r12=00e12=00z12= we are looking for experienced ROOTERS/DEDi/BOXOWNERS . interested? use !joinZW
+[19:13:41] << :[o_0]!Zombies@Zombie.Warez NOTICE DragonSlayer301 :
+[19:13:41] << :[o_0]!Zombies@Zombie.Warez NOTICE DragonSlayer301 : ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+[19:13:41] << :[o_0]!Zombies@Zombie.Warez NOTICE DragonSlayer301 :End of Results. Found: 0 ONLINE packs (0 Bots = 0 Gets) matching "Overlord*S02"
+[19:13:44] >> QUIT :bye
+[19:13:45] [INFO] [Overlord.S02] Versuch 1/2: Overlord.S02.German.DL.DTS.1080p.BluRay.10bit.x265-CNY.tar (irc.abjects.net #beast-xdcc)
+[19:13:45] [INFO] [Overlord.S02] Warte 8s vor erneuter Verbindung zu irc.abjects.net
+[19:13:53] << :heimdall.no.eu.abjects.net NOTICE * :*** Looking up your hostname...
+[19:13:53] << :heimdall.no.eu.abjects.net NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[19:13:53] << :heimdall.no.eu.abjects.net NOTICE * :*** Checking ident...
+[19:13:57] << :heimdall.no.eu.abjects.net NOTICE * :*** No ident response; username prefixed with ~
+[19:13:57] << PING :A46E49E1
+[19:14:00] >> JOIN #beast-xdcc
+[19:14:00] << :heimdall.no.eu.abjects.net 396 FrostByte622 37AE729A.6C525672.7F20E47C.IP :is now your displayed host
+[19:14:00] << :FrostByte622!~FrostByte@37AE729A.6C525672.7F20E47C.IP JOIN :#beast-xdcc
+[19:14:00] << :heimdall.no.eu.abjects.net 332 FrostByte622 #beast-xdcc :#BEAST-XDCC //   BLAZING SPEEDS ~ PROPER PACKS   //   join #BEAST-CHAT for Search and much more.
+[19:14:00] << :heimdall.no.eu.abjects.net 333 FrostByte622 #beast-xdcc dbeast 1705098478
+[19:14:00] [INFO] [Overlord.S02] /msg beast-x-revolt xdcc send #1471
+[19:14:01] >> PRIVMSG beast-x-revolt :xdcc send #1471
+[19:14:01] << :BEAST-X-REVOLT!~beast@untamed.beast PRIVMSG #beast-xdcc :#1655 22x [4.7G] Solo.Leveling.S01.German.AC3.DL.1080p.Web.x265-FuN.tar
+[19:14:01] << :BEAST-X-ABYSS!~beast@untamed.beast PRIVMSG #beast-xdcc :#1934 10x [ 16G] Dawsons.Creek.S04.1080p.BluRay.x265-RARBG.tar
+[19:14:01] << :BEAST-X-JOKER!~beast@untamed.beast PRIVMSG #beast-xdcc :#1681 10x [7.7G] Unforgettable.S04.German.AC3D.DL.1080p.WebHD.x265-FuN.tar
+[19:14:01] << :BEAST-X-BLAZED!~beast@untamed.beast PRIVMSG #beast-xdcc :#211 10x [1.7G] Border.Control.Tuerkei.Grenzschuetzer.im.Einsatz.S01E25.GERMAN.DOKU.720p.WEB.H264-SYNERGiE.mkv
+[19:14:01] << :BEAST-X-RAPTURE!~beast@untamed.beast PRIVMSG #beast-xdcc :#209 11x [1.5G] Historys.Deadliest.mit.Ving.Rhames.S01E08.GERMAN.DOKU.720p.WEB.H264-SYNERGiE.mkv
+[19:14:02] << :BEAST-X-BANDIT!~beast@untamed.beast PRIVMSG #beast-xdcc :#209 12x [1.6G] Greys.Anatomy.Die.jungen.Aerzte.S22E05.GERMAN.DL.1080p.WEB.h264-SAUERKRAUT.mkv
+[19:14:02] << :BEAST-X-AURORA!~beast@untamed.beast PRIVMSG #beast-xdcc :#206 10x [1.4G] Dr.Stone.S04E22.German.DL.AAC.1080p.WEB.H264-WeebPinn.mkv
+[19:14:02] << :BEAST-X-SLICK!~beast@untamed.beast PRIVMSG #beast-xdcc :#451  30x [2.2G] WARNO.SOUTHAG.Update.v172762.incl.DLC-RUNE.tar
+[19:14:03] << :BEAST-X-DREAM!~beast@untamed.beast PRIVMSG #beast-xdcc :#211  12x [ 10G] DO.NOT.ENTER.2026.2160p.AMZN.WEB-DL.DDP5.1.H.265-BYNDR.mkv
+[19:14:03] << :BEAST-X-HBHOE!~G0D@abjects-7A8888FA.clients.your-server.de PRIVMSG #beast-xdcc :#232   4x [3.7G] Harry Potter and the Prisoner of Azkaban (Full-Cast Edition) - AAC 6ch.m4b
+[19:14:03] << :BEAST-X-AORUS!~beast@untamed.beast PRIVMSG #beast-xdcc :#217  10x [6.2G] The.Witness.2026.S01E03.HDR.2160p.WEB.h265-GRACE.mkv
+[19:14:04] << :BEAST-X-DELTA!~beast@untamed.beast PRIVMSG #beast-xdcc :#1593 11x [ 15G] Good.Fortune.2025.2160p.WEB.H265-SLOT.mkv
+[19:14:04] << :BEAST-X-CHANEL!~beast@untamed.beast PRIVMSG #beast-xdcc :#212 10x [7.6G] Boston.Blue.S01E20.HDR.2160p.WEB.h265-GRACE.mkv
+[19:14:04] << :BEAST-X-RANDOM!~beast@untamed.beast PRIVMSG #beast-xdcc :#214 10x [1.6G] Memory.of.a.Killer.S01E07.German.1080p.WEB.h264-WvF.mkv
+[19:14:04] << :BEAST-X-NYMPHO!~beast@untamed.beast PRIVMSG #beast-xdcc :#211 11x [1.5G] Ghosts.S05E21.Up.the.Creek.1080p.AMZN.WEB-DL.DDP5.1.H.264-BLOOM.mkv
+[19:14:05] << :BEAST-X-JOKER!~beast@untamed.beast PRIVMSG #beast-xdcc :#1682 17x [1.4G] Unicorn.Academy.S03.German.AC3.DL.1080p.WebHD.x265-FuN.tar
+[19:14:05] << :BEAST-X-ABYSS!~beast@untamed.beast PRIVMSG #beast-xdcc :#1935 10x [ 16G] Dawsons.Creek.S06.1080p.BluRay.x265-RARBG.tar
+[19:14:05] << :BEAST-X-BLAZED!~beast@untamed.beast PRIVMSG #beast-xdcc :#212 10x [1.7G] NCIS.Sydney.S03E19.GERMAN.DL.720p.WEB.h264-SAUERKRAUT.mkv
+[19:14:05] << :BEAST-X-RAPTURE!~beast@untamed.beast PRIVMSG #beast-xdcc :#210 12x [1.5G] your.friends.and.neighbors.s02e05.720p.web.h264-sylix.mkv
+[19:14:05] << :BEAST-X-ROLEX!~beast@untamed.beast PRIVMSG #beast-xdcc :#207 10x [6.2G] Spider-Noir.S01E08.The.Man.in.the.Mask.2160p.AMZN.WEB-DL.DDP5.1.Atmos.DV.HDR10+.H.265-RUDR.mkv
+[19:14:05] << :BEAST-X-SLICK!~beast@untamed.beast PRIVMSG #beast-xdcc :#452  31x [ 41G] WW2.Rebuilder.Remagen.and.Caen-RUNE.tar
+[19:14:06] << :BEAST-X-BANDIT!~beast@untamed.beast PRIVMSG #beast-xdcc :#210 10x [1.6G] Kid.Galahad.Harte.Faeuste.heisse.Liebe.1962.German.AC3.BDRIP.x264-AG.mkv
+[19:14:06] << :BEAST-X-DREAM!~beast@untamed.beast PRIVMSG #beast-xdcc :#212  12x [2.5G] Chicago.PD.S12E21.German.DL.1080p.WEB.x264-WvF.mkv
+[19:14:07] << :BEAST-X-REVOLT!~beast@untamed.beast NOTICE FrostByte622 :** Sending you pack #1471 ("Overlord.S02.German.DL.DTS.1080p.BluRay.10bit.x265-CNY.tar"), which is 14GB. (resume supported)
+[19:14:07] [INFO] [Overlord.S02] ** Sending you pack #1471 ("Overlord.S02.German.DL.DTS.1080p.BluRay.10bit.x265-CNY.tar"), which is 14GB. (resume supported)
+[19:14:07] << :BEAST-X-NYMPHO!~beast@untamed.beast PRIVMSG #beast-xdcc :#212 11x [1.5G] Mating.Season.S01E07.2160p.WEB.h265-GRACE.mkv
+[19:14:07] << :BEAST-X-CHANEL!~beast@untamed.beast PRIVMSG #beast-xdcc :#213 10x [7.6G] matka.king.s01e01.dv.2160p.web.h265-sylix.mkv
+[19:14:07] << :BEAST-X-HBHOE!~G0D@abjects-7A8888FA.clients.your-server.de PRIVMSG #beast-xdcc :#233   0x [8.5G] Masters.of.the.Air.S01.1080p.WEBRip.10bit.DDP5.1.x265-HODL.tar
+[19:14:08] << :BEAST-X-JOKER!~beast@untamed.beast PRIVMSG #beast-xdcc :#1683 11x [1.2G] Unit.234.2024.1080p.WEBRip.x265-DH.mkv
+[19:14:08] << :BEAST-X-BLAZED!~beast@untamed.beast PRIVMSG #beast-xdcc :#213 10x [1.6G] BEEF.S02E01.1080p.WEB.h264-ETHEL.mkv
+[19:14:08] << :BEAST-X-ABYSS!~beast@untamed.beast PRIVMSG #beast-xdcc :#1936 10x [ 20G] Day.One.S01.GERMAN.DL.1080P.WEB.H264-WAYNE.tar
+[19:14:08] << :BEAST-X-DELTA!~beast@untamed.beast PRIVMSG #beast-xdcc :#1594 10x [1.5G] Good.Grief.2023.1080p.10bit.WEBRip.6CH.x265.HEVC-PSA.mkv.tar
+[19:14:08] << :BEAST-X-ROLEX!~beast@untamed.beast PRIVMSG #beast-xdcc :#208 10x [6.1G] Rivals.2024.S02E04.DV.2160p.WEB.h265-GRACE.mkv
+[19:14:08] << :BEAST-X-AURORA!~beast@untamed.beast PRIVMSG #beast-xdcc :#207 11x [1.4G] Frieren.Beyond.Journeys.End.2023.S02E07.German.DL.ANiME.AAC.1080p.CR.WEB.H264-DRiFTKiNG.mkv
+[19:14:09] << :BEAST-X-AORUS!~beast@untamed.beast PRIVMSG #beast-xdcc :#218  10x [5.8G] Dateline.Unforgettable.S08E01.The.Man.of.Many.Faces.1080p.AMZN.WEB-DL.DDP2.0.H.264-BLOOM.mkv
+[19:14:09] << :BEAST-X-RANDOM!~beast@untamed.beast PRIVMSG #beast-xdcc :#215 10x [1.6G] Police.Interceptors.Auf.Verfolgungsjagd.S24E13.GERMAN.DL.DOKU.720p.WEB.H264-SYNERGiE.mkv
+[19:14:09] << :BEAST-X-RAPTURE!~beast@untamed.beast PRIVMSG #beast-xdcc :#211 11x [1.5G] Ghosts.2021.S05E13.GERMAN.DL.1080p.WEB.h264-SAUERKRAUT.mkv
+[19:14:09] << :BEAST-X-SLICK!~beast@untamed.beast PRIVMSG #beast-xdcc :#453  32x [ 13G] Warhammer.40000.Battlesector.Black.Legion-RUNE.tar
+[19:14:10] << :BEAST-X-BANDIT!~beast@untamed.beast PRIVMSG #beast-xdcc :#211 10x [1.6G] The.End.We.Start.From.2023.German.EAC3.1080p.WEB.AV1-Cancer58.mkv
+[19:14:11] << :BEAST-X-BLAZED!~beast@untamed.beast PRIVMSG #beast-xdcc :#214 11x [1.6G] Man.on.Fire.S01E06.1080p.WEB.h264-GRACE.mkv
+[19:14:11] << :BEAST-X-NYMPHO!~beast@untamed.beast PRIVMSG #beast-xdcc :#213 12x [1.5G] Oak.Island.Fluch.und.Legende.S13E07.GERMAN.DOKU.720p.WEB.H264-SYNERGiE.mkv
+[19:14:11] << :BEAST-X-CHANEL!~beast@untamed.beast PRIVMSG #beast-xdcc :#214 10x [7.1G] Suesse.Magnolien.S05E07.GERMAN.DL.HDR.2160p.WEB.h265-SAUERKRAUT.mkv
+[19:14:11] << :BEAST-X-HBHOE!~G0D@abjects-7A8888FA.clients.your-server.de PRIVMSG #beast-xdcc :#234  13x [ 32G] Disneys.Gummibaerenbande.S01.-.S06.German.FS.WEB.H264.iNTERNAL-MRW.tar
+[19:14:11] << :BEAST-X-DREAM!~beast@untamed.beast PRIVMSG #beast-xdcc :#213  12x [ 14G] Click.2006.UHD.BluRay.2160p.DDP.Atmos.5.1.DV.HDR10Plus.x265-hallowed.mkv
+[19:14:12] << :BEAST-X-DELTA!~beast@untamed.beast PRIVMSG #beast-xdcc :#1595 17x [2.2G] Good.Luck.Have.Fun.Dont.Die.2025.1080p.WEBRip.x265.10bit.AAC5.1-LAMA.mp4
+[19:14:12] << :BEAST-X-REVOLT!~beast@untamed.beast PRIVMSG FrostByte622 :DCC SEND Overlord.S02.German.DL.DTS.1080p.BluRay.10bit.x265-CNY.tar 3418141710 40937 15025203200
+[19:17:54] >> QUIT :bye
+[19:17:54] [SUCCESS] [Overlord.S02] Download fertig: Overlord.S02.German.DL.DTS.1080p.BluRay.10bit.x265-CNY.tar
