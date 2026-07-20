@@ -29,20 +29,12 @@ async function saveWishlist() {
   for (const key of SECTIONS) {
     payload[key] = textareaToList(key);
   }
-  const statusEl = $("save-status");
-  statusEl.textContent = "Speichere ...";
-  try {
-    const res = await fetch("/api/wishlist", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(payload),
-    });
-    if (!res.ok) throw new Error("HTTP " + res.status);
-    statusEl.textContent = "Gespeichert.";
-  } catch (e) {
-    statusEl.textContent = "Fehler beim Speichern: " + e.message;
-  }
-  setTimeout(() => { statusEl.textContent = ""; }, 3000);
+  const res = await fetch("/api/wishlist", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(payload),
+  });
+  if (!res.ok) throw new Error("HTTP " + res.status);
 }
 
 async function loadDownloaded() {
@@ -176,6 +168,20 @@ function showSummary(summary) {
     `${summary.skipped} bereits vorhanden (${summary.total} offene Titel verarbeitet)`;
 }
 
+function updateDownloadHeaderStatus(running, progress) {
+  const el = $("download-header-status");
+  if (!running) {
+    el.textContent = "";
+    return;
+  }
+  if (progress && progress.total > 0) {
+    const pct = Math.round((progress.received / progress.total) * 100);
+    el.textContent = `● läuft (${pct}%)`;
+  } else {
+    el.textContent = "● läuft";
+  }
+}
+
 async function pollStatus() {
   if (polling) return;
   polling = true;
@@ -195,6 +201,7 @@ async function pollStatus() {
 
       $("run-btn").disabled = data.running;
       $("run-status").textContent = data.running ? "Läuft ..." : "";
+      updateDownloadHeaderStatus(data.running, data.progress);
 
       if (!data.running) {
         showSummary(data.summary);
@@ -211,15 +218,26 @@ async function pollStatus() {
   }
 }
 
-async function startRun() {
+async function saveAndRun() {
   $("log-box").innerHTML = "";
   $("summary-box").classList.add("hidden");
   logOffset = 0;
+  const statusEl = $("run-status");
+
+  statusEl.textContent = "Speichere ...";
+  try {
+    await saveWishlist();
+  } catch (e) {
+    statusEl.textContent = "Fehler beim Speichern: " + e.message;
+    return;
+  }
+
+  statusEl.textContent = "Starte ...";
   try {
     const res = await fetch("/api/run", { method: "POST" });
     if (!res.ok && res.status !== 409) throw new Error("HTTP " + res.status);
   } catch (e) {
-    $("run-status").textContent = "Fehler: " + e.message;
+    statusEl.textContent = "Fehler: " + e.message;
     return;
   }
   pollStatus();
@@ -277,15 +295,234 @@ async function openRunLog(filename) {
   }
 }
 
+async function loadVpnConfig() {
+  try {
+    const res = await fetch("/api/vpn");
+    const data = await res.json();
+    const isCustom = data.provider === "custom";
+
+    $("vpn-address").value = data.address || "";
+    $("vpn-server-field").classList.toggle("hidden", isCustom);
+    $("vpn-endpoint-field").classList.toggle("hidden", !isCustom);
+    if (isCustom) {
+      $("vpn-endpoint").value = data.endpoint || "";
+    } else {
+      $("vpn-server").value = data.server || "";
+    }
+
+    const modeText = isCustom
+      ? `Ja (Custom-Config, Endpoint ${data.endpoint || "?"})`
+      : (data.has_key ? "Ja (Mullvad)" : "Nein");
+    $("vpn-key-text").textContent = modeText;
+  } catch (e) { /* ignore */ }
+}
+
+async function uploadVpnConfig() {
+  const statusEl = $("vpn-upload-status");
+  const fileInput = $("vpn-conf-file");
+  const file = fileInput.files[0];
+  if (!file) {
+    statusEl.textContent = "Bitte zuerst eine Datei auswählen.";
+    return;
+  }
+
+  statusEl.textContent = "Lade hoch ...";
+  const formData = new FormData();
+  formData.append("file", file);
+  try {
+    const res = await fetch("/api/vpn/upload", { method: "POST", body: formData });
+    const data = await res.json();
+    if (!data.ok) throw new Error(data.error || "unbekannter Fehler");
+    statusEl.textContent = "Config übernommen.";
+    fileInput.value = "";
+    vpnFormForcedOpen = false;
+    await loadVpnConfig();
+    setTimeout(() => { statusEl.textContent = ""; }, 3000);
+    await confirmAndRestartVpn();
+    return;
+  } catch (e) {
+    statusEl.textContent = "Fehler: " + e.message;
+  }
+  setTimeout(() => { statusEl.textContent = ""; }, 6000);
+}
+
+async function saveVpnConfig() {
+  const statusEl = $("vpn-save-status");
+  const privateKey = $("vpn-key").value.trim();
+  const address = $("vpn-address").value.trim();
+  const server = $("vpn-server").value.trim();
+
+  if (!privateKey || !address) {
+    statusEl.textContent = "Private Key und Adresse sind erforderlich.";
+    return;
+  }
+
+  statusEl.textContent = "Speichere ...";
+  try {
+    const res = await fetch("/api/vpn", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ private_key: privateKey, address, server }),
+    });
+    const data = await res.json();
+    if (!data.ok) throw new Error(data.error || "unbekannter Fehler");
+    statusEl.textContent = "Gespeichert.";
+    $("vpn-key").value = "";
+    vpnFormForcedOpen = false;
+    await loadVpnConfig();
+    setTimeout(() => { statusEl.textContent = ""; }, 3000);
+    await confirmAndRestartVpn();
+    return;
+  } catch (e) {
+    statusEl.textContent = "Fehler: " + e.message;
+  }
+  setTimeout(() => { statusEl.textContent = ""; }, 5000);
+}
+
+async function confirmAndRestartVpn() {
+  const wantsRestart = confirm(
+    "VPN-Konfiguration gespeichert. Container jetzt neu starten, um die Änderung zu aktivieren?"
+  );
+  if (!wantsRestart) return;
+  await triggerVpnRestart();
+}
+
+async function triggerVpnRestart() {
+  const statusEl = $("vpn-status-text");
+  statusEl.textContent = "Neustart läuft ...";
+  try {
+    const res = await fetch("/api/vpn/restart", { method: "POST" });
+    const data = await res.json();
+    if (!data.ok) throw new Error(data.error || "unbekannter Fehler");
+  } catch (e) {
+    statusEl.textContent = "Fehler beim Neustart: " + e.message;
+    return;
+  }
+  pollVpnRestartLog();
+}
+
+async function pollVpnRestartLog(attempt = 0) {
+  const statusEl = $("vpn-status-text");
+  try {
+    const res = await fetch("/api/vpn/restart-log");
+    const data = await res.json();
+    if (data.done) {
+      if (data.log && data.log.includes("ROLLBACK")) {
+        statusEl.textContent = "VPN-Verbindung fehlgeschlagen – automatisch zurückgeschaltet.";
+      } else {
+        statusEl.textContent = "Neustart abgeschlossen.";
+      }
+      await loadVpnConfig();
+      pollVpnStatus();
+      return;
+    }
+  } catch (e) { /* Seite evtl. kurz nicht erreichbar waehrend Neustart - weiter pollen */ }
+
+  if (attempt > 40) {
+    statusEl.textContent = "Neustart dauert ungewöhnlich lange - bitte Seite neu laden.";
+    return;
+  }
+  setTimeout(() => pollVpnRestartLog(attempt + 1), 2000);
+}
+
+async function disableVpn() {
+  const statusEl = $("vpn-disable-status");
+  if (!confirm("VPN deaktivieren und Container neu starten (läuft dann ohne VPN)?")) return;
+  statusEl.textContent = "Deaktiviere ...";
+  try {
+    const res = await fetch("/api/vpn/disable", { method: "POST" });
+    const data = await res.json();
+    if (!data.ok) throw new Error(data.error || "unbekannter Fehler");
+    statusEl.textContent = "";
+    await triggerVpnRestart();
+  } catch (e) {
+    statusEl.textContent = "Fehler: " + e.message;
+  }
+}
+
+let vpnFormForcedOpen = false;
+
+function applyVpnFormVisibility(isActive) {
+  const summary = $("vpn-active-summary");
+  const form = $("vpn-config-form");
+  const showForm = !isActive || vpnFormForcedOpen;
+  form.classList.toggle("hidden", !showForm);
+  summary.classList.toggle("hidden", !(isActive && !vpnFormForcedOpen));
+}
+
+async function pollVpnStatus() {
+  try {
+    const res = await fetch("/api/vpn/status");
+    const data = await res.json();
+    const textEl = $("vpn-status-text");
+    const dotEl = $("vpn-status-dot");
+    const ipRow = $("vpn-ip-row");
+    const isActive = data.reachable && data.status === "running";
+
+    const headerDotEl = $("vpn-header-dot");
+    if (!data.reachable) {
+      textEl.textContent = "nicht aktiv / nicht erreichbar";
+      dotEl.className = "status-dot inactive";
+      headerDotEl.className = "status-dot inactive";
+      ipRow.classList.add("hidden");
+    } else {
+      textEl.textContent = data.status === "running" ? "aktiv" : (data.status || "unbekannt");
+      dotEl.className = "status-dot " + (isActive ? "active" : "inactive");
+      headerDotEl.className = "status-dot " + (isActive ? "active" : "inactive");
+      if (data.public_ip) {
+        $("vpn-ip-text").textContent = data.public_ip;
+        ipRow.classList.remove("hidden");
+      } else {
+        ipRow.classList.add("hidden");
+      }
+    }
+    applyVpnFormVisibility(isActive);
+  } catch (e) { /* ignore */ }
+  setTimeout(pollVpnStatus, 10000);
+}
+
+function setupCollapsibleCards() {
+  const STORAGE_KEY = "xdcc-collapsed-cards";
+  let collapsed = {};
+  try {
+    collapsed = JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}");
+  } catch (e) { collapsed = {}; }
+
+  for (const card of document.querySelectorAll(".card[data-card-id]")) {
+    const id = card.dataset.cardId;
+    if (collapsed[id]) card.classList.add("collapsed");
+
+    const header = card.querySelector(".card-header");
+    header.addEventListener("click", () => {
+      card.classList.toggle("collapsed");
+      collapsed[id] = card.classList.contains("collapsed");
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(collapsed));
+    });
+  }
+}
+
+function setupVpnEditToggle() {
+  $("vpn-edit-btn").addEventListener("click", () => {
+    vpnFormForcedOpen = true;
+    applyVpnFormVisibility(true);
+  });
+}
+
 document.addEventListener("DOMContentLoaded", () => {
+  setupCollapsibleCards();
+  setupVpnEditToggle();
   loadWishlist();
   loadDownloaded();
   loadChatLog();
   loadRuns();
   pollStatus();
+  loadVpnConfig();
+  pollVpnStatus();
 
-  $("save-btn").addEventListener("click", saveWishlist);
-  $("run-btn").addEventListener("click", startRun);
+  $("vpn-save-btn").addEventListener("click", saveVpnConfig);
+  $("vpn-upload-btn").addEventListener("click", uploadVpnConfig);
+  $("vpn-disable-btn").addEventListener("click", disableVpn);
+  $("run-btn").addEventListener("click", saveAndRun);
   $("downloaded-filter").addEventListener("input", applyDownloadedFilter);
   $("log-clear-btn").addEventListener("click", () => { $("irc-box").innerHTML = ""; });
   $("log-bottom-btn").addEventListener("click", () => {

@@ -6,3 +6,4 @@ scripts/*.bak
 __pycache__/
 *.pyc
 wishlist.md
+restart_trigger/

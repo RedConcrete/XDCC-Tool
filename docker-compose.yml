@@ -12,11 +12,15 @@ services:
     devices:
       - /dev/net/tun:/dev/net/tun
     environment:
-      - VPN_SERVICE_PROVIDER=mullvad
+      - VPN_SERVICE_PROVIDER=${VPN_SERVICE_PROVIDER:-mullvad}
       - VPN_TYPE=wireguard
       - WIREGUARD_PRIVATE_KEY=${MULLVAD_PRIVATE_KEY}
       - WIREGUARD_ADDRESSES=${MULLVAD_ADDRESS}
-      - SERVER_HOSTNAMES=nl-ams-wg-103
+      - SERVER_HOSTNAMES=${MULLVAD_SERVER_HOSTNAMES-nl-ams-wg-103}
+      - WIREGUARD_ENDPOINT_IP=${WIREGUARD_ENDPOINT_IP:-}
+      - WIREGUARD_ENDPOINT_PORT=${WIREGUARD_ENDPOINT_PORT:-51820}
+      - WIREGUARD_PUBLIC_KEY=${WIREGUARD_PUBLIC_KEY:-}
+      - 'HTTP_CONTROL_SERVER_AUTH_DEFAULT_ROLE={"auth":"apikey","apikey":"${GLUETUN_API_KEY}"}'
       - DOT=off
       - BLOCK_MALICIOUS=off
       - DNS_ADDRESS=1.1.1.1
@@ -41,11 +45,16 @@ services:
       - SEARCH_LANG=German
       - CHANNELS_CONFIG=/app/channels.json
       - RIZON_SASL_PASS=${RIZON_SASL_PASS}
+      - GLUETUN_API_KEY=${GLUETUN_API_KEY}
+      - GLUETUN_CONTROL_URL=http://gluetun:8000
+      - ENV_FILE=/app/.env
     volumes:
       - ./wishlist.md:/app/wishlist.md
       - ./downloaded.txt:/app/downloaded.txt
       - ./channels.json:/app/channels.json
       - ./server_state.json:/app/server_state.json
+      - ./.env:/app/.env
+      - ./restart_trigger:/app/restart_trigger
       - ./Chat.txt:/app/Chat.txt
       - ./logs:/app/logs
       - ./scripts/downloader.py:/app/downloader.py

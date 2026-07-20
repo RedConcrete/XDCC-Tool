@@ -12,69 +12,151 @@
   </header>
 
   <main>
-    <section class="card">
-      <h2>Wunschliste</h2>
-      <div class="wishlist-grid">
-        <div class="field">
-          <label for="serien">Serien <span class="hint">(wird gesucht &amp; geladen)</span></label>
-          <textarea id="serien" rows="6" placeholder="Ein Titel pro Zeile"></textarea>
+    <section class="card" data-card-id="wishlist">
+      <h2 class="card-header">
+        <span class="card-title">Wunschliste</span>
+        <span class="collapse-icon">&#9662;</span>
+      </h2>
+      <div class="card-body">
+        <div class="wishlist-grid">
+          <div class="field">
+            <label for="serien">Serien <span class="hint">(wird gesucht &amp; geladen)</span></label>
+            <textarea id="serien" rows="6" placeholder="Ein Titel pro Zeile"></textarea>
+          </div>
+          <div class="field">
+            <label for="film">Filme <span class="hint">(wird gesucht &amp; geladen)</span></label>
+            <textarea id="film" rows="6" placeholder="Ein Titel pro Zeile"></textarea>
+          </div>
+          <div class="field">
+            <label for="merkliste">Merkliste <span class="hint">(nur Notiz, wird nicht gesucht)</span></label>
+            <textarea id="merkliste" rows="6" placeholder="Ein Titel pro Zeile"></textarea>
+          </div>
         </div>
-        <div class="field">
-          <label for="film">Filme <span class="hint">(wird gesucht &amp; geladen)</span></label>
-          <textarea id="film" rows="6" placeholder="Ein Titel pro Zeile"></textarea>
-        </div>
-        <div class="field">
-          <label for="merkliste">Merkliste <span class="hint">(nur Notiz, wird nicht gesucht)</span></label>
-          <textarea id="merkliste" rows="6" placeholder="Ein Titel pro Zeile"></textarea>
-        </div>
-      </div>
-      <div class="actions">
-        <button id="save-btn">Speichern</button>
-        <span id="save-status" class="status-msg"></span>
       </div>
     </section>
 
-    <section class="card">
-      <h2>Download</h2>
-      <div class="actions">
-        <button id="run-btn">Wishlist abarbeiten</button>
-        <span id="run-status" class="status-msg"></span>
+    <section class="card" data-card-id="download">
+      <h2 class="card-header">
+        <span class="card-title">Download <span id="download-header-status" class="header-status"></span></span>
+        <span class="collapse-icon">&#9662;</span>
+      </h2>
+      <div class="card-body">
+        <div class="actions">
+          <button id="run-btn">Speichern &amp; Abarbeiten</button>
+          <span id="run-status" class="status-msg"></span>
+        </div>
+        <div id="progress-box" class="progress-box hidden">
+          <div class="progress-label"></div>
+          <div class="progress-bar"><div class="progress-bar-fill"></div></div>
+        </div>
+        <pre id="log-box" class="log-box"></pre>
+        <div id="summary-box" class="summary-box hidden"></div>
       </div>
-      <div id="progress-box" class="progress-box hidden">
-        <div class="progress-label"></div>
-        <div class="progress-bar"><div class="progress-bar-fill"></div></div>
-      </div>
-      <pre id="log-box" class="log-box"></pre>
-      <div id="summary-box" class="summary-box hidden"></div>
     </section>
 
-    <section class="card">
-      <h2>Chat Log <span class="hint">(alle Läufe, live aktualisiert)</span></h2>
-      <div class="irc-toolbar">
-        <button id="log-clear-btn" class="small-btn">Anzeige leeren</button>
-        <button id="log-bottom-btn" class="small-btn">↓ Ende</button>
+    <section class="card" data-card-id="vpn">
+      <h2 class="card-header">
+        <span class="card-title">VPN (Mullvad) <span id="vpn-header-dot" class="status-dot unknown"></span></span>
+        <span class="collapse-icon">&#9662;</span>
+      </h2>
+      <div class="card-body">
+        <div class="vpn-status-box">
+          <div>
+            <span id="vpn-status-dot" class="status-dot unknown"></span>
+            <strong>Status:</strong> <span id="vpn-status-text">wird geladen ...</span>
+          </div>
+          <div id="vpn-ip-row" class="hidden"><strong>Öffentliche IP:</strong> <span id="vpn-ip-text"></span></div>
+          <div id="vpn-key-row"><strong>Key hinterlegt:</strong> <span id="vpn-key-text">-</span></div>
+        </div>
+
+        <div id="vpn-active-summary" class="hidden">
+          <p class="hint">VPN ist aktiv - Eingabefelder ausgeblendet.</p>
+          <button id="vpn-edit-btn" class="small-btn">Bearbeiten</button>
+        </div>
+
+        <div id="vpn-config-form">
+          <div class="wishlist-grid">
+            <div class="field">
+              <label for="vpn-key">WireGuard Private Key <span class="hint">(wird nie angezeigt)</span></label>
+              <input id="vpn-key" type="password" autocomplete="off" placeholder="Neuen Key eingeben zum Ändern/Setzen">
+            </div>
+            <div class="field">
+              <label for="vpn-address">WireGuard Adresse</label>
+              <input id="vpn-address" type="text" placeholder="10.x.x.x/32">
+            </div>
+            <div class="field" id="vpn-server-field">
+              <label for="vpn-server">Server-Hostname</label>
+              <input id="vpn-server" type="text" placeholder="nl-ams-wg-103">
+            </div>
+            <div class="field hidden" id="vpn-endpoint-field">
+              <label for="vpn-endpoint">Endpoint <span class="hint">(aus hochgeladener Config, nur Anzeige)</span></label>
+              <input id="vpn-endpoint" type="text" readonly>
+            </div>
+          </div>
+          <div class="actions">
+            <button id="vpn-save-btn">Speichern</button>
+            <span id="vpn-save-status" class="status-msg"></span>
+          </div>
+
+          <div class="field" style="margin-top: 1rem;">
+            <label for="vpn-conf-file">Oder WireGuard-Config hochladen <span class="hint">(.conf, z.B. von Mullvad oder anderem Anbieter)</span></label>
+            <input id="vpn-conf-file" type="file" accept=".conf,.txt">
+          </div>
+          <div class="actions">
+            <button id="vpn-upload-btn">Config hochladen</button>
+            <span id="vpn-upload-status" class="status-msg"></span>
+          </div>
+
+          <div class="actions">
+            <button id="vpn-disable-btn" class="small-btn">VPN deaktivieren</button>
+            <span id="vpn-disable-status" class="status-msg"></span>
+          </div>
+        </div>
       </div>
-      <pre id="irc-box" class="irc-box"></pre>
     </section>
 
-    <section class="card">
-      <h2>Vergangene Läufe</h2>
-      <div id="runs-list" class="runs-list">
-        <span class="muted">Lade...</span>
-      </div>
-      <div id="run-viewer" class="run-viewer hidden">
+    <section class="card" data-card-id="chatlog">
+      <h2 class="card-header">
+        <span class="card-title">Chat Log <span class="hint">(alle Läufe, live aktualisiert)</span></span>
+        <span class="collapse-icon">&#9662;</span>
+      </h2>
+      <div class="card-body">
         <div class="irc-toolbar">
-          <span id="run-viewer-title" class="run-viewer-title"></span>
-          <button id="run-viewer-close" class="small-btn">× Schließen</button>
+          <button id="log-clear-btn" class="small-btn">Anzeige leeren</button>
+          <button id="log-bottom-btn" class="small-btn">↓ Ende</button>
         </div>
-        <pre id="run-viewer-box" class="irc-box"></pre>
+        <pre id="irc-box" class="irc-box"></pre>
       </div>
     </section>
 
-    <section class="card">
-      <h2>Bereits geladen</h2>
-      <input id="downloaded-filter" type="text" placeholder="Filtern ...">
-      <ul id="downloaded-list" class="downloaded-list"></ul>
+    <section class="card" data-card-id="runs">
+      <h2 class="card-header">
+        <span class="card-title">Vergangene Läufe</span>
+        <span class="collapse-icon">&#9662;</span>
+      </h2>
+      <div class="card-body">
+        <div id="runs-list" class="runs-list">
+          <span class="muted">Lade...</span>
+        </div>
+        <div id="run-viewer" class="run-viewer hidden">
+          <div class="irc-toolbar">
+            <span id="run-viewer-title" class="run-viewer-title"></span>
+            <button id="run-viewer-close" class="small-btn">× Schließen</button>
+          </div>
+          <pre id="run-viewer-box" class="irc-box"></pre>
+        </div>
+      </div>
+    </section>
+
+    <section class="card" data-card-id="downloaded">
+      <h2 class="card-header">
+        <span class="card-title">Bereits geladen</span>
+        <span class="collapse-icon">&#9662;</span>
+      </h2>
+      <div class="card-body">
+        <input id="downloaded-filter" type="text" placeholder="Filtern ...">
+        <ul id="downloaded-list" class="downloaded-list"></ul>
+      </div>
     </section>
   </main>
 
