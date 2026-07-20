@@ -1,0 +1,11 @@
+services:
+  gluetun:
+    restart: unless-stopped
+    ports:
+      - "5005:5005"
+
+  xdcc:
+    network_mode: "service:gluetun"
+    depends_on:
+      - gluetun
+    ports: !reset []

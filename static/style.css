@@ -30,9 +30,13 @@ header h1 {
 }
 
 main {
-  max-width: 1000px;
+  max-width: 1500px;
   margin: 0 auto;
   padding: 1rem 1.5rem 3rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  gap: 1.2rem;
+  align-items: start;
 }
 
 .card {
@@ -40,12 +44,79 @@ main {
   border: 1px solid var(--border);
   border-radius: 8px;
   padding: 1.2rem;
-  margin-bottom: 1.2rem;
+}
+
+@media (max-width: 740px) {
+  main {
+    grid-template-columns: 1fr;
+  }
 }
 
 .card h2 {
   margin-top: 0;
   font-size: 1.1rem;
+}
+
+.card-header {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  user-select: none;
+}
+
+.card-title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.header-status {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--accent);
+}
+
+.header-status:empty {
+  display: none;
+}
+
+.collapse-icon {
+  color: var(--muted);
+  font-size: 0.85rem;
+  transition: transform 0.15s ease;
+  flex-shrink: 0;
+}
+
+.card.collapsed .collapse-icon {
+  transform: rotate(-90deg);
+}
+
+.card.collapsed .card-body {
+  display: none;
+}
+
+.status-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 0.4rem;
+  vertical-align: middle;
+}
+
+.status-dot.active {
+  background: var(--success);
+  box-shadow: 0 0 6px var(--success);
+}
+
+.status-dot.inactive {
+  background: var(--error);
+}
+
+.status-dot.unknown {
+  background: var(--muted);
 }
 
 .wishlist-grid {
@@ -67,7 +138,7 @@ main {
   font-size: 0.8rem;
 }
 
-textarea, input[type="text"] {
+textarea, input[type="text"], input[type="password"] {
   width: 100%;
   background: #15171c;
   color: var(--text);
@@ -77,6 +148,44 @@ textarea, input[type="text"] {
   font-family: inherit;
   font-size: 0.9rem;
   resize: vertical;
+}
+
+textarea:focus, input[type="text"]:focus, input[type="password"]:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+input[readonly] {
+  opacity: 0.75;
+  cursor: default;
+}
+
+input[type="file"] {
+  width: 100%;
+  background: #15171c;
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 0.5rem;
+  font-family: inherit;
+  font-size: 0.85rem;
+}
+
+input[type="file"]::file-selector-button {
+  background: var(--accent);
+  color: #0d0f14;
+  border: none;
+  border-radius: 4px;
+  padding: 0.4rem 0.8rem;
+  margin-right: 0.7rem;
+  font-family: inherit;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+input[type="file"]::file-selector-button:hover {
+  opacity: 0.9;
 }
 
 .actions {
@@ -130,6 +239,22 @@ button:disabled {
 
 .progress-box.hidden, .summary-box.hidden {
   display: none;
+}
+
+.hidden {
+  display: none;
+}
+
+.vpn-status-box {
+  margin-top: 1rem;
+  padding: 0.7rem;
+  background: #15171c;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-size: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
 }
 
 .progress-label {
