@@ -32,15 +32,52 @@ NOISE_TAGS = re.compile(
 
 log = logging.getLogger(__name__)
 
-DOWNLOAD_BASE = Path(os.environ.get("DOWNLOAD_DIR", "/downloads"))
-STAGING_DIR   = DOWNLOAD_BASE / "downloads"
+TARGETS_ROOT = Path(os.environ.get("TARGETS_ROOT", "/targets"))
+TARGET_STATE_PATH = Path(os.environ.get("TARGET_STATE_FILE", "/app/download_target.json"))
 
-CATEGORY_DIRS = {
-    "serien": DOWNLOAD_BASE / "serien",
-    "anime":  DOWNLOAD_BASE / "serien",
-    "filme":  DOWNLOAD_BASE / "movies",
-    "film":   DOWNLOAD_BASE / "movies",
+# Zielfestplatten, die im UI zur Auswahl stehen. Jeder Key entspricht
+# einem Unterordner unter TARGETS_ROOT (siehe docker-compose.yml Mounts).
+AVAILABLE_TARGETS = {
+    "jellyfin":  "Jellyfin (/mnt/jellyfin)",
+    "jellyfin2": "Jellyfin2 (/mnt/jellyfin2)",
+    "jellyfin3": "Jellyfin3 (/mnt/jellyfin3)",
 }
+DEFAULT_TARGET = "jellyfin2"
+
+
+def get_current_target() -> str:
+    if TARGET_STATE_PATH.exists():
+        try:
+            key = json.loads(TARGET_STATE_PATH.read_text(encoding="utf-8")).get("target")
+            if key in AVAILABLE_TARGETS:
+                return key
+        except Exception as e:
+            log.warning(f"download_target.json Ladefehler: {e}")
+    return DEFAULT_TARGET
+
+
+def set_current_target(key: str) -> None:
+    if key not in AVAILABLE_TARGETS:
+        raise ValueError(f"unbekanntes Ziel: {key}")
+    TARGET_STATE_PATH.write_text(json.dumps({"target": key}), encoding="utf-8")
+
+
+def download_base() -> Path:
+    return TARGETS_ROOT / get_current_target()
+
+
+def staging_dir() -> Path:
+    return download_base() / "downloads"
+
+
+def category_dirs() -> dict[str, Path]:
+    base = download_base()
+    return {
+        "serien": base / "serien",
+        "anime":  base / "serien",
+        "filme":  base / "movies",
+        "film":   base / "movies",
+    }
 
 CHANNELS_CONFIG = Path(os.environ.get("CHANNELS_CONFIG", "/app/channels.json"))
 

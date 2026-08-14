@@ -70,12 +70,17 @@ main {
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  min-width: 0;
 }
 
 .header-status {
   font-size: 0.75rem;
   font-weight: 600;
   color: var(--accent);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 0;
 }
 
 .header-status:empty {
@@ -153,6 +158,26 @@ textarea, input[type="text"], input[type="password"] {
 textarea:focus, input[type="text"]:focus, input[type="password"]:focus {
   outline: none;
   border-color: var(--accent);
+}
+
+select {
+  background: #15171c;
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 0.45rem 0.6rem;
+  font-family: inherit;
+  font-size: 0.9rem;
+}
+
+select:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+.target-label {
+  font-weight: 600;
+  font-size: 0.9rem;
 }
 
 input[readonly] {

@@ -12,8 +12,8 @@ from downloader import (
     score_pack,
     clean_name,
     postprocess,
-    CATEGORY_DIRS,
-    STAGING_DIR,
+    category_dirs,
+    staging_dir,
     _extra_channels_for,
     _merge_move,
     is_server_disabled,
@@ -172,6 +172,9 @@ def process_item(title: str, category: str, status_cb=None, progress_cb=None,
     candidates = sorted(deduped, key=lambda p: score_pack(p, category), reverse=True)
     expected = _sanitize_expected(title)
     channel_failures: dict[tuple, int] = {}
+    # Ziel wird einmal pro Titel fixiert, damit ein Wechsel der Zielplatte
+    # waehrend des Laufs nicht mitten in einem Download-Versuch greift.
+    staging = staging_dir()
 
     for i, pack in enumerate(candidates[:MAX_CANDIDATES]):
         server = pack.get("server", "")
@@ -199,7 +202,7 @@ def process_item(title: str, category: str, status_cb=None, progress_cb=None,
                 channel=pack["channel"],
                 bot=pack["bot"],
                 pack=pack["pack"],
-                output_dir=STAGING_DIR,
+                output_dir=staging,
                 port=pack.get("port", 6667),
                 tls=pack.get("tls", False),
                 sasl_user=pack.get("sasl_user", ""),
@@ -223,9 +226,9 @@ def process_item(title: str, category: str, status_cb=None, progress_cb=None,
 
         if _ban_flag:
             banned_servers.add(server)
-        elif not success and filename and (STAGING_DIR / filename).exists():
+        elif not success and filename and (staging / filename).exists():
             # Verbindungsabbruch mit Teildatei → nächster Bot wird DCC RESUME anbieten
-            mb = (STAGING_DIR / filename).stat().st_size / 1024 / 1024
+            mb = (staging / filename).stat().st_size / 1024 / 1024
             status(f"Verbindung unterbrochen – {mb:.0f} MB gesichert, nächster Bot versucht Resume", "warning")
 
         if not success:
@@ -235,9 +238,9 @@ def process_item(title: str, category: str, status_cb=None, progress_cb=None,
 
         status(f"Download fertig: {filename}", "success")
         try:
-            downloaded_path = STAGING_DIR / filename
+            downloaded_path = staging / filename
             created = postprocess(downloaded_path, category)
-            target_base = CATEGORY_DIRS.get(category, STAGING_DIR)
+            target_base = category_dirs().get(category, staging)
             target_base.mkdir(parents=True, exist_ok=True)
             for item in created:
                 _merge_move(item, target_base / item.name)

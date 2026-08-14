@@ -38,7 +38,8 @@ services:
       - "5005:5005"
     environment:
       - WISHLIST=/app/wishlist.md
-      - DOWNLOAD_DIR=/downloads
+      - TARGETS_ROOT=/targets
+      - TARGET_STATE_FILE=/app/download_target.json
       - DONE_LOG=/app/downloaded.txt
       - CHAT_LOG=/app/Chat.txt
       - LOGS_DIR=/app/logs
@@ -53,6 +54,7 @@ services:
       - ./downloaded.txt:/app/downloaded.txt
       - ./channels.json:/app/channels.json
       - ./server_state.json:/app/server_state.json
+      - ./download_target.json:/app/download_target.json
       - ./.env:/app/.env
       - ./restart_trigger:/app/restart_trigger
       - ./Chat.txt:/app/Chat.txt
@@ -63,7 +65,9 @@ services:
       - ./scripts/app.py:/app/app.py
       - ./templates:/app/templates
       - ./static:/app/static
-      - /mnt/jellyfin2/media:/downloads
+      - /mnt/jellyfin/media:/targets/jellyfin
+      - /mnt/jellyfin2/media:/targets/jellyfin2
+      - /mnt/jellyfin3/media:/targets/jellyfin3
     logging:
       driver: json-file
       options:

@@ -4,6 +4,7 @@
 import importlib
 import os
 import re
+import shutil
 import threading
 import time
 from datetime import datetime
@@ -13,6 +14,7 @@ from flask import Flask, abort, jsonify, render_template, request
 import requests
 
 import cli
+import downloader
 
 CHAT_LOG_PATH = Path(os.environ.get("CHAT_LOG", "/app/Chat.txt"))
 LOGS_DIR = Path(os.environ.get("LOGS_DIR", "/app/logs"))
@@ -124,6 +126,30 @@ def post_wishlist():
         items = data.get(key, [])
         cleaned[key] = [str(t).strip() for t in items if str(t).strip()]
     cli.save_wishlist(cleaned)
+    return jsonify({"ok": True})
+
+
+@app.route("/api/target", methods=["GET"])
+def get_target():
+    targets = []
+    for key, label in downloader.AVAILABLE_TARGETS.items():
+        free_bytes = None
+        try:
+            free_bytes = shutil.disk_usage(downloader.TARGETS_ROOT / key).free
+        except Exception:
+            pass
+        targets.append({"key": key, "label": label, "free_bytes": free_bytes})
+    return jsonify({"current": downloader.get_current_target(), "targets": targets})
+
+
+@app.route("/api/target", methods=["POST"])
+def set_target():
+    data = request.get_json(force=True) or {}
+    key = str(data.get("target", "")).strip()
+    try:
+        downloader.set_current_target(key)
+    except ValueError as e:
+        return jsonify({"ok": False, "error": str(e)}), 400
     return jsonify({"ok": True})
 
 

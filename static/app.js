@@ -37,6 +37,44 @@ async function saveWishlist() {
   if (!res.ok) throw new Error("HTTP " + res.status);
 }
 
+async function loadTarget() {
+  try {
+    const res = await fetch("/api/target");
+    const data = await res.json();
+    const select = $("target-select");
+    select.innerHTML = "";
+    for (const t of data.targets) {
+      const opt = document.createElement("option");
+      opt.value = t.key;
+      const free = t.free_bytes != null
+        ? ` — ${(t.free_bytes / 1024 / 1024 / 1024).toFixed(0)} GB frei`
+        : "";
+      opt.textContent = t.label + free;
+      select.appendChild(opt);
+    }
+    select.value = data.current;
+  } catch (e) { /* ignore */ }
+}
+
+async function saveTarget() {
+  const statusEl = $("target-status");
+  const key = $("target-select").value;
+  try {
+    const res = await fetch("/api/target", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ target: key }),
+    });
+    const data = await res.json();
+    if (!data.ok) throw new Error(data.error || "unbekannter Fehler");
+    statusEl.textContent = "Gespeichert.";
+    setTimeout(() => { statusEl.textContent = ""; }, 2000);
+  } catch (e) {
+    statusEl.textContent = "Fehler: " + e.message;
+    await loadTarget();
+  }
+}
+
 async function loadDownloaded() {
   const res = await fetch("/api/downloaded");
   const items = await res.json();
@@ -176,7 +214,9 @@ function updateDownloadHeaderStatus(running, progress) {
   }
   if (progress && progress.total > 0) {
     const pct = Math.round((progress.received / progress.total) * 100);
-    el.textContent = `● läuft (${pct}%)`;
+    const mbReceived = (progress.received / 1024 / 1024).toFixed(1);
+    const mbTotal = (progress.total / 1024 / 1024).toFixed(1);
+    el.textContent = `${progress.title}: ${mbReceived} / ${mbTotal} MB (${pct}%)`;
   } else {
     el.textContent = "● läuft";
   }
@@ -512,6 +552,7 @@ document.addEventListener("DOMContentLoaded", () => {
   setupCollapsibleCards();
   setupVpnEditToggle();
   loadWishlist();
+  loadTarget();
   loadDownloaded();
   loadChatLog();
   loadRuns();
@@ -519,6 +560,7 @@ document.addEventListener("DOMContentLoaded", () => {
   loadVpnConfig();
   pollVpnStatus();
 
+  $("target-select").addEventListener("change", saveTarget);
   $("vpn-save-btn").addEventListener("click", saveVpnConfig);
   $("vpn-upload-btn").addEventListener("click", uploadVpnConfig);
   $("vpn-disable-btn").addEventListener("click", disableVpn);

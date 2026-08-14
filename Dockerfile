@@ -15,6 +15,6 @@ COPY templates /app/templates
 COPY static /app/static
 COPY wishlist.md /app/wishlist.md
 
-VOLUME ["/downloads"]
+VOLUME ["/targets"]
 
 CMD ["python3", "/app/app.py"]
