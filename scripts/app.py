@@ -28,6 +28,7 @@ RESTART_LOG_FILE = TRIGGER_DIR / "last_result.log"
 app = Flask(__name__)
 
 _lock = threading.Lock()
+_stop_event = threading.Event()
 _state = {
     "running": False,
     "log": [],          # Liste von {"ts","title","msg","level"}
@@ -77,7 +78,7 @@ def _irc_cb(line: str) -> None:
 
 def _run_job() -> None:
     try:
-        summary = cli.run_once(_status_cb, _progress_cb, _irc_cb)
+        summary = cli.run_once(_status_cb, _progress_cb, _irc_cb, stop_event=_stop_event)
     except Exception as e:
         summary = {"error": str(e)}
         _status_cb("Allgemein", f"Lauf abgebrochen: {e}", "error")
@@ -132,7 +133,7 @@ def post_wishlist():
 @app.route("/api/target", methods=["GET"])
 def get_target():
     targets = []
-    for key, label in downloader.AVAILABLE_TARGETS.items():
+    for key, label in downloader.list_available_targets().items():
         free_bytes = None
         try:
             free_bytes = shutil.disk_usage(downloader.TARGETS_ROOT / key).free
@@ -164,6 +165,7 @@ def run():
         run_filename = now.strftime("%Y-%m-%d_%H-%M-%S") + ".txt"
         LOGS_DIR.mkdir(parents=True, exist_ok=True)
         run_log_path = LOGS_DIR / run_filename
+        _stop_event.clear()
         _state["running"] = True
         _state["log"] = []
         _state["irc_log"] = []
@@ -180,6 +182,15 @@ def run():
     return jsonify({"ok": True})
 
 
+@app.route("/api/stop", methods=["POST"])
+def stop():
+    with _lock:
+        if not _state["running"]:
+            return jsonify({"ok": False, "error": "Kein Lauf aktiv"}), 409
+        _stop_event.set()
+    return jsonify({"ok": True})
+
+
 @app.route("/api/status")
 def status():
     since = request.args.get("since", default=0, type=int)
@@ -187,6 +198,7 @@ def status():
         log_slice = _state["log"][since:]
         return jsonify({
             "running": _state["running"],
+            "stopping": _state["running"] and _stop_event.is_set(),
             "log": log_slice,
             "next": len(_state["log"]),
             "summary": _state["summary"],

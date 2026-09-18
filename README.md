@@ -24,9 +24,19 @@ sortiert alles automatisch in eine Jellyfin-kompatible Ordnerstruktur.
 
 - Docker & Docker Compose
 
-VPN-Unterstützung via Mullvad/Gluetun ist im `docker-compose.yml` vorbereitet,
-aber standardmäßig deaktiviert (`restart: "no"`, kein `network_mode` auf
-`xdcc` gesetzt). Bei Bedarf siehe Kommentar in `docker-compose.yml`.
+VPN-Unterstützung via Mullvad/Gluetun ist eingerichtet und standardmäßig
+**aktiv**. Solange sie aktiv ist, läuft `xdcc` im Netzwerk-Namensraum von
+`gluetun` (`network_mode: service:gluetun`, siehe
+`docker-compose.vpn.yml`). Das hat eine wichtige Konsequenz:
+
+> **Container immer mit beiden Compose-Dateien starten/neu erstellen**,
+> sonst fällt die VPN-Kopplung raus:
+> ```bash
+> docker compose -f docker-compose.yml -f docker-compose.vpn.yml up -d
+> ```
+
+VPN-Konfiguration (Key, Adresse, Server, Config-Upload, Deaktivieren)
+erfolgt komplett über das Web-UI unter dem Zahnrad (⚙) oben rechts.
 
 ---
 
@@ -63,11 +73,59 @@ Ohne eigene `channels.json` wird eine Standardkonfiguration für
 `irc.abjects.net` (`#beast-xdcc` / Suchbot `databeast` in `#beast-chat`)
 verwendet.
 
-### 4. Docker starten
+### 4. Zielplatte(n) einbinden
+
+Jede Zielplatte wird in `docker-compose.yml` beim Service `xdcc` als eigener
+Unterordner unter `/targets` gemountet:
+
+```yaml
+volumes:
+  ...
+  - /mnt/meine-platte/media:/targets/platte1
+```
+
+- **Links** vom `:` steht der echte Pfad auf dem Host/LXC
+- **Rechts**, nach `/targets/`, ein frei wählbarer Name
+
+Jeder hier eingetragene Ordner erscheint danach **automatisch** im
+Web-UI-Dropdown „Zielfestplatte" (in der Download-Karte) — im Code
+(`scripts/downloader.py`) muss dafür nichts mehr angepasst werden.
+
+Eine komplett neue physische Platte erfordert zusätzlich, dass sie
+überhaupt erst an den Container/LXC durchgereicht wird (z. B. per
+`pct set <ID> -mp<N> /mnt/neue-platte,mp=/mnt/neue-platte` auf dem
+Proxmox-Host) — das ist ein einmaliger, sicherheitsrelevanter Schritt, der
+sich nicht aus dem Web-UI heraus automatisieren lässt.
+
+### 5. Docker starten
 
 ```bash
-docker compose up -d xdcc
+docker compose -f docker-compose.yml -f docker-compose.vpn.yml up -d
 ```
+
+(Ohne aktives VPN reicht `docker compose up -d xdcc` mit nur der Basis-Datei.)
+
+---
+
+## Weitere Zielplatte nachträglich hinzufügen
+
+Läuft das Tool schon und der Host/LXC hat bereits Zugriff auf die neue
+Platte (siehe oben):
+
+1. In `docker-compose.yml` beim Service `xdcc` eine neue Zeile unter
+   `volumes:` eintragen:
+   ```yaml
+   - /mnt/neue-platte/media:/targets/neuername
+   ```
+2. Container neu erstellen (mit VPN-Override, falls aktiv):
+   ```bash
+   docker compose -f docker-compose.yml -f docker-compose.vpn.yml up -d --force-recreate xdcc
+   ```
+3. Im Web-UI ist die neue Platte sofort im Dropdown „Zielfestplatte"
+   auswählbar — kein Code ändern nötig.
+
+**Nur zwischen bereits eingebundenen Platten wechseln** braucht dagegen gar
+keinen Neustart — einfach im Dropdown auswählen, wirkt sofort.
 
 ---
 
@@ -75,9 +133,14 @@ docker compose up -d xdcc
 
 Web-UI unter `http://<host>:5005` öffnen:
 
+- **Zahnrad (⚙, oben rechts)**: Einstellungen — aktuell VPN-Konfiguration
+  (Key/Adresse/Server, Config-Upload, Deaktivieren)
+- **VPN-Karte**: zeigt nur den Live-Status (verbunden/nicht verbunden +
+  öffentliche IP), keine Konfiguration
 - **Wunschliste**: Serien/Filme/Merkliste bearbeiten und speichern
-- **Download**: „Wishlist abarbeiten“ startet einen Lauf, Live-Log und
-  Fortschrittsbalken zeigen den aktuellen Stand
+- **Download**: Zielfestplatte auswählen, „Speichern & Abarbeiten“ startet
+  einen Lauf, Live-Log und Fortschrittsbalken zeigen den aktuellen Stand
+  (per „Stopp“ abbrechbar)
 - **Bereits geladen**: Liste erfolgreich geladener Titel, filterbar; über
   „Entfernen“ kann ein Titel wieder aus der Liste genommen werden, damit er
   beim nächsten Lauf erneut gesucht wird
@@ -133,7 +196,11 @@ movies/
 | Variable | Standard | Beschreibung |
 |----------|----------|--------------|
 | `WISHLIST` | `/app/wishlist.md` | Pfad zur Wishlist |
-| `DOWNLOAD_DIR` | `/downloads` | Zielverzeichnis |
+| `TARGETS_ROOT` | `/targets` | Wurzelverzeichnis, unter dem die Zielplatten gemountet sind |
+| `TARGET_STATE_FILE` | `/app/download_target.json` | Datei mit aktuell gewählter Zielplatte (über Web-UI änderbar) |
 | `DONE_LOG` | `/app/downloaded.txt` | Log erledigter Einträge |
 | `CHANNELS_CONFIG` | `/app/channels.json` | Pfad zur Channel-/Suchbot-Konfiguration |
 | `SEARCH_LANG` | `German` | Bevorzugte Sprache für die Suche |
+| `GLUETUN_CONTROL_URL` | `http://gluetun:8000` | Basis-URL von Gluetuns Control-API für den VPN-Status |
+| `GLUETUN_API_KEY` | – | API-Key für Gluetuns Control-API (aus `.env`) |
+| `ENV_FILE` | `/app/.env` | Datei, in die die Web-UI VPN-Zugangsdaten schreibt |

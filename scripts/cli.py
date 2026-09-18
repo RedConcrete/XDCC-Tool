@@ -138,7 +138,7 @@ def _make_stall_cb(status):
 
 
 def process_item(title: str, category: str, status_cb=None, progress_cb=None,
-                 irc_callback=None) -> bool:
+                 irc_callback=None, stop_event=None) -> bool:
     banned_servers: set[str] = set()
     _ban_flag = False
 
@@ -152,9 +152,13 @@ def process_item(title: str, category: str, status_cb=None, progress_cb=None,
     query = _search_query(title)
     status(f"Suche: {query}" if query != title else f"Suche: {title}")
     try:
-        results = search_packs(query, irc_callback=irc_callback)
+        results = search_packs(query, irc_callback=irc_callback, stop_event=stop_event)
     except Exception as e:
         status(f"Suche fehlgeschlagen: {e}", "error")
+        return False
+
+    if stop_event and stop_event.is_set():
+        status("Abgebrochen durch Nutzer", "warning")
         return False
 
     if not results:
@@ -169,7 +173,24 @@ def process_item(title: str, category: str, status_cb=None, progress_cb=None,
             seen.add(key)
             deduped.append(p)
 
-    candidates = sorted(deduped, key=lambda p: score_pack(p, category), reverse=True)
+    # Zahlen im gesuchten Titel (z.B. "The Purge 3") muessen auch im
+    # Dateinamen vorkommen - sonst waehlt score_pack (der nur Qualitaet/
+    # Sprache/Groesse bewertet, nicht Relevanz) bei Franchise-Titeln mit
+    # mehreren Teilen leicht den falschen Teil (z.B. immer den mit dem
+    # hoechsten Qualitaets-Score, unabhaengig von der gesuchten Nummer).
+    def _matches_query_numbers(fname: str) -> bool:
+        q_nums = set(re.findall(r"\b\d+\b", query))
+        if not q_nums:
+            return True
+        f_nums = set(re.findall(r"\b\d+\b", fname.replace(".", " ").replace("_", " ")))
+        return bool(q_nums & f_nums)
+
+    relevant = [p for p in deduped if _matches_query_numbers(p.get("fname", ""))]
+    irrelevant = [p for p in deduped if p not in relevant]
+    candidates = (
+        sorted(relevant, key=lambda p: score_pack(p, category), reverse=True)
+        + sorted(irrelevant, key=lambda p: score_pack(p, category), reverse=True)
+    )
     expected = _sanitize_expected(title)
     channel_failures: dict[tuple, int] = {}
     # Ziel wird einmal pro Titel fixiert, damit ein Wechsel der Zielplatte
@@ -177,6 +198,10 @@ def process_item(title: str, category: str, status_cb=None, progress_cb=None,
     staging = staging_dir()
 
     for i, pack in enumerate(candidates[:MAX_CANDIDATES]):
+        if stop_event and stop_event.is_set():
+            status("Abgebrochen durch Nutzer", "warning")
+            return False
+
         server = pack.get("server", "")
         bot_key = (server, pack.get("channel", ""), pack.get("bot", ""))
 
@@ -219,10 +244,14 @@ def process_item(title: str, category: str, status_cb=None, progress_cb=None,
                 stall_callback=_make_stall_cb(status),
                 expected_fname=expected,
                 irc_callback=irc_callback,
+                stop_event=stop_event,
             )
         except Exception as e:
             status(f"Download-Fehler: {e}", "error")
             success, filename = False, None
+
+        if stop_event and stop_event.is_set():
+            return False
 
         if _ban_flag:
             banned_servers.add(server)
@@ -257,21 +286,26 @@ def process_item(title: str, category: str, status_cb=None, progress_cb=None,
     return False
 
 
-def run_once(status_cb=None, progress_cb=None, irc_callback=None) -> dict:
+def run_once(status_cb=None, progress_cb=None, irc_callback=None, stop_event=None) -> dict:
     wishlist = load_wishlist()
     done = load_done()
 
     counts = {"ok": 0, "failed": 0, "skipped": 0, "total": 0}
 
     for category in ACTIVE_CATEGORIES:
+        if stop_event and stop_event.is_set():
+            break
         for title in wishlist.get(category, []):
+            if stop_event and stop_event.is_set():
+                break
             if title in done:
                 counts["skipped"] += 1
                 continue
 
             counts["total"] += 1
             try:
-                ok = process_item(title, category, status_cb, progress_cb, irc_callback)
+                ok = process_item(title, category, status_cb, progress_cb, irc_callback,
+                                  stop_event=stop_event)
             except Exception as e:
                 ok = False
                 if status_cb:

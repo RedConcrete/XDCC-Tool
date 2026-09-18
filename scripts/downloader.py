@@ -34,30 +34,39 @@ log = logging.getLogger(__name__)
 
 TARGETS_ROOT = Path(os.environ.get("TARGETS_ROOT", "/targets"))
 TARGET_STATE_PATH = Path(os.environ.get("TARGET_STATE_FILE", "/app/download_target.json"))
-
-# Zielfestplatten, die im UI zur Auswahl stehen. Jeder Key entspricht
-# einem Unterordner unter TARGETS_ROOT (siehe docker-compose.yml Mounts).
-AVAILABLE_TARGETS = {
-    "jellyfin":  "Jellyfin (/mnt/jellyfin)",
-    "jellyfin2": "Jellyfin2 (/mnt/jellyfin2)",
-    "jellyfin3": "Jellyfin3 (/mnt/jellyfin3)",
-}
 DEFAULT_TARGET = "jellyfin2"
 
 
+def list_available_targets() -> dict[str, str]:
+    """Jeder Unterordner direkt unter TARGETS_ROOT gilt als eigene
+    Zielfestplatte (ein eigenes Docker-Volume, siehe docker-compose.yml).
+    Neue Platte hinzufuegen = dort einen weiteren Mount eintragen -
+    hier im Code muss dafuer nichts mehr angepasst werden, die Auswahl
+    im Web-UI erkennt es automatisch."""
+    targets = {}
+    if TARGETS_ROOT.is_dir():
+        for entry in sorted(TARGETS_ROOT.iterdir()):
+            if entry.is_dir() and not entry.name.startswith("."):
+                targets[entry.name] = entry.name
+    return targets
+
+
 def get_current_target() -> str:
+    available = list_available_targets()
     if TARGET_STATE_PATH.exists():
         try:
             key = json.loads(TARGET_STATE_PATH.read_text(encoding="utf-8")).get("target")
-            if key in AVAILABLE_TARGETS:
+            if key in available:
                 return key
         except Exception as e:
             log.warning(f"download_target.json Ladefehler: {e}")
-    return DEFAULT_TARGET
+    if DEFAULT_TARGET in available:
+        return DEFAULT_TARGET
+    return next(iter(available), DEFAULT_TARGET)
 
 
 def set_current_target(key: str) -> None:
-    if key not in AVAILABLE_TARGETS:
+    if key not in list_available_targets():
         raise ValueError(f"unbekanntes Ziel: {key}")
     TARGET_STATE_PATH.write_text(json.dumps({"target": key}), encoding="utf-8")
 
@@ -74,8 +83,6 @@ def category_dirs() -> dict[str, Path]:
     base = download_base()
     return {
         "serien": base / "serien",
-        "anime":  base / "serien",
-        "filme":  base / "movies",
         "film":   base / "movies",
     }
 
@@ -238,7 +245,8 @@ def _irc_bot_search(server: str, port: int, channel: str,
                     search_bot: str, search_cmd: str,
                     query: str, timeout: int = 30,
                     download_channel: str | None = None,
-                    irc_callback=None, tls: bool = False) -> list[dict]:
+                    irc_callback=None, tls: bool = False,
+                    stop_event=None) -> list[dict]:
     """Sucht direkt via IRC-Suchbot (z.B. databeast auf Abjects)."""
     results = []
     nick = make_nick()
@@ -277,6 +285,8 @@ def _irc_bot_search(server: str, port: int, channel: str,
         deadline = time.time() + timeout
 
         while time.time() < deadline:
+            if stop_event and stop_event.is_set():
+                break
             if searching and time.time() - last_result > 4:
                 break
 
@@ -374,7 +384,7 @@ def _irc_bot_search(server: str, port: int, channel: str,
     return results
 
 
-def search_packs(query: str, irc_callback=None) -> list[dict]:
+def search_packs(query: str, irc_callback=None, stop_event=None) -> list[dict]:
     """IRC-Botsuche (primär) + xdcc.eu für Netzwerke ohne Suchbot."""
     results: list[dict] = []
     # Channel-genaues Tracking: BotReign findet #moviegods-Packs → blockiert nur
@@ -384,6 +394,8 @@ def search_packs(query: str, irc_callback=None) -> list[dict]:
     disabled_servers = {s for s, v in _load_server_state().items() if v.get("disabled")}
 
     for ch in CHANNELS:
+        if stop_event and stop_event.is_set():
+            return results
         if ch["server"] in disabled_servers:
             continue
         if "search_bot" in ch:
@@ -397,6 +409,7 @@ def search_packs(query: str, irc_callback=None) -> list[dict]:
                 download_channel=ch["channel"],
                 irc_callback=irc_callback,
                 tls=ch.get("tls", False),
+                stop_event=stop_event,
             )
             if found:
                 results.extend(found)
@@ -406,6 +419,9 @@ def search_packs(query: str, irc_callback=None) -> list[dict]:
                     p.setdefault("sasl_user", ch.get("sasl_user", ""))
                     p.setdefault("sasl_pass", ch.get("sasl_pass", ""))
                 irc_channels.add((ch["server"], ch["channel"].lower()))
+
+    if stop_event and stop_event.is_set():
+        return results
 
     for p in search_xdcc_eu(query):
         if p["server"] in disabled_servers:
@@ -460,7 +476,7 @@ def score_pack(p: dict, category: str = "") -> float:
     except (ValueError, TypeError):
         pass
 
-    if category in ("serien", "anime"):
+    if category == "serien":
         if re.search(r"s\d{1,2}e\d{1,2}", name):
             score += 500
         elif re.search(r"\d{1,2}x\d{1,2}", name):
@@ -476,7 +492,7 @@ def score_pack(p: dict, category: str = "") -> float:
             else:
                 score -= 800
 
-    elif category in ("filme", "film"):
+    elif category == "film":
         if re.search(r"s\d{1,2}e\d{1,2}", name):
             score -= 500
 
@@ -505,7 +521,7 @@ def extract_season_episode(filename: str) -> tuple[int | None, int | None]:
 
 
 def rename_for_jellyfin(path: Path, category: str) -> Path:
-    if category in ("serien", "anime", "tvshows"):
+    if category == "serien":
         return _rename_series(path)
     return _rename_movie(path)
 

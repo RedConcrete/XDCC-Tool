@@ -99,7 +99,7 @@ class XDCCDownloader:
                  skip_names_check: bool = False, expected_fname: str = "",
                  irc_callback=None, tls: bool = False,
                  sasl_user: str = "", sasl_pass: str = "",
-                 sasl_fail_callback=None):
+                 sasl_fail_callback=None, stop_event=None):
         self.server         = server
         self.port           = port
         self.channel        = channel
@@ -127,6 +127,8 @@ class XDCCDownloader:
         self.sasl_done = not (sasl_user and sasl_pass)
         self.sasl_fail_callback = sasl_fail_callback
         self._skip_dcc_fname      = None   # angekündigte Datei überspringen
+        self.stop_event            = stop_event
+        self.stopped               = False
 
     def _send(self, msg: str):
         self.sock.sendall((msg + "\r\n").encode("utf-8", errors="replace"))
@@ -138,6 +140,9 @@ class XDCCDownloader:
     def _recv_lines(self):
         buf = b""
         while not self.done:
+            if self.stop_event and self.stop_event.is_set():
+                self.stopped = True
+                return
             try:
                 data = self.sock.recv(4096)
                 if not data:
@@ -166,12 +171,14 @@ class XDCCDownloader:
         self.output_dir.mkdir(parents=True, exist_ok=True)
         outpath = self.output_dir / filename
         STALL_CHECK = 60  # Sekunden ohne Daten → User fragen
+        POLL_INTERVAL = 1  # Sekunden zwischen stop_event-Checks
 
         try:
             dcc_sock = socket.create_connection((ip, port), timeout=30)
             dcc_sock.settimeout(None)  # vollständig blockierend – kein Timeout auf recv/sendall
             received = resume_pos
             start    = time.time()
+            last_data_at = time.time()
 
             mode = "ab" if resume_pos > 0 else "wb"
             if resume_pos > 0 and self.status_callback:
@@ -179,22 +186,34 @@ class XDCCDownloader:
 
             with open(outpath, mode) as f:
                 while received < filesize:
-                    # select() wartet bis Daten da sind – ohne Socket-Timeout zu setzen
-                    readable, _, _ = select.select([dcc_sock], [], [], STALL_CHECK)
+                    if self.stop_event and self.stop_event.is_set():
+                        self.stopped = True
+                        log.info("Download vom Nutzer gestoppt")
+                        if self.status_callback:
+                            self.status_callback("Abgebrochen durch Nutzer", "warning")
+                        dcc_sock.close()
+                        return False
+
+                    # select() pollt kurz, damit stop_event zuegig greift, ohne
+                    # die 60s-Stall-Erkennung zu verkuerzen
+                    readable, _, _ = select.select([dcc_sock], [], [], POLL_INTERVAL)
                     if not readable:
-                        # Keine Daten seit STALL_CHECK Sekunden → User fragen
-                        keep_going = True
-                        if self.stall_callback:
-                            keep_going = self.stall_callback(received, filesize)
-                        if not keep_going:
-                            log.info("Download vom User abgebrochen")
-                            return False
+                        if time.time() - last_data_at >= STALL_CHECK:
+                            # Keine Daten seit STALL_CHECK Sekunden → User fragen
+                            keep_going = True
+                            if self.stall_callback:
+                                keep_going = self.stall_callback(received, filesize)
+                            last_data_at = time.time()
+                            if not keep_going:
+                                log.info("Download vom User abgebrochen")
+                                return False
                         continue  # weiter warten
                     chunk = dcc_sock.recv(65536)
                     if not chunk:
                         break
                     f.write(chunk)
                     received += len(chunk)
+                    last_data_at = time.time()
                     dcc_sock.sendall(struct.pack("!I", received & 0xFFFFFFFF))
                     if self.progress_callback:
                         self.progress_callback(received, filesize)
@@ -521,6 +540,8 @@ class XDCCDownloader:
             log.error(f"IRC-Fehler: {e}")
         finally:
             self.done = True
+            if self.stopped and self.status_callback:
+                self.status_callback("Abgebrochen durch Nutzer", "warning")
             try:
                 self._send("QUIT :bye")
                 self.sock.close()
@@ -540,7 +561,7 @@ def xdcc_download(server: str, channel: str, bot: str, pack: str,
                   expected_fname: str = "",
                   irc_callback=None, tls: bool = False,
                   sasl_user: str = "", sasl_pass: str = "",
-                  sasl_fail_callback=None) -> tuple[bool, str | None]:
+                  sasl_fail_callback=None, stop_event=None) -> tuple[bool, str | None]:
     """Gibt (success, actual_filename) zurück."""
     d = XDCCDownloader(server, port, channel, bot, pack, output_dir, timeout,
                        extra_channels=extra_channels,
@@ -553,7 +574,8 @@ def xdcc_download(server: str, channel: str, bot: str, pack: str,
                        tls=tls,
                        sasl_user=sasl_user,
                        sasl_pass=sasl_pass,
-                       sasl_fail_callback=sasl_fail_callback)
+                       sasl_fail_callback=sasl_fail_callback,
+                       stop_event=stop_event)
     d.file_exists_callback = file_exists_callback
     success = d.download()
     return success, d.filename

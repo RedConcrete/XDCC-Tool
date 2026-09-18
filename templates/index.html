@@ -9,6 +9,20 @@
 <body>
   <header>
     <h1>XDCC Downloader</h1>
+    <div class="header-actions">
+      <button id="vpn-badge" class="vpn-badge" aria-label="VPN Status">
+        <span id="vpn-header-dot" class="status-dot unknown"></span>VPN
+      </button>
+      <div class="menu-wrap">
+        <button id="menu-btn" class="gear-btn" aria-label="Menü">☰</button>
+        <div id="menu-dropdown" class="menu-dropdown hidden">
+          <button class="menu-item" data-modal="chatlog-modal">Chat Log</button>
+          <button class="menu-item" data-modal="runs-modal">Läufe</button>
+          <button class="menu-item" data-modal="downloaded-modal">Geladen</button>
+          <button class="menu-item" data-modal="settings-modal">Einstellungen</button>
+        </div>
+      </div>
+    </div>
   </header>
 
   <main>
@@ -32,6 +46,10 @@
             <textarea id="merkliste" rows="6" placeholder="Ein Titel pro Zeile"></textarea>
           </div>
         </div>
+        <div class="actions">
+          <button id="wishlist-save-btn">Speichern</button>
+          <span id="wishlist-save-status" class="status-msg"></span>
+        </div>
       </div>
     </section>
 
@@ -47,7 +65,8 @@
           <span id="target-status" class="status-msg"></span>
         </div>
         <div class="actions">
-          <button id="run-btn">Speichern &amp; Abarbeiten</button>
+          <button id="run-btn">Abarbeiten</button>
+          <button id="stop-btn" class="stop-btn" disabled>Stopp</button>
           <span id="run-status" class="status-msg"></span>
         </div>
         <div id="progress-box" class="progress-box hidden">
@@ -58,112 +77,102 @@
         <div id="summary-box" class="summary-box hidden"></div>
       </div>
     </section>
-
-    <section class="card" data-card-id="vpn">
-      <h2 class="card-header">
-        <span class="card-title">VPN (Mullvad) <span id="vpn-header-dot" class="status-dot unknown"></span></span>
-        <span class="collapse-icon">&#9662;</span>
-      </h2>
-      <div class="card-body">
-        <div class="vpn-status-box">
-          <div>
-            <span id="vpn-status-dot" class="status-dot unknown"></span>
-            <strong>Status:</strong> <span id="vpn-status-text">wird geladen ...</span>
-          </div>
-          <div id="vpn-ip-row" class="hidden"><strong>Öffentliche IP:</strong> <span id="vpn-ip-text"></span></div>
-          <div id="vpn-key-row"><strong>Key hinterlegt:</strong> <span id="vpn-key-text">-</span></div>
-        </div>
-
-        <div id="vpn-active-summary" class="hidden">
-          <p class="hint">VPN ist aktiv - Eingabefelder ausgeblendet.</p>
-          <button id="vpn-edit-btn" class="small-btn">Bearbeiten</button>
-        </div>
-
-        <div id="vpn-config-form">
-          <div class="wishlist-grid">
-            <div class="field">
-              <label for="vpn-key">WireGuard Private Key <span class="hint">(wird nie angezeigt)</span></label>
-              <input id="vpn-key" type="password" autocomplete="off" placeholder="Neuen Key eingeben zum Ändern/Setzen">
-            </div>
-            <div class="field">
-              <label for="vpn-address">WireGuard Adresse</label>
-              <input id="vpn-address" type="text" placeholder="10.x.x.x/32">
-            </div>
-            <div class="field" id="vpn-server-field">
-              <label for="vpn-server">Server-Hostname</label>
-              <input id="vpn-server" type="text" placeholder="nl-ams-wg-103">
-            </div>
-            <div class="field hidden" id="vpn-endpoint-field">
-              <label for="vpn-endpoint">Endpoint <span class="hint">(aus hochgeladener Config, nur Anzeige)</span></label>
-              <input id="vpn-endpoint" type="text" readonly>
-            </div>
-          </div>
-          <div class="actions">
-            <button id="vpn-save-btn">Speichern</button>
-            <span id="vpn-save-status" class="status-msg"></span>
-          </div>
-
-          <div class="field" style="margin-top: 1rem;">
-            <label for="vpn-conf-file">Oder WireGuard-Config hochladen <span class="hint">(.conf, z.B. von Mullvad oder anderem Anbieter)</span></label>
-            <input id="vpn-conf-file" type="file" accept=".conf,.txt">
-          </div>
-          <div class="actions">
-            <button id="vpn-upload-btn">Config hochladen</button>
-            <span id="vpn-upload-status" class="status-msg"></span>
-          </div>
-
-          <div class="actions">
-            <button id="vpn-disable-btn" class="small-btn">VPN deaktivieren</button>
-            <span id="vpn-disable-status" class="status-msg"></span>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="card" data-card-id="chatlog">
-      <h2 class="card-header">
-        <span class="card-title">Chat Log <span class="hint">(alle Läufe, live aktualisiert)</span></span>
-        <span class="collapse-icon">&#9662;</span>
-      </h2>
-      <div class="card-body">
-        <div class="irc-toolbar">
-          <button id="log-clear-btn" class="small-btn">Anzeige leeren</button>
-          <button id="log-bottom-btn" class="small-btn">↓ Ende</button>
-        </div>
-        <pre id="irc-box" class="irc-box"></pre>
-      </div>
-    </section>
-
-    <section class="card" data-card-id="runs">
-      <h2 class="card-header">
-        <span class="card-title">Vergangene Läufe</span>
-        <span class="collapse-icon">&#9662;</span>
-      </h2>
-      <div class="card-body">
-        <div id="runs-list" class="runs-list">
-          <span class="muted">Lade...</span>
-        </div>
-        <div id="run-viewer" class="run-viewer hidden">
-          <div class="irc-toolbar">
-            <span id="run-viewer-title" class="run-viewer-title"></span>
-            <button id="run-viewer-close" class="small-btn">× Schließen</button>
-          </div>
-          <pre id="run-viewer-box" class="irc-box"></pre>
-        </div>
-      </div>
-    </section>
-
-    <section class="card" data-card-id="downloaded">
-      <h2 class="card-header">
-        <span class="card-title">Bereits geladen</span>
-        <span class="collapse-icon">&#9662;</span>
-      </h2>
-      <div class="card-body">
-        <input id="downloaded-filter" type="text" placeholder="Filtern ...">
-        <ul id="downloaded-list" class="downloaded-list"></ul>
-      </div>
-    </section>
   </main>
+
+  <div id="vpn-popup" class="modal-overlay hidden">
+    <div class="modal-box">
+      <h2>VPN (Mullvad)</h2>
+      <div class="vpn-status-box">
+        <div>
+          <span id="vpn-status-dot" class="status-dot unknown"></span>
+          <strong>Status:</strong> <span id="vpn-status-text">wird geladen ...</span>
+        </div>
+        <div id="vpn-ip-row" class="hidden"><strong>Öffentliche IP:</strong> <span id="vpn-ip-text"></span></div>
+        <div id="vpn-key-row"><strong>Key hinterlegt:</strong> <span id="vpn-key-text">-</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div id="chatlog-modal" class="modal-overlay menu-modal hidden">
+    <div class="modal-box">
+      <h2>Chat Log</h2>
+      <div class="irc-toolbar">
+        <button id="log-clear-btn" class="small-btn">Anzeige leeren</button>
+        <button id="log-bottom-btn" class="small-btn">↓ Ende</button>
+      </div>
+      <pre id="irc-box" class="irc-box"></pre>
+    </div>
+  </div>
+
+  <div id="runs-modal" class="modal-overlay menu-modal hidden">
+    <div class="modal-box">
+      <h2>Vergangene Läufe</h2>
+      <div id="runs-list" class="runs-list">
+        <span class="muted">Lade...</span>
+      </div>
+      <div id="run-viewer" class="run-viewer hidden">
+        <div class="irc-toolbar">
+          <span id="run-viewer-title" class="run-viewer-title"></span>
+          <button id="run-viewer-close" class="small-btn">× Schließen</button>
+        </div>
+        <pre id="run-viewer-box" class="irc-box"></pre>
+      </div>
+    </div>
+  </div>
+
+  <div id="downloaded-modal" class="modal-overlay menu-modal hidden">
+    <div class="modal-box">
+      <h2>Bereits geladen</h2>
+      <input id="downloaded-filter" type="text" placeholder="Filtern ...">
+      <ul id="downloaded-list" class="downloaded-list"></ul>
+    </div>
+  </div>
+
+  <div id="settings-modal" class="modal-overlay menu-modal hidden">
+    <div class="modal-box">
+      <h2>Einstellungen</h2>
+
+      <h3>VPN (Mullvad)</h3>
+      <div id="vpn-config-form">
+        <div class="wishlist-grid">
+          <div class="field">
+            <label for="vpn-key">WireGuard Private Key <span class="hint">(wird nie angezeigt)</span></label>
+            <input id="vpn-key" type="password" autocomplete="off" placeholder="Neuen Key eingeben zum Ändern/Setzen">
+          </div>
+          <div class="field">
+            <label for="vpn-address">WireGuard Adresse</label>
+            <input id="vpn-address" type="text" placeholder="10.x.x.x/32">
+          </div>
+          <div class="field" id="vpn-server-field">
+            <label for="vpn-server">Server-Hostname</label>
+            <input id="vpn-server" type="text" placeholder="nl-ams-wg-103">
+          </div>
+          <div class="field hidden" id="vpn-endpoint-field">
+            <label for="vpn-endpoint">Endpoint <span class="hint">(aus hochgeladener Config, nur Anzeige)</span></label>
+            <input id="vpn-endpoint" type="text" readonly>
+          </div>
+        </div>
+        <div class="actions">
+          <button id="vpn-save-btn">Speichern</button>
+          <span id="vpn-save-status" class="status-msg"></span>
+        </div>
+
+        <div class="field" style="margin-top: 1rem;">
+          <label for="vpn-conf-file">Oder WireGuard-Config hochladen <span class="hint">(.conf, z.B. von Mullvad oder anderem Anbieter)</span></label>
+          <input id="vpn-conf-file" type="file" accept=".conf,.txt">
+        </div>
+        <div class="actions">
+          <button id="vpn-upload-btn">Config hochladen</button>
+          <span id="vpn-upload-status" class="status-msg"></span>
+        </div>
+
+        <div class="actions">
+          <button id="vpn-disable-btn" class="small-btn">VPN deaktivieren</button>
+          <span id="vpn-disable-status" class="status-msg"></span>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <script src="/static/app.js"></script>
 </body>

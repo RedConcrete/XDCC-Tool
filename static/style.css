@@ -22,11 +22,145 @@ body {
 header {
   padding: 1.2rem 1.5rem;
   border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 header h1 {
   margin: 0;
   font-size: 1.4rem;
+}
+
+.gear-btn {
+  background: transparent;
+  color: var(--muted);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  width: 2.2rem;
+  height: 2.2rem;
+  font-size: 1.2rem;
+  line-height: 1;
+  padding: 0;
+  cursor: pointer;
+}
+
+.gear-btn:hover {
+  color: var(--text);
+  border-color: var(--muted);
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  flex-shrink: 0;
+}
+
+.vpn-badge {
+  background: transparent;
+  color: var(--muted);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  height: 2.2rem;
+  padding: 0 0.8rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  font-family: inherit;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.vpn-badge:hover {
+  color: var(--text);
+  border-color: var(--muted);
+}
+
+.menu-wrap {
+  position: relative;
+}
+
+.menu-dropdown {
+  position: absolute;
+  top: calc(100% + 0.4rem);
+  right: 0;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  min-width: 160px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+  z-index: 110;
+}
+
+.menu-dropdown.hidden {
+  display: none;
+}
+
+.menu-item {
+  background: transparent;
+  color: var(--text);
+  border: none;
+  border-radius: 6px;
+  padding: 0.55rem 0.7rem;
+  font-size: 0.9rem;
+  font-family: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.menu-item:hover {
+  background: #15171c;
+}
+
+.modal-box h3 {
+  margin: 0 0 0.6rem;
+  font-size: 0.95rem;
+}
+
+@media (max-width: 420px) {
+  header h1 {
+    font-size: 1.1rem;
+  }
+
+  .vpn-badge {
+    padding: 0 0.55rem;
+  }
+}
+
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 3rem 1rem;
+  z-index: 100;
+  overflow-y: auto;
+}
+
+.modal-overlay.hidden {
+  display: none;
+}
+
+.modal-box {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1.2rem;
+  width: 100%;
+  max-width: 600px;
+}
+
+.modal-box h2 {
+  margin: 0 0 0.8rem;
+  font-size: 1.1rem;
 }
 
 main {
@@ -36,7 +170,7 @@ main {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
   gap: 1.2rem;
-  align-items: start;
+  align-items: stretch;
 }
 
 .card {
@@ -233,6 +367,10 @@ button {
 button:disabled {
   opacity: 0.5;
   cursor: not-allowed;
+}
+
+.stop-btn {
+  background: var(--error);
 }
 
 .status-msg {

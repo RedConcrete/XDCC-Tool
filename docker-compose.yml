@@ -68,6 +68,7 @@ services:
       - /mnt/jellyfin/media:/targets/jellyfin
       - /mnt/jellyfin2/media:/targets/jellyfin2
       - /mnt/jellyfin3/media:/targets/jellyfin3
+      - /mnt/jellyfin4/media:/targets/jellyfin4
     logging:
       driver: json-file
       options:

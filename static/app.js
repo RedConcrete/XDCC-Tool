@@ -37,6 +37,18 @@ async function saveWishlist() {
   if (!res.ok) throw new Error("HTTP " + res.status);
 }
 
+async function saveWishlistOnly() {
+  const statusEl = $("wishlist-save-status");
+  statusEl.textContent = "Speichere ...";
+  try {
+    await saveWishlist();
+    statusEl.textContent = "Gespeichert.";
+  } catch (e) {
+    statusEl.textContent = "Fehler: " + e.message;
+  }
+  setTimeout(() => { statusEl.textContent = ""; }, 3000);
+}
+
 async function loadTarget() {
   try {
     const res = await fetch("/api/target");
@@ -240,7 +252,8 @@ async function pollStatus() {
       updateProgress(data.progress);
 
       $("run-btn").disabled = data.running;
-      $("run-status").textContent = data.running ? "Läuft ..." : "";
+      $("stop-btn").disabled = !data.running || data.stopping;
+      $("run-status").textContent = data.stopping ? "Stoppe ..." : (data.running ? "Läuft ..." : "");
       updateDownloadHeaderStatus(data.running, data.progress);
 
       if (!data.running) {
@@ -258,19 +271,11 @@ async function pollStatus() {
   }
 }
 
-async function saveAndRun() {
+async function runOnly() {
   $("log-box").innerHTML = "";
   $("summary-box").classList.add("hidden");
   logOffset = 0;
   const statusEl = $("run-status");
-
-  statusEl.textContent = "Speichere ...";
-  try {
-    await saveWishlist();
-  } catch (e) {
-    statusEl.textContent = "Fehler beim Speichern: " + e.message;
-    return;
-  }
 
   statusEl.textContent = "Starte ...";
   try {
@@ -281,6 +286,17 @@ async function saveAndRun() {
     return;
   }
   pollStatus();
+}
+
+async function stopRun() {
+  $("stop-btn").disabled = true;
+  $("run-status").textContent = "Stoppe ...";
+  try {
+    const res = await fetch("/api/stop", { method: "POST" });
+    if (!res.ok && res.status !== 409) throw new Error("HTTP " + res.status);
+  } catch (e) {
+    $("run-status").textContent = "Fehler: " + e.message;
+  }
 }
 
 function parseRunName(filename) {
@@ -375,7 +391,6 @@ async function uploadVpnConfig() {
     if (!data.ok) throw new Error(data.error || "unbekannter Fehler");
     statusEl.textContent = "Config übernommen.";
     fileInput.value = "";
-    vpnFormForcedOpen = false;
     await loadVpnConfig();
     setTimeout(() => { statusEl.textContent = ""; }, 3000);
     await confirmAndRestartVpn();
@@ -408,7 +423,6 @@ async function saveVpnConfig() {
     if (!data.ok) throw new Error(data.error || "unbekannter Fehler");
     statusEl.textContent = "Gespeichert.";
     $("vpn-key").value = "";
-    vpnFormForcedOpen = false;
     await loadVpnConfig();
     setTimeout(() => { statusEl.textContent = ""; }, 3000);
     await confirmAndRestartVpn();
@@ -480,16 +494,6 @@ async function disableVpn() {
   }
 }
 
-let vpnFormForcedOpen = false;
-
-function applyVpnFormVisibility(isActive) {
-  const summary = $("vpn-active-summary");
-  const form = $("vpn-config-form");
-  const showForm = !isActive || vpnFormForcedOpen;
-  form.classList.toggle("hidden", !showForm);
-  summary.classList.toggle("hidden", !(isActive && !vpnFormForcedOpen));
-}
-
 async function pollVpnStatus() {
   try {
     const res = await fetch("/api/vpn/status");
@@ -516,7 +520,6 @@ async function pollVpnStatus() {
         ipRow.classList.add("hidden");
       }
     }
-    applyVpnFormVisibility(isActive);
   } catch (e) { /* ignore */ }
   setTimeout(pollVpnStatus, 10000);
 }
@@ -541,16 +544,47 @@ function setupCollapsibleCards() {
   }
 }
 
-function setupVpnEditToggle() {
-  $("vpn-edit-btn").addEventListener("click", () => {
-    vpnFormForcedOpen = true;
-    applyVpnFormVisibility(true);
+function setupVpnBadge() {
+  $("vpn-badge").addEventListener("click", () => {
+    $("vpn-popup").classList.remove("hidden");
   });
+  $("vpn-popup").addEventListener("click", (e) => {
+    if (e.target.id === "vpn-popup") $("vpn-popup").classList.add("hidden");
+  });
+}
+
+function setupMenuDropdown() {
+  const dropdown = $("menu-dropdown");
+
+  $("menu-btn").addEventListener("click", (e) => {
+    e.stopPropagation();
+    dropdown.classList.toggle("hidden");
+  });
+
+  document.addEventListener("click", (e) => {
+    if (!dropdown.classList.contains("hidden") && !e.target.closest(".menu-wrap")) {
+      dropdown.classList.add("hidden");
+    }
+  });
+
+  for (const item of dropdown.querySelectorAll(".menu-item")) {
+    item.addEventListener("click", () => {
+      dropdown.classList.add("hidden");
+      $(item.dataset.modal).classList.remove("hidden");
+    });
+  }
+
+  for (const overlay of document.querySelectorAll(".menu-modal")) {
+    overlay.addEventListener("click", (e) => {
+      if (e.target === overlay) overlay.classList.add("hidden");
+    });
+  }
 }
 
 document.addEventListener("DOMContentLoaded", () => {
   setupCollapsibleCards();
-  setupVpnEditToggle();
+  setupVpnBadge();
+  setupMenuDropdown();
   loadWishlist();
   loadTarget();
   loadDownloaded();
@@ -561,10 +595,12 @@ document.addEventListener("DOMContentLoaded", () => {
   pollVpnStatus();
 
   $("target-select").addEventListener("change", saveTarget);
+  $("wishlist-save-btn").addEventListener("click", saveWishlistOnly);
   $("vpn-save-btn").addEventListener("click", saveVpnConfig);
   $("vpn-upload-btn").addEventListener("click", uploadVpnConfig);
   $("vpn-disable-btn").addEventListener("click", disableVpn);
-  $("run-btn").addEventListener("click", saveAndRun);
+  $("run-btn").addEventListener("click", runOnly);
+  $("stop-btn").addEventListener("click", stopRun);
   $("downloaded-filter").addEventListener("input", applyDownloadedFilter);
   $("log-clear-btn").addEventListener("click", () => { $("irc-box").innerHTML = ""; });
   $("log-bottom-btn").addEventListener("click", () => {
