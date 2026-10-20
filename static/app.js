@@ -533,7 +533,11 @@ function formatSize(bytes) {
   return gb >= 1 ? `${gb.toFixed(1)} GB` : `${(bytes / 1024 / 1024).toFixed(0)} MB`;
 }
 
+let searchRunning = false;
+let searchCategory = "film";
+
 function setSearchRunning(running) {
+  searchRunning = running;
   const btn = $("search-btn");
   btn.textContent = running ? "Abbrechen" : "Suchen";
   btn.classList.toggle("stop-btn", running);
@@ -541,7 +545,74 @@ function setSearchRunning(running) {
   $("search-category").disabled = running;
 }
 
+function wishlistHas(section, title) {
+  const t = title.toLowerCase();
+  return textareaToList(section).some((s) => s.toLowerCase() === t);
+}
+
+async function addToWishlist(section, title, btn) {
+  if (!wishlistHas(section, title)) {
+    const ta = $(section);
+    ta.value = ta.value.trim() ? `${ta.value.trimEnd()}\n${title}` : title;
+  }
+  btn.disabled = true;
+  try {
+    await saveWishlist();
+    btn.textContent = "✓ " + btn.dataset.label;
+  } catch (e) {
+    btn.disabled = false;
+    alert("Wunschliste nicht gespeichert: " + e.message);
+  }
+}
+
+function makeListButton(section, label, r) {
+  const btn = document.createElement("button");
+  btn.className = "small-btn";
+  btn.dataset.label = label;
+  btn.title = `„${r.title}“ zur ${label} hinzufügen`;
+  if (wishlistHas(section, r.title)) {
+    btn.textContent = "✓ " + label;
+    btn.disabled = true;
+  } else {
+    btn.textContent = "+ " + label;
+    btn.addEventListener("click", () => addToWishlist(section, r.title, btn));
+  }
+  return btn;
+}
+
+function renderSearchSkeleton() {
+  const body = $("search-results");
+  body.innerHTML = "";
+  for (let i = 0; i < 6; i++) {
+    const tr = document.createElement("tr");
+    tr.className = "skeleton-row";
+    for (const cls of ["fname", "num size", "bot", "col-optional", "num col-optional", "num col-optional", "row-actions"]) {
+      const td = document.createElement("td");
+      if (cls) td.className = cls;
+      const bar = document.createElement("span");
+      bar.className = "skeleton";
+      td.appendChild(bar);
+      tr.appendChild(td);
+    }
+    body.appendChild(tr);
+  }
+  $("search-table").classList.remove("hidden");
+}
+
+function addCell(tr, text, cls, label) {
+  const td = document.createElement("td");
+  if (cls) td.className = cls;
+  if (label) td.dataset.label = label;
+  td.textContent = text;
+  tr.appendChild(td);
+  return td;
+}
+
 function renderSearchResults() {
+  if (searchRunning) {
+    renderSearchSkeleton();
+    return 0;
+  }
   const filter = $("search-filter").value.trim().toLowerCase();
   const body = $("search-results");
   body.innerHTML = "";
@@ -552,35 +623,26 @@ function renderSearchResults() {
     const tr = document.createElement("tr");
     if (r.index === 0) tr.classList.add("best");
 
-    const cells = [
-      { text: r.fname, cls: "fname", sub: r.source },
-      { text: formatSize(r.size), cls: "num" },
-      { text: `${r.bot} #${r.pack}` },
-      { text: `${r.network} ${r.channel}`, cls: "col-optional" },
-      { text: r.gets, cls: "num col-optional" },
-      { text: r.score, cls: "num col-optional" },
-    ];
-    for (const c of cells) {
-      const td = document.createElement("td");
-      if (c.cls) td.className = c.cls;
-      td.textContent = c.text;
-      if (c.sub) {
-        const s = document.createElement("div");
-        s.className = "source";
-        s.textContent = c.sub;
-        td.appendChild(s);
-      }
-      tr.appendChild(td);
-    }
+    const nameTd = addCell(tr, r.fname, "fname");
+    const sub = document.createElement("div");
+    sub.className = "source";
+    sub.textContent = r.index === 0 ? `${r.source} · Top-Treffer` : r.source;
+    nameTd.appendChild(sub);
+    addCell(tr, formatSize(r.size), "num size", "Größe");
+    addCell(tr, `${r.bot} #${r.pack}`, "bot", "Bot");
+    addCell(tr, `${r.network} ${r.channel}`, "col-optional", "Netzwerk");
+    addCell(tr, r.gets, "num col-optional", "Gets");
+    addCell(tr, r.score, "num col-optional", "Score");
 
-    const td = document.createElement("td");
-    const btn = document.createElement("button");
-    btn.className = "small-btn";
-    btn.textContent = "Laden";
-    btn.title = "Genau dieses Pack laden und einsortieren";
-    btn.addEventListener("click", () => downloadSearchResult(r));
-    td.appendChild(btn);
-    tr.appendChild(td);
+    const td = addCell(tr, "", "row-actions");
+    const dl = document.createElement("button");
+    dl.className = "small-btn primary";
+    dl.textContent = "Laden";
+    dl.title = "Genau dieses Pack laden und einsortieren";
+    dl.addEventListener("click", () => downloadSearchResult(r));
+    td.appendChild(dl);
+    td.appendChild(makeListButton(searchCategory, "Wunschliste", r));
+    td.appendChild(makeListButton("merkliste", "Merkliste", r));
 
     body.appendChild(tr);
   }
@@ -590,8 +652,16 @@ function renderSearchResults() {
 
 function applySearchData(data) {
   searchResults = data.results || [];
+  searchCategory = data.category || "film";
+  // Nach Neuladen der Seite Suchfeld + Kategorie der letzten Suche wiederherstellen
+  if (data.query && !$("search-query").value) {
+    $("search-query").value = data.query;
+    $("search-category").value = searchCategory;
+  }
+  setSearchRunning(data.running);
   const shown = renderSearchResults();
   const statusEl = $("search-status");
+  statusEl.classList.toggle("loading", !!data.running);
   if (data.running) {
     statusEl.textContent = `Suche „${data.query}“ läuft ...`;
   } else if (data.error) {
@@ -612,7 +682,6 @@ async function pollSearch() {
       const res = await fetch("/api/search");
       const data = await res.json();
       applySearchData(data);
-      setSearchRunning(data.running);
       if (!data.running) break;
       await new Promise((r) => setTimeout(r, 1500));
     }
@@ -645,6 +714,8 @@ async function startSearch(e) {
     statusEl.textContent = "Fehler: " + e.message;
     return;
   }
+  setSearchRunning(true);
+  renderSearchSkeleton();
   pollSearch();
 }
 
@@ -729,13 +800,12 @@ document.addEventListener("DOMContentLoaded", () => {
   setupCollapsibleCards();
   setupVpnBadge();
   setupMenuDropdown();
-  loadWishlist();
+  loadWishlist().then(pollSearch);
   loadTarget();
   loadDownloaded();
   loadChatLog();
   loadRuns();
   pollStatus();
-  pollSearch();
   loadVpnConfig();
   pollVpnStatus();
 

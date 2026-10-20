@@ -137,6 +137,18 @@ def _make_stall_cb(status):
     return stall_cb
 
 
+def wishlist_title(fname: str) -> str:
+    """Titel-Vorschlag fuer die Wishlist aus einem Dateinamen, z.B.
+    'Overlord.S04E05.German.1080p...' -> 'Overlord S04E05'."""
+    title = clean_name(re.sub(r"\.(mkv|mp4|avi|m4v|ts|tar|zip|rar|7z)$", "", fname, flags=re.IGNORECASE))
+    m = re.search(r"\bS(\d{1,2})(?:E(\d{1,3}))?\b", fname, re.IGNORECASE)
+    if m:
+        title += f" S{int(m.group(1)):02d}"
+        if m.group(2):
+            title += f"E{int(m.group(2)):02d}"
+    return title
+
+
 def find_candidates(query: str, category: str, irc_callback=None, stop_event=None) -> list[dict]:
     """Sucht Packs, entfernt Duplikate und sortiert nach Relevanz + score_pack."""
     results = search_packs(query, irc_callback=irc_callback, stop_event=stop_event)

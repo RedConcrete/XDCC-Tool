@@ -242,6 +242,7 @@ def get_search():
             {
                 "index": i,
                 "fname": p.get("fname", ""),
+                "title": cli.wishlist_title(p.get("fname", "")),
                 "size": p.get("size", 0),
                 "bot": p.get("bot", ""),
                 "pack": p.get("pack", ""),
