@@ -37,6 +37,15 @@ _state = {
     "progress": None,    # {"title","received","total"} waehrend Download
     "run_log_path": None,  # Pfad zur Log-Datei des aktuellen Laufs
 }
+# Manuelle Suche. Die Packs (inkl. SASL-Daten) bleiben serverseitig,
+# die UI bekommt nur eine bereinigte Liste und waehlt per Index.
+_search = {
+    "running": False,
+    "query": "",
+    "category": "film",
+    "results": [],
+    "error": None,
+}
 
 _LOG_FILENAME_RE = re.compile(r"^\d{4}-\d{2}-\d{2}_\d{2}-\d{2}-\d{2}\.txt$")
 
@@ -76,9 +85,9 @@ def _irc_cb(line: str) -> None:
         _write_to_file(run_log, stamped + "\n")
 
 
-def _run_job() -> None:
+def _run_job(job) -> None:
     try:
-        summary = cli.run_once(_status_cb, _progress_cb, _irc_cb, stop_event=_stop_event)
+        summary = job()
     except Exception as e:
         summary = {"error": str(e)}
         _status_cb("Allgemein", f"Lauf abgebrochen: {e}", "error")
@@ -154,11 +163,13 @@ def set_target():
     return jsonify({"ok": True})
 
 
-@app.route("/api/run", methods=["POST"])
-def run():
+def _start_job(job, label: str):
+    """Startet einen Lauf (Wishlist oder manueller Download) im Hintergrund."""
     with _lock:
         if _state["running"]:
             return jsonify({"ok": False, "error": "Lauf bereits aktiv"}), 409
+        if _search["running"]:
+            return jsonify({"ok": False, "error": "Suche läuft noch"}), 409
         # Reload cli module so code changes on disk take effect without container restart
         importlib.reload(cli)
         now = datetime.now()
@@ -174,18 +185,104 @@ def run():
         _state["run_log_path"] = run_log_path
 
     ts_str = now.strftime("%Y-%m-%d %H:%M:%S")
-    header = f"\n{'=' * 60}\n=== Lauf gestartet: {ts_str} ===\n{'=' * 60}\n"
+    header = f"\n{'=' * 60}\n=== {label} gestartet: {ts_str} ===\n{'=' * 60}\n"
     _write_to_file(CHAT_LOG_PATH, header)
     _write_to_file(run_log_path, header)
 
-    threading.Thread(target=_run_job, daemon=True).start()
+    threading.Thread(target=_run_job, args=(job,), daemon=True).start()
     return jsonify({"ok": True})
+
+
+@app.route("/api/run", methods=["POST"])
+def run():
+    return _start_job(
+        lambda: cli.run_once(_status_cb, _progress_cb, _irc_cb, stop_event=_stop_event),
+        "Lauf",
+    )
+
+
+def _search_job(query: str, category: str) -> None:
+    results, error = [], None
+    try:
+        results = cli.find_candidates(cli._search_query(query), category,
+                                      irc_callback=_irc_cb, stop_event=_stop_event)
+    except Exception as e:
+        error = str(e)
+    with _lock:
+        _search["running"] = False
+        _search["results"] = results
+        _search["error"] = error
+
+
+@app.route("/api/search", methods=["POST"])
+def start_search():
+    data = request.get_json(force=True) or {}
+    query = str(data.get("query", "")).strip()
+    category = str(data.get("category", "film")).strip()
+    if not query:
+        return jsonify({"ok": False, "error": "Suchbegriff fehlt"}), 400
+    if category not in cli.ACTIVE_CATEGORIES:
+        return jsonify({"ok": False, "error": "unbekannte Kategorie"}), 400
+    with _lock:
+        if _state["running"]:
+            return jsonify({"ok": False, "error": "Lauf aktiv – Suche danach starten"}), 409
+        if _search["running"]:
+            return jsonify({"ok": False, "error": "Suche läuft bereits"}), 409
+        importlib.reload(cli)
+        _stop_event.clear()
+        _search.update(running=True, query=query, category=category, results=[], error=None)
+    threading.Thread(target=_search_job, args=(query, category), daemon=True).start()
+    return jsonify({"ok": True})
+
+
+@app.route("/api/search")
+def get_search():
+    with _lock:
+        results = [
+            {
+                "index": i,
+                "fname": p.get("fname", ""),
+                "size": p.get("size", 0),
+                "bot": p.get("bot", ""),
+                "pack": p.get("pack", ""),
+                "network": p.get("network", ""),
+                "channel": p.get("channel", ""),
+                "gets": p.get("gets", ""),
+                "source": p.get("source", ""),
+                "score": round(cli.score_pack(p, _search["category"])),
+            }
+            for i, p in enumerate(_search["results"])
+        ]
+        return jsonify({
+            "running": _search["running"],
+            "query": _search["query"],
+            "category": _search["category"],
+            "error": _search["error"],
+            "results": results,
+        })
+
+
+@app.route("/api/search/download", methods=["POST"])
+def download_search_result():
+    data = request.get_json(force=True) or {}
+    index = data.get("index")
+    with _lock:
+        results = _search["results"]
+        category = _search["category"]
+        if not isinstance(index, int) or not 0 <= index < len(results):
+            return jsonify({"ok": False, "error": "ungültiger Treffer"}), 400
+        pack = results[index]
+    return _start_job(
+        lambda: cli.download_single(pack, category, _status_cb, _progress_cb, _irc_cb,
+                                            stop_event=_stop_event),
+        "Manueller Download",
+    )
 
 
 @app.route("/api/stop", methods=["POST"])
 def stop():
     with _lock:
-        if not _state["running"]:
+        if not (_state["running"] or _search["running"]):
             return jsonify({"ok": False, "error": "Kein Lauf aktiv"}), 409
         _stop_event.set()
     return jsonify({"ok": True})

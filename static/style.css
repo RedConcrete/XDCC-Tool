@@ -578,3 +578,79 @@ button:disabled {
   background: #c0392b;
   border-color: #c0392b;
 }
+
+.wide-card {
+  grid-column: 1 / -1;
+}
+
+.search-form {
+  display: flex;
+  gap: 0.8rem;
+  align-items: center;
+}
+
+.search-form input[type="text"] {
+  flex: 1;
+  min-width: 0;
+}
+
+.search-filter {
+  max-width: 320px;
+}
+
+.table-wrap {
+  margin-top: 1rem;
+  max-height: 520px;
+  overflow: auto;
+}
+
+.search-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+}
+
+.search-table th {
+  position: sticky;
+  top: 0;
+  background: var(--card);
+  color: var(--muted);
+  font-weight: 600;
+  text-align: left;
+  padding: 0.4rem 0.6rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.search-table td {
+  padding: 0.35rem 0.6rem;
+  border-bottom: 1px solid var(--border);
+  white-space: nowrap;
+}
+
+.search-table td.fname {
+  white-space: normal;
+  word-break: break-all;
+}
+
+.search-table td.num {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.search-table tr.best td {
+  background: rgba(79, 140, 255, 0.08);
+}
+
+.search-table .source {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+
+@media (max-width: 740px) {
+  .search-form {
+    flex-wrap: wrap;
+  }
+  .search-table .col-optional {
+    display: none;
+  }
+}

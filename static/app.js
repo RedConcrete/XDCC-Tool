@@ -524,6 +524,150 @@ async function pollVpnStatus() {
   setTimeout(pollVpnStatus, 10000);
 }
 
+let searchResults = [];
+let searchPolling = false;
+
+function formatSize(bytes) {
+  if (!bytes) return "?";
+  const gb = bytes / 1024 / 1024 / 1024;
+  return gb >= 1 ? `${gb.toFixed(1)} GB` : `${(bytes / 1024 / 1024).toFixed(0)} MB`;
+}
+
+function setSearchRunning(running) {
+  const btn = $("search-btn");
+  btn.textContent = running ? "Abbrechen" : "Suchen";
+  btn.classList.toggle("stop-btn", running);
+  $("search-query").disabled = running;
+  $("search-category").disabled = running;
+}
+
+function renderSearchResults() {
+  const filter = $("search-filter").value.trim().toLowerCase();
+  const body = $("search-results");
+  body.innerHTML = "";
+  let shown = 0;
+  for (const r of searchResults) {
+    if (filter && !r.fname.toLowerCase().includes(filter)) continue;
+    shown++;
+    const tr = document.createElement("tr");
+    if (r.index === 0) tr.classList.add("best");
+
+    const cells = [
+      { text: r.fname, cls: "fname", sub: r.source },
+      { text: formatSize(r.size), cls: "num" },
+      { text: `${r.bot} #${r.pack}` },
+      { text: `${r.network} ${r.channel}`, cls: "col-optional" },
+      { text: r.gets, cls: "num col-optional" },
+      { text: r.score, cls: "num col-optional" },
+    ];
+    for (const c of cells) {
+      const td = document.createElement("td");
+      if (c.cls) td.className = c.cls;
+      td.textContent = c.text;
+      if (c.sub) {
+        const s = document.createElement("div");
+        s.className = "source";
+        s.textContent = c.sub;
+        td.appendChild(s);
+      }
+      tr.appendChild(td);
+    }
+
+    const td = document.createElement("td");
+    const btn = document.createElement("button");
+    btn.className = "small-btn";
+    btn.textContent = "Laden";
+    btn.title = "Genau dieses Pack laden und einsortieren";
+    btn.addEventListener("click", () => downloadSearchResult(r));
+    td.appendChild(btn);
+    tr.appendChild(td);
+
+    body.appendChild(tr);
+  }
+  $("search-table").classList.toggle("hidden", searchResults.length === 0);
+  return shown;
+}
+
+function applySearchData(data) {
+  searchResults = data.results || [];
+  const shown = renderSearchResults();
+  const statusEl = $("search-status");
+  if (data.running) {
+    statusEl.textContent = `Suche „${data.query}“ läuft ...`;
+  } else if (data.error) {
+    statusEl.textContent = "Fehler: " + data.error;
+  } else if (data.query) {
+    statusEl.textContent = searchResults.length
+      ? `${searchResults.length} Treffer für „${data.query}“` +
+        (shown !== searchResults.length ? ` (${shown} angezeigt)` : "")
+      : `Nichts gefunden für „${data.query}“`;
+  }
+}
+
+async function pollSearch() {
+  if (searchPolling) return;
+  searchPolling = true;
+  try {
+    while (true) {
+      const res = await fetch("/api/search");
+      const data = await res.json();
+      applySearchData(data);
+      setSearchRunning(data.running);
+      if (!data.running) break;
+      await new Promise((r) => setTimeout(r, 1500));
+    }
+  } catch (e) {
+    $("search-status").textContent = "Fehler: " + e.message;
+  } finally {
+    searchPolling = false;
+  }
+}
+
+async function startSearch(e) {
+  e.preventDefault();
+  if ($("search-btn").textContent === "Abbrechen") {
+    await fetch("/api/stop", { method: "POST" });
+    return;
+  }
+  const query = $("search-query").value.trim();
+  if (!query) return;
+  const statusEl = $("search-status");
+  statusEl.textContent = "Starte Suche ...";
+  try {
+    const res = await fetch("/api/search", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ query, category: $("search-category").value }),
+    });
+    const data = await res.json();
+    if (!data.ok) throw new Error(data.error || "unbekannter Fehler");
+  } catch (e) {
+    statusEl.textContent = "Fehler: " + e.message;
+    return;
+  }
+  pollSearch();
+}
+
+async function downloadSearchResult(r) {
+  if (!confirm(`${r.fname} (${formatSize(r.size)}) laden?`)) return;
+  try {
+    const res = await fetch("/api/search/download", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ index: r.index }),
+    });
+    const data = await res.json();
+    if (!data.ok) throw new Error(data.error || "unbekannter Fehler");
+  } catch (e) {
+    alert("Download nicht gestartet: " + e.message);
+    return;
+  }
+  $("log-box").innerHTML = "";
+  $("summary-box").classList.add("hidden");
+  logOffset = 0;
+  pollStatus();
+}
+
 function setupCollapsibleCards() {
   const STORAGE_KEY = "xdcc-collapsed-cards";
   let collapsed = {};
@@ -591,9 +735,12 @@ document.addEventListener("DOMContentLoaded", () => {
   loadChatLog();
   loadRuns();
   pollStatus();
+  pollSearch();
   loadVpnConfig();
   pollVpnStatus();
 
+  $("search-form").addEventListener("submit", startSearch);
+  $("search-filter").addEventListener("input", renderSearchResults);
   $("target-select").addEventListener("change", saveTarget);
   $("wishlist-save-btn").addEventListener("click", saveWishlistOnly);
   $("vpn-save-btn").addEventListener("click", saveVpnConfig);

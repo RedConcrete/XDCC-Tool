@@ -77,6 +77,37 @@
         <div id="summary-box" class="summary-box hidden"></div>
       </div>
     </section>
+
+    <section class="card wide-card" data-card-id="search">
+      <h2 class="card-header">
+        <span class="card-title">Manuelle Suche</span>
+        <span class="collapse-icon">&#9662;</span>
+      </h2>
+      <div class="card-body">
+        <form id="search-form" class="search-form">
+          <input id="search-query" type="text" placeholder="Titel, z.B. Dune 2021 oder Severance S02" autocomplete="off">
+          <select id="search-category">
+            <option value="film">Film</option>
+            <option value="serien">Serie</option>
+          </select>
+          <button id="search-btn" type="submit">Suchen</button>
+        </form>
+        <div class="actions">
+          <input id="search-filter" type="text" class="search-filter" placeholder="Treffer filtern ...">
+          <span id="search-status" class="status-msg"></span>
+        </div>
+        <div class="table-wrap">
+          <table id="search-table" class="search-table hidden">
+            <thead>
+              <tr>
+                <th>Datei</th><th>Größe</th><th>Bot / Pack</th><th class="col-optional">Netzwerk</th><th class="col-optional">Gets</th><th class="col-optional">Score</th><th></th>
+              </tr>
+            </thead>
+            <tbody id="search-results"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
   </main>
 
   <div id="vpn-popup" class="modal-overlay hidden">

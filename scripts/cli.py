@@ -137,33 +137,9 @@ def _make_stall_cb(status):
     return stall_cb
 
 
-def process_item(title: str, category: str, status_cb=None, progress_cb=None,
-                 irc_callback=None, stop_event=None) -> bool:
-    banned_servers: set[str] = set()
-    _ban_flag = False
-
-    def status(msg, level="info"):
-        nonlocal _ban_flag
-        if msg.startswith("Gesperrt ("):
-            _ban_flag = True
-        if status_cb:
-            status_cb(title, msg, level)
-
-    query = _search_query(title)
-    status(f"Suche: {query}" if query != title else f"Suche: {title}")
-    try:
-        results = search_packs(query, irc_callback=irc_callback, stop_event=stop_event)
-    except Exception as e:
-        status(f"Suche fehlgeschlagen: {e}", "error")
-        return False
-
-    if stop_event and stop_event.is_set():
-        status("Abgebrochen durch Nutzer", "warning")
-        return False
-
-    if not results:
-        status("nichts gefunden", "warning")
-        return False
+def find_candidates(query: str, category: str, irc_callback=None, stop_event=None) -> list[dict]:
+    """Sucht Packs, entfernt Duplikate und sortiert nach Relevanz + score_pack."""
+    results = search_packs(query, irc_callback=irc_callback, stop_event=stop_event)
 
     seen = set()
     deduped = []
@@ -187,10 +163,80 @@ def process_item(title: str, category: str, status_cb=None, progress_cb=None,
 
     relevant = [p for p in deduped if _matches_query_numbers(p.get("fname", ""))]
     irrelevant = [p for p in deduped if p not in relevant]
-    candidates = (
+    return (
         sorted(relevant, key=lambda p: score_pack(p, category), reverse=True)
         + sorted(irrelevant, key=lambda p: score_pack(p, category), reverse=True)
     )
+
+
+def download_pack(pack: dict, staging: Path, expected: str, status, progress=None,
+                  irc_callback=None, stop_event=None) -> tuple[bool, str | None]:
+    """Laedt ein einzelnes Pack nach staging. Gibt (success, filename) zurueck."""
+    server = pack.get("server", "")
+    return xdcc_download(
+        server=server,
+        channel=pack["channel"],
+        bot=pack["bot"],
+        pack=pack["pack"],
+        output_dir=staging,
+        port=pack.get("port", 6667),
+        tls=pack.get("tls", False),
+        sasl_user=pack.get("sasl_user", ""),
+        sasl_pass=pack.get("sasl_pass", ""),
+        sasl_fail_callback=(
+            (lambda srv=server: mark_server_disabled(
+                srv, "SASL-Login fehlgeschlagen (kein/ungültiger Account)"))
+            if pack.get("sasl_user") else None
+        ),
+        timeout=60,
+        extra_channels=_extra_channels_for(server, pack["channel"]),
+        progress_callback=progress,
+        status_callback=status,
+        stall_callback=_make_stall_cb(status),
+        expected_fname=expected,
+        irc_callback=irc_callback,
+        stop_event=stop_event,
+    )
+
+
+def sort_into_library(downloaded_path: Path, category: str) -> None:
+    """Entpacken, umbenennen und in den Kategorie-Ordner der Zielplatte verschieben."""
+    created = postprocess(downloaded_path, category)
+    target_base = category_dirs().get(category, downloaded_path.parent)
+    target_base.mkdir(parents=True, exist_ok=True)
+    for item in created:
+        _merge_move(item, target_base / item.name)
+
+
+def process_item(title: str, category: str, status_cb=None, progress_cb=None,
+                 irc_callback=None, stop_event=None) -> bool:
+    banned_servers: set[str] = set()
+    _ban_flag = False
+
+    def status(msg, level="info"):
+        nonlocal _ban_flag
+        if msg.startswith("Gesperrt ("):
+            _ban_flag = True
+        if status_cb:
+            status_cb(title, msg, level)
+
+    query = _search_query(title)
+    status(f"Suche: {query}" if query != title else f"Suche: {title}")
+    try:
+        candidates = find_candidates(query, category, irc_callback=irc_callback,
+                                     stop_event=stop_event)
+    except Exception as e:
+        status(f"Suche fehlgeschlagen: {e}", "error")
+        return False
+
+    if stop_event and stop_event.is_set():
+        status("Abgebrochen durch Nutzer", "warning")
+        return False
+
+    if not candidates:
+        status("nichts gefunden", "warning")
+        return False
+
     expected = _sanitize_expected(title)
     channel_failures: dict[tuple, int] = {}
     # Ziel wird einmal pro Titel fixiert, damit ein Wechsel der Zielplatte
@@ -222,27 +268,9 @@ def process_item(title: str, category: str, status_cb=None, progress_cb=None,
         _ban_flag = False
         success, filename = False, None
         try:
-            success, filename = xdcc_download(
-                server=server,
-                channel=pack["channel"],
-                bot=pack["bot"],
-                pack=pack["pack"],
-                output_dir=staging,
-                port=pack.get("port", 6667),
-                tls=pack.get("tls", False),
-                sasl_user=pack.get("sasl_user", ""),
-                sasl_pass=pack.get("sasl_pass", ""),
-                sasl_fail_callback=(
-                    (lambda srv=server: mark_server_disabled(
-                        srv, "SASL-Login fehlgeschlagen (kein/ungültiger Account)"))
-                    if pack.get("sasl_user") else None
-                ),
-                timeout=60,
-                extra_channels=_extra_channels_for(server, pack["channel"]),
-                progress_callback=(lambda r, t: progress_cb(title, r, t)) if progress_cb else None,
-                status_callback=status,
-                stall_callback=_make_stall_cb(status),
-                expected_fname=expected,
+            success, filename = download_pack(
+                pack, staging, expected, status,
+                progress=(lambda r, t: progress_cb(title, r, t)) if progress_cb else None,
                 irc_callback=irc_callback,
                 stop_event=stop_event,
             )
@@ -267,12 +295,7 @@ def process_item(title: str, category: str, status_cb=None, progress_cb=None,
 
         status(f"Download fertig: {filename}", "success")
         try:
-            downloaded_path = staging / filename
-            created = postprocess(downloaded_path, category)
-            target_base = category_dirs().get(category, staging)
-            target_base.mkdir(parents=True, exist_ok=True)
-            for item in created:
-                _merge_move(item, target_base / item.name)
+            sort_into_library(staging / filename, category)
         except Exception as e:
             status(f"Einsortieren fehlgeschlagen: {e}", "error")
             traceback.print_exc()
@@ -284,6 +307,50 @@ def process_item(title: str, category: str, status_cb=None, progress_cb=None,
 
     status("fehlgeschlagen", "error")
     return False
+
+
+def download_single(pack: dict, category: str, status_cb=None, progress_cb=None,
+                    irc_callback=None, stop_event=None) -> dict:
+    """Manuell ausgewaehltes Pack laden und einsortieren (ohne Wishlist,
+    ohne Fallback auf andere Bots). Rueckgabe im Format von run_once()."""
+    title = pack.get("fname", "?")
+
+    def status(msg, level="info"):
+        if status_cb:
+            status_cb(title, msg, level)
+
+    status(f"Manueller Download: {pack.get('bot')} #{pack.get('pack')} "
+           f"({pack.get('server')} {pack.get('channel')})")
+    staging = staging_dir()
+    try:
+        success, filename = download_pack(
+            pack, staging, title, status,
+            progress=(lambda r, t: progress_cb(title, r, t)) if progress_cb else None,
+            irc_callback=irc_callback,
+            stop_event=stop_event,
+        )
+    except Exception as e:
+        status(f"Download-Fehler: {e}", "error")
+        success, filename = False, None
+
+    if stop_event and stop_event.is_set():
+        status("Abgebrochen durch Nutzer", "warning")
+        return {"ok": 0, "failed": 1, "skipped": 0, "total": 1}
+
+    if not success:
+        status("fehlgeschlagen", "error")
+        return {"ok": 0, "failed": 1, "skipped": 0, "total": 1}
+
+    status(f"Download fertig: {filename}", "success")
+    try:
+        sort_into_library(staging / filename, category)
+    except Exception as e:
+        status(f"Einsortieren fehlgeschlagen: {e}", "error")
+        traceback.print_exc()
+        return {"ok": 0, "failed": 1, "skipped": 0, "total": 1}
+
+    status("fertig & einsortiert", "success")
+    return {"ok": 1, "failed": 0, "skipped": 0, "total": 1}
 
 
 def run_once(status_cb=None, progress_cb=None, irc_callback=None, stop_event=None) -> dict:
