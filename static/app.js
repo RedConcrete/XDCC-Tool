@@ -781,6 +781,83 @@ async function loadScoreConfig() {
   }
 }
 
+function formatAge(ts) {
+  if (!ts) return "";
+  const h = (Date.now() / 1000 - ts) / 3600;
+  if (h < 1) return "gerade eben";
+  if (h < 48) return `vor ${Math.round(h)} Std.`;
+  return `vor ${Math.round(h / 24)} Tagen`;
+}
+
+async function loadChannelPenalties() {
+  const list = $("channel-list");
+  try {
+    const res = await fetch("/api/channels");
+    const rows = await res.json();
+    list.innerHTML = "";
+    $("channel-reset-all-btn").disabled = rows.length === 0;
+    if (!rows.length) {
+      const li = document.createElement("li");
+      li.className = "channel-empty";
+      li.textContent = "Keine Abzüge – alle Channels haben zuletzt funktioniert.";
+      list.appendChild(li);
+      return;
+    }
+    for (const r of rows) {
+      const li = document.createElement("li");
+
+      const info = document.createElement("div");
+      info.className = "channel-info";
+      const name = document.createElement("div");
+      name.className = "channel-name";
+      name.textContent = r.key;
+      const meta = document.createElement("div");
+      meta.className = "channel-meta";
+      const parts = [];
+      if (r.bans >= 0.1) parts.push(`${r.bans} Ban`);
+      if (r.fails >= 0.1) parts.push(`${r.fails} Fehlversuche`);
+      parts.push(formatAge(r.updated));
+      meta.textContent = parts.join(" · ") + (r.last_reason ? ` – ${r.last_reason}` : "");
+      info.appendChild(name);
+      info.appendChild(meta);
+
+      const pen = document.createElement("span");
+      pen.className = "channel-penalty";
+      pen.textContent = r.penalty;
+
+      const btn = document.createElement("button");
+      btn.className = "small-btn";
+      btn.textContent = "Zurücksetzen";
+      btn.addEventListener("click", () => resetChannelPenalties(r.key));
+
+      li.appendChild(info);
+      li.appendChild(pen);
+      li.appendChild(btn);
+      list.appendChild(li);
+    }
+  } catch (e) {
+    list.textContent = "Fehler beim Laden: " + e.message;
+  }
+}
+
+async function resetChannelPenalties(key) {
+  if (!key && !confirm("Abzüge aller Channels zurücksetzen?")) return;
+  try {
+    const res = await fetch("/api/channels", {
+      method: "DELETE",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(key ? { key } : {}),
+    });
+    const data = await res.json();
+    if (!data.ok) throw new Error(data.error || "unbekannter Fehler");
+  } catch (e) {
+    alert("Zurücksetzen fehlgeschlagen: " + e.message);
+  }
+  await loadChannelPenalties();
+  // Treffer wurden serverseitig umsortiert -> Tabelle (und Indizes) neu laden
+  await pollSearch();
+}
+
 async function saveScoreConfig(reset) {
   const statusEl = $("score-status");
   if (reset && !confirm("Alle Punkte auf Standard zurücksetzen?")) return;
@@ -799,6 +876,7 @@ async function saveScoreConfig(reset) {
     if (!data.ok) throw new Error(data.error || "unbekannter Fehler");
     statusEl.textContent = "Gespeichert – Treffer neu sortiert.";
     await loadScoreConfig();
+    await loadChannelPenalties();
     // Treffer wurden serverseitig umsortiert -> Tabelle (und Indizes) neu laden
     await pollSearch();
   } catch (e) {
@@ -809,22 +887,43 @@ async function saveScoreConfig(reset) {
 
 function setupCollapsibleCards() {
   const STORAGE_KEY = "xdcc-collapsed-cards";
+  const MOBILE_KEY = "xdcc-mobile-open-card";
+  // Handy: Akkordeon (nur eine Karte offen), eigener gespeicherter Zustand,
+  // damit der Desktop-Zustand nicht ueberschrieben wird.
+  const mobile = window.matchMedia("(max-width: 740px)");
+  const cards = [...document.querySelectorAll(".card[data-card-id]")];
   let collapsed = {};
   try {
     collapsed = JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}");
   } catch (e) { collapsed = {}; }
+  let mobileOpen = "search";
+  try {
+    const stored = localStorage.getItem(MOBILE_KEY);
+    if (stored !== null) mobileOpen = stored;
+  } catch (e) { /* ignore */ }
 
-  for (const card of document.querySelectorAll(".card[data-card-id]")) {
+  function apply() {
+    for (const card of cards) {
+      const id = card.dataset.cardId;
+      card.classList.toggle("collapsed", mobile.matches ? id !== mobileOpen : !!collapsed[id]);
+    }
+  }
+
+  for (const card of cards) {
     const id = card.dataset.cardId;
-    if (collapsed[id]) card.classList.add("collapsed");
-
-    const header = card.querySelector(".card-header");
-    header.addEventListener("click", () => {
-      card.classList.toggle("collapsed");
-      collapsed[id] = card.classList.contains("collapsed");
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(collapsed));
+    card.querySelector(".card-header").addEventListener("click", () => {
+      if (mobile.matches) {
+        mobileOpen = card.classList.contains("collapsed") ? id : "";
+        try { localStorage.setItem(MOBILE_KEY, mobileOpen); } catch (e) { /* ignore */ }
+      } else {
+        collapsed[id] = !card.classList.contains("collapsed");
+        try { localStorage.setItem(STORAGE_KEY, JSON.stringify(collapsed)); } catch (e) { /* ignore */ }
+      }
+      apply();
     });
   }
+  mobile.addEventListener("change", apply);
+  apply();
 }
 
 function setVpnDropdownOpen(open) {
@@ -892,6 +991,11 @@ document.addEventListener("DOMContentLoaded", () => {
   pollVpnStatus();
 
   loadScoreConfig();
+  document.querySelector('[data-modal="score-modal"]').addEventListener("click", () => {
+    loadScoreConfig();
+    loadChannelPenalties();
+  });
+  $("channel-reset-all-btn").addEventListener("click", () => resetChannelPenalties(null));
   $("score-save-btn").addEventListener("click", () => saveScoreConfig(false));
   $("score-reset-btn").addEventListener("click", () => saveScoreConfig(true));
   $("search-form").addEventListener("submit", startSearch);

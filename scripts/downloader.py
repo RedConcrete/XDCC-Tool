@@ -17,6 +17,7 @@ import json
 import urllib.request
 import urllib.parse
 import ssl
+import threading
 from pathlib import Path
 from xdcc_client import xdcc_download, _rate_limit, make_nick  # noqa: F401
 
@@ -453,6 +454,9 @@ SCORE_FIELDS = [
     ("episode", "Serie: einzelne Folge", "S01E05 oder 1x05", 500),
     ("complete_series", "Serie: Komplettpaket ohne Staffel", "große Datei ohne Staffel-/Folgenangabe", -800),
     ("film_episode", "Film: sieht aus wie Serienfolge", "S01E05 im Namen", -500),
+    ("channel_fail", "Channel: Download fehlgeschlagen", "je Fehlversuch, baut sich mit der Zeit ab", -200),
+    ("channel_ban", "Channel: gesperrt (Ban)", "z.B. 474 Cannot join channel (+b)", -1000),
+    ("channel_decay_days", "Channel-Abzug: Halbwertszeit (Tage)", "danach zählt ein Fehler nur noch halb", 7),
 ]
 SCORE_DEFAULTS = {key: default for key, _, _, default in SCORE_FIELDS}
 SCORE_CONFIG_PATH = Path(os.environ.get("SCORE_CONFIG", "/app/score_config.json"))
@@ -483,14 +487,102 @@ def save_score_config(values: dict) -> None:
     SCORE_CONFIG_PATH.write_text(json.dumps(overrides, indent=2) + "\n", encoding="utf-8")
 
 
+# Fehlversuche pro Channel (server + channel), damit nicht funktionierende
+# Channels/Bots mit der Zeit nach hinten rutschen. Werte bauen sich mit
+# einer Halbwertszeit ab, ein erfolgreicher Download setzt sie zurueck.
+CHANNEL_STATS_PATH = Path(os.environ.get("CHANNEL_STATS", "/app/channel_stats.json"))
+_channel_stats_lock = threading.Lock()
+
+
+def _channel_key(server: str, channel: str) -> str:
+    return f"{server.lower()} {channel.lower()}"
+
+
+def _load_channel_stats() -> dict:
+    try:
+        return json.loads(CHANNEL_STATS_PATH.read_text(encoding="utf-8") or "{}")
+    except FileNotFoundError:
+        return {}
+    except Exception as e:
+        log.warning(f"channel_stats.json Ladefehler: {e}")
+        return {}
+
+
+def _decayed(entry: dict, half_life_days: float, now: float | None = None) -> tuple[float, float]:
+    """(fails, bans) eines Eintrags, abgebaut bis jetzt."""
+    now = now or time.time()
+    age_days = max(0.0, now - entry.get("updated", now)) / 86400
+    factor = 0.5 ** (age_days / max(half_life_days, 0.1))
+    return entry.get("fails", 0) * factor, entry.get("bans", 0) * factor
+
+
+def record_channel_result(server: str, channel: str, ok: bool, banned: bool = False,
+                          reason: str = "") -> None:
+    """Ergebnis eines Download-Versuchs fuer den Channel festhalten."""
+    if not server or not channel:
+        return
+    key = _channel_key(server, channel)
+    with _channel_stats_lock:
+        stats = _load_channel_stats()
+        if ok:
+            if stats.pop(key, None) is None:
+                return
+        else:
+            fails, bans = _decayed(stats.get(key, {}), load_score_config()["channel_decay_days"])
+            if banned:
+                bans += 1
+            else:
+                fails += 1
+            stats[key] = {
+                "fails": round(fails, 3),
+                "bans": round(bans, 3),
+                "updated": time.time(),
+                "last_reason": reason[:200],
+            }
+        try:
+            CHANNEL_STATS_PATH.write_text(json.dumps(stats, indent=2, ensure_ascii=False) + "\n",
+                                          encoding="utf-8")
+        except Exception as e:
+            log.warning(f"channel_stats.json Schreibfehler: {e}")
+
+
+def channel_penalties(cfg: dict | None = None) -> dict[str, dict]:
+    """Aktueller (abgebauter) Abzug je Channel-Key."""
+    cfg = cfg or load_score_config()
+    result = {}
+    for key, entry in _load_channel_stats().items():
+        fails, bans = _decayed(entry, cfg["channel_decay_days"])
+        result[key] = {
+            "fails": fails,
+            "bans": bans,
+            "penalty": fails * cfg["channel_fail"] + bans * cfg["channel_ban"],
+            "updated": entry.get("updated"),
+            "last_reason": entry.get("last_reason", ""),
+        }
+    return result
+
+
+def reset_channel_stats(key: str | None = None) -> None:
+    """Einen Channel (key) oder alle (None) zuruecksetzen."""
+    with _channel_stats_lock:
+        stats = _load_channel_stats() if key else {}
+        stats.pop(key, None)
+        CHANNEL_STATS_PATH.write_text(json.dumps(stats, indent=2, ensure_ascii=False) + "\n",
+                                      encoding="utf-8")
+
+
 _EPISODE_RE = re.compile(r"s\d{1,2}e\d{1,3}|\b\d{1,2}x\d{1,3}\b")
 _SEASON_RE = re.compile(r"\bs\d{1,2}\b|\b(?:staffel|season)[ ._-]?\d{1,2}\b")
 
 
-def score_pack(p: dict, category: str = "", cfg: dict | None = None) -> float:
+def score_pack(p: dict, category: str = "", cfg: dict | None = None,
+               penalties: dict | None = None) -> float:
     cfg = cfg or load_score_config()
+    penalties = channel_penalties(cfg) if penalties is None else penalties
     name = p.get("fname", "").lower()
     score = 0.0
+
+    score += penalties.get(_channel_key(p.get("server", ""), p.get("channel", "")), {}).get("penalty", 0)
 
     # Live-IRC-Suche bevorzugen: verhindert dass stale xdcc.eu-Kandidaten
     # alle MAX_CANDIDATES-Slots verbrauchen bevor echte IRC-Packs dran kommen

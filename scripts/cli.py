@@ -11,6 +11,8 @@ from downloader import (
     search_packs,
     score_pack,
     load_score_config,
+    channel_penalties,
+    record_channel_result,
     clean_name,
     postprocess,
     category_dirs,
@@ -193,43 +195,62 @@ def rank_candidates(packs: list[dict], query: str, category: str) -> list[dict]:
         return bool(m) and (int(m.group(1)), int(m.group(2))) == (int(ep.group(1)), int(ep.group(2)))
 
     cfg = load_score_config()
+    penalties = channel_penalties(cfg)
     relevant = [p for p in packs
                 if _matches_query_numbers(p.get("fname", "")) and _matches_episode(p.get("fname", ""))]
     irrelevant = [p for p in packs if p not in relevant]
     return (
-        sorted(relevant, key=lambda p: score_pack(p, category, cfg), reverse=True)
-        + sorted(irrelevant, key=lambda p: score_pack(p, category, cfg), reverse=True)
+        sorted(relevant, key=lambda p: score_pack(p, category, cfg, penalties), reverse=True)
+        + sorted(irrelevant, key=lambda p: score_pack(p, category, cfg, penalties), reverse=True)
     )
 
 
 def download_pack(pack: dict, staging: Path, expected: str, status, progress=None,
                   irc_callback=None, stop_event=None) -> tuple[bool, str | None]:
-    """Laedt ein einzelnes Pack nach staging. Gibt (success, filename) zurueck."""
+    """Laedt ein einzelnes Pack nach staging. Gibt (success, filename) zurueck.
+    Das Ergebnis fliesst in die Channel-Statistik (Abzug fuer Fehlversuche/Bans)."""
     server = pack.get("server", "")
-    return xdcc_download(
-        server=server,
-        channel=pack["channel"],
-        bot=pack["bot"],
-        pack=pack["pack"],
-        output_dir=staging,
-        port=pack.get("port", 6667),
-        tls=pack.get("tls", False),
-        sasl_user=pack.get("sasl_user", ""),
-        sasl_pass=pack.get("sasl_pass", ""),
-        sasl_fail_callback=(
-            (lambda srv=server: mark_server_disabled(
-                srv, "SASL-Login fehlgeschlagen (kein/ungültiger Account)"))
-            if pack.get("sasl_user") else None
-        ),
-        timeout=60,
-        extra_channels=_extra_channels_for(server, pack["channel"]),
-        progress_callback=progress,
-        status_callback=status,
-        stall_callback=_make_stall_cb(status),
-        expected_fname=expected,
-        irc_callback=irc_callback,
-        stop_event=stop_event,
-    )
+    seen = {"ban": False, "reason": ""}
+
+    def tracked_status(msg, level="info"):
+        if msg.startswith("Gesperrt ("):
+            seen["ban"] = True
+        if level in ("error", "warning"):
+            seen["reason"] = msg
+        status(msg, level)
+
+    success, filename = False, None
+    try:
+        success, filename = xdcc_download(
+            server=server,
+            channel=pack["channel"],
+            bot=pack["bot"],
+            pack=pack["pack"],
+            output_dir=staging,
+            port=pack.get("port", 6667),
+            tls=pack.get("tls", False),
+            sasl_user=pack.get("sasl_user", ""),
+            sasl_pass=pack.get("sasl_pass", ""),
+            sasl_fail_callback=(
+                (lambda srv=server: mark_server_disabled(
+                    srv, "SASL-Login fehlgeschlagen (kein/ungültiger Account)"))
+                if pack.get("sasl_user") else None
+            ),
+            timeout=60,
+            extra_channels=_extra_channels_for(server, pack["channel"]),
+            progress_callback=progress,
+            status_callback=tracked_status,
+            stall_callback=_make_stall_cb(tracked_status),
+            expected_fname=expected,
+            irc_callback=irc_callback,
+            stop_event=stop_event,
+        )
+    finally:
+        # Abbruch durch den Nutzer ist kein Fehler des Channels
+        if not (stop_event and stop_event.is_set()):
+            record_channel_result(server, pack.get("channel", ""), ok=success,
+                                  banned=seen["ban"], reason=seen["reason"])
+    return success, filename
 
 
 def sort_into_library(downloaded_path: Path, category: str) -> None:

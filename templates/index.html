@@ -39,57 +39,59 @@
   </header>
 
   <main>
-    <section class="card" data-card-id="wishlist">
-      <h2 class="card-header">
-        <span class="card-title">Wunschliste</span>
-        <span class="collapse-icon">&#9662;</span>
-      </h2>
-      <div class="card-body">
-        <div class="wishlist-grid">
-          <div class="field">
-            <label for="serien">Serien <span class="hint">(wird gesucht &amp; geladen)</span></label>
-            <textarea id="serien" rows="6" placeholder="Ein Titel pro Zeile"></textarea>
+    <div class="top-row">
+      <section class="card" data-card-id="wishlist">
+        <h2 class="card-header">
+          <span class="card-title">Wunschliste</span>
+          <span class="collapse-icon">&#9662;</span>
+        </h2>
+        <div class="card-body">
+          <div class="wishlist-grid">
+            <div class="field">
+              <label for="serien">Serien <span class="hint">(wird gesucht &amp; geladen)</span></label>
+              <textarea id="serien" rows="6" placeholder="Ein Titel pro Zeile"></textarea>
+            </div>
+            <div class="field">
+              <label for="film">Filme <span class="hint">(wird gesucht &amp; geladen)</span></label>
+              <textarea id="film" rows="6" placeholder="Ein Titel pro Zeile"></textarea>
+            </div>
+            <div class="field">
+              <label for="merkliste">Merkliste</label>
+              <textarea id="merkliste" rows="6" placeholder="Ein Titel pro Zeile"></textarea>
+            </div>
           </div>
-          <div class="field">
-            <label for="film">Filme <span class="hint">(wird gesucht &amp; geladen)</span></label>
-            <textarea id="film" rows="6" placeholder="Ein Titel pro Zeile"></textarea>
-          </div>
-          <div class="field">
-            <label for="merkliste">Merkliste</label>
-            <textarea id="merkliste" rows="6" placeholder="Ein Titel pro Zeile"></textarea>
+          <div class="actions">
+            <button id="wishlist-save-btn">Speichern</button>
+            <span id="wishlist-save-status" class="status-msg"></span>
           </div>
         </div>
-        <div class="actions">
-          <button id="wishlist-save-btn">Speichern</button>
-          <span id="wishlist-save-status" class="status-msg"></span>
-        </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="card" data-card-id="download">
-      <h2 class="card-header">
-        <span class="card-title">Download <span id="download-header-status" class="header-status"></span></span>
-        <span class="collapse-icon">&#9662;</span>
-      </h2>
-      <div class="card-body">
-        <div class="actions run-actions">
-          <button id="run-btn">Abarbeiten</button>
-          <button id="stop-btn" class="stop-btn" disabled>Stopp</button>
-          <span id="run-status" class="status-msg"></span>
-          <div class="target-wrap">
-            <label for="target-select" class="target-label">Ziel:</label>
-            <select id="target-select"></select>
-            <span id="target-status" class="status-msg"></span>
+      <section class="card" data-card-id="download">
+        <h2 class="card-header">
+          <span class="card-title">Download <span id="download-header-status" class="header-status"></span></span>
+          <span class="collapse-icon">&#9662;</span>
+        </h2>
+        <div class="card-body">
+          <div class="actions run-actions">
+            <button id="run-btn">Abarbeiten</button>
+            <button id="stop-btn" class="stop-btn" disabled>Stopp</button>
+            <span id="run-status" class="status-msg"></span>
+            <div class="target-wrap">
+              <label for="target-select" class="target-label">Ziel:</label>
+              <select id="target-select"></select>
+              <span id="target-status" class="status-msg"></span>
+            </div>
           </div>
+          <div id="progress-box" class="progress-box hidden">
+            <div class="progress-label"></div>
+            <div class="progress-bar"><div class="progress-bar-fill"></div></div>
+          </div>
+          <pre id="log-box" class="log-box"></pre>
+          <div id="summary-box" class="summary-box hidden"></div>
         </div>
-        <div id="progress-box" class="progress-box hidden">
-          <div class="progress-label"></div>
-          <div class="progress-bar"><div class="progress-bar-fill"></div></div>
-        </div>
-        <pre id="log-box" class="log-box"></pre>
-        <div id="summary-box" class="summary-box hidden"></div>
-      </div>
-    </section>
+      </section>
+    </div>
 
     <section class="card wide-card" data-card-id="search">
       <h2 class="card-header">
@@ -167,6 +169,13 @@
         <button id="score-save-btn">Speichern</button>
         <button id="score-reset-btn" class="small-btn">Standard</button>
         <span id="score-status" class="status-msg"></span>
+      </div>
+
+      <h3 class="channel-title">Channel-Abzüge</h3>
+      <p class="modal-hint">Fehlgeschlagene Downloads und Bans ziehen dem Channel Punkte ab. Der Abzug halbiert sich nach der eingestellten Halbwertszeit, ein erfolgreicher Download setzt ihn zurück.</p>
+      <ul id="channel-list" class="channel-list"></ul>
+      <div class="actions">
+        <button id="channel-reset-all-btn" class="small-btn">Alle zurücksetzen</button>
       </div>
     </div>
   </div>

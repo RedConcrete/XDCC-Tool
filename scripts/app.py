@@ -237,6 +237,8 @@ def start_search():
 
 @app.route("/api/search")
 def get_search():
+    cfg = downloader.load_score_config()
+    penalties = downloader.channel_penalties(cfg)
     with _lock:
         results = [
             {
@@ -250,7 +252,7 @@ def get_search():
                 "channel": p.get("channel", ""),
                 "gets": p.get("gets", ""),
                 "source": p.get("source", ""),
-                "score": round(cli.score_pack(p, _search["category"])),
+                "score": round(cli.score_pack(p, _search["category"], cfg, penalties)),
             }
             for i, p in enumerate(_search["results"])
         ]
@@ -304,17 +306,50 @@ def save_score_config():
             return jsonify({"ok": False, "error": "Nur ganze Zahlen erlaubt"}), 400
         if any(abs(v) > 100000 for v in values.values()):
             return jsonify({"ok": False, "error": "Werte zwischen -100000 und 100000"}), 400
+        if values.get("channel_decay_days", 1) < 1:
+            return jsonify({"ok": False, "error": "Halbwertszeit muss mindestens 1 Tag sein"}), 400
         values = {**downloader.load_score_config(), **values}
     try:
         downloader.save_score_config(values)
     except Exception as e:
         return jsonify({"ok": False, "error": str(e)}), 500
 
-    # Vorhandene Suchtreffer mit den neuen Punkten neu sortieren
+    _rerank_search()
+    return jsonify({"ok": True})
+
+
+def _rerank_search() -> None:
+    """Vorhandene Suchtreffer mit aktuellen Punkten/Channel-Abzuegen neu sortieren."""
     with _lock:
         if not _search["running"] and _search["results"]:
             _search["results"] = cli.rank_candidates(
                 _search["results"], cli._search_query(_search["query"]), _search["category"])
+
+
+@app.route("/api/channels")
+def get_channel_penalties():
+    rows = [
+        {"key": key, **info}
+        for key, info in downloader.channel_penalties().items()
+    ]
+    rows = [r for r in rows if round(r["penalty"]) != 0]
+    rows.sort(key=lambda r: r["penalty"])
+    for r in rows:
+        r["penalty"] = round(r["penalty"])
+        r["fails"] = round(r["fails"], 1)
+        r["bans"] = round(r["bans"], 1)
+    return jsonify(rows)
+
+
+@app.route("/api/channels", methods=["DELETE"])
+def reset_channel_penalties():
+    data = request.get_json(force=True, silent=True) or {}
+    key = str(data.get("key", "")).strip() or None
+    try:
+        downloader.reset_channel_stats(key)
+    except Exception as e:
+        return jsonify({"ok": False, "error": str(e)}), 500
+    _rerank_search()
     return jsonify({"ok": True})
 
 
