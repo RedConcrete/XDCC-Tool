@@ -4,11 +4,13 @@
 je nach VPN_ENABLED in .env. Laeuft ausserhalb von Docker direkt auf dem Host."""
 
 import json
+import os
 import subprocess
 import time
 from pathlib import Path
 
-COMPOSE_DIR = Path("/home/dockerserver/docker/xdcc")
+# Projektordner = Elternordner von host/ (ueberschreibbar per XDCC_COMPOSE_DIR)
+COMPOSE_DIR = Path(os.environ.get("XDCC_COMPOSE_DIR", Path(__file__).resolve().parent.parent))
 TRIGGER_FILE = COMPOSE_DIR / "restart_trigger" / "requested"
 LOG_FILE = COMPOSE_DIR / "restart_trigger" / "last_result.log"
 ENV_FILE = COMPOSE_DIR / ".env"
@@ -141,6 +143,7 @@ def run_restart() -> None:
 
 def main() -> None:
     TRIGGER_FILE.parent.mkdir(parents=True, exist_ok=True)
+    print(f"vpn_watcher: beobachte {TRIGGER_FILE}", flush=True)
     while True:
         if TRIGGER_FILE.exists():
             try:

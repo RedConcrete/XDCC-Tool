@@ -7,3 +7,6 @@ __pycache__/
 *.pyc
 wishlist.md
 restart_trigger/
+Chat.txt
+logs/*
+!logs/.gitkeep

@@ -79,7 +79,7 @@ cd XDCC-Tool
 ```bash
 cp wishlist.example.md wishlist.md
 cp .env.example .env
-touch downloaded.txt
+touch downloaded.txt Chat.txt
 ```
 
 Die Wunschliste wird danach komplett über das Web-UI gepflegt. `.env` nimmt
@@ -140,9 +140,33 @@ Nach dem Speichern neuer VPN-Daten schreibt das Web-UI eine Trigger-Datei
 nach `restart_trigger/`. Den eigentlichen Neustart (`docker compose up -d`
 mit oder ohne VPN-Kopplung, je nach `VPN_ENABLED`) führt
 `host/vpn_watcher.py` aus, das **außerhalb von Docker** auf dem Host laufen
-muss (z. B. als systemd-Dienst). Vorher `COMPOSE_DIR` im Skript auf den
-Projektordner anpassen. Läuft der Watcher nicht, nach VPN-Änderungen den
-Befehl aus Schritt 5 von Hand ausführen.
+muss. Den Projektordner ermittelt es selbst (Elternordner von `host/`,
+überschreibbar per `XDCC_COMPOSE_DIR`). Beispiel als systemd-Dienst:
+
+```ini
+# /etc/systemd/system/xdcc-vpn-watcher.service
+[Unit]
+Description=XDCC VPN-Restart-Watcher
+After=docker.service
+Requires=docker.service
+
+[Service]
+ExecStart=/usr/bin/python3 /pfad/zu/XDCC-Tool/host/vpn_watcher.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
+```
+
+```bash
+systemctl daemon-reload && systemctl enable --now xdcc-vpn-watcher
+```
+
+Läuft der Watcher nicht, nach VPN-Änderungen den Befehl aus Schritt 5 von
+Hand ausführen. Achtung: Schlägt die VPN-Verbindung nach dem Neustart fehl,
+schaltet der Watcher automatisch auf **Betrieb ohne VPN** zurück
+(`VPN_ENABLED=false`), damit das Web-UI erreichbar bleibt.
 
 ---
 
@@ -338,12 +362,12 @@ movies/
 | `channel_stats.json` | Channel-Abzüge | ja, als `{}` |
 | `server_state.json` | Dauerhaft deaktivierte Server | ja, als `{}` |
 | `download_target.json` | Gewählte Zielplatte | ja |
-| `Chat.txt` | Mitschnitt des IRC-Verkehrs | ja |
-| `logs/` | Log-Dateien der Läufe | teils |
+| `Chat.txt` | Mitschnitt des IRC-Verkehrs | nein |
+| `logs/` | Log-Dateien der Läufe | nein |
 
 Alle als Datei gemounteten Dateien müssen vor dem ersten Start existieren —
 fehlt eine, legt Docker stattdessen einen Ordner an (daher `touch
-downloaded.txt` in Schritt 2).
+downloaded.txt Chat.txt` in Schritt 2).
 
 ---
 
