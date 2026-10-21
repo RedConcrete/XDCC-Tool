@@ -19,7 +19,7 @@ import urllib.parse
 import ssl
 import threading
 from pathlib import Path
-from xdcc_client import xdcc_download, _rate_limit, make_nick  # noqa: F401
+from xdcc_client import xdcc_download, _rate_limit, make_nick, SaslNegotiator  # noqa: F401
 
 NOISE_TAGS = re.compile(
     r"\b(german|deutsch|english|dl|aac|aac2|ac3|dts|"
@@ -121,6 +121,17 @@ def mark_server_disabled(server: str, reason: str) -> None:
     }
     _save_server_state(state)
     log.warning(f"Server {server} dauerhaft deaktiviert: {reason}")
+
+
+def handle_sasl_failure(server: str, channel: str) -> None:
+    """Fehlgeschlagener SASL-Login: Server nur komplett deaktivieren, wenn dort
+    alle Channels einen Login brauchen (z.B. Rizon). Auf Abjects laufen
+    #beast-xdcc & Co. ohne Login weiter -> dann nur Abzug fuer den Channel."""
+    reason = "SASL-Login fehlgeschlagen (kein/ungültiger Account)"
+    if any(ch["server"] == server and not ch.get("sasl_user") for ch in CHANNELS):
+        record_channel_result(server, channel, ok=False, banned=True, reason=reason)
+    else:
+        mark_server_disabled(server, reason)
 
 
 def _load_channels() -> list[dict]:
@@ -247,10 +258,13 @@ def _irc_bot_search(server: str, port: int, channel: str,
                     query: str, timeout: int = 30,
                     download_channel: str | None = None,
                     irc_callback=None, tls: bool = False,
+                    sasl_user: str = "", sasl_pass: str = "",
                     stop_event=None) -> list[dict]:
-    """Sucht direkt via IRC-Suchbot (z.B. databeast auf Abjects)."""
+    """Sucht direkt via IRC-Suchbot (z.B. databeast auf Abjects).
+    Mit sasl_user/sasl_pass wird mit registriertem Nick gesucht (noetig fuer
+    +R-Channels wie #mg-chat)."""
     results = []
-    nick = make_nick()
+    nick = sasl_user if (sasl_user and sasl_pass) else make_nick()
 
     _rate_limit(server)
     try:
@@ -274,7 +288,10 @@ def _irc_bot_search(server: str, port: int, channel: str,
         if irc_callback and any(msg.startswith(p) for p in ("JOIN", "PRIVMSG", "QUIT")):
             irc_callback(f">> {msg}")
 
+    sasl = SaslNegotiator(sasl_user, sasl_pass, send)
+
     try:
+        sasl.start()
         send(f"NICK {nick}")
         send(f"USER {nick} 0 * :{nick}")
 
@@ -310,10 +327,21 @@ def _irc_bot_search(server: str, port: int, channel: str,
                 if irc_callback and not _IRC_NOISE_RE.search(line):
                     irc_callback(f"<< {line}")
 
+                if sasl.feed(line):
+                    if sasl.failed:
+                        log.warning(f"IRC-Suche: SASL-Login fehlgeschlagen fuer {nick}@{server}")
+                    continue
+
                 parts = line.split()
                 if len(parts) < 2:
                     continue
                 code = parts[1]
+
+                # Nick belegt -> mit Zufallsnick weiter (dann ohne Anmeldung)
+                if code == "433" and not registered:
+                    nick = make_nick()
+                    send(f"NICK {nick}")
+                    continue
 
                 if code == "001" and not registered:
                     registered = True
@@ -410,6 +438,8 @@ def search_packs(query: str, irc_callback=None, stop_event=None) -> list[dict]:
                 download_channel=ch["channel"],
                 irc_callback=irc_callback,
                 tls=ch.get("tls", False),
+                sasl_user=ch.get("sasl_user", ""),
+                sasl_pass=ch.get("sasl_pass", ""),
                 stop_event=stop_event,
             )
             if found:

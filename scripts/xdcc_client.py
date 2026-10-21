@@ -79,6 +79,55 @@ def _titles_match(expected: str, actual: str) -> bool:
     return key.issubset(act)
 
 
+class SaslNegotiator:
+    """SASL PLAIN ueber IRCv3 CAP fuer Download- und Suchverbindungen.
+    feed() pro empfangener Zeile aufrufen; True = Zeile gehoerte zur
+    Verhandlung. Nach einem Fehlschlag ist failed gesetzt (einmalig)."""
+
+    def __init__(self, user: str, password: str, send):
+        self.user = user
+        self.password = password
+        self.send = send
+        self.done = not (user and password)
+        self.failed = False
+        self._requested = False
+
+    def start(self) -> None:
+        if not self.done:
+            self.send("CAP LS 302")
+
+    def feed(self, line: str) -> bool:
+        if self.done:
+            return False
+        if re.search(r'\bCAP\b.*\bLS\b', line):
+            # Mehrzeiliges LS ("CAP * LS * :...") erst nach der letzten Zeile beantworten
+            if not self._requested and not re.search(r'\bLS \* :', line):
+                self._requested = True
+                self.send("CAP REQ :sasl")
+            return True
+        if re.search(r'\bCAP\b.*\bACK\b', line) and "sasl" in line.lower():
+            self.send("AUTHENTICATE PLAIN")
+            return True
+        if re.search(r'\bCAP\b.*\bNAK\b', line):
+            self.done = True
+            self.send("CAP END")
+            return True
+        if line.strip() == "AUTHENTICATE +":
+            cred = f"{self.user}\0{self.user}\0{self.password}".encode()
+            self.send(f"AUTHENTICATE {base64.b64encode(cred).decode()}")
+            return True
+        if re.match(r'^\S+\s+903\s', line):
+            self.done = True
+            self.send("CAP END")
+            return True
+        if re.match(r'^\S+\s+90[4-7]\s', line):
+            self.done = True
+            self.failed = True
+            self.send("CAP END")
+            return True
+        return False
+
+
 def make_nick() -> str:
     import random, string
     name = random.choice(_NICK_NAMES)
@@ -124,7 +173,7 @@ class XDCCDownloader:
         self.tls = tls
         self.sasl_user = sasl_user
         self.sasl_pass = sasl_pass
-        self.sasl_done = not (sasl_user and sasl_pass)
+        self._sasl = SaslNegotiator(sasl_user, sasl_pass, self._send)
         self.sasl_fail_callback = sasl_fail_callback
         self._skip_dcc_fname      = None   # angekündigte Datei überspringen
         self.stop_event            = stop_event
@@ -288,8 +337,7 @@ class XDCCDownloader:
                 self.status_callback(f"Verbindung fehlgeschlagen: {e}", "error")
             return False
 
-        if self.sasl_user and self.sasl_pass:
-            self._send("CAP LS 302")
+        self._sasl.start()
         self._send(f"NICK {self.nick}")
         self._send(f"USER {self.nick} 0 * :{self.nick}")
 
@@ -326,38 +374,26 @@ class XDCCDownloader:
                     break
 
                 # SASL-Verhandlung (nur aktiv wenn sasl_user/sasl_pass gesetzt)
-                if not self.sasl_done:
-                    if re.search(r'\bCAP\b.*\bLS\b', line):
-                        self._send("CAP REQ :sasl")
-                        continue
-                    if re.search(r'\bCAP\b.*\bACK\b', line) and "sasl" in line.lower():
-                        self._send("AUTHENTICATE PLAIN")
-                        continue
-                    if re.search(r'\bCAP\b.*\bNAK\b', line):
-                        self.sasl_done = True
-                        self._send("CAP END")
-                        continue
-                    if line.strip() == "AUTHENTICATE +":
-                        cred = f"{self.sasl_user}\0{self.sasl_user}\0{self.sasl_pass}".encode()
-                        self._send(f"AUTHENTICATE {base64.b64encode(cred).decode()}")
-                        continue
-                    if re.match(r'^\S+\s+903\s', line):
-                        self.sasl_done = True
-                        self._send("CAP END")
-                        continue
-                    if re.match(r'^\S+\s+90[4-7]\s', line):
-                        self.sasl_done = True
+                if self._sasl.feed(line):
+                    if self._sasl.failed:
                         log.warning(f"SASL-Login fehlgeschlagen fuer {self.nick}@{self.server}")
                         if self.sasl_fail_callback:
                             self.sasl_fail_callback()
-                        self._send("CAP END")
-                        continue
+                    continue
 
                 parts = line.split()
                 if len(parts) < 2:
                     continue
 
                 code = parts[1]
+
+                # Nick belegt (z.B. registrierter Nick parallel in HexChat) -> Zufallsnick
+                if code == "433" and not registered:
+                    self.nick = make_nick()
+                    if self.status_callback:
+                        self.status_callback(f"Nick belegt – weiter als {self.nick} (ohne Anmeldung)", "warning")
+                    self._send(f"NICK {self.nick}")
+                    continue
 
                 # 001 = Registered
                 if code == "001" and not registered:

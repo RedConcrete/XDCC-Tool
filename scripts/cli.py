@@ -13,6 +13,7 @@ from downloader import (
     load_score_config,
     channel_penalties,
     record_channel_result,
+    handle_sasl_failure,
     clean_name,
     postprocess,
     category_dirs,
@@ -20,7 +21,6 @@ from downloader import (
     _extra_channels_for,
     _merge_move,
     is_server_disabled,
-    mark_server_disabled,
 )
 from xdcc_client import xdcc_download
 
@@ -232,8 +232,7 @@ def download_pack(pack: dict, staging: Path, expected: str, status, progress=Non
             sasl_user=pack.get("sasl_user", ""),
             sasl_pass=pack.get("sasl_pass", ""),
             sasl_fail_callback=(
-                (lambda srv=server: mark_server_disabled(
-                    srv, "SASL-Login fehlgeschlagen (kein/ungültiger Account)"))
+                (lambda: handle_sasl_failure(server, pack["channel"]))
                 if pack.get("sasl_user") else None
             ),
             timeout=60,

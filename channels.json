@@ -15,7 +15,12 @@
     "search_channel": "#mg-chat",
     "search_bot": "BotReign",
     "search_cmd": "!s {query}",
-    "lang": "English"
+    "lang": "English",
+    "extra_channels": [
+      "#mg-chat"
+    ],
+    "sasl_user": "CutCat",
+    "sasl_pass_env": "ABJECTS_SASL_PASS"
   },
   {
     "server": "irc.abandoned-irc.net",
