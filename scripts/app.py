@@ -280,6 +280,44 @@ def download_search_result():
     )
 
 
+@app.route("/api/score")
+def get_score_config():
+    values = downloader.load_score_config()
+    return jsonify({
+        "fields": [
+            {"key": k, "label": label, "hint": hint, "default": default, "value": values[k]}
+            for k, label, hint, default in downloader.SCORE_FIELDS
+        ],
+    })
+
+
+@app.route("/api/score", methods=["POST"])
+def save_score_config():
+    data = request.get_json(force=True) or {}
+    if data.get("reset"):
+        values = dict(downloader.SCORE_DEFAULTS)
+    else:
+        raw = data.get("values", {})
+        try:
+            values = {k: int(raw[k]) for k in downloader.SCORE_DEFAULTS if k in raw}
+        except (TypeError, ValueError):
+            return jsonify({"ok": False, "error": "Nur ganze Zahlen erlaubt"}), 400
+        if any(abs(v) > 100000 for v in values.values()):
+            return jsonify({"ok": False, "error": "Werte zwischen -100000 und 100000"}), 400
+        values = {**downloader.load_score_config(), **values}
+    try:
+        downloader.save_score_config(values)
+    except Exception as e:
+        return jsonify({"ok": False, "error": str(e)}), 500
+
+    # Vorhandene Suchtreffer mit den neuen Punkten neu sortieren
+    with _lock:
+        if not _search["running"] and _search["results"]:
+            _search["results"] = cli.rank_candidates(
+                _search["results"], cli._search_query(_search["query"]), _search["category"])
+    return jsonify({"ok": True})
+
+
 @app.route("/api/stop", methods=["POST"])
 def stop():
     with _lock:

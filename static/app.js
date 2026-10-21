@@ -739,6 +739,74 @@ async function downloadSearchResult(r) {
   pollStatus();
 }
 
+async function loadScoreConfig() {
+  try {
+    const res = await fetch("/api/score");
+    const data = await res.json();
+    const box = $("score-fields");
+    box.innerHTML = "";
+    for (const f of data.fields) {
+      const field = document.createElement("div");
+      field.className = "field score-field";
+
+      const label = document.createElement("label");
+      label.htmlFor = "score-" + f.key;
+      label.textContent = f.label;
+      if (f.hint) {
+        const hint = document.createElement("span");
+        hint.className = "hint";
+        hint.textContent = f.hint;
+        label.appendChild(hint);
+      }
+
+      const input = document.createElement("input");
+      input.type = "number";
+      input.step = "10";
+      input.id = "score-" + f.key;
+      input.dataset.key = f.key;
+      input.dataset.default = f.default;
+      input.value = f.value;
+      input.title = `Standard: ${f.default}`;
+      const markChanged = () =>
+        field.classList.toggle("changed", String(input.value) !== String(f.default));
+      input.addEventListener("input", markChanged);
+      markChanged();
+
+      field.appendChild(label);
+      field.appendChild(input);
+      box.appendChild(field);
+    }
+  } catch (e) {
+    $("score-status").textContent = "Fehler beim Laden: " + e.message;
+  }
+}
+
+async function saveScoreConfig(reset) {
+  const statusEl = $("score-status");
+  if (reset && !confirm("Alle Punkte auf Standard zurücksetzen?")) return;
+  const values = {};
+  for (const input of $("score-fields").querySelectorAll("input[data-key]")) {
+    values[input.dataset.key] = input.value;
+  }
+  statusEl.textContent = "Speichere ...";
+  try {
+    const res = await fetch("/api/score", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(reset ? { reset: true } : { values }),
+    });
+    const data = await res.json();
+    if (!data.ok) throw new Error(data.error || "unbekannter Fehler");
+    statusEl.textContent = "Gespeichert – Treffer neu sortiert.";
+    await loadScoreConfig();
+    // Treffer wurden serverseitig umsortiert -> Tabelle (und Indizes) neu laden
+    await pollSearch();
+  } catch (e) {
+    statusEl.textContent = "Fehler: " + e.message;
+  }
+  setTimeout(() => { statusEl.textContent = ""; }, 4000);
+}
+
 function setupCollapsibleCards() {
   const STORAGE_KEY = "xdcc-collapsed-cards";
   let collapsed = {};
@@ -809,6 +877,9 @@ document.addEventListener("DOMContentLoaded", () => {
   loadVpnConfig();
   pollVpnStatus();
 
+  loadScoreConfig();
+  $("score-save-btn").addEventListener("click", () => saveScoreConfig(false));
+  $("score-reset-btn").addEventListener("click", () => saveScoreConfig(true));
   $("search-form").addEventListener("submit", startSearch);
   $("search-filter").addEventListener("input", renderSearchResults);
   $("target-select").addEventListener("change", saveTarget);

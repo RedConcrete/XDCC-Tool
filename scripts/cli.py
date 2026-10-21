@@ -10,6 +10,7 @@ from pathlib import Path
 from downloader import (
     search_packs,
     score_pack,
+    load_score_config,
     clean_name,
     postprocess,
     category_dirs,
@@ -160,7 +161,14 @@ def find_candidates(query: str, category: str, irc_callback=None, stop_event=Non
         if key not in seen:
             seen.add(key)
             deduped.append(p)
+    return rank_candidates(deduped, query, category)
 
+
+_EPISODE_TAG_RE = re.compile(r"\bS(\d{1,2})E(\d{1,3})\b", re.IGNORECASE)
+
+
+def rank_candidates(packs: list[dict], query: str, category: str) -> list[dict]:
+    """Relevante Packs zuerst, innerhalb der Gruppen nach score_pack."""
     # Zahlen im gesuchten Titel (z.B. "The Purge 3") muessen auch im
     # Dateinamen vorkommen - sonst waehlt score_pack (der nur Qualitaet/
     # Sprache/Groesse bewertet, nicht Relevanz) bei Franchise-Titeln mit
@@ -173,11 +181,24 @@ def find_candidates(query: str, category: str, irc_callback=None, stop_event=Non
         f_nums = set(re.findall(r"\b\d+\b", fname.replace(".", " ").replace("_", " ")))
         return bool(q_nums & f_nums)
 
-    relevant = [p for p in deduped if _matches_query_numbers(p.get("fname", ""))]
-    irrelevant = [p for p in deduped if p not in relevant]
+    # Wird eine bestimmte Folge gesucht (S04E05), darf ein hoeher bewertetes
+    # Staffelpaket sie nicht verdraengen: nur Packs mit genau dieser Folge
+    # gelten dann als relevant.
+    ep = _EPISODE_TAG_RE.search(query)
+
+    def _matches_episode(fname: str) -> bool:
+        if not ep:
+            return True
+        m = _EPISODE_TAG_RE.search(fname.replace("_", "."))
+        return bool(m) and (int(m.group(1)), int(m.group(2))) == (int(ep.group(1)), int(ep.group(2)))
+
+    cfg = load_score_config()
+    relevant = [p for p in packs
+                if _matches_query_numbers(p.get("fname", "")) and _matches_episode(p.get("fname", ""))]
+    irrelevant = [p for p in packs if p not in relevant]
     return (
-        sorted(relevant, key=lambda p: score_pack(p, category), reverse=True)
-        + sorted(irrelevant, key=lambda p: score_pack(p, category), reverse=True)
+        sorted(relevant, key=lambda p: score_pack(p, category, cfg), reverse=True)
+        + sorted(irrelevant, key=lambda p: score_pack(p, category, cfg), reverse=True)
     )
 
 

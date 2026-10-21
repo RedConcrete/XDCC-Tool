@@ -45,6 +45,7 @@ services:
       - LOGS_DIR=/app/logs
       - SEARCH_LANG=German
       - CHANNELS_CONFIG=/app/channels.json
+      - SCORE_CONFIG=/app/score_config.json
       - RIZON_SASL_PASS=${RIZON_SASL_PASS}
       - GLUETUN_API_KEY=${GLUETUN_API_KEY}
       - GLUETUN_CONTROL_URL=http://gluetun:8000
@@ -54,6 +55,7 @@ services:
       - ./downloaded.txt:/app/downloaded.txt
       - ./channels.json:/app/channels.json
       - ./server_state.json:/app/server_state.json
+      - ./score_config.json:/app/score_config.json
       - ./download_target.json:/app/download_target.json
       - ./.env:/app/.env
       - ./restart_trigger:/app/restart_trigger

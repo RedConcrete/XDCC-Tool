@@ -19,6 +19,7 @@
           <button class="menu-item" data-modal="chatlog-modal">Chat Log</button>
           <button class="menu-item" data-modal="runs-modal">Läufe</button>
           <button class="menu-item" data-modal="downloaded-modal">Geladen</button>
+          <button class="menu-item" data-modal="score-modal">Bewertung</button>
           <button class="menu-item" data-modal="settings-modal">Einstellungen</button>
         </div>
       </div>
@@ -42,7 +43,7 @@
             <textarea id="film" rows="6" placeholder="Ein Titel pro Zeile"></textarea>
           </div>
           <div class="field">
-            <label for="merkliste">Merkliste <span class="hint">(nur Notiz, wird nicht gesucht)</span></label>
+            <label for="merkliste">Merkliste</label>
             <textarea id="merkliste" rows="6" placeholder="Ein Titel pro Zeile"></textarea>
           </div>
         </div>
@@ -59,15 +60,15 @@
         <span class="collapse-icon">&#9662;</span>
       </h2>
       <div class="card-body">
-        <div class="actions">
-          <label for="target-select" class="target-label">Zielfestplatte:</label>
-          <select id="target-select"></select>
-          <span id="target-status" class="status-msg"></span>
-        </div>
-        <div class="actions">
+        <div class="actions run-actions">
           <button id="run-btn">Abarbeiten</button>
           <button id="stop-btn" class="stop-btn" disabled>Stopp</button>
           <span id="run-status" class="status-msg"></span>
+          <div class="target-wrap">
+            <label for="target-select" class="target-label">Ziel:</label>
+            <select id="target-select"></select>
+            <span id="target-status" class="status-msg"></span>
+          </div>
         </div>
         <div id="progress-box" class="progress-box hidden">
           <div class="progress-label"></div>
@@ -156,6 +157,19 @@
       <h2>Bereits geladen</h2>
       <input id="downloaded-filter" type="text" placeholder="Filtern ...">
       <ul id="downloaded-list" class="downloaded-list"></ul>
+    </div>
+  </div>
+
+  <div id="score-modal" class="modal-overlay menu-modal hidden">
+    <div class="modal-box">
+      <h2>Bewertung (Score)</h2>
+      <p class="muted modal-hint">Punkte, nach denen Suchtreffer sortiert werden. Der Top-Treffer wird beim Abarbeiten der Wunschliste zuerst versucht.</p>
+      <div id="score-fields" class="score-grid"></div>
+      <div class="actions">
+        <button id="score-save-btn">Speichern</button>
+        <button id="score-reset-btn" class="small-btn">Standard</button>
+        <span id="score-status" class="status-msg"></span>
+      </div>
     </div>
   </div>
 

@@ -280,7 +280,7 @@ main {
   font-size: 0.8rem;
 }
 
-textarea, input[type="text"], input[type="password"] {
+textarea, input[type="text"], input[type="password"], input[type="number"] {
   width: 100%;
   background: #15171c;
   color: var(--text);
@@ -292,7 +292,7 @@ textarea, input[type="text"], input[type="password"] {
   resize: vertical;
 }
 
-textarea:focus, input[type="text"]:focus, input[type="password"]:focus {
+textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="number"]:focus {
   outline: none;
   border-color: var(--accent);
 }
@@ -650,8 +650,9 @@ button:disabled {
 
 .table-wrap {
   margin-top: 1rem;
-  max-height: 560px;
+  max-height: 60vh;
   overflow: auto;
+  overscroll-behavior: contain;
 }
 
 .search-table {
@@ -809,8 +810,7 @@ button:disabled {
   }
 
   .table-wrap {
-    max-height: none;
-    overflow: visible;
+    max-height: 65vh;
   }
 
   /* Tabelle wird zu Karten: Dateiname, darunter Bot | Groesse, darunter Buttons */
@@ -893,4 +893,70 @@ textarea, .log-box, .irc-box, .table-wrap, .runs-list, .downloaded-list {
 
 .skeleton-row td.fname {
   width: 40%;
+}
+
+/* Ziel-Auswahl rechts neben Abarbeiten/Stopp */
+.run-actions .target-wrap {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: auto;
+}
+
+/* Bewertung (Score) */
+.modal-hint {
+  color: var(--muted);
+  font-size: 0.85rem;
+  margin: 0 0 1rem;
+}
+
+.score-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.8rem 1rem;
+}
+
+.score-field label {
+  margin-bottom: 0.25rem;
+}
+
+.score-field .hint {
+  display: block;
+  margin-top: 0.1rem;
+}
+
+.score-field.changed input {
+  border-color: var(--accent);
+}
+
+@media (max-width: 740px) {
+  .run-actions .target-wrap {
+    margin-left: 0;
+    flex-basis: 100%;
+  }
+
+  .run-actions .target-wrap select {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .score-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+/* Eingabefelder buendig, auch wenn Beschriftungen unterschiedlich umbrechen */
+.score-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.score-field input {
+  margin-top: auto;
+}
+
+@media (min-width: 741px) {
+  .wishlist-grid .field label {
+    min-height: 2.6em;
+  }
 }

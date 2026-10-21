@@ -438,20 +438,70 @@ def search_packs(query: str, irc_callback=None, stop_event=None) -> list[dict]:
     return results
 
 
-def score_pack(p: dict, category: str = "") -> float:
+# Punkte fuer score_pack(). Im Web-UI unter Menue -> Bewertung anpassbar,
+# Abweichungen von den Standardwerten liegen in score_config.json.
+SCORE_FIELDS = [
+    # (key, label, hinweis, standard)
+    ("german", "Deutsch", "german, deutsch, .ger., DL ...", 1000),
+    ("foreign", "Andere Sprache", "french, italian, ... (nur wenn nicht deutsch)", -600),
+    ("irc_live", "Live-IRC-Treffer", "statt xdcc.eu-Cache", 300),
+    ("hd1080", "1080p / BluRay / WEB", "je Stichwort", 30),
+    ("hd720", "720p", "", 15),
+    ("x265", "x265 / HEVC", "je Stichwort", 10),
+    ("gets_max", "Gets (max.)", "+1 pro Get bis zu diesem Wert", 100),
+    ("season_pack", "Serie: ganze Staffel", "S01 ohne Folge, Staffel 1, Season 1", 700),
+    ("episode", "Serie: einzelne Folge", "S01E05 oder 1x05", 500),
+    ("complete_series", "Serie: Komplettpaket ohne Staffel", "große Datei ohne Staffel-/Folgenangabe", -800),
+    ("film_episode", "Film: sieht aus wie Serienfolge", "S01E05 im Namen", -500),
+]
+SCORE_DEFAULTS = {key: default for key, _, _, default in SCORE_FIELDS}
+SCORE_CONFIG_PATH = Path(os.environ.get("SCORE_CONFIG", "/app/score_config.json"))
+_score_cache = {"mtime": None, "values": dict(SCORE_DEFAULTS)}
+
+
+def load_score_config() -> dict:
+    """Standardwerte + Overrides aus score_config.json (gecacht per mtime)."""
+    try:
+        mtime = SCORE_CONFIG_PATH.stat().st_mtime
+    except OSError:
+        return dict(SCORE_DEFAULTS)
+    if _score_cache["mtime"] != mtime:
+        values = dict(SCORE_DEFAULTS)
+        try:
+            raw = json.loads(SCORE_CONFIG_PATH.read_text(encoding="utf-8") or "{}")
+            values.update({k: int(v) for k, v in raw.items() if k in SCORE_DEFAULTS})
+        except Exception as e:
+            log.warning(f"score_config.json Ladefehler: {e}")
+        _score_cache.update(mtime=mtime, values=values)
+    return dict(_score_cache["values"])
+
+
+def save_score_config(values: dict) -> None:
+    """Speichert nur Abweichungen vom Standard (leeres Dict = alles Standard)."""
+    overrides = {k: int(v) for k, v in values.items()
+                 if k in SCORE_DEFAULTS and int(v) != SCORE_DEFAULTS[k]}
+    SCORE_CONFIG_PATH.write_text(json.dumps(overrides, indent=2) + "\n", encoding="utf-8")
+
+
+_EPISODE_RE = re.compile(r"s\d{1,2}e\d{1,3}|\b\d{1,2}x\d{1,3}\b")
+_SEASON_RE = re.compile(r"\bs\d{1,2}\b|\b(?:staffel|season)[ ._-]?\d{1,2}\b")
+
+
+def score_pack(p: dict, category: str = "", cfg: dict | None = None) -> float:
+    cfg = cfg or load_score_config()
     name = p.get("fname", "").lower()
     score = 0.0
 
     # Live-IRC-Suche bevorzugen: verhindert dass stale xdcc.eu-Kandidaten
     # alle MAX_CANDIDATES-Slots verbrauchen bevor echte IRC-Packs dran kommen
     if str(p.get("source", "")).startswith("IRC"):
-        score += 300
+        score += cfg["irc_live"]
 
     german_kw = ["german", "deutsch", ".ger.", "ger.", "dl.german", "german.dl",
                  "ger-sub", "[ger", ".de.", "multi.german", "german.multi"]
     is_german = any(kw in name for kw in german_kw)
     if is_german:
-        score += 1000
+        score += cfg["german"]
 
     if not is_german:
         foreign_kw = ["vostfr", "french", "truefrench", ".fr.", "italian", "italiano",
@@ -459,42 +509,36 @@ def score_pack(p: dict, category: str = "") -> float:
                       ".pl.", ".it.", ".ru.", "dubbed"]
         for kw in foreign_kw:
             if kw in name:
-                score -= 600
+                score += cfg["foreign"]
                 break
 
     for kw in ["1080p", "bluray", "blu-ray", "webrip", "web-dl"]:
         if kw in name:
-            score += 30
+            score += cfg["hd1080"]
     if "720p" in name:
-        score += 15
+        score += cfg["hd720"]
     for kw in ["x265", "hevc", "h265"]:
         if kw in name:
-            score += 10
+            score += cfg["x265"]
     score += math.log10(max(p.get("size", 1), 1)) * 5
     try:
-        score += min(int(p.get("gets", 0)), 100)
+        score += min(int(p.get("gets", 0)), cfg["gets_max"])
     except (ValueError, TypeError):
         pass
 
+    is_episode = bool(_EPISODE_RE.search(name))
     if category == "serien":
-        if re.search(r"s\d{1,2}e\d{1,2}", name):
-            score += 500
-        elif re.search(r"\d{1,2}x\d{1,2}", name):
-            score += 400
-        elif re.search(r"s\d{1,2}\b", name):
-            score += 200
-        size_mb = p.get("size", 0) // 1024 // 1024
-        if not re.search(r"s\d{1,2}e\d{1,2}|\d{1,2}x\d{1,2}", name) and size_mb > 2000:
-            # Season-Packs (z.B. S07.German.tar) nur leicht bestrafen,
-            # komplette Serien-Dumps ohne Staffelangabe stark
-            if re.search(r"\bs\d{1,2}\b", name):
-                score -= 200
-            else:
-                score -= 800
+        if is_episode:
+            score += cfg["episode"]
+        elif _SEASON_RE.search(name):
+            score += cfg["season_pack"]
+        elif p.get("size", 0) // 1024 // 1024 > 2000:
+            # Komplette Serien-Dumps ohne Staffelangabe
+            score += cfg["complete_series"]
 
     elif category == "film":
-        if re.search(r"s\d{1,2}e\d{1,2}", name):
-            score -= 500
+        if is_episode:
+            score += cfg["film_episode"]
 
     return score
 
