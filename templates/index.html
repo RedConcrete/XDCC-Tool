@@ -10,9 +10,21 @@
   <header>
     <h1>XDCC Downloader</h1>
     <div class="header-actions">
-      <button id="vpn-badge" class="vpn-badge" aria-label="VPN Status">
-        <span id="vpn-header-dot" class="status-dot unknown"></span>VPN
-      </button>
+      <div id="vpn-wrap" class="vpn-wrap">
+        <button id="vpn-badge" class="vpn-badge" aria-label="VPN Status" aria-haspopup="true" aria-expanded="false">
+          <span id="vpn-header-dot" class="status-dot unknown"></span>VPN
+        </button>
+        <div id="vpn-dropdown" class="vpn-dropdown">
+          <div class="vpn-status-box">
+            <div>
+              <span id="vpn-status-dot" class="status-dot unknown"></span>
+              <strong>Status:</strong> <span id="vpn-status-text">wird geladen ...</span>
+            </div>
+            <div id="vpn-ip-row" class="hidden"><strong>Öffentliche IP:</strong> <span id="vpn-ip-text"></span></div>
+            <div id="vpn-key-row"><strong>Key hinterlegt:</strong> <span id="vpn-key-text">-</span></div>
+          </div>
+        </div>
+      </div>
       <div class="menu-wrap">
         <button id="menu-btn" class="gear-btn" aria-label="Menü">☰</button>
         <div id="menu-dropdown" class="menu-dropdown hidden">
@@ -20,7 +32,7 @@
           <button class="menu-item" data-modal="runs-modal">Läufe</button>
           <button class="menu-item" data-modal="downloaded-modal">Geladen</button>
           <button class="menu-item" data-modal="score-modal">Bewertung</button>
-          <button class="menu-item" data-modal="settings-modal">Einstellungen</button>
+          <button class="menu-item" data-modal="settings-modal">VPN</button>
         </div>
       </div>
     </div>
@@ -111,20 +123,6 @@
     </section>
   </main>
 
-  <div id="vpn-popup" class="modal-overlay hidden">
-    <div class="modal-box">
-      <h2>VPN (Mullvad)</h2>
-      <div class="vpn-status-box">
-        <div>
-          <span id="vpn-status-dot" class="status-dot unknown"></span>
-          <strong>Status:</strong> <span id="vpn-status-text">wird geladen ...</span>
-        </div>
-        <div id="vpn-ip-row" class="hidden"><strong>Öffentliche IP:</strong> <span id="vpn-ip-text"></span></div>
-        <div id="vpn-key-row"><strong>Key hinterlegt:</strong> <span id="vpn-key-text">-</span></div>
-      </div>
-    </div>
-  </div>
-
   <div id="chatlog-modal" class="modal-overlay menu-modal hidden">
     <div class="modal-box">
       <h2>Chat Log</h2>
@@ -175,9 +173,7 @@
 
   <div id="settings-modal" class="modal-overlay menu-modal hidden">
     <div class="modal-box">
-      <h2>Einstellungen</h2>
-
-      <h3>VPN (Mullvad)</h3>
+      <h2>VPN (Mullvad)</h2>
       <div id="vpn-config-form">
         <div class="wishlist-grid">
           <div class="field">

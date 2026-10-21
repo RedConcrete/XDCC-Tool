@@ -617,6 +617,11 @@ button:disabled {
   flex-direction: column;
 }
 
+/* .hidden muss auch gegen die display:flex-Regel oben greifen (VPN-Formular) */
+.wishlist-grid .field.hidden {
+  display: none;
+}
+
 .wishlist-grid textarea {
   flex: 1;
   min-height: 9rem;
@@ -958,5 +963,68 @@ textarea, .log-box, .irc-box, .table-wrap, .runs-list, .downloaded-list {
 @media (min-width: 741px) {
   .wishlist-grid .field label {
     min-height: 2.6em;
+  }
+}
+
+/* VPN-Dropdown am Badge (Status + Konfiguration) */
+.vpn-wrap {
+  position: relative;
+}
+
+.vpn-dropdown {
+  display: none;
+  position: absolute;
+  top: calc(100% + 0.4rem);
+  right: 0;
+  width: min(320px, calc(100vw - 2rem));
+  max-height: calc(100vh - 5rem);
+  overflow-y: auto;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.3rem 0.4rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+  z-index: 120;
+}
+
+/* Bruecke ueber den Abstand, damit der Hover beim Runterfahren nicht abreisst */
+.vpn-dropdown::before {
+  content: "";
+  position: absolute;
+  top: -0.5rem;
+  left: 0;
+  right: 0;
+  height: 0.5rem;
+}
+
+.vpn-wrap.open .vpn-dropdown,
+.vpn-wrap:focus-within .vpn-dropdown {
+  display: block;
+}
+
+@media (hover: hover) {
+  .vpn-wrap:hover .vpn-dropdown {
+    display: block;
+  }
+}
+
+.vpn-dropdown .vpn-status-box {
+  margin: 0;
+  border: none;
+  background: transparent;
+}
+
+@media (max-width: 740px) {
+  /* Badge sitzt nicht am rechten Rand -> Dropdown an der Bildschirmbreite ausrichten */
+  .vpn-dropdown {
+    position: fixed;
+    top: 4rem;
+    left: 0.8rem;
+    right: 0.8rem;
+    width: auto;
+  }
+
+  .vpn-dropdown::before {
+    display: none;
   }
 }

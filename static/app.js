@@ -827,12 +827,25 @@ function setupCollapsibleCards() {
   }
 }
 
+function setVpnDropdownOpen(open) {
+  $("vpn-wrap").classList.toggle("open", open);
+  $("vpn-badge").setAttribute("aria-expanded", String(open));
+}
+
 function setupVpnBadge() {
-  $("vpn-badge").addEventListener("click", () => {
-    $("vpn-popup").classList.remove("hidden");
+  // Desktop: oeffnet per Hover (CSS). Klick/Tippen pinnt es offen, z.B. fuers Handy.
+  $("vpn-badge").addEventListener("click", (e) => {
+    e.stopPropagation();
+    setVpnDropdownOpen(!$("vpn-wrap").classList.contains("open"));
   });
-  $("vpn-popup").addEventListener("click", (e) => {
-    if (e.target.id === "vpn-popup") $("vpn-popup").classList.add("hidden");
+  document.addEventListener("click", (e) => {
+    if (!e.target.closest("#vpn-wrap")) setVpnDropdownOpen(false);
+  });
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") {
+      setVpnDropdownOpen(false);
+      document.activeElement.blur();
+    }
   });
 }
 
@@ -841,6 +854,7 @@ function setupMenuDropdown() {
 
   $("menu-btn").addEventListener("click", (e) => {
     e.stopPropagation();
+    setVpnDropdownOpen(false);
     dropdown.classList.toggle("hidden");
   });
 
