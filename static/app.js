@@ -672,6 +672,10 @@ function applySearchData(data) {
         (shown !== searchResults.length ? ` (${shown} angezeigt)` : "")
       : `Nichts gefunden für „${data.query}“`;
   }
+  if (!data.running && data.hidden_channels && data.hidden_channels.length) {
+    statusEl.textContent += (statusEl.textContent ? " · " : "") +
+      `ausgeblendet (kein Account): ${data.hidden_channels.join(", ")}`;
+  }
 }
 
 async function pollSearch() {
@@ -885,6 +889,164 @@ async function saveScoreConfig(reset) {
   setTimeout(() => { statusEl.textContent = ""; }, 4000);
 }
 
+// --- IRC-Accounts (Menue -> Accounts) -------------------------------------
+
+function el(tag, props = {}, children = []) {
+  const node = document.createElement(tag);
+  Object.assign(node, props);
+  for (const c of children) node.append(c);
+  return node;
+}
+
+let accountPolling = false;
+
+function networkLabel(key) {
+  return key.charAt(0) + key.slice(1).toLowerCase();
+}
+
+async function accountRequest(method, url, body) {
+  const res = await fetch(url, {
+    method,
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(body),
+  });
+  const data = await res.json();
+  if (!res.ok || data.ok === false) throw new Error(data.error || data.message || "HTTP " + res.status);
+  return data;
+}
+
+function renderAccount(acc, job) {
+  const label = networkLabel(acc.network);
+  const status = el("span", { className: "status-msg" });
+  const setStatus = (msg) => { status.textContent = msg; };
+
+  const userInput = el("input", { type: "text", value: acc.user, placeholder: "Nick", autocomplete: "off" });
+  const passInput = el("input", {
+    type: "password", autocomplete: "new-password",
+    placeholder: acc.has_password ? "•••••• (leer = behalten)" : "Passwort",
+  });
+
+  const saveBtn = el("button", { textContent: "Speichern" });
+  saveBtn.addEventListener("click", async () => {
+    setStatus("Speichere ...");
+    try {
+      await accountRequest("POST", "/api/accounts",
+        { network: acc.network, user: userInput.value.trim(), password: passInput.value });
+      await loadAccounts();
+    } catch (e) { setStatus("Fehler: " + e.message); }
+  });
+
+  const testBtn = el("button", { className: "small-btn", textContent: "Testen", disabled: !acc.active });
+  testBtn.addEventListener("click", async () => {
+    setStatus("Teste Anmeldung ...");
+    testBtn.disabled = true;
+    try {
+      const data = await accountRequest("POST", "/api/accounts/test", { network: acc.network });
+      setStatus("✓ " + data.message);
+    } catch (e) { setStatus("✗ " + e.message); }
+    testBtn.disabled = false;
+  });
+
+  const delBtn = el("button", { className: "small-btn", textContent: "Entfernen", disabled: !acc.user && !acc.has_password });
+  delBtn.addEventListener("click", async () => {
+    if (!confirm(`${label}-Account aus dem Tool entfernen? (Der Nick bleibt bei ${label} registriert.)`)) return;
+    try {
+      await accountRequest("DELETE", "/api/accounts", { network: acc.network });
+      await loadAccounts();
+    } catch (e) { setStatus("Fehler: " + e.message); }
+  });
+
+  // Neuen Nick registrieren
+  const regUser = el("input", { type: "text", value: acc.user, placeholder: "Gewünschter Nick", autocomplete: "off" });
+  const regEmail = el("input", { type: "text", placeholder: "E-Mail (für NickServ)", autocomplete: "off" });
+  const regPass = el("input", { type: "password", placeholder: "Passwort (leer = wird erzeugt)", autocomplete: "new-password" });
+  const regBtn = el("button", { textContent: "Registrieren" });
+  const regLog = el("pre", { className: "account-log hidden" });
+  const myJob = job && job.network === acc.network ? job : null;
+  if (myJob && (myJob.running || myJob.result)) {
+    regLog.classList.remove("hidden");
+    regLog.textContent = myJob.log.join("\n") +
+      (myJob.result ? `\n${myJob.result.ok ? "✓" : "✗"} ${myJob.result.message}` : "");
+  }
+  regBtn.disabled = !!(job && job.running);
+  regBtn.addEventListener("click", async () => {
+    regBtn.disabled = true;
+    regLog.classList.remove("hidden");
+    regLog.textContent = "Starte Registrierung ...";
+    try {
+      await accountRequest("POST", "/api/accounts/register", {
+        network: acc.network, user: regUser.value.trim(),
+        email: regEmail.value.trim(), password: regPass.value,
+      });
+      pollAccountJob();
+    } catch (e) {
+      regLog.textContent = "✗ " + e.message;
+      regBtn.disabled = false;
+    }
+  });
+  const register = el("details", { className: "account-register", open: !!(myJob && myJob.running) }, [
+    el("summary", { textContent: `Neuen Nick bei ${label} registrieren` }),
+    el("p", {
+      className: "modal-hint",
+      textContent: "Verbindet sich über das VPN, wartet die von NickServ verlangte Zeit und registriert den Nick. " +
+        "Mit einer Wegwerf-Adresse ist später kein Passwort-Reset möglich.",
+    }),
+    el("div", { className: "account-grid" }, [regUser, regEmail, regPass]),
+    el("div", { className: "actions" }, [regBtn]),
+    regLog,
+  ]);
+
+  return el("div", { className: "account-card" }, [
+    el("div", { className: "account-head" }, [
+      el("strong", { textContent: label }),
+      el("span", { className: "account-sub", textContent: `${acc.server} · ${acc.channels.join(", ")}` }),
+      el("span", {
+        className: "account-badge " + (acc.active ? "active" : "missing"),
+        textContent: acc.active ? "aktiv" : "kein Account – ausgeblendet",
+      }),
+    ]),
+    el("div", { className: "account-grid" }, [userInput, passInput]),
+    el("div", { className: "actions" }, [saveBtn, testBtn, delBtn, status]),
+    register,
+  ]);
+}
+
+async function loadAccounts() {
+  const list = $("accounts-list");
+  try {
+    const res = await fetch("/api/accounts");
+    const data = await res.json();
+    list.innerHTML = "";
+    if (!data.accounts.length) {
+      list.append(el("p", { className: "muted", textContent: "Kein Channel braucht einen Account." }));
+    }
+    for (const acc of data.accounts) list.append(renderAccount(acc, data.job));
+    if (data.job && data.job.running) pollAccountJob();
+  } catch (e) {
+    list.textContent = "Fehler beim Laden: " + e.message;
+  }
+}
+
+async function pollAccountJob() {
+  if (accountPolling) return;
+  accountPolling = true;
+  try {
+    while (true) {
+      await new Promise((r) => setTimeout(r, 2000));
+      const res = await fetch("/api/accounts");
+      const data = await res.json();
+      const open = !$("accounts-modal").classList.contains("hidden");
+      if (open && !document.activeElement.closest("#accounts-list")) {
+        $("accounts-list").innerHTML = "";
+        for (const acc of data.accounts) $("accounts-list").append(renderAccount(acc, data.job));
+      }
+      if (!data.job.running) break;
+    }
+  } finally {
+    accountPolling = false;
+  }
+}
+
 function setupCollapsibleCards() {
   const STORAGE_KEY = "xdcc-collapsed-cards";
   const MOBILE_KEY = "xdcc-mobile-open-card";
@@ -991,6 +1153,7 @@ document.addEventListener("DOMContentLoaded", () => {
   pollVpnStatus();
 
   loadScoreConfig();
+  document.querySelector('[data-modal="accounts-modal"]').addEventListener("click", loadAccounts);
   document.querySelector('[data-modal="score-modal"]').addEventListener("click", () => {
     loadScoreConfig();
     loadChannelPenalties();

@@ -123,12 +123,83 @@ def mark_server_disabled(server: str, reason: str) -> None:
     log.warning(f"Server {server} dauerhaft deaktiviert: {reason}")
 
 
+# --- IRC-Accounts pro Netzwerk ------------------------------------------
+# Channels mit "login": true in channels.json brauchen einen registrierten
+# Nick. Zugangsdaten liegen in .env als <NETZWERK>_SASL_USER / _SASL_PASS
+# (z.B. ABJECTS_SASL_USER) und werden bei jeder Nutzung frisch gelesen, damit
+# Aenderungen im Web-UI ohne Neustart greifen.
+ENV_FILE_PATH = Path(os.environ.get("ENV_FILE", "/app/.env"))
+
+
+def read_env_file() -> dict:
+    result = {}
+    if ENV_FILE_PATH.exists():
+        for line in ENV_FILE_PATH.read_text(encoding="utf-8").splitlines():
+            line = line.strip()
+            if not line or line.startswith("#") or "=" not in line:
+                continue
+            k, v = line.split("=", 1)
+            result[k.strip()] = v.strip()
+    return result
+
+
+def write_env_file(updates: dict, remove: tuple = ()) -> None:
+    current = read_env_file()
+    current.update(updates)
+    for k in remove:
+        current.pop(k, None)
+    lines = [f"{k}={v}" for k, v in current.items()]
+    ENV_FILE_PATH.write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+
+def network_key(server: str) -> str:
+    """irc.abjects.net -> ABJECTS (Praefix der .env-Variablen)."""
+    parts = server.lower().split(".")
+    name = parts[1] if len(parts) > 2 else parts[0]
+    return re.sub(r"[^A-Z0-9]", "_", name.upper())
+
+
+def needs_login(ch: dict) -> bool:
+    return bool(ch.get("login"))
+
+
+def get_account(server: str, env: dict | None = None) -> tuple[str, str]:
+    """(nick, passwort) des Netzwerks oder ("", "") wenn keiner hinterlegt ist."""
+    env = read_env_file() if env is None else env
+    key = network_key(server)
+    user = env.get(f"{key}_SASL_USER", "")
+    password = env.get(f"{key}_SASL_PASS", "")
+    return (user, password) if user and password else ("", "")
+
+
+def login_networks() -> list[dict]:
+    """Netzwerke, auf denen mindestens ein Channel einen Login braucht."""
+    nets: dict[str, dict] = {}
+    for ch in CHANNELS:
+        if not needs_login(ch):
+            continue
+        key = network_key(ch["server"])
+        net = nets.setdefault(key, {
+            "network": key, "server": ch["server"], "port": ch.get("port", 6667),
+            "tls": ch.get("tls", False), "channels": [],
+        })
+        net["channels"].append(ch["channel"])
+    return list(nets.values())
+
+
+def hidden_login_channels() -> list[str]:
+    """Channels, die mangels Account in der Suche ausgeblendet werden."""
+    env = read_env_file()
+    return [ch["channel"] for ch in CHANNELS
+            if needs_login(ch) and not get_account(ch["server"], env)[0]]
+
+
 def handle_sasl_failure(server: str, channel: str) -> None:
     """Fehlgeschlagener SASL-Login: Server nur komplett deaktivieren, wenn dort
     alle Channels einen Login brauchen (z.B. Rizon). Auf Abjects laufen
     #beast-xdcc & Co. ohne Login weiter -> dann nur Abzug fuer den Channel."""
     reason = "SASL-Login fehlgeschlagen (kein/ungültiger Account)"
-    if any(ch["server"] == server and not ch.get("sasl_user") for ch in CHANNELS):
+    if any(ch["server"] == server and not needs_login(ch) for ch in CHANNELS):
         record_channel_result(server, channel, ok=False, banned=True, reason=reason)
     else:
         mark_server_disabled(server, reason)
@@ -139,10 +210,8 @@ def _load_channels() -> list[dict]:
         try:
             data = json.loads(CHANNELS_CONFIG.read_text(encoding="utf-8"))
             if isinstance(data, list) and data:
-                for ch in data:
-                    # Passwoerter kommen aus der Umgebung (.env), nie aus channels.json
-                    if "sasl_pass_env" in ch and "sasl_pass" not in ch:
-                        ch["sasl_pass"] = os.environ.get(ch["sasl_pass_env"], "")
+                # Zugangsdaten stehen nie in channels.json, sondern in .env
+                # (siehe get_account); "login": true markiert nur den Bedarf.
                 return data
         except Exception as e:
             log.warning(f"channels.json Ladefehler: {e}")
@@ -421,11 +490,22 @@ def search_packs(query: str, irc_callback=None, stop_event=None) -> list[dict]:
     irc_channels: set[tuple] = set()
 
     disabled_servers = {s for s, v in _load_server_state().items() if v.get("disabled")}
+    env = read_env_file()
+
+    def login_for(ch: dict) -> tuple[str, str] | None:
+        """None = Channel ohne Account nicht nutzbar (ausblenden)."""
+        if not needs_login(ch):
+            return ("", "")
+        creds = get_account(ch["server"], env)
+        return creds if creds[0] else None
 
     for ch in CHANNELS:
         if stop_event and stop_event.is_set():
             return results
         if ch["server"] in disabled_servers:
+            continue
+        creds = login_for(ch)
+        if creds is None:
             continue
         if "search_bot" in ch:
             found = _irc_bot_search(
@@ -438,8 +518,8 @@ def search_packs(query: str, irc_callback=None, stop_event=None) -> list[dict]:
                 download_channel=ch["channel"],
                 irc_callback=irc_callback,
                 tls=ch.get("tls", False),
-                sasl_user=ch.get("sasl_user", ""),
-                sasl_pass=ch.get("sasl_pass", ""),
+                sasl_user=creds[0],
+                sasl_pass=creds[1],
                 stop_event=stop_event,
             )
             if found:
@@ -447,8 +527,8 @@ def search_packs(query: str, irc_callback=None, stop_event=None) -> list[dict]:
                 for p in found:
                     p.setdefault("port", ch.get("port", 6667))
                     p.setdefault("tls", ch.get("tls", False))
-                    p.setdefault("sasl_user", ch.get("sasl_user", ""))
-                    p.setdefault("sasl_pass", ch.get("sasl_pass", ""))
+                    p.setdefault("sasl_user", creds[0])
+                    p.setdefault("sasl_pass", creds[1])
                 irc_channels.add((ch["server"], ch["channel"].lower()))
 
     if stop_event and stop_event.is_set():
@@ -460,10 +540,13 @@ def search_packs(query: str, irc_callback=None, stop_event=None) -> list[dict]:
         key = (p["server"], p.get("channel", "").lower())
         if key not in irc_channels:
             cfg = _CHANNEL_CFG.get(key, {})
+            creds = login_for(cfg) if cfg else ("", "")
+            if creds is None:
+                continue
             p.setdefault("port", cfg.get("port", 6667))
             p.setdefault("tls", cfg.get("tls", False))
-            p.setdefault("sasl_user", cfg.get("sasl_user", ""))
-            p.setdefault("sasl_pass", cfg.get("sasl_pass", ""))
+            p.setdefault("sasl_user", creds[0])
+            p.setdefault("sasl_pass", creds[1])
             results.append(p)
 
     return results

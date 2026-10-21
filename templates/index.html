@@ -32,6 +32,7 @@
           <button class="menu-item" data-modal="runs-modal">Läufe</button>
           <button class="menu-item" data-modal="downloaded-modal">Geladen</button>
           <button class="menu-item" data-modal="score-modal">Bewertung</button>
+          <button class="menu-item" data-modal="accounts-modal">Accounts</button>
           <button class="menu-item" data-modal="settings-modal">VPN</button>
         </div>
       </div>
@@ -177,6 +178,14 @@
       <div class="actions">
         <button id="channel-reset-all-btn" class="small-btn">Alle zurücksetzen</button>
       </div>
+    </div>
+  </div>
+
+  <div id="accounts-modal" class="modal-overlay menu-modal hidden">
+    <div class="modal-box">
+      <h2>IRC-Accounts</h2>
+      <p class="modal-hint">Manche Channels verlangen einen registrierten Nick. Ohne Account werden sie in der Suche ausgeblendet. Passwörter liegen nur in der .env auf dem Server.</p>
+      <div id="accounts-list" class="accounts-list"></div>
     </div>
   </div>
 

@@ -4,6 +4,7 @@
 import importlib
 import os
 import re
+import secrets
 import shutil
 import threading
 import time
@@ -15,10 +16,10 @@ import requests
 
 import cli
 import downloader
+import xdcc_client
 
 CHAT_LOG_PATH = Path(os.environ.get("CHAT_LOG", "/app/Chat.txt"))
 LOGS_DIR = Path(os.environ.get("LOGS_DIR", "/app/logs"))
-ENV_FILE_PATH = Path(os.environ.get("ENV_FILE", "/app/.env"))
 GLUETUN_CONTROL_URL = os.environ.get("GLUETUN_CONTROL_URL", "http://gluetun:8000")
 GLUETUN_API_KEY = os.environ.get("GLUETUN_API_KEY", "")
 TRIGGER_DIR = Path(os.environ.get("RESTART_TRIGGER_DIR", "/app/restart_trigger"))
@@ -262,6 +263,7 @@ def get_search():
             "category": _search["category"],
             "error": _search["error"],
             "results": results,
+            "hidden_channels": downloader.hidden_login_channels(),
         })
 
 
@@ -350,6 +352,126 @@ def reset_channel_penalties():
     except Exception as e:
         return jsonify({"ok": False, "error": str(e)}), 500
     _rerank_search()
+    return jsonify({"ok": True})
+
+
+# --- IRC-Accounts (Menue -> Accounts) -------------------------------------
+_NICK_RE = re.compile(r"^[A-Za-z\[\]\\`_^{|}][A-Za-z0-9\[\]\\`_^{|}-]{0,29}$")
+_EMAIL_RE = re.compile(r"^[^@\s]+@[^@\s]+\.[^@\s]+$")
+_account_job = {"running": False, "network": "", "log": [], "result": None}
+
+
+def _login_network(key: str) -> dict | None:
+    return next((n for n in downloader.login_networks() if n["network"] == key), None)
+
+
+def _check_password(password: str) -> str | None:
+    if len(password) < 5 or " " in password:
+        return "Passwort: mindestens 5 Zeichen, keine Leerzeichen"
+    return None
+
+
+@app.route("/api/accounts")
+def get_accounts():
+    env = downloader.read_env_file()
+    accounts = []
+    for net in downloader.login_networks():
+        key = net["network"]
+        accounts.append({
+            **net,
+            "user": env.get(f"{key}_SASL_USER", ""),
+            "has_password": bool(env.get(f"{key}_SASL_PASS")),
+            "active": bool(downloader.get_account(net["server"], env)[0]),
+        })
+    with _lock:
+        job = {k: (list(v) if isinstance(v, list) else v) for k, v in _account_job.items()}
+    return jsonify({"accounts": accounts, "job": job})
+
+
+@app.route("/api/accounts", methods=["POST"])
+def save_account():
+    data = request.get_json(force=True) or {}
+    net = _login_network(str(data.get("network", "")))
+    if not net:
+        return jsonify({"ok": False, "error": "unbekanntes Netzwerk"}), 400
+    user = str(data.get("user", "")).strip()
+    password = str(data.get("password", ""))
+    if not _NICK_RE.match(user):
+        return jsonify({"ok": False, "error": "ungültiger Nick"}), 400
+    updates = {f'{net["network"]}_SASL_USER': user}
+    if password:
+        err = _check_password(password)
+        if err:
+            return jsonify({"ok": False, "error": err}), 400
+        updates[f'{net["network"]}_SASL_PASS'] = password
+    downloader.write_env_file(updates)
+    return jsonify({"ok": True})
+
+
+@app.route("/api/accounts", methods=["DELETE"])
+def delete_account():
+    data = request.get_json(force=True) or {}
+    net = _login_network(str(data.get("network", "")))
+    if not net:
+        return jsonify({"ok": False, "error": "unbekanntes Netzwerk"}), 400
+    key = net["network"]
+    downloader.write_env_file({}, remove=(f"{key}_SASL_USER", f"{key}_SASL_PASS"))
+    return jsonify({"ok": True})
+
+
+@app.route("/api/accounts/test", methods=["POST"])
+def test_account():
+    data = request.get_json(force=True) or {}
+    net = _login_network(str(data.get("network", "")))
+    if not net:
+        return jsonify({"ok": False, "error": "unbekanntes Netzwerk"}), 400
+    user, password = downloader.get_account(net["server"])
+    if not user:
+        return jsonify({"ok": False, "error": "Kein Account hinterlegt"}), 400
+    ok, msg = xdcc_client.test_login(net["server"], net["port"], net["tls"], user, password)
+    return jsonify({"ok": ok, "message": msg})
+
+
+def _register_job(net: dict, user: str, password: str, email: str) -> None:
+    def status(msg: str) -> None:
+        with _lock:
+            _account_job["log"].append(msg)
+
+    try:
+        ok, msg = xdcc_client.register_nick(net["server"], net["port"], net["tls"],
+                                            user, password, email, status_cb=status)
+    except Exception as e:
+        ok, msg = False, str(e)
+    if ok:
+        key = net["network"]
+        downloader.write_env_file({f"{key}_SASL_USER": user, f"{key}_SASL_PASS": password})
+        status("Zugangsdaten gespeichert – Channels sind ab jetzt in der Suche aktiv.")
+    with _lock:
+        _account_job["running"] = False
+        _account_job["result"] = {"ok": ok, "message": msg}
+
+
+@app.route("/api/accounts/register", methods=["POST"])
+def register_account():
+    data = request.get_json(force=True) or {}
+    net = _login_network(str(data.get("network", "")))
+    if not net:
+        return jsonify({"ok": False, "error": "unbekanntes Netzwerk"}), 400
+    user = str(data.get("user", "")).strip()
+    email = str(data.get("email", "")).strip()
+    password = str(data.get("password", "")) or secrets.token_urlsafe(18)
+    if not _NICK_RE.match(user):
+        return jsonify({"ok": False, "error": "ungültiger Nick"}), 400
+    if not _EMAIL_RE.match(email):
+        return jsonify({"ok": False, "error": "ungültige E-Mail-Adresse"}), 400
+    err = _check_password(password)
+    if err:
+        return jsonify({"ok": False, "error": err}), 400
+    with _lock:
+        if _account_job["running"]:
+            return jsonify({"ok": False, "error": "Registrierung läuft bereits"}), 409
+        _account_job.update(running=True, network=net["network"], log=[], result=None)
+    threading.Thread(target=_register_job, args=(net, user, password, email), daemon=True).start()
     return jsonify({"ok": True})
 
 
@@ -460,22 +582,11 @@ def _ipv4_only(address: str) -> str:
 
 
 def _read_env_file() -> dict:
-    result = {}
-    if ENV_FILE_PATH.exists():
-        for line in ENV_FILE_PATH.read_text(encoding="utf-8").splitlines():
-            line = line.strip()
-            if not line or line.startswith("#") or "=" not in line:
-                continue
-            k, v = line.split("=", 1)
-            result[k.strip()] = v.strip()
-    return result
+    return downloader.read_env_file()
 
 
 def _write_env_file(updates: dict) -> None:
-    current = _read_env_file()
-    current.update(updates)
-    lines = [f"{k}={v}" for k, v in current.items()]
-    ENV_FILE_PATH.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    downloader.write_env_file(updates)
 
 
 @app.route("/api/vpn", methods=["GET"])

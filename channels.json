@@ -19,8 +19,7 @@
     "extra_channels": [
       "#mg-chat"
     ],
-    "sasl_user": "CutCat",
-    "sasl_pass_env": "ABJECTS_SASL_PASS"
+    "login": true
   },
   {
     "server": "irc.abandoned-irc.net",
@@ -44,7 +43,6 @@
     ],
     "lang": "German",
     "tls": true,
-    "sasl_user": "CutCat",
-    "sasl_pass_env": "RIZON_SASL_PASS"
+    "login": true
   }
 ]

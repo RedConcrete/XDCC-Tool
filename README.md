@@ -73,6 +73,15 @@ Ohne eigene `channels.json` wird eine Standardkonfiguration für
 `irc.abjects.net` (`#beast-xdcc` / Suchbot `databeast` in `#beast-chat`)
 verwendet.
 
+Channels, die einen registrierten Nick verlangen (z.B. `#moviegods`, wo man
+zum Laden in `#mg-chat` sein muss, das nur registrierte Nicks zulaesst),
+bekommen in `channels.json` `"login": true`. Den Account pro Netzwerk
+traegst du im Web-UI unter **Menue -> Accounts** ein oder registrierst ihn
+dort direkt bei NickServ. Gespeichert wird er in `.env` als
+`<NETZWERK>_SASL_USER` / `<NETZWERK>_SASL_PASS` (z.B. `ABJECTS_SASL_USER`),
+nie in `channels.json`. **Ohne Account werden diese Channels in der Suche
+ausgeblendet.**
+
 ### 4. Zielplatte(n) einbinden
 
 Jede Zielplatte wird in `docker-compose.yml` beim Service `xdcc` als eigener

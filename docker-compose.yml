@@ -47,8 +47,6 @@ services:
       - CHANNELS_CONFIG=/app/channels.json
       - SCORE_CONFIG=/app/score_config.json
       - CHANNEL_STATS=/app/channel_stats.json
-      - RIZON_SASL_PASS=${RIZON_SASL_PASS}
-      - ABJECTS_SASL_PASS=${ABJECTS_SASL_PASS:-}
       - GLUETUN_API_KEY=${GLUETUN_API_KEY}
       - GLUETUN_CONTROL_URL=http://gluetun:8000
       - ENV_FILE=/app/.env

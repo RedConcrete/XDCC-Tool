@@ -90,6 +90,7 @@ class SaslNegotiator:
         self.send = send
         self.done = not (user and password)
         self.failed = False
+        self.authenticated = False
         self._requested = False
 
     def start(self) -> None:
@@ -118,6 +119,7 @@ class SaslNegotiator:
             return True
         if re.match(r'^\S+\s+903\s', line):
             self.done = True
+            self.authenticated = True
             self.send("CAP END")
             return True
         if re.match(r'^\S+\s+90[4-7]\s', line):
@@ -615,3 +617,125 @@ def xdcc_download(server: str, channel: str, bot: str, pack: str,
     d.file_exists_callback = file_exists_callback
     success = d.download()
     return success, d.filename
+
+
+# --- Account-Verwaltung (Web-UI: Menue -> Accounts) -----------------------
+
+def _irc_lines(server: str, port: int, tls: bool, timeout: float):
+    """Verbindet und liefert (send, Zeilen-Generator); PING wird beantwortet."""
+    sock = socket.create_connection((server, port), timeout=15)
+    if tls:
+        ctx = ssl.create_default_context()
+        ctx.check_hostname = False
+        ctx.verify_mode = ssl.CERT_NONE
+        sock = ctx.wrap_socket(sock, server_hostname=server)
+    sock.settimeout(2)
+
+    def send(msg: str) -> None:
+        sock.sendall((msg + "\r\n").encode("utf-8", errors="replace"))
+
+    def lines():
+        buf = b""
+        end = time.time() + timeout
+        try:
+            while time.time() < end:
+                try:
+                    data = sock.recv(4096)
+                except socket.timeout:
+                    yield None  # Tick, damit der Aufrufer Zeitpunkte pruefen kann
+                    continue
+                if not data:
+                    return
+                buf += data
+                while b"\r\n" in buf:
+                    raw, buf = buf.split(b"\r\n", 1)
+                    line = raw.decode("utf-8", errors="replace")
+                    if line.startswith("PING"):
+                        send(f"PONG {line.split(':', 1)[-1]}")
+                        continue
+                    yield line
+        finally:
+            try:
+                send("QUIT :bye")
+                sock.close()
+            except Exception:
+                pass
+
+    return send, lines()
+
+
+def test_login(server: str, port: int, tls: bool, user: str, password: str) -> tuple[bool, str]:
+    """Prueft per SASL, ob Nick + Passwort stimmen."""
+    try:
+        send, lines = _irc_lines(server, port, tls, timeout=25)
+    except Exception as e:
+        return False, f"Verbindung fehlgeschlagen: {e}"
+    sasl = SaslNegotiator(user, password, send)
+    sasl.start()
+    send(f"NICK {make_nick()}")
+    send(f"USER {user} 0 * :{user}")
+    for line in lines:
+        if line is None:
+            continue
+        if sasl.feed(line):
+            if sasl.failed:
+                return False, "Anmeldung abgelehnt – Nick oder Passwort falsch"
+            if sasl.authenticated:
+                return True, f"Anmeldung als {user} erfolgreich"
+            if sasl.done:
+                return False, "Server unterstützt keine SASL-Anmeldung"
+    return False, "Keine Antwort vom Server (Timeout)"
+
+
+def register_nick(server: str, port: int, tls: bool, nick: str, password: str, email: str,
+                  status_cb=None, wait_seconds: int = 35) -> tuple[bool, str]:
+    """Registriert nick bei NickServ. Viele Netze verlangen, dass man den Nick
+    vorher eine Weile benutzt (Abjects: 30 s), daher wait_seconds."""
+    def status(msg: str) -> None:
+        if status_cb:
+            status_cb(msg)
+
+    try:
+        send, lines = _irc_lines(server, port, tls, timeout=wait_seconds + 60)
+    except Exception as e:
+        return False, f"Verbindung fehlgeschlagen: {e}"
+    status(f"Verbinde mit {server} als {nick} ...")
+    send(f"NICK {nick}")
+    send(f"USER {nick} 0 * :{nick}")
+    register_at = None
+    register_sent = False
+    deadline = None
+    notices = []
+    for line in lines:
+        now = time.time()
+        if register_at and not register_sent and now >= register_at:
+            send(f"PRIVMSG NickServ :REGISTER {password} {email}")
+            register_sent = True
+            deadline = now + 15
+            status("REGISTER gesendet, warte auf NickServ ...")
+        if deadline and now > deadline:
+            break
+        if line is None:
+            continue
+        parts = line.split()
+        code = parts[1] if len(parts) > 1 else ""
+        if code == "433" and register_at is None:
+            return False, f"Nick {nick} ist gerade online belegt"
+        if code == "001" and register_at is None:
+            register_at = now + wait_seconds
+            status(f"Verbunden – NickServ verlangt Wartezeit, registriere in {wait_seconds} s ...")
+        if line.startswith(":NickServ!") and register_sent:
+            msg = line.split(" :", 1)[-1].replace(password, "****").strip()
+            if not msg:
+                continue
+            notices.append(msg)
+            status(f"NickServ: {msg}")
+            low = msg.lower()
+            if "already registered" in low or "isn't" in low or "invalid" in low \
+                    or "must have been using" in low or "too many" in low or "denied" in low:
+                return False, msg
+            if "confirm" in low or "activat" in low:
+                return True, f"{msg} (Bestätigung per E-Mail nötig)"
+            if "registered" in low:
+                return True, msg
+    return False, notices[-1] if notices else "Keine Antwort von NickServ"
