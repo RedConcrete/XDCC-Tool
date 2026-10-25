@@ -31,6 +31,7 @@
           <button class="menu-item" data-modal="chatlog-modal">Chat Log</button>
           <button class="menu-item" data-modal="runs-modal">Läufe</button>
           <button class="menu-item" data-modal="downloaded-modal">Geladen</button>
+          <button class="menu-item" data-modal="library-modal">Bibliothek</button>
           <button class="menu-item" data-modal="score-modal">Bewertung</button>
           <button class="menu-item" data-modal="accounts-modal">Accounts</button>
           <button class="menu-item" data-modal="settings-modal">VPN</button>
@@ -158,6 +159,37 @@
       <h2>Bereits geladen</h2>
       <input id="downloaded-filter" type="text" placeholder="Filtern ...">
       <ul id="downloaded-list" class="downloaded-list"></ul>
+    </div>
+  </div>
+
+  <div id="library-modal" class="modal-overlay menu-modal hidden">
+    <div class="modal-box library-box">
+      <h2>Bibliothek</h2>
+
+      <label class="toggle-row">
+        <input id="keep-archives" type="checkbox">
+        <span>
+          <strong>Archive nach dem Entpacken behalten</strong>
+          <span class="modal-hint">Aus: Das .tar/.zip wird gelöscht, aber nur wenn alle entpackten Videos vollständig in der Bibliothek liegen. Sonst bleibt es liegen und der Lauf meldet warum.</span>
+        </span>
+      </label>
+      <span id="keep-archives-status" class="status-msg"></span>
+
+      <div id="library-tiles" class="library-tiles"></div>
+
+      <div class="library-head">
+        <h3>Belegung pro Platte</h3>
+        <span id="library-updated" class="muted"></span>
+        <button id="library-refresh-btn" class="small-btn">Neu zählen</button>
+      </div>
+      <div id="library-legend" class="library-legend"></div>
+      <div id="library-chart" class="library-chart"><span class="muted">Lade...</span></div>
+      <div id="library-tooltip" class="library-tooltip hidden" role="tooltip"></div>
+
+      <details class="library-table-wrap">
+        <summary>Als Tabelle</summary>
+        <div class="table-wrap"><table id="library-table" class="library-table"></table></div>
+      </details>
     </div>
   </div>
 

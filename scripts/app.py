@@ -164,6 +164,34 @@ def set_target():
     return jsonify({"ok": True})
 
 
+# Platten durchzaehlen dauert ein paar Sekunden, daher kurz zwischenspeichern.
+LIBRARY_CACHE_SECONDS = 300
+_library_cache = {"ts": 0.0, "data": None}
+_library_lock = threading.Lock()
+
+
+@app.route("/api/library")
+def get_library():
+    with _library_lock:
+        fresh = time.time() - _library_cache["ts"] < LIBRARY_CACHE_SECONDS
+        if request.args.get("refresh") or not fresh or _library_cache["data"] is None:
+            _library_cache["data"] = downloader.library_stats()
+            _library_cache["ts"] = time.time()
+        data = dict(_library_cache["data"])
+    data["keep_archives"] = downloader.keep_archives()
+    data["updated"] = _library_cache["ts"]
+    return jsonify(data)
+
+
+@app.route("/api/library/settings", methods=["POST"])
+def save_library_settings():
+    data = request.get_json(force=True) or {}
+    if not isinstance(data.get("keep_archives"), bool):
+        return jsonify({"ok": False, "error": "keep_archives fehlt"}), 400
+    downloader.set_keep_archives(data["keep_archives"])
+    return jsonify({"ok": True, "keep_archives": downloader.keep_archives()})
+
+
 def _start_job(job, label: str):
     """Startet einen Lauf (Wishlist oder manueller Download) im Hintergrund."""
     with _lock:

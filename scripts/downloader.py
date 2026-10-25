@@ -904,6 +904,91 @@ def postprocess(downloaded_path: Path, category: str) -> list[Path]:
     return created
 
 
+ARCHIVE_SUFFIXES = (".tar", ".zip", ".tar.gz", ".tgz", ".rar", ".7z")
+VIDEO_SUFFIXES = (".mkv", ".mp4", ".avi", ".m4v", ".ts", ".m2ts")
+
+
+def is_archive(path: Path) -> bool:
+    return path.name.lower().endswith(ARCHIVE_SUFFIXES)
+
+
+def keep_archives() -> bool:
+    """Einstellung aus der .env (KEEP_ARCHIVES), Standard: Archive behalten."""
+    return read_env_file().get("KEEP_ARCHIVES", "true").lower() != "false"
+
+
+def set_keep_archives(keep: bool) -> None:
+    write_env_file({"KEEP_ARCHIVES": "true" if keep else "false"})
+
+
+def video_files(path: Path) -> list[Path]:
+    if path.is_file():
+        return [path] if path.suffix.lower() in VIDEO_SUFFIXES else []
+    return [f for f in path.rglob("*") if f.is_file() and f.suffix.lower() in VIDEO_SUFFIXES]
+
+
+def drop_archive_if_complete(archive: Path, expected: list[tuple[Path, int]]) -> tuple[bool, str]:
+    """Loescht das Archiv nur, wenn alle entpackten Videos mit gleicher Groesse
+    in der Bibliothek liegen und sie zusammen fast die ganze Archivgroesse
+    ausmachen (faengt halb entpackte RAR-Sets ab)."""
+    if not expected:
+        return False, "keine Videodatei entpackt"
+    missing = [p.name for p, size in expected if not p.is_file() or p.stat().st_size != size]
+    if missing:
+        return False, f"{len(missing)} Datei(en) fehlen in der Bibliothek: {', '.join(missing[:3])}"
+    total = sum(size for _, size in expected)
+    archive_size = archive.stat().st_size
+    if total < 0.8 * archive_size:
+        return False, (f"entpackte Videos ({total / 1e9:.1f} GB) deutlich kleiner "
+                       f"als das Archiv ({archive_size / 1e9:.1f} GB)")
+    archive.unlink()
+    return True, f"{archive_size / 1e9:.1f} GB freigegeben"
+
+
+def _dir_size(path: Path) -> int:
+    total = 0
+    for root, _, files in os.walk(path):
+        for name in files:
+            try:
+                total += os.lstat(os.path.join(root, name)).st_size
+            except OSError:
+                pass
+    return total
+
+
+def _count_entries(path: Path) -> int:
+    if not path.is_dir():
+        return 0
+    return sum(1 for e in path.iterdir() if not e.name.startswith("."))
+
+
+LIBRARY_SECTIONS = (("movies", "Filme"), ("serien", "Serien"), ("anime", "Anime"))
+
+
+def library_stats() -> dict:
+    """Groesse und Anzahl je Bereich pro Zielplatte, plus Archive in downloads/."""
+    disks = []
+    for key in list_available_targets():
+        base = TARGETS_ROOT / key
+        usage = shutil.disk_usage(base)
+        sections = {}
+        for folder, _ in LIBRARY_SECTIONS:
+            p = base / folder
+            sections[folder] = {"count": _count_entries(p), "bytes": _dir_size(p) if p.is_dir() else 0}
+        archives = [f for f in (base / "downloads").glob("*") if f.is_file() and is_archive(f)]
+        sections["archive"] = {"count": len(archives), "bytes": sum(f.stat().st_size for f in archives)}
+        known = sum(s["bytes"] for s in sections.values())
+        disks.append({
+            "key": key,
+            "total": usage.total,
+            "used": usage.used,
+            "free": usage.free,
+            "other": max(0, usage.used - known),
+            "sections": sections,
+        })
+    return {"disks": disks, "sections": [list(s) for s in LIBRARY_SECTIONS] + [["archive", "Archive"]]}
+
+
 def _merge_move(src: Path, dst: Path):
     """Verschiebt src nach dst, mergt Ordner rekursiv."""
     if not src.exists():

@@ -1331,3 +1331,193 @@ main {
   max-height: 160px;
   overflow-y: auto;
 }
+
+/* Bibliothek (Menue -> Bibliothek) */
+
+:root {
+  --series-1: #3987e5;      /* Filme */
+  --series-2: #d95926;      /* Serien */
+  --series-3: #199e70;      /* Anime */
+  --series-4: #c98500;      /* Archive */
+  --series-other: #5b606c;  /* Sonstiges */
+}
+
+.library-box {
+  max-width: 760px;
+  position: relative;
+}
+
+.status-msg.success { color: var(--success); }
+.status-msg.error { color: var(--error); }
+
+.toggle-row {
+  display: flex;
+  gap: 0.7rem;
+  align-items: flex-start;
+  cursor: pointer;
+}
+
+.toggle-row input {
+  margin-top: 0.25rem;
+  width: 1.1rem;
+  height: 1.1rem;
+  accent-color: var(--accent);
+  flex-shrink: 0;
+}
+
+.toggle-row .modal-hint {
+  display: block;
+  margin: 0.2rem 0 0;
+}
+
+.library-tiles {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 0.6rem;
+  margin: 1.1rem 0 1.2rem;
+}
+
+.library-tile {
+  background: #1f2228;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.7rem 0.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.tile-label {
+  color: var(--muted);
+  font-size: 0.85rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.tile-value {
+  font-size: 1.7rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  line-height: 1.15;
+}
+
+.tile-sub {
+  color: var(--muted);
+  font-size: 0.85rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.swatch {
+  display: inline-block;
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 3px;
+  flex-shrink: 0;
+}
+
+.swatch-free {
+  background: transparent;
+  border: 1px solid var(--border);
+}
+
+.library-head {
+  display: flex;
+  align-items: baseline;
+  gap: 0.7rem;
+}
+
+.library-head h3 { margin: 0; }
+.library-head .small-btn { margin-left: auto; }
+
+.library-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1rem;
+  margin: 0.6rem 0 0.8rem;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.legend-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.library-chart {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+}
+
+.library-row-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  margin-bottom: 0.3rem;
+}
+
+.disk-name { font-weight: 600; }
+
+.library-bar {
+  display: flex;
+  gap: 2px;
+  height: 22px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 2px;
+  background: #1f2228;
+}
+
+.library-seg {
+  height: 100%;
+  min-width: 3px;
+  border-radius: 4px;
+  cursor: default;
+  outline-offset: 2px;
+}
+
+.library-seg:hover,
+.library-seg:focus-visible {
+  filter: brightness(1.2);
+}
+
+.library-tooltip {
+  position: absolute;
+  z-index: 5;
+  background: #111317;
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 0.35rem 0.6rem;
+  font-size: 0.82rem;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+.library-table-wrap {
+  margin-top: 1.1rem;
+  font-size: 0.85rem;
+}
+
+.library-table-wrap summary {
+  cursor: pointer;
+  color: var(--muted);
+}
+
+.library-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 0.5rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.library-table th,
+.library-table td {
+  text-align: left;
+  padding: 0.3rem 0.5rem;
+  border-bottom: 1px solid var(--border);
+  white-space: nowrap;
+}

@@ -1139,6 +1139,134 @@ function setupMenuDropdown() {
   }
 }
 
+// --- Bibliothek: Belegung pro Platte + Einstellung "Archive behalten" ---
+
+const LIBRARY_COLORS = {
+  movies: "var(--series-1)",
+  serien: "var(--series-2)",
+  anime: "var(--series-3)",
+  archive: "var(--series-4)",
+  other: "var(--series-other)",
+};
+
+function formatBytes(bytes) {
+  const tb = bytes / 1e12;
+  if (tb >= 1) return tb.toLocaleString("de-DE", { maximumFractionDigits: 2 }) + " TB";
+  return Math.round(bytes / 1e9).toLocaleString("de-DE") + " GB";
+}
+
+async function loadLibrary(refresh = false) {
+  if (refresh) $("library-updated").textContent = "zähle ...";
+  try {
+    const res = await fetch("/api/library" + (refresh ? "?refresh=1" : ""));
+    if (!res.ok) throw new Error("HTTP " + res.status);
+    renderLibrary(await res.json());
+  } catch (e) {
+    $("library-chart").textContent = "Fehler: " + e.message;
+  }
+}
+
+function renderLibrary(data) {
+  $("keep-archives").checked = data.keep_archives;
+  $("library-updated").textContent = "Stand " + new Date(data.updated * 1000).toLocaleTimeString("de-DE", { hour: "2-digit", minute: "2-digit" });
+
+  const labels = Object.fromEntries(data.sections);
+  const keys = data.sections.map(([k]) => k);
+  const totals = Object.fromEntries(keys.map((k) => [k, { count: 0, bytes: 0 }]));
+  for (const d of data.disks) {
+    for (const k of keys) {
+      totals[k].count += d.sections[k].count;
+      totals[k].bytes += d.sections[k].bytes;
+    }
+  }
+
+  const tiles = $("library-tiles");
+  tiles.replaceChildren(...keys.map((k) => el("div", { className: "library-tile" }, [
+    el("span", { className: "tile-label" }, [
+      el("span", { className: "swatch", style: `background:${LIBRARY_COLORS[k]}` }), labels[k],
+    ]),
+    el("span", { className: "tile-value", textContent: totals[k].count.toLocaleString("de-DE") }),
+    el("span", { className: "tile-sub", textContent: formatBytes(totals[k].bytes) }),
+  ])));
+
+  const segKeys = [...keys, "other"];
+  const segLabel = (k) => (k === "other" ? "Sonstiges" : labels[k]);
+  $("library-legend").replaceChildren(
+    ...segKeys.map((k) => el("span", { className: "legend-item" }, [
+      el("span", { className: "swatch", style: `background:${LIBRARY_COLORS[k]}` }), segLabel(k),
+    ])),
+    el("span", { className: "legend-item" }, [el("span", { className: "swatch swatch-free" }), "Frei"]),
+  );
+
+  const tip = $("library-tooltip");
+  const rows = data.disks.map((d) => {
+    const bar = el("div", { className: "library-bar" });
+    for (const k of segKeys) {
+      const bytes = k === "other" ? d.other : d.sections[k].bytes;
+      if (bytes <= 0) continue;
+      const pct = (bytes / d.total) * 100;
+      const count = k === "other" ? null : d.sections[k].count;
+      const text = `${d.key} · ${segLabel(k)}: ${formatBytes(bytes)} (${pct.toLocaleString("de-DE", { maximumFractionDigits: 1 })} %)`
+        + (count !== null ? ` · ${count} ${k === "archive" ? "Dateien" : "Titel"}` : "");
+      const seg = el("span", {
+        className: "library-seg", tabIndex: 0, ariaLabel: text,
+        style: `width:${pct}%;background:${LIBRARY_COLORS[k]}`,
+      });
+      const show = (x, y) => {
+        tip.textContent = text;
+        tip.classList.remove("hidden");
+        const box = tip.parentElement.getBoundingClientRect();
+        tip.style.left = Math.min(x - box.left + 12, box.width - tip.offsetWidth - 8) + "px";
+        tip.style.top = (y - box.top + 14) + "px";
+      };
+      seg.addEventListener("mousemove", (e) => show(e.clientX, e.clientY));
+      seg.addEventListener("focus", () => {
+        const r = seg.getBoundingClientRect();
+        show(r.left, r.bottom);
+      });
+      for (const ev of ["mouseleave", "blur"]) seg.addEventListener(ev, () => tip.classList.add("hidden"));
+      bar.append(seg);
+    }
+    return el("div", { className: "library-row" }, [
+      el("div", { className: "library-row-head" }, [
+        el("span", { className: "disk-name", textContent: d.key }),
+        el("span", { className: "muted", textContent: `${formatBytes(d.free)} frei von ${formatBytes(d.total)}` }),
+      ]),
+      bar,
+    ]);
+  });
+  $("library-chart").replaceChildren(...rows);
+
+  const head = el("tr", {}, [el("th", { textContent: "Platte" }), ...segKeys.map((k) => el("th", { textContent: segLabel(k) })), el("th", { textContent: "Frei" })]);
+  const body = data.disks.map((d) => el("tr", {}, [
+    el("td", { textContent: d.key }),
+    ...segKeys.map((k) => el("td", {
+      text: k === "other" ? formatBytes(d.other) : `${d.sections[k].count} · ${formatBytes(d.sections[k].bytes)}`,
+    })),
+    el("td", { textContent: formatBytes(d.free) }),
+  ]));
+  $("library-table").replaceChildren(el("thead", {}, [head]), el("tbody", {}, body));
+}
+
+async function saveKeepArchives() {
+  const box = $("keep-archives");
+  const status = $("keep-archives-status");
+  try {
+    const res = await fetch("/api/library/settings", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ keep_archives: box.checked }),
+    });
+    if (!res.ok) throw new Error("HTTP " + res.status);
+    status.textContent = box.checked ? "Archive werden behalten" : "Archive werden nach erfolgreichem Einsortieren gelöscht";
+    status.className = "status-msg success";
+  } catch (e) {
+    box.checked = !box.checked;
+    status.textContent = "Fehler: " + e.message;
+    status.className = "status-msg error";
+  }
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   setupCollapsibleCards();
   setupVpnBadge();
@@ -1158,6 +1286,9 @@ document.addEventListener("DOMContentLoaded", () => {
     loadScoreConfig();
     loadChannelPenalties();
   });
+  document.querySelector('[data-modal="library-modal"]').addEventListener("click", () => loadLibrary());
+  $("library-refresh-btn").addEventListener("click", () => loadLibrary(true));
+  $("keep-archives").addEventListener("change", saveKeepArchives);
   $("channel-reset-all-btn").addEventListener("click", () => resetChannelPenalties(null));
   $("score-save-btn").addEventListener("click", () => saveScoreConfig(false));
   $("score-reset-btn").addEventListener("click", () => saveScoreConfig(true));

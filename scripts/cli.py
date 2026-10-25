@@ -21,6 +21,10 @@ from downloader import (
     _extra_channels_for,
     _merge_move,
     is_server_disabled,
+    is_archive,
+    keep_archives,
+    video_files,
+    drop_archive_if_complete,
 )
 from xdcc_client import xdcc_download
 
@@ -252,13 +256,25 @@ def download_pack(pack: dict, staging: Path, expected: str, status, progress=Non
     return success, filename
 
 
-def sort_into_library(downloaded_path: Path, category: str) -> None:
-    """Entpacken, umbenennen und in den Kategorie-Ordner der Zielplatte verschieben."""
+def sort_into_library(downloaded_path: Path, category: str, status=None) -> None:
+    """Entpacken, umbenennen und in den Kategorie-Ordner der Zielplatte verschieben.
+    Ist "Archive behalten" aus, wird das Archiv danach geloescht - aber nur,
+    wenn alle Videos vollstaendig in der Bibliothek angekommen sind."""
     created = postprocess(downloaded_path, category)
     target_base = category_dirs().get(category, downloaded_path.parent)
     target_base.mkdir(parents=True, exist_ok=True)
+    expected = [(target_base / f.relative_to(item.parent), f.stat().st_size)
+                for item in created for f in video_files(item)]
     for item in created:
         _merge_move(item, target_base / item.name)
+
+    if is_archive(downloaded_path) and downloaded_path.exists() and not keep_archives():
+        removed, reason = drop_archive_if_complete(downloaded_path, expected)
+        if status:
+            if removed:
+                status(f"Archiv gelöscht ({reason})", "info")
+            else:
+                status(f"Archiv behalten: {reason}", "warning")
 
 
 def process_item(title: str, category: str, status_cb=None, progress_cb=None,
@@ -348,7 +364,7 @@ def process_item(title: str, category: str, status_cb=None, progress_cb=None,
 
         status(f"Download fertig: {filename}", "success")
         try:
-            sort_into_library(staging / filename, category)
+            sort_into_library(staging / filename, category, status)
         except Exception as e:
             status(f"Einsortieren fehlgeschlagen: {e}", "error")
             traceback.print_exc()
@@ -396,7 +412,7 @@ def download_single(pack: dict, category: str, status_cb=None, progress_cb=None,
 
     status(f"Download fertig: {filename}", "success")
     try:
-        sort_into_library(staging / filename, category)
+        sort_into_library(staging / filename, category, status)
     except Exception as e:
         status(f"Einsortieren fehlgeschlagen: {e}", "error")
         traceback.print_exc()
