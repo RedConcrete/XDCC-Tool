@@ -793,7 +793,18 @@ def vpn_status():
     except Exception:
         pass
 
-    return jsonify({"reachable": True, "status": status, "public_ip": public_ip})
+    # gluetun meldet "running" schon, wenn nur der Prozess laeuft. Ob der
+    # Tunnel wirklich traegt, sagt erst der Health-Server (200 = ok, 500 = kaputt),
+    # der im VPN-Modus im geteilten Netz-Namensraum auf localhost:9999 lauscht.
+    healthy = None
+    try:
+        r_h = requests.get("http://localhost:9999/", timeout=2)
+        healthy = r_h.ok
+    except Exception:
+        pass
+
+    return jsonify({"reachable": True, "status": status, "public_ip": public_ip,
+                    "healthy": healthy})
 
 
 if __name__ == "__main__":

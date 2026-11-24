@@ -501,7 +501,7 @@ async function pollVpnStatus() {
     const textEl = $("vpn-status-text");
     const dotEl = $("vpn-status-dot");
     const ipRow = $("vpn-ip-row");
-    const isActive = data.reachable && data.status === "running";
+    const isActive = data.reachable && data.status === "running" && data.healthy !== false;
 
     const headerDotEl = $("vpn-header-dot");
     if (!data.reachable) {
@@ -510,7 +510,7 @@ async function pollVpnStatus() {
       headerDotEl.className = "status-dot inactive";
       ipRow.classList.add("hidden");
     } else {
-      textEl.textContent = data.status === "running" ? "aktiv" : (data.status || "unbekannt");
+      textEl.textContent = data.status !== "running" ? (data.status || "unbekannt") : (data.healthy === false ? "keine Verbindung (Tunnel tot - Mullvad-Konto/Key pruefen)" : "aktiv");
       dotEl.className = "status-dot " + (isActive ? "active" : "inactive");
       headerDotEl.className = "status-dot " + (isActive ? "active" : "inactive");
       if (data.public_ip) {
