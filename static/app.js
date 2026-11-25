@@ -1,5 +1,3 @@
-const SECTIONS = ["serien", "film", "merkliste"];
-
 let logOffset = 0;
 let ircOffset = 0;
 let chatLogSize = 0;
@@ -9,44 +7,179 @@ function $(id) {
   return document.getElementById(id);
 }
 
-function textareaToList(id) {
-  return $(id).value
-    .split("\n")
-    .map((s) => s.trim())
-    .filter((s) => s.length > 0);
+// ---------- Wunschliste als Badges ----------
+const WL_ICONS = { serien: "📺", film: "🎬", anime: "🌸", merkliste: "📌" };
+let wlSections = [];
+let wlCurrent = null;
+let wlProgress = null;
+let wlOpen = null; // "kategorie|titel" des aufgeklappten Badges
+
+function wlKey(cat, title) { return `${cat}|${title.toLowerCase()}`; }
+
+function wishlistHas(section, title) {
+  const t = title.toLowerCase();
+  const sec = wlSections.find((s) => s.key === section);
+  return !!sec && sec.items.some((i) => i.title.toLowerCase() === t);
+}
+
+function wlStatus(msg) {
+  const el = $("wishlist-save-status");
+  el.textContent = msg;
+  clearTimeout(wlStatus.t);
+  wlStatus.t = setTimeout(() => { el.textContent = ""; }, 4000);
+}
+
+async function wlPost(url, body) {
+  const res = await fetch(url, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(body),
+  });
+  const data = await res.json().catch(() => ({}));
+  if (!res.ok || data.ok === false) throw new Error(data.error || "HTTP " + res.status);
+  return data;
 }
 
 async function loadWishlist() {
-  const res = await fetch("/api/wishlist");
+  const res = await fetch("/api/wishlist/items");
   const data = await res.json();
-  for (const key of SECTIONS) {
-    $(key).value = (data[key] || []).join("\n");
+  wlSections = data.sections || [];
+  wlCurrent = data.current;
+  renderWishlist();
+}
+
+function formatAgeShort(ts) {
+  const d = new Date(ts * 1000);
+  return d.toLocaleString("de-DE", { day: "2-digit", month: "2-digit", hour: "2-digit", minute: "2-digit" });
+}
+
+function renderWishlist() {
+  const box = $("wl-sections");
+  box.innerHTML = "";
+  for (const sec of wlSections) {
+    const row = document.createElement("div");
+    row.className = "wl-row" + (sec.active ? "" : " wl-parked");
+    const label = document.createElement("div");
+    label.className = "wl-row-label";
+    label.textContent = `${sec.title}`;
+    if (sec.items.length) {
+      const n = document.createElement("span");
+      n.className = "wl-count";
+      n.textContent = sec.items.length;
+      label.appendChild(n);
+    }
+    row.appendChild(label);
+
+    const chips = document.createElement("div");
+    chips.className = "wl-chips";
+    if (!sec.items.length) {
+      const empty = document.createElement("span");
+      empty.className = "wl-empty";
+      empty.textContent = "leer";
+      chips.appendChild(empty);
+    }
+    for (const item of sec.items) chips.appendChild(renderBadge(sec, item));
+    row.appendChild(chips);
+    box.appendChild(row);
   }
 }
 
-async function saveWishlist() {
-  const payload = {};
-  for (const key of SECTIONS) {
-    payload[key] = textareaToList(key);
+function renderBadge(sec, item) {
+  const key = wlKey(sec.key, item.title);
+  const isCurrent = sec.active && wlCurrent && wlCurrent.toLowerCase() === item.title.toLowerCase();
+  const wrap = document.createElement("span");
+  wrap.className = "wl-badge-wrap";
+
+  const badge = document.createElement("span");
+  badge.className = "wl-badge";
+  if (!sec.active) badge.classList.add("parked");
+  if (item.failed) badge.classList.add("failed");
+  if (isCurrent) badge.classList.add("running");
+
+  const main = document.createElement("button");
+  main.type = "button";
+  main.className = "wl-badge-main";
+  let text = `${WL_ICONS[sec.key] || ""} ${item.title}`;
+  if (isCurrent) {
+    const p = wlProgress;
+    text += p && p.total ? ` · ${Math.floor((p.received / p.total) * 100)}%` : " · sucht …";
+  } else if (item.failed) {
+    text += " ⚠";
   }
-  const res = await fetch("/api/wishlist", {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify(payload),
+  main.textContent = text;
+  main.title = item.failed ? `Fehlgeschlagen: ${item.failed.reason}` : "Antippen für Optionen";
+  main.addEventListener("click", () => {
+    wlOpen = wlOpen === key ? null : key;
+    renderWishlist();
   });
-  if (!res.ok) throw new Error("HTTP " + res.status);
+  badge.appendChild(main);
+
+  const del = document.createElement("button");
+  del.type = "button";
+  del.className = "wl-badge-x";
+  del.textContent = "✕";
+  del.title = "Entfernen";
+  del.disabled = isCurrent;
+  del.addEventListener("click", async () => {
+    try {
+      await wlPost("/api/wishlist/remove", { title: item.title, category: sec.key });
+      await loadWishlist();
+    } catch (e) { wlStatus("Fehler: " + e.message); }
+  });
+  badge.appendChild(del);
+  wrap.appendChild(badge);
+
+  if (wlOpen === key) {
+    const pop = document.createElement("div");
+    pop.className = "wl-pop";
+    if (item.failed) {
+      const r = document.createElement("div");
+      r.className = "wl-pop-reason";
+      r.textContent = `Fehlgeschlagen (${formatAgeShort(item.failed.ts)}): ${item.failed.reason}`;
+      pop.appendChild(r);
+    }
+    const moves = document.createElement("div");
+    moves.className = "wl-pop-moves";
+    const lbl = document.createElement("span");
+    lbl.textContent = "Verschieben nach:";
+    moves.appendChild(lbl);
+    for (const other of wlSections) {
+      if (other.key === sec.key) continue;
+      const b = document.createElement("button");
+      b.type = "button";
+      b.className = "small-btn";
+      b.textContent = `${WL_ICONS[other.key] || ""} ${other.title}`;
+      b.disabled = isCurrent;
+      b.addEventListener("click", async () => {
+        try {
+          await wlPost("/api/wishlist/move", { title: item.title, from: sec.key, to: other.key });
+          wlOpen = null;
+          await loadWishlist();
+        } catch (e) { wlStatus("Fehler: " + e.message); }
+      });
+      moves.appendChild(b);
+    }
+    pop.appendChild(moves);
+    wrap.appendChild(pop);
+  }
+  return wrap;
 }
 
-async function saveWishlistOnly() {
-  const statusEl = $("wishlist-save-status");
-  statusEl.textContent = "Speichere ...";
+async function addWishlistItem(e) {
+  e.preventDefault();
+  const input = $("wl-add-title");
+  const title = input.value.trim();
+  if (!title) return;
+  const category = $("wl-add-category").value;
   try {
-    await saveWishlist();
-    statusEl.textContent = "Gespeichert.";
-  } catch (e) {
-    statusEl.textContent = "Fehler: " + e.message;
+    const data = await wlPost("/api/wishlist/add", { title, category });
+    if (!data.added) wlStatus("Steht schon drin.");
+    input.value = "";
+    await loadWishlist();
+  } catch (err) {
+    wlStatus("Fehler: " + err.message);
   }
-  setTimeout(() => { statusEl.textContent = ""; }, 3000);
+  input.focus();
 }
 
 async function loadTarget() {
@@ -250,6 +383,10 @@ async function pollStatus() {
       appendChatLines(chatData.lines);
       chatLogSize = chatData.size;
       updateProgress(data.progress);
+      wlProgress = data.progress;
+      if (data.running || wlCurrent) {
+        await loadWishlist().catch(() => {});
+      }
 
       $("run-btn").disabled = data.running;
       $("stop-btn").disabled = !data.running || data.stopping;
@@ -545,19 +682,11 @@ function setSearchRunning(running) {
   $("search-category").disabled = running;
 }
 
-function wishlistHas(section, title) {
-  const t = title.toLowerCase();
-  return textareaToList(section).some((s) => s.toLowerCase() === t);
-}
-
 async function addToWishlist(section, title, btn) {
-  if (!wishlistHas(section, title)) {
-    const ta = $(section);
-    ta.value = ta.value.trim() ? `${ta.value.trimEnd()}\n${title}` : title;
-  }
   btn.disabled = true;
   try {
-    await saveWishlist();
+    await wlPost("/api/wishlist/add", { title, category: section });
+    await loadWishlist();
     btn.textContent = "✓ " + btn.dataset.label;
   } catch (e) {
     btn.disabled = false;
@@ -1295,7 +1424,7 @@ document.addEventListener("DOMContentLoaded", () => {
   $("search-form").addEventListener("submit", startSearch);
   $("search-filter").addEventListener("input", renderSearchResults);
   $("target-select").addEventListener("change", saveTarget);
-  $("wishlist-save-btn").addEventListener("click", saveWishlistOnly);
+  $("wl-add-form").addEventListener("submit", addWishlistItem);
   $("vpn-save-btn").addEventListener("click", saveVpnConfig);
   $("vpn-upload-btn").addEventListener("click", uploadVpnConfig);
   $("vpn-disable-btn").addEventListener("click", disableVpn);

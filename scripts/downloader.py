@@ -85,6 +85,7 @@ def category_dirs() -> dict[str, Path]:
     return {
         "serien": base / "serien",
         "film":   base / "movies",
+        "anime":  base / "anime",
     }
 
 CHANNELS_CONFIG = Path(os.environ.get("CHANNELS_CONFIG", "/app/channels.json"))
@@ -732,7 +733,7 @@ def score_pack(p: dict, category: str = "", cfg: dict | None = None,
         pass
 
     is_episode = bool(_EPISODE_RE.search(name))
-    if category == "serien":
+    if category in ("serien", "anime"):
         if is_episode:
             score += cfg["episode"]
         elif _SEASON_RE.search(name):
@@ -770,7 +771,7 @@ def extract_season_episode(filename: str) -> tuple[int | None, int | None]:
 
 
 def rename_for_jellyfin(path: Path, category: str) -> Path:
-    if category == "serien":
+    if category in ("serien", "anime"):
         return _rename_series(path)
     return _rename_movie(path)
 

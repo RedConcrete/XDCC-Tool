@@ -1521,3 +1521,155 @@ main {
   border-bottom: 1px solid var(--border);
   white-space: nowrap;
 }
+
+/* ---------- Wunschliste als Badges ---------- */
+.wl-add {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 14px;
+}
+.wl-add input {
+  flex: 1 1 220px;
+  min-width: 0;
+}
+.wl-add select {
+  flex: 0 0 auto;
+}
+.wl-sections {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.wl-row {
+  display: grid;
+  grid-template-columns: 96px 1fr;
+  gap: 8px;
+  align-items: start;
+}
+.wl-row-label {
+  color: var(--muted);
+  font-size: 0.85rem;
+  padding-top: 5px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.wl-count {
+  background: var(--border);
+  color: var(--text);
+  border-radius: 999px;
+  padding: 0 7px;
+  font-size: 0.75rem;
+}
+.wl-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  min-width: 0;
+}
+.wl-empty {
+  color: var(--muted);
+  font-size: 0.85rem;
+  padding-top: 5px;
+  opacity: 0.6;
+}
+.wl-badge-wrap {
+  display: inline-flex;
+  flex-direction: column;
+  max-width: 100%;
+}
+.wl-badge {
+  display: inline-flex;
+  align-items: center;
+  max-width: 100%;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  border-radius: 999px;
+  overflow: hidden;
+  transition: border-color 0.15s, background 0.15s;
+}
+.wl-badge button {
+  background: none;
+  border: none;
+  color: var(--text);
+  font: inherit;
+  font-size: 0.85rem;
+  cursor: pointer;
+  padding: 4px 4px 4px 11px;
+  margin: 0;
+  box-shadow: none;
+}
+.wl-badge .wl-badge-main {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 0;
+}
+.wl-badge .wl-badge-x {
+  color: var(--muted);
+  padding: 4px 10px 4px 6px;
+}
+.wl-badge .wl-badge-x:hover:not(:disabled) {
+  color: var(--error);
+}
+.wl-badge .wl-badge-x:disabled {
+  opacity: 0.3;
+  cursor: default;
+}
+.wl-badge:hover {
+  border-color: var(--muted);
+}
+.wl-badge.parked {
+  opacity: 0.75;
+  border-style: dashed;
+}
+.wl-badge.failed {
+  border-color: var(--error);
+  background: color-mix(in srgb, var(--error) 14%, var(--bg));
+}
+.wl-badge.running {
+  border-color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 18%, var(--bg));
+  animation: wl-pulse 1.6s ease-in-out infinite;
+}
+@keyframes wl-pulse {
+  50% { box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 25%, transparent); }
+}
+.wl-pop {
+  margin-top: 6px;
+  padding: 8px 10px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--card);
+  font-size: 0.82rem;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  max-width: 420px;
+}
+.wl-pop-reason {
+  color: var(--error);
+  overflow-wrap: anywhere;
+}
+.wl-pop-moves {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: center;
+  color: var(--muted);
+}
+.wl-legend {
+  margin: 12px 0 0;
+  font-size: 0.78rem;
+  color: var(--muted);
+}
+@media (max-width: 600px) {
+  .wl-row {
+    grid-template-columns: 1fr;
+    gap: 4px;
+  }
+  .wl-row-label {
+    padding-top: 0;
+  }
+}

@@ -2,7 +2,10 @@
 """XDCC-Downloader: Wishlist abarbeiten (Suche, Download, Einsortierung)."""
 
 import argparse
+import fcntl
+import json
 import os
+import time
 import re
 import traceback
 from pathlib import Path
@@ -32,23 +35,28 @@ WISHLIST_PATH = Path(os.environ.get("WISHLIST", "/app/wishlist.md"))
 DONE_LOG_PATH = Path(os.environ.get("DONE_LOG", "/app/downloaded.txt"))
 
 # Reihenfolge in der Wishlist-Datei
-SECTION_ORDER = ["serien", "film", "merkliste"]
+SECTION_ORDER = ["serien", "film", "anime", "merkliste"]
 SECTION_TITLES = {
     "serien": "Serien",
     "film": "Film",
+    "anime": "Anime",
     "merkliste": "Merkliste",
 }
 # Mapping von Header-Text (lowercase) -> interner Key
 SECTION_ALIASES = {
     "serien": "serien",
-    "anime": "serien",
+    "anime": "anime",
     "film": "film",
     "filme": "film",
     "merkliste": "merkliste",
 }
 
 # Kategorien, die tatsächlich gesucht/geladen werden (Merkliste nicht)
-ACTIVE_CATEGORIES = ["serien", "film"]
+ACTIVE_CATEGORIES = ["serien", "film", "anime"]
+
+# Letzter Fehlschlag pro Eintrag (fuer die roten Badges im Web-UI).
+# logs/ ist ein Verzeichnis-Mount und ueberlebt so Container-Neustarts.
+FAILED_PATH = Path(os.environ.get("WISHLIST_FAILED", "/app/logs/wishlist_failed.json"))
 
 MAX_CANDIDATES = 15
 MAX_STALLS = 3  # max. Anzahl 60s-Stalls bevor Kandidat abgebrochen wird
@@ -85,6 +93,106 @@ def save_wishlist(data: dict[str, list[str]], path: Path = WISHLIST_PATH) -> Non
                 lines.append(f"- {title}")
         lines.append("")
     path.write_text("\n".join(lines).rstrip() + "\n", encoding="utf-8")
+
+
+class _WishlistLock:
+    """Dateisperre, damit Web-UI (Badge hinzufuegen/loeschen) und laufender
+    Lauf (fertigen Eintrag entfernen) sich nicht gegenseitig ueberschreiben."""
+    def __init__(self, path: Path = WISHLIST_PATH):
+        self.lock_path = Path(str(path) + ".lock")
+
+    def __enter__(self):
+        self.fh = open(self.lock_path, "a")
+        fcntl.flock(self.fh, fcntl.LOCK_EX)
+        return self
+
+    def __exit__(self, *exc):
+        fcntl.flock(self.fh, fcntl.LOCK_UN)
+        self.fh.close()
+
+
+def _same(a: str, b: str) -> bool:
+    return a.strip().lower() == b.strip().lower()
+
+
+def add_item(title: str, category: str, path: Path = WISHLIST_PATH) -> bool:
+    """Fuegt einen Eintrag hinzu. False, wenn er in der Kategorie schon steht."""
+    title = title.strip()
+    if not title or category not in SECTION_ORDER:
+        return False
+    with _WishlistLock(path):
+        data = load_wishlist(path)
+        if any(_same(t, title) for t in data[category]):
+            return False
+        data[category].append(title)
+        save_wishlist(data, path)
+    clear_failed(title, category)
+    return True
+
+
+def remove_item(title: str, category: str, path: Path = WISHLIST_PATH) -> bool:
+    with _WishlistLock(path):
+        data = load_wishlist(path)
+        before = len(data.get(category, []))
+        data[category] = [t for t in data.get(category, []) if not _same(t, title)]
+        if len(data[category]) == before:
+            return False
+        save_wishlist(data, path)
+    clear_failed(title, category)
+    return True
+
+
+def move_item(title: str, src: str, dst: str, path: Path = WISHLIST_PATH) -> bool:
+    if src not in SECTION_ORDER or dst not in SECTION_ORDER or src == dst:
+        return False
+    with _WishlistLock(path):
+        data = load_wishlist(path)
+        hit = next((t for t in data[src] if _same(t, title)), None)
+        if hit is None:
+            return False
+        data[src] = [t for t in data[src] if not _same(t, title)]
+        if not any(_same(t, hit) for t in data[dst]):
+            data[dst].append(hit)
+        save_wishlist(data, path)
+    clear_failed(title, src)
+    return True
+
+
+def _failed_key(title: str, category: str) -> str:
+    return f"{category}|{title.strip().lower()}"
+
+
+def load_failed(path: Path = FAILED_PATH) -> dict:
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+
+
+def _save_failed(data: dict, path: Path = FAILED_PATH) -> None:
+    try:
+        path.parent.mkdir(parents=True, exist_ok=True)
+        tmp = path.with_suffix(".tmp")
+        tmp.write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
+        tmp.replace(path)
+    except Exception:
+        traceback.print_exc()
+
+
+def set_failed(title: str, category: str, reason: str) -> None:
+    data = load_failed()
+    data[_failed_key(title, category)] = {"reason": reason, "ts": time.time()}
+    _save_failed(data)
+
+
+def clear_failed(title: str, category: str) -> None:
+    data = load_failed()
+    if data.pop(_failed_key(title, category), None) is not None:
+        _save_failed(data)
+
+
+def failed_info(title: str, category: str, failed: dict | None = None) -> dict | None:
+    return (failed if failed is not None else load_failed()).get(_failed_key(title, category))
 
 
 def load_done(path: Path = DONE_LOG_PATH) -> set[str]:
@@ -171,42 +279,101 @@ def find_candidates(query: str, category: str, irc_callback=None, stop_event=Non
 
 
 _EPISODE_TAG_RE = re.compile(r"\bS(\d{1,2})E(\d{1,3})\b", re.IGNORECASE)
+_SEASON_TAG_RE = re.compile(r"\bS(\d{1,2})(?:E\d{1,3})?\b", re.IGNORECASE)
+_YEAR_RE = re.compile(r"^(19|20)\d\d$")
+# Ab diesen Tokens beginnt im Dateinamen der technische Teil (Sprache,
+# Aufloesung, Codec, Ton ...). Zahlen dahinter (z.B. "5.1" Ton, "1080p")
+# duerfen nicht als Teil-Nummer des Titels gelten.
+_TECH_TOKEN_RE = re.compile(
+    r"^(german|deutsch|english|ger|eng|dl|md|ld|ac3|aac\d*|dts|ddp?\d*|eac3|truehd|atmos|"
+    r"\d{3,4}p|4k|uhd|hdr|sdr|bluray|blu|ray|webrip|web|hdtv|dvdrip|bdrip|remux|"
+    r"h26[45]|x26[45]|hevc|avc|xvid|hi10p|"
+    r"proper|repack|extended|theatrical|uncut|remastered|unrated|imax|"
+    r"multi|dual|audio|dubbed|subbed|complete|"
+    r"s\d{1,2}(e\d{1,3})?|staffel|season)$",
+    re.IGNORECASE,
+)
+
+
+def _title_part(fname: str) -> list[str]:
+    """Tokens des eigentlichen Titels: alles vor Jahr, Staffel-Tag oder
+    technischen Angaben. '[ irc.x.net ] '-Praefixe (xdcc.eu) werden entfernt."""
+    name = re.sub(r"^\s*\[[^\]]*\]\s*", "", fname)
+    name = re.sub(r"\.(mkv|mp4|avi|m4v|ts|tar|zip|rar|7z)$", "", name, flags=re.IGNORECASE)
+    tokens = [t for t in re.split(r"[\s._\-()\[\]]+", name) if t]
+    out = []
+    for t in tokens:
+        if _YEAR_RE.match(t) or _TECH_TOKEN_RE.match(t):
+            break
+        out.append(t)
+    return out
+
+
+def _years(text: str) -> set[str]:
+    return {t for t in re.split(r"[\s._\-()\[\]]+", text) if _YEAR_RE.match(t)}
+
+
+def release_matches(query: str, fname: str) -> bool:
+    """Passt ein Release zur gesuchten Teil-Nummer / Jahr / Staffel / Folge?
+
+    - Teil-Nummern ("Toy Story 4") muessen im Titelteil des Dateinamens
+      stehen - Zahlen hinter Jahr/Ton/Aufloesung ("5.1", "1080p") zaehlen
+      nicht. "Teil 1" passt auch auf Releases ganz ohne Nummer
+      ("Toy.Story.1995..."), aber nie auf einen anderen Teil.
+    - Ein Jahr in der Suche muss zum Jahr im Dateinamen passen (falls es
+      eins hat).
+    - Staffel/Folge (S02, S04E05) muessen passen; zu einer gesuchten Folge
+      passt auch das Staffelpaket derselben Staffel.
+    """
+    q_tokens = [t for t in re.split(r"[\s._\-()\[\]]+", query) if t]
+    q_nums = {str(int(t)) for t in q_tokens if t.isdigit() and not _YEAR_RE.match(t)}
+    q_years = {t for t in q_tokens if _YEAR_RE.match(t)}
+
+    if q_nums:
+        f_nums = {str(int(t)) for t in _title_part(fname) if t.isdigit()}
+        if f_nums:
+            if not q_nums <= f_nums:
+                return False
+        elif q_nums != {"1"}:
+            return False
+
+    if q_years:
+        f_years = _years(fname)
+        if f_years and not (q_years & f_years):
+            return False
+
+    q_ep = _EPISODE_TAG_RE.search(query)
+    q_season = _SEASON_TAG_RE.search(query)
+    if q_season:
+        f_season = _SEASON_TAG_RE.search(fname.replace("_", "."))
+        if f_season and int(f_season.group(1)) != int(q_season.group(1)):
+            return False
+        if q_ep:
+            f_ep = _EPISODE_TAG_RE.search(fname.replace("_", "."))
+            if f_ep and int(f_ep.group(2)) != int(q_ep.group(2)):
+                return False
+            if not f_season:
+                return False  # ohne Staffelangabe nicht sicher die gesuchte Folge
+    return True
 
 
 def rank_candidates(packs: list[dict], query: str, category: str) -> list[dict]:
-    """Relevante Packs zuerst, innerhalb der Gruppen nach score_pack."""
-    # Zahlen im gesuchten Titel (z.B. "The Purge 3") muessen auch im
-    # Dateinamen vorkommen - sonst waehlt score_pack (der nur Qualitaet/
-    # Sprache/Groesse bewertet, nicht Relevanz) bei Franchise-Titeln mit
-    # mehreren Teilen leicht den falschen Teil (z.B. immer den mit dem
-    # hoechsten Qualitaets-Score, unabhaengig von der gesuchten Nummer).
-    def _matches_query_numbers(fname: str) -> bool:
-        q_nums = set(re.findall(r"\b\d+\b", query))
-        if not q_nums:
-            return True
-        f_nums = set(re.findall(r"\b\d+\b", fname.replace(".", " ").replace("_", " ")))
-        return bool(q_nums & f_nums)
-
-    # Wird eine bestimmte Folge gesucht (S04E05), darf ein hoeher bewertetes
-    # Staffelpaket sie nicht verdraengen: nur Packs mit genau dieser Folge
-    # gelten dann als relevant.
-    ep = _EPISODE_TAG_RE.search(query)
-
-    def _matches_episode(fname: str) -> bool:
-        if not ep:
-            return True
-        m = _EPISODE_TAG_RE.search(fname.replace("_", "."))
-        return bool(m) and (int(m.group(1)), int(m.group(2))) == (int(ep.group(1)), int(ep.group(2)))
-
+    """Nur passende Packs (Teil/Jahr/Staffel/Folge, siehe release_matches),
+    sortiert nach score_pack. Unpassende werden verworfen - frueher hingen
+    sie als Ausweichliste hinten dran, so kam z.B. bei "Toy Story 1" Teil 5."""
     cfg = load_score_config()
     penalties = channel_penalties(cfg)
-    relevant = [p for p in packs
-                if _matches_query_numbers(p.get("fname", "")) and _matches_episode(p.get("fname", ""))]
-    irrelevant = [p for p in packs if p not in relevant]
-    return (
-        sorted(relevant, key=lambda p: score_pack(p, category, cfg, penalties), reverse=True)
-        + sorted(irrelevant, key=lambda p: score_pack(p, category, cfg, penalties), reverse=True)
-    )
+    q_ep = _EPISODE_TAG_RE.search(query)
+
+    def key(p):
+        score = score_pack(p, category, cfg, penalties)
+        # Bei gesuchter Folge die Folge selbst vor dem Staffelpaket
+        if q_ep and _EPISODE_TAG_RE.search(p.get("fname", "").replace("_", ".")):
+            score += 1000
+        return score
+
+    relevant = [p for p in packs if release_matches(query, p.get("fname", ""))]
+    return sorted(relevant, key=key, reverse=True)
 
 
 def download_pack(pack: dict, staging: Path, expected: str, status, progress=None,
@@ -278,7 +445,9 @@ def sort_into_library(downloaded_path: Path, category: str, status=None) -> None
 
 
 def process_item(title: str, category: str, status_cb=None, progress_cb=None,
-                 irc_callback=None, stop_event=None) -> bool:
+                 irc_callback=None, stop_event=None, reason: dict | None = None) -> bool:
+    """reason (optional) bekommt unter "msg" den letzten Fehler/Hinweis -
+    wird im Web-UI am roten Badge angezeigt."""
     banned_servers: set[str] = set()
     _ban_flag = False
 
@@ -286,6 +455,8 @@ def process_item(title: str, category: str, status_cb=None, progress_cb=None,
         nonlocal _ban_flag
         if msg.startswith("Gesperrt ("):
             _ban_flag = True
+        if reason is not None and level in ("error", "warning") and msg != "fehlgeschlagen":
+            reason["msg"] = msg
         if status_cb:
             status_cb(title, msg, level)
 
@@ -422,37 +593,50 @@ def download_single(pack: dict, category: str, status_cb=None, progress_cb=None,
     return {"ok": 1, "failed": 0, "skipped": 0, "total": 1}
 
 
-def run_once(status_cb=None, progress_cb=None, irc_callback=None, stop_event=None) -> dict:
+def _next_open(attempted: set) -> tuple[str, str] | None:
+    """Naechster offener Eintrag. Die Wishlist wird jedes Mal neu gelesen,
+    damit waehrend eines Laufs hinzugefuegte Badges noch mitgenommen werden."""
     wishlist = load_wishlist()
-    done = load_done()
-
-    counts = {"ok": 0, "failed": 0, "skipped": 0, "total": 0}
-
     for category in ACTIVE_CATEGORIES:
-        if stop_event and stop_event.is_set():
-            break
         for title in wishlist.get(category, []):
-            if stop_event and stop_event.is_set():
-                break
-            if title in done:
-                counts["skipped"] += 1
-                continue
+            if (category, title) not in attempted:
+                return category, title
+    return None
 
-            counts["total"] += 1
-            try:
-                ok = process_item(title, category, status_cb, progress_cb, irc_callback,
-                                  stop_event=stop_event)
-            except Exception as e:
-                ok = False
-                if status_cb:
-                    status_cb(title, f"unerwarteter Fehler: {e}", "error")
-                traceback.print_exc()
 
-            if ok:
-                counts["ok"] += 1
-                done.add(title)
-            else:
-                counts["failed"] += 1
+def run_once(status_cb=None, progress_cb=None, irc_callback=None, stop_event=None) -> dict:
+    """Arbeitet alle Eintraege ab. Fertige werden aus der Wishlist entfernt
+    (und in downloaded.txt protokolliert), fehlgeschlagene bleiben stehen
+    und bekommen den Grund in wishlist_failed.json."""
+    counts = {"ok": 0, "failed": 0, "skipped": 0, "total": 0}
+    attempted: set[tuple[str, str]] = set()
+
+    while not (stop_event and stop_event.is_set()):
+        nxt = _next_open(attempted)
+        if not nxt:
+            break
+        category, title = nxt
+        attempted.add(nxt)
+        counts["total"] += 1
+        reason: dict = {}
+        try:
+            ok = process_item(title, category, status_cb, progress_cb, irc_callback,
+                              stop_event=stop_event, reason=reason)
+        except Exception as e:
+            ok = False
+            reason["msg"] = f"unerwarteter Fehler: {e}"
+            if status_cb:
+                status_cb(title, reason["msg"], "error")
+            traceback.print_exc()
+
+        if ok:
+            counts["ok"] += 1
+            remove_item(title, category)
+        elif stop_event and stop_event.is_set():
+            break  # abgebrochen ist kein Fehlschlag
+        else:
+            counts["failed"] += 1
+            set_failed(title, category, reason.get("msg") or "fehlgeschlagen")
 
     return counts
 

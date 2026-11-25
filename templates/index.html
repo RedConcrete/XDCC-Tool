@@ -48,24 +48,19 @@
           <span class="collapse-icon">&#9662;</span>
         </h2>
         <div class="card-body">
-          <div class="wishlist-grid">
-            <div class="field">
-              <label for="serien">Serien <span class="hint">(wird gesucht &amp; geladen)</span></label>
-              <textarea id="serien" rows="6" placeholder="Ein Titel pro Zeile"></textarea>
-            </div>
-            <div class="field">
-              <label for="film">Filme <span class="hint">(wird gesucht &amp; geladen)</span></label>
-              <textarea id="film" rows="6" placeholder="Ein Titel pro Zeile"></textarea>
-            </div>
-            <div class="field">
-              <label for="merkliste">Merkliste</label>
-              <textarea id="merkliste" rows="6" placeholder="Ein Titel pro Zeile"></textarea>
-            </div>
-          </div>
-          <div class="actions">
-            <button id="wishlist-save-btn">Speichern</button>
-            <span id="wishlist-save-status" class="status-msg"></span>
-          </div>
+          <form id="wl-add-form" class="wl-add">
+            <input id="wl-add-title" type="text" placeholder="Titel hinzufügen, z.B. Overlord S04" autocomplete="off">
+            <select id="wl-add-category">
+              <option value="film">Film</option>
+              <option value="serien">Serie</option>
+              <option value="anime">Anime</option>
+              <option value="merkliste">Merkliste</option>
+            </select>
+            <button type="submit">Hinzufügen</button>
+          </form>
+          <div id="wl-sections" class="wl-sections"></div>
+          <p class="wl-legend hint">Fertige Titel verschwinden automatisch. Rot = letzter Versuch fehlgeschlagen (antippen für den Grund), wird beim nächsten Lauf erneut versucht. Merkliste wird nicht geladen.</p>
+          <span id="wishlist-save-status" class="status-msg"></span>
         </div>
       </section>
 
@@ -106,6 +101,7 @@
           <select id="search-category">
             <option value="film">Film</option>
             <option value="serien">Serie</option>
+            <option value="anime">Anime</option>
           </select>
           <button id="search-btn" type="submit">Suchen</button>
         </form>

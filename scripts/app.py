@@ -37,6 +37,7 @@ _state = {
     "summary": None,     # Ergebnis von run_once() nach Abschluss
     "progress": None,    # {"title","received","total"} waehrend Download
     "run_log_path": None,  # Pfad zur Log-Datei des aktuellen Laufs
+    "current": None,     # Titel, der gerade bearbeitet wird (Badge "laeuft")
 }
 # Manuelle Suche. Die Packs (inkl. SASL-Daten) bleiben serverseitig,
 # die UI bekommt nur eine bereinigte Liste und waehlt per Index.
@@ -63,6 +64,8 @@ def _status_cb(title: str, msg: str, level: str = "info") -> None:
     ts = datetime.now().strftime("%H:%M:%S")
     with _lock:
         _state["log"].append({"ts": time.time(), "title": title, "msg": msg, "level": level})
+        if _state["running"]:
+            _state["current"] = title
         if level in ("success", "error") or "fertig" in msg or "fehlgeschlagen" in msg:
             _state["progress"] = None
         run_log = _state["run_log_path"]
@@ -97,6 +100,7 @@ def _run_job(job) -> None:
         _state["running"] = False
         _state["summary"] = summary
         _state["progress"] = None
+        _state["current"] = None
         run_log = _state["run_log_path"]
         _state["run_log_path"] = None
 
@@ -137,6 +141,64 @@ def post_wishlist():
         items = data.get(key, [])
         cleaned[key] = [str(t).strip() for t in items if str(t).strip()]
     cli.save_wishlist(cleaned)
+    return jsonify({"ok": True})
+
+
+@app.route("/api/wishlist/items", methods=["GET"])
+def get_wishlist_items():
+    """Badges: pro Kategorie die Eintraege mit letztem Fehlschlag."""
+    data = cli.load_wishlist()
+    failed = cli.load_failed()
+    with _lock:
+        current = _state["current"] if _state["running"] else None
+    sections = []
+    for key in cli.SECTION_ORDER:
+        sections.append({
+            "key": key,
+            "title": cli.SECTION_TITLES[key],
+            "active": key in cli.ACTIVE_CATEGORIES,
+            "items": [{"title": t, "failed": cli.failed_info(t, key, failed)}
+                      for t in data.get(key, [])],
+        })
+    return jsonify({"sections": sections, "current": current})
+
+
+def _item_args(data: dict) -> tuple[str, str]:
+    return str(data.get("title", "")).strip(), str(data.get("category", "")).strip()
+
+
+@app.route("/api/wishlist/add", methods=["POST"])
+def wishlist_add():
+    title, category = _item_args(request.get_json(force=True) or {})
+    if not title:
+        return jsonify({"ok": False, "error": "Titel fehlt"}), 400
+    if category not in cli.SECTION_ORDER:
+        return jsonify({"ok": False, "error": "unbekannte Kategorie"}), 400
+    added = cli.add_item(title, category)
+    return jsonify({"ok": True, "added": added})
+
+
+@app.route("/api/wishlist/remove", methods=["POST"])
+def wishlist_remove():
+    title, category = _item_args(request.get_json(force=True) or {})
+    with _lock:
+        if _state["running"] and _state["current"] and \
+                _state["current"].strip().lower() == title.lower():
+            return jsonify({"ok": False, "error": "Wird gerade geladen – erst stoppen"}), 409
+    return jsonify({"ok": True, "removed": cli.remove_item(title, category)})
+
+
+@app.route("/api/wishlist/move", methods=["POST"])
+def wishlist_move():
+    data = request.get_json(force=True) or {}
+    title = str(data.get("title", "")).strip()
+    src, dst = str(data.get("from", "")), str(data.get("to", ""))
+    with _lock:
+        if _state["running"] and _state["current"] and \
+                _state["current"].strip().lower() == title.lower():
+            return jsonify({"ok": False, "error": "Wird gerade geladen – erst stoppen"}), 409
+    if not cli.move_item(title, src, dst):
+        return jsonify({"ok": False, "error": "nicht verschoben"}), 400
     return jsonify({"ok": True})
 
 
@@ -524,6 +586,7 @@ def status():
             "next": len(_state["log"]),
             "summary": _state["summary"],
             "progress": _state["progress"],
+            "current": _state["current"] if _state["running"] else None,
         })
 
 

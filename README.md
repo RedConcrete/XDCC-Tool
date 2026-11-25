@@ -12,12 +12,13 @@ Ordnerstruktur — wahlweise automatisch über eine Wunschliste oder gezielt
 ## Features
 
 **Automatik (Wunschliste)**
-- Serien/Filme in die Wunschliste eintragen, „Abarbeiten“ sucht, lädt und
-  sortiert alles der Reihe nach
+- Serien/Filme/Anime als Badges in die Wunschliste eintragen, „Abarbeiten“
+  sucht, lädt und sortiert alles der Reihe nach
+- Fertige Einträge verschwinden automatisch, fehlgeschlagene bleiben rot
+  stehen (mit Grund) und werden beim nächsten Lauf erneut versucht
 - Bewertet alle Treffer (Sprache, Qualität, Staffelpaket, Gets, Zuverlässigkeit
   des Channels …) und versucht den besten zuerst, bei Fehlern den nächsten
-- Bereits geladene Titel werden übersprungen (im Menü „Geladen“ wieder
-  freigebbar)
+- Während eines Laufs hinzugefügte Einträge nimmt derselbe Lauf noch mit
 
 **Manuelle Suche**
 - Suchbegriff + Kategorie eingeben, Treffer als Tabelle mit Größe, Bot/Pack,
@@ -29,8 +30,10 @@ Ordnerstruktur — wahlweise automatisch über eine Wunschliste oder gezielt
 **Zuverlässigkeit**
 - Live-Suche über IRC-Suchbots, Fallback auf xdcc.eu
 - Eigener DCC-Client inkl. Resume bei Verbindungsabbruch
-- Titel-Abgleich verhindert Downloads falscher Dateien; wird eine bestimmte
-  Folge gesucht (`S04E05`), verdrängt kein Staffelpaket sie
+- Titel-Abgleich verhindert Downloads falscher Dateien: Teil-Nummer, Jahr,
+  Staffel und Folge müssen passen (`Toy Story 1` lädt nie Teil 5, auch wenn
+  dort „5.1“-Ton im Namen steht); unpassende Treffer werden verworfen statt
+  als Ausweichliste probiert
 - **Channel-Abzüge:** fehlgeschlagene Downloads und Bans kosten den Channel
   Punkte, die sich mit der Zeit abbauen — nicht funktionierende Channels
   rutschen automatisch nach hinten
@@ -209,18 +212,28 @@ Web-UI unter `http://<host>:5005` öffnen.
   |-------|--------|
   | Chat Log | Roher IRC-Verkehr aller Läufe und Suchen |
   | Läufe | Log-Dateien vergangener Läufe |
-  | Geladen | Erfolgreich geladene Wunschlisten-Titel; „Entfernen“ gibt einen Titel für den nächsten Lauf frei |
+  | Geladen | Verlauf der erfolgreich geladenen Wunschlisten-Titel |
   | Bewertung | Punkte-Gewichtung und Channel-Abzüge (siehe unten) |
   | Accounts | IRC-Accounts für Login-Channels (siehe unten) |
   | VPN | WireGuard-Key/Adresse/Server, `.conf`-Upload, VPN deaktivieren |
 
 ### Wunschliste
 
-Drei Spalten: **Serien** und **Filme** werden beim Abarbeiten gesucht und
-geladen, die **Merkliste** ist nur eine Notiz. „Speichern“ sichert alle drei.
+Titel eingeben, Kategorie wählen (Film / Serie / Anime / Merkliste),
+Enter — es entsteht ein Badge. **Serien**, **Filme** und **Anime** werden
+beim Abarbeiten gesucht und geladen, die **Merkliste** ist nur eine Notiz.
+
+- Grau = wartet, blau mit % = wird gerade geladen, rot ⚠ = letzter Versuch
+  fehlgeschlagen
+- Badge antippen: Fehlergrund anzeigen und in eine andere Kategorie
+  verschieben (z. B. Merkliste → Film); ✕ entfernt es
+- Fertig geladene Badges verschwinden; der Verlauf steht unter Menü → Geladen
 
 **Regeln für Einträge:**
-- Kategorie bestimmt den Zielordner (`serien/` oder `movies/`)
+- Kategorie bestimmt den Zielordner (`serien/`, `movies/` oder `anime/`;
+  Anime wird wie Serien mit Staffelordnern einsortiert)
+- Teile einer Filmreihe mit Nummer angeben (`Toy Story 2`), sonst ist der
+  Teil beliebig; `… 1` passt auch auf Releases ohne Nummer
 - Staffel als „Staffel NN“, „Season NN“ oder `SNN` angeben — wird für die
   Suche in `SNN` umgewandelt. `Overlord S04` bevorzugt das ganze
   Staffelpaket, `Overlord S04E05` genau diese Folge
@@ -237,7 +250,7 @@ derselbe Bereich zeigt auch manuelle Downloads.
 
 ### Manuelle Suche
 
-Suchbegriff und Kategorie (Film/Serie) eingeben, **Suchen** (während der
+Suchbegriff und Kategorie (Film/Serie/Anime) eingeben, **Suchen** (während der
 Suche: **Abbrechen**). Die Treffer erscheinen nach Score sortiert; der beste
 ist als „Top-Treffer“ markiert. Pro Treffer:
 
@@ -356,14 +369,14 @@ movies/
 |-------|--------|:------:|
 | `.env` | VPN-Daten, IRC-Accounts | nein |
 | `wishlist.md` | Wunschliste | nein |
-| `downloaded.txt` | Bereits geladene Titel | nein |
+| `downloaded.txt` | Verlauf geladener Titel | nein |
 | `channels.json` | Server/Channels/Suchbots | ja |
 | `score_config.json` | Abweichende Punkte (Menü → Bewertung) | ja, als `{}` |
 | `channel_stats.json` | Channel-Abzüge | ja, als `{}` |
 | `server_state.json` | Dauerhaft deaktivierte Server | ja, als `{}` |
 | `download_target.json` | Gewählte Zielplatte | ja |
 | `Chat.txt` | Mitschnitt des IRC-Verkehrs | nein |
-| `logs/` | Log-Dateien der Läufe | nein |
+| `logs/` | Log-Dateien der Läufe, `wishlist_failed.json` (Fehlergründe der roten Badges) | nein |
 
 Alle als Datei gemounteten Dateien müssen vor dem ersten Start existieren —
 fehlt eine, legt Docker stattdessen einen Ordner an (daher `touch
@@ -395,7 +408,7 @@ downloaded.txt Chat.txt` in Schritt 2).
   setzen und unter Menü → Accounts einen Nick hinterlegen oder registrieren.
 
 **Eintrag nochmal herunterladen**
-- Unter Menü → Geladen auf „Entfernen“ klicken, dann erneut „Abarbeiten“.
+- Einfach erneut als Badge hinzufügen und „Abarbeiten“.
 
 ---
 
@@ -406,7 +419,8 @@ downloaded.txt Chat.txt` in Schritt 2).
 | `WISHLIST` | `/app/wishlist.md` | Pfad zur Wunschliste |
 | `TARGETS_ROOT` | `/targets` | Wurzelverzeichnis, unter dem die Zielplatten gemountet sind |
 | `TARGET_STATE_FILE` | `/app/download_target.json` | Aktuell gewählte Zielplatte (über Web-UI änderbar) |
-| `DONE_LOG` | `/app/downloaded.txt` | Bereits geladene Titel |
+| `DONE_LOG` | `/app/downloaded.txt` | Verlauf geladener Titel |
+| `WISHLIST_FAILED` | `/app/logs/wishlist_failed.json` | Fehlergründe der roten Badges |
 | `CHAT_LOG` | `/app/Chat.txt` | Mitschnitt des IRC-Verkehrs |
 | `LOGS_DIR` | `/app/logs` | Log-Dateien der einzelnen Läufe |
 | `CHANNELS_CONFIG` | `/app/channels.json` | Channel-/Suchbot-Konfiguration |
