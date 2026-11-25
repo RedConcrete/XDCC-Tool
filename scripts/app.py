@@ -149,6 +149,7 @@ def get_wishlist_items():
     """Badges: pro Kategorie die Eintraege mit letztem Fehlschlag."""
     data = cli.load_wishlist()
     failed = cli.load_failed()
+    meta = cli.arr.load_meta() if cli.arr is not None else {}
     with _lock:
         current = _state["current"] if _state["running"] else None
     sections = []
@@ -157,10 +158,71 @@ def get_wishlist_items():
             "key": key,
             "title": cli.SECTION_TITLES[key],
             "active": key in cli.ACTIVE_CATEGORIES,
-            "items": [{"title": t, "failed": cli.failed_info(t, key, failed)}
-                      for t in data.get(key, [])],
+            "items": [_badge(t, key, failed, meta) for t in data.get(key, [])],
         })
     return jsonify({"sections": sections, "current": current})
+
+
+def _badge(title: str, key: str, failed: dict, meta: dict) -> dict:
+    m = cli.arr.get_meta(title, key, meta) if cli.arr is not None else None
+    return {
+        "title": title,
+        "failed": cli.failed_info(title, key, failed),
+        "seerr": bool(m),
+        "fallback": bool(m and m.get("fallback")),
+    }
+
+
+# ---------- Optionale Seerr-Anbindung (siehe scripts/arr.py) ----------
+
+SEERR_LOG = LOGS_DIR / "seerr.log"
+
+
+def _seerr_log(msg: str) -> None:
+    _write_to_file(SEERR_LOG, f"[{datetime.now():%Y-%m-%d %H:%M:%S}] {msg}\n")
+
+
+def _handle_seerr(payload: dict) -> None:
+    try:
+        items = cli.arr.items_from_webhook(payload)
+    except Exception as e:
+        _seerr_log(f"Fehler beim Auswerten: {e}")
+        return
+    if not items:
+        return
+    for title, category, meta in items:
+        added = cli.add_item(title, category)
+        if added:
+            cli.arr.set_meta(title, category, meta)
+        _seerr_log(f"{'Neu' if added else 'Schon vorhanden'}: {title} ({category})")
+    # Lauf starten - oder ein laufender Lauf nimmt die neuen Badges mit.
+    for _ in range(120):
+        with _lock:
+            busy_run, busy_search = _state["running"], _search["running"]
+        if busy_run:
+            return
+        if not busy_search:
+            with app.app_context():
+                _start_job(lambda: cli.run_once(_status_cb, _progress_cb, _irc_cb,
+                                                stop_event=_stop_event), "Lauf (Seerr)")
+            return
+        time.sleep(15)
+    _seerr_log("Suche lief 30 min – Lauf nicht gestartet")
+
+
+@app.route("/api/seerr/webhook", methods=["POST"])
+def seerr_webhook():
+    if cli.arr is None or not cli.arr.enabled("seerr"):
+        return jsonify({"ok": False, "error": "Seerr-Anbindung nicht konfiguriert"}), 404
+    token = cli.arr.config().get("SEERR_WEBHOOK_TOKEN")
+    if not token or request.args.get("token") != token:
+        return jsonify({"ok": False, "error": "falscher Token"}), 403
+    payload = request.get_json(force=True, silent=True) or {}
+    kind = payload.get("notification_type", "")
+    _seerr_log(f"Webhook: {kind} {payload.get('subject', '')}")
+    if kind in cli.arr.APPROVED_TYPES:
+        threading.Thread(target=_handle_seerr, args=(payload,), daemon=True).start()
+    return jsonify({"ok": True})
 
 
 def _item_args(data: dict) -> tuple[str, str]:

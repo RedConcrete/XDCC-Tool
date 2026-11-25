@@ -24,6 +24,9 @@ services:
       - DOT=off
       - BLOCK_MALICIOUS=off
       - DNS_ADDRESS=1.1.1.1
+      # Optional: LAN-Ziele, die trotz VPN erreichbar sein muessen
+      # (z.B. Seerr/Radarr/Sonarr fuer die Seerr-Anbindung), kommagetrennt.
+      - FIREWALL_OUTBOUND_SUBNETS=${FIREWALL_OUTBOUND_SUBNETS:-}
     logging:
       driver: json-file
       options:
@@ -66,6 +69,7 @@ services:
       - ./scripts/xdcc_client.py:/app/xdcc_client.py
       - ./scripts/cli.py:/app/cli.py
       - ./scripts/app.py:/app/app.py
+      - ./scripts/arr.py:/app/arr.py
       - ./templates:/app/templates
       - ./static:/app/static
       - /mnt/jellyfin/media:/targets/jellyfin

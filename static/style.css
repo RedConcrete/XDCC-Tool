@@ -1673,3 +1673,19 @@ main {
     padding-top: 0;
   }
 }
+
+.wl-badge.fallback {
+  border-color: var(--warning);
+  background: color-mix(in srgb, var(--warning) 12%, var(--bg));
+}
+.wl-tag {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 0 6px;
+  border-radius: 999px;
+  font-size: 0.68rem;
+  line-height: 1.5;
+  vertical-align: 1px;
+  background: color-mix(in srgb, var(--accent) 30%, transparent);
+  color: var(--text);
+}

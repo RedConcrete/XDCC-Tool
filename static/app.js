@@ -93,7 +93,8 @@ function renderBadge(sec, item) {
   const badge = document.createElement("span");
   badge.className = "wl-badge";
   if (!sec.active) badge.classList.add("parked");
-  if (item.failed) badge.classList.add("failed");
+  if (item.fallback) badge.classList.add("fallback");
+  else if (item.failed) badge.classList.add("failed");
   if (isCurrent) badge.classList.add("running");
 
   const main = document.createElement("button");
@@ -103,11 +104,19 @@ function renderBadge(sec, item) {
   if (isCurrent) {
     const p = wlProgress;
     text += p && p.total ? ` · ${Math.floor((p.received / p.total) * 100)}%` : " · sucht …";
+  } else if (item.fallback) {
+    text += " → Englisch";
   } else if (item.failed) {
     text += " ⚠";
   }
   main.textContent = text;
-  main.title = item.failed ? `Fehlgeschlagen: ${item.failed.reason}` : "Antippen für Optionen";
+  if (item.seerr) {
+    const tag = document.createElement("span");
+    tag.className = "wl-tag";
+    tag.textContent = "Seerr";
+    main.appendChild(tag);
+  }
+  main.title = item.failed ? `${item.fallback ? "" : "Fehlgeschlagen: "}${item.failed.reason}` : "Antippen für Optionen";
   main.addEventListener("click", () => {
     wlOpen = wlOpen === key ? null : key;
     renderWishlist();
@@ -135,7 +144,9 @@ function renderBadge(sec, item) {
     if (item.failed) {
       const r = document.createElement("div");
       r.className = "wl-pop-reason";
-      r.textContent = `Fehlgeschlagen (${formatAgeShort(item.failed.ts)}): ${item.failed.reason}`;
+      r.textContent = item.fallback
+        ? `${item.failed.reason} (${formatAgeShort(item.failed.ts)}). Badge mit ✕ entfernen, wenn erledigt.`
+        : `Fehlgeschlagen (${formatAgeShort(item.failed.ts)}): ${item.failed.reason}`;
       pop.appendChild(r);
     }
     const moves = document.createElement("div");

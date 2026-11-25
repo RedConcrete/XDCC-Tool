@@ -5,6 +5,7 @@ import argparse
 import fcntl
 import json
 import os
+import shutil
 import time
 import re
 import traceback
@@ -30,6 +31,22 @@ from downloader import (
     drop_archive_if_complete,
 )
 from xdcc_client import xdcc_download
+
+# Optionale Seerr/Radarr/Sonarr-Anbindung (scripts/arr.py). Ohne Modul oder
+# ohne Eintraege in der .env verhaelt sich das Tool wie ohne Anbindung.
+try:
+    import arr
+except Exception:  # pragma: no cover - Modul fehlt / nicht gemountet
+    arr = None
+
+
+def _meta(title: str, category: str) -> dict | None:
+    if arr is None:
+        return None
+    try:
+        return arr.get_meta(title, category)
+    except Exception:
+        return None
 
 WISHLIST_PATH = Path(os.environ.get("WISHLIST", "/app/wishlist.md"))
 DONE_LOG_PATH = Path(os.environ.get("DONE_LOG", "/app/downloaded.txt"))
@@ -139,6 +156,8 @@ def remove_item(title: str, category: str, path: Path = WISHLIST_PATH) -> bool:
             return False
         save_wishlist(data, path)
     clear_failed(title, category)
+    if arr is not None:
+        arr.pop_meta(title, category)
     return True
 
 
@@ -155,6 +174,8 @@ def move_item(title: str, src: str, dst: str, path: Path = WISHLIST_PATH) -> boo
             data[dst].append(hit)
         save_wishlist(data, path)
     clear_failed(title, src)
+    if arr is not None:
+        arr.move_meta(title, src, dst)
     return True
 
 
@@ -444,8 +465,73 @@ def sort_into_library(downloaded_path: Path, category: str, status=None) -> None
                 status(f"Archiv behalten: {reason}", "warning")
 
 
+def _open_perms(path: Path) -> None:
+    """Radarr/Sonarr laufen in einem anderen Container/User und muessen die
+    Dateien spaeter umbenennen/ersetzen koennen."""
+    try:
+        path.chmod(0o777 if path.is_dir() else 0o666)
+    except OSError:
+        pass
+
+
+def sort_into_arr(downloaded_path: Path, category: str, meta: dict, status=None) -> bool:
+    """Wie sort_into_library, aber Ziel ist der Ordner, den Radarr/Sonarr
+    fuer den Titel angelegt haben; danach liest Radarr/Sonarr neu ein.
+    False = kein passender Radarr/Sonarr-Eintrag, normal einsortieren."""
+    found = arr.find_arr_item(meta, wait=0)
+    if not found:
+        return False
+    app, item = found
+    dest_root = arr.host_to_container(item["path"])
+    if not dest_root.parent.exists():
+        if status:
+            status(f"{app}-Ordner {dest_root} nicht erreichbar – normal einsortieren", "warning")
+        return False
+
+    created = postprocess(downloaded_path, "film" if app == "radarr" else "serien")
+    dest_root.mkdir(parents=True, exist_ok=True)
+    _open_perms(dest_root)
+    expected = []
+    for item_path in created:
+        for f in video_files(item_path):
+            if app == "radarr":
+                dest = dest_root / f"{dest_root.name}{f.suffix}"
+                if dest.exists():
+                    dest = dest_root / f"{dest_root.name} - German{f.suffix}"
+            else:
+                season = f.parent.name if f.parent.name.lower().startswith("season") else \
+                    f"Season {int(meta.get('season') or 1):02d}"
+                (dest_root / season).mkdir(parents=True, exist_ok=True)
+                _open_perms(dest_root / season)
+                dest = dest_root / season / f.name
+            size = f.stat().st_size
+            shutil.move(str(f), str(dest))
+            _open_perms(dest)
+            expected.append((dest, size))
+        shutil.rmtree(item_path, ignore_errors=True)
+
+    try:
+        arr.rescan(app, item)
+    except Exception as e:
+        if status:
+            status(f"{app} neu einlesen fehlgeschlagen: {e}", "warning")
+    if status:
+        status(f"In {app}-Ordner einsortiert: {item['path']}", "info")
+
+    if is_archive(downloaded_path) and downloaded_path.exists() and not keep_archives():
+        removed, why = drop_archive_if_complete(downloaded_path, expected)
+        if status:
+            status(f"Archiv gelöscht ({why})" if removed else f"Archiv behalten: {why}",
+                   "info" if removed else "warning")
+    return True
+
+
+_GERMAN_RE = re.compile(r"(?<![a-z])(german|deutsch|ger)(?![a-z])", re.IGNORECASE)
+
+
 def process_item(title: str, category: str, status_cb=None, progress_cb=None,
-                 irc_callback=None, stop_event=None, reason: dict | None = None) -> bool:
+                 irc_callback=None, stop_event=None, reason: dict | None = None,
+                 meta: dict | None = None) -> bool:
     """reason (optional) bekommt unter "msg" den letzten Fehler/Hinweis -
     wird im Web-UI am roten Badge angezeigt."""
     banned_servers: set[str] = set()
@@ -460,24 +546,33 @@ def process_item(title: str, category: str, status_cb=None, progress_cb=None,
         if status_cb:
             status_cb(title, msg, level)
 
-    query = _search_query(title)
-    status(f"Suche: {query}" if query != title else f"Suche: {title}")
-    try:
-        candidates = find_candidates(query, category, irc_callback=irc_callback,
-                                     stop_event=stop_event)
-    except Exception as e:
-        status(f"Suche fehlgeschlagen: {e}", "error")
-        return False
-
-    if stop_event and stop_event.is_set():
-        status("Abgebrochen durch Nutzer", "warning")
-        return False
+    # Seerr-Eintraege: nur deutsche Fassungen (Englisch macht Radarr/Sonarr),
+    # bei leerem Ergebnis auch unter dem Originaltitel suchen.
+    queries = [title] + list((meta or {}).get("alt") or [])
+    candidates, used = [], title
+    for q_title in queries:
+        query = _search_query(q_title)
+        status(f"Suche: {query}" if query != q_title else f"Suche: {q_title}")
+        try:
+            candidates = find_candidates(query, category, irc_callback=irc_callback,
+                                         stop_event=stop_event)
+        except Exception as e:
+            status(f"Suche fehlgeschlagen: {e}", "error")
+            return False
+        if stop_event and stop_event.is_set():
+            status("Abgebrochen durch Nutzer", "warning")
+            return False
+        if meta:
+            candidates = [p for p in candidates if _GERMAN_RE.search(p.get("fname", ""))]
+        if candidates:
+            used = q_title
+            break
 
     if not candidates:
-        status("nichts gefunden", "warning")
+        status("keine deutsche Fassung gefunden" if meta else "nichts gefunden", "warning")
         return False
 
-    expected = _sanitize_expected(title)
+    expected = _sanitize_expected(used)
     channel_failures: dict[tuple, int] = {}
     # Ziel wird einmal pro Titel fixiert, damit ein Wechsel der Zielplatte
     # waehrend des Laufs nicht mitten in einem Download-Versuch greift.
@@ -535,7 +630,8 @@ def process_item(title: str, category: str, status_cb=None, progress_cb=None,
 
         status(f"Download fertig: {filename}", "success")
         try:
-            sort_into_library(staging / filename, category, status)
+            if not (meta and arr is not None and sort_into_arr(staging / filename, category, meta, status)):
+                sort_into_library(staging / filename, category, status)
         except Exception as e:
             status(f"Einsortieren fehlgeschlagen: {e}", "error")
             traceback.print_exc()
@@ -617,11 +713,15 @@ def run_once(status_cb=None, progress_cb=None, irc_callback=None, stop_event=Non
             break
         category, title = nxt
         attempted.add(nxt)
+        meta = _meta(title, category)
+        if meta and meta.get("fallback"):
+            counts["skipped"] += 1  # laeuft schon ueber Radarr/Sonarr
+            continue
         counts["total"] += 1
         reason: dict = {}
         try:
             ok = process_item(title, category, status_cb, progress_cb, irc_callback,
-                              stop_event=stop_event, reason=reason)
+                              stop_event=stop_event, reason=reason, meta=meta)
         except Exception as e:
             ok = False
             reason["msg"] = f"unerwarteter Fehler: {e}"
@@ -636,7 +736,20 @@ def run_once(status_cb=None, progress_cb=None, irc_callback=None, stop_event=Non
             break  # abgebrochen ist kein Fehlschlag
         else:
             counts["failed"] += 1
-            set_failed(title, category, reason.get("msg") or "fehlgeschlagen")
+            msg = reason.get("msg") or "fehlgeschlagen"
+            if meta and arr is not None:
+                try:
+                    fb = arr.fallback_search(meta)
+                except Exception as e:
+                    fb = None
+                    msg = f"{msg} (Radarr/Sonarr nicht erreichbar: {e})"
+                if fb:
+                    msg = fb
+                    meta["fallback"] = True
+                    arr.set_meta(title, category, meta)
+                    if status_cb:
+                        status_cb(title, fb, "warning")
+            set_failed(title, category, msg)
 
     return counts
 

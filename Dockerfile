@@ -11,6 +11,7 @@ COPY scripts/downloader.py /app/downloader.py
 COPY scripts/xdcc_client.py /app/xdcc_client.py
 COPY scripts/cli.py /app/cli.py
 COPY scripts/app.py /app/app.py
+COPY scripts/arr.py /app/arr.py
 COPY templates /app/templates
 COPY static /app/static
 COPY wishlist.md /app/wishlist.md

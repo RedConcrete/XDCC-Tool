@@ -343,6 +343,56 @@ Passwörter (SASL) werden dort nie mitgeschrieben.
 
 ---
 
+## Seerr-Anbindung (optional)
+
+Nur für Setups mit Seerr + Radarr/Sonarr. **Ohne die Einträge unten bleibt
+das Tool komplett eigenständig** und verhält sich wie ohne Anbindung.
+
+**Ablauf:** Wird in Seerr ein Film oder eine Staffel genehmigt, schickt
+Seerr einen Webhook. xdcc holt den deutschen Titel von Seerr, legt ein Badge
+(mit „Seerr“-Markierung) an und startet einen Lauf. Für diese Einträge
+werden nur deutsche Fassungen geladen; ist unter dem deutschen Titel nichts
+zu finden, wird auch der Originaltitel probiert.
+
+- **Gefunden:** Die Datei kommt direkt in den Ordner, den Radarr/Sonarr für
+  den Titel angelegt haben, danach lesen Radarr/Sonarr neu ein.
+- **Nicht gefunden:** xdcc stößt die normale Suche in Radarr/Sonarr an
+  (englische Fassung als Notlösung). Das Badge wird orange („→ Englisch“)
+  und wird nicht erneut probiert; mit ✕ entfernen.
+
+**Einrichtung:**
+
+1. In der `.env`:
+   ```
+   SEERR_URL=http://<seerr-host>:5055
+   SEERR_API_KEY=...            # Seerr → Einstellungen → Allgemein
+   RADARR_URL=http://<host>:7878
+   RADARR_API_KEY=...
+   SONARR_URL=http://<host>:8989
+   SONARR_API_KEY=...
+   SEERR_WEBHOOK_TOKEN=<zufälliger Text>
+   FIREWALL_OUTBOUND_SUBNETS=<IP von Seerr/Radarr/Sonarr>/32   # nur mit VPN
+   ```
+   Mit VPN sperrt gluetun Verbindungen ins LAN —
+   `FIREWALL_OUTBOUND_SUBNETS` gibt genau diese Ziele frei.
+2. Pfade: Radarr/Sonarr müssen die Platten als `/mnt/<platte>/media/...`
+   sehen, xdcc als `/targets/<platte>/...` (wie in `docker-compose.yml`).
+3. In Seerr → Einstellungen → Benachrichtigungen → **Webhook**:
+   URL `http://<xdcc-host>:5005/api/seerr/webhook?token=<SEERR_WEBHOOK_TOKEN>`,
+   Typen „Anfrage genehmigt“ + „Anfrage automatisch genehmigt“, JSON-Payload:
+   ```json
+   {"notification_type":"{{notification_type}}","subject":"{{subject}}",
+    "media_type":"{{media_type}}","tmdbId":"{{media_tmdbid}}",
+    "tvdbId":"{{media_tvdbid}}","request_id":"{{request_id}}"}
+   ```
+4. In Seerr bei Radarr und Sonarr **„Automatische Suche aktivieren“
+   ausschalten** — sonst lädt Radarr/Sonarr parallel die englische Fassung.
+5. Stack neu starten (`docker compose ... up -d`).
+
+Protokoll: `logs/seerr.log`.
+
+---
+
 ## Ordnerstruktur nach dem Download
 
 **Serien:**
@@ -421,6 +471,7 @@ downloaded.txt Chat.txt` in Schritt 2).
 | `TARGET_STATE_FILE` | `/app/download_target.json` | Aktuell gewählte Zielplatte (über Web-UI änderbar) |
 | `DONE_LOG` | `/app/downloaded.txt` | Verlauf geladener Titel |
 | `WISHLIST_FAILED` | `/app/logs/wishlist_failed.json` | Fehlergründe der roten Badges |
+| `WISHLIST_META` | `/app/logs/wishlist_meta.json` | Seerr-Zuordnung der Badges (nur mit Seerr-Anbindung) |
 | `CHAT_LOG` | `/app/Chat.txt` | Mitschnitt des IRC-Verkehrs |
 | `LOGS_DIR` | `/app/logs` | Log-Dateien der einzelnen Läufe |
 | `CHANNELS_CONFIG` | `/app/channels.json` | Channel-/Suchbot-Konfiguration |
